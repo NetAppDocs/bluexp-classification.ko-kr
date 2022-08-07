@@ -203,6 +203,8 @@ Cloud Sync UI는 Cloud Manager에서 열립니다.
 
 데이터 센스에서 스캔 중인 소스 파일을 모든 NFS 공유로 이동할 수 있습니다. NFS 공유는 데이터 센스에 통합할 필요가 없습니다(참조) link:task-scanning-file-shares.html["파일 공유를 검색하는 중입니다"])를 클릭합니다.
 
+필요한 경우 이동 파일 위치에 이동 경로 파일을 그대로 둘 수 있습니다. Breadcrumb 파일을 사용하면 파일이 원래 위치에서 이동된 이유를 쉽게 이해할 수 있습니다. 이동된 각 파일에 대해 시스템은 "<filename> -breadcrumb-<date>.txt"라는 소스 위치에 Breadcrumb 파일을 만듭니다. Breadcrumb 파일에 추가될 대화 상자에서 텍스트를 추가하여 파일이 이동된 위치와 파일을 이동한 사용자를 나타낼 수 있습니다.
+
 대상 위치에 같은 이름의 파일이 있으면 파일이 이동하지 않습니다.
 
 
@@ -222,13 +224,16 @@ image:screenshot_compliance_move_multi_files.png["데이터 조사 페이지에�
 +
 ** 개별 파일을 선택하려면 각 파일(image:button_backup_1_volume.png[""])를 클릭합니다.
 ** 현재 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭합니다.
+** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png[""]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
 
 
 . 단추 모음에서 * 이동 * 을 클릭합니다.
 +
 image:screenshot_compliance_move_files_dialog.png["파일 이동 대화 상자를 보여 주는 스크린샷으로, 선택한 모든 파일을 이동할 NFS 공유의 이름을 지정할 수 있습니다."]
 
-. Move Files_대화 상자에서 선택한 모든 파일이 "<host_name>:/<share_path>" 형식으로 이동될 NFS 공유의 이름을 입력하고 * Move Files * 를 클릭합니다.
+. Move Files_ 대화 상자에서 선택한 모든 파일이 "<host_name>:/<share_path>" 형식으로 이동될 NFS 공유의 이름을 입력합니다.
+. Breadcrumb 파일을 그대로 두려면 _Breadcrumb_상자를 선택합니다. 대화 상자에 텍스트를 입력하여 파일이 이동된 위치, 파일을 이동한 사용자 및 파일이 이동된 이유와 같은 기타 정보를 나타낼 수 있습니다.
+. 파일 이동 * 을 클릭합니다.
 
 
 파일의 메타데이터 세부 정보를 볼 때 개별 파일을 이동할 수도 있습니다. 파일 이동 * 을 클릭하기만 하면 됩니다.
