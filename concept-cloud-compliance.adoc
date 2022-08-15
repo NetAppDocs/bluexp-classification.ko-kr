@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-cloud-compliance.html 
-keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, azure netapp files, amazon fsx for ontap, fsx, cloud volumes ontap, Amazon S3, database, onedrive, sharepoint, google drive, on-prem ontap, file shares, object storage, aip labels, governance, data sense 
+keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, aip labels, governance, data sense, privacy control, classification, optimization 
 summary: Cloud Data Sense는 Cloud Manager를 위한 데이터 거버넌스 서비스로, 회사의 사내 및 클라우드 데이터 소스와 작업 환경을 검사하여 데이터를 매핑 및 분류하고 프라이빗 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다. 
 ---
 = 클라우드 데이터 센스에 대해 알아보십시오
@@ -22,27 +22,55 @@ https://cloud.netapp.com/netapp-cloud-data-sense["클라우드 데이터 센스�
 
 == 피처
 
-Cloud Data Sense는 규정 준수 작업에 도움이 되는 여러 가지 도구를 제공합니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
-
-* 개인 식별 정보(PII) 식별
-* GDPR, CCPA, PCI 및 HIPAA 개인 정보 보호 규정에서 요구하는 광범위한 중요 정보를 식별합니다
-* Data Subject Access Request(SAR)에 응답
-* 파일에 특정 PII가 포함된 경우 이메일을 통해 Cloud Manager 사용자에게 알립니다(을 사용하여 이 기준을 정의합니다 link:task-org-private-data.html#controlling-your-data-using-policies["정책"^])
-* 보고 수정합니다 link:https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection) 레이블"^] 파일을 선택합니다
-* 파일에 사용자 지정 태그(예: "이동해야 함")를 추가하고 Cloud Manager 사용자를 할당하여 사용자가 파일에 대한 업데이트를 소유할 수 있도록 합니다
-* 파일 복사, 이동, 삭제
+Cloud Data Sense는 인공 지능(AI), 자연어 처리(NLP) 및 머신 러닝(ML)을 사용하여 엔터티를 추출하고 그에 따라 콘텐츠를 범주화하기 위해 검색하는 콘텐츠를 파악합니다. 이를 통해 데이터 센스에서 다음과 같은 기능 영역을 제공할 수 있습니다.
 
 
-Cloud Data Sense는 거버넌스 작업에 도움이 되는 툴도 제공합니다. 클라우드 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
 
-* 오래된 데이터, 비업무용 데이터, 중복 파일, 열린 권한이 있는 파일 및 시스템의 대용량 파일을 식별합니다.
-+
-이 정보를 사용하여 일부 파일을 보다 저렴한 오브젝트 스토리지로 이동, 삭제 또는 계층화할 것인지 결정할 수 있습니다.
+=== 규정 준수 유지
+
+Data Sense는 규정 준수 작업에 도움이 되는 몇 가지 도구를 제공합니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
+
+* 개인 식별 정보(PII)를 식별합니다.
+* GDPR, CCPA, PCI 및 HIPAA 개인 정보 보호 규정에서 요구하는 광범위한 민감한 개인 정보를 식별합니다.
+* 이름 또는 이메일 주소를 기반으로 Data Subject Access Request(SAR)에 응답합니다.
+* 데이터베이스의 고유 식별자가 다른 저장소의 파일에 있는지 확인합니다. 기본적으로 데이터 감지 스캔에서 식별된 "개인 데이터" 목록을 만듭니다.
+* 파일에 특정 PII가 포함된 경우 이메일을 통해 Cloud Manager 사용자에게 알립니다(을 사용하여 이 기준을 정의합니다 link:task-org-private-data.html#controlling-your-data-using-policies["정책"^]) 따라서 실천 계획을 결정할 수 있습니다.
+
+
+
+
+=== 보안 강화
+
+데이터 센스(Data Sense)는 범죄 목적으로 액세스할 위험이 있는 데이터를 식별할 수 있습니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
+
+* 전체 조직 또는 공용 에 노출된 공개 권한으로 모든 파일 및 디렉터리(공유 및 폴더)를 식별합니다.
+* 초기 전용 위치 외부에 상주하는 중요한 데이터를 식별합니다.
+* 데이터 보존 정책 준수
+* 정책 _ 을(를) 사용하여 보안 직원에게 새 보안 문제를 자동으로 통지하여 즉시 조치를 취할 수 있습니다.
+* 파일에 사용자 지정 태그(예: "이동해야 함")를 추가하고 Cloud Manager 사용자를 할당하여 사용자가 파일에 대한 업데이트를 소유할 수 있도록 합니다.
+* 보고 수정합니다 link:https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection) 레이블"^] 파일을 선택합니다.
+
+
+
+
+=== 스토리지 사용을 최적화합니다
+
+Data Sense는 스토리지의 TCO(총 소유 비용)에 도움이 되는 도구를 제공합니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
+
+* 중복 또는 비업무용 데이터를 식별하여 스토리지 효율성 향상 이 정보를 사용하여 특정 파일을 이동하거나 삭제할 것인지 결정할 수 있습니다.
+* 안전하지 않거나 위험한 것으로 보이는 파일을 스토리지 시스템에 남겨 두거나 중복으로 식별한 경우 삭제합니다. Policies_를 사용하여 특정 조건에 맞는 파일을 자동으로 삭제할 수 있습니다.
+* 더 저렴한 오브젝트 스토리지에 계층화할 수 있는 비활성 데이터를 식별하여 스토리지 비용 절감 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["계층화에 대해 자세히 알아보십시오"^].
+
+
+
+
+=== 데이터 마이그레이션을 가속화
+
+데이터 센스를 사용하면 사내 데이터를 퍼블릭 또는 프라이빗 클라우드로 마이그레이션하기 전에 먼저 검색할 수 있습니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
 
 * 데이터를 이동하기 전에 데이터의 크기와 데이터에 중요한 정보가 포함되어 있는지 여부를 확인합니다.
-+
-이 기능은 데이터를 사내 위치에서 클라우드로 마이그레이션하려는 경우에 유용합니다.
-
+* 필요한 파일만 대상으로 이동할 수 있도록 소스 데이터(25가지 이상의 조건 유형 기준)를 필터링합니다. 불필요한 데이터는 이동하지 않습니다.
+* 필요한 데이터만 클라우드 저장소로 자동, 복사 또는 동기화합니다.
 
 
 

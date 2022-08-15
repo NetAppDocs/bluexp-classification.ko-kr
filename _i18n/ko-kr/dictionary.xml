@@ -37,21 +37,9 @@
   <block id="204c243905d5df7c4c3d0da1c22a5f3f" category="inline-link">클라우드 데이터 센스의 사용 사례에 대해 알아보십시오</block>
   <block id="6deb5c6e27820e725efcd4150fe731f3" category="paragraph"><block ref="980ee729f7602ada6becedc64d110fdb" category="inline-link-rx"></block>.</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
-  <block id="06a51c52ef02a569af2a9307dacc091c" category="paragraph">Cloud Data Sense는 규정 준수 작업에 도움이 되는 여러 가지 도구를 제공합니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.</block>
-  <block id="82d27ffcdb71ca4bd44b98e1e42ab5a6" category="list-text">개인 식별 정보(PII) 식별</block>
-  <block id="c5b63840c4310d7cf96b0e5da6044540" category="list-text">GDPR, CCPA, PCI 및 HIPAA 개인 정보 보호 규정에서 요구하는 광범위한 중요 정보를 식별합니다</block>
-  <block id="29b69a85db4b6122e7a36a94b50bb233" category="list-text">Data Subject Access Request(SAR)에 응답</block>
   <block id="9e476387322a5c250893cf9c5c4ce78c" category="inline-link-macro">정책</block>
-  <block id="ce6e3eb342a6b567c6f1b1fe0e3cd172" category="list-text">파일에 특정 PII가 포함된 경우 이메일을 통해 Cloud Manager 사용자에게 알립니다(을 사용하여 이 기준을 정의합니다 <block ref="0a2fc0f403ef4a50a3606f593b466bde" category="inline-link-macro-rx"></block>)</block>
   <block id="30085eb68cdb8a51af49b0a08058bacd" category="inline-link-macro">AIP(Azure Information Protection) 레이블</block>
-  <block id="797c9546d4f366091861852dfe4c83fb" category="list-text">보고 수정합니다 <block ref="d0f9730625a218e637a0d6df3df12f2b" category="inline-link-macro-rx"></block> 파일을 선택합니다</block>
-  <block id="c61ee35290295caccba51215e5d066f3" category="list-text">파일에 사용자 지정 태그(예: "이동해야 함")를 추가하고 Cloud Manager 사용자를 할당하여 사용자가 파일에 대한 업데이트를 소유할 수 있도록 합니다</block>
-  <block id="c581144b8663a130929f00041ab0d805" category="list-text">파일 복사, 이동, 삭제</block>
-  <block id="4daf20d23efab7d2dd169161e78b8602" category="paragraph">Cloud Data Sense는 거버넌스 작업에 도움이 되는 툴도 제공합니다. 클라우드 데이터 센스를 사용하여 다음을 수행할 수 있습니다.</block>
-  <block id="9322818c5eb3ebdb89d9db4eb2bbd10b" category="list-text">오래된 데이터, 비업무용 데이터, 중복 파일, 열린 권한이 있는 파일 및 시스템의 대용량 파일을 식별합니다.</block>
-  <block id="7e47a492771472738db538f441f118ce" category="paragraph">이 정보를 사용하여 일부 파일을 보다 저렴한 오브젝트 스토리지로 이동, 삭제 또는 계층화할 것인지 결정할 수 있습니다.</block>
   <block id="802346cffb7edd26cc64835acbf1e825" category="list-text">데이터를 이동하기 전에 데이터의 크기와 데이터에 중요한 정보가 포함되어 있는지 여부를 확인합니다.</block>
-  <block id="8a4d466108313af1af7ba9b0b81c1e14" category="paragraph">이 기능은 데이터를 사내 위치에서 클라우드로 마이그레이션하려는 경우에 유용합니다.</block>
   <block id="53fa8df095671f897c8cbcd13ce182b1" category="section-title">지원되는 작업 환경 및 데이터 소스</block>
   <block id="d8700a28a2c66588bb3d2a9477ebd5c5" category="paragraph">Cloud Data Sense는 다음과 같은 유형의 작업 환경 및 데이터 소스에서 데이터를 스캔할 수 있습니다.</block>
   <block id="335e4bf959c1a6bf79337e11e91e4b41" category="paragraph">* 작업 환경: *</block>
@@ -882,14 +870,11 @@
   <block id="eab720ff04548794ffc2cbbd9f06daf4" category="doc">클라우드 데이터 센스에 관한 FAQ</block>
   <block id="64a21279fa6b558777872e8b5865a2ab" category="section-title">클라우드 데이터 센스의 정의</block>
   <block id="71f9b1308ab675e9dd6df174e1a60f18" category="paragraph">Cloud Data Sense는 GDPR, CCPA, HIPAA 등과 같은 데이터 개인 정보 보호 및 민감도에 대한 새로운 데이터 규정 준수 규정을 해결하기 위해 미리 정의된 매개 변수(예: 중요한 정보 유형 및 범주)를 제공합니다.</block>
-  <block id="d6a75f271c34ca45be980272b9847d51" category="section-title">Cloud Data Sense를 사용해야 하는 이유는 무엇입니까?</block>
-  <block id="f8ae17057d50237f6762d4039f49a6e3" category="paragraph">클라우드 데이터 센스를 통해 다음과 같은 이점을 얻을 수 있습니다.</block>
   <block id="3cba68afa7ab7242fd51494aeb5d8d7b" category="list-text">데이터 규정 준수 및 개인정보 보호 규정 준수</block>
   <block id="29c9ae62d38a9d393cc687207b213fa5" category="list-text">데이터 보존 정책 준수</block>
   <block id="22e218023aca4f3c1af5339aa10fd3f1" category="list-text">GDPR, CCPA, HIPAA 및 기타 데이터 개인 정보 보호 규정에 따라 데이터 주체에 대응하여 특정 데이터를 쉽게 찾고 보고할 수 있습니다.</block>
   <block id="941d93d741b2550833570d67f7262c4c" category="section-title">Cloud Data Sense의 일반적인 사용 사례는 무엇입니까?</block>
   <block id="6858b5f69ec006bf6e2de7960deffea9" category="list-text">개인 식별 정보(PII)를 식별합니다.</block>
-  <block id="db70b17c5b8b057347bca6710f75a657" category="list-text">GDPR 및 CCPA 개인 정보 보호 규정에서 요구하는 광범위한 중요 정보를 식별합니다.</block>
   <block id="75561c13a7f1550c1d376b995ed2e83f" category="list-text">새로운 데이터 개인 정보 보호 규정 및 예정된 데이터 개인 정보 보호 규정을 준수합니다.</block>
   <block id="f352cd4e6c6b4737822722679f9fb9eb" category="inline-link">클라우드 데이터 센스의 사용 사례에 대해 자세히 알아보십시오</block>
   <block id="d824a36535436f47cdb45562372579a9" category="paragraph"><block ref="a3797b949ad4ca122a2891cd0995ed6e" category="inline-link-rx"></block>.</block>
@@ -924,9 +909,6 @@
   <block id="67ac5f32af21c3fe8a472d38846e6f3e" category="list-text">개인 데이터와 민감한 개인 데이터가 포함된 식별된 파일에 대한 세부 정보가 포함된 보고서를 사용할 수 있습니다. 범주 및 파일 유형별로 분류된 파일도 볼 수 있습니다. <block ref="d26e3d99d92944a7a05ba133462080b2" category="inline-link-macro-rx"></block>.</block>
   <block id="c50a6cbc569afa1deaa247aaeb038787" category="section-title">스캔 성능이 달라집니까?</block>
   <block id="477cc4915054f9673449fba3eb8237f7" category="inline-link-macro">클라우드 데이터 센스를 구축하는 중입니다</block>
-  <block id="2631e546efa2924027835ebc5ce3f2a0" category="paragraph">스캔 성능은 네트워크 대역폭 및 환경의 평균 파일 크기에 따라 달라질 수 있습니다. 또한 호스트 시스템의 크기 특성(클라우드 또는 온프레미스)에 따라 달라질 수 있습니다. 을 참조하십시오 <block ref="54cc658f11f9a5e47a4489ab8d81a58c" category="inline-link-macro-rx"></block> 및 <block ref="172bdded39d96cf7508fb42f154d1871" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="8c1896ebd0bea05ef3c8e18467a9ca07" category="inline-link-macro">매핑 스캔과 분류 스캔의 차이를 확인하십시오.</block>
-  <block id="fa07ec52541c98901015394277e86a73" category="paragraph">처음에 새 데이터 소스를 추가할 때 전체 "분류" 스캔이 아닌 "매핑" 스캔만 수행하도록 선택할 수도 있습니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다. <block ref="7dda8a42e8b908f8c520b46d25b02f04" category="inline-link-macro-rx"></block></block>
   <block id="5f4ceba489dc56da6edff02213d6e21c" category="section-title">지원되는 파일 유형은 무엇입니까?</block>
   <block id="a3b503a46334e3fb2ab7ae78049e483b" category="section-title">클라우드 데이터 센스를 활성화하려면 어떻게 해야 합니까?</block>
   <block id="7d782479a41a3941b57cc7c2b60d318a" category="inline-link-macro">시작하는 방법을 알아보십시오</block>
@@ -2275,7 +2257,6 @@
   <block id="c0f907bdf9a6cc93e97081efb1ad0ba0" category="section-title">내 브라우저와 데이터 감지 간에 전송되는 개인 데이터에 누가 액세스할 수 있습니까?</block>
   <block id="90ecb8f144bb75027d2645db76b9c80e" category="paragraph">아니요 브라우저와 Data Sense 인스턴스 간에 전송되는 개인 데이터는 엔드 투 엔드 암호화로 보호되며, 이는 NetApp과 타사에서 데이터를 읽을 수 없음을 의미합니다. 액세스를 요청하고 승인하지 않는 한 데이터 센스에서 NetApp과 데이터 또는 결과를 공유하지 않습니다.</block>
   <block id="9184420bd7268b81521fe2c0fb829c50" category="paragraph">예. Cloud Data Sense에서 제공하는 정보는 조직의 다른 이해 관계자와 관련이 있을 수 있으므로 보고서를 생성하여 통찰력을 공유할 수 있습니다. 데이터 센스에 사용할 수 있는 보고서는 다음과 같습니다.</block>
-  <block id="a39a4df8314a27ad3dd4677975511322" category="paragraph">먼저 Cloud Manager에 Cloud Data Sense의 인스턴스를 배포해야 합니다. 인스턴스가 실행되면 * Data Sense * 탭에서 또는 특정 작업 환경을 선택하여 기존 작업 환경, 데이터베이스 및 기타 데이터 원본에 대한 서비스를 활성화할 수 있습니다.</block>
   <block id="d998d7b40ffedd2d0b6c4e2cd0e738fb" category="admonition">데이터 소스에서 클라우드 데이터 센스를 활성화하면 즉시 초기 스캔이 됩니다. 스캔 결과는 잠시 후에 표시됩니다.</block>
   <block id="1e99ed6a00e6ef3956359cd96c54b66c" category="section-title">소스 시스템 및 데이터 유형의 유형입니다</block>
   <block id="9648ab08d5b3fccc9c9ca3160e445cda" category="paragraph">다음 질문은 스캔할 수 있는 스토리지 유형 및 스캔할 데이터 유형과 관련되어 있습니다.</block>
@@ -2292,7 +2273,6 @@
   <block id="f115a278ea0212572398753377dc2287" category="paragraph">Data Sense는 메타데이터만 검색합니다. 이 기능은 전체 데이터 관리 및 거버넌스, 빠른 프로젝트 범위 지정, 대규모 부동산 및 우선순위 지정에 유용합니다. 데이터 매핑은 메타데이터를 기반으로 하며 * 빠른 * 스캔으로 간주됩니다.</block>
   <block id="00fb8639b6c2826bd3fceaa0d36399d8" category="paragraph">고속 스캔 후 데이터 매핑 보고서를 생성할 수 있습니다. 이 보고서는 리소스 활용도, 마이그레이션, 백업, 보안 및 규정 준수 프로세스에 대한 의사 결정을 돕기 위해 기업 데이터 소스에 저장된 데이터에 대한 개요입니다.</block>
   <block id="201f7350fba7bb40edd7973d2df21f7d" category="list-text">데이터 분류(딥) 스캔.</block>
-  <block id="c9e62ad150311eaae555d82e1b8e2076" category="paragraph">데이터 센스(Data Sense)는 고객 환경 전체에서 표준 프로토콜과 읽기 전용 권한을 사용하여 스캔합니다. Select 파일은 랜섬웨어 관련 중요 비즈니스 관련 데이터, 개인 정보 및 문제를 대상으로 열렸다 스캔됩니다.</block>
   <block id="e6955249e6953613536ae08a88475a81" category="paragraph">전체 스캔 후에는 데이터 조사 페이지의 데이터 보기 및 구체화, 파일 내 이름 검색, 원본 파일 복사, 이동 및 삭제 등과 같이 데이터에 적용할 수 있는 여러 가지 추가 데이터 감지 기능이 있습니다.</block>
   <block id="1a068d00fba0764fe495dfcb9428ba33" category="section-title">추가 수익 실적을</block>
   <block id="efd4a405d0fc94dd44dd46314145b533" category="paragraph">다음 질문은 Cloud Data Sense를 사용하기 위한 라이센싱 및 비용과 관련된 것입니다.</block>
@@ -2313,12 +2293,10 @@
   <block id="45c9d2d43a741ab63e518aa05e11fa70" category="paragraph">예. 가능합니다<block ref="cc74d10e9becb23436e4fcec6c3105c6" category="inline-link-rx"></block> 네트워크 또는 클라우드의 Linux 호스트 온-프레미스에 데이터 센스를 배포하려는 경우 Connector를 온-프레미스에도 설치할 수 있지만 필요하지 않습니다.</block>
   <block id="729ba1cfab33ecb7cda6d642c21b247d" category="section-title">인터넷에 연결되지 않은 보안 사이트는 어떻게 됩니까?</block>
   <block id="7521d190d3b7edc316bb592221196fcf" category="inline-link">인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 배포합니다</block>
-  <block id="7b0dda74db6ec7e3e5eb3ca096c115c2" category="paragraph">예, 지원합니다. 가능합니다<block ref="4fae73c4748f58a56669baba6ceab594" category="inline-link-rx"></block>. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 데이터 센스를 사용하여 데이터를 검색할 수 있습니다.</block>
   <block id="20ddf180d77766369cf9eb26a7165489" category="section-title">데이터 감지 구축</block>
   <block id="5bab44a31f81eef054e5895c9d068607" category="paragraph">다음 질문은 별도의 데이터 감지 인스턴스와 관련이 있습니다.</block>
   <block id="794e12ef176fc9da8e4f9c105c9930df" category="section-title">자체 호스트에 데이터 센스를 구축할 수 있습니까?</block>
   <block id="3e9b0b67019f2d0b48a4828209573441" category="paragraph">예. 네트워크 또는 클라우드에서 인터넷에 액세스할 수 있는 Linux 호스트에 Data Sense 소프트웨어를 설치할 수 있습니다. 모든 기능이 동일하게 작동하며 Cloud Manager를 통해 스캔 구성과 결과를 지속적으로 관리할 수 있습니다. 을 참조하십시오 <block ref="a7e82d64861a5e64770734ee02976112" category="inline-link-macro-rx"></block> 시스템 요구 사항 및 설치 세부 정보를 확인하십시오.</block>
-  <block id="64f5cbf64bda7d75632e3c56632689f8" category="paragraph">예, 지원합니다. 가능합니다 <block ref="8567cf2a27ba4e05e4d07919092c29e8" category="inline-link-macro-rx"></block> 완전히 안전한 사이트를 위한 것입니다.</block>
   <block id="24ef8c726486795460d31edd12ab8ed9" category="paragraph">기본적으로 Cloud Data Sense 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 보려면 <block ref="68584290e1051ffc6ccba308e6db06b0" category="inline-xref-macro-rx"></block>.</block>
   <block id="b783177554ae1d03f46ea830d39a7822" category="section-title">데이터 조사 보고서</block>
   <block id="f6ba29512f0eaabde0c49365c8ab9bd2" category="inline-link-macro">데이터 조사 페이지에 대해 자세히 알아보십시오</block>
@@ -2639,24 +2617,52 @@
   <block id="046e94b126bcddc4303664d7f72819a5" category="inline-link">이 정보를 보는 방법을 참조하십시오</block>
   <block id="7e79533726de53720d91f0e491df7b7f" category="paragraph">Data Sense가 스캔(볼륨, 버킷 등)하는 개별 리포지토리를 볼 때 "매핑" 수와 "분류" 수를 확인할 수 있습니다. 모든 데이터에 대해 전체 AI ID가 수행되므로 분류에 시간이 더 오래 걸립니다.<block ref="0871135af547cfbd7267d7772f52c15b" category="inline-link-rx"></block>.</block>
   <block id="6bd775ee8beb1e5f4357351f2c9f1cb9" category="section-title">클라우드 데이터 센스의 아키텍처는 어떻습니까?</block>
-  <block id="22f5473ccc0fe2ca21d83a977c643189" category="paragraph">Cloud Data Sense는 클라우드 또는 온프레미스 등 사용자가 선택하는 모든 곳에 단일 서버 또는 클러스터를 배포합니다. 서버는 표준 프로토콜을 통해 데이터 소스에 연결하고 동일한 서버에 배포되는 Elasticsearch 클러스터에서 결과를 인덱싱합니다. 이를 통해 멀티 클라우드, 교차 클라우드, 프라이빗 클라우드 및 온프레미스 환경을 지원할 수 있습니다.</block>
   <block id="4d07f115b06861679eb4ddd208912bc0" category="section-title">Cloud Data Sense에는 REST API가 있으며 타사 툴과 연동됩니까?</block>
   <block id="08f6917d656313f303c462e694349fad" category="paragraph">Cloud Manager는 서비스에 REST API 기능을 지원합니다. Cloud Manager가 선호되는 관리 지점이 아니라면, REST API를 통해 Cloud Data Sense와 같은 서비스를 사용할 수도 있습니다. 모든 사용자 동작에는 타사 시스템과 통합할 수 있는 REST API가 있습니다.</block>
   <block id="af8ec8dd6f763f0113145ba362c3524c" category="section-title">마켓플레이스를 통해 클라우드 데이터 센스를 사용할 수 있습니까?</block>
-  <block id="298a5adbd264d29cc2ae375eb03bb4b8" category="paragraph">Cloud Manager에는 모든 주요 하이퍼 스케일러(AWS의 NetApp ONTAP용 AWS FSx, Azure의 Azure NetApp Files, Google 클라우드의 Cloud Volumes Service)에서 타사 서비스로 사용할 수 있는 구현이 있습니다. 이러한 모든 구현은 Cloud Data Sense와 같은 Cloud Manager 서비스를 활용하며 단일 창 방식의 UI, Cloud Manager를 통해 포인트 앤 클릭 방식으로 기능을 사용하여 관리할 수 있습니다. Cloud Data Sense와 같은 서비스는 주요 하이퍼스케일러의 1차 제공 서비스 중 하나를 사용하는 공인 Cloud Manager 사용자가 원활하게 활성화할 수 있습니다. 또한 서비스는 모든 마켓플레이스에서 이용할 수 있으며 하이퍼스케일러와 함께 인증된 공동 판매 오퍼링입니다. 즉, 하이퍼스케일러 판매 팀은 이러한 서비스가 어카운트에서 활성화된 경우 보상을 받을 수 있습니다. 이러한 모든 요소는 Cloud Manager 서비스를 전체 에코시스템에 전파하고 우리의 범위를 확장합니다.</block>
-  <block id="bc41d4c1da3b7cbf27dde44eccf58ae0" category="paragraph">NetApp 클라우드 데이터 감지, 클라우드 백업, 클라우드 계층화, Cloud Sync, 글로벌 파일 캐시, 있습니다. 사용자는 모든 마켓플레이스에서 클라우드 포트폴리오를 보완하고 완료하는 서비스를 손쉽게 거래 및 배포할 수 있습니다.</block>
   <block id="a91599b8b9c2521748fc37816cb91748" category="section-title">클라우드 데이터 감지 스캔 및 분석</block>
   <block id="dbbe3cdd356f7995b0954547b7f8a6a6" category="paragraph">다음 질문은 클라우드 데이터 감지 스캔 성능 및 사용자가 사용할 수 있는 분석과 관련이 있습니다.</block>
-  <block id="5e91cc59958451bd9fd5c42d09fcff38" category="section-title">Cloud Data Sense를 사용하여 데이터를 검색할 수 있습니까?</block>
-  <block id="11dffc624b27cac7baae53814f8508fb" category="paragraph">Cloud Data Sense 서비스는 연결된 모든 소스에서 특정 파일 또는 데이터 조각을 쉽게 검색할 수 있는 광범위한 검색 기능을 제공합니다. Cloud Data Sense를 사용하면 메타데이터의 반사보다 더 깊이 있는 검색을 수행할 수 있습니다. 또한 파일을 읽고 이름 및 ID와 같은 여러 가지 중요한 데이터 형식을 분석할 수 있는 언어 독립적인 서비스입니다. 예를 들어, 사용자는 정형 데이터 저장소와 비정형 데이터 저장소 모두를 검색하여 데이터베이스에서 사용자 파일로 유출되었을 수 있는 데이터를 찾을 수 있습니다. 이는 기업 정책에 위배됩니다. 검색을 나중에 저장할 수 있으며, 설정된 빈도로 검색 및 결과에 대한 조치를 취하기 위해 정책을 생성할 수 있습니다.</block>
-  <block id="92979877e63ad07334e79a27044c0f2e" category="paragraph">관심 파일이 발견되면 태그, 작업 환경 계정, 버킷, 파일 경로, 범주(분류 기준), 파일 크기, 마지막 수정, 권한 상태, 중복, 감도 수준, 개인 데이터, 파일 내 중요 데이터 유형, 소유자, 파일 유형, 파일 크기, 생성 시간, 파일 해시, 해당 데이터가 관심을 원하는 사람에게 할당되었는지 여부 등 필터는 관련이 없는 특성을 선별하는 데 적용할 수 있습니다. Cloud Data Sense에는 올바른 사용 권한이 있는 경우 파일을 이동하거나 삭제할 수 있도록 하는 RBAC 컨트롤도 있습니다. 올바른 사용 권한이 없으면 조직에 있는 사용자에게 적절한 사용 권한이 있는 작업을 할당할 수 있습니다.</block>
   <block id="a620bbcc75be31bcbeacaf64aa44f0d9" category="section-title">Cloud Data Sense는 어떤 종류의 분석을 제공합니까?</block>
-  <block id="cdaf867a4c5ffa14e476eb7e7bb0831c" category="paragraph">데이터 소스는 시각적으로 표현될 수 있으며 관계를 그래픽으로 정의하고 표현할 수 있습니다. 예를 들어, 관리자는 온프레미스 시스템, 데이터베이스, 클라우드 파일 공유, S3 저장소, OneDrive, 등). 그런 다음 데이터를 이동, 삭제, 관리하여 스토리지 비용을 최적화하고 위험을 줄일 수 있습니다. 사용자는 중요한 데이터가 노출될 수 있는 것을 보고 위험을 줄일 수 있으며 강력한 데이터 보호를 위한 사용 권한을 관리하는 작업을 만들 수 있습니다. 또한 Cloud Data Sense 서비스는 다양한 유형의 모든 데이터를 분류하므로 관리자가 유형별로 데이터를 조사하여 데이터에 대해 어떤 작업이 수행되었는지, 그리고 언제 수행되었는지 확인할 수 있습니다.</block>
   <block id="2ff213cf58060ebbba92ce3d8cb5f2fe" category="section-title">클라우드 데이터 감지 관리 및 개인 정보 보호</block>
   <block id="98cbc012ffb904cb276a1e79d6cda97a" category="paragraph">다음 질문은 클라우드 데이터 센스 및 개인 정보 보호 설정을 관리하는 방법에 대한 정보를 제공합니다.</block>
   <block id="b1f65700494451606ff0a8c99ec0733d" category="paragraph">또한 특정 사용자가 Data Sense 설정을 관리할 수 있는 기능 없이 Data Sense 스캔 결과만 볼 수 있도록 하려면 해당 사용자에게 Cloud Compliance Viewer 역할을 할당할 수 있습니다.</block>
   <block id="429cc98b9dab48feedbd99a04157659f" category="paragraph">Cloud Data Sense는 Cloud Manager Canvas에 추가한 작업 환경과 Data Sense가 네트워크를 통해 액세스할 수 있는 다양한 유형의 정형 및 비정형 데이터 소스에서 데이터를 검색할 수 있습니다.</block>
-  <block id="cf99941ff561faca0c0212ca46e7a3fc" category="paragraph">Cloud Manager를 사용하면 온프레미스, 클라우드 및 하이브리드 환경을 비롯한 거의 모든 곳에서 시스템을 검색하고 보고할 수 있습니다. Cloud Data Sense는 일반적으로 SaaS 모델을 사용하여 구축되며, SaaS 모델에서는 Cloud Manager 인터페이스를 통해 서비스를 사용할 수 있으며 하드웨어나 소프트웨어를 설치할 필요가 없습니다. 이 클릭-앤-런 구축 모드에서도 동기화, 계층화, 백업 및 복원을 포함한 데이터 관리가 보안, 거버넌스, 규정 준수는 데이터 저장소가 온프레미스 또는 퍼블릭 클라우드에 있는지 여부와 관계없이 수행할 수 있습니다.</block>
-  <block id="3a4d237826f192247ddd80ff000856e8" category="paragraph">안전한 설치의 경우 Cloud Manager 및 Cloud Data Sense를 "다크 사이트" 모델에 배포할 수 있습니다. 이 모델은 온프레미스에 패키지로 설치되며 외부 네트워크 연결이 필요하지 않습니다.</block>
-  <block id="6ba16caafcf4be6931257967930a3921" category="paragraph">구축 방법(사내 또는 SaaS 제공 클라우드 모델)에 관계없이 사용자는 설치 구성을 완벽하게 제어할 수 있습니다. NetApp에 전송되는 정보가 없고, 전체 처리가 서버에 캡슐화됩니다.</block>
+  <block id="204587d47b4c54d160f439fadfe18fc5" category="paragraph">Cloud Data Sense는 클라우드 또는 온프레미스 등 어느 곳에서든 단일 서버 또는 클러스터를 배포합니다. 서버는 표준 프로토콜을 통해 데이터 소스에 연결하고 동일한 서버에 배포되는 Elasticsearch 클러스터에서 결과를 인덱싱합니다. 따라서 멀티 클라우드, 교차 클라우드, 프라이빗 클라우드 및 온프레미스 환경을 지원할 수 있습니다.</block>
+  <block id="9c158aa39e93da1129bb153a9fda2f3f" category="paragraph">예. Cloud Manager 및 Cloud Data Sense는 AWS, Azure 및 GCP 마켓플레이스에서 이용할 수 있습니다.</block>
+  <block id="adccc4d2cca8d8234f516afeec155d17" category="section-title">Cloud Data Sense를 사용하여 데이터를 검색할 수 있습니까?</block>
+  <block id="c5a4c30302bcf6c00f47a3aa96512f69" category="paragraph">Cloud Data Sense는 연결된 모든 소스에서 특정 파일 또는 데이터 조각을 쉽게 검색할 수 있는 광범위한 검색 기능을 제공합니다. Data Sense를 사용하면 메타데이터의 반사보다 더 깊이 있는 검색을 수행할 수 있습니다. 또한 파일을 읽고 이름 및 ID와 같은 여러 가지 중요한 데이터 형식을 분석할 수 있는 언어 독립적인 서비스입니다. 예를 들어, 사용자는 정형 데이터 저장소와 비정형 데이터 저장소 모두를 검색하여 데이터베이스에서 사용자 파일로 유출되었을 수 있는 데이터를 찾을 수 있습니다. 이는 기업 정책에 위배됩니다. 검색을 나중에 저장할 수 있으며, 설정된 빈도로 검색 및 결과에 대한 조치를 취하기 위해 정책을 생성할 수 있습니다.</block>
+  <block id="079d7156babd96f6ffb88d74b81e0293" category="paragraph">관심 파일이 발견되면 태그, 작업 환경 계정, 버킷, 파일 경로, 범주(분류 기준), 파일 크기, 마지막 수정, 권한 상태, 중복, 감도 수준, 개인 데이터, 파일 내 중요 데이터 유형, 소유자, 파일 유형, 파일 크기, 생성 시간, 파일 해시, 해당 데이터가 관심을 원하는 사람에게 할당되었는지 여부 등 필터는 관련이 없는 특성을 선별하는 데 적용할 수 있습니다. 또한 오른쪽 사용 권한이 있는 경우 데이터 센스에 있는 RBAC 컨트롤을 사용하여 파일을 이동 또는 삭제할 수 있습니다. 올바른 사용 권한이 없으면 조직에 있는 사용자에게 적절한 사용 권한이 있는 작업을 할당할 수 있습니다.</block>
+  <block id="3a88ff6fa01735721c31c271559e1eba" category="paragraph">데이터 소스는 시각적으로 표현될 수 있으며 관계를 그래픽으로 정의하고 표현할 수 있습니다. 예를 들어, 관리자는 온프레미스 시스템, 데이터베이스, 파일 공유, S3 저장소, OneDrive, 등). 그런 다음 데이터를 복사, 이동, 삭제, 관리하여 스토리지 비용을 최적화하고 위험을 줄일 수 있습니다. 사용자는 중요한 데이터가 노출될 수 있는 것을 보고 위험을 줄일 수 있으며 강력한 데이터 보호를 위한 사용 권한을 관리하는 작업을 만들 수 있습니다. 또한 Data Sense는 모든 다양한 유형의 데이터를 분류하므로 관리자가 유형별로 데이터를 조사하여 데이터에 대해 어떤 작업이 수행되었는지, 그리고 언제 수행되었는지 확인할 수 있습니다.</block>
+  <block id="38f627c4b21375a40c92925baf7924e3" category="paragraph">스캔 성능은 네트워크 대역폭 및 환경의 평균 파일 크기에 따라 달라질 수 있습니다. 또한 호스트 시스템의 크기 특성(클라우드 또는 온프레미스)에 따라 달라질 수 있습니다. 을 참조하십시오 <block ref="ba79215ce103197616664775b93ba86f" category="inline-link-macro-rx"></block> 및 <block ref="1cff0a801d1de3ceb2e474846f005821" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="992e3ca84c2944a0dbcaf7e99231a50e" category="inline-link-macro">매핑 스캔과 분류 스캔의 차이를 확인하십시오</block>
+  <block id="def0998b91888f6c8913daf5857514fe" category="paragraph">처음에 새 데이터 소스를 추가할 때 전체 "분류" 스캔이 아닌 "매핑" 스캔만 수행하도록 선택할 수도 있습니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다. <block ref="51b8d4ed20a0bce6d8202eb3e674faa5" category="inline-link-macro-rx"></block>.</block>
+  <block id="5eae291eed2e16546f5fc58b2458fe67" category="paragraph">먼저 Cloud Manager나 사내 시스템에 Cloud Data Sense의 인스턴스를 배포해야 합니다. 인스턴스가 실행되면 * Data Sense * 탭에서 또는 특정 작업 환경을 선택하여 기존 작업 환경, 데이터베이스 및 기타 데이터 원본에 대한 서비스를 활성화할 수 있습니다.</block>
+  <block id="30cedf267127066ad1ae6900fcd4efd6" category="paragraph">데이터 센스(Data Sense)는 사용자 환경 전체에서 표준 프로토콜과 읽기 전용 권한을 사용하여 스캔합니다. Select 파일은 랜섬웨어 관련 중요 비즈니스 관련 데이터, 개인 정보 및 문제를 대상으로 열렸다 스캔됩니다.</block>
+  <block id="726caa59a84bb2953cc18c8dfd2aa4ea" category="paragraph">예, 지원합니다. 가능합니다<block ref="4fae73c4748f58a56669baba6ceab594" category="inline-link-rx"></block>. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 데이터 센스를 사용하여 데이터를 검색할 수 있습니다.</block>
+  <block id="702d88f8e519980a560ae9f3170df5f5" category="paragraph">Cloud Manager를 사용하면 온프레미스, 클라우드 및 하이브리드 환경을 비롯한 거의 모든 곳에서 시스템을 검색하고 보고할 수 있습니다. Cloud Data Sense는 일반적으로 SaaS 모델을 사용하여 구축되며, SaaS 모델에서는 Cloud Manager 인터페이스를 통해 서비스를 사용할 수 있으며 하드웨어나 소프트웨어를 설치할 필요가 없습니다. 이처럼 클릭-앤-런 구축 모드에서도 데이터 저장소가 온프레미스에 있든 퍼블릭 클라우드에 있든 상관없이 데이터 관리를 수행할 수 있습니다.</block>
+  <block id="6d221b0532f183c43399fe3cf826487d" category="paragraph">예, 지원합니다. 가능합니다 <block ref="8567cf2a27ba4e05e4d07919092c29e8" category="inline-link-macro-rx"></block> 완전히 안전한 사이트를 위한 것입니다.</block>
+  <block id="861f912bdc60a9b71f6f643f31234fb5" category="paragraph">Cloud Data Sense는 인공 지능(AI), 자연어 처리(NLP) 및 머신 러닝(ML)을 사용하여 엔터티를 추출하고 그에 따라 콘텐츠를 범주화하기 위해 검색하는 콘텐츠를 파악합니다. 이를 통해 데이터 센스에서 다음과 같은 기능 영역을 제공할 수 있습니다.</block>
+  <block id="5e27c5cc9f66f543d963585b42d1709d" category="section-title">규정 준수 유지</block>
+  <block id="9d759fbb4cbb51dc4cf6d20ce4d7d9a9" category="paragraph">Data Sense는 규정 준수 작업에 도움이 되는 몇 가지 도구를 제공합니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.</block>
+  <block id="3a1ce1b3df0ddd54818235c5f83820d9" category="list-text">GDPR, CCPA, PCI 및 HIPAA 개인 정보 보호 규정에서 요구하는 광범위한 민감한 개인 정보를 식별합니다.</block>
+  <block id="aa1b21b925a987e64de4f7ff816313c0" category="list-text">이름 또는 이메일 주소를 기반으로 Data Subject Access Request(SAR)에 응답합니다.</block>
+  <block id="b0eb7209de1c7007992716e29fe58da5" category="list-text">데이터베이스의 고유 식별자가 다른 저장소의 파일에 있는지 확인합니다. 기본적으로 데이터 감지 스캔에서 식별된 "개인 데이터" 목록을 만듭니다.</block>
+  <block id="a328deb96ac07e550c18f0a9152bcebb" category="list-text">파일에 특정 PII가 포함된 경우 이메일을 통해 Cloud Manager 사용자에게 알립니다(을 사용하여 이 기준을 정의합니다 <block ref="0a2fc0f403ef4a50a3606f593b466bde" category="inline-link-macro-rx"></block>) 따라서 실천 계획을 결정할 수 있습니다.</block>
+  <block id="947194b810ea64bcea87e2425aed8a89" category="section-title">보안 강화</block>
+  <block id="d3359a9aa3e07091cc3b695ce623afb6" category="paragraph">데이터 센스(Data Sense)는 범죄 목적으로 액세스할 위험이 있는 데이터를 식별할 수 있습니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.</block>
+  <block id="7aa9c47f42013735e3c5573eb7004a9d" category="list-text">전체 조직 또는 공용 에 노출된 공개 권한으로 모든 파일 및 디렉터리(공유 및 폴더)를 식별합니다.</block>
+  <block id="5e27afd1e1e5a71e7aff888767d3214a" category="list-text">초기 전용 위치 외부에 상주하는 중요한 데이터를 식별합니다.</block>
+  <block id="2f548b9a1e6e69aa1914a6a893db7f50" category="list-text">정책 _ 을(를) 사용하여 보안 직원에게 새 보안 문제를 자동으로 통지하여 즉시 조치를 취할 수 있습니다.</block>
+  <block id="30259a2551381a28757271a99c3bf856" category="list-text">파일에 사용자 지정 태그(예: "이동해야 함")를 추가하고 Cloud Manager 사용자를 할당하여 사용자가 파일에 대한 업데이트를 소유할 수 있도록 합니다.</block>
+  <block id="1d6cf8f9413aa74ccb67dc25a0cd30f6" category="list-text">보고 수정합니다 <block ref="d0f9730625a218e637a0d6df3df12f2b" category="inline-link-macro-rx"></block> 파일을 선택합니다.</block>
+  <block id="c5f92f73b9ea92063c2fc24f82a835d2" category="section-title">스토리지 사용을 최적화합니다</block>
+  <block id="5df73f30ee77990aa89c16d3484cbec4" category="paragraph">Data Sense는 스토리지의 TCO(총 소유 비용)에 도움이 되는 도구를 제공합니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.</block>
+  <block id="17e4f6fc55d9d61a5481011f4bc71a46" category="list-text">중복 또는 비업무용 데이터를 식별하여 스토리지 효율성 향상 이 정보를 사용하여 특정 파일을 이동하거나 삭제할 것인지 결정할 수 있습니다.</block>
+  <block id="1dd59d53f98a1d164f58cb70191c512b" category="list-text">안전하지 않거나 위험한 것으로 보이는 파일을 스토리지 시스템에 남겨 두거나 중복으로 식별한 경우 삭제합니다. Policies_를 사용하여 특정 조건에 맞는 파일을 자동으로 삭제할 수 있습니다.</block>
+  <block id="4adf15614982e126334e7fcb5609beb6" category="inline-link">계층화에 대해 자세히 알아보십시오</block>
+  <block id="2ec592d707b81ee084ad77b364a2f19b" category="list-text">더 저렴한 오브젝트 스토리지에 계층화할 수 있는 비활성 데이터를 식별하여 스토리지 비용 절감<block ref="1c87834aa441e9ddec7d154f9ed3550f" category="inline-link-rx"></block>.</block>
+  <block id="0539321f76da9af4cf373049cff32281" category="section-title">데이터 마이그레이션을 가속화</block>
+  <block id="031851f09928a9ba770d9a60621692bb" category="paragraph">데이터 센스를 사용하면 사내 데이터를 퍼블릭 또는 프라이빗 클라우드로 마이그레이션하기 전에 먼저 검색할 수 있습니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.</block>
+  <block id="3b53e0b18b32eb9915a9cbf82593a1a1" category="list-text">필요한 파일만 대상으로 이동할 수 있도록 소스 데이터(25가지 이상의 조건 유형 기준)를 필터링합니다. 불필요한 데이터는 이동하지 않습니다.</block>
+  <block id="eb1c9efb95b9cc5e1cf4c8f6b05d88a1" category="list-text">필요한 데이터만 클라우드 저장소로 자동, 복사 또는 동기화합니다.</block>
 </blocks>
