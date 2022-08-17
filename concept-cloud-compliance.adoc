@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-cloud-compliance.html 
 keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, aip labels, governance, data sense, privacy control, classification, optimization 
-summary: Cloud Data Sense는 Cloud Manager를 위한 데이터 거버넌스 서비스로, 회사의 사내 및 클라우드 데이터 소스와 작업 환경을 검사하여 데이터를 매핑 및 분류하고 프라이빗 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다. 
+summary: Cloud Data Sense는 Cloud Manager를 위한 데이터 거버넌스 서비스로, 회사의 사내 및 클라우드 데이터 소스를 스캔하여 데이터를 매핑 및 분류하고, 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다. 
 ---
 = 클라우드 데이터 센스에 대해 알아보십시오
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Data Sense는 Cloud Manager를 위한 데이터 거버넌스 서�
 
 
 [role="lead"]
-Cloud Data Sense는 Cloud Manager를 위한 데이터 거버넌스 서비스로, 회사의 사내 및 클라우드 데이터 소스와 작업 환경을 검사하여 데이터를 매핑 및 분류하고 프라이빗 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.
+Cloud Data Sense는 Cloud Manager를 위한 데이터 거버넌스 서비스로, 회사의 사내 및 클라우드 데이터 소스를 스캔하여 데이터를 매핑 및 분류하고, 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.
 
 https://cloud.netapp.com/netapp-cloud-data-sense["클라우드 데이터 센스의 사용 사례에 대해 알아보십시오"^].
 
@@ -75,27 +75,47 @@ Data Sense는 스토리지의 TCO(총 소유 비용)에 도움이 되는 도구�
 
 
 
-== 지원되는 작업 환경 및 데이터 소스
+== 지원되는 데이터 소스
 
-Cloud Data Sense는 다음과 같은 유형의 작업 환경 및 데이터 소스에서 데이터를 스캔할 수 있습니다.
+Cloud Data Sense는 다음과 같은 유형의 데이터 소스에서 정형 데이터와 비정형 데이터를 스캔 및 분석할 수 있습니다.
 
-* 작업 환경: *
+* NetApp: *
 
 * Cloud Volumes ONTAP(AWS, Azure 또는 GCP에 구축)
 * 온프레미스 ONTAP 클러스터
+* StorageGRID
 * Azure NetApp Files
 * ONTAP용 Amazon FSx
+* Google Cloud용 Cloud Volumes Service
+
+
+* 비 NetApp: *
+
+* Dell EMC Isilon
+* Pure Storage 비교
+* 말씀해 주십시오
+* 기타 스토리지 공급업체
+
+
+* 클라우드: *
+
 * Amazon S3
+* Azure Blob
+* Google 클라우드 스토리지
+* OneDrive 를 클릭합니다
+* SharePoint Online을 클릭합니다
+* Google 드라이브
 
 
-* 데이터 소스: *
+* 데이터베이스: *
 
-* 비 NetApp 파일 공유
-* 오브젝트 스토리지(S3 프로토콜 사용)
-* 데이터베이스를 지원합니다
-* OneDrive 계정
-* SharePoint 계정
-* Google Drive 계정
+* Amazon Relational Database Service(Amazon RDS)
+* MongoDB
+* MySQL
+* 오라클
+* PostgreSQL
+* SAP HANA를 참조하십시오
+* SQL Server(MSSQL)
 
 
 Data Sense는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.
@@ -183,7 +203,7 @@ CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있�
 개략적인 Cloud Data Sense는 다음과 같이 작동합니다.
 
 . Cloud Manager에 데이터 센스의 인스턴스를 배포합니다.
-. 하나 이상의 작업 환경 또는 데이터 소스에서 고급 매핑 또는 심층 스캔을 수행할 수 있습니다.
+. 하나 이상의 데이터 소스에서 고급 매핑 또는 심층 스캔을 활성화할 수 있습니다.
 . 데이터 센스 는 AI 학습 프로세스를 사용하여 데이터를 스캔합니다.
 . 제공된 대시보드 및 보고 도구를 사용하여 규정 준수 및 거버넌스 작업에 도움을 줄 수 있습니다.
 
@@ -206,7 +226,7 @@ image:diagram_cloud_compliance_scan.png["클라우드 공급자가 실행 중인
 
 === 매핑 스캔과 분류 스캔의 차이점은 무엇입니까
 
-Cloud Data Sense를 사용하면 선택한 작업 환경 및 데이터 소스에서 일반적인 "매핑" 스캔을 실행할 수 있습니다. 매핑은 데이터에 대한 상위 수준의 개요만 제공하는 반면 분류는 데이터에 대한 세부 수준의 스캐닝을 제공합니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다.
+Cloud Data Sense를 사용하면 선택한 데이터 소스에서 일반적인 "매핑" 스캔을 실행할 수 있습니다. 매핑은 데이터에 대한 상위 수준의 개요만 제공하는 반면 분류는 데이터에 대한 세부 수준의 스캐닝을 제공합니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다.
 
 많은 사용자가 데이터를 신속하게 스캔하여 더 많은 연구가 필요한 데이터 소스를 식별하려고 하므로 이 기능을 좋아하고, 그런 다음 필요한 데이터 소스 또는 볼륨에서만 분류 검사를 활성화할 수 있습니다.
 
