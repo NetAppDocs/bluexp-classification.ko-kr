@@ -54,20 +54,20 @@ Data Sense는 모든 작업 환경의 파일에 대해 수행된 관리 작업�
 
 감사 로그는 데이터 감지 시스템의 '/opt/netapp/audit_logs/<date>/DataSense_audit_log_<date>_<process_name>.log'에 있습니다
 
-온-프레미스 배포의 경우 로그 파일로 직접 이동할 수 있습니다.
+데이터 센스를 사내에 설치하면 로그 파일로 직접 이동할 수 있습니다.
 
-Data Sense가 클라우드에 배포되면 데이터 감지 인스턴스에 SSH를 사용할 수 있습니다. 사용자 및 암호를 입력하거나 Cloud Manager Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행할 수 있습니다. SSH 명령은 다음과 같습니다.
+Data Sense가 클라우드에 배포되면 데이터 감지 인스턴스에 SSH를 사용할 수 있습니다. 사용자 및 암호를 입력하거나 Cloud Manager Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.
 
  ssh -i <path to the ssh key> <machine user>@<datasense ip>
 * ssh 키에 대한 경로> = ssh 인증 키의 위치입니다
 * 컴퓨터 사용자>:
 +
-** AWS = 의 경우 <EC2-user>를 사용합니다
+** AWS의 경우 <EC2-USER>를 사용합니다
 ** Azure의 경우: Cloud Manager 인스턴스에 대해 생성한 사용자를 사용합니다
 ** GCP의 경우: Cloud Manager 인스턴스에 대해 생성한 사용자를 사용합니다
 
 
-* data sense ip> = 가상 시스템 인스턴스의 IP 주소입니다
+* datasense IP> = 가상 시스템 인스턴스의 IP 주소입니다
 
 
 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-cloud-manager.html#ports-and-security-groups["포트 및 보안 그룹"^] 를 참조하십시오.
