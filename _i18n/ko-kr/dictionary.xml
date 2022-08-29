@@ -2706,4 +2706,5 @@
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">이제 데이터 센스에서 식별할 수 있는 사용자 지정 패턴을 데이터에 추가할 수 있습니다</block>
   <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">사용자 지정 정규식(regex)을 사용하여 개인 패턴을 추가하여 데이터의 특정 정보를 식별할 수 있습니다. regex는 이미 Data Sense에서 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 Personal Patterns(개인 패턴) 섹션 아래에 표시됩니다.<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>.</block>
   <block id="f11466d242ef66f0b539b785de1f046b" category="paragraph">데이터 센스를 사내에 설치하면 로그 파일로 직접 이동할 수 있습니다.</block>
+  <block id="cdd8fa6a73205d146405999abb5c86ec" category="admonition">설치 후 Data Sense 호스트 시스템의 IP 주소를 변경할 수 없습니다.</block>
 </blocks>

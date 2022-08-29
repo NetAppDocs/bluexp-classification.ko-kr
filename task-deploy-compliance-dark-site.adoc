@@ -108,6 +108,9 @@ Data Sense를 설치하기 전에 호스트에 다음 소프트웨어를 설치�
 
 
 
+NOTE: 설치 후 Data Sense 호스트 시스템의 IP 주소를 변경할 수 없습니다.
+
+
 
 == Cloud Manager 및 Data Sense 사전 요구 사항을 확인합니다
 
