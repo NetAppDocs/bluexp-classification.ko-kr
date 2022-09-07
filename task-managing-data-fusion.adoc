@@ -119,10 +119,12 @@ Data Sense가 클라우드에 배포되면 데이터 감지 인스턴스에 SSH�
 * 정규식> = 임의의 유효한 정규식이 될 수 있습니다.
 
 
+경로 * /opt/NetApp/Datasense/ * 에서 명령을 실행합니다.
+
 새로운 각 Regex를 테스트하여 너무 넓어서 너무 많은 일치 항목을 반환하는지 확인합니다. 이 경우 다음과 같은 로그 메시지가 나타납니다.
 
  log v1.0 | 2022-08-17 07:24:19,585 | ERROR | ds_logger | custom_regex | 119 | 1 | None | custom_regex_119 | The regex has high risk to identify false positives. Please narrow the regular expression and try again. To add it anyway, use the force flag (-f) at the end
-regex를 데이터 센스에 강제로 추가하려면 명령줄의 끝에 있는 * -f * 를 사용할 수 있습니다.
+regex를 Data Sense에 강제로 추가하려는 경우 명령줄 끝에 있는 * -f * 옵션을 사용할 수 있습니다. 너무 넓다고 생각해도 마찬가지입니다.
 
 
 
@@ -147,15 +149,16 @@ image:screenshot_add_regex_result.png["조사 결과 창에 사용자 지정 정
 
 
 
-=== 사용자 지정 regex를 비활성화합니다
+=== 사용자 지정 regex 비활성화
 
-나중에 regex로 입력한 사용자 지정 패턴을 식별하기 위해 데이터 센스가 필요하지 않다고 결정한 경우 다음 명령을 사용하여 각 regex를 제거합니다.
+나중에 regex로 입력한 사용자 지정 패턴을 식별하기 위해 데이터 센스가 필요하지 않다고 판단될 경우 명령에서 * deactivate * 옵션을 사용하여 각 regex를 제거합니다.
 
  sudo bash tools/datascience/custom_regex/custom_regex.sh -s deactivate -n "<pattern name>"
 예를 들어 * 내부 제품 ID * regex를 제거하려면
 
 [source, cli]
 ----
+[user ~]$ cd /opt/netapp/Datasense/
 [user Datasense]$ sudo bash tools/datascience/custom_regex/custom_regex.sh -s deactivate -n "Internal Product ID"
 ----
  log v1.0 | 2022-08-17 09:13:15,431 | INFO | ds_logger | custom_regex | 31 | 1 | None | custom_regex_31 | A pattern named 'Internal Product ID' was deactivated successfully

@@ -225,6 +225,9 @@ image:screenshot_compliance_investigation_filtered.png["조사 페이지에서 �
 | 정책 | 정책 또는 정책을 선택합니다. 이동 link:task-org-private-data.html#controlling-your-data-using-policies["여기"^] 기존 정책 목록을 보고 고유한 사용자 지정 정책을 만들려면 
 
 
+| 분석 상태 | 옵션을 선택하여 보류 중인 첫 번째 스캔, 완료된 스캔, 보류 중인 재스캔 또는 스캔하지 않은 파일 목록을 표시합니다. 
+
+
 | 사용 권한을 엽니다 | 데이터 및 폴더/공유 내에서 사용 권한 유형을 선택합니다 
 
 
@@ -237,7 +240,7 @@ image:screenshot_compliance_investigation_filtered.png["조사 페이지에서 �
 | 라벨 | 를 선택합니다 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 레이블"] 파일에 할당됩니다 
 
 
-| 작업 환경 유형 | 작업 환경의 유형을 선택합니다. OneDrive, SharePoint 및 Google Drive는 "클라우드 앱"으로 분류됩니다. 
+| 작업 환경 유형 | 작업 환경의 유형을 선택합니다. OneDrive, SharePoint 및 Google Drive는 "앱"으로 분류됩니다. 
 
 
 | 작업 환경 이름 | 특정 작업 환경을 선택합니다 

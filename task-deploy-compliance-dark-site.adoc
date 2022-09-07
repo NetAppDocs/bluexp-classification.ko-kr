@@ -22,7 +22,7 @@ summary: 인터넷 액세스가 없는 사내 사이트의 호스트에 클라�
 
 == 지원되는 데이터 소스
 
-이러한 방식으로 설치할 경우("오프라인" 또는 "다크" 사이트라고도 함) 데이터 센스(Data Sense)는 사내 사이트에도 로컬인 데이터 소스의 데이터만 스캔할 수 있습니다. 현재 Data Sense는 다음과 같은 로컬 데이터 소스를 스캔할 수 있습니다.
+이러한 방식으로 설치할 경우("오프라인" 또는 "다크" 사이트라고도 함) 데이터 센스(Data Sense)는 사내 사이트에도 로컬인 데이터 소스의 데이터만 스캔할 수 있습니다. 현재 Data Sense는 다음과 같은 * 로컬 * 데이터 소스를 스캔할 수 있습니다.
 
 * 온프레미스 ONTAP 시스템
 * 데이터베이스 스키마
@@ -30,7 +30,7 @@ summary: 인터넷 액세스가 없는 사내 사이트의 호스트에 클라�
 * S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지
 
 
-매우 안전한 Cloud Manager 설치가 필요하지만 OneDrive 계정 또는 SharePoint 계정에서 로컬 데이터를 스캔하려는 특수한 상황에서는 Data Sense 오프라인 설치 프로그램을 사용하여 몇 개의 선택 끝점에 대한 인터넷 액세스를 제공할 수 있습니다. 을 참조하십시오 <<SharePoint and OneDrive special requirements,SharePoint 및 OneDrive 특별 요구 사항>> 를 참조하십시오.
+매우 안전한 Cloud Manager 설치가 필요하지만 OneDrive 계정 또는 SharePoint Online 계정에서도 로컬 데이터를 스캔하려는 특수한 상황에서는 Data Sense 오프라인 설치 관리자를 사용하여 몇 개의 선택 끝점에 대한 인터넷 액세스를 제공할 수 있습니다. 을 참조하십시오 <<SharePoint and OneDrive special requirements,SharePoint 및 OneDrive 특별 요구 사항>> 를 참조하십시오.
 
 데이터 센스를 어두운 사이트에 구축한 경우 현재 Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP, AWS S3 또는 Google Drive 계정을 스캔할 수 없습니다.
 
@@ -135,7 +135,7 @@ Data Sense 인스턴스는 개인 IP 주소를 사용하여 인덱싱된 데이�
 
 == SharePoint 및 OneDrive 특별 요구 사항
 
-인터넷에 액세스할 수 없는 사이트에 Cloud Manager 및 Data Sense를 배포하는 경우, 몇 개의 선택 엔드포인트에 대한 인터넷 액세스를 제공하여 SharePoint 및 OneDrive 계정의 로컬 파일을 검색할 수 있습니다.
+인터넷에 액세스할 수 없는 사이트에 Cloud Manager 및 Data Sense를 배포하는 경우, 몇 개의 특정 엔드포인트에 대한 인터넷 액세스를 제공하여 SharePoint Online 및 OneDrive 계정의 파일을 검색할 수 있습니다.
 
 [cols="50,50"]
 |===
@@ -314,7 +314,7 @@ Cloud Data Sense 설치 프로그램이 패키지 설치를 완료하고 설치�
 Data Sense 소프트웨어는 정기적으로 새로운 기능으로 업데이트되므로 정기적으로 새로운 버전을 확인하여 최신 소프트웨어와 기능을 사용하고 있는지 확인해야 합니다. 업그레이드를 자동으로 수행하기 위한 인터넷 연결이 없기 때문에 Data Sense 소프트웨어를 수동으로 업그레이드해야 합니다.
 
 .시작하기 전에
-* Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.11.x가 설치되어 있는 경우 1.12.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.
+* Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.14.x가 설치되어 있는 경우 1.15.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.
 * 온프레미스 커넥터 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-on-prem-without-internet-access["커넥터 업그레이드 단계를 참조하십시오"^].
 
 

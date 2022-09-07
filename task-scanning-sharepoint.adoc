@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-scanning-sharepoint.html 
-keywords: cloud compliance, enable cloud compliance, privacy, compliance, sharepoint, data sense 
-summary: Cloud Data Sense를 사용하여 SharePoint 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오. 
+keywords: cloud compliance, enable cloud compliance, privacy, compliance, sharepoint, sharepoint online, sharepoint on-premises, data sense 
+summary: Cloud Data Sense를 사용하여 SharePoint Online 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오. 
 ---
 = SharePoint 계정 스캔 중
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Data Sense를 사용하여 SharePoint 계정의 파일 스캔을 
 
 
 [role="lead"]
-Cloud Data Sense를 사용하여 SharePoint 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오.
+Cloud Data Sense를 사용하여 SharePoint Online 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오.
 
 
 
@@ -50,28 +50,32 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 
 이미 구축된 인스턴스가 없으면 Cloud Data Sense를 구축하십시오.
 
-데이터 센스 가능 link:task-deploy-cloud-compliance.html["클라우드에 구축"^] 또는 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^].
+* SharePoint Online의 경우 데이터 감지로 설정할 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드에 구축"^] 또는 link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 온-프레미스 위치에 설치됩니다"^].
++
+데이터 센스도 가능합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 온프레미스 위치에 배포되었습니다"^]. 그러나 SharePoint Online 파일을 검색하려면 몇 개의 선택 끝점에 인터넷 액세스를 제공해야 합니다. link:task-deploy-compliance-dark-site.html#sharepoint-and-onedrive-special-requirements["필요한 엔드포인트 목록은 여기 를 참조하십시오"].
+
+
+
+인터넷에 연결되지 않은 사이트에 데이터 센스를 설치하는 경우, 인터넷에 연결되지 않은 동일한 사이트에 Cloud Manager Connector도 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["자세한 정보"^].
 
 데이터 감지 소프트웨어로 업그레이드하는 것은 인스턴스에 인터넷 연결이 있는 한 자동으로 수행됩니다.
 
-데이터 센스도 가능합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 온프레미스 위치에 배포되었습니다"^]. 그러나 로컬 SharePoint 파일을 검색하려면 몇 개의 선택 끝점에 인터넷 액세스를 제공해야 합니다. link:task-deploy-compliance-dark-site.html#sharepoint-and-onedrive-special-requirements["필요한 엔드포인트 목록은 여기 를 참조하십시오"].
 
 
+== SharePoint Online 계정 추가
 
-== SharePoint 계정을 추가하는 중입니다
-
-사용자 파일이 있는 SharePoint 계정을 추가합니다.
+사용자 파일이 있는 SharePoint Online 계정을 추가합니다.
 
 .단계
 . 작업 환경 구성 페이지에서 * 데이터 원본 추가 * > * SharePoint Online 계정 추가 * 를 클릭합니다.
 +
-image:screenshot_compliance_add_sharepoint_button.png["SharePoint 추가 단추를 클릭할 수 있는 스캔 구성 페이지의 스크린 샷"]
+image:screenshot_compliance_add_sharepoint_button.png["SharePoint Online 추가 단추를 클릭할 수 있는 구성 페이지의 스크린 샷"]
 
 . SharePoint Online 계정 추가 대화 상자에서 * SharePoint에 로그인 * 을 클릭합니다.
 . 나타나는 Microsoft 페이지에서 SharePoint 계정을 선택하고 필요한 관리자 사용자 및 암호를 입력한 다음 * 수락 * 을 클릭하여 Cloud Data Sense가 이 계정에서 데이터를 읽을 수 있도록 합니다.
 
 
-SharePoint 계정이 작업 환경 목록에 추가됩니다.
+SharePoint Online 계정이 작업 환경 목록에 추가됩니다.
 
 
 

@@ -164,7 +164,6 @@
   <block id="e84e463a5d50d51ba24671ea703ccd3a" category="list-text">Compliance Viewer * 역할의 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 시스템에 대한 보고서만 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마 스캔을 활성화/비활성화할 수 없습니다. 이러한 사용자는 파일을 복사, 이동 또는 삭제할 수 없습니다.</block>
   <block id="7001fd90c77b65d22e1a21481db3ddca" category="inline-link">Cloud Manager 역할에 대해 자세히 알아보십시오</block>
   <block id="2d4684d2aec68a0b0d987ac449846c38" category="inline-link">특정 역할을 가진 사용자를 추가합니다</block>
-  <block id="2aec26a935db620d45a2b36968d20c71" category="summary">Cloud Data Sense를 사용하여 SharePoint 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오.</block>
   <block id="2ef77a3845de73c82db787233e991d0c" category="doc">SharePoint 계정 스캔 중</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">빠른 시작</block>
   <block id="91e06e9a9ef97681b798e2e5e007ba97" category="paragraph">다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.</block>
@@ -174,7 +173,6 @@
   <block id="0fd354f4598b432146c03a6c1b496e25" category="paragraph">관리자 사용자 자격 증명을 사용하여 액세스할 SharePoint 계정에 로그인하여 새 데이터 원본/작업 환경으로 추가합니다.</block>
   <block id="a8c0024f4de7eafbcc79573f90579f5f" category="paragraph">SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하고 검색 유형을 선택합니다. 한 번에 최대 100개의 URL을 추가할 수 있습니다.</block>
   <block id="2b4e0126afcd89267252cefaf503c414" category="section-title">SharePoint 요구 사항 검토</block>
-  <block id="a32be683d63a4b0f5bebaf59aa3ae393" category="paragraph">다음 필수 구성 요소를 검토하여 SharePoint 계정에서 Cloud Data Sense를 활성화할 준비가 되었는지 확인합니다.</block>
   <block id="e1f7c840b56984612690abc476c04c51" category="list-text">모든 SharePoint 사이트에 읽기 권한을 제공하는 SharePoint 계정에 대한 관리자 로그인 자격 증명이 있어야 합니다.</block>
   <block id="f86df9b5b428fe5b37c14bd1162bc107" category="list-text">검색할 모든 데이터에 대해 SharePoint 사이트 URL의 줄 구분 목록이 필요합니다.</block>
   <block id="923e0e9139b80b545817bb342c8afa44" category="section-title">Cloud Data Sense 인스턴스 구축</block>
@@ -183,14 +181,9 @@
   <block id="d56c40a575de98938d6b1b6814e422d2" category="inline-link-macro">인터넷 액세스가 가능한 사내 위치</block>
   <block id="cb4787e4f5b2886c42c46c918daec655" category="paragraph">데이터 센스 가능 <block ref="879c41e64fac303868428ba32472ed0b" category="inline-link-macro-rx"></block> 또는 <block ref="5433f857b708e940349e34ece6281ba0" category="inline-link-macro-rx"></block>.</block>
   <block id="151eca0a4859a8fbf17435fcbaa0001e" category="paragraph">데이터 감지 소프트웨어로 업그레이드하는 것은 인스턴스에 인터넷 연결이 있는 한 자동으로 수행됩니다.</block>
-  <block id="2d625acbf82ccc24e4827ee53e0193d4" category="section-title">SharePoint 계정을 추가하는 중입니다</block>
-  <block id="7ab591f864cfe0a16aa275b9434fcde7" category="paragraph">사용자 파일이 있는 SharePoint 계정을 추가합니다.</block>
   <block id="cb49e9afef4bc3127fbf2d354d00fd54" category="list-text">작업 환경 구성 페이지에서 * 데이터 원본 추가 * &gt; * SharePoint Online 계정 추가 * 를 클릭합니다.</block>
-  <block id="9055101ac50b789e701a27583a1d468d" category="inline-image-macro">SharePoint 추가 단추를 클릭할 수 있는 스캔 구성 페이지의 스크린 샷</block>
-  <block id="8b093e17a55171454a6c2e03e23f0b0f" category="paragraph"><block ref="8b093e17a55171454a6c2e03e23f0b0f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea56ecd454d4962a21bd35be41237229" category="list-text">SharePoint Online 계정 추가 대화 상자에서 * SharePoint에 로그인 * 을 클릭합니다.</block>
   <block id="e61b097ecbac4c8e2db9675d4c9f64cb" category="list-text">나타나는 Microsoft 페이지에서 SharePoint 계정을 선택하고 필요한 관리자 사용자 및 암호를 입력한 다음 * 수락 * 을 클릭하여 Cloud Data Sense가 이 계정에서 데이터를 읽을 수 있도록 합니다.</block>
-  <block id="85733eb33599ec713f72376aae6df768" category="paragraph">SharePoint 계정이 작업 환경 목록에 추가됩니다.</block>
   <block id="88f6018b4c4004a32e426fcb13381212" category="section-title">규정 준수 검사에 SharePoint 사이트 추가</block>
   <block id="01ad50a8c51cb7caa81313f1655cae00" category="paragraph">Cloud Data Sense에서 연결된 파일을 검사하도록 개별 SharePoint 사이트 또는 계정의 모든 SharePoint 사이트를 추가할 수 있습니다.</block>
   <block id="32d4436877412c0a858739daddb125a4" category="list-text">Configuration_ 페이지에서 SharePoint 계정의 * Configuration * 버튼을 클릭합니다.</block>
@@ -1442,7 +1435,6 @@
   <block id="e2115e429619cedeaf6aeedfb1d4d0d7" category="inline-link-macro">인터넷에 액세스할 수 있는 온프레미스 사이트에 데이터 센스를 구현합니다</block>
   <block id="1c038c580523f9a3d7126408c53a8288" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="1079604978fa03138d29a36dc3d0bf3f" category="inline-link-macro-rx"></block>.</block>
   <block id="70d7362b35a6ff039264c78f2d35ab2c" category="section-title">지원되는 데이터 소스</block>
-  <block id="77b1f6686417067688ea9a1806e7a438" category="paragraph">이러한 방식으로 설치할 경우("오프라인" 또는 "다크" 사이트라고도 함) 데이터 센스(Data Sense)는 사내 사이트에도 로컬인 데이터 소스의 데이터만 스캔할 수 있습니다. 현재 Data Sense는 다음과 같은 로컬 데이터 소스를 스캔할 수 있습니다.</block>
   <block id="d0a39c85bb5fdaacac18ed6c4e5b511f" category="list-text">온프레미스 ONTAP 시스템</block>
   <block id="ae9d17dd7732dafc7b97f62ac9094cf7" category="list-text">데이터베이스 스키마</block>
   <block id="ec1fb1662782ed20e20c07aa72cea943" category="list-text">비NetApp NFS 또는 CIFS 파일 공유</block>
@@ -2157,18 +2149,15 @@
   <block id="7d48333086004a7939c29f033e1bfad5" category="section-title">어두운 사이트에 배포할 때 OneDrive 및 SharePoint 데이터 스캔 지원</block>
   <block id="5d1023de4743a538d723b0eea67b9c49" category="inline-link">다음 끝점에 대한 액세스를 허용해야 합니다.</block>
   <block id="143cbb5198b43152fc02c7822c0a4df1" category="inline-xref">SharePoint 및 OneDrive 특별 요구 사항</block>
-  <block id="26c2bd17725502dd41a7ea99643a8a29" category="paragraph">매우 안전한 Cloud Manager 설치가 필요하지만 OneDrive 계정 또는 SharePoint 계정에서 로컬 데이터를 스캔하려는 특수한 상황에서는 Data Sense 오프라인 설치 프로그램을 사용하여 몇 개의 선택 끝점에 대한 인터넷 액세스를 제공할 수 있습니다. 을 참조하십시오 <block ref="4422d2d61ce862ef7035c7cbbfd3b606" category="inline-xref-macro-rx"></block> 를 참조하십시오.</block>
   <block id="83925eb41f224ab078a6ede41fce2ce8" category="list-text">특정 중요 정책에서 결과를 반환하는 경우 Cloud Manager 사용자에게 이메일 알림을 보냅니다</block>
   <block id="65097bbc12ec4bd1b84a583f86720dbc" category="list-text">여러 사용자에 대한 Cloud Manager 역할 설정(예: 계정 관리자 또는 규정 준수 뷰어)</block>
   <block id="03ab5a445b96670c4d6471f1e0ae786c" category="list-text">Cloud Sync를 사용하여 소스 파일 복사 및 동기화</block>
   <block id="21d99d41f7aa56147e5b8e2f64a15458" category="list-text">사용자 피드백을 받는 중입니다</block>
-  <block id="d988b54f3b64e974362e6cbf74785f60" category="paragraph">인터넷에 액세스할 수 없는 사이트에 Cloud Manager 및 Data Sense를 배포하는 경우, 몇 개의 선택 엔드포인트에 대한 인터넷 액세스를 제공하여 SharePoint 및 OneDrive 계정의 로컬 파일을 검색할 수 있습니다.</block>
   <block id="ca31f5af8410452f51d81153fffb5c54" category="cell">login.microsoft.com \graph.microsoft.com 으로 문의하십시오</block>
   <block id="bea203a1b40a7cbfe57a7032625d4eed" category="cell">Microsoft 서버와 통신하여 선택한 온라인 서비스에 로그인합니다.</block>
   <block id="665921fa8f2b4f0c994ec8d226f8544f" category="paragraph">이러한 외부 서비스에 처음 연결하는 동안에만 _cloudmanager.cloud.netapp.com_ 에 액세스해야 합니다.</block>
   <block id="1b602d3afff4393bd19938efb7312da3" category="inline-link-macro">인터넷에 액세스할 수 없는 온프레미스 위치에 배포되었습니다</block>
   <block id="72be220d746bd2e14365d0ceeea52365" category="inline-link-macro">필요한 엔드포인트 목록은 여기 를 참조하십시오</block>
-  <block id="99428c3925d465acb3903496e22efe4c" category="paragraph">데이터 센스도 가능합니다 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>. 그러나 로컬 SharePoint 파일을 검색하려면 몇 개의 선택 끝점에 인터넷 액세스를 제공해야 합니다. <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>.</block>
   <block id="e9b6d5f264bba809d5461558e8379d9e" category="paragraph">데이터 센스도 가능합니다 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>. 하지만 로컬 OneDrive 파일을 검색하려면 몇 개의 선택 끝점에 인터넷 액세스를 제공해야 합니다. <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>.</block>
   <block id="9aa68bac48e77ad847d7e57a68f08944" category="paragraph">이 상태는 디지털 지갑에도 표시됩니다.</block>
   <block id="06314d3359f0409e52f485d16ab0c81f" category="paragraph">Cloud Data Sense 라이센스가 만료되기 전에 업데이트하여 스캔한 데이터에 대한 액세스 중단이 발생하지 않도록 할 수 있습니다.</block>
@@ -2321,7 +2310,6 @@
   <block id="fe340da6c921cdc51f04bc690aa53387" category="cell">정책 또는 정책을 선택합니다. 이동 <block ref="55cb9da8823849acf874e6889a810e98" category="inline-link-macro-rx"></block> 기존 정책 목록을 보고 고유한 사용자 지정 정책을 만들려면</block>
   <block id="1a81671798e285bd46fa9b2aa3c86d00" category="cell">하나 이상의 사용자 이름 및/또는 그룹 이름을 선택하거나 부분 이름을 입력합니다</block>
   <block id="c9b82f90ba4459b8fcdadccfbe372539" category="cell">를 선택합니다 <block ref="b0becded2b1c1949046ca8118d27118b" category="inline-link-macro-rx"></block> 파일에 할당됩니다</block>
-  <block id="910acb975ea7aecd9808b83a0cb3e7eb" category="cell">작업 환경의 유형을 선택합니다. OneDrive, SharePoint 및 Google Drive는 "클라우드 앱"으로 분류됩니다.</block>
   <block id="c3a9830be43f6515257f3979e66816fd" category="cell">디렉터리 유형</block>
   <block id="9091f9c1f743dae16df2f0455ff3be56" category="cell">"공유" 또는 "폴더"와 같은 디렉토리 유형을 선택합니다.</block>
   <block id="f8a85ed4966ec4306b4e58f3bd439410" category="inline-link-macro">태그 또는 태그</block>
@@ -2483,7 +2471,6 @@
   <block id="2dd4f685f001cb4e6c0149956ba4a997" category="section-title">2022년 5월 11일(버전 1.12.1)</block>
   <block id="07de9e897e96f5f63e0778d691b62d59" category="section-title">2022년 4월 5일(버전 1.11.1)</block>
   <block id="2d2a847fccc748834cee74d3441a948b" category="section-title">2022년 3월 15일(버전 1.10.0)</block>
-  <block id="a6e2475f148e034250ac7cb66419f3f3" category="list-text">Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.11.x가 설치되어 있는 경우 1.12.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
   <block id="fae289ef9204f7c3119e084615a6d53f" category="list-text">정부 지역 또는 인터넷 액세스가 없는 온프레미스 위치(어두운 사이트라고도 함)에 Data Sense를 배포한 경우에는 AIP 레이블 기능을 사용할 수 없습니다.</block>
   <block id="49346bec66601a23d58acfc71f396d3f" category="list-text">Azure NetApp Files의 경우 스캔하려는 볼륨과 동일한 영역에 배포해야 합니다.</block>
   <block id="b39e81db6545fcc5e2567ec3c6930540" category="section-title">정부 지역 지원</block>
@@ -2508,7 +2495,6 @@
   <block id="b0d05a288f1ee1691adac4ca34c54fca" category="inline-image-macro">작업 환경의 모든 볼륨에 대해 동일한 스캔 설정을 구성하는 방법을 보여 주는 스크린샷</block>
   <block id="12a2ab51f6d8555b1efcc9582dee655b" category="paragraph"><block ref="12a2ab51f6d8555b1efcc9582dee655b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c47f43803aeca87b8119b45040e033c" category="section-title">리포지토리 스캔을 일시 중지하고 다시 시작합니다</block>
-  <block id="73344c9ec25564b49b1fcd623ff60d92" category="paragraph">특정 콘텐츠 스캔을 일시적으로 중지하려면 리포지토리에서 스캔을 "일시 중지"할 수 있습니다. 이것은 스캐닝 "끄기"를 켜는 것과 다릅니다. 스캔이 꺼지면 해당 볼륨에 대한 모든 인덱싱 및 정보가 시스템에서 제거됩니다. 스캐닝을 일시 중지하면 데이터 센스에서 향후 저장소에 대한 변경 또는 추가 검사를 수행하지 않지만 현재 모든 결과가 시스템에 계속 표시됩니다.</block>
   <block id="0f9fab6026fbdbed86f2befe8eae64e1" category="paragraph">언제든지 스캔을 "재시작"할 수 있습니다.</block>
   <block id="8b072c4e238b04c04c81cef3ed309703" category="list-text">Scan Configuration(스캔 구성) 페이지에서 Pause(일시 중지) 버튼을 클릭하여 볼륨 스캐닝을 일시 중지하거나 Resume(재개) 버튼을 눌러 이전에 일시 중지된 볼륨 스캐닝을 재개합니다.</block>
   <block id="bc9b17eea5246a704bb26be367a3b35f" category="inline-image-macro">볼륨에서 스캔을 일시 중지하고 다시 시작하는 방법을 보여 주는 스크린샷</block>
@@ -2556,7 +2542,6 @@
   <block id="04843fa750ddea2d46823d2d06cf3063" category="paragraph">일부 데이터 원본은 SharePoint 사이트에 대해 아래 표시된 것처럼 메뉴에 일시 중지 및 다시 시작 기능을 제공합니다.</block>
   <block id="fb575acbb63d1898a1021e2856b18b6e" category="inline-image-macro">SharePoint 사이트에서 검색을 일시 중지하고 다시 시작하는 방법을 보여 주는 스크린샷</block>
   <block id="9e9d3c723f9f4d6ab1b9e783f2239e62" category="paragraph"><block ref="9e9d3c723f9f4d6ab1b9e783f2239e62" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="faa8551af182d75e7a3f5d7e7a6dc071" category="sidebar">스캔 설정을 변경합니다</block>
   <block id="dd85b6e90159d1cdbde0d5badd022af0" category="paragraph">Cloud Data Sense는 데이터 내에서 특정 단어, 문자열 및 패턴(Regex)을 자동으로 식별합니다. 예를 들어 개인 식별 정보(PII), 신용 카드 번호, 주민 등록 번호, 은행 계좌 번호, 암호, 있습니다. <block ref="3a25cef7ea1e79696c3eac86ef0a5a72" category="inline-link-macro-rx"></block>. Data Sense는 개별 파일, 디렉터리 내 파일(공유 및 폴더) 및 데이터베이스 테이블에서 이러한 유형의 정보를 식별합니다.</block>
   <block id="f4f50af532754b5670ea58ed6b969ba0" category="paragraph">아래 스크린샷 2개는 개별 파일에서 찾은 개인 데이터를 보여 주고 디렉터리(공유 및 폴더) 내의 파일에서 찾을 수 있습니다. 또한 * Structured * (구조적 *) 탭을 선택하여 데이터베이스에서 찾은 개인 데이터를 볼 수도 있습니다.</block>
   <block id="bfe1194df41f0cc26cfdf2f75931ac0d" category="inline-image-macro">조사 결과 를 클릭한 후 파일에서 발견된 세부 정보 스크린샷</block>
@@ -2693,18 +2678,67 @@
   <block id="3642b1a1448d1d503a8c583265c1f7fd" category="list-text">pattern name&gt; = 데이터 감지 UI에 표시되는 이름입니다. 이름이 regex가 찾을 내용을 식별하는지 확인합니다. 이름은 하나 이상의 문자를 포함해야 하며 최대 70자까지 입력할 수 있습니다.</block>
   <block id="c8cfff713fc98611eeae3f621ae6ce24" category="list-text">정규식&gt; = 임의의 유효한 정규식이 될 수 있습니다.</block>
   <block id="c0860cd77b783ac8ccb3c6de19266e83" category="paragraph">새로운 각 Regex를 테스트하여 너무 넓어서 너무 많은 일치 항목을 반환하는지 확인합니다. 이 경우 다음과 같은 로그 메시지가 나타납니다.</block>
-  <block id="bed821e4983e85758274701f4830fdce" category="paragraph">regex를 데이터 센스에 강제로 추가하려면 명령줄의 끝에 있는 * -f * 를 사용할 수 있습니다.</block>
   <block id="0a52730597fb4ffa01fc117d9e71e3a9" category="section-title">예</block>
   <block id="1c247fabef1a02cfb25e0c5a09f1ce81" category="paragraph">제품 ID는 201로 시작하는 12자리 숫자입니다. 정규식은 * \b201\d{9}\b * 입니다. 이 패턴을 * 내부 제품 ID * 로 식별하려면 데이터 감지 UI의 텍스트를 사용합니다.</block>
   <block id="ce52796a17167ca6f97268ee7baaa0de" category="paragraph">모든 파일에서 내부 제품 ID가 언급된 위치를 확인하려면 다음 명령을 입력합니다.</block>
   <block id="1e4b16d4f3c8faa8b0a90ebbeae0a0f7" category="paragraph">다음 검사 후 결과에는 이 새 정보가 "개인 결과" 섹션의 준수 대시보드 및 "개인 데이터" 필터의 조사 페이지에 포함됩니다.</block>
   <block id="5e0b61460f50f9b62d95b060b2f3f8d2" category="inline-image-macro">조사 결과 창에 사용자 지정 정규식 결과의 예를 보여 주는 스크린샷</block>
   <block id="f0957a103fdf829c95e6748bbaec5b4a" category="paragraph"><block ref="f0957a103fdf829c95e6748bbaec5b4a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="568187b2e469a8406245645d5e1be158" category="section-title">사용자 지정 regex를 비활성화합니다</block>
-  <block id="94deabbbc24df00a97f5113a004850a1" category="paragraph">나중에 regex로 입력한 사용자 지정 패턴을 식별하기 위해 데이터 센스가 필요하지 않다고 결정한 경우 다음 명령을 사용하여 각 regex를 제거합니다.</block>
   <block id="f1619aa0c5343971dffa315bb9524cc9" category="paragraph">예를 들어 * 내부 제품 ID * regex를 제거하려면</block>
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">이제 데이터 센스에서 식별할 수 있는 사용자 지정 패턴을 데이터에 추가할 수 있습니다</block>
   <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">사용자 지정 정규식(regex)을 사용하여 개인 패턴을 추가하여 데이터의 특정 정보를 식별할 수 있습니다. regex는 이미 Data Sense에서 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 Personal Patterns(개인 패턴) 섹션 아래에 표시됩니다.<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>.</block>
   <block id="f11466d242ef66f0b539b785de1f046b" category="paragraph">데이터 센스를 사내에 설치하면 로그 파일로 직접 이동할 수 있습니다.</block>
   <block id="cdd8fa6a73205d146405999abb5c86ec" category="admonition">설치 후 Data Sense 호스트 시스템의 IP 주소를 변경할 수 없습니다.</block>
+  <block id="766f0d81be7879628bc30bd7367309c3" category="paragraph">경로 * /opt/NetApp/Datasense/ * 에서 명령을 실행합니다.</block>
+  <block id="4767339e389eb1fa075ecdec5d1ec320" category="paragraph">regex를 Data Sense에 강제로 추가하려는 경우 명령줄 끝에 있는 * -f * 옵션을 사용할 수 있습니다. 너무 넓다고 생각해도 마찬가지입니다.</block>
+  <block id="48532ffc6016c24d1207f39fecfcbbda" category="section-title">사용자 지정 regex 비활성화</block>
+  <block id="19f9f2c4f009c255e214b21dae526160" category="paragraph">나중에 regex로 입력한 사용자 지정 패턴을 식별하기 위해 데이터 센스가 필요하지 않다고 판단될 경우 명령에서 * deactivate * 옵션을 사용하여 각 regex를 제거합니다.</block>
+  <block id="331a3f3aa511b1c438e9c58674f70985" category="section-title">2022년 9월 6일(버전 1.16)</block>
+  <block id="d59aefa3621ff4109ce747758711c46c" category="section-title">파일의 변경 사항을 반영하기 위해 저장소를 즉시 다시 검색할 수 있습니다</block>
+  <block id="a6277013831bd0ba5dd8499592e6d67b" category="inline-link">디렉토리를 다시 검색하는 방법을 참조하십시오</block>
+  <block id="45b58068004d744461935c2aae409c04" category="paragraph">변경 내용이 시스템에 반영되도록 특정 리포지토리를 즉시 다시 스캔해야 하는 경우 리포지토리를 선택하고 다시 검색할 수 있습니다. 이렇게 하면 특정 데이터를 다른 데이터보다 먼저 다시 검색하게 할 수 있습니다.<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>.</block>
+  <block id="24a7d06e1fe90aca0c0301d12fadc686" category="section-title">데이터 조사 페이지의 데이터 감지 스캔 상태에 대한 새 필터</block>
+  <block id="e2e0734ca474deb38b2c13f526832e06" category="paragraph">“Analysis Status(분석 상태)” 필터를 사용하면 데이터 감지 스캔의 특정 단계에 있는 파일을 나열할 수 있습니다. 옵션을 선택하여 * 첫 번째 스캔 보류 *, * 완료됨 * 스캔 중, * 재스캔 보류 * 또는 * 실패 * 가 스캔되는 파일 목록을 표시할 수 있습니다.</block>
+  <block id="82f05abce805aa872acec563bbca9a1f" category="paragraph"><block ref="b263790debd0f3d5e5a31296d99293db" category="inline-link-rx"></block>.</block>
+  <block id="9d771bf7f3ed0f2d7cd7bbf827bab0a2" category="section-title">데이터 주제는 이제 스캔에서 발견된 "개인 데이터"의 일부로 간주됩니다</block>
+  <block id="76eab5fecba3164354032ddcdc0feb3d" category="paragraph">이제 Data Sense는 규정 준수 대시보드에 표시되는 개인 결과의 일부로 데이터 주제를 인식합니다. 또한 조사 페이지에서 검색을 수행할 때 "개인 데이터"에서 "데이터 제목"을 선택하여 데이터 주제가 포함된 파일만 볼 수 있습니다.</block>
+  <block id="6d3ab1cb3139d4416e111272db779d6d" category="section-title">이제 데이터 감지 이동 경로 파일은 검색에서 "범주"의 일부로 간주됩니다</block>
+  <block id="d6933caaf62074fc0c3e63f604181712" category="inline-link">Breadcrumb 파일을 만드는 방법에 대해 자세히 알아보십시오</block>
+  <block id="368538217a4a98d2d78bf94a224b8eb6" category="paragraph">이제 Data Sense는 Breadcrumb 파일을 Compliance Dashboard에 나타나는 범주의 일부로 인식합니다. 소스 위치에서 NFS 공유로 파일을 이동할 때 데이터 센스에서 생성되는 파일입니다.<block ref="fd6931884959497f6c1600e29f97b838" category="inline-link-rx"></block>.</block>
+  <block id="636d406982c471ea6a3e9f3a5d5f7f1f" category="paragraph">또한 조사 페이지에서 검색을 수행할 때 "범주" 아래의 "데이터 감지 브레드크럼"을 선택하여 데이터 감지 브레드크럼 파일만 볼 수 있습니다.</block>
+  <block id="23e2985b503ea96a8cdf22916427a97d" category="summary">Cloud Data Sense를 사용하여 SharePoint Online 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오.</block>
+  <block id="758462d66cb32533f49360d3b98e28c4" category="paragraph">다음 필수 구성 요소를 검토하여 SharePoint 계정에서 Cloud Data Sense를 활성화할 준비가 되었는지 확인합니다.</block>
+  <block id="19814c236f94ff3af850cb182f35add5" category="inline-link-macro">인터넷에 액세스할 수 있는 온-프레미스 위치에 설치됩니다</block>
+  <block id="1834f32ba8d3eab040f5ce5755a6ad8a" category="list-text">SharePoint Online의 경우 데이터 감지로 설정할 수 있습니다 <block ref="879c41e64fac303868428ba32472ed0b" category="inline-link-macro-rx"></block> 또는 <block ref="1303820445af3a7c87be9fbd1bbc30ad" category="inline-link-macro-rx"></block>.</block>
+  <block id="8985dbaa7cbdc09c9a769e35fc86d4ad" category="paragraph">데이터 센스도 가능합니다 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>. 그러나 SharePoint Online 파일을 검색하려면 몇 개의 선택 끝점에 인터넷 액세스를 제공해야 합니다. <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>.</block>
+  <block id="bb0d7568763639a86425eb506af0b273" category="paragraph">인터넷에 연결되지 않은 사이트에 데이터 센스를 설치하는 경우, 인터넷에 연결되지 않은 동일한 사이트에 Cloud Manager Connector도 설치해야 합니다.<block ref="879ebf9ca74e8f08bfff336454f4ade3" category="inline-link-rx"></block>.</block>
+  <block id="88ce972549d8b67ad56bc9e681818ca2" category="section-title">SharePoint Online 계정 추가</block>
+  <block id="8b7071c98b3d8a3e43ecfa77bab75857" category="paragraph">사용자 파일이 있는 SharePoint Online 계정을 추가합니다.</block>
+  <block id="c5545572ea4069cfaa50e205fd80e522" category="inline-image-macro">SharePoint Online 추가 단추를 클릭할 수 있는 구성 페이지의 스크린 샷</block>
+  <block id="500f464a497c67b1e8f3311a5a3f32dc" category="paragraph"><block ref="500f464a497c67b1e8f3311a5a3f32dc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c078bb07b1ad7af1cc0f5b29159fb618" category="paragraph">SharePoint Online 계정이 작업 환경 목록에 추가됩니다.</block>
+  <block id="ea790b7cfc239ef4ea62089738c6fcba" category="list-text">SharePoint Online 계정</block>
+  <block id="7e48ad5341563470bfb17d87eb4abfc2" category="paragraph">이러한 방식으로 설치할 경우("오프라인" 또는 "다크" 사이트라고도 함) 데이터 센스(Data Sense)는 사내 사이트에도 로컬인 데이터 소스의 데이터만 스캔할 수 있습니다. 현재 Data Sense는 다음과 같은 * 로컬 * 데이터 소스를 스캔할 수 있습니다.</block>
+  <block id="194dae59202982a0d0f86245341e5d21" category="paragraph">매우 안전한 Cloud Manager 설치가 필요하지만 OneDrive 계정 또는 SharePoint Online 계정에서도 로컬 데이터를 스캔하려는 특수한 상황에서는 Data Sense 오프라인 설치 관리자를 사용하여 몇 개의 선택 끝점에 대한 인터넷 액세스를 제공할 수 있습니다. 을 참조하십시오 <block ref="4422d2d61ce862ef7035c7cbbfd3b606" category="inline-xref-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="6b5e137e04da5c1898139a8a7f549614" category="paragraph">인터넷에 액세스할 수 없는 사이트에 Cloud Manager 및 Data Sense를 배포하는 경우, 몇 개의 특정 엔드포인트에 대한 인터넷 액세스를 제공하여 SharePoint Online 및 OneDrive 계정의 파일을 검색할 수 있습니다.</block>
+  <block id="6ac5fc2b8fd7793f54ecc4e08500a270" category="list-text">Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.14.x가 설치되어 있는 경우 1.15.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
+  <block id="c6f85ba2c850ce9e6a70c3b08a6a69ce" category="cell">데이터 제목</block>
+  <block id="3b2d0e0dc31143e6f51b137fffa0f7a2" category="list-text">데이터 감지 브레드크럼입니다</block>
+  <block id="638bc83a47f3636cf5b909804535902e" category="paragraph">특정 콘텐츠 스캔을 일시적으로 중지하려면 리포지토리에서 스캔을 "일시 중지"할 수 있습니다. 이것은 스캐닝 "끄기"를 켜는 것과 다릅니다. 스캔이 꺼지면 해당 볼륨에 대한 모든 인덱싱 및 정보가 시스템에서 제거됩니다. 스캐닝을 일시 중지하면 데이터 센스에서 저장소에 대한 변경 또는 추가 사항을 향후 스캔을 수행하지 않지만 현재 모든 결과가 시스템에 계속 표시됩니다.</block>
+  <block id="f976bf2eff4504fae0fc49c0115018dc" category="section-title">기존 리포지토리에 대한 데이터를 다시 스캔하고 있습니다</block>
+  <block id="31708d59045759b74bc21fc59af3a403" category="paragraph">Data Sense는 데이터를 지속적으로 스캔하여 추가한 저장소의 증분 변경 사항을 감지합니다. 그러나 시스템이 모든 환경을 검색하는 데 시간이 걸리며, 스캔된 저장소의 순서를 제어할 방법이 없습니다. 따라서 특정 리포지토리를 즉시 다시 스캔하여 변경 내용이 시스템에 반영되도록 해야 하는 경우 리포지토리를 선택하고 다시 검색할 수 있습니다. 이렇게 하면 다른 데이터 앞에 특정 데이터를 우선적으로 스캔할 수 있습니다. 재검색 작업이 완료되면 선택한 리포지토리가 정상 데이터 감지 일정 아래에 스캔되는 상태로 돌아갑니다.</block>
+  <block id="3f4d6d8bcb45a73e9e3df2c012ea6aac" category="admonition">현재 단일 디렉토리(폴더 또는 공유) 재검색 기능을 지원합니다. 향후 지원에는 추가 리포지토리 유형(파일, 데이터베이스 등)을 다시 스캔하는 것이 포함됩니다.</block>
+  <block id="62796d34bcb4d2217e01776ba00d5ea0" category="list-text">디렉토리를 다시 검색하는 경우 디렉토리 내의 모든 파일이 다시 스캔되지만 디렉토리 내의 하위 폴더는 다시 검색되지 않습니다.</block>
+  <block id="4e67a9dec79298e79d1abf05ea540fbc" category="list-text">공유를 다시 검색하는 경우 공유의 메타데이터만 다시 스캔됩니다.</block>
+  <block id="d489d7f150167fe801b5b652633601a6" category="list-text">데이터 조사 결과 창에서 다시 검색할 폴더 또는 공유를 선택하고 * 다시 검사 * 를 클릭합니다.</block>
+  <block id="b8f66688483b508da89754659d7ca8fa" category="inline-image-macro">디렉터리를 선택하고 다시 검색하는 방법을 보여 주는 스크린샷</block>
+  <block id="47ee282369061686a925d31dfbc358ad" category="paragraph"><block ref="47ee282369061686a925d31dfbc358ad" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="df296aafcd928770ac9559dc3f65f303" category="list-text">_Rescan Directory_대화 상자에서 * Rescan * 을 클릭합니다.</block>
+  <block id="c2becc0894f125fd5331aafa1ee47cf8" category="paragraph">메타데이터 세부 정보를 볼 때 개별 디렉토리를 다시 검색할 수도 있습니다. Rescan * 을 클릭하기만 하면 됩니다.</block>
+  <block id="64305177aa881c77aecfabbcc7100f17" category="inline-image-macro">단일 폴더 또는 공유를 다시 검색하는 방법을 보여 주는 스크린샷</block>
+  <block id="4f70b74049fac9e8f382a26a4f516f44" category="paragraph"><block ref="4f70b74049fac9e8f382a26a4f516f44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d55969f99169fb1ccecedd45e530342d" category="cell">분석 상태</block>
+  <block id="133617814b053dc465cdc57c432b1756" category="cell">옵션을 선택하여 보류 중인 첫 번째 스캔, 완료된 스캔, 보류 중인 재스캔 또는 스캔하지 않은 파일 목록을 표시합니다.</block>
+  <block id="78ed85a2b36b215d69761df3caf130df" category="cell">작업 환경의 유형을 선택합니다. OneDrive, SharePoint 및 Google Drive는 "앱"으로 분류됩니다.</block>
+  <block id="6195c7a1534de8abb0c4706e15d24a3c" category="sidebar">스캔 설정을 변경합니다</block>
 </blocks>
