@@ -23,7 +23,7 @@ Cloud Data Sense는 Amazon S3 버킷을 스캔하여 S3 오브젝트 스토리�
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
 [role="quick-margin-para"]
-IAM 역할 준비 및 데이터 센스에서 S3까지 연결 설정을 포함하여 클라우드 환경이 클라우드 데이터 센스에 대한 요구 사항을 충족할 수 있는지 확인합니다. <<Reviewing S3 prerequisites,전체 목록을 참조하십시오>>.
+IAM 역할 준비 및 데이터 센스에서 S3까지 연결 설정을 포함하여 클라우드 환경이 클라우드 데이터 센스에 대한 요구 사항을 충족할 수 있는지 확인합니다.  S3 prerequisites,전체 목록을 참조하십시오.
 
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["클라우드 데이터 센스를 구축하십시오"^] 이미 배포된 인스턴스가 없는 경우
@@ -117,7 +117,7 @@ image:screenshot_s3_we.gif["Amazon S3 작업 환경 아이콘의 스크린샷"]
 +
 image:screenshot_s3_enable_compliance.gif["서비스 패널에서 클라우드 데이터 감지 서비스를 활성화하는 스크린샷"]
 
-. 메시지가 표시되면 가 있는 Cloud Data Sense 인스턴스에 IAM 역할을 할당합니다 <<Reviewing S3 prerequisites,필요한 권한>>.
+. 메시지가 표시되면 가 있는 Cloud Data Sense 인스턴스에 IAM 역할을 할당합니다  S3 prerequisites,필요한 권한.
 +
 image:screenshot_s3_compliance_iam_role.gif["Cloud Data Sense에 대한 AWS IAM 역할 입력 스크린샷"]
 
@@ -137,7 +137,7 @@ Cloud Manager를 사용하여 Amazon S3에서 Cloud Data Sense를 사용하도�
 
 Cloud Manager가 검사할 S3 버킷이 있는 AWS 계정에서 실행 중인 경우 해당 버킷을 검색하고 Amazon S3 작업 환경에 표시합니다.
 
-클라우드 데이터 센스도 가능합니다 <<Scanning buckets from additional AWS accounts,서로 다른 AWS 계정에 있는 S3 버킷을 스캔합니다>>.
+클라우드 데이터 센스도 가능합니다  buckets from additional AWS accounts,서로 다른 AWS 계정에 있는 S3 버킷을 스캔합니다.
 
 .단계
 . Amazon S3 작업 환경을 선택합니다.

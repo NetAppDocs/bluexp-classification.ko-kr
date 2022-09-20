@@ -92,7 +92,7 @@ image:screenshot_cloud_compliance_we_scan_config.png["Cloud Data Sense 인스턴
 ** 모든 볼륨을 매핑하고 분류하려면 * 모든 볼륨 매핑 및 분류 * 를 클릭합니다.
 ** 각 볼륨에 대한 스캔을 사용자 정의하려면 * 를 클릭하거나 각 볼륨에 대한 스캐닝 유형을 선택한 다음 매핑 및/또는 분류할 볼륨을 선택합니다.
 +
-을 참조하십시오 <<Enabling and disabling compliance scans on volumes,볼륨에서 규정 준수 검사 활성화 및 비활성화>> 를 참조하십시오.
+을 참조하십시오  and disabling compliance scans on volumes,볼륨에서 규정 준수 검사 활성화 및 비활성화 를 참조하십시오.
 
 
 
@@ -209,7 +209,7 @@ image:screenshot_compliance_dp_cifs_volumes.png["CIFS 데이터 보호 볼륨을
 
 
 
-. 스캔할 각 DP 볼륨을 활성화합니다 <<Enabling and disabling compliance scans on volumes,다른 볼륨을 활성화해도 마찬가지입니다>>.
+. 스캔할 각 DP 볼륨을 활성화합니다  and disabling compliance scans on volumes,다른 볼륨을 활성화해도 마찬가지입니다.
 
 
 활성화되면 Cloud Data Sense는 스캔을 위해 활성화된 각 DP 볼륨에서 NFS 공유를 생성합니다. 공유 내보내기 정책은 데이터 감지 인스턴스에서만 액세스를 허용합니다.

@@ -26,7 +26,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 === 클라우드 데이터 센스의 정의
 
-Cloud Data Sense는 인공 지능(AI) 기반 기술을 사용하여 데이터 컨텍스트를 이해하고 스토리지 시스템 전체에서 중요한 데이터를 식별하는 데 도움이 되는 클라우드 오퍼링입니다. 시스템은 Cloud Manager Canvas에 추가한 작업 환경과 Data Sense가 네트워크를 통해 액세스할 수 있는 다양한 유형의 데이터 소스일 수 있습니다. <<What sources of data can be scanned with Data Sense,아래 전체 목록을 참조하십시오>>.
+Cloud Data Sense는 인공 지능(AI) 기반 기술을 사용하여 데이터 컨텍스트를 이해하고 스토리지 시스템 전체에서 중요한 데이터를 식별하는 데 도움이 되는 클라우드 오퍼링입니다. 시스템은 Cloud Manager Canvas에 추가한 작업 환경과 Data Sense가 네트워크를 통해 액세스할 수 있는 다양한 유형의 데이터 소스일 수 있습니다.  sources of data can be scanned with Data Sense,아래 전체 목록을 참조하십시오.
 
 Cloud Data Sense는 GDPR, CCPA, HIPAA 등과 같은 데이터 개인 정보 보호 및 민감도에 대한 새로운 데이터 규정 준수 규정을 해결하기 위해 미리 정의된 매개 변수(예: 중요한 정보 유형 및 범주)를 제공합니다.
 
