@@ -1490,7 +1490,6 @@
   <block id="a52e4cb36e71ec4390255e3ab7c8e576" category="list-text">인터넷 구성 시스템의 경우 에서 클라우드 데이터 감지 소프트웨어를 다운로드합니다<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>. 선택해야 하는 파일의 이름은 * DataSense-offline-bundle-&lt;version&gt;.tar.gz * 입니다.</block>
   <block id="efa6f10157137475f11a46219066d662" category="list-text">설치 프로그램 번들을 다크 사이트에서 사용할 Linux 호스트에 복사합니다.</block>
   <block id="1eecc2fcccd4fcb3cadd8bec3044d3bb" category="list-text">호스트 시스템에서 설치 프로그램 번들의 압축을 풉니다. 예를 들면 다음과 같습니다.</block>
-  <block id="8217ab0ac41d7e4a5ecd817cec445445" category="paragraph">필요한 소프트웨어와 실제 설치 파일 * cc_onprem_installer_&lt;version&gt;.tar.gz * 를 추출합니다.</block>
   <block id="49e341229d814a333d825781483ad07e" category="list-text">Cloud Manager를 시작하고 * Data Sense * 탭을 클릭합니다.</block>
   <block id="cce26d229722c6ca9257990a7091d9c0" category="list-text">Activate Data Sense * 를 클릭합니다.</block>
   <block id="af9d594fa710dc13ae352e89ff99e6a8" category="inline-image-macro">클라우드 데이터 센스를 활성화하기 위한 버튼을 선택하는 스크린샷</block>
@@ -1555,7 +1554,6 @@
   <block id="743663a45dfd2f9237dfcf266bf499a6" category="list-text">관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사하여 텍스트 파일에 저장합니다. 예를 들면 다음과 같습니다.</block>
   <block id="bb70d223e1e51328f09038d97ad81b07" category="paragraph">'SUDO./node_install.sh -m 10.11.12.13 -t abcdef-1-3u69m1-1s35212'를 참조하십시오</block>
   <block id="611c763bf4c9dbb7098d6afa814b754f" category="list-text">켜짐 * 각 * 스캐너 노드 호스트:</block>
-  <block id="b9e3003f18210174193c0810ea8ea236" category="list-text">Data Sense 설치 프로그램 파일(* cc_onpremise_installer_&lt;version&gt;.tar.gz *)을 호스트 컴퓨터에 복사합니다.</block>
   <block id="d3d41a6c99806d8a969b69a369935644" category="list-text">설치 프로그램 파일의 압축을 풉니다.</block>
   <block id="05c158c3674b19417f2abea1a13ea2f3" category="list-text">3단계에서 복사한 명령을 붙여 넣고 실행합니다.</block>
   <block id="184b6c7c3567a8ecd4dd8971fff94bfa" category="paragraph">모든 스캐너 노드에서 설치가 완료되고 관리자 노드에 연결되었으면 관리자 노드 설치도 완료됩니다.</block>
@@ -1958,7 +1956,6 @@
   <block id="42d1c021036734670ca245849e323735" category="admonition">소프트웨어가 사내에 설치된 경우 클라우드 데이터 센스에서 현재 Azure NetApp Files용 S3 버킷, ONTAP 또는 FSx를 스캔할 수 없습니다. 이 경우 클라우드 및 에 별도의 Connector와 데이터 센스의 인스턴스를 배포해야 합니다<block ref="7ef29812cbbbb10ee35427be73d0c671" category="inline-link-rx"></block> 다양한 데이터 소스에 대해</block>
   <block id="34dc49ad79c5d0ec1f3c661ca216a2a5" category="paragraph">단일 온프레미스 호스트에 Data Sense 소프트웨어를 설치할 때 다음 단계를 따르십시오.</block>
   <block id="7199b645acc24a52b20f838d1ed9b928" category="list-text">(선택 사항) 시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 및 Python 3)가 설치되어 있는지 확인합니다. 시스템에 설치되어 있지 않은 경우 설치 프로그램이 이 소프트웨어를 설치합니다.</block>
-  <block id="79a66f30e34f20fded2f221500a11bb4" category="list-text">에서 Cloud Data Sense 소프트웨어를 다운로드하십시오<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>. 선택해야 하는 파일의 이름은 * cc_onpremise_installer_&lt;version&gt;.tar.gz * 입니다.</block>
   <block id="bbdb5f5f026c712f36de4a68700316f5" category="list-text">설치 프로그램 파일을 사용하려는 Linux 호스트에 복사합니다(scp 또는 다른 방법 사용).</block>
   <block id="a7f360748435372720f8441cac0e45c8" category="list-text">Activate Data Sense * 를 클릭하여 온프레미스 배포 마법사를 시작합니다.</block>
   <block id="202436dc011fc7327435fdc5f118df63" category="paragraph"><block ref="202436dc011fc7327435fdc5f118df63" category="inline-image-macro-rx" type="image"></block></block>
@@ -1972,7 +1969,6 @@
   <block id="7fe5eab00f11de0e16f1783ba30c4723" category="list-text">사용 환경이 필요한 를 충족하는지 확인합니다 <block ref="30279dbc704eb5aee887c19477ab8cc7" category="inline-xref-macro-rx"></block>.</block>
   <block id="2f22ab4135a481a1450cf28cb5f05c26" category="list-text">에서 1단계부터 7단계까지 수행합니다 <block ref="ca10c193ae29117fbfb6ce9e3e248e8b" category="inline-xref-macro-rx"></block> 관리자 노드에서.</block>
   <block id="8b1cdcd166f0c70f7233d0d11c7bddf2" category="paragraph">단일 호스트 설치에 사용할 수 있는 변수 외에도 새 옵션 * -n&lt;node_ip&gt; * 를 사용하여 스캐너 노드의 IP 주소를 지정할 수 있습니다. 여러 스캐너 노드 IP는 쉼표로 구분됩니다.</block>
-  <block id="16169a6db19d22fec1bd9261b3bb4156" category="list-text">Data Sense 설치 프로그램 파일(* cc_onpremise_installer_&lt;version&gt;.tar.gz *)을 호스트 시스템('scp' 또는 기타 다른 방법 사용)에 복사합니다.</block>
   <block id="3f0a4de61ad13ce65d1a7332a726eb8d" category="list-text">3단계에서 복사한 명령을 붙여 넣고 실행합니다.</block>
   <block id="338bab1be2b874ad2e6906e8c71283d5" category="paragraph">Cloud Data Sense 설치 프로그램이 패키지, Docker 설치를 완료하고 설치를 등록합니다. 설치는 10분에서 20분 정도 걸릴 수 있습니다.</block>
   <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 Cloud Manager에 추가한 다음 지원을 위해 등록해야 합니다.</block>
@@ -2141,7 +2137,6 @@
   <block id="d8ea74d0bc0e6f3c5be22312a953d7fb" category="list-text">라이센스가 만료되기 30일 전에 라이센스가 만료되고 라이센스가 만료되면 다시 만료됩니다</block>
   <block id="e8c240ac70f9e6acaa6b979acb3be469" category="paragraph">이러한 경고가 표시되면 Cloud Manager 인터페이스 오른쪽 아래에 있는 채팅 아이콘을 사용하여 라이센스를 갱신하십시오.</block>
   <block id="c438a45ba498e9cee6eb5d6bb573e3dc" category="inline-xref">Cloud Data Sense 라이센스를 업데이트하는 방법</block>
-  <block id="6724e02efab0bd3c780354de786a5a3f" category="paragraph">그러면 설치 파일 * cc_onpremise_installer_&lt;version&gt;.tar.gz * 가 추출됩니다.</block>
   <block id="06087ea3885ed7ac53f2f14132359adc" category="paragraph">데이터 센스(Data Sense)는 해시 기술을 사용하여 중복 파일을 결정합니다. 파일에 다른 파일과 동일한 해시 코드가 있으면 파일 이름이 다르더라도 파일이 정확하게 중복되었는지 100% 확인할 수 있습니다.</block>
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">이 페이지에 제공된 "파일 해시" 값을 사용하여 조사 페이지에 직접 입력하여 특정 중복 파일을 언제든지 검색할 수도 있고, 정책에 사용할 수도 있습니다.</block>
   <block id="7d48333086004a7939c29f033e1bfad5" category="section-title">어두운 사이트에 배포할 때 OneDrive 및 SharePoint 데이터 스캔 지원</block>
@@ -2164,10 +2159,6 @@
   <block id="ead7d63a9d9b27cce1fef2638b16cffc" category="paragraph">BYOL 라이센스를 갱신하면 Cloud Manager가 Digital Wallet에서 라이센스를 자동으로 업데이트하고 모든 대시보드에 대한 모든 액세스를 제공합니다. Cloud Manager가 보안 인터넷 연결을 통해 라이센스 파일에 액세스할 수 없는 경우(예: 어두운 사이트에 설치된 경우) 직접 파일을 얻고 Cloud Manager에 수동으로 업로드할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="1f87c6b55e7e67883f99839aa3c20209" category="inline-xref-macro-rx"></block>.</block>
   <block id="becde272662faf1aa4393e2cd5fbf2f7" category="admonition">사용 중인 계정에 BYOL 라이센스와 PAYGO 구독이 모두 있는 경우, BYOL 라이센스가 만료되면 Data Sense_NOT_SHIFT가 PAYGO 구독으로 전환됩니다. BYOL 라이센스를 갱신해야 합니다.</block>
   <block id="14aeecf5ef82e6232639978162b42963" category="paragraph">데이터 전송 비용은 설정에 따라 다릅니다. Cloud Data Sense 인스턴스 및 데이터 소스가 동일한 가용성 영역 및 지역에 있는 경우 데이터 전송 비용이 발생하지 않습니다. 하지만 Cloud Volumes ONTAP 시스템 또는 S3 버킷과 같은 데이터 소스가 _different_Availability Zone 또는 지역에 있는 경우 클라우드 공급자가 데이터 전송 비용을 청구합니다. 자세한 내용은 다음 링크를 참조하십시오.</block>
-  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">NSS 계정을 추가합니다</block>
-  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">지원 대시보드를 이용하면 모든 NetApp Support 사이트 계정을 단일 위치에서 추가 및 관리할 수 있습니다.</block>
-  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">1인 등록</block>
-  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">아직 NetApp Support 사이트 계정이 없는 경우<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>.</block>
   <block id="0046efb3377274ff3215d4b30269809e" category="list-text">Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -2175,12 +2166,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
-  <block id="f5fb4199485234c409525f430b737010" category="paragraph">이 작업을 수행하면 Cloud Manager에서 NSS 계정을 사용할 수 있습니다.</block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">참고 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">계정을 등록하여 지원을 받을 수 있습니다</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">지원 등록은 지원 대시보드의 Cloud Manager에서 가능합니다.</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">Resources * 탭에서 * Register for Support * 를 클릭합니다.</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">등록할 NSS 자격 증명을 선택한 다음 * 등록 * 을 클릭합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
   <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
@@ -2713,7 +2698,6 @@
   <block id="7e48ad5341563470bfb17d87eb4abfc2" category="paragraph">이러한 방식으로 설치할 경우("오프라인" 또는 "다크" 사이트라고도 함) 데이터 센스(Data Sense)는 사내 사이트에도 로컬인 데이터 소스의 데이터만 스캔할 수 있습니다. 현재 Data Sense는 다음과 같은 * 로컬 * 데이터 소스를 스캔할 수 있습니다.</block>
   <block id="194dae59202982a0d0f86245341e5d21" category="paragraph">매우 안전한 Cloud Manager 설치가 필요하지만 OneDrive 계정 또는 SharePoint Online 계정에서도 로컬 데이터를 스캔하려는 특수한 상황에서는 Data Sense 오프라인 설치 관리자를 사용하여 몇 개의 선택 끝점에 대한 인터넷 액세스를 제공할 수 있습니다. 을 참조하십시오 <block ref="4422d2d61ce862ef7035c7cbbfd3b606" category="inline-xref-macro-rx"></block> 를 참조하십시오.</block>
   <block id="6b5e137e04da5c1898139a8a7f549614" category="paragraph">인터넷에 액세스할 수 없는 사이트에 Cloud Manager 및 Data Sense를 배포하는 경우, 몇 개의 특정 엔드포인트에 대한 인터넷 액세스를 제공하여 SharePoint Online 및 OneDrive 계정의 파일을 검색할 수 있습니다.</block>
-  <block id="6ac5fc2b8fd7793f54ecc4e08500a270" category="list-text">Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.14.x가 설치되어 있는 경우 1.15.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
   <block id="c6f85ba2c850ce9e6a70c3b08a6a69ce" category="cell">데이터 제목</block>
   <block id="3b2d0e0dc31143e6f51b137fffa0f7a2" category="list-text">데이터 감지 브레드크럼입니다</block>
   <block id="638bc83a47f3636cf5b909804535902e" category="paragraph">특정 콘텐츠 스캔을 일시적으로 중지하려면 리포지토리에서 스캔을 "일시 중지"할 수 있습니다. 이것은 스캐닝 "끄기"를 켜는 것과 다릅니다. 스캔이 꺼지면 해당 볼륨에 대한 모든 인덱싱 및 정보가 시스템에서 제거됩니다. 스캐닝을 일시 중지하면 데이터 센스에서 저장소에 대한 변경 또는 추가 사항을 향후 스캔을 수행하지 않지만 현재 모든 결과가 시스템에 계속 표시됩니다.</block>
@@ -2770,4 +2754,65 @@
   <block id="261826c213e3c9cbf53df120aaf0be3b" category="paragraph">Azure 및 Azure Government 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오<block ref="e1893ebf6f9d2e927a13d052b78eec9f" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Manager에 대한 알림</block>
   <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
+  <block id="2152258e1def6997a945ef8261b66bcc" category="paragraph">필요한 소프트웨어와 실제 설치 파일 * DATASENSE-INinstaller-V1.16.1.tar.gz * 를 추출합니다.</block>
+  <block id="7dcbe0be3e8e2a9fd658d871499bd050" category="list-text">데이터 감지 설치 프로그램 파일(* DATASENSE-INinstaller-&lt;version&gt;.tar.gz*)을 호스트 컴퓨터에 복사합니다.</block>
+  <block id="4866a563c343528540aa5c3529f908ca" category="list-text">Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어 1.15.x 버전이 설치되어 있는 경우 1.16.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
+  <block id="eb2cb5912ef10d2dcff7761bde0a5ace" category="paragraph">그러면 * DATASENSE-INinstaller-V1.16.1.tar.gz * 설치 파일이 추출됩니다.</block>
+  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 Cloud Manager에 추가한 다음 지원을 등록해야 합니다.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
+  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">Cloud Manager 계정 ID 지원 구독 등록(Cloud Manager의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
+  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">이 ID는 Cloud Manager 내의 모든 서비스에 대한 단일 지원 구독 ID로 사용됩니다. 각 Cloud Manager 계정 레벨 지원 구독을 등록해야 합니다.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
+  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">이러한 일련 번호를 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 구축 시 Cloud Manager에서 생성됩니다.</block>
+  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">두 유형의 제품 번호를 등록하면 지원 티켓 열기, 자동 케이스 생성 및 Active IQ 등의 기능을 사용할 수 있습니다.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">등록 방법은 신규 고객인지, 기존 고객인지 또는 파트너인지에 따라 다릅니다.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">기존 고객 또는 파트너</block>
+  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">기존 NetApp 고객 또는 파트너는 NSS(NetApp Support 사이트) SSO 계정을 사용하여 위에서 이러한 등록을 수행할 수 있습니다. 지원 대시보드에서 Cloud Manager는 NSS 계정을 추가할 수 있는 * NSS 관리 * 페이지를 제공합니다. NSS 계정을 추가하면 Cloud Manager에서 자동으로 이러한 일련 번호를 등록합니다.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSS 계정을 추가하는 방법에 대해 알아봅니다</block>
+  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp이 처음입니다</block>
+  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">NetApp이 처음인 파트너는 NetApp의 지원 등록 사이트에서 Cloud Manager 계정 ID 일련 번호를 한 번 등록해야 합니다. 이 등록을 완료하고 새 NSS 계정을 만들면 Cloud Manager에서 이 계정을 사용하여 앞으로 자동 등록할 수 있습니다.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">NetApp에 등록하는 방법을 알아보십시오</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">NSS 계정을 Cloud Manager에 추가합니다</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 Cloud Manager와 함께 사용할 수 있습니다.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
+  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">이러한 작업을 통해 Cloud Manager는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 가로 점으로 구성된 아이콘</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다. 이 ID는 이메일에 매핑되는 시스템에서 생성된 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴. 이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">NetApp에 등록</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
+  <block id="d4b6092976537c153c496a428098980c" category="paragraph">NSS 계정을 가진 NetApp 고객은 Cloud Manager를 통해 지원을 위해 등록하기만 하면 됩니다.</block>
+  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">아직 추가하지 않은 경우 NSS 계정을 Cloud Manager에 추가합니다.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Resources * 페이지에서 * Register for Support * 를 클릭합니다.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">계정 일련 번호 및 지원 등록 옵션을 보여 주는 스크린샷</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">기존 사용권 및 제품 번호를 가지고 있지만 _NO_NSS 계정을 가지고 있는 기존 NetApp 고객은 NSS 계정을 만들어야 합니다.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">를 완료하여 NetApp Support 사이트 계정을 생성합니다<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">적절한 사용자 레벨(일반적으로 * NetApp 고객/최종 사용자 *)을 선택해야 합니다.</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">일련 번호 필드에 위에서 사용된 Cloud Manager 계정 일련 번호(960xxxx)를 복사합니다. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp이 처음이었습니다</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetApp의 새로운 브랜드이고 NSS 계정이 없는 경우 아래의 각 단계를 수행하십시오.</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">지원 등록 페이지에서 Cloud Manager 계정 ID 일련 번호를 찾습니다.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp의 지원 등록 사이트</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">로 이동합니다<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 를 선택하고 * 등록된 NetApp 고객이 아닙니다 * 를 선택합니다.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">필수 필드(빨간색 별표가 있는 필드)를 입력합니다.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[제품 라인] * 필드에서 * Cloud Manager * 를 선택한 다음 해당 청구 공급자를 선택합니다.</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">위의 2단계에서 Cloud Manager 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 보안 트랜잭션을 완료하기 위해 제공된 사서함으로 즉시 이메일이 전송됩니다. 몇 분 내에 확인 이메일이 도착하지 않으면 스팸 폴더를 확인해야 합니다.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인합니다.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
+  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">NetApp Support 사이트 계정이 있으면 Cloud Manager로 이동하여 향후 등록을 위해 이 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="ed2556b43fbc83ef9623cb9a52ff0389" category="list-text">에서 Cloud Data Sense 소프트웨어를 다운로드하십시오<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>. 선택해야 하는 파일의 이름은 * DATASENSE-INinstaller-&lt;version&gt;.tar.gz * 입니다.</block>
+  <block id="67fe0972cc96651c7684b8e71ee21edd" category="list-text">데이터 감지 설치 프로그램 파일(* DATASENSE-INinstaller-&lt;version&gt;.tar.gz*)을 호스트 컴퓨터('scp' 또는 다른 방법 사용)에 복사합니다.</block>
 </blocks>
