@@ -38,7 +38,7 @@ Cloud Data Sense는 데이터 내에서 특정 단어, 문자열 및 패턴(Rege
 일부 개인 데이터 유형의 경우 데이터 센스에서 _근접성 검증_을 사용하여 결과를 검증합니다. 유효성 검사는 발견된 개인 데이터 근처에서 하나 이상의 미리 정의된 키워드를 찾는 방식으로 수행됩니다. 예를 들어, 데이터 센스에서 미국을 식별합니다 주민등록번호(SSN) 옆에 근접 단어가 있는 경우 주민등록번호로 사용 -- 예: _SSN_OR_Social security_. link:reference-private-data-categories.html#types-of-personal-data["개인 데이터 표"^] 데이터 센스에서 근접 유효성 검사를 사용하는 경우를 표시합니다.
 
 .단계
-. Cloud Manager의 왼쪽 탐색 메뉴에서 * 데이터 감지 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.
+. BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.
 . 모든 개인 데이터에 대한 세부 정보를 조사하려면 개인 데이터 백분율 옆에 있는 아이콘을 클릭합니다.
 +
 image:screenshot_compliance_personal.gif["개인 데이터 백분율 선택 스크린샷."]
@@ -73,7 +73,7 @@ Cloud Data Sense는 인공 지능(AI), 자연어 처리(NLP), 머신 러닝(ML) 
 NOTE: 민감한 개인 데이터를 검색할 때는 영어로만 지원됩니다. 더 많은 언어에 대한 지원은 나중에 추가됩니다.
 
 .단계
-. Cloud Manager의 왼쪽 탐색 메뉴에서 * 데이터 감지 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.
+. BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.
 . 중요한 모든 개인 데이터에 대한 세부 정보를 조사하려면 중요한 개인 데이터 백분율 옆에 있는 아이콘을 클릭합니다.
 +
 image:screenshot_compliance_sensitive_personal.gif["중요한 개인 데이터 비율을 선택하는 스크린샷."]
@@ -97,7 +97,7 @@ Cloud Data Sense는 스캔한 데이터를 다양한 유형의 범주로 나눕�
 NOTE: 영어, 독일어 및 스페인어가 범주에 지원됩니다. 더 많은 언어에 대한 지원은 나중에 추가됩니다.
 
 .단계
-. Cloud Manager의 왼쪽 탐색 메뉴에서 * 데이터 감지 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.
+. BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.
 . 기본 화면에서 직접 상위 4개 범주 중 하나에 대한 * 조사 결과 * 아이콘을 클릭하거나 * 모두 보기 * 를 클릭한 다음 범주 중 하나에 대한 아이콘을 클릭합니다.
 +
 image:screenshot_categories.gif["범주 옆에 있는 조사 결과 아이콘을 클릭할 수 있는 범주 대화 상자의 스크린샷"]
@@ -114,7 +114,7 @@ Cloud Data Sense는 스캔한 데이터를 파일 형식별로 분해합니다. 
 예를 들어 조직에 대한 매우 중요한 정보가 포함된 CAD 파일을 저장할 수 있습니다. 보안이 설정되지 않은 경우 사용 권한을 제한하거나 파일을 다른 위치로 이동하여 중요한 데이터를 제어할 수 있습니다.
 
 .단계
-. Cloud Manager의 왼쪽 탐색 메뉴에서 * 데이터 감지 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.
+. BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.
 . 기본 화면에서 직접 상위 4개 파일 유형 중 하나에 대한 * 조사 결과 * 아이콘을 클릭하거나 * 모두 보기 * 를 클릭한 다음 파일 유형에 대한 아이콘을 클릭합니다.
 +
 image:screenshot_file_types.gif["파일 형식 대화 상자의 스크린샷으로, 파일 형식 옆에 있는 결과 조사 아이콘을 클릭할 수 있습니다."]
@@ -139,7 +139,7 @@ image:screenshot_compliance_file_details.png["데이터 조사 페이지의 파�
 * 파일을 NFS 공유로 이동하거나 복사할 수 있습니다. 을 참조하십시오 link:task-managing-highlights.html#moving-source-files-to-an-nfs-share["소스 파일을 NFS 공유로 이동하는 중입니다"] 및 link:task-managing-highlights.html#copying-source-files["소스 파일을 NFS 공유에 복사하는 중입니다"] 를 참조하십시오.
 * 파일을 삭제할 수 있습니다. 을 참조하십시오 link:task-managing-highlights.html#deleting-source-files["원본 파일을 삭제하는 중입니다"] 를 참조하십시오.
 * 파일에 특정 상태를 할당할 수 있습니다. 을 참조하십시오 link:task-org-private-data.html#applying-tags-to-manage-your-scanned-files["태그 적용 중"] 를 참조하십시오.
-* 파일을 Cloud Manager 사용자에게 할당하여 파일에 대해 수행해야 하는 후속 작업을 책임질 수 있습니다. 을 참조하십시오 link:task-org-private-data.html#assigning-users-to-manage-certain-files["파일에 사용자 할당"] 를 참조하십시오.
+* 파일을 BlueXP 사용자에게 할당하여 파일에서 수행해야 하는 후속 작업을 처리할 수 있습니다. 을 참조하십시오 link:task-org-private-data.html#assigning-users-to-manage-certain-files["파일에 사용자 할당"] 를 참조하십시오.
 * AIP 레이블을 Cloud Data Sense와 통합한 경우 이 파일에 레이블을 지정하거나 이미 있는 경우 다른 레이블로 변경할 수 있습니다. 을 참조하십시오 link:task-org-private-data.html#assigning-aip-labels-manually["AIP 레이블을 수동으로 할당합니다"] 를 참조하십시오.
 
 

@@ -56,7 +56,7 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 
 
 
-인터넷에 연결되지 않은 사이트에 데이터 센스를 설치하는 경우, 인터넷에 연결되지 않은 동일한 사이트에 Cloud Manager Connector도 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["자세한 정보"^].
+인터넷에 연결되지 않은 사이트에 Data Sense를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP Connector도 같은 사이트에 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["자세한 정보"^].
 
 데이터 감지 소프트웨어로 업그레이드하는 것은 인스턴스에 인터넷 연결이 있는 한 자동으로 수행됩니다.
 

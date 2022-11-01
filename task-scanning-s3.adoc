@@ -41,7 +41,7 @@ Amazon S3 작업 환경을 선택하고 * 활성화 * 를 클릭한 다음 필�
 다음 요구사항은 S3 버킷 스캔에만 적용됩니다.
 
 [[policy-requirements]]
-Cloud Data Sense 인스턴스에 대해 IAM 역할을 설정합니다:: Cloud Data Sense는 계정의 S3 버킷에 연결하고 이를 스캔할 수 있는 권한이 필요합니다. 아래에 나열된 권한을 포함하는 IAM 역할을 설정합니다. Amazon S3 작업 환경에서 Data Sense를 활성화하면 Cloud Manager에서 IAM 역할을 선택하라는 메시지가 표시됩니다.
+Cloud Data Sense 인스턴스에 대해 IAM 역할을 설정합니다:: Cloud Data Sense는 계정의 S3 버킷에 연결하고 이를 스캔할 수 있는 권한이 필요합니다. 아래에 나열된 권한을 포함하는 IAM 역할을 설정합니다. BlueXP는 Amazon S3 작업 환경에서 데이터 센스를 활성화할 때 IAM 역할을 선택하라는 메시지를 표시합니다.
 +
 --
 [source, json]
@@ -93,9 +93,9 @@ NOTE: 프록시를 사용하여 인터넷을 통해 S3로 연결할 수는 없�
 
 == Cloud Data Sense 인스턴스 구축
 
-link:task-deploy-cloud-compliance.html["Cloud Manager에 클라우드 데이터 센스를 구축하십시오"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP에서 클라우드 데이터 센스를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
 
-Cloud Manager가 이 AWS 계정에서 S3 버킷을 자동으로 검색하여 Amazon S3 작업 환경에 표시되도록 AWS에 구축된 Connector를 사용하여 인스턴스를 구축해야 합니다.
+BlueXP가 이 AWS 계정에서 S3 버킷을 자동으로 검색하여 Amazon S3 작업 환경에 표시되도록 AWS에 구축된 Connector를 사용하여 인스턴스를 구축해야 합니다.
 
 * 참고: * S3 버킷을 스캔할 때는 현재 사내 위치에 클라우드 데이터 센스를 구축하는 것이 지원되지 않습니다.
 
@@ -108,7 +108,7 @@ Cloud Manager가 이 AWS 계정에서 S3 버킷을 자동으로 검색하여 Ama
 사전 요구 사항을 확인한 후 Amazon S3에서 클라우드 데이터 센스를 활성화합니다.
 
 .단계
-. Cloud Manager 왼쪽 탐색 메뉴에서 * Canvas * 를 클릭합니다.
+. BlueXP 왼쪽 탐색 메뉴에서 * 저장소 > Canvas * 를 클릭합니다.
 . Amazon S3 작업 환경을 선택합니다.
 +
 image:screenshot_s3_we.gif["Amazon S3 작업 환경 아이콘의 스크린샷"]
@@ -127,15 +127,15 @@ image:screenshot_s3_compliance_iam_role.gif["Cloud Data Sense에 대한 AWS IAM 
 
 TIP: 를 클릭하여 구성 페이지에서 작업 환경에 대한 규정 준수 검사를 활성화할 수도 있습니다 image:screenshot_gallery_options.gif[""] 버튼을 클릭하고 * 데이터 감지 활성화 * 를 선택합니다.
 
-Cloud Manager는 IAM 역할을 인스턴스에 할당합니다.
+BlueXP는 인스턴스에 IAM 역할을 할당합니다.
 
 
 
 == S3 버킷에서 규정 준수 스캔 활성화 및 비활성화
 
-Cloud Manager를 사용하여 Amazon S3에서 Cloud Data Sense를 사용하도록 설정한 후 다음 단계는 스캔할 버킷을 구성하는 것입니다.
+BlueXP에서 Amazon S3에서 클라우드 데이터 센스를 사용하도록 설정한 후 다음 단계는 스캔할 버킷을 구성하는 것입니다.
 
-Cloud Manager가 검사할 S3 버킷이 있는 AWS 계정에서 실행 중인 경우 해당 버킷을 검색하고 Amazon S3 작업 환경에 표시합니다.
+검사할 S3 버킷이 있는 AWS 계정에서 BlueXP가 실행되고 있으면 해당 버킷을 검색하여 Amazon S3 작업 환경에 표시합니다.
 
 클라우드 데이터 센스도 가능합니다  buckets from additional AWS accounts,서로 다른 AWS 계정에 있는 S3 버킷을 스캔합니다.
 

@@ -181,7 +181,7 @@ image:screenshot_compliance_sync_files_dialog.png["동기화 옵션을 선택할
 
 . 선택한 파일을 대상 위치에 동기화하려면 * 확인 * 을 클릭합니다.
 +
-Cloud Sync UI는 Cloud Manager에서 열립니다.
+Cloud Sync UI가 BlueXP에서 열립니다.
 
 +
 동기화 관계를 정의하라는 메시지가 표시됩니다. 소스 시스템은 데이터 센스에서 이미 선택한 리포지토리와 파일을 기반으로 미리 채워집니다.

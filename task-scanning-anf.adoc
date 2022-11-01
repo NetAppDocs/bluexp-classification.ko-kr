@@ -23,10 +23,10 @@ Azure NetApp Files용 클라우드 데이터 센스를 시작하려면 몇 단�
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
 [role="quick-margin-para"]
-Azure NetApp Files 볼륨을 스캔하기 전에 https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["구성을 검색하려면 Cloud Manager를 설정해야 합니다"^].
+Azure NetApp Files 볼륨을 스캔하기 전에 https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["구성을 검색하려면 BlueXP를 설정해야 합니다"^].
 
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["Cloud Manager에 클라우드 데이터 센스를 구축하십시오"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP에서 클라우드 데이터 센스를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
 
 [role="quick-margin-para"]
 Compliance * 를 클릭하고 * Configuration * 탭을 선택한 다음 특정 작업 환경의 볼륨에 대한 규정 준수 검사를 활성화합니다.
@@ -55,9 +55,9 @@ Compliance * > * Configuration * > * Edit CIFS Credentials * 를 클릭하고 �
 
 == 스캔할 Azure NetApp Files 시스템 검색
 
-스캔할 Azure NetApp Files 시스템이 Cloud Manager에 작업 환경으로 설정되어 있지 않으면 현재 캔버스에 추가할 수 있습니다.
+검사할 Azure NetApp Files 시스템이 BlueXP에 작업 환경으로 포함되어 있지 않은 경우 이 때 캔버스에 추가할 수 있습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["Cloud Manager에서 Azure NetApp Files 시스템을 검색하는 방법을 알아보십시오"^].
+https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["BlueXP에서 Azure NetApp Files 시스템을 검색하는 방법을 확인하십시오"^].
 
 
 
@@ -77,7 +77,7 @@ Azure NetApp Files 볼륨을 스캔할 때는 클라우드에 데이터 센스�
 
 Azure NetApp Files 볼륨에서 클라우드 데이터 센스를 활성화할 수 있습니다.
 
-. Cloud Manager의 왼쪽 탐색 메뉴에서 * 데이터 감지 * 를 클릭한 다음 * 구성 * 탭을 선택합니다.
+. BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭한 다음 * 구성 * 탭을 선택합니다.
 +
 image:screenshot_cloud_compliance_anf_scan_config.png["Cloud Data Sense 인스턴스를 구축한 직후 구성 탭의 스크린샷"]
 
@@ -106,7 +106,7 @@ Cloud Data Sense는 작업 환경에서 선택한 볼륨을 스캔하기 시작�
 . 클라우드 데이터 감지 인스턴스와 Azure NetApp Files용 볼륨이 포함된 각 네트워크 사이에 네트워크 연결이 있는지 확인하십시오.
 +
 
-NOTE: Azure NetApp Files의 경우 클라우드 데이터 감지는 Cloud Manager와 같은 영역에 있는 볼륨만 스캔할 수 있습니다.
+NOTE: Azure NetApp Files의 경우 클라우드 데이터 센스(Cloud Data Sense)는 BlueXP와 동일한 영역에 있는 볼륨만 스캔할 수 있습니다.
 
 . 데이터 감지 인스턴스에 대해 다음 포트가 열려 있는지 확인합니다.
 +
@@ -117,8 +117,7 @@ NOTE: Azure NetApp Files의 경우 클라우드 데이터 감지는 Cloud Manage
 . NFS 볼륨 내보내기 정책에 각 볼륨의 데이터에 액세스할 수 있도록 Data Sense 인스턴스의 IP 주소가 포함되어 있는지 확인합니다.
 . CIFS를 사용하는 경우 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 사용하여 데이터 센스를 제공합니다.
 +
-.. Cloud Manager 상단에서 * 데이터 감지 * 를 클릭합니다.
-.. Configuration * 탭을 클릭합니다.
+.. BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭한 다음 * 구성 * 탭을 선택합니다.
 +
 image:screenshot_cifs_credentials.gif["콘텐츠 창의 오른쪽 상단에서 사용할 수 있는 스캔 상태 단추를 보여 주는 규정 준수 탭의 스크린샷"]
 

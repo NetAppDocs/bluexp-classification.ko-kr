@@ -23,10 +23,10 @@ summary: 클라우드 데이터 센스를 사용하여 Cloud Volumes ONTAP 및 �
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
 [role="quick-margin-para"]
-볼륨을 스캔하려면 먼저 Cloud Manager에서 시스템을 작업 환경으로 추가해야 합니다.
+볼륨을 스캔하려면 먼저 시스템을 BlueXP의 작업 환경으로 추가해야 합니다.
 
-* Cloud Volumes ONTAP 시스템의 경우, 이러한 작업 환경을 Cloud Manager에서 이미 사용할 수 있어야 합니다
-* 사내 ONTAP 시스템의 경우, https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["Cloud Manager가 ONTAP 클러스터를 검색해야 합니다"^]
+* Cloud Volumes ONTAP 시스템의 경우 BlueXP에서 이러한 작업 환경을 사용할 수 있어야 합니다
+* 사내 ONTAP 시스템의 경우, https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["BlueXP는 ONTAP 클러스터를 검색해야 합니다"^]
 
 
 [role="quick-margin-para"]
@@ -60,9 +60,9 @@ Compliance * > * Configuration * > * Edit CIFS Credentials * 를 클릭하고 �
 
 == 스캔할 데이터 소스 검색
 
-스캔할 데이터 원본이 Cloud Manager 환경에 없으면 현재 캔버스에 추가할 수 있습니다.
+검사할 데이터 소스가 BlueXP 환경에 아직 없는 경우 현재 캔버스에 추가할 수 있습니다.
 
-Cloud Volumes ONTAP 시스템은 클라우드 관리자의 Canvas에서 이미 사용 가능해야 합니다. 사내 ONTAP 시스템의 경우 가 있어야 합니다 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["Cloud Manager가 이러한 클러스터를 검색합니다"^].
+Cloud Volumes ONTAP 시스템은 BlueXP의 Canvas에서 이미 사용 가능해야 합니다. 사내 ONTAP 시스템의 경우 가 있어야 합니다 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["BlueXP는 이러한 클러스터를 검색합니다"^].
 
 
 
@@ -72,7 +72,7 @@ Cloud Volumes ONTAP 시스템은 클라우드 관리자의 Canvas에서 이미 �
 
 인터넷을 통해 액세스할 수 있는 Cloud Volumes ONTAP 및 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행할 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드 데이터 센스를 클라우드에 배포합니다"^] 또는 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^].
 
-인터넷에 액세스할 수 없는 어두운 사이트에 설치된 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행해야 합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 동일한 사내 위치에 클라우드 데이터 센스를 배포합니다"^]. 또한 Cloud Manager Connector를 동일한 사내 위치에 구축해야 합니다.
+인터넷에 액세스할 수 없는 어두운 사이트에 설치된 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행해야 합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 동일한 사내 위치에 클라우드 데이터 센스를 배포합니다"^]. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.
 
 데이터 감지 소프트웨어로 업그레이드하는 것은 인스턴스에 인터넷 연결이 있는 한 자동으로 수행됩니다.
 
@@ -82,7 +82,7 @@ Cloud Volumes ONTAP 시스템은 클라우드 관리자의 Canvas에서 이미 �
 
 지원되는 모든 클라우드 공급자와 온프레미스 ONTAP 클러스터에서 Cloud Volumes ONTAP 시스템에서 클라우드 데이터 센스를 활성화할 수 있습니다.
 
-. Cloud Manager의 왼쪽 탐색 메뉴에서 * 데이터 감지 * 를 클릭한 다음 * 구성 * 탭을 선택합니다.
+. BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭한 다음 * 구성 * 탭을 선택합니다.
 +
 image:screenshot_cloud_compliance_we_scan_config.png["Cloud Data Sense 인스턴스를 구축한 직후 구성 탭의 스크린샷"]
 
@@ -122,8 +122,7 @@ Data Sense 인스턴스의 IP 주소에서 오는 트래픽에 대한 보안 그
 . NFS 볼륨 내보내기 정책에 각 볼륨의 데이터에 액세스할 수 있도록 Data Sense 인스턴스의 IP 주소가 포함되어 있는지 확인합니다.
 . CIFS를 사용하는 경우 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 사용하여 데이터 센스를 제공합니다.
 +
-.. Cloud Manager 상단에서 * 데이터 감지 * 를 클릭합니다.
-.. Configuration * 탭을 클릭합니다.
+.. BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭한 다음 * 구성 * 탭을 선택합니다.
 +
 image:screenshot_cifs_credentials.gif["콘텐츠 창의 오른쪽 상단에서 사용할 수 있는 스캔 상태 단추를 보여 주는 규정 준수 탭의 스크린샷"]
 
