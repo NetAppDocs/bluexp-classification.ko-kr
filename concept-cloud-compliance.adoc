@@ -104,6 +104,7 @@ Cloud Data Sense는 다음과 같은 유형의 데이터 소스에서 정형 데
 * Google 클라우드 스토리지
 * OneDrive 를 클릭합니다
 * SharePoint Online을 클릭합니다
+* SharePoint 사내(SharePoint Server)
 * Google 드라이브
 
 

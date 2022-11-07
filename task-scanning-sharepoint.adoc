@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-scanning-sharepoint.html 
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, sharepoint, sharepoint online, sharepoint on-premises, data sense 
-summary: Cloud Data Sense를 사용하여 SharePoint Online 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오. 
+summary: Cloud Data Sense를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오. 
 ---
 = SharePoint 계정 스캔 중
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Data Sense를 사용하여 SharePoint Online 계정의 파일 스
 
 
 [role="lead"]
-Cloud Data Sense를 사용하여 SharePoint Online 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오.
+Cloud Data Sense를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오.
 
 
 
@@ -41,6 +41,7 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 다음 필수 구성 요소를 검토하여 SharePoint 계정에서 Cloud Data Sense를 활성화할 준비가 되었는지 확인합니다.
 
 * 모든 SharePoint 사이트에 읽기 권한을 제공하는 SharePoint 계정에 대한 관리자 로그인 자격 증명이 있어야 합니다.
+* SharePoint 온-프레미스의 경우 SharePoint Server의 URL도 필요합니다.
 * 검색할 모든 데이터에 대해 SharePoint 사이트 URL의 줄 구분 목록이 필요합니다.
 
 
@@ -54,6 +55,7 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 +
 데이터 센스도 가능합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 온프레미스 위치에 배포되었습니다"^]. 그러나 SharePoint Online 파일을 검색하려면 몇 개의 선택 끝점에 인터넷 액세스를 제공해야 합니다. link:task-deploy-compliance-dark-site.html#sharepoint-and-onedrive-special-requirements["필요한 엔드포인트 목록은 여기 를 참조하십시오"].
 
+* SharePoint 온-프레미스의 경우 데이터 센스를 설치할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^] 또는 link:task-deploy-compliance-dark-site.html["인터넷 액세스가 없는 온프레미스 위치"^].
 
 
 인터넷에 연결되지 않은 사이트에 Data Sense를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP Connector도 같은 사이트에 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["자세한 정보"^].
@@ -79,9 +81,34 @@ SharePoint Online 계정이 작업 환경 목록에 추가됩니다.
 
 
 
+== SharePoint 온-프레미스 계정 추가
+
+사용자 파일이 있는 SharePoint 온-프레미스 계정을 추가합니다.
+
+.단계
+. 작업 환경 구성 페이지에서 * 데이터 소스 추가 * > * SharePoint 온-프레미스 계정 추가 * 를 클릭합니다.
++
+image:screenshot_compliance_add_sharepoint_onprem_button.png["SharePoint 온-프레미스 추가 단추를 클릭할 수 있는 구성 페이지의 스크린 샷"]
+
+. SharePoint 온-프레미스 서버에 로그인 대화 상자에서 다음 정보를 입력합니다.
++
+** "domain/user" 또는 "user@domain" 형식의 admin 사용자 및 admin 암호
+** SharePoint Server의 URL입니다
++
+image:screenshot_compliance_sharepoint_onprem.png["SharePoint 온-프레미스 계정의 로그인 정보를 보여 주는 스크린샷"]
+
+
+
+. 연결 * 을 클릭합니다.
+
+
+SharePoint 온-프레미스 계정이 작업 환경 목록에 추가됩니다.
+
+
+
 == 규정 준수 검사에 SharePoint 사이트 추가
 
-Cloud Data Sense에서 연결된 파일을 검사하도록 개별 SharePoint 사이트 또는 계정의 모든 SharePoint 사이트를 추가할 수 있습니다.
+Cloud Data Sense에서 연결된 파일을 검사하도록 개별 SharePoint 사이트 또는 계정의 모든 SharePoint 사이트를 추가할 수 있습니다. SharePoint Online 또는 SharePoint 온-프레미스 사이트를 추가할 때는 이 단계가 동일합니다.
 
 .단계
 . Configuration_ 페이지에서 SharePoint 계정의 * Configuration * 버튼을 클릭합니다.

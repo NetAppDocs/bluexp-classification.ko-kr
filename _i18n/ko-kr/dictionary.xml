@@ -173,7 +173,6 @@
   <block id="ea56ecd454d4962a21bd35be41237229" category="list-text">SharePoint Online 계정 추가 대화 상자에서 * SharePoint에 로그인 * 을 클릭합니다.</block>
   <block id="e61b097ecbac4c8e2db9675d4c9f64cb" category="list-text">나타나는 Microsoft 페이지에서 SharePoint 계정을 선택하고 필요한 관리자 사용자 및 암호를 입력한 다음 * 수락 * 을 클릭하여 Cloud Data Sense가 이 계정에서 데이터를 읽을 수 있도록 합니다.</block>
   <block id="88f6018b4c4004a32e426fcb13381212" category="section-title">규정 준수 검사에 SharePoint 사이트 추가</block>
-  <block id="01ad50a8c51cb7caa81313f1655cae00" category="paragraph">Cloud Data Sense에서 연결된 파일을 검사하도록 개별 SharePoint 사이트 또는 계정의 모든 SharePoint 사이트를 추가할 수 있습니다.</block>
   <block id="32d4436877412c0a858739daddb125a4" category="list-text">Configuration_ 페이지에서 SharePoint 계정의 * Configuration * 버튼을 클릭합니다.</block>
   <block id="eeca65dd888a9508e6e72469e53273ff" category="inline-image-macro">구성 버튼을 선택할 수 있는 Scan Configuration(스캔 구성) 페이지의 스크린 샷</block>
   <block id="bf65515a2a1389b2c93cbb10daab04e7" category="paragraph"><block ref="bf65515a2a1389b2c93cbb10daab04e7" category="inline-image-macro-rx" type="image"></block></block>
@@ -1330,8 +1329,6 @@
   <block id="89e9a6544756c0accca2b5115f0e1fbb" category="paragraph">조사 창에서 파일을 수동으로 삭제하거나 정책을 자동으로 사용할 수 있습니다.</block>
   <block id="59e754650981360e03b49e1eab4a76eb" category="admonition">데이터베이스에 있는 파일은 삭제할 수 없습니다.</block>
   <block id="5415e45b4bcc0ac609070c6e72408406" category="paragraph">파일을 삭제하려면 다음 권한이 필요합니다.</block>
-  <block id="19fe3b32fa84a43c2c4cfebef0942ebf" category="list-text">NFS 데이터의 경우 - 내보내기 정책을 쓰기 권한으로 정의해야 합니다.</block>
-  <block id="1383ae42dc4cdbe813b8892b576bc302" category="list-text">CIFS 데이터의 경우 - CIFS 자격 증명에 쓰기 권한이 있어야 합니다.</block>
   <block id="e9d85b8e3ea5257d3468eb6f787a1fcd" category="list-text">S3 데이터의 경우 - IAM 역할에는 's3:DeleteObject' 권한이 포함되어야 합니다.</block>
   <block id="6a73b2e7e212b654de2a1932805f983e" category="section-title">소스 파일을 수동으로 삭제하는 중입니다</block>
   <block id="b625bf3592e2928981ee61c2a8d659a8" category="list-text">파일을 삭제하려면 계정 관리자 또는 작업 영역 관리자 역할이 있어야 합니다.</block>
@@ -2366,7 +2363,6 @@
   <block id="e6860b78555fc79d4429acb5534cf51b" category="paragraph">조직에 맞는 검색 결과를 제공하는 사용자 지정 정책을 만들 수 있습니다. 검색 기준과 일치하는 모든 파일 및 디렉토리(공유 및 폴더)에 대한 결과가 반환됩니다.</block>
   <block id="5587c065d5a62295455b157389cd71e5" category="paragraph">정책 결과에 따라 데이터를 삭제하고 AIP 레이블을 할당하는 작업은 파일에만 유효합니다. 검색 기준과 일치하는 디렉토리는 자동으로 삭제하거나 할당 AIP 레이블을 지정할 수 없습니다.</block>
   <block id="90915c385560094095567649cbd732aa" category="section-title">파일 및 디렉토리에 대한 권한 보기</block>
-  <block id="ef86e9a879fad347d62a184c49f26eb6" category="paragraph">파일이나 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹의 목록과 해당 권한이 있는 권한 유형을 보려면 * 모든 권한 보기 * 를 클릭합니다. 이 버튼은 CIFS 공유, SharePoint, OneDrive의 데이터에만 사용할 수 있습니다.</block>
   <block id="b242cddbb1cb85737a2fd06f1d715934" category="paragraph">또한, 사용자 또는 그룹의 이름을 클릭하면 "사용자/그룹 권한" 필터에 입력된 사용자 또는 그룹의 이름과 함께 조사 페이지가 표시되어 사용자 또는 그룹이 액세스할 수 있는 모든 파일 및 디렉터리를 볼 수 있습니다.</block>
   <block id="3e75ffa254c777c4ea8d93dfbb0b6eba" category="paragraph">+ 데이터 감지 분류 검사로 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 쓰기 속성 권한이 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="8a45623b5a3c251ed21845e747d3e9fa" category="paragraph">CIFS 볼륨/파일 공유의 경우 데이터 감지 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 쓰기 속성 권한이 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
@@ -2527,7 +2523,6 @@
   <block id="d6933caaf62074fc0c3e63f604181712" category="inline-link">Breadcrumb 파일을 만드는 방법에 대해 자세히 알아보십시오</block>
   <block id="368538217a4a98d2d78bf94a224b8eb6" category="paragraph">이제 Data Sense는 Breadcrumb 파일을 Compliance Dashboard에 나타나는 범주의 일부로 인식합니다. 소스 위치에서 NFS 공유로 파일을 이동할 때 데이터 센스에서 생성되는 파일입니다.<block ref="fd6931884959497f6c1600e29f97b838" category="inline-link-rx"></block>.</block>
   <block id="636d406982c471ea6a3e9f3a5d5f7f1f" category="paragraph">또한 조사 페이지에서 검색을 수행할 때 "범주" 아래의 "데이터 감지 브레드크럼"을 선택하여 데이터 감지 브레드크럼 파일만 볼 수 있습니다.</block>
-  <block id="23e2985b503ea96a8cdf22916427a97d" category="summary">Cloud Data Sense를 사용하여 SharePoint Online 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오.</block>
   <block id="758462d66cb32533f49360d3b98e28c4" category="paragraph">다음 필수 구성 요소를 검토하여 SharePoint 계정에서 Cloud Data Sense를 활성화할 준비가 되었는지 확인합니다.</block>
   <block id="19814c236f94ff3af850cb182f35add5" category="inline-link-macro">인터넷에 액세스할 수 있는 온-프레미스 위치에 설치됩니다</block>
   <block id="1834f32ba8d3eab040f5ce5755a6ad8a" category="list-text">SharePoint Online의 경우 데이터 감지로 설정할 수 있습니다 <block ref="879c41e64fac303868428ba32472ed0b" category="inline-link-macro-rx"></block> 또는 <block ref="1303820445af3a7c87be9fbd1bbc30ad" category="inline-link-macro-rx"></block>.</block>
@@ -2537,17 +2532,13 @@
   <block id="c5545572ea4069cfaa50e205fd80e522" category="inline-image-macro">SharePoint Online 추가 단추를 클릭할 수 있는 구성 페이지의 스크린 샷</block>
   <block id="500f464a497c67b1e8f3311a5a3f32dc" category="paragraph"><block ref="500f464a497c67b1e8f3311a5a3f32dc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c078bb07b1ad7af1cc0f5b29159fb618" category="paragraph">SharePoint Online 계정이 작업 환경 목록에 추가됩니다.</block>
-  <block id="ea790b7cfc239ef4ea62089738c6fcba" category="list-text">SharePoint Online 계정</block>
   <block id="7e48ad5341563470bfb17d87eb4abfc2" category="paragraph">이러한 방식으로 설치할 경우("오프라인" 또는 "다크" 사이트라고도 함) 데이터 센스(Data Sense)는 사내 사이트에도 로컬인 데이터 소스의 데이터만 스캔할 수 있습니다. 현재 Data Sense는 다음과 같은 * 로컬 * 데이터 소스를 스캔할 수 있습니다.</block>
   <block id="c6f85ba2c850ce9e6a70c3b08a6a69ce" category="cell">데이터 제목</block>
   <block id="3b2d0e0dc31143e6f51b137fffa0f7a2" category="list-text">데이터 감지 브레드크럼입니다</block>
   <block id="638bc83a47f3636cf5b909804535902e" category="paragraph">특정 콘텐츠 스캔을 일시적으로 중지하려면 리포지토리에서 스캔을 "일시 중지"할 수 있습니다. 이것은 스캐닝 "끄기"를 켜는 것과 다릅니다. 스캔이 꺼지면 해당 볼륨에 대한 모든 인덱싱 및 정보가 시스템에서 제거됩니다. 스캐닝을 일시 중지하면 데이터 센스에서 저장소에 대한 변경 또는 추가 사항을 향후 스캔을 수행하지 않지만 현재 모든 결과가 시스템에 계속 표시됩니다.</block>
   <block id="f976bf2eff4504fae0fc49c0115018dc" category="section-title">기존 리포지토리에 대한 데이터를 다시 스캔하고 있습니다</block>
-  <block id="31708d59045759b74bc21fc59af3a403" category="paragraph">Data Sense는 데이터를 지속적으로 스캔하여 추가한 저장소의 증분 변경 사항을 감지합니다. 그러나 시스템이 모든 환경을 검색하는 데 시간이 걸리며, 스캔된 저장소의 순서를 제어할 방법이 없습니다. 따라서 특정 리포지토리를 즉시 다시 스캔하여 변경 내용이 시스템에 반영되도록 해야 하는 경우 리포지토리를 선택하고 다시 검색할 수 있습니다. 이렇게 하면 다른 데이터 앞에 특정 데이터를 우선적으로 스캔할 수 있습니다. 재검색 작업이 완료되면 선택한 리포지토리가 정상 데이터 감지 일정 아래에 스캔되는 상태로 돌아갑니다.</block>
-  <block id="3f4d6d8bcb45a73e9e3df2c012ea6aac" category="admonition">현재 단일 디렉토리(폴더 또는 공유) 재검색 기능을 지원합니다. 향후 지원에는 추가 리포지토리 유형(파일, 데이터베이스 등)을 다시 스캔하는 것이 포함됩니다.</block>
   <block id="62796d34bcb4d2217e01776ba00d5ea0" category="list-text">디렉토리를 다시 검색하는 경우 디렉토리 내의 모든 파일이 다시 스캔되지만 디렉토리 내의 하위 폴더는 다시 검색되지 않습니다.</block>
   <block id="4e67a9dec79298e79d1abf05ea540fbc" category="list-text">공유를 다시 검색하는 경우 공유의 메타데이터만 다시 스캔됩니다.</block>
-  <block id="d489d7f150167fe801b5b652633601a6" category="list-text">데이터 조사 결과 창에서 다시 검색할 폴더 또는 공유를 선택하고 * 다시 검사 * 를 클릭합니다.</block>
   <block id="b8f66688483b508da89754659d7ca8fa" category="inline-image-macro">디렉터리를 선택하고 다시 검색하는 방법을 보여 주는 스크린샷</block>
   <block id="47ee282369061686a925d31dfbc358ad" category="paragraph"><block ref="47ee282369061686a925d31dfbc358ad" category="inline-image-macro-rx" type="image"></block></block>
   <block id="df296aafcd928770ac9559dc3f65f303" category="list-text">_Rescan Directory_대화 상자에서 * Rescan * 을 클릭합니다.</block>
@@ -2774,7 +2765,6 @@
   <block id="f68bf28051d836364652b5a91d1bcd3a" category="list-text">BlueXP 계정 ID(지원 사이트에서 테넌트 ID라고 함)를 입력하고 * 제출 * 을 클릭하여 라이센스 파일을 다운로드합니다.</block>
   <block id="257ff1df6b80ed0bf9b3463d53be79f9" category="paragraph">BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 클릭하여 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다.</block>
   <block id="6133ada86097c88db165589bae1ab6db" category="paragraph">BlueXP 계정에 대한 Cloud Data Sense 라이센스를 구입한 후 Data Sense 서비스를 사용하려면 BlueXP에 라이센스를 추가해야 합니다.</block>
-  <block id="66ed18a6f50ac9d36800c5e1615cd6d8" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 * Governance &gt; Digital Wallet * 을 클릭한 다음 * Data Services Licenses * 탭을 선택합니다.</block>
   <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">NSS 계정을 BlueXP에 추가합니다</block>
   <block id="fc76651edf85f11e6b8f2a81226ab59d" category="paragraph">드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우<block ref="6d9745cd4f1d60b55f06aef4c5cb6ec4" category="inline-link-rx"></block>.</block>
   <block id="1694c3bbf6a8c4ec4d66bc57c582f5be" category="paragraph">BlueXP는 클라우드 데이터 감지 서비스가 활성화되도록 라이센스를 추가합니다.</block>
@@ -2813,4 +2803,105 @@
   <block id="e4f8a35ee8df8b5c247f6e3286e42891" category="sidebar">BlueXP 활용 사례</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
+  <block id="cd02721523de57441e385fc64cc693cc" category="list-text">SharePoint 사내 계정(SharePoint Server)</block>
+  <block id="4ce17fa0fb7143d2e32c031ba0514f14" category="paragraph">SharePoint 온-프레미스 계정은 인터넷 액세스를 제공하지 않고도 검색할 수 있습니다.</block>
+  <block id="97f34c43cfd5abbd752382f17f44c9a2" category="list-text">BlueXP 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭합니다.</block>
+  <block id="4bb7a83842b1271682b6be62080707cb" category="list-text">SharePoint Online 및 온-프레미스 계정</block>
+  <block id="e83ddd1a0d6942fff435d08a6e6cf089" category="list-text">SharePoint 사내(SharePoint Server)</block>
+  <block id="2eea36d0618e376db5de07c489ee5732" category="paragraph">Data Sense는 데이터를 지속적으로 스캔하여 추가한 저장소의 증분 변경 사항을 감지합니다. 그러나 시스템이 모든 환경을 검색하는 데 시간이 걸리며, 스캔된 저장소의 순서를 제어할 방법이 없습니다. 변경 내용이 시스템에 반영되도록 특정 리포지토리를 즉시 다시 스캔해야 하는 경우 리포지토리를 선택하고 다시 검색할 수 있습니다. 이렇게 하면 다른 데이터 앞에 특정 데이터를 우선적으로 스캔할 수 있습니다. 재검색 작업이 완료되면 선택한 리포지토리가 정상 데이터 감지 일정 아래에 스캔되는 상태로 돌아갑니다.</block>
+  <block id="be8f7b71bcdd95248fbb596ccd26d0cd" category="paragraph">Data Sense는 Amazon S3 및 데이터베이스를 제외한 모든 데이터 소스 유형의 디렉토리 스캔을 지원합니다. 현재 단일 디렉토리(폴더 또는 공유) 또는 여러 디렉토리 재검색 기능을 지원합니다. 향후 지원에는 추가 리포지토리 유형(파일, 데이터베이스 등)을 다시 스캔하는 것이 포함됩니다.</block>
+  <block id="1174d989c9d4a376553a67cf5fde5d2f" category="list-text">데이터 조사 결과 창에서 다시 검색할 폴더 또는 공유를 선택하고 * 다시 검사 * 를 클릭합니다.</block>
+  <block id="63b5e3800169be764659ac4b2aaa975e" category="summary">Cloud Data Sense를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오.</block>
+  <block id="dd5ebefe18289742811faf4ca70e23a7" category="list-text">SharePoint 온-프레미스의 경우 SharePoint Server의 URL도 필요합니다.</block>
+  <block id="34de52267615715bf82d13113a412202" category="inline-link-macro">인터넷 액세스가 없는 온프레미스 위치</block>
+  <block id="15e640cc3ce1b71bc324c603c209cdb1" category="list-text">SharePoint 온-프레미스의 경우 데이터 센스를 설치할 수 있습니다 <block ref="5433f857b708e940349e34ece6281ba0" category="inline-link-macro-rx"></block> 또는 <block ref="a9e45dedd045b23b06be5ebd4c9f12fb" category="inline-link-macro-rx"></block>.</block>
+  <block id="84de4ddab93b53bc52787739124b3f41" category="section-title">SharePoint 온-프레미스 계정 추가</block>
+  <block id="b83dcf827f9dafc185d667a058c49163" category="paragraph">사용자 파일이 있는 SharePoint 온-프레미스 계정을 추가합니다.</block>
+  <block id="081a5adff8a9580eefaf4092a2a99a0c" category="list-text">작업 환경 구성 페이지에서 * 데이터 소스 추가 * &gt; * SharePoint 온-프레미스 계정 추가 * 를 클릭합니다.</block>
+  <block id="7f891a59bb0760dc8992476caf7f462d" category="inline-image-macro">SharePoint 온-프레미스 추가 단추를 클릭할 수 있는 구성 페이지의 스크린 샷</block>
+  <block id="cc42c3dd2f91cfb3af8741f594aa93b4" category="paragraph"><block ref="cc42c3dd2f91cfb3af8741f594aa93b4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0a0b39242ae25e175257f594645caa9c" category="list-text">SharePoint 온-프레미스 서버에 로그인 대화 상자에서 다음 정보를 입력합니다.</block>
+  <block id="2c20c09cb09dd6b89e62d46961d163f6" category="list-text">"domain/user" 또는 "user@domain" 형식의 admin 사용자 및 admin 암호</block>
+  <block id="44d06baf36f8b3b94c521de9881b645a" category="list-text">SharePoint Server의 URL입니다</block>
+  <block id="705c95e52218937433dcff542ff87bc9" category="inline-image-macro">SharePoint 온-프레미스 계정의 로그인 정보를 보여 주는 스크린샷</block>
+  <block id="f557d93a0c72d29eca2f649de7b27d3e" category="paragraph"><block ref="f557d93a0c72d29eca2f649de7b27d3e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9bccd838ddedeb361e65189136ac5c0f" category="list-text">연결 * 을 클릭합니다.</block>
+  <block id="bd0bbfcbb56b70d84742e38243f454e6" category="paragraph">SharePoint 온-프레미스 계정이 작업 환경 목록에 추가됩니다.</block>
+  <block id="c0748b269ad4c2f473312e824f1c1282" category="paragraph">Cloud Data Sense에서 연결된 파일을 검사하도록 개별 SharePoint 사이트 또는 계정의 모든 SharePoint 사이트를 추가할 수 있습니다. SharePoint Online 또는 SharePoint 온-프레미스 사이트를 추가할 때는 이 단계가 동일합니다.</block>
+  <block id="8d080a0104c2b8b29f5fc2be913926af" category="list-text">BlueXP 메뉴에서 * Governance &gt; Digital Wallet * 을 클릭한 다음 * Data Services Licenses * 탭을 선택합니다.</block>
+  <block id="3aa95927284ca0cd4e7737dd41a53153" category="list-text">소스 파일은 온-프레미스 ONTAP, Cloud Volumes ONTAP, Azure NetApp Files, 파일 공유 및 SharePoint Online 데이터 원본에 위치할 수 있습니다.</block>
+  <block id="52cd2f737a295e43ee2f51fe52c772a4" category="list-text">NFS 데이터의 경우 - 내보내기 정책을 쓰기 권한으로 정의해야 합니다.</block>
+  <block id="2a500e3681b7e207d0d6c159ff2008ab" category="list-text">CIFS 데이터의 경우 - CIFS 자격 증명에 쓰기 권한이 있어야 합니다.</block>
+  <block id="2657135ace802974c1da59a8b1c975ae" category="paragraph">페타바이트 단위의 데이터를 스캔할 수 있는 대규모 구성의 경우 여러 호스트를 포함하여 처리 능력을 높일 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 관리자 노드라고 하며 추가 처리 기능을 제공하는 추가 시스템을 스캐너 노드라고 합니다.</block>
+  <block id="6668c5a05c34ac9059616c249cfb56c8" category="paragraph">데이터 센스를 설치할 때 커넥터 시스템의 IP 주소 또는 호스트 이름이 필요합니다. 이 정보는 구내에 Connector를 설치한 경우 확인할 수 있습니다. Connector가 클라우드에 배포된 경우 BlueXP 콘솔에서 이 정보를 찾을 수 있습니다. 도움말 아이콘을 클릭하고 * 지원 * 을 선택한 다음 * BlueXP 커넥터 * 를 클릭합니다.</block>
+  <block id="054d10b91a2e5ce49cf12f8ebacd96f3" category="section-title">기존 배포에 스캐너 노드를 추가합니다</block>
+  <block id="0a4316eaec4759a96358821b3d6d871e" category="paragraph">데이터 원본을 스캔하기 위해 스캔 처리 성능이 더 필요한 경우 스캐너 노드를 더 추가할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다. 예를 들어 데이터 소스 중 하나에 있는 데이터의 양이 6개월 후 두 배 또는 세 배 증가했다는 사실을 알고 있는 경우 데이터 스캔을 지원하기 위해 새 스캐너 노드를 추가할 수 있습니다.</block>
+  <block id="f114439eeb05a82baaead56da0d70a54" category="paragraph">다음 두 가지 방법으로 스캐너 노드를 추가할 수 있습니다.</block>
+  <block id="5df28ba528c6160d29730e9d7fc50471" category="list-text">노드를 추가하여 모든 데이터 소스 스캔에 도움을 줍니다</block>
+  <block id="fa1e8da616696722350d1aa06d5a273e" category="list-text">특정 데이터 소스 또는 특정 데이터 소스 그룹을 스캔하는 데 도움이 되는 노드를 추가합니다</block>
+  <block id="0047b4042b118692c1d7c579abdeaefe" category="paragraph">기본적으로 새로 추가한 스캐너 노드는 스캔 리소스의 일반 풀에 추가됩니다. 이를 "기본 스캐너 그룹"이라고 합니다. 아래 이미지의 "기본" 그룹에는 6개 데이터 소스 모두의 스캔 데이터인 1개의 관리자 노드와 3개의 스캐너 노드가 있습니다.</block>
+  <block id="d414af5a3d730e6b3c5c5e5fbf1791e5" category="inline-image-macro">기본 스캐너 그룹에 있을 때 Data Sense 스캐너가 데이터 소스를 스캔하는 방식에 대한 다이어그램</block>
+  <block id="12c492323fc8337000638fc92adb63ed" category="paragraph"><block ref="12c492323fc8337000638fc92adb63ed" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a3432599109f7df0141552646ecd8656" category="paragraph">데이터 원본에 물리적으로 가까운 스캐너 노드에서 스캔할 특정 데이터 원본이 있는 경우 스캐너 노드 또는 스캐너 노드 그룹을 정의하여 특정 데이터 원본 또는 데이터 원본 그룹을 스캔할 수 있습니다. 아래 이미지에는 관리자 노드 1개와 스캐너 노드 3개가 있습니다.</block>
+  <block id="96990c600d9debe09076ef4bcf06d1eb" category="list-text">Manager 노드는 "기본" 그룹에 있으며 1개의 데이터 소스를 스캔하고 있습니다</block>
+  <block id="042304bf8365f5eb21d79ca01b78d44d" category="list-text">스캐너 노드 1은 "United_states" 그룹에 있으며 2개의 데이터 소스를 스캔하고 있습니다</block>
+  <block id="fce59aaa378d30cc0381e7eefc22f0ca" category="list-text">스캐너 노드 2와 3은 "유럽" 그룹에 속하며 3개의 데이터 원본에 대한 스캔 작업을 공유합니다</block>
+  <block id="9d7dc7639904ccb8e1db5fe8b66a053d" category="inline-image-macro">Data Sense 스캐너가 다른 스캐너 그룹에 할당될 때 데이터 소스를 스캔하는 방식에 대한 다이어그램</block>
+  <block id="0aee369ca72252e15ae52eab49c490e5" category="paragraph"><block ref="0aee369ca72252e15ae52eab49c490e5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="19d6201e87dae3fa4ec8ec44fbbdd5bc" category="paragraph">데이터 감지 스캐너 그룹은 데이터가 저장되는 별도의 지리적 영역으로 정의할 수 있습니다. 전 세계에 여러 데이터 감지 스캐너 노드를 배포하고 각 노드에 대해 스캐너 그룹을 선택할 수 있습니다. 이렇게 하면 각 스캐너 노드가 가장 가까운 데이터를 스캔합니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다.</block>
+  <block id="86583308815327287cf1990b6a29a13d" category="paragraph">데이터 센스에 추가할 스캐너 그룹을 선택하고 이름을 선택할 수 있습니다. Data Sense는 "유럽"이라는 스캐너 그룹에 매핑된 노드가 유럽에 구축되도록 강제하지 않습니다.</block>
+  <block id="e40e38588328711920f39cabcf18dcd1" category="paragraph">다음 단계에 따라 추가 Data Sense 스캐너 노드를 설치합니다.</block>
+  <block id="f8655d78a4818956ec9919a65a7f089b" category="list-text">스캐너 노드로 사용할 Linux 호스트 시스템을 준비합니다</block>
+  <block id="c9680eb28f36717df9004e52c8105d05" category="list-text">이 Linux 시스템에 Data Sense 소프트웨어를 다운로드하십시오</block>
+  <block id="c65de7b0c08505f3e13c93ead522765f" category="list-text">Manager 노드에서 명령을 실행하여 스캐너 노드를 식별합니다</block>
+  <block id="0f80e57c86ea1bf667a2898a564c0787" category="list-text">스캐너 노드에 소프트웨어를 배포하려면 다음 단계를 따르십시오(각 스캐너 노드에 대해 "스캐너 그룹"을 선택적으로 정의).</block>
+  <block id="37151576493b3aebc74476f19e767278" category="list-text">스캐너 그룹을 정의한 경우 관리자 노드에서 다음을 수행합니다.</block>
+  <block id="5a838e350187be3ad79ae1b63fe95a2b" category="list-text">"working_environment_to_scanner_group_config.yml" 파일을 열고 각 스캐너 그룹이 스캔할 작업 환경을 정의합니다</block>
+  <block id="e2e3eb36b60cbca43e892318b81f3968" category="list-text">다음 스크립트를 실행하여 모든 스캐너 노드에 이 매핑 정보를 등록합니다. "update_we_scanner_group_from_config_file.sh"</block>
+  <block id="02d7e4f0f1520dae85025d3974fbed76" category="list-text">스캐너 노드의 모든 Linux 시스템이 을 충족하는지 확인합니다 <block ref="2d54aecca24274aa47c2fb620cd7d497" category="inline-xref-macro-rx"></block>.</block>
+  <block id="b24a973a5aa3fefd5ec9cba471feff39" category="list-text">추가하려는 스캐너 노드 호스트의 IP 주소가 있어야 합니다.</block>
+  <block id="381a200bbbe3c44cfbf711f7668b21fe" category="list-text">Data Sense Manager 노드 호스트 시스템의 IP 주소가 있어야 합니다</block>
+  <block id="9a32f4baaf4784969a37289509630325" category="list-text">커넥터 시스템의 IP 주소 또는 호스트 이름, NetApp 계정 ID, 커넥터 클라이언트 ID 및 사용자 액세스 토큰이 있어야 합니다. 이 정보를 보려면 아래의 _필수 단계_를 참조하십시오.</block>
+  <block id="dc70c7be1ad69578d1109a6df390121c" category="list-text">계정의 각 데이터 소스에 대해 _ 작업 환경 ID _ 을(를) 알아야 합니다. 요청 사항은 ng-contact-data-sense@netapp.com 으로 NetApp에 문의하십시오.</block>
+  <block id="e498e68245d2d68d5d4b94b2fd3a608f" category="paragraph">다음 단계에 따라 스캐너 노드를 추가하는 데 필요한 NetApp 계정 ID, 커넥터 클라이언트 ID, 커넥터 서버 이름 및 사용자 액세스 토큰을 얻습니다.</block>
+  <block id="eabdc901feba22c87ee7a01af9e34801" category="list-text">BlueXP 메뉴 표시줄에서 * 계정 &gt; 계정 관리 * 를 클릭합니다.</block>
+  <block id="f5ffeabde3d0f311232b751083215871" category="inline-image-macro">BlueXP 계정 세부 정보의 스크린샷.</block>
+  <block id="fa64916819288af5c8c616d80ff8c824" category="paragraph"><block ref="fa64916819288af5c8c616d80ff8c824" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="146d19c418f2c6c81536f28aa8c7bf6c" category="list-text">계정 ID _ 을(를) 복사합니다.</block>
+  <block id="854bcb8a525626fd08f8d87ffe0c041a" category="list-text">BlueXP 메뉴 모음에서 * 도움말 &gt; 지원 &gt; BlueXP 커넥터 * 를 클릭합니다.</block>
+  <block id="91b88d5bc6686e901520c8c6a109242f" category="inline-image-macro">BlueXP 커넥터 구성 설정 스크린샷</block>
+  <block id="1b2f697aae0e3b9b314fa04d847f3c19" category="paragraph"><block ref="1b2f697aae0e3b9b314fa04d847f3c19" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c65db7be59edaf2b09cc38b7c56763c6" category="list-text">커넥터_클라이언트 ID_ 및 _서버 이름_을 복사합니다.</block>
+  <block id="b082b3834881d0e39e85d933337fa35f" category="inline-link">API 설명서 개발자 허브</block>
+  <block id="e3aca1bee4b16554fd364b73482af4f3" category="list-text">로 이동합니다<block ref="100b541e6046352c2cfaf3c9e6ddaf4d" category="inline-link-rx"></block> 를 클릭하고 * 인증 방법 알아보기 * 를 클릭합니다.</block>
+  <block id="7ef314f37951a4ffae65aed3439a8da1" category="inline-image-macro">인증 지침 링크가 포함된 API 설명서 페이지의 스크린샷</block>
+  <block id="e7897b39cbb592afc0430305aca32cc1" category="paragraph"><block ref="e7897b39cbb592afc0430305aca32cc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d059d805b5ca279d8574f2b15a932bed" category="list-text">인증 지침에 따라 응답에서 _ACCESS TOKEN_을 복사합니다.</block>
+  <block id="9cb50d789a41a5c166876e5a17ca1d7c" category="list-text">Data Sense Manager 노드에서 "add_scanner_node.sh" 스크립트를 실행합니다. 예를 들어, 이 명령은 두 개의 스캐너 노드를 추가합니다.</block>
+  <block id="1480262c4a9656977a70cff8c21b5dc0" category="paragraph"><block ref="0d45fd4edeb386e475963435f8cc230a" prefix="" category="inline-code"></block></block>
+  <block id="0490466572986d52027e27d707b776a5" category="list-text">_client_id_=커넥터 클라이언트 ID</block>
+  <block id="5d0fd32ac4fe744d7966c459776a6b4c" category="list-text">_cm_host_= 커넥터 시스템의 IP 주소 또는 호스트 이름입니다</block>
+  <block id="48e3dc371ee5116828a05b4a97621caa" category="list-text">_DS_MANAGER_IP_= Data Sense Manager 노드 시스템의 전용 IP 주소입니다</block>
+  <block id="f58e80ea5a832fe99f930893c4ae0376" category="list-text">_node_private_ip_= 데이터 감지 스캐너 노드 시스템의 IP 주소(여러 스캐너 노드 IP는 쉼표로 구분)</block>
+  <block id="33b07d0ffb66d0a6cd8a0162e20adca4" category="list-text">_USER_TOKEN_= JWT 사용자 액세스 토큰</block>
+  <block id="285b492c7171f599200c3fe3d4f808d6" category="list-text">add_scanner_node 스크립트가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사하여 텍스트 파일에 저장합니다. 예를 들면 다음과 같습니다.</block>
+  <block id="58e40c834f3acaaccc3823bbd917e6d7" category="paragraph"><block ref="7c95eda18e13e25941273928f0d149ba" prefix="" category="inline-code"></block></block>
+  <block id="b0c80b9aebe2393782fd3bb0680a791b" category="list-text">2단계에서 복사한 명령을 붙여 넣고 실행합니다.</block>
+  <block id="c4c2f863fe691b5999cccd708af50078" category="list-text">스캐너 노드를 "scanner group"에 추가하려면 "-r&lt;scanner_group_name&gt;" 매개 변수를 명령에 추가합니다. 그렇지 않으면 스캐너 노드가 "기본" 그룹에 추가됩니다.</block>
+  <block id="8dd42ed78b27180f93de7913ecab156f" category="paragraph">모든 스캐너 노드에서 설치가 완료되고 관리자 노드에 연결된 경우 "add_scanner_node.sh" 스크립트도 완료됩니다. 설치하는 데 10-20분이 소요될 수 있습니다.</block>
+  <block id="ced90f42fe9747f4578603471ea454a3" category="list-text">스캐너 그룹에 스캐너 노드를 추가한 경우 관리자 노드로 돌아가 다음 두 가지 작업을 수행합니다.</block>
+  <block id="946503e0cf13fd867381ff9b4e0a1fb1" category="list-text">"/opt/netapp/datasense/working_environment_to_scanner_group_config.yml" 파일을 열고 특정 작업 환경을 스캔할 스캐너 그룹의 매핑을 입력합니다. NetApp의 각 데이터 원본에 대해 _working 환경 ID_를 받아야 합니다(이메일 ng-contact-data-sense@netapp.com). 예를 들어 다음 항목은 2개의 스캐너 그룹에 2개의 작업 환경을 추가합니다.</block>
+  <block id="d03791acef2a6ece0eafaacbe505349c" category="paragraph">목록에 추가되지 않은 모든 작업 환경은 "기본" 그룹에 의해 스캔됩니다. "기본" 그룹에 적어도 하나의 스캐너 노드가 있어야 합니다.</block>
+  <block id="b77072323352dd1724df6d20002eb9f2" category="list-text">다음 스크립트를 실행하여 이 매핑 정보를 모든 스캐너 노드에 등록합니다.<block ref="f484d7848213083a72fafef02f452b57" prefix=" " category="inline-code"></block></block>
+  <block id="a147b656a2355ffcebd357dcfbb4b53f" category="paragraph">모든 데이터 소스를 스캔하기 위해 Manager 및 Scanner 노드를 사용하여 데이터 센스를 설정합니다.</block>
+  <block id="1d4c3c5a59e200a8cf6bd280a00b8b39" category="paragraph">아직 선택하지 않은 경우 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다. 스캐너 그룹을 생성한 경우 각 데이터 소스는 해당 그룹의 스캐너 노드에 의해 스캔됩니다.</block>
+  <block id="0fd7cab37419c3f9fdd225020324c7dc" category="section-title">2022년 11월 7일(버전 1.17)</block>
+  <block id="0198cdca4033ab7a459e75dac29fa28e" category="section-title">SharePoint 온-프레미스 계정 스캔 지원</block>
+  <block id="576988db8c435aebbdd8f982f33f8ac5" category="paragraph">이제 데이터 센스를 통해 SharePoint Online 계정과 SharePoint 온-프레미스 계정(SharePoint Server)을 모두 검색할 수 있습니다. 자체 서버에 SharePoint를 설치하거나 인터넷에 액세스할 수 없는 사이트에 SharePoint를 설치해야 하는 경우 이제 데이터 센스에서 해당 계정의 사용자 파일을 검색할 수 있습니다.<block ref="8036d15ae032ce99e20eb0ee5791bf65" category="inline-link-rx"></block>.</block>
+  <block id="9793f1d7484adebeb64fb621258edfaf" category="section-title">여러 디렉토리(폴더 또는 공유)를 재검색하는 기능</block>
+  <block id="5f78811b5a7bfd9355b114563c862fc9" category="paragraph">이제 변경 사항이 시스템에 반영되도록 여러 디렉토리(폴더 또는 공유)를 즉시 재검색할 수 있습니다. 이렇게 하면 특정 데이터를 다른 데이터보다 먼저 다시 검색하게 할 수 있습니다.<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>.</block>
+  <block id="feec7c47e3e7cb8ab71bbb29acd13ee0" category="section-title">특정 데이터 소스를 스캔하기 위해 사내 "스캐너" 노드를 추가하는 기능</block>
+  <block id="c6cc179979c3b50e9f274669a7debb6f" category="paragraph">온-프레미스 위치에 데이터 센스를 설치한 경우 데이터 원본을 스캔하기 위해 더 많은 스캔 처리 성능이 필요한 경우 "스캐너" 노드를 더 추가할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다. 예를 들어 데이터 원본 중 하나에 있는 데이터의 양이 1년 후 3배 증가했다는 사실을 알고 있는 경우 데이터 스캔을 지원하기 위해 새 스캐너 노드를 추가할 수 있습니다.</block>
+  <block id="920d0a192fcf42107e363c75e934277b" category="paragraph">필요한 경우 스캔 중인 데이터 소스에 물리적으로 가까운 호스트 시스템에 스캐너 노드를 설치할 수 있습니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다.</block>
+  <block id="cbcceb43df0c94c9cc9e38ba4b9389c1" category="paragraph">파일이나 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹의 목록과 해당 권한이 있는 권한 유형을 보려면 * 모든 권한 보기 * 를 클릭합니다. 이 단추는 CIFS 공유, SharePoint Online, SharePoint On-Premise 및 OneDrive의 데이터에만 사용할 수 있습니다.</block>
 </blocks>
