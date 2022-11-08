@@ -26,7 +26,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 === 클라우드 데이터 센스의 정의
 
-Cloud Data Sense는 인공 지능(AI) 기반 기술을 사용하여 데이터 컨텍스트를 이해하고 스토리지 시스템 전체에서 중요한 데이터를 식별하는 데 도움이 되는 클라우드 오퍼링입니다. 시스템은 BlueXP Canvas에 추가한 작업 환경과 Data Sense가 네트워크를 통해 액세스할 수 있는 다양한 유형의 데이터 소스가 될 수 있습니다.  sources of data can be scanned with Data Sense,아래 전체 목록을 참조하십시오.
+Cloud Data Sense는 인공 지능(AI) 기반 기술을 사용하여 데이터 컨텍스트를 이해하고 스토리지 시스템 전체에서 중요한 데이터를 식별하는 데 도움이 되는 클라우드 오퍼링입니다. 시스템은 BlueXP Canvas에 추가한 작업 환경과 Data Sense가 네트워크를 통해 액세스할 수 있는 다양한 유형의 데이터 소스가 될 수 있습니다. link:faq-cloud-compliance.html#what-sources-of-data-can-be-scanned-with-data-sense["아래 전체 목록을 참조하십시오"].
 
 Cloud Data Sense는 GDPR, CCPA, HIPAA 등과 같은 데이터 개인 정보 보호 및 민감도에 대한 새로운 데이터 규정 준수 규정을 해결하기 위해 미리 정의된 매개 변수(예: 중요한 정보 유형 및 범주)를 제공합니다.
 
@@ -50,7 +50,7 @@ link:concept-cloud-compliance.html["클라우드 데이터 센스의 작동 방�
 * 데이터 보존 정책 준수
 
 
-https://cloud.netapp.com/cloud-compliance["클라우드 데이터 센스의 사용 사례에 대해 자세히 알아보십시오"^].
+https://cloud.netapp.com/netapp-cloud-data-sense["클라우드 데이터 센스의 사용 사례에 대해 자세히 알아보십시오"^].
 
 
 
@@ -90,7 +90,7 @@ BlueXP는 서비스에 대한 REST API 기능을 지원합니다. BlueXP가 선�
 
 link:concept-cloud-compliance.html#how-scans-work["스캔 작동 방식에 대해 알아보십시오"].
 
-데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 그러나 아주 작은 충격에도 신경 쓰면 데이터 센스를 구성하여 "느린" 스캔을 수행할 수 있습니다. link:task-managing-compliance.html#reducing-the-data-sense-scan-speed["스캔 속도를 줄이는 방법을 참조하십시오"].
+데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 그러나 아주 작은 충격에도 신경 쓰면 데이터 센스를 구성하여 "느린" 스캔을 수행할 수 있습니다. link:task-reduce-scan-speed.html["스캔 속도를 줄이는 방법을 참조하십시오"].
 
 
 
@@ -162,9 +162,14 @@ NOTE: Cloud Data Sense 인스턴스를 완전히 제거하려면 클라우드 �
 
 클라우드 데이터 센스를 통해 즉각적인 데이터 인사이트를 얻을 수 있습니다. 이러한 통찰력을 추출하여 조직의 요구에 활용할 수 있습니다.
 
-또한 * Data Fusion * 기능을 사용하여 스캔 중인 데이터베이스의 특정 열에 있는 기준에 따라 데이터 센스를 통해 모든 데이터를 검색할 수 있습니다. 기본적으로 사용자 지정 개인 데이터 유형을 만들 수 있습니다.
+또한 데이터 센스를 사용하면 스캔 시 데이터 센스에서 식별할 수 있는 "개인 데이터"의 사용자 지정 목록을 추가할 수 있으므로, 민감한 데이터가 _ALL_귀하의 조직 파일에 있는 위치에 대한 전체 정보를 파악할 수 있습니다.
 
-link:task-managing-data-fusion.html#creating-custom-personal-data-identifiers-from-your-databases["자세한 정보"^].
+* 검색 중인 데이터베이스의 특정 열을 기준으로 고유 식별자를 추가할 수 있습니다. 이를 데이터 Fusion*라고 합니다.
+* 텍스트 파일에서 사용자 지정 키워드를 추가할 수 있습니다.
+* 정규식(regex)을 사용하여 사용자 지정 패턴을 추가할 수 있습니다.
+
+
+link:task-managing-data-fusion.html["자세한 정보"^].
 
 
 
@@ -257,6 +262,7 @@ Data Sense는 사내 사이트에 로컬인 데이터 소스에서만 데이터�
 
 * 온프레미스 ONTAP 시스템
 * 데이터베이스 스키마
+* SharePoint 사내 계정(SharePoint Server)
 * 비NetApp NFS 또는 CIFS 파일 공유
 * S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지
 
@@ -351,7 +357,7 @@ Connector는 클라우드 계정 또는 온프레미스 컴퓨팅 인스턴스�
 
 === 인터넷에 연결되지 않은 보안 사이트는 어떻게 됩니까?
 
-예, 지원합니다. 가능합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 배포합니다"]. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 데이터 센스를 사용하여 데이터를 검색할 수 있습니다.
+예, 지원합니다. 가능합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 배포합니다"^]. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 데이터 센스를 사용하여 데이터를 검색할 수 있습니다.
 
 
 
