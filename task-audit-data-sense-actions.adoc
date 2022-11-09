@@ -18,6 +18,8 @@ Data Sense는 모든 작업 환경의 파일에 대해 수행된 관리 작업�
 
 예를 들어, 어떤 요청이 실행되었는지, 요청 시간, 파일이 삭제된 경우 소스 위치 등의 세부 정보 또는 파일이 이동된 경우 소스 및 대상 위치를 확인할 수 있습니다.
 
+감사 로그는 매일 순환됩니다.
+
 
 
 == 로그 파일 내용
@@ -45,29 +47,34 @@ Data Sense는 모든 작업 환경의 파일에 대해 수행된 관리 작업�
 예를 들어, 로그 파일의 다음 줄은 성공적인 복사 작업과 실패한 복제 작업을 보여 줍니다.
 
 ....
-2022-06-06 15:23:08,910 | INFO | datasense_audit_logger | es_scanned_file | 237 | 49 | Copy file /idanCIFS_share/data/dop1/random_positives.tsv from device 172.31.133.183 (type: SMB_SHARE) to device 172.31.130.133:/export_reports (NFS_SHARE) – SUCCESS
-2022-06-06 15:23:08,968 | WARNING | datasense_audit_logger | es_scanned_file | 239 | 153 | Copy file /idanCIFS_share/data/compliance-netapp.tar.gz from device 172.31.133.183 (type: SMB_SHARE) to device 172.31.130.133:/export_reports (NFS_SHARE) - FAILURE
+2022-06-06 15:23:08,910 | INFO | datasense_audit_logger | es_scanned_file | 237 | 49 | Copy file /CIFS_share/data/dop1/random_positives.tsv from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) – SUCCESS
+2022-06-06 15:23:08,968 | WARNING | datasense_audit_logger | es_scanned_file | 239 | 153 | Copy file /CIFS_share/data/compliance-netapp.tar.gz from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - FAILURE
 ....
 
 
 == 로그 파일에 액세스 중입니다
 
-감사 로그는 데이터 감지 시스템의 '/opt/netapp/audit_logs/<date>/DataSense_audit_log_<date>_<process_name>.log'에 있습니다
+감사 로그는 데이터 감지 시스템의 다음 위치에 있습니다. `/opt/netapp/audit_logs/DataSense_audit.log`
 
 데이터 센스를 사내에 설치하면 로그 파일로 직접 이동할 수 있습니다.
 
 Data Sense가 클라우드에 배포되면 데이터 감지 인스턴스에 SSH를 사용할 수 있습니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.
 
- ssh -i <path to the ssh key> <machine user>@<datasense ip>
-* ssh 키에 대한 경로> = ssh 인증 키의 위치입니다
-* 컴퓨터 사용자>:
+ ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
+* path_to_the_ssh_key> = ssh 인증 키의 위치입니다
+* machine_user>:
 +
 ** AWS의 경우 <EC2-USER>를 사용합니다
 ** Azure의 경우: BlueXP 인스턴스에 대해 생성한 사용자를 사용합니다
 ** GCP의 경우: BlueXP 인스턴스에 대해 생성한 사용자를 사용합니다
 
 
-* datasense IP> = 가상 시스템 인스턴스의 IP 주소입니다
+* datasense_ip> = 가상 시스템 인스턴스의 IP 주소입니다
 
 
-시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-cloud-manager.html#ports-and-security-groups["포트 및 보안 그룹"^] 를 참조하십시오.
+시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS의 보안 그룹 규칙"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure의 보안 그룹 규칙"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud의 방화벽 규칙"^]
+

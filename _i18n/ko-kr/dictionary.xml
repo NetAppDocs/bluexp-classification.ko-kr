@@ -2263,11 +2263,6 @@
   <block id="a9092ee7bb29e06d9e8627660b37d08b" category="list-text">이메일 알림의 경우 – 이메일 주소/계정입니다</block>
   <block id="e701a25b99aca57280ba389dd0e551c6" category="paragraph">예를 들어, 로그 파일의 다음 줄은 성공적인 복사 작업과 실패한 복제 작업을 보여 줍니다.</block>
   <block id="4892afff6c12a31702739804f9402dd2" category="section-title">로그 파일에 액세스 중입니다</block>
-  <block id="d59821cfb2e317baf0245fb19951e0ab" category="paragraph">감사 로그는 데이터 감지 시스템의 '/opt/netapp/audit_logs/&lt;date&gt;/DataSense_audit_log_&lt;date&gt;_&lt;process_name&gt;.log'에 있습니다</block>
-  <block id="68949c94f1832ab05cf85f6b69ec229e" category="list-text">ssh 키에 대한 경로&gt; = ssh 인증 키의 위치입니다</block>
-  <block id="6201afe97e09ec3e016aaa1892aba5f8" category="list-text">컴퓨터 사용자&gt;:</block>
-  <block id="3ca10cbf1786d683696248daeef7a67c" category="inline-link">포트 및 보안 그룹</block>
-  <block id="ee12d73176832fa8b8e8c95cacc10226" category="paragraph">시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 을 참조하십시오<block ref="5475739789a5b3429571b56a0421c3e8" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="fe2e5277ceed073489ebfe172d4ae0e3" category="summary">100개의 파일을 삭제하는 등 여러 파일에 대해 조사 결과 창에서 작업을 실행할 경우 프로세스에 약간의 시간이 걸릴 수 있습니다. 작업 상태 창에서 이러한 비동기 작업의 상태를 모니터링하여 모든 파일에 언제 적용되었는지 확인할 수 있습니다.</block>
   <block id="70669aa10fb7138a5de7f7526f548131" category="paragraph">100개의 파일을 삭제하는 등 여러 파일에 대해 조사 결과 창에서 작업을 실행할 경우 프로세스에 약간의 시간이 걸릴 수 있습니다. 모든 파일에 언제 적용되었는지 알 수 있도록 _Action Status_창에서 이러한 비동기 작업의 상태를 모니터링할 수 있습니다.</block>
   <block id="a5129dfbdf0dc4588d520f42de3004dd" category="paragraph">이를 통해 성공적으로 완료된 작업, 현재 진행 중인 작업 및 실패한 작업을 볼 수 있으므로 문제를 진단하고 해결할 수 있습니다.</block>
@@ -2474,7 +2469,6 @@
   <block id="a947d2f1730c470833c4544effbb7bc1" category="section-title">명령줄에 액세스하는 중입니다</block>
   <block id="936f32b71b96ea5785d6a11d0da86d15" category="paragraph">데이터 센스를 사내에 설치하면 명령줄에 직접 액세스할 수 있습니다.</block>
   <block id="0bac9ec0256a9fd2858c7836245c9025" category="list-text">AWS의 경우 &lt;EC2-USER&gt;를 사용합니다</block>
-  <block id="0ea3b9210848690cf51475dbc0b23bea" category="list-text">datasense IP&gt; = 가상 시스템 인스턴스의 IP 주소입니다</block>
   <block id="2ca1f3bad4fcb2aea6222d64aeb6ee20" category="section-title">regex를 추가하는 명령 구문</block>
   <block id="0b674f6afef562ef0fec5869730d7efe" category="paragraph">사용자 지정 regex를 추가하는 명령 구문은 다음과 같습니다.</block>
   <block id="c0860cd77b783ac8ccb3c6de19266e83" category="paragraph">새로운 각 Regex를 테스트하여 너무 넓어서 너무 많은 일치 항목을 반환하는지 확인합니다. 이 경우 다음과 같은 로그 메시지가 나타납니다.</block>
@@ -2487,7 +2481,6 @@
   <block id="f1619aa0c5343971dffa315bb9524cc9" category="paragraph">예를 들어 * 내부 제품 ID * regex를 제거하려면</block>
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">이제 데이터 센스에서 식별할 수 있는 사용자 지정 패턴을 데이터에 추가할 수 있습니다</block>
   <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">사용자 지정 정규식(regex)을 사용하여 개인 패턴을 추가하여 데이터의 특정 정보를 식별할 수 있습니다. regex는 이미 Data Sense에서 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 Personal Patterns(개인 패턴) 섹션 아래에 표시됩니다.<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>.</block>
-  <block id="f11466d242ef66f0b539b785de1f046b" category="paragraph">데이터 센스를 사내에 설치하면 로그 파일로 직접 이동할 수 있습니다.</block>
   <block id="cdd8fa6a73205d146405999abb5c86ec" category="admonition">설치 후 Data Sense 호스트 시스템의 IP 주소를 변경할 수 없습니다.</block>
   <block id="766f0d81be7879628bc30bd7367309c3" category="paragraph">경로 * /opt/NetApp/Datasense/ * 에서 명령을 실행합니다.</block>
   <block id="4767339e389eb1fa075ecdec5d1ec320" category="paragraph">regex를 Data Sense에 강제로 추가하려는 경우 명령줄 끝에 있는 * -f * 옵션을 사용할 수 있습니다. 너무 넓다고 생각해도 마찬가지입니다.</block>
@@ -2823,7 +2816,6 @@
   <block id="0047b4042b118692c1d7c579abdeaefe" category="paragraph">기본적으로 새로 추가한 스캐너 노드는 스캔 리소스의 일반 풀에 추가됩니다. 이를 "기본 스캐너 그룹"이라고 합니다. 아래 이미지의 "기본" 그룹에는 6개 데이터 소스 모두의 스캔 데이터인 1개의 관리자 노드와 3개의 스캐너 노드가 있습니다.</block>
   <block id="d414af5a3d730e6b3c5c5e5fbf1791e5" category="inline-image-macro">기본 스캐너 그룹에 있을 때 Data Sense 스캐너가 데이터 소스를 스캔하는 방식에 대한 다이어그램</block>
   <block id="12c492323fc8337000638fc92adb63ed" category="paragraph"><block ref="12c492323fc8337000638fc92adb63ed" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a3432599109f7df0141552646ecd8656" category="paragraph">데이터 원본에 물리적으로 가까운 스캐너 노드에서 스캔할 특정 데이터 원본이 있는 경우 스캐너 노드 또는 스캐너 노드 그룹을 정의하여 특정 데이터 원본 또는 데이터 원본 그룹을 스캔할 수 있습니다. 아래 이미지에는 관리자 노드 1개와 스캐너 노드 3개가 있습니다.</block>
   <block id="96990c600d9debe09076ef4bcf06d1eb" category="list-text">Manager 노드는 "기본" 그룹에 있으며 1개의 데이터 소스를 스캔하고 있습니다</block>
   <block id="042304bf8365f5eb21d79ca01b78d44d" category="list-text">스캐너 노드 1은 "United_states" 그룹에 있으며 2개의 데이터 소스를 스캔하고 있습니다</block>
   <block id="fce59aaa378d30cc0381e7eefc22f0ca" category="list-text">스캐너 노드 2와 3은 "유럽" 그룹에 속하며 3개의 데이터 원본에 대한 스캔 작업을 공유합니다</block>
@@ -2868,11 +2860,9 @@
   <block id="285b492c7171f599200c3fe3d4f808d6" category="list-text">add_scanner_node 스크립트가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사하여 텍스트 파일에 저장합니다. 예를 들면 다음과 같습니다.</block>
   <block id="58e40c834f3acaaccc3823bbd917e6d7" category="paragraph"><block ref="7c95eda18e13e25941273928f0d149ba" prefix="" category="inline-code"></block></block>
   <block id="b0c80b9aebe2393782fd3bb0680a791b" category="list-text">2단계에서 복사한 명령을 붙여 넣고 실행합니다.</block>
-  <block id="c4c2f863fe691b5999cccd708af50078" category="list-text">스캐너 노드를 "scanner group"에 추가하려면 "-r&lt;scanner_group_name&gt;" 매개 변수를 명령에 추가합니다. 그렇지 않으면 스캐너 노드가 "기본" 그룹에 추가됩니다.</block>
   <block id="8dd42ed78b27180f93de7913ecab156f" category="paragraph">모든 스캐너 노드에서 설치가 완료되고 관리자 노드에 연결된 경우 "add_scanner_node.sh" 스크립트도 완료됩니다. 설치하는 데 10-20분이 소요될 수 있습니다.</block>
   <block id="ced90f42fe9747f4578603471ea454a3" category="list-text">스캐너 그룹에 스캐너 노드를 추가한 경우 관리자 노드로 돌아가 다음 두 가지 작업을 수행합니다.</block>
   <block id="946503e0cf13fd867381ff9b4e0a1fb1" category="list-text">"/opt/netapp/datasense/working_environment_to_scanner_group_config.yml" 파일을 열고 특정 작업 환경을 스캔할 스캐너 그룹의 매핑을 입력합니다. NetApp의 각 데이터 원본에 대해 _working 환경 ID_를 받아야 합니다(이메일 ng-contact-data-sense@netapp.com). 예를 들어 다음 항목은 2개의 스캐너 그룹에 2개의 작업 환경을 추가합니다.</block>
-  <block id="d03791acef2a6ece0eafaacbe505349c" category="paragraph">목록에 추가되지 않은 모든 작업 환경은 "기본" 그룹에 의해 스캔됩니다. "기본" 그룹에 적어도 하나의 스캐너 노드가 있어야 합니다.</block>
   <block id="b77072323352dd1724df6d20002eb9f2" category="list-text">다음 스크립트를 실행하여 이 매핑 정보를 모든 스캐너 노드에 등록합니다.<block ref="f484d7848213083a72fafef02f452b57" prefix=" " category="inline-code"></block></block>
   <block id="a147b656a2355ffcebd357dcfbb4b53f" category="paragraph">모든 데이터 소스를 스캔하기 위해 Manager 및 Scanner 노드를 사용하여 데이터 센스를 설정합니다.</block>
   <block id="1d4c3c5a59e200a8cf6bd280a00b8b39" category="paragraph">아직 선택하지 않은 경우 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다. 스캐너 그룹을 생성한 경우 각 데이터 소스는 해당 그룹의 스캐너 노드에 의해 스캔됩니다.</block>
@@ -2899,7 +2889,6 @@
   <block id="4db39af2f2c8dd1ae93885d357ea7d87" category="paragraph">예를 들어, 안전하지 않은 위치에서 이러한 이름에 액세스할 수 없도록 모든 파일에서 내부 제품 이름이 언급된 위치를 확인할 수 있습니다.</block>
   <block id="e86b773e33290ca180bab4702f6221dc" category="paragraph">사용자 지정 키워드를 업데이트한 후 데이터 센스에서 모든 데이터 소스 스캔을 다시 시작합니다. 스캔이 완료되면 데이터 센스에 새 결과가 나타납니다.</block>
   <block id="a022f59f73d13dba25886111bbcbfbe7" category="paragraph">데이터 감지 시스템의 다음 위치에 사용자 정의 키워드가 포함된 텍스트 파일을 추가하거나 생성해야 합니다.</block>
-  <block id="3620f1bf4e7a238eac5d685f61925409" category="paragraph">여러 키워드가 포함된 단일 파일을 만들거나 각 파일에 특정 키워드가 포함된 여러 파일을 추가할 수 있습니다. 파일 형식은 각 줄에 한 단어로 표시됩니다. 예를 들면 다음과 같습니다.</block>
   <block id="9e5355e710468619132238aa9a8b9c22" category="paragraph">_INTERNAL_PRODUCT_NELames.txt_</block>
   <block id="3dc7d5f9e5fd1366a21d3d3a927df1f0" category="paragraph">이러한 항목에 대한 데이터 감지 검색은 대/소문자를 구분하지 않습니다.</block>
   <block id="057d52aa1154035622f873117dc92349" category="paragraph">사용자 지정 키워드를 추가하려면 데이터 감지 시스템에 액세스해야 합니다.</block>
@@ -2922,13 +2911,11 @@
   <block id="c781b817668135b2a7800b19a53b3351" category="list-text">각 파일에는 최대 100,000개의 단어가 포함될 수 있습니다. 단어가 더 있으면 처음 100,000개만 추가됩니다.</block>
   <block id="c84a723bb8343259efcc07b5d335a94d" category="list-text">각 단어의 길이는 3자 이상이어야 합니다. 짧은 단어는 무시됩니다.</block>
   <block id="9b2456bacc9d094f1cd53f784d659a37" category="list-text">중복 단어는 한 번만 추가됩니다.</block>
-  <block id="cb2e6437be1870e1a8e326d4a56e424f" category="paragraph">회사의 내부 제품 이름은 위에 표시된 대로 부엉이의 유형을 기반으로 합니다.</block>
   <block id="a05f2f2af09092d7732c02cc3039dad9" category="paragraph">모든 파일에서 내부 제품 이름이 언급된 위치를 확인하려면 다음 명령을 입력합니다.</block>
   <block id="d1cae4639086ce5de29473a5d53747c7" category="inline-image-macro">조사 결과 창에 사용자 정의 키워드 결과의 예를 보여 주는 스크린샷.</block>
   <block id="7b739c51b4a511be3459afe942a8ef3c" category="paragraph"><block ref="7b739c51b4a511be3459afe942a8ef3c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="10e08b10c8ba5b9b6646011e823e86ed" category="section-title">사용자 지정 키워드를 비활성화합니다</block>
   <block id="c67491a05b3eada8d8830f7e24dff0b6" category="paragraph">나중에 사용자가 이전에 추가한 특정 사용자 지정 키워드를 식별하기 위해 데이터 센스를 필요로 하지 않을 경우 명령에서 * deactivate * 옵션을 사용하여 텍스트 파일에 정의된 키워드를 제거합니다.</block>
-  <block id="db39532b182f8c442eaf4ad879aa65cb" category="paragraph">예를 들어, * INTERNAL_PRODUCT_NELames * 파일에 정의된 키워드 패턴을 제거하려면:</block>
   <block id="9c0bd48717ec950ad656ee0c5cbe1bd7" category="section-title">regex를 사용하여 사용자 지정 개인 데이터 식별자를 추가합니다</block>
   <block id="ffbc9fd66cec345d48b984868ac86075" category="paragraph">regex를 추가하면 데이터 센스가 모든 데이터 소스 스캔을 다시 시작합니다. 스캔이 완료되면 데이터 센스에 새 결과가 나타납니다.</block>
   <block id="9db0ea676fac4ef1398c2560f02af1c0" category="inline-xref">명령줄에 액세스하는 방법을 참조하십시오</block>
@@ -2945,4 +2932,13 @@
   <block id="d2e9b58709e185388c14e9b7f7c876b8" category="list-text">정규식(regex)을 사용하여 사용자 지정 패턴을 추가할 수 있습니다.</block>
   <block id="6b0cdbce1552e1685f4b4095276b6078" category="paragraph"><block ref="4a5fd31f8eed80e720a59ea6d295b8eb" category="inline-link-macro-rx"></block>.</block>
   <block id="38e7bc8a7a291a40814b17be24e4bf0a" category="paragraph">예, 지원합니다. 가능합니다<block ref="a2148d757b5c89b9d02648070bc0f277" category="inline-link-rx"></block>. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 데이터 센스를 사용하여 데이터를 검색할 수 있습니다.</block>
+  <block id="6e356675279ce269e55ffefd9397769c" category="paragraph">여러 키워드가 포함된 단일 파일을 만들거나 각 파일에 특정 키워드가 포함된 여러 파일을 추가할 수 있습니다. 파일의 형식은 각 줄에 한 단어로 되어 있습니다. 예를 들어 부엉이 유형의 내부 제품 이름은 다음과 같습니다.</block>
+  <block id="8b78d80928f7b4e5ede92c922915ec73" category="paragraph">보시다시피 텍스트 파일의 이름은 개인 결과 패널에서 이름으로 사용됩니다. 이러한 방식으로 다른 텍스트 파일의 키워드를 활성화하고 각 키워드 유형에 대한 결과를 볼 수 있습니다.</block>
+  <block id="6d09a2eb7ddd06e7afb4f4e0f4b6f0a8" category="paragraph">예를 들어, * internal_product_names.txt * 파일에 정의된 키워드를 제거하려면:</block>
+  <block id="855f2bccb1380ed5e79ffd60f06d8209" category="paragraph">감사 로그는 매일 순환됩니다.</block>
+  <block id="e583d0bb2649633981a5bcb08138c87e" category="paragraph">감사 로그는 데이터 감지 시스템의 다음 위치에 있습니다.<block ref="ffd8f753eb106227f8d629727e8f83b2" prefix=" " category="inline-code"></block></block>
+  <block id="162bd73d17dd13a664718503fff639fc" category="paragraph">데이터 센스를 사내에 설치하면 로그 파일로 직접 이동할 수 있습니다.</block>
+  <block id="69aeb258470eedf7afb44d66a993f4d8" category="paragraph">데이터 원본에 물리적으로 가까운 스캐너 노드에서 스캔할 특정 데이터 원본이 있는 경우 스캐너 노드 또는 스캐너 노드 그룹을 정의하여 특정 데이터 원본 또는 데이터 원본 그룹을 스캔할 수 있습니다. 아래 이미지에는 관리자 노드 1개와 스캐너 노드 3개가 있습니다.</block>
+  <block id="4ab1272ad311bec96f677d25b0901105" category="list-text">스캐너 노드를 "scanner group"에 추가하려면 * -r &lt;scanner_group_name&gt; * 매개 변수를 명령에 추가합니다. 그렇지 않으면 스캐너 노드가 "기본" 그룹에 추가됩니다.</block>
+  <block id="f76b6e3dc68f5a15976b3f64aae23646" category="paragraph">목록에 추가되지 않은 모든 작업 환경은 "기본" 그룹에 의해 스캔됩니다. "기본" 그룹에 하나 이상의 관리자 또는 스캐너 노드가 있어야 합니다.</block>
 </blocks>
