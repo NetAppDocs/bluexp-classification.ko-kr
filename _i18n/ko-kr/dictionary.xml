@@ -2250,17 +2250,12 @@
   <block id="f4d44f4e933c52507fc1f60eb487d44a" category="section-title">로그 파일 내용</block>
   <block id="787cbeccb975d71260f61cb0fbe84553" category="paragraph">감사 로그의 각 줄에는 다음 형식의 정보가 포함되어 있습니다.</block>
   <block id="727fb114deba541b53a0b54311e03930" category="paragraph">'&lt;full date&gt;|&lt;status&gt;|datasense_audit_logger|&lt;module&gt;|0|0|파일 &lt;full file path&gt;이(가) 장치 &lt;device path&gt;-&lt;result&gt;'에서 삭제되었습니다</block>
-  <block id="5e6b85294dad6f04a041aa32199d996d" category="list-text">날짜 및 시간 - 이벤트의 전체 타임 스탬프입니다</block>
   <block id="79480e26f983c197c4338ae916966c93" category="list-text">상태 - 정보, 경고</block>
   <block id="8c5560001ce7d874ad9b883caee72f9c" category="list-text">작업 유형(삭제, 복사, 이동, 정책 생성, 정책 업데이트, JSON 보고서 다운로드 등)</block>
   <block id="eee2e3db044c9200dc614ed87a9c8fde" category="list-text">파일 이름(작업이 파일과 관련된 경우)</block>
-  <block id="b5afb88a144b5f1d8fef11e9d449b1ed" category="list-text">작업에 대한 세부 정보 – 수행한 작업: 작업에 따라 다릅니다</block>
   <block id="cca60f73053d584e7caacfd33a8f046e" category="list-text">정책 이름입니다</block>
   <block id="3c14ec40364ae096849c696c3497ff60" category="list-text">이동 - 원본 및 대상</block>
   <block id="c02ceb243337f566ebb5a2984a4d72eb" category="list-text">복사 - 원본 및 대상</block>
-  <block id="9291a80cf17849a4539e082f526f27ad" category="list-text">태그 - 태그 이름</block>
-  <block id="f23528dfcdf994100f2eae046bc926bb" category="list-text">Assign to – user name(할당 대상 - 사용자 이름)에 대해</block>
-  <block id="a9092ee7bb29e06d9e8627660b37d08b" category="list-text">이메일 알림의 경우 – 이메일 주소/계정입니다</block>
   <block id="e701a25b99aca57280ba389dd0e551c6" category="paragraph">예를 들어, 로그 파일의 다음 줄은 성공적인 복사 작업과 실패한 복제 작업을 보여 줍니다.</block>
   <block id="4892afff6c12a31702739804f9402dd2" category="section-title">로그 파일에 액세스 중입니다</block>
   <block id="fe2e5277ceed073489ebfe172d4ae0e3" category="summary">100개의 파일을 삭제하는 등 여러 파일에 대해 조사 결과 창에서 작업을 실행할 경우 프로세스에 약간의 시간이 걸릴 수 있습니다. 작업 상태 창에서 이러한 비동기 작업의 상태를 모니터링하여 모든 파일에 언제 적용되었는지 확인할 수 있습니다.</block>
@@ -2480,7 +2475,6 @@
   <block id="f0957a103fdf829c95e6748bbaec5b4a" category="paragraph"><block ref="f0957a103fdf829c95e6748bbaec5b4a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f1619aa0c5343971dffa315bb9524cc9" category="paragraph">예를 들어 * 내부 제품 ID * regex를 제거하려면</block>
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">이제 데이터 센스에서 식별할 수 있는 사용자 지정 패턴을 데이터에 추가할 수 있습니다</block>
-  <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">사용자 지정 정규식(regex)을 사용하여 개인 패턴을 추가하여 데이터의 특정 정보를 식별할 수 있습니다. regex는 이미 Data Sense에서 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 Personal Patterns(개인 패턴) 섹션 아래에 표시됩니다.<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>.</block>
   <block id="cdd8fa6a73205d146405999abb5c86ec" category="admonition">설치 후 Data Sense 호스트 시스템의 IP 주소를 변경할 수 없습니다.</block>
   <block id="766f0d81be7879628bc30bd7367309c3" category="paragraph">경로 * /opt/NetApp/Datasense/ * 에서 명령을 실행합니다.</block>
   <block id="4767339e389eb1fa075ecdec5d1ec320" category="paragraph">regex를 Data Sense에 강제로 추가하려는 경우 명령줄 끝에 있는 * -f * 옵션을 사용할 수 있습니다. 너무 넓다고 생각해도 마찬가지입니다.</block>
@@ -2632,7 +2626,6 @@
   <block id="8beb1a28cedad4a62270cd87cb0fb73f" category="list-text">또는 BlueXP 사용자에게 알림 이메일을 보내려면 확인란을 선택하고 이메일을 보낼 간격을 선택합니다. 에 대해 자세히 알아보십시오 <block ref="aa3b63c453483f75d4311c7c0137128e" category="inline-link-macro-rx"></block>.</block>
   <block id="07a798a9ca59b7a89db396e7fb102645" category="paragraph">Cloud Data Sense는 중요한 특정 정책이 결과를 반환할 때 BlueXP 사용자에게 이메일 경고를 보내 데이터를 보호하기 위한 알림을 받을 수 있도록 합니다. 매일, 매주 또는 매월 이메일 알림을 보내도록 선택할 수 있습니다.</block>
   <block id="aa9fdbbe260aeca6e8e9574845857dc1" category="list-text">정책 편집 페이지에서 BlueXP 사용자에게 알림 이메일을 보내려면 확인란을 선택하고 이메일을 보낼 간격을 선택합니다(예: 매 * 주 *).</block>
-  <block id="b767f2b9a2e948e4c282ba767400ea33" category="paragraph">Data Sense가 클라우드에 배포되면 데이터 감지 인스턴스에 SSH를 사용할 수 있습니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.</block>
   <block id="99a08830cf6f1972806c695ac18e69bc" category="list-text">Azure의 경우: BlueXP 인스턴스에 대해 생성한 사용자를 사용합니다</block>
   <block id="a5b37e45ed042a9bf7c09bfcc25c3211" category="list-text">GCP의 경우: BlueXP 인스턴스에 대해 생성한 사용자를 사용합니다</block>
   <block id="23c0e03df230b1dfa0e16b9d275b80ea" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭합니다.</block>
@@ -2873,7 +2866,6 @@
   <block id="5f78811b5a7bfd9355b114563c862fc9" category="paragraph">이제 변경 사항이 시스템에 반영되도록 여러 디렉토리(폴더 또는 공유)를 즉시 재검색할 수 있습니다. 이렇게 하면 특정 데이터를 다른 데이터보다 먼저 다시 검색하게 할 수 있습니다.<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>.</block>
   <block id="feec7c47e3e7cb8ab71bbb29acd13ee0" category="section-title">특정 데이터 소스를 스캔하기 위해 사내 "스캐너" 노드를 추가하는 기능</block>
   <block id="c6cc179979c3b50e9f274669a7debb6f" category="paragraph">온-프레미스 위치에 데이터 센스를 설치한 경우 데이터 원본을 스캔하기 위해 더 많은 스캔 처리 성능이 필요한 경우 "스캐너" 노드를 더 추가할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다. 예를 들어 데이터 원본 중 하나에 있는 데이터의 양이 1년 후 3배 증가했다는 사실을 알고 있는 경우 데이터 스캔을 지원하기 위해 새 스캐너 노드를 추가할 수 있습니다.</block>
-  <block id="920d0a192fcf42107e363c75e934277b" category="paragraph">필요한 경우 스캔 중인 데이터 소스에 물리적으로 가까운 호스트 시스템에 스캐너 노드를 설치할 수 있습니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다.</block>
   <block id="cbcceb43df0c94c9cc9e38ba4b9389c1" category="paragraph">파일이나 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹의 목록과 해당 권한이 있는 권한 유형을 보려면 * 모든 권한 보기 * 를 클릭합니다. 이 단추는 CIFS 공유, SharePoint Online, SharePoint On-Premise 및 OneDrive의 데이터에만 사용할 수 있습니다.</block>
   <block id="808cffec2f45e3cd0fe5a90bfcca1530" category="summary">Data Sense는 향후 검색에서 Data Sense가 식별할 수 있는 "개인 데이터"의 사용자 지정 목록을 추가할 수 있는 여러 가지 방법을 제공하므로 잠재적으로 중요한 데이터가 모든 조직의 파일에 있는 위치를 완벽하게 파악할 수 있습니다.</block>
   <block id="779142c3c6196fad0d5a73d9c046a65d" category="paragraph">Data Sense는 향후 검색에서 Data Sense가 식별할 수 있는 "개인 데이터"의 사용자 지정 목록을 추가할 수 있는 여러 가지 방법을 제공하므로, 잠재적으로 중요한 데이터가 _ All _ 조직 파일에 있는 위치를 완벽하게 파악할 수 있습니다.</block>
@@ -2895,7 +2887,6 @@
   <block id="5279036835630164e29f9d285f1f8ac5" category="list-text">path_to_the_ssh_key&gt; = ssh 인증 키의 위치입니다</block>
   <block id="84bcb800c1d5099ce2ac32d1e7b6680f" category="list-text">machine_user&gt;:</block>
   <block id="7ba7a32a873386de0e3b4747ceb28558" category="list-text">datasense_ip&gt; = 가상 시스템 인스턴스의 IP 주소입니다</block>
-  <block id="b53091894711b26877d3fa2f1589b745" category="paragraph">시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.</block>
   <block id="60f0453bf0393ab630be6aa37dc20180" category="inline-link">AWS의 보안 그룹 규칙</block>
   <block id="f2ad0eeffca4d67e7eb677593c90d5bf" category="list-text"><block ref="f2ad0eeffca4d67e7eb677593c90d5bf" category="inline-link-rx"></block></block>
   <block id="569fe31933e5918613ae1efa70e82d16" category="inline-link">Azure의 보안 그룹 규칙</block>
@@ -2935,10 +2926,23 @@
   <block id="6e356675279ce269e55ffefd9397769c" category="paragraph">여러 키워드가 포함된 단일 파일을 만들거나 각 파일에 특정 키워드가 포함된 여러 파일을 추가할 수 있습니다. 파일의 형식은 각 줄에 한 단어로 되어 있습니다. 예를 들어 부엉이 유형의 내부 제품 이름은 다음과 같습니다.</block>
   <block id="8b78d80928f7b4e5ede92c922915ec73" category="paragraph">보시다시피 텍스트 파일의 이름은 개인 결과 패널에서 이름으로 사용됩니다. 이러한 방식으로 다른 텍스트 파일의 키워드를 활성화하고 각 키워드 유형에 대한 결과를 볼 수 있습니다.</block>
   <block id="6d09a2eb7ddd06e7afb4f4e0f4b6f0a8" category="paragraph">예를 들어, * internal_product_names.txt * 파일에 정의된 키워드를 제거하려면:</block>
-  <block id="855f2bccb1380ed5e79ffd60f06d8209" category="paragraph">감사 로그는 매일 순환됩니다.</block>
-  <block id="e583d0bb2649633981a5bcb08138c87e" category="paragraph">감사 로그는 데이터 감지 시스템의 다음 위치에 있습니다.<block ref="ffd8f753eb106227f8d629727e8f83b2" prefix=" " category="inline-code"></block></block>
   <block id="162bd73d17dd13a664718503fff639fc" category="paragraph">데이터 센스를 사내에 설치하면 로그 파일로 직접 이동할 수 있습니다.</block>
   <block id="69aeb258470eedf7afb44d66a993f4d8" category="paragraph">데이터 원본에 물리적으로 가까운 스캐너 노드에서 스캔할 특정 데이터 원본이 있는 경우 스캐너 노드 또는 스캐너 노드 그룹을 정의하여 특정 데이터 원본 또는 데이터 원본 그룹을 스캔할 수 있습니다. 아래 이미지에는 관리자 노드 1개와 스캐너 노드 3개가 있습니다.</block>
   <block id="4ab1272ad311bec96f677d25b0901105" category="list-text">스캐너 노드를 "scanner group"에 추가하려면 * -r &lt;scanner_group_name&gt; * 매개 변수를 명령에 추가합니다. 그렇지 않으면 스캐너 노드가 "기본" 그룹에 추가됩니다.</block>
   <block id="f76b6e3dc68f5a15976b3f64aae23646" category="paragraph">목록에 추가되지 않은 모든 작업 환경은 "기본" 그룹에 의해 스캔됩니다. "기본" 그룹에 하나 이상의 관리자 또는 스캐너 노드가 있어야 합니다.</block>
+  <block id="37861c699e1fb7b716f29da056f3ddc5" category="paragraph">클라우드에 Data Sense를 구축할 때는 데이터 감지 인스턴스에 SSH를 사용해야 합니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.</block>
+  <block id="9580ea03756206f0f5eba6a03bb42d83" category="paragraph">클라우드의 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.</block>
+  <block id="5cd360d496831478b3f9cbc92cce8b43" category="list-text">날짜 및 시간 - 이벤트의 전체 타임 스탬프입니다</block>
+  <block id="01183a42bef9f9a5314d435065cfc49d" category="list-text">작업에 대한 세부 정보 - 수행한 작업: 작업에 따라 다릅니다</block>
+  <block id="8022db3692364177695fce2a133b526b" category="list-text">태그-태그 이름용</block>
+  <block id="91f93253b1daa7f572477e6f8dc4f163" category="list-text">사용자 이름으로 할당</block>
+  <block id="00fde4d5ca4e0124dccf8017bb92fc4e" category="list-text">전자 메일 알림의 경우 - 전자 메일 주소/계정입니다</block>
+  <block id="b5fcd19ce1eac6e10e82176168a38b4d" category="paragraph">감사 로그 파일은 데이터 감지 시스템의 다음 위치에 있습니다.<block ref="737f0a89396f6d78b87820109de683eb" prefix=" " category="inline-code"></block></block>
+  <block id="8cc577dbce4245d15abad6f3b1dfc995" category="paragraph">각 로그 파일의 크기는 최대 10MB입니다. 이 제한에 도달하면 새 로그 파일이 시작됩니다. 로그 파일의 이름은 "DataSense_audit.log", "DataSense_audit.log.1", "DataSense_audit.log.2" 등으로 지정됩니다. 최대 100개의 로그 파일이 시스템에 보존되며, 최대 용량에 도달하면 이전 로그 파일이 자동으로 삭제됩니다.</block>
+  <block id="fbda64f06352e44a4e6523dbdd6b039e" category="paragraph">클라우드의 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.</block>
+  <block id="c490178f4142a4c06caeff7c04e922f8" category="inline-link">스캐너 노드를 설치하여 추가 데이터 원본을 스캔하는 방법을 알아봅니다</block>
+  <block id="232acd7f039f2650674c20301305634d" category="paragraph">필요한 경우 스캔 중인 데이터 소스에 물리적으로 가까운 호스트 시스템에 스캐너 노드를 설치할 수 있습니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다.<block ref="1527b8cf69e6865de2ec8736eea9f338" category="inline-link-rx"></block>.</block>
+  <block id="095466eeefcbabc811ab5e2a672ee877" category="paragraph">데이터 센스에서 향후 검색에서 식별할 수 있는 사용자 지정 "개인 데이터"를 추가하는 방법은 두 가지가 있습니다. 이렇게 하면 중요한 데이터가 조직의 모든 파일에 있는 위치를 전체적으로 파악할 수 있습니다.</block>
+  <block id="3fb1605dea41a1022e020f895acc727f" category="list-text">정규식(regex)을 사용하여 개인 패턴을 추가할 수 있습니다.</block>
+  <block id="a7110ffc746d511f3031ce3693e9c099" category="paragraph">이러한 키워드 및 패턴은 데이터 센스에서 이미 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 개인 패턴 섹션 아래에 표시됩니다.<block ref="ba4b576d22723dd9b7b37b67a884a8d7" category="inline-link-rx"></block>.</block>
 </blocks>

@@ -119,7 +119,7 @@ screech
 
 데이터 센스를 사내에 설치하면 명령줄에 직접 액세스할 수 있습니다.
 
-Data Sense가 클라우드에 배포되면 데이터 감지 인스턴스에 SSH를 사용할 수 있습니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.
+클라우드에 Data Sense를 구축할 때는 데이터 감지 인스턴스에 SSH를 사용해야 합니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.
 
  ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
 * path_to_the_ssh_key> = ssh 인증 키의 위치입니다
@@ -133,7 +133,7 @@ Data Sense가 클라우드에 배포되면 데이터 감지 인스턴스에 SSH�
 * datasense_ip> = 가상 시스템 인스턴스의 IP 주소입니다
 
 
-시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.
+클라우드의 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.
 
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS의 보안 그룹 규칙"^]
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure의 보안 그룹 규칙"^]
