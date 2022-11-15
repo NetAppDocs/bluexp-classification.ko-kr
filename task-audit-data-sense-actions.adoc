@@ -24,11 +24,11 @@ Data Sense는 모든 작업 환경의 파일에 대해 수행된 관리 작업�
 
 감사 로그의 각 줄에는 다음 형식의 정보가 포함되어 있습니다.
 
-'<full date>|<status>|datasense_audit_logger|<module>|0|0|파일 <full file path>이(가) 장치 <device path>-<result>'에서 삭제되었습니다
+`<full date> | <status> | ds_audit_logger | <module> | 0 | 0 | File <full file path> deleted from device <device path> - <result>`
 
 * 날짜 및 시간 - 이벤트의 전체 타임 스탬프입니다
 * 상태 - 정보, 경고
-* 작업 유형(삭제, 복사, 이동, 정책 생성, 정책 업데이트, JSON 보고서 다운로드 등)
+* 작업 유형(삭제, 복사, 이동, 정책 생성, 정책 업데이트, 파일 재검색, JSON 보고서 다운로드 등)
 * 파일 이름(작업이 파일과 관련된 경우)
 * 작업에 대한 세부 정보 - 수행한 작업: 작업에 따라 다릅니다
 +
@@ -45,8 +45,8 @@ Data Sense는 모든 작업 환경의 파일에 대해 수행된 관리 작업�
 예를 들어, 로그 파일의 다음 줄은 성공적인 복사 작업과 실패한 복제 작업을 보여 줍니다.
 
 ....
-2022-06-06 15:23:08,910 | INFO | datasense_audit_logger | es_scanned_file | 237 | 49 | Copy file /CIFS_share/data/dop1/random_positives.tsv from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - SUCCESS
-2022-06-06 15:23:08,968 | WARNING | datasense_audit_logger | es_scanned_file | 239 | 153 | Copy file /CIFS_share/data/compliance-netapp.tar.gz from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - FAILURE
+2022-06-06 15:23:08,910 | INFO | ds_audit_logger | es_scanned_file | 237 | 49 | Copy file /CIFS_share/data/dop1/random_positives.tsv from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - SUCCESS
+2022-06-06 15:23:08,968 | WARNING | ds_audit_logger | es_scanned_file | 239 | 153 | Copy file /CIFS_share/data/compliance-netapp.tar.gz from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - FAILURE
 ....
 
 

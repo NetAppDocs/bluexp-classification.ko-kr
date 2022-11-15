@@ -18,7 +18,7 @@ summary: 클라우드 데이터 센스의 새로운 기능에 대해 알아보�
 
 
 
-== 2022년 11월 7일(버전 1.17)
+== 2022년 11월 13일(버전 1.17)
 
 
 
@@ -36,9 +36,15 @@ summary: 클라우드 데이터 센스의 새로운 기능에 대해 알아보�
 
 === 특정 데이터 소스를 스캔하기 위해 사내 "스캐너" 노드를 추가하는 기능
 
-온-프레미스 위치에 데이터 센스를 설치한 경우 데이터 원본을 스캔하기 위해 더 많은 스캔 처리 성능이 필요한 경우 "스캐너" 노드를 더 추가할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다. 예를 들어 데이터 원본 중 하나에 있는 데이터의 양이 1년 후 3배 증가했다는 사실을 알고 있는 경우 데이터 스캔을 지원하기 위해 새 스캐너 노드를 추가할 수 있습니다.
+온-프레미스 위치에 데이터 센스를 설치한 경우 특정 데이터 원본을 스캔하기 위해 스캔 처리 성능이 더 필요한 경우 "스캐너" 노드를 더 추가하고 해당 데이터 원본을 스캔하도록 할당할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다.
 
 필요한 경우 스캔 중인 데이터 소스에 물리적으로 가까운 호스트 시스템에 스캐너 노드를 설치할 수 있습니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-onprem.html#add-scanner-nodes-to-an-existing-deployment["스캐너 노드를 설치하여 추가 데이터 원본을 스캔하는 방법을 알아봅니다"^].
+
+
+
+=== 이제 온-프레미스 설치 관리자가 설치를 시작하기 전에 사전 검사를 수행합니다
+
+Linux 시스템에 Data Sense를 설치할 때 설치 관리자는 실제 설치를 시작하기 전에 시스템이 필요한 모든 요구 사항(CPU, RAM, 용량, 네트워킹 등)을 충족하는지 확인합니다. 따라서 * 설치에 시간을 소비하기 전에 * 문제를 파악할 수 있습니다.
 
 
 
@@ -271,7 +277,7 @@ Data Sense는 지금 OneDrive 계정 및 SharePoint 계정에서 스캔되는 �
 
 === 어두운 사이트에 배포할 때 OneDrive 및 SharePoint 데이터 스캔 지원
 
-인터넷에 액세스할 수 없는 온프레미스 사이트의 호스트에 Cloud Data Sense를 배포했다면 이제 OneDrive 계정 또는 SharePoint 계정에서 로컬 데이터를 검색할 수 있습니다. link:task-deploy-compliance-dark-site.html#sharepoint_and_onedrive_special_requirements["다음 끝점에 대한 액세스를 허용해야 합니다."]
+인터넷에 액세스할 수 없는 온프레미스 사이트의 호스트에 Cloud Data Sense를 배포했다면 이제 OneDrive 계정 또는 SharePoint 계정에서 로컬 데이터를 검색할 수 있습니다. link:task-deploy-compliance-dark-site.html#sharepoint-and-onedrive-special-requirements["다음 끝점에 대한 액세스를 허용해야 합니다."]
 
 
 
@@ -367,7 +373,7 @@ link:task-managing-highlights.html#cloning-volume-data-to-a-new-volume["볼륨�
 
 50개의 파일을 삭제하는 등 여러 파일에 대해 조사 결과 창에서 작업을 실행할 경우 프로세스에 약간의 시간이 걸릴 수 있습니다. 이제 이러한 비동기 작업의 상태를 모니터링하여 모든 파일에 언제 적용되었는지 알 수 있습니다.
 
-link:task-managing-highlights.html#viewing-the-status-of-your-compliance-actions["진행 중인 규정 준수 작업의 상태를 확인하는 방법을 알아봅니다"].
+link:task-view-compliance-actions.html["진행 중인 규정 준수 작업의 상태를 확인하는 방법을 알아봅니다"].
 
 
 
@@ -515,54 +521,10 @@ Data Sense를 사용하여 파일에 "상태" 정보를 추가하는 기능이 �
 
 === 저속 스캔 수행 기능
 
-데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 하지만 아주 작은 충격에도 신경 쓰면 데이터 센스를 구성하여 "느린" 스캔을 수행할 수 있습니다. link:task-managing-compliance.html#reducing-the-data-sense-scan-speed["방법을 확인하십시오"].
+데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 하지만 아주 작은 충격에도 신경 쓰면 데이터 센스를 구성하여 "느린" 스캔을 수행할 수 있습니다. link:task-reduce-scan-speed.html["방법을 확인하십시오"].
 
 
 
 === Data Sense는 파일에 마지막으로 액세스한 시간을 추적합니다
 
 마지막으로 액세스한 시간 값이 파일 세부 정보 페이지 및 CSV 형식으로 출력되는 보고서에 추가되어 사용자가 마지막으로 파일에 액세스한 시간을 확인할 수 있습니다.
-
-
-
-== 2021년 6월 7일
-
-
-
-=== Cloud Compliance는 Cloud Data Sense로 이름이 바뀌었습니다.
-
-이번 릴리즈로 Cloud Compliance의 이름이 * Cloud Data Sense * 로 변경되었습니다. 제품에 포함된 모든 새로운 거버넌스 및 기타 기능을 통해 규정 준수 이름은 전체 기능 세트를 홍보하지 않았습니다.
-
-
-
-=== 거버넌스 대시보드에서 새로운 "전체 데이터 매핑" 보고서를 사용할 수 있습니다
-
-Governance Dashboard에서 새로운 _Full Data Mapping_Report를 사용하여 마이그레이션, 백업, 보안 및 규정 준수 프로세스 결정에 도움이 되도록 기업 데이터 소스에 저장되는 데이터에 대한 개요를 제공할 수 있습니다.
-
-이 보고서는 모든 작업 환경 및 데이터 소스를 요약하고 각 작업 환경에 대한 분석을 제공하는 개요 페이지를 제공합니다. link:task-generating-compliance-reports.html#generating-the-data-mapping-report["여기로 이동"] 를 참조하십시오.
-
-
-
-=== 조사 페이지의 새 필터를 사용하여 모든 중복 파일을 봅니다
-
-데이터 조사 페이지의 새 필터를 사용하면 스토리지 시스템 전체에서 복제된 모든 파일의 목록을 볼 수 있습니다. 이 기능은 저장소 공간을 절약할 수 있는 영역을 식별하거나, 저장소 전체에서 복제하지 않으려는 특정 사용 권한이나 중요한 정보가 있는 파일을 식별하는 데 유용합니다. link:task-controlling-private-data.html#viewing-all-duplicated-files["모든 중복 파일을 보는 방법을 확인하십시오"].
-
-
-
-=== Data Sense는 사용자 지정 태그를 조직용 파일에 추가할 수 있습니다
-
-데이터 센스에서 스캔 중 파일에 사용자 정의 태그를 추가할 수 있습니다. 태그가 AIP 라벨과 같은 방식으로 파일에 추가되지 않습니다. 이 태그는 Cloud Manager 사용자가 볼 수 있으므로 어떤 이유로 파일을 삭제하거나 확인해야 하는지 여부를 나타낼 수 있습니다. link:task-org-private-data.html#applying-tags-to-manage-your-scanned-files["파일에서 태그를 적용하고 보는 방법을 알아봅니다"].
-
-조사 페이지의 새 필터를 사용하면 태그가 지정된 모든 파일을 쉽게 볼 수 있습니다.
-
-
-
-=== DCM 및 .DICOM 파일 스캔 기능
-
-Cloud Data Sense는 .dcm 및 .dicom의 두 가지 추가 파일 유형에서 개인 식별 정보(PII)를 검색할 수 있습니다.
-
-
-
-=== 이제 데이터 센스에서 파일의 추가 속성을 추적합니다
-
-CSV 형식으로 출력하는 보고서에 파일 크기, 만든 날짜 및 마지막으로 수정한 날짜 값이 추가되었습니다. 만든 날짜 는 조사 페이지 검색 결과의 범위를 좁히는 데 사용할 수 있는 새 필터이기도 합니다.

@@ -147,7 +147,6 @@
   <block id="7b895b198aba9634ffec5e0ec9a3aff4" category="section-title">네트워킹 개요</block>
   <block id="6134fb19f2424f157bd88b36e40dcf10" category="paragraph">아웃바운드 규칙은 완전히 열립니다. 데이터 감지 소프트웨어를 설치 및 업그레이드하고 사용량 메트릭을 전송하려면 인터넷에 액세스해야 합니다.</block>
   <block id="12d39974306420354fffe75c7f15e621" category="inline-link-macro">Cloud Data Sense가 접촉하는 엔드포인트에 대해 알아보십시오</block>
-  <block id="56de08dfb4f78c8968cdc6b05d0014af" category="paragraph">네트워킹 요구 사항이 엄격하면 <block ref="34785efa2a38488608f222d4a2795abf" category="inline-link-macro-rx"></block>.</block>
   <block id="d359ba9662c22ff5e27bf861300c6bbf" category="section-title">규정 준수 정보에 대한 사용자 액세스</block>
   <block id="7e576e4144e56e656ad24bb096e2e6fe" category="list-text">계정 관리자 * 는 규정 준수 설정을 관리하고 모든 작업 환경에 대한 규정 준수 정보를 볼 수 있습니다.</block>
   <block id="e84e463a5d50d51ba24671ea703ccd3a" category="list-text">Compliance Viewer * 역할의 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 시스템에 대한 보고서만 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마 스캔을 활성화/비활성화할 수 없습니다. 이러한 사용자는 파일을 복사, 이동 또는 삭제할 수 없습니다.</block>
@@ -203,7 +202,6 @@
   <block id="9fadb22715a72b9017d3b43a7b3177e2" category="paragraph"><block ref="9fadb22715a72b9017d3b43a7b3177e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0ed0a0ad5aadf8f8ef3ea382b8f4a106" category="doc">클라우드 데이터 센스에 대한 라이센스 설정</block>
   <block id="80186f1230af2267e2c2e4d2ab8c030e" category="paragraph">추가 내용을 읽기 전에 몇 가지 참고 사항을 확인하십시오.</block>
-  <block id="67dc5872edad6cc97bdb69ec8f4447f2" category="list-text">클라우드 공급자 마켓플레이스에서 이미 Cloud Manager PAYGO(Pay-as-you-Go) 구독을 구독한 경우 Cloud Data Sense도 자동으로 구독됩니다. 다시 가입하지 않아도 됩니다.</block>
   <block id="e2efd47bd42c53cc1253f29754c3836a" category="list-text">Cloud Data Sense BYOL(Bring-Your-Own-License)은 스캔할 작업 영역의 모든 작업 환경과 데이터 소스에서 사용할 수 있는 _floating_license입니다. 디지털 지갑에 활성 구독이 표시됩니다.</block>
   <block id="4bc0671413757c3b06269c6869b1c24d" category="inline-link-macro">클라우드 데이터 센스와 관련된 라이센스 및 비용에 대해 자세히 알아보십시오</block>
   <block id="dcba253c1898878efeea1f106871ba52" category="paragraph"><block ref="32c4fb91a406f3c38311c8b665707774" category="inline-link-macro-rx"></block>.</block>
@@ -215,7 +213,6 @@
   <block id="b2f44b30cb7b59e6531b838d2b079d16" category="paragraph">이러한 단계는 _ 계정 관리자 _ 역할을 가진 사용자가 완료해야 합니다.</block>
   <block id="bea1f499527daa402d9417b6befca37e" category="list-text">AWS 인스턴스 프로파일, Azure 관리 서비스 ID 또는 Google Project에 대한 자격 증명을 찾습니다.</block>
   <block id="8071861b8e3a5d88d5457ddd1596427a" category="paragraph">구독은 인스턴스 프로필, 관리 서비스 ID 또는 Google Project에 추가해야 합니다. 그렇지 않으면 충전이 작동하지 않습니다.</block>
-  <block id="c5a48d7441653b12c714ba7f9509be09" category="paragraph">AWS에 대한 아래 표시된 것처럼 이미 구독을 사용 중인 경우에는 모두 설정된 것이므로 다른 작업은 필요하지 않습니다.</block>
   <block id="62e5878faab04822cdc1e0afde654b25" category="inline-image-macro">활성 구독이 있는 인스턴스 프로필을 보여 주는 자격 증명 페이지의 스크린 샷</block>
   <block id="960eb5524321a41f4a846cf6d41aa4ba" category="paragraph"><block ref="960eb5524321a41f4a846cf6d41aa4ba" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1127f6d49115a82bf6a8108eed8e2e9" category="list-text">구독이 아직 없는 경우 자격 증명 위에 마우스를 올려 놓고 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 클릭합니다.</block>
@@ -591,7 +588,6 @@
   <block id="4932ec0144d6d1640460f5cfee326e0f" category="inline-link-macro">Cloud Manager용 GCP Marketplace 구독</block>
   <block id="c066aa13effff0bea79252a20699074b" category="paragraph">50개의 파일을 삭제하는 등 여러 파일에 대해 조사 결과 창에서 작업을 실행할 경우 프로세스에 약간의 시간이 걸릴 수 있습니다. 이제 이러한 비동기 작업의 상태를 모니터링하여 모든 파일에 언제 적용되었는지 알 수 있습니다.</block>
   <block id="7fc4a6242ce76e0415a989d1dbc8b9d4" category="inline-link-macro">진행 중인 규정 준수 작업의 상태를 확인하는 방법을 알아봅니다</block>
-  <block id="0a8b229d21efe889c341133fa43bc3f7" category="paragraph"><block ref="b64e3c30f28dd83a2184563dc44ee1de" category="inline-link-macro-rx"></block>.</block>
   <block id="6241446e1383ab0c8cc0cebdfbb90484" category="inline-link-macro">스캔 시 데이터 센스에서 찾는 모든 개인 데이터 유형 목록을 참조하십시오</block>
   <block id="2164b22cc8c41bee72c53771bd025c07" category="paragraph">이제 데이터 센스에서 파일의 개인 데이터 유형인 "영국 여권" 및 "국립보건원(NHS) 번호"를 찾을 수 있습니다. <block ref="ce74ef267e6a0fa015475f7a67f6924a" category="inline-link-macro-rx"></block>.</block>
   <block id="9a67fa9362671e5cfd7881e63183490e" category="paragraph">데이터 조사 페이지에서 데이터를 필터링할 때 "작업 환경 유형"에 대한 새 필터가 추가되었습니다. 이를 통해 Cloud Volumes ONTAP 시스템, ONTAP 시스템용 FSx, 온프레미스 ONTAP 시스템 등에 대한 결과를 필터링할 수 있습니다.</block>
@@ -630,21 +626,7 @@
   <block id="cf3f2cc15d62c716232f57e1283f8347" category="inline-link-macro">이러한 제한 사항이 무엇인지 먼저 확인하십시오</block>
   <block id="60ee57016f16f38febc0431619eaa4bb" category="paragraph">스캔 요구 사항이 적은 일부 사용자는 더 작은 Cloud Data Sense 인스턴스를 사용할 수 있어야 했습니다. 이제 가능합니다. 이러한 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다 <block ref="2721bef887c25ebcb5745416e289e70e" category="inline-link-macro-rx"></block>.</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link-macro">방법을 확인하십시오</block>
-  <block id="5eea29ff6cc3dad991a8789d591533a9" category="paragraph">데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 하지만 아주 작은 충격에도 신경 쓰면 데이터 센스를 구성하여 "느린" 스캔을 수행할 수 있습니다. <block ref="be5ca65137ce848c8d09c371939d6748" category="inline-link-macro-rx"></block>.</block>
   <block id="34549c51a038d2c00ade5270b233fb1c" category="paragraph">마지막으로 액세스한 시간 값이 파일 세부 정보 페이지 및 CSV 형식으로 출력되는 보고서에 추가되어 사용자가 마지막으로 파일에 액세스한 시간을 확인할 수 있습니다.</block>
-  <block id="945fb8f32f58d1cc36cb9f1e9e4c6fe5" category="section-title">2021년 6월 7일</block>
-  <block id="6561d0dbae2df54bbe8349c518489172" category="section-title">Cloud Compliance는 Cloud Data Sense로 이름이 바뀌었습니다.</block>
-  <block id="d3c761a2e0f04b6d5a3de0a1d64ba674" category="paragraph">이번 릴리즈로 Cloud Compliance의 이름이 * Cloud Data Sense * 로 변경되었습니다. 제품에 포함된 모든 새로운 거버넌스 및 기타 기능을 통해 규정 준수 이름은 전체 기능 세트를 홍보하지 않았습니다.</block>
-  <block id="b1c097baa7655613db39bdfee4aa9834" category="paragraph">Governance Dashboard에서 새로운 _Full Data Mapping_Report를 사용하여 마이그레이션, 백업, 보안 및 규정 준수 프로세스 결정에 도움이 되도록 기업 데이터 소스에 저장되는 데이터에 대한 개요를 제공할 수 있습니다.</block>
-  <block id="e4769dc6302d1988b2db369ee09d08df" category="inline-link-macro">여기로 이동</block>
-  <block id="e49617bb2d098bc9411a20ab9cc7800e" category="paragraph">이 보고서는 모든 작업 환경 및 데이터 소스를 요약하고 각 작업 환경에 대한 분석을 제공하는 개요 페이지를 제공합니다. <block ref="69c5d3a80c29cb6ecc9dff8619a99bf7" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="7a75a1cb539ce717ffb70a6f45b1183c" category="inline-link-macro">모든 중복 파일을 보는 방법을 확인하십시오</block>
-  <block id="49088960be4d8db4c1a11ba7678fee3f" category="paragraph">데이터 조사 페이지의 새 필터를 사용하면 스토리지 시스템 전체에서 복제된 모든 파일의 목록을 볼 수 있습니다. 이 기능은 저장소 공간을 절약할 수 있는 영역을 식별하거나, 저장소 전체에서 복제하지 않으려는 특정 사용 권한이나 중요한 정보가 있는 파일을 식별하는 데 유용합니다. <block ref="9b932b7183a8b1eae080a32497be2440" category="inline-link-macro-rx"></block>.</block>
-  <block id="3bef072dfa864da4aa8559c03c7d0ca8" category="inline-link-macro">파일에서 태그를 적용하고 보는 방법을 알아봅니다</block>
-  <block id="cf5c65a6d69d1529a0f0cd6dd86b5edb" category="paragraph">데이터 센스에서 스캔 중 파일에 사용자 정의 태그를 추가할 수 있습니다. 태그가 AIP 라벨과 같은 방식으로 파일에 추가되지 않습니다. 이 태그는 Cloud Manager 사용자가 볼 수 있으므로 어떤 이유로 파일을 삭제하거나 확인해야 하는지 여부를 나타낼 수 있습니다. <block ref="7a35795d2be1b40763c1be0abb286f6d" category="inline-link-macro-rx"></block>.</block>
-  <block id="6e30bf5f27ef24f35407940f36e6664a" category="paragraph">조사 페이지의 새 필터를 사용하면 태그가 지정된 모든 파일을 쉽게 볼 수 있습니다.</block>
-  <block id="34872f144eacfe5c837131480f6e243a" category="paragraph">Cloud Data Sense는 .dcm 및 .dicom의 두 가지 추가 파일 유형에서 개인 식별 정보(PII)를 검색할 수 있습니다.</block>
-  <block id="fc15edce938be94b7835bbbb16d686b4" category="paragraph">CSV 형식으로 출력하는 보고서에 파일 크기, 만든 날짜 및 마지막으로 수정한 날짜 값이 추가되었습니다. 만든 날짜 는 조사 페이지 검색 결과의 범위를 좁히는 데 사용할 수 있는 새 필터이기도 합니다.</block>
   <block id="74585f658544c691c6f6afb583a9dc61" category="inline-link-macro">S3 프로토콜을 사용하는 오브젝트 스토리지 스캔</block>
   <block id="6988ee4ea30eb643c68d53327c6b1220" category="inline-link">MinIO 서비스</block>
   <block id="93f515959ce6187b986c42fa6959168b" category="doc">개인 데이터의 범주입니다</block>
@@ -1948,7 +1930,6 @@
   <block id="be27a8dc9dfba1897217ecee5823bd4e" category="list-text">파일에 대한 상태 정보 배포를 식별하는 데 도움이 됩니다. <block ref="1ce675538fc85bf3b1ef6fa4ab26346c" category="inline-link-macro-rx"></block>.</block>
   <block id="e6d68873555c37c43798e1e7f7b8513e" category="list-text">필요한 경우 정책 매개 변수와 일치하는 파일을 자동으로 삭제하려면 확인란을 선택합니다. 에 대해 자세히 알아보십시오 <block ref="30e6ed97d290e57f0e75d9e6322eb503" category="inline-link-macro-rx"></block>.</block>
   <block id="58293f799492274c3df075305508ade4" category="paragraph">Data Sense가 스캔 중인 소스 파일을 지원되는 비정형 데이터 소스에서 특정 대상 위치의 디렉토리로 복사할 수 있습니다 <block ref="ebb58758e77d05976efcc1ccd5134262" category="inline-link-rx"></block>)를 클릭합니다. 초기 복제 후에는 구성한 일정에 따라 파일에서 변경된 모든 데이터가 동기화됩니다.</block>
-  <block id="77129c83b2501b2eb47ff0a1fa67f801" category="list-text">Cloud Sync 서비스를 활성화하고 소스 시스템과 타겟 시스템 간에 파일을 전송하는 데 사용할 수 있는 데이터 브로커를 하나 이상 구성해야 합니다. 부터 시작되는 Cloud Sync 요구 사항을 검토합니다 <block ref="b962387ad67b92b5132f148579512908" category="inline-link-macro-rx"></block>.</block>
   <block id="82ad1ea6a2070297147f61890ad6c8ae" category="list-text">대상 시스템을 선택한 다음 사용하려는 데이터 브로커를 선택(또는 생성)해야 합니다. 부터 시작되는 Cloud Sync 요구 사항을 검토합니다 <block ref="5abefb1df304535da49e476c753377a4" category="inline-link-macro-rx"></block>.</block>
   <block id="1512503c318779a183367c2326a24f21" category="list-text">온프레미스 커넥터 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다.<block ref="ce22b55d293a0e07097135e6515924b6" category="inline-link-rx"></block>.</block>
   <block id="f49cd49d999d1390260fa896a1a3ceec" category="paragraph">을 클릭합니다 <block ref="4860dd37562d5a245a69a17be60d42e2" category="inline-link-macro-rx"></block> 정책에 대해 자세히 알아보십시오.</block>
@@ -1994,11 +1975,6 @@
   <block id="bddd2179a36dc08b8bb7be3660c8fed4" category="section-title">더 작은 Cloud Data Sense 인스턴스를 사용할 수 있습니다</block>
   <block id="a37544bc609cd0b6c2d725d27d13ab21" category="section-title">저속 스캔 수행 기능</block>
   <block id="f1c9a9425a145e1b1614fa251d393989" category="section-title">Data Sense는 파일에 마지막으로 액세스한 시간을 추적합니다</block>
-  <block id="763a569da43c025c1d54060a2ef2efbe" category="section-title">거버넌스 대시보드에서 새로운 "전체 데이터 매핑" 보고서를 사용할 수 있습니다</block>
-  <block id="08684668c10e9c17789be7934ef88e51" category="section-title">조사 페이지의 새 필터를 사용하여 모든 중복 파일을 봅니다</block>
-  <block id="8152326061d8b3d329ba2607a09b0fa1" category="section-title">Data Sense는 사용자 지정 태그를 조직용 파일에 추가할 수 있습니다</block>
-  <block id="c832a419d50a23d5a24e8b88cb7b1f44" category="section-title">DCM 및 .DICOM 파일 스캔 기능</block>
-  <block id="831cb0c03277fa9f02db351f7b681988" category="section-title">이제 데이터 센스에서 파일의 추가 속성을 추적합니다</block>
   <block id="5d7ec019a090d19805ff8b8708516943" category="paragraph">Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 다른 애플리케이션과 공유되는 호스트에서는 데이터 센스를 지원하지 않습니다. 호스트는 전용 호스트여야 합니다.</block>
   <block id="f9ddd233a713e3719c7d8046ab62cc1e" category="list-text">/tmp에 5GiB입니다</block>
   <block id="7d3786abf2ebb473a5ba70b680734525" category="section-title">BYOL 라이센스 고려사항</block>
@@ -2083,7 +2059,6 @@
   <block id="e6955249e6953613536ae08a88475a81" category="paragraph">전체 스캔 후에는 데이터 조사 페이지의 데이터 보기 및 구체화, 파일 내 이름 검색, 원본 파일 복사, 이동 및 삭제 등과 같이 데이터에 적용할 수 있는 여러 가지 추가 데이터 감지 기능이 있습니다.</block>
   <block id="1a068d00fba0764fe495dfcb9428ba33" category="section-title">추가 수익 실적을</block>
   <block id="efd4a405d0fc94dd44dd46314145b533" category="paragraph">다음 질문은 Cloud Data Sense를 사용하기 위한 라이센싱 및 비용과 관련된 것입니다.</block>
-  <block id="d28d4f6cb9334067ba763d5205ef3408" category="list-text">클라우드 공급자 또는 에서 Cloud Manager Marketplace 목록에 대한 구독</block>
   <block id="4aaa082eb5a6a6d38594fed7ac9dfc5c" category="list-text">BYOL(Bring-Your-Own-License) 방식으로 NetApp의 BYOL(Bring-Your-License</block>
   <block id="d593d438e7fbece83184e3d6d94b77d8" category="paragraph">을 참조하십시오<block ref="6bbe1a830896033f3d42bc42c545c572" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="df633ebdc2836fc65b2b5c8df3071fad" category="section-title">BYOL 용량 제한에 도달하면 어떻게 됩니까?</block>
@@ -2208,7 +2183,6 @@
   <block id="a630192bda7a95f4930b54f41701fc66" category="section-title">이제 작성한 기존 정책을 편집할 수 있습니다</block>
   <block id="61e409921fe798c5667689af4656a112" category="inline-link">정책을 편집하는 방법을 알아봅니다</block>
   <block id="dccade93a4eb5827c9c662378d30957d" category="paragraph">이전에 만든 사용자 지정 정책을 변경해야 하는 경우 새 정책을 만드는 대신 정책을 편집할 수 있습니다.<block ref="9b2d4d6793839e9e21c2eaa1cfc45637" category="inline-link-rx"></block>.</block>
-  <block id="1f50cc006f0a9aa5fa08f3f58b10bf1d" category="paragraph">인터넷에 액세스할 수 없는 온프레미스 사이트의 호스트에 Cloud Data Sense를 배포했다면 이제 OneDrive 계정 또는 SharePoint 계정에서 로컬 데이터를 검색할 수 있습니다. <block ref="8c0c83431a0c54e3e158fb0a6b366a6d" category="inline-link-macro-rx"></block></block>
   <block id="fbbd4044d95d7d79fb98ebd8d7daf546" category="summary">필요한 경우, 하나 이상의 작업 환경, 데이터베이스, 파일 공유 그룹, OneDrive 계정, Google Drive 계정, SharePoint 계정을 사용할 수 있습니다.</block>
   <block id="a80767bb4322f81d8b7bd0b15673f6ab" category="summary">데이터 감지 소프트웨어를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거할 수 있습니다. 또한 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. 데이터 센스에서 검색한 모든 정보는 영구적으로 삭제됩니다.</block>
   <block id="9cd2794f7afcdacb42a1ab6334e60324" category="doc">클라우드 데이터 센스를 제거하는 중입니다</block>
@@ -2249,9 +2223,7 @@
   <block id="f8563669b8d53fea23814d12a98674cd" category="paragraph">예를 들어, 어떤 요청이 실행되었는지, 요청 시간, 파일이 삭제된 경우 소스 위치 등의 세부 정보 또는 파일이 이동된 경우 소스 및 대상 위치를 확인할 수 있습니다.</block>
   <block id="f4d44f4e933c52507fc1f60eb487d44a" category="section-title">로그 파일 내용</block>
   <block id="787cbeccb975d71260f61cb0fbe84553" category="paragraph">감사 로그의 각 줄에는 다음 형식의 정보가 포함되어 있습니다.</block>
-  <block id="727fb114deba541b53a0b54311e03930" category="paragraph">'&lt;full date&gt;|&lt;status&gt;|datasense_audit_logger|&lt;module&gt;|0|0|파일 &lt;full file path&gt;이(가) 장치 &lt;device path&gt;-&lt;result&gt;'에서 삭제되었습니다</block>
   <block id="79480e26f983c197c4338ae916966c93" category="list-text">상태 - 정보, 경고</block>
-  <block id="8c5560001ce7d874ad9b883caee72f9c" category="list-text">작업 유형(삭제, 복사, 이동, 정책 생성, 정책 업데이트, JSON 보고서 다운로드 등)</block>
   <block id="eee2e3db044c9200dc614ed87a9c8fde" category="list-text">파일 이름(작업이 파일과 관련된 경우)</block>
   <block id="cca60f73053d584e7caacfd33a8f046e" category="list-text">정책 이름입니다</block>
   <block id="3c14ec40364ae096849c696c3497ff60" category="list-text">이동 - 원본 및 대상</block>
@@ -2268,7 +2240,6 @@
   <block id="0b0eacf696b45d65c53ff1b5473edb39" category="paragraph"><block ref="0b0eacf696b45d65c53ff1b5473edb39" category="inline-image-macro-rx" type="image"></block></block>
   <block id="baa6537e5347accba4142c762df4cdf0" category="paragraph">JSON 보고서를 선택할 때 보고서를 다운로드할 NFS 공유의 이름을 '&lt;host_name&gt;:/&lt;share_path&gt;' 형식으로 입력합니다.</block>
   <block id="c7fa83e1836cada62d287dfbba3779c2" category="paragraph">대화 상자에 보고서가 다운로드되고 있다는 메시지가 표시됩니다.</block>
-  <block id="2bbb59657134248b81caacac241c5f02" category="paragraph">에서 JSON 보고서 생성 진행률을 볼 수 있습니다 <block ref="7ab6e8afc5b3f27fa1b074f775217e39" category="inline-xref-macro-rx"></block>.</block>
   <block id="8cb8a6e0c4d4366f74cd4f0b6f61a0f6" category="paragraph">비정형 디렉터리 데이터 보고서 * 에는 폴더 및 파일 공유에 대한 다음 정보가 포함되어 있습니다.</block>
   <block id="76cbd87b5322b897c255d541785ad658" category="list-text">스토리지 저장소(예: 폴더 또는 파일 공유)</block>
   <block id="45fe1c24aae6844389ce04f26df40a13" category="list-text">파일 경로(디렉토리 이름)</block>
@@ -2371,7 +2342,6 @@
   <block id="69c5667893c99e5a388e892cc9784e66" category="paragraph"><block ref="69c5667893c99e5a388e892cc9784e66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecc7450cf52e0d0d89139603b07ea706" category="paragraph">커서를 _Scan Status_ 열의 차트 위로 이동하면 각 리포지토리에서 매핑하거나 분류할 수 있는 남은 파일 수를 볼 수 있습니다(이 예제의 버킷).</block>
   <block id="1a8f03950c641e2ffffb33146f70ef55" category="admonition">매핑 전용 검색으로 데이터베이스를 설정할 수 없습니다. 데이터베이스 스캐닝은 Off(끄기) 또는 On(켜기)일 수 있습니다. On(켜짐)은 Map &amp; Classify(맵 및 분류)와 동일합니다.</block>
-  <block id="9db1ab99c3f7640c000fdc19054af26c" category="list-text">운영 체제: Red Hat Enterprise Linux 또는 CentOS 버전 8.0 ~ 8.4</block>
   <block id="ce12cca419124f32a01c6fec5a3be62f" category="list-text">버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다</block>
   <block id="9308bcab83008e639f95b088d89b11c4" category="cell">호주 운전 면허증</block>
   <block id="1ce92447664cc42f3e2c04aaf8570862" category="cell">뉴질랜드 은행 계좌</block>
@@ -2698,7 +2668,6 @@
   <block id="b857453947413e0fa339869d22d4c786" category="paragraph"><block ref="0f3b3f14a152082b591c2061f55976b1" category="inline-link-rx"></block>.</block>
   <block id="79212600af75dc48b9f7e59a9927a88e" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭한 다음 * 구성 * 탭을 선택합니다.</block>
   <block id="623d17b9d36b70bf9a4a775a9d346f58" category="admonition">Azure NetApp Files의 경우 클라우드 데이터 센스(Cloud Data Sense)는 BlueXP와 동일한 영역에 있는 볼륨만 스캔할 수 있습니다.</block>
-  <block id="4479e460b4d47f38dc9336cba866cce4" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 통한 Cloud Manager 가입이 필요합니다.</block>
   <block id="16f6b76e35946d0224b05a1466e556f0" category="inline-link">BlueXP 기능을 사용하려면 커넥터가 필요합니다</block>
   <block id="b4af24a1096b735934691c65956c7d7a" category="paragraph">Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다. 을 참조하십시오<block ref="e291ebc6db7a8ec08d333384efa4743e" category="inline-link-rx"></block> 또는<block ref="3f9648a8e8f665af7b23c050702c5c95" category="inline-link-rx"></block>, 또는<block ref="2559e3f18112d727f751d3574900096c" category="inline-link-rx"></block>. 대부분의 경우, 대부분의 경우 Cloud Data Sense를 활성화하려고 시도하기 전에 Connector를 설정했을 것입니다<block ref="d18edc1f87b2c25c3b9a75b33d4a162f" category="inline-link-rx"></block>하지만 지금 설정해야 하는 경우도 있습니다.</block>
   <block id="7d0e3dd93f2549f8ce0be2f0454b12b2" category="cell">BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증.</block>
@@ -2859,13 +2828,11 @@
   <block id="b77072323352dd1724df6d20002eb9f2" category="list-text">다음 스크립트를 실행하여 이 매핑 정보를 모든 스캐너 노드에 등록합니다.<block ref="f484d7848213083a72fafef02f452b57" prefix=" " category="inline-code"></block></block>
   <block id="a147b656a2355ffcebd357dcfbb4b53f" category="paragraph">모든 데이터 소스를 스캔하기 위해 Manager 및 Scanner 노드를 사용하여 데이터 센스를 설정합니다.</block>
   <block id="1d4c3c5a59e200a8cf6bd280a00b8b39" category="paragraph">아직 선택하지 않은 경우 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다. 스캐너 그룹을 생성한 경우 각 데이터 소스는 해당 그룹의 스캐너 노드에 의해 스캔됩니다.</block>
-  <block id="0fd7cab37419c3f9fdd225020324c7dc" category="section-title">2022년 11월 7일(버전 1.17)</block>
   <block id="0198cdca4033ab7a459e75dac29fa28e" category="section-title">SharePoint 온-프레미스 계정 스캔 지원</block>
   <block id="576988db8c435aebbdd8f982f33f8ac5" category="paragraph">이제 데이터 센스를 통해 SharePoint Online 계정과 SharePoint 온-프레미스 계정(SharePoint Server)을 모두 검색할 수 있습니다. 자체 서버에 SharePoint를 설치하거나 인터넷에 액세스할 수 없는 사이트에 SharePoint를 설치해야 하는 경우 이제 데이터 센스에서 해당 계정의 사용자 파일을 검색할 수 있습니다.<block ref="8036d15ae032ce99e20eb0ee5791bf65" category="inline-link-rx"></block>.</block>
   <block id="9793f1d7484adebeb64fb621258edfaf" category="section-title">여러 디렉토리(폴더 또는 공유)를 재검색하는 기능</block>
   <block id="5f78811b5a7bfd9355b114563c862fc9" category="paragraph">이제 변경 사항이 시스템에 반영되도록 여러 디렉토리(폴더 또는 공유)를 즉시 재검색할 수 있습니다. 이렇게 하면 특정 데이터를 다른 데이터보다 먼저 다시 검색하게 할 수 있습니다.<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>.</block>
   <block id="feec7c47e3e7cb8ab71bbb29acd13ee0" category="section-title">특정 데이터 소스를 스캔하기 위해 사내 "스캐너" 노드를 추가하는 기능</block>
-  <block id="c6cc179979c3b50e9f274669a7debb6f" category="paragraph">온-프레미스 위치에 데이터 센스를 설치한 경우 데이터 원본을 스캔하기 위해 더 많은 스캔 처리 성능이 필요한 경우 "스캐너" 노드를 더 추가할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다. 예를 들어 데이터 원본 중 하나에 있는 데이터의 양이 1년 후 3배 증가했다는 사실을 알고 있는 경우 데이터 스캔을 지원하기 위해 새 스캐너 노드를 추가할 수 있습니다.</block>
   <block id="cbcceb43df0c94c9cc9e38ba4b9389c1" category="paragraph">파일이나 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹의 목록과 해당 권한이 있는 권한 유형을 보려면 * 모든 권한 보기 * 를 클릭합니다. 이 단추는 CIFS 공유, SharePoint Online, SharePoint On-Premise 및 OneDrive의 데이터에만 사용할 수 있습니다.</block>
   <block id="808cffec2f45e3cd0fe5a90bfcca1530" category="summary">Data Sense는 향후 검색에서 Data Sense가 식별할 수 있는 "개인 데이터"의 사용자 지정 목록을 추가할 수 있는 여러 가지 방법을 제공하므로 잠재적으로 중요한 데이터가 모든 조직의 파일에 있는 위치를 완벽하게 파악할 수 있습니다.</block>
   <block id="779142c3c6196fad0d5a73d9c046a65d" category="paragraph">Data Sense는 향후 검색에서 Data Sense가 식별할 수 있는 "개인 데이터"의 사용자 지정 목록을 추가할 수 있는 여러 가지 방법을 제공하므로, 잠재적으로 중요한 데이터가 _ All _ 조직 파일에 있는 위치를 완벽하게 파악할 수 있습니다.</block>
@@ -2945,4 +2912,24 @@
   <block id="095466eeefcbabc811ab5e2a672ee877" category="paragraph">데이터 센스에서 향후 검색에서 식별할 수 있는 사용자 지정 "개인 데이터"를 추가하는 방법은 두 가지가 있습니다. 이렇게 하면 중요한 데이터가 조직의 모든 파일에 있는 위치를 전체적으로 파악할 수 있습니다.</block>
   <block id="3fb1605dea41a1022e020f895acc727f" category="list-text">정규식(regex)을 사용하여 개인 패턴을 추가할 수 있습니다.</block>
   <block id="a7110ffc746d511f3031ce3693e9c099" category="paragraph">이러한 키워드 및 패턴은 데이터 센스에서 이미 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 개인 패턴 섹션 아래에 표시됩니다.<block ref="ba4b576d22723dd9b7b37b67a884a8d7" category="inline-link-rx"></block>.</block>
+  <block id="415d8b1f8ef7e8bc1bca29c92bbffb9b" category="list-text">운영 체제: Red Hat Enterprise Linux 또는 CentOS 버전 8.0 ~ 8.6</block>
+  <block id="3c73fb515a637be4a1083e3e061099f9" category="paragraph">설치 프로그램은 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되어 있는지 확인합니다.</block>
+  <block id="0cf39354f7edfa15dd84075131e27804" category="list-text">클라우드 공급업체의 BlueXP Marketplace 목록 가입 또는</block>
+  <block id="10d127f1d0ce294ce4f4f8e7ebf6106b" category="paragraph">네트워킹 요구 사항이 엄격하면 <block ref="8ee644766673e1cde7b0c260d7a4e2e0" category="inline-link-macro-rx"></block>.</block>
+  <block id="21315205ba34163a83853c5526e534c1" category="list-text">한 번에 최대 1K 항목을 재생성할 수 있습니다.</block>
+  <block id="8ec215ce3c88ae58412a2c9d13f5d15b" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 계속해서 데이터를 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 통한 BlueXP 구독이 필요합니다.</block>
+  <block id="a8c256c3bc4f2ab999fee3056f7bebab" category="paragraph"><block ref="5d86a8971ca34d1c831cc0be7e11109d" prefix="" category="inline-code"></block></block>
+  <block id="79bd49250e598bf53655f50c83b04044" category="list-text">작업 유형(삭제, 복사, 이동, 정책 생성, 정책 업데이트, 파일 재검색, JSON 보고서 다운로드 등)</block>
+  <block id="9d282ec5c19d83f47fc9504e4ff50325" category="list-text">클라우드 공급자의 마켓플레이스에서 이미 BlueXP PAYGO(pay-as-you-go) 구독을 구독한 경우 클라우드 데이터 센스(Cloud Data Sense)도 자동으로 구독됩니다. 다시 가입하지 않아도 됩니다.</block>
+  <block id="f6d56db241e1b67ea15f2bcfc6d58cee" category="paragraph">BlueXP 가입(AWS의 경우 아래 참조)이 이미 있는 경우, 모든 준비가 완료되어 있으므로 다른 작업은 필요하지 않습니다.</block>
+  <block id="8a19b447bcd4da037940f31306b703f2" category="list-text">Cloud Sync 서비스를 활성화하고 소스 시스템과 타겟 시스템 간에 파일을 전송하는 데 사용할 수 있는 데이터 브로커를 하나 이상 구성해야 합니다. 부터 시작되는 Cloud Sync 요구 사항을 검토합니다<block ref="e51d588768ce18b65058ca75b02bbb45" category="inline-link-rx"></block>.</block>
+  <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">에서 JSON 보고서 생성 진행률을 볼 수 있습니다 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>.</block>
+  <block id="0527c3c624cc9c38c92e3f9b20bd744d" category="list-text">설치 프로그램에서 프롬프트가 표시되면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.</block>
+  <block id="bd975c5b95d2c7b6d2e124201b98445c" category="section-title">2022년 11월 13일(버전 1.17)</block>
+  <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">온-프레미스 위치에 데이터 센스를 설치한 경우 특정 데이터 원본을 스캔하기 위해 스캔 처리 성능이 더 필요한 경우 "스캐너" 노드를 더 추가하고 해당 데이터 원본을 스캔하도록 할당할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다.</block>
+  <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">이제 온-프레미스 설치 관리자가 설치를 시작하기 전에 사전 검사를 수행합니다</block>
+  <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">Linux 시스템에 Data Sense를 설치할 때 설치 관리자는 실제 설치를 시작하기 전에 시스템이 필요한 모든 요구 사항(CPU, RAM, 용량, 네트워킹 등)을 충족하는지 확인합니다. 따라서 * 설치에 시간을 소비하기 전에 * 문제를 파악할 수 있습니다.</block>
+  <block id="9d2608b0b15c6604020ef66ba698a70d" category="paragraph">인터넷에 액세스할 수 없는 온프레미스 사이트의 호스트에 Cloud Data Sense를 배포했다면 이제 OneDrive 계정 또는 SharePoint 계정에서 로컬 데이터를 검색할 수 있습니다. <block ref="1b9c05db061e84ae6eca6f68bdd32c9b" category="inline-link-macro-rx"></block></block>
+  <block id="80ca59a22e157477c940f080c9cf1223" category="paragraph"><block ref="b1c06333aab3fa5206e44a440f888650" category="inline-link-macro-rx"></block>.</block>
+  <block id="fa18750d3909d8a2d2d0a22c1611a692" category="paragraph">데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 하지만 아주 작은 충격에도 신경 쓰면 데이터 센스를 구성하여 "느린" 스캔을 수행할 수 있습니다. <block ref="50748b3ac35725f5f9be1dab9c684e55" category="inline-link-macro-rx"></block>.</block>
 </blocks>
