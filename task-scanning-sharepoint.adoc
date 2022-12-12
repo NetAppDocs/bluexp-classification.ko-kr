@@ -22,15 +22,19 @@ Cloud Data Sense를 사용하여 SharePoint Online 및 SharePoint On-Premise 계
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] SharePoint 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
 SharePoint 계정에 로그인할 관리자 자격 증명이 있고 검색할 SharePoint 사이트의 URL이 있는지 확인합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 클라우드 데이터 감지 인스턴스를 구축합니다
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["클라우드 데이터 센스를 구축하십시오"^] 이미 배포된 인스턴스가 없는 경우
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] SharePoint 계정에 로그인합니다
 [role="quick-margin-para"]
 관리자 사용자 자격 증명을 사용하여 액세스할 SharePoint 계정에 로그인하여 새 데이터 원본/작업 환경으로 추가합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 검사할 SharePoint 사이트 URL을 추가합니다
 [role="quick-margin-para"]
 SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하고 검색 유형을 선택합니다. 한 번에 최대 100개의 URL을 추가할 수 있습니다.
 
@@ -152,6 +156,7 @@ image:screenshot_compliance_sharepoint_add_site.png["스캔할 사이트를 추�
 |===
 
 
+.결과
 Cloud Data Sense는 추가한 SharePoint 사이트의 파일을 스캔하기 시작하며, 그 결과는 대시보드와 다른 위치에 표시됩니다.
 
 

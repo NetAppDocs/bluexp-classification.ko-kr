@@ -22,15 +22,19 @@ Cloud Data Sense를 사용하여 Google Drive 계정의 사용자 파일 스캔�
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] Google Drive 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
 Google Drive 계정에 로그인할 수 있는 관리자 자격 증명이 있는지 확인합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 클라우드 데이터 센스를 구축하십시오
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["클라우드 데이터 센스를 구축하십시오"^] 이미 배포된 인스턴스가 없는 경우
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] Google Drive 계정에 로그인합니다
 [role="quick-margin-para"]
 관리자 사용자 자격 증명을 사용하여 액세스하려는 Google Drive 계정에 로그인하여 새 데이터 소스로 추가합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 사용자 파일에 대한 스캔 유형을 선택합니다
 [role="quick-margin-para"]
 사용자 파일에 대해 수행할 스캔 유형, 매핑 또는 매핑 및 분류를 선택합니다.
 
@@ -111,6 +115,7 @@ image:screenshot_compliance_google_drive_select_scan.png["데이터 감지 스�
 |===
 
 
+.결과
 Cloud Data Sense는 추가한 Google Drive 계정의 파일 스캔을 시작하고, 결과는 대시보드와 다른 위치에 표시됩니다.
 
 

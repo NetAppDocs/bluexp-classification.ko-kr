@@ -16,7 +16,7 @@ summary: Cloud Data Sense는 조직의 데이터 개인 정보 보호 프로그�
 [role="lead"]
 Cloud Data Sense는 조직의 데이터 개인 정보 보호 프로그램 상태를 더 잘 이해하는 데 사용할 수 있는 보고서를 제공합니다.
 
-기본적으로 Cloud Data Sense 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 보려면  the working environments for reports,작업 환경을 선택합니다.
+기본적으로 Cloud Data Sense 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 보려면 <<보고서에 사용할 작업 환경 선택,작업 환경을 선택합니다>>.
 
 [NOTE]
 ====
@@ -31,7 +31,7 @@ Cloud Data Sense는 조직의 데이터 개인 정보 보호 프로그램 상태
 
 개인 정보 보호 위험 평가 보고서는 GDPR 및 CCPA와 같은 개인 정보 보호 규정에 따라 조직의 개인 정보 보호 위험 상태에 대한 개요를 제공합니다. 보고서에는 다음 정보가 포함됩니다.
 
-준수 상태:: A  score,심각도 점수 또한 데이터가 중요하지 않거나 개인적이거나 민감한 개인이든 상관없이 배포할 수 있습니다.
+준수 상태:: A <<심각도 점수,심각도 점수>> 또한 데이터가 중요하지 않거나 개인적이거나 민감한 개인이든 상관없이 배포할 수 있습니다.
 평가 개요:: 발견된 개인 데이터 유형 및 데이터 범주에 대한 분석.
 이 평가의 데이터 주체:: 국가 식별자가 발견된 위치별 사람 수.
 
@@ -50,6 +50,7 @@ image:screenshot_privacy_risk_assessment.gif["BlueXP의 규정 준수 탭 스크
 
 
 
+.결과
 Cloud Data Sense는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
 
 
@@ -129,6 +130,7 @@ image:screenshot_pci_dss.gif["BlueXP의 규정 준수 탭 스크린 샷에 개�
 
 
 
+.결과
 Cloud Data Sense는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
 
 
@@ -167,6 +169,7 @@ image:screenshot_hipaa.gif["HIPAA를 클릭할 수 있는 보고서 창이 표�
 
 
 
+.결과
 Cloud Data Sense는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
 
 
@@ -197,6 +200,7 @@ image:screenshot_compliance_data_mapping_report_button.png["데이터 매핑 보
 
 
 
+.결과
 Cloud Data Sense는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
 
 
@@ -224,6 +228,7 @@ JSON 보고서를 선택할 때 보고서를 다운로드할 NFS 공유의 이�
 
 
 
+.결과
 대화 상자에 보고서가 다운로드되고 있다는 메시지가 표시됩니다.
 
 에서 JSON 보고서 생성 진행률을 볼 수 있습니다 link:task-view-compliance-actions.html["작업 상태 창"].

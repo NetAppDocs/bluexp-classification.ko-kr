@@ -22,18 +22,23 @@ Azure NetApp Files용 클라우드 데이터 센스를 시작하려면 몇 단�
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 검사할 Azure NetApp Files 시스템을 검색합니다
 [role="quick-margin-para"]
 Azure NetApp Files 볼륨을 스캔하기 전에 https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["구성을 검색하려면 BlueXP를 설정해야 합니다"^].
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 클라우드 데이터 감지 인스턴스를 구축합니다
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["BlueXP에서 클라우드 데이터 센스를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] Cloud Data Sense를 활성화하고 스캔할 볼륨을 선택합니다
 [role="quick-margin-para"]
 Compliance * 를 클릭하고 * Configuration * 탭을 선택한 다음 특정 작업 환경의 볼륨에 대한 규정 준수 검사를 활성화합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 볼륨에 대한 액세스를 확인합니다
 [role="quick-margin-para"]
 이제 Cloud Data Sense가 활성화되었으므로 모든 볼륨에 액세스할 수 있는지 확인하십시오.
 
+[role="quick-margin-list"]
 * 클라우드 데이터 감지 인스턴스에는 각 Azure NetApp Files 서브넷에 대한 네트워크 연결이 필요합니다.
 * 다음 포트가 Data Sense 인스턴스에 열려 있는지 확인합니다.
 +
@@ -48,6 +53,7 @@ Compliance * > * Configuration * > * Edit CIFS Credentials * 를 클릭하고 �
 
 
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"] 스캔할 볼륨을 관리합니다
 [role="quick-margin-para"]
 스캔할 볼륨을 선택하거나 선택 취소하면 Cloud Data Sense에서 스캔을 시작하거나 중지합니다.
 
@@ -87,13 +93,14 @@ image:screenshot_cloud_compliance_anf_scan_config.png["Cloud Data Sense 인스�
 ** 모든 볼륨을 매핑하고 분류하려면 * 모든 볼륨 매핑 및 분류 * 를 클릭합니다.
 ** 각 볼륨에 대한 스캔을 사용자 정의하려면 * 를 클릭하거나 각 볼륨에 대한 스캐닝 유형을 선택한 다음 매핑 및/또는 분류할 볼륨을 선택합니다.
 +
-을 참조하십시오  and disabling compliance scans on volumes,볼륨에서 규정 준수 검사 활성화 및 비활성화 를 참조하십시오.
+을 참조하십시오 <<볼륨에서 규정 준수 검사 활성화 및 비활성화,볼륨에서 규정 준수 검사 활성화 및 비활성화>> 를 참조하십시오.
 
 
 
 . 확인 대화 상자에서 * Approve * (승인 *)를 클릭하여 데이터 센스에서 체적 스캔을 시작하도록 합니다.
 
 
+.결과
 Cloud Data Sense는 작업 환경에서 선택한 볼륨을 스캔하기 시작합니다. Cloud Data Sense에서 초기 스캔을 마치면 Compliance 대시보드에서 결과를 얻을 수 있습니다. 소요되는 시간은 데이터 양에 따라 다릅니다. 몇 분 또는 몇 시간이 걸릴 수도 있습니다.
 
 

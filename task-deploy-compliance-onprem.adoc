@@ -18,7 +18,11 @@ summary: 몇 가지 단계를 완료하여 인터넷 액세스가 가능한 네�
 
 온프레미스에 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 사내 설치가 좋은 옵션이 될 수 있지만, 이것이 요구사항은 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
 
-페타바이트 단위의 데이터를 스캔할 수 있는 대규모 구성의 경우 여러 호스트를 포함하여 처리 능력을 높일 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 관리자 노드라고 하며 추가 처리 기능을 제공하는 추가 시스템을 스캐너 노드라고 합니다.
+일반적인 사내 설치에는 다음과 같은 구성 요소와 연결이 있습니다.
+
+image:diagram_deploy_onprem_overview.png["필요한 BlueXP 및 네트워크 구성 요소 및 관련 연결의 다이어그램"]
+
+페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 관리자 노드라고 하며 추가 처리 기능을 제공하는 추가 시스템을 스캐너 노드라고 합니다.
 
 참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 온프레미스 사이트에 데이터 센스를 구현합니다"] 완전히 안전한 사이트를 위한 것입니다.
 
@@ -28,21 +32,25 @@ summary: 몇 가지 단계를 완료하여 인터넷 액세스가 가능한 네�
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 커넥터를 작성합니다
 [role="quick-margin-para"]
-아직 커넥터가 없으면 지금 연결선을 작성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["GCP에서 커넥터를 생성하는 중입니다"^].
+커넥터가 없는 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Connector를 온-프레미스에 배포합니다"^] 네트워크 또는 클라우드의 Linux 호스트
 
 [role="quick-margin-para"]
-또한 가능합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Connector를 온-프레미스에 배포합니다"^] 네트워크 또는 클라우드의 Linux 호스트
+또한 클라우드 공급자와 커넥터를 생성할 수도 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["GCP에서 커넥터를 생성하는 중입니다"^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토합니다
+[role="quick-margin-para"]
+환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 클라우드 데이터 감지 간의 연결 등이 포함됩니다. <<BlueXP 및 데이터 감지 사전 요구 사항을 확인합니다,전체 목록을 참조하십시오>>.
 
 [role="quick-margin-para"]
-환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 클라우드 데이터 감지 간의 연결 등이 포함됩니다.  BlueXP and Data Sense prerequisites,전체 목록을 참조하십시오.
+또한 을 충족하는 Linux 시스템도 필요합니다 <<Linux 호스트 시스템을 준비합니다,따르는 요구사항>>.
 
-[role="quick-margin-para"]
-또한 을 충족하는 Linux 시스템도 필요합니다  the Linux host system,따르는 요구사항.
-
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 클라우드 데이터 센스를 다운로드하고 배포합니다
 [role="quick-margin-para"]
 NetApp Support 사이트에서 Cloud Data Sense 소프트웨어를 다운로드하고 사용할 Linux 호스트에 설치 프로그램 파일을 복사합니다. 그런 다음 설치 마법사를 시작하고 프롬프트에 따라 Data Sense 인스턴스를 배포합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] Cloud Data Sense 서비스를 구독하십시오
 [role="quick-margin-para"]
 BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 구입해야 합니다.
 
@@ -50,15 +58,16 @@ BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입�
 
 == 커넥터를 작성합니다
 
-Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS에서 커넥터 생성"^] 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["GCP에서 커넥터를 생성하는 중입니다"^]. 대부분의 경우, 대부분의 경우 Cloud Data Sense를 활성화하려고 시도하기 전에 Connector를 설정했을 것입니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
+데이터 센스를 설치하고 사용하려면 BlueXP 커넥터가 필요합니다. 대부분의 경우, 대부분의 경우 Cloud Data Sense를 활성화하려고 시도하기 전에 Connector를 설정했을 것입니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
+
+클라우드 공급자 환경에 하나를 생성하려면 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["GCP에서 커넥터를 생성하는 중입니다"^].
 
 특정 클라우드 공급자에 배포된 Connector를 사용해야 하는 몇 가지 시나리오가 있습니다.
 
 * AWS의 Cloud Volumes ONTAP, ONTAP용 Amazon FSx 또는 AWS S3 버킷에서 데이터를 스캔할 때는 AWS의 커넥터를 사용합니다.
 * Azure 또는 Azure NetApp Files의 Cloud Volumes ONTAP에서 데이터를 스캔할 때 Azure의 커넥터를 사용합니다.
 +
-** Azure NetApp Files의 경우 스캔하려는 볼륨과 동일한 영역에 배포해야 합니다.
-
+Azure NetApp Files의 경우 스캔하려는 볼륨과 동일한 영역에 배포해야 합니다.
 
 * GCP의 Cloud Volumes ONTAP에서 데이터를 스캔할 때 GCP의 커넥터를 사용합니다.
 
@@ -75,32 +84,55 @@ Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니�
 
 == Linux 호스트 시스템을 준비합니다
 
-Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 다른 애플리케이션과 공유되는 호스트에서는 데이터 센스를 지원하지 않습니다. 호스트는 전용 호스트여야 합니다.
+Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. Linux 호스트는 네트워크 또는 클라우드에 있을 수 있습니다. 다른 애플리케이션과 공유되는 호스트에서는 데이터 센스를 지원하지 않습니다. 호스트는 전용 호스트여야 합니다.
 
-* 운영 체제: Red Hat Enterprise Linux 또는 CentOS 버전 8.0 ~ 8.6
+* * 운영 체제 *: Red Hat Enterprise Linux 또는 CentOS 버전 8.0 ~ 8.6
 +
 ** 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
-** OS에서 Docker 엔진을 설치할 수 있어야 합니다(예: 필요한 경우 _firewalld_service 사용 안 함).
+** 운영 체제에서 Docker 엔진을 설치할 수 있어야 합니다
 
 
-* 디스크: 500GiB의 SSD 사용 가능 온/또는
+* * 디스크 *: SSD, 500GiB의 사용 가능, 또는
 +
 ** 100GiB를 On/OPT에서 사용할 수 있습니다
 ** /var에서 400GiB를 사용할 수 있습니다
 ** /tmp에 5GiB입니다
 
 
-* RAM: 64GB(스왑 메모리는 호스트에서 비활성화해야 함)
-* CPU: 16코어
+* RAM *: 64GB(스왑 메모리는 호스트에서 비활성화해야 함)
+* * CPU *: 16코어
 +
 CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있지만 이러한 시스템을 사용할 때는 한계가 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
 
-* Red Hat Enterprise Linux 시스템은 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
-* 다음 소프트웨어가 호스트에 설치되어 있어야 합니다. 호스트에 아직 없는 경우 설치 프로그램이 소프트웨어를 설치합니다.
+* * Red Hat 서브스크립션 관리 *: Red Hat Enterprise Linux 시스템은 Red Hat 서브스크립션 관리에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
+* * 추가 소프트웨어 *: 다음 소프트웨어가 호스트에 설치되어 있어야 합니다. 호스트에 아직 없는 경우 설치 프로그램이 소프트웨어를 설치합니다.
 +
 ** Docker Engine 버전 19 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
 ** Python 3 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
 
+
+* * Firewalld 고려 사항 *: 사용하려는 경우 `firewalld`데이터 센스를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 데이터 센스:
++
+....
+firewall-cmd --permanent --add-service=http
+firewall-cmd --permanent --add-service=https
+firewall-cmd --permanent --add-port=80/tcp
+firewall-cmd --permanent --add-port=8080/tcp
+firewall-cmd --permanent --add-port=443/tcp
+firewall-cmd --reload
+....
++
+추가 데이터 감지 호스트를 사용하려는 경우 이 때 기본 시스템에 다음 규칙을 추가하십시오.
+
++
+....
+firewall-cmd --permanent --add-port=2377/tcp
+firewall-cmd --permanent --add-port=7496/udp
+firewall-cmd --permanent --add-port=7496/tcp
+firewall-cmd --permanent --add-port=4789/udp
+....
++
+를 사용하도록 설정한 경우 `firewalld` Data Sense를 설치한 후 Docker를 다시 시작해야 합니다.
 
 
 
@@ -121,31 +153,23 @@ Linux 시스템에 Cloud Data Sense를 배포하기 전에 다음 사전 요구 
 | 엔드포인트 | 목적 
 
 
-| https://cloudmanager.cloud.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
+| https://api.bluexp.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
 
 
 | https://netapp-cloud-account.auth0.com \https://auth0.com 으로 문의하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
 
 
-| https://support.compliance.cloudmanager.cloud.netapp.com/\https://hub.docker.com\https://auth.docker.io\https://registry-1.docker.io\https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
+| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com\https://auth.docker.io\https://registry-1.docker.io\https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
 
 
-| https://support.compliance.cloudmanager.cloud.netapp.com/ 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
+| https://support.compliance.api.bluexp.netapp.com/ 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
 
 
 | https://github.com/docker\https://download.docker.com\http://mirror.centos.org\http://mirrorlist.centos.org\http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm 를 참조하십시오 | 설치를 위한 필수 패키지를 제공합니다. 
 |===
 --
-BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP에 리소스를 배포하고 Cloud Data Sense 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^].
-BlueXP Connector가 클라우드 데이터 센스에 액세스할 수 있는지 확인합니다:: Connector와 Cloud Data Sense 인스턴스 간의 연결을 확인합니다. Connector의 보안 그룹은 포트 443을 통해 데이터 감지 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다.
-+
---
-이 연결을 통해 Data Sense 인스턴스를 구축할 수 있으며 규정 준수 및 거버넌스 탭에서 정보를 볼 수 있습니다.
-
-포트 8080이 열려 있는지 확인하여 BlueXP에서 설치 진행률을 확인합니다.
-
---
-클라우드 데이터 센스를 계속 운영할 수 있는지 확인하십시오:: 데이터를 지속적으로 스캔하려면 Cloud Data Sense 인스턴스가 켜져 있어야 합니다.
+BlueXP Connector에 필요한 권한이 있는지 확인합니다:: Connector에 리소스를 배포하고 Cloud Data Sense 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^].
+클라우드 데이터 센스를 계속 운영할 수 있는지 확인하십시오:: 데이터를 지속적으로 스캔하려면 Cloud Data Sense 장비가 계속 켜져 있어야 합니다.
 클라우드 데이터 센스에 대한 웹 브라우저 연결을 확인합니다:: 클라우드 데이터 센스를 활성화한 후 사용자가 Data Sense 인스턴스에 연결된 호스트에서 BlueXP 인터페이스에 액세스하도록 하십시오.
 +
 --
@@ -156,17 +180,72 @@ Data Sense 인스턴스는 개인 IP 주소를 사용하여 인덱싱된 데이�
 
 
 
+== 필요한 모든 포트가 활성화되어 있는지 확인합니다
+
+커넥터, 데이터 감지, Active Directory 및 데이터 소스 간의 통신에 필요한 모든 포트가 열려 있는지 확인해야 합니다.
+
+[cols="25,25,50"]
+|===
+| 연결 유형 | 포트 | 설명 
+
+
+| 커넥터 <> 데이터 감지 | 8080(TCP), 443(TCP) 및 80 | Connector의 보안 그룹은 포트 443을 통해 데이터 감지 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다. 포트 8080이 열려 있는지 확인하여 BlueXP에서 설치 진행률을 확인합니다. 
+
+
+| 커넥터 <>ONTAP 클러스터(NAS) | 443(TCP)  a| 
+BlueXP는 HTTPS를 사용하여 ONTAP 클러스터를 검색합니다. 사용자 지정 방화벽 정책을 사용하는 경우 다음 요구 사항을 충족해야 합니다.
+
+* 커넥터 호스트는 포트 443을 통한 아웃바운드 HTTPS 액세스를 허용해야 합니다. Connector가 클라우드에 있는 경우 모든 아웃바운드 통신은 미리 정의된 보안 그룹에서 허용됩니다.
+* ONTAP 클러스터는 포트 443을 통한 인바운드 HTTPS 액세스를 허용해야 합니다. 기본 "관리" 방화벽 정책은 모든 IP 주소에서 인바운드 HTTPS 액세스를 허용합니다. 이 기본 정책을 수정하거나 자체 방화벽 정책을 만든 경우 HTTPS 프로토콜을 해당 정책에 연결하고 Connector 호스트에서 액세스를 활성화해야 합니다.
+
+
+
+
+| 데이터 감지 <> ONTAP 클러스터  a| 
+* NFS-111(TCP\UDP) 및 2049(TCP\UDP)의 경우
+* CIFS-139(TCP\UDP) 및 445(TCP\UDP)의 경우
+
+ a| 
+데이터 센스를 사용하려면 각 Cloud Volumes ONTAP 서브넷 또는 온프레미스 ONTAP 시스템에 대한 네트워크 연결이 필요합니다. Cloud Volumes ONTAP의 보안 그룹은 데이터 감지 인스턴스의 인바운드 연결을 허용해야 합니다.
+
+다음 포트가 Data Sense 인스턴스에 열려 있는지 확인합니다.
+
+* NFS-111 및 2049용
+* CIFS-139 및 445의 경우
+
+
+NFS 볼륨 엑스포트 정책은 데이터 감지 인스턴스에서 액세스할 수 있어야 합니다.
+
+
+
+| 데이터 감지 <> Active Directory | 389(TCP 및 UDP), 636(TCP), 3268(TCP) 및 3269(TCP)  a| 
+회사의 사용자에 대해 Active Directory가 이미 설정되어 있어야 합니다. 또한 CIFS 볼륨을 검색하려면 Active Directory 자격 증명이 필요합니다.
+
+Active Directory에 대한 정보가 있어야 합니다.
+
+* DNS 서버 IP 주소 또는 여러 IP 주소
+* 서버의 사용자 이름 및 암호
+* 도메인 이름(Active Directory 이름)
+* 보안 LDAP(LDAPS) 사용 여부
+* LDAP 서버 포트(일반적으로 LDAP의 경우 389, 보안 LDAP의 경우 636)
+
+
+|===
+데이터 소스를 스캔하기 위해 여러 개의 데이터 감지 호스트를 사용하는 경우 추가 포트/프로토콜을 활성화해야 합니다. link:task-deploy-compliance-onprem.html#add-scanner-nodes-to-an-existing-deployment["추가 포트 요구 사항을 참조하십시오"].
+
+
+
 == 온프레미스에서 데이터 센스를 구축합니다
 
-일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다.  installation for typical configurations,여기에서 해당 단계를 확인하십시오.
+일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다. <<일반 구성을 위한 단일 호스트 설치,여기에서 해당 단계를 확인하십시오>>.
 
 image:diagram_deploy_onprem_single_host_internet.png["인터넷 액세스가 가능한 내부에 구축된 단일 데이터 감지 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여 주는 다이어그램입니다."]
 
-페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다.  installation for large configurations,여기에서 해당 단계를 확인하십시오.
+페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. <<대규모 구성을 위한 다중 호스트 설치,여기에서 해당 단계를 확인하십시오>>.
 
 image:diagram_deploy_onprem_multi_host_internet.png["인터넷 액세스를 통해 내부에 구축된 여러 데이터 감지 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여 주는 다이어그램입니다."]
 
-을 참조하십시오  the Linux host system,Linux 호스트 시스템 준비 및  BlueXP and Data Sense prerequisites,사전 요구 사항 검토 클라우드 데이터 센스를 구축하기 전에 필요한 전체 목록을 확인하십시오.
+을 참조하십시오 <<Linux 호스트 시스템을 준비합니다,Linux 호스트 시스템 준비>> 및 <<BlueXP 및 데이터 감지 사전 요구 사항을 확인합니다,사전 요구 사항 검토>> 클라우드 데이터 센스를 구축하기 전에 필요한 전체 목록을 확인하십시오.
 
 데이터 감지 소프트웨어로 업그레이드하는 것은 인스턴스에 인터넷 연결이 있는 한 자동으로 수행됩니다.
 
@@ -179,12 +258,12 @@ NOTE: 소프트웨어가 사내에 설치된 경우 클라우드 데이터 센�
 
 단일 온프레미스 호스트에 Data Sense 소프트웨어를 설치할 때 다음 단계를 따르십시오.
 
-.무엇을 &#8217;필요로 할거야
-* Linux 시스템이 를 충족하는지 확인합니다  the Linux host system,호스트 요구 사항.
+.필요한 것
+* Linux 시스템이 를 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
 * (선택 사항) 시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 및 Python 3)가 설치되어 있는지 확인합니다. 시스템에 설치되어 있지 않은 경우 설치 프로그램이 이 소프트웨어를 설치합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
 * 프록시를 사용하고 있고 TLS 가로채기를 수행하는 경우 TLS CA 인증서가 저장되는 Data Sense Linux 시스템의 경로를 알아야 합니다.
-* 오프라인 환경이 필요한 를 충족하는지 확인합니다  BlueXP and Data Sense prerequisites,사용 권한 및 연결.
+* 오프라인 환경이 필요한 를 충족하는지 확인합니다 <<BlueXP 및 데이터 감지 사전 요구 사항을 확인합니다,사용 권한 및 연결>>.
 
 
 .단계
@@ -246,10 +325,12 @@ tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
 
 
 
+.결과
 Cloud Data Sense 설치 프로그램은 패키지를 설치하고, Docker를 설치하고, 설치를 등록하고, Data Sense를 설치합니다. 설치는 10분에서 20분 정도 걸릴 수 있습니다.
 
 호스트 시스템과 Connector 인스턴스 간에 포트 8080을 통해 연결되어 있는 경우 BlueXP의 Data Sense 탭에서 설치 진행률을 확인할 수 있습니다.
 
+.다음 단계
 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다.
 
 또한 가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.
@@ -288,24 +369,23 @@ image:diagram_onprem_scanner_groups.png["Data Sense 스캐너가 다른 스캐�
 . 스캐너 노드로 사용할 Linux 호스트 시스템을 준비합니다
 . 이 Linux 시스템에 Data Sense 소프트웨어를 다운로드하십시오
 . Manager 노드에서 명령을 실행하여 스캐너 노드를 식별합니다
-. 스캐너 노드에 소프트웨어를 배포하려면 다음 단계를 따르십시오(각 스캐너 노드에 대해 "스캐너 그룹"을 선택적으로 정의).
+. 스캐너 노드에 소프트웨어를 배포하려면 다음 단계를 따르십시오(특정 스캐너 노드에 대해 "스캐너 그룹"을 선택적으로 정의).
 . 스캐너 그룹을 정의한 경우 관리자 노드에서 다음을 수행합니다.
 +
 .. "working_environment_to_scanner_group_config.yml" 파일을 열고 각 스캐너 그룹이 스캔할 작업 환경을 정의합니다
-.. 다음 스크립트를 실행하여 모든 스캐너 노드에 이 매핑 정보를 등록합니다. "update_we_scanner_group_from_config_file.sh"
+.. 다음 스크립트를 실행하여 이 매핑 정보를 모든 스캐너 노드에 등록합니다. `update_we_scanner_group_from_config_file.sh`
 
 
 
 
-.무엇을 &#8217;필요로 할거야
-* 스캐너 노드의 모든 Linux 시스템이 을 충족하는지 확인합니다  the Linux host system,호스트 요구 사항.
+.필요한 것
+* 스캐너 노드의 모든 Linux 시스템이 을 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
 * (선택 사항) 시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 및 Python 3)가 설치되어 있는지 확인합니다. 시스템에 설치되어 있지 않은 경우 설치 프로그램이 이 소프트웨어를 설치합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
-* 사용 환경이 필요한 를 충족하는지 확인합니다  BlueXP and Data Sense prerequisites,사용 권한 및 연결.
+* 사용 환경이 필요한 를 충족하는지 확인합니다 <<BlueXP 및 데이터 감지 사전 요구 사항을 확인합니다,사용 권한 및 연결>>.
 * 추가하려는 스캐너 노드 호스트의 IP 주소가 있어야 합니다.
 * Data Sense Manager 노드 호스트 시스템의 IP 주소가 있어야 합니다
-* 커넥터 시스템의 IP 주소 또는 호스트 이름, NetApp 계정 ID, 커넥터 클라이언트 ID 및 사용자 액세스 토큰이 있어야 합니다. 이 정보를 보려면 아래의 _필수 단계_를 참조하십시오.
-* 계정의 각 데이터 소스에 대해 _ 작업 환경 ID _ 을(를) 알아야 합니다. 요청 사항은 ng-contact-data-sense@netapp.com 으로 NetApp에 문의하십시오.
+* 커넥터 시스템의 IP 주소 또는 호스트 이름, NetApp 계정 ID, 커넥터 클라이언트 ID 및 사용자 액세스 토큰이 있어야 합니다. 스캐너 그룹을 사용하려는 경우 계정의 각 데이터 원본에 대한 작업 환경 ID를 알아야 합니다. 이 정보를 보려면 아래의 _필수 단계_를 참조하십시오.
 * 모든 호스트에서 다음 포트 및 프로토콜을 활성화해야 합니다.
 +
 [cols="15,20,55"]
@@ -330,8 +410,26 @@ image:diagram_onprem_scanner_groups.png["Data Sense 스캐너가 다른 스캐�
 
 | 2049 | TCP, UDP | 호스트 간 파일 공유를 위한 NFS 서버(각 스캐너 노드에서 관리자 노드로 필요) 
 |===
+* 를 사용하는 경우 `firewalld` 데이터 센스를 설치하기 전에 데이터 센스 기기에서 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 데이터 센스:
++
+....
+firewall-cmd --permanent --add-service=http
+firewall-cmd --permanent --add-service=https
+firewall-cmd --permanent --add-port=80/tcp
+firewall-cmd --permanent --add-port=8080/tcp
+firewall-cmd --permanent --add-port=443/tcp
+firewall-cmd --permanent --add-port=2377/tcp
+firewall-cmd --permanent --add-port=7496/udp
+firewall-cmd --permanent --add-port=7496/tcp
+firewall-cmd --permanent --add-port=4789/udp
+firewall-cmd --reload
+....
++
+를 사용하도록 설정한 경우 `firewalld` Data Sense를 설치한 후 Docker를 다시 시작해야 합니다.
 
 
+
+.필수 단계
 다음 단계에 따라 스캐너 노드를 추가하는 데 필요한 NetApp 계정 ID, 커넥터 클라이언트 ID, 커넥터 서버 이름 및 사용자 액세스 토큰을 얻습니다.
 
 . BlueXP 메뉴 표시줄에서 * 계정 > 계정 관리 * 를 클릭합니다.
@@ -344,6 +442,10 @@ image:screenshot_account_id.png["BlueXP 계정 세부 정보의 스크린샷."]
 image:screenshot_connector_client_id.png["BlueXP 커넥터 구성 설정 스크린샷"]
 
 . 커넥터_클라이언트 ID_ 및 _서버 이름_을 복사합니다.
+. 스캐너 그룹을 사용하려는 경우 데이터 감지 구성 탭에서 스캐너 그룹에 추가할 각 작업 환경의 작업 환경 ID를 복사합니다.
++
+image:screenshot_work_env_id.png["데이터 감지 구성 페이지의 작업 환경 ID 스크린샷"]
+
 . 로 이동합니다 https://services.cloud.netapp.com/developer-hub["API 설명서 개발자 허브"^] 를 클릭하고 * 인증 방법 알아보기 * 를 클릭합니다.
 +
 image:screenshot_client_access_token.png["인증 지침 링크가 포함된 API 설명서 페이지의 스크린샷"]
@@ -385,7 +487,7 @@ image:screenshot_client_access_token.png["인증 지침 링크가 포함된 API 
 
 . 스캐너 그룹에 스캐너 노드를 추가한 경우 관리자 노드로 돌아가 다음 두 가지 작업을 수행합니다.
 +
-.. "/opt/netapp/datasense/working_environment_to_scanner_group_config.yml" 파일을 열고 특정 작업 환경을 스캔할 스캐너 그룹의 매핑을 입력합니다. NetApp의 각 데이터 원본에 대해 _working 환경 ID_를 받아야 합니다(이메일 ng-contact-data-sense@netapp.com). 예를 들어 다음 항목은 2개의 스캐너 그룹에 2개의 작업 환경을 추가합니다.
+.. "/opt/netapp/datasense/working_environment_to_scanner_group_config.yml" 파일을 열고 특정 작업 환경을 스캔할 스캐너 그룹의 매핑을 입력합니다. 각 데이터 소스에 대해 _Working Environment ID_가 있어야 합니다. 예를 들어 다음 항목은 2개의 스캐너 그룹에 2개의 작업 환경을 추가합니다.
 +
 ....
 scanner group:
@@ -405,9 +507,11 @@ scanner group:
 
 
 
+.결과
 모든 데이터 소스를 스캔하기 위해 Manager 및 Scanner 노드를 사용하여 데이터 센스를 설정합니다.
 
-아직 선택하지 않은 경우 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다. 스캐너 그룹을 생성한 경우 각 데이터 소스는 해당 그룹의 스캐너 노드에 의해 스캔됩니다.
+.다음 단계
+아직 선택하지 않은 경우 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다. 스캐너 그룹을 생성한 경우 각 데이터 소스는 해당 그룹의 스캐너 노드에 의해 스캔됩니다. 구성 페이지에서 각 작업 환경에 대한 스캐너 그룹 이름을 볼 수 있습니다.
 
 또한 가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.
 
@@ -419,11 +523,11 @@ scanner group:
 
 여러 온-프레미스 호스트에 Data Sense 소프트웨어를 설치할 때 다음 단계를 따르십시오.
 
-.무엇을 &#8217;필요로 할거야
-* Manager 및 Scanner 노드의 모든 Linux 시스템이 을 충족하는지 확인합니다  the Linux host system,호스트 요구 사항.
+.필요한 것
+* Manager 및 Scanner 노드의 모든 Linux 시스템이 을 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
 * (선택 사항) 시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 및 Python 3)가 설치되어 있는지 확인합니다. 시스템에 설치되어 있지 않은 경우 설치 프로그램이 이 소프트웨어를 설치합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
-* 사용 환경이 필요한 를 충족하는지 확인합니다  BlueXP and Data Sense prerequisites,사용 권한 및 연결.
+* 사용 환경이 필요한 를 충족하는지 확인합니다 <<BlueXP 및 데이터 감지 사전 요구 사항을 확인합니다,사용 권한 및 연결>>.
 * 사용하려는 스캐너 노드 호스트의 IP 주소가 있어야 합니다.
 * 모든 호스트에서 다음 포트 및 프로토콜을 활성화해야 합니다.
 +
@@ -452,7 +556,7 @@ scanner group:
 
 
 .단계
-. 에서 1단계부터 7단계까지 수행합니다  installation for typical configurations,단일 호스트 설치 관리자 노드에서.
+. 에서 1단계부터 7단계까지 수행합니다 <<일반 구성을 위한 단일 호스트 설치,단일 호스트 설치>> 관리자 노드에서.
 . 8단계에서 설명한 것처럼 설치 프로그램에서 메시지를 표시하면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.
 +
 단일 호스트 설치에 사용할 수 있는 변수 외에도 새 옵션 * -n<node_ip> * 를 사용하여 스캐너 노드의 IP 주소를 지정할 수 있습니다. 여러 스캐너 노드 IP는 쉼표로 구분됩니다.
@@ -476,8 +580,10 @@ scanner group:
 
 
 
+.결과
 Cloud Data Sense 설치 프로그램이 패키지, Docker 설치를 완료하고 설치를 등록합니다. 설치는 10분에서 20분 정도 걸릴 수 있습니다.
 
+.다음 단계
 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다.
 
 또한 가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.

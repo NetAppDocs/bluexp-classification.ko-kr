@@ -22,18 +22,22 @@ Cloud Data Sense를 사용하여 오브젝트 스토리지 내에서 직접 데�
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 오브젝트 스토리지의 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
 객체 스토리지 서비스에 연결하려면 엔드포인트 URL이 있어야 합니다.
 
 [role="quick-margin-para"]
 Cloud Data Sense가 버킷에 액세스할 수 있도록 오브젝트 스토리지 공급자로부터 액세스 키 및 비밀 키가 있어야 합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 클라우드 데이터 감지 인스턴스를 구축합니다
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["클라우드 데이터 센스를 구축하십시오"^] 이미 배포된 인스턴스가 없는 경우
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 오브젝트 스토리지 서비스를 추가합니다
 [role="quick-margin-para"]
 클라우드 데이터 센스에 오브젝트 스토리지 서비스를 추가합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 스캔할 버킷을 선택합니다
 [role="quick-margin-para"]
 스캔하려는 버킷을 선택하면 Cloud Data Sense에서 스캔을 시작합니다.
 
@@ -83,6 +87,7 @@ image:screenshot_compliance_add_object_storage.png["오브젝트 스토리지 �
 
 
 
+.결과
 새로운 오브젝트 스토리지 서비스가 작업 환경 목록에 추가됩니다.
 
 
@@ -116,4 +121,5 @@ image:screenshot_compliance_object_storage_select_buckets.png["스캔할 오브�
 |===
 
 
+.결과
 Cloud Data Sense는 사용자가 활성화한 버킷을 스캔하기 시작합니다. 오류가 있는 경우 오류를 해결하는 데 필요한 작업과 함께 상태 열에 표시됩니다.

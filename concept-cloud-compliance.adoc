@@ -129,7 +129,7 @@ Data Sense는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 
 +
 link:task-licensing-datasense.html["Cloud Data Sense에 대한 라이센스 부여 방법을 알아보십시오"^].
 
-* 클라우드에 Cloud Data Sense를 설치하려면 클라우드 인스턴스를 구축해야 하므로 클라우드 인스턴스가 구축된 클라우드 공급자가 비용을 지불해야 합니다. 을 참조하십시오  Cloud Data Sense instance,각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다. 사내 시스템에 Data Sense를 설치하면 비용이 들지 않습니다.
+* 클라우드에 Cloud Data Sense를 설치하려면 클라우드 인스턴스를 구축해야 하므로 클라우드 인스턴스가 구축된 클라우드 공급자가 비용을 지불해야 합니다. 을 참조하십시오 <<클라우드 데이터 감지 인스턴스,각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다>>. 사내 시스템에 Data Sense를 설치하면 비용이 들지 않습니다.
 * Cloud Data Sense를 사용하려면 BlueXP 커넥터를 구축해야 합니다. BlueXP에서 사용 중인 다른 스토리지 및 서비스로 인해 이미 커넥터가 있는 경우가 많습니다. Connector 인스턴스를 사용하면 배포된 클라우드 공급자가 비용을 청구합니다. 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다"^]. 커넥터를 온프레미스 시스템에 설치하는 경우 비용이 들지 않습니다.
 
 
@@ -185,7 +185,7 @@ CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있�
 | 시스템 크기 | 사양 | 제한 사항 
 
 
-| 매우 큼(기본값) | CPU 16개, 64GB RAM, 500GB SSD | 없음 
+| 크게(기본값) | CPU 16개, 64GB RAM, 500GB SSD | 없음 
 
 
 | 중간 | CPU 8개, 32GB RAM, 200GB SSD | 스캔 속도가 느리며 최대 100만 개의 파일만 스캔할 수 있습니다. 

@@ -22,15 +22,19 @@ Cloud Data Sense는 Amazon S3 버킷을 스캔하여 S3 오브젝트 스토리�
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 클라우드 환경에서 S3 요구사항을 설정합니다
 [role="quick-margin-para"]
-IAM 역할 준비 및 데이터 센스에서 S3까지 연결 설정을 포함하여 클라우드 환경이 클라우드 데이터 센스에 대한 요구 사항을 충족할 수 있는지 확인합니다.  S3 prerequisites,전체 목록을 참조하십시오.
+IAM 역할 준비 및 데이터 센스에서 S3까지 연결 설정을 포함하여 클라우드 환경이 클라우드 데이터 센스에 대한 요구 사항을 충족할 수 있는지 확인합니다. <<S3 사전 요구 사항 검토,전체 목록을 참조하십시오>>.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 클라우드 데이터 감지 인스턴스를 구축합니다
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["클라우드 데이터 센스를 구축하십시오"^] 이미 배포된 인스턴스가 없는 경우
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] S3 작업 환경에서 데이터 센스를 활성화합니다
 [role="quick-margin-para"]
 Amazon S3 작업 환경을 선택하고 * 활성화 * 를 클릭한 다음 필요한 권한이 포함된 IAM 역할을 선택합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 스캔할 버킷을 선택합니다
 [role="quick-margin-para"]
 스캔하려는 버킷을 선택하면 Cloud Data Sense에서 스캔을 시작합니다.
 
@@ -117,7 +121,7 @@ image:screenshot_s3_we.gif["Amazon S3 작업 환경 아이콘의 스크린샷"]
 +
 image:screenshot_s3_enable_compliance.gif["서비스 패널에서 클라우드 데이터 감지 서비스를 활성화하는 스크린샷"]
 
-. 메시지가 표시되면 가 있는 Cloud Data Sense 인스턴스에 IAM 역할을 할당합니다  S3 prerequisites,필요한 권한.
+. 메시지가 표시되면 가 있는 Cloud Data Sense 인스턴스에 IAM 역할을 할당합니다 <<S3 사전 요구 사항 검토,필요한 권한>>.
 +
 image:screenshot_s3_compliance_iam_role.gif["Cloud Data Sense에 대한 AWS IAM 역할 입력 스크린샷"]
 
@@ -127,6 +131,7 @@ image:screenshot_s3_compliance_iam_role.gif["Cloud Data Sense에 대한 AWS IAM 
 
 TIP: 를 클릭하여 구성 페이지에서 작업 환경에 대한 규정 준수 검사를 활성화할 수도 있습니다 image:screenshot_gallery_options.gif[""] 버튼을 클릭하고 * 데이터 감지 활성화 * 를 선택합니다.
 
+.결과
 BlueXP는 인스턴스에 IAM 역할을 할당합니다.
 
 
@@ -137,7 +142,7 @@ BlueXP에서 Amazon S3에서 클라우드 데이터 센스를 사용하도록 �
 
 검사할 S3 버킷이 있는 AWS 계정에서 BlueXP가 실행되고 있으면 해당 버킷을 검색하여 Amazon S3 작업 환경에 표시합니다.
 
-클라우드 데이터 센스도 가능합니다  buckets from additional AWS accounts,서로 다른 AWS 계정에 있는 S3 버킷을 스캔합니다.
+클라우드 데이터 센스도 가능합니다 <<추가 AWS 계정에서 버킷 스캔,서로 다른 AWS 계정에 있는 S3 버킷을 스캔합니다>>.
 
 .단계
 . Amazon S3 작업 환경을 선택합니다.
@@ -165,6 +170,7 @@ image:screenshot_s3_select_buckets.png["스캔할 S3 버킷을 선택하는 스�
 |===
 
 
+.결과
 Cloud Data Sense는 활성화한 S3 버킷을 검색하기 시작합니다. 오류가 있는 경우 오류를 해결하는 데 필요한 작업과 함께 상태 열에 표시됩니다.
 
 
@@ -248,4 +254,5 @@ image:screenshot_activate_and_select_buckets.png["데이터 센스를 활성화�
 . Activate Data Sense & Select Bucket * 을 클릭하고 스캔할 버킷을 선택합니다.
 
 
+.결과
 Cloud Data Sense는 사용자가 활성화한 새로운 S3 버킷을 스캔하기 시작합니다.

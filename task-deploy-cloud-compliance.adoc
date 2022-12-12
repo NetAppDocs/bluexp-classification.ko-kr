@@ -24,21 +24,25 @@ summary: 클라우드 데이터 센스를 클라우드에 구축하려면 몇 �
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 커넥터를 작성합니다
 [role="quick-margin-para"]
 아직 커넥터가 없으면 지금 연결선을 작성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["GCP에서 커넥터를 생성하는 중입니다"^].
 
 [role="quick-margin-para"]
 또한 가능합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Connector를 온-프레미스에 배포합니다"^] 네트워크 또는 클라우드의 Linux 호스트
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
-환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 클라우드 데이터 감지 간의 연결 등이 포함됩니다.  prerequisites,전체 목록을 참조하십시오.
+환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 클라우드 데이터 감지 간의 연결 등이 포함됩니다. <<사전 요구 사항을 검토합니다,전체 목록을 참조하십시오>>.
 
 [role="quick-margin-para"]
 기본 구성에는 Cloud Data Sense 인스턴스에 대해 16개의 vCPU가 필요합니다. 을 참조하십시오 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["인스턴스 유형에 대한 자세한 내용"^].
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 클라우드 데이터 센스를 구축하십시오
 [role="quick-margin-para"]
 설치 마법사를 시작하여 클라우드에 Cloud Data Sense 인스턴스를 구축합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] Cloud Data Sense 서비스를 구독하십시오
 [role="quick-margin-para"]
 BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 계속해서 데이터를 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 통한 BlueXP 구독이 필요합니다.
 
@@ -93,7 +97,7 @@ AWS, Azure 또는 GCP에서 Cloud Data Sense를 구현하는지 여부에 따라
 | 엔드포인트 | 목적 
 
 
-| https://cloudmanager.cloud.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
+| https://api.bluexp.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
 
 
 | https://netapp-cloud-account.auth0.com \https://auth0.com 으로 문의하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
@@ -114,16 +118,16 @@ AWS, Azure 또는 GCP에서 Cloud Data Sense를 구현하는지 여부에 따라
 | 엔드포인트 | 목적 
 
 
-| https://cloudmanager.cloud.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
+| https://api.bluexp.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
 
 
 | https://netapp-cloud-account.auth0.com \https://auth0.com 으로 문의하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
 
 
-| https://support.compliance.cloudmanager.cloud.netapp.com/\https://hub.docker.com\https://auth.docker.io\https://registry-1.docker.io\https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
+| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com\https://auth.docker.io\https://registry-1.docker.io\https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
 
 
-| https://support.compliance.cloudmanager.cloud.netapp.com/ 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
+| https://support.compliance.api.bluexp.netapp.com/ 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
 |===
 --
 BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP에 리소스를 배포하고 Cloud Data Sense 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^].
@@ -181,8 +185,10 @@ image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포�
 . 인스턴스가 배포되면 * Continue to configuration * 을 클릭하여 _Configuration_페이지로 이동합니다.
 
 
+.결과
 BlueXP는 클라우드 공급업체에 클라우드 데이터 감지 인스턴스를 배포합니다.
 
+.다음 단계
 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다.
 
 또한 가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.
