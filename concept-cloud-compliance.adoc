@@ -150,9 +150,6 @@ link:task-licensing-datasense.html["Cloud Data Sense에 대한 라이센스 부�
 
 클라우드에 Data Sense를 배포할 때 BlueXP는 Connector와 동일한 서브넷에 인스턴스를 배포합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오."^]
 
-
-NOTE: Connector가 내부에 설치된 경우, Cloud Data Sense 인스턴스는 요청에 포함된 첫 번째 Cloud Volumes ONTAP 시스템과 동일한 VPC 또는 VNET에 구축됩니다. Data Sense를 온프레미스에 설치할 수도 있습니다.
-
 image:diagram_cloud_compliance_instance.png["클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 클라우드 데이터 감지 인스턴스를 보여 주는 다이어그램입니다."]
 
 기본 인스턴스에 대한 다음 사항에 유의하십시오.
