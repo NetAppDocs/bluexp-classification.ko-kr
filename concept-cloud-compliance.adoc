@@ -34,7 +34,7 @@ Data Sense는 규정 준수 작업에 도움이 되는 몇 가지 도구를 제�
 * GDPR, CCPA, PCI 및 HIPAA 개인 정보 보호 규정에서 요구하는 광범위한 민감한 개인 정보를 식별합니다.
 * 이름 또는 이메일 주소를 기반으로 Data Subject Access Request(SAR)에 응답합니다.
 * 데이터베이스의 고유 식별자가 다른 저장소의 파일에 있는지 확인합니다. 기본적으로 데이터 감지 스캔에서 식별된 "개인 데이터" 목록을 만듭니다.
-* 파일에 특정 PII가 포함된 경우 이메일을 통해 BlueXP 사용자에게 알립니다(을 사용하여 이 기준을 정의합니다 link:task-org-private-data.html#controlling-your-data-using-policies["정책"^]) 따라서 실천 계획을 결정할 수 있습니다.
+* 파일에 특정 PII가 포함된 경우 이메일을 통해 특정 사용자에게 알립니다(을 사용하여 이 기준을 정의합니다 link:task-org-private-data.html#controlling-your-data-using-policies["정책"^]) 따라서 실천 계획을 결정할 수 있습니다.
 
 
 
@@ -59,7 +59,7 @@ Data Sense는 스토리지의 TCO(총 소유 비용)에 도움이 되는 도구�
 
 * 중복 또는 비업무용 데이터를 식별하여 스토리지 효율성 향상 이 정보를 사용하여 특정 파일을 이동하거나 삭제할 것인지 결정할 수 있습니다.
 * 안전하지 않거나 위험한 것으로 보이는 파일을 스토리지 시스템에 남겨 두거나 중복으로 식별한 경우 삭제합니다. Policies_를 사용하여 특정 조건에 맞는 파일을 자동으로 삭제할 수 있습니다.
-* 더 저렴한 오브젝트 스토리지에 계층화할 수 있는 비활성 데이터를 식별하여 스토리지 비용 절감 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["계층화에 대해 자세히 알아보십시오"^].
+* 더 저렴한 오브젝트 스토리지에 계층화할 수 있는 비활성 데이터를 식별하여 스토리지 비용 절감 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["Cloud Volumes ONTAP 시스템의 계층화에 대해 자세히 알아보십시오"^]. https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["사내 ONTAP 시스템의 계층화에 대해 자세히 알아보십시오"^].
 
 
 

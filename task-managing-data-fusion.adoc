@@ -209,9 +209,10 @@ regex를 추가하면 데이터 센스가 모든 데이터 소스 스캔을 다�
 
 사용자 지정 regex를 추가하는 명령 구문은 다음과 같습니다.
 
- sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "<pattern_name>" -r "<regular_expression>"
+ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "<pattern_name>" -r "<regular_expression>" -p "<proximity_words>"
 * pattern_name> = 데이터 감지 UI에 표시되는 이름입니다. 이름이 regex가 찾을 내용을 식별하는지 확인합니다. 이름은 하나 이상의 문자를 포함해야 하며 최대 70자까지 입력할 수 있습니다.
 * 정규식> = 임의의 유효한 정규식이 될 수 있습니다.
+* <proximity_words> = 검색 중인 패턴의 300자 이내(검색 패턴 이전 또는 이후)에 있는 단어로서 결과의 정확도를 높이는 데 도움이 됩니다. 각 단어는 쉼표(,)로 구분됩니다.
 
 
 경로 * /opt/NetApp/Datasense/ * 에서 명령을 실행합니다.
@@ -219,21 +220,23 @@ regex를 추가하면 데이터 센스가 모든 데이터 소스 스캔을 다�
 새로운 각 Regex를 테스트하여 너무 넓어서 너무 많은 일치 항목을 반환하는지 확인합니다. 이 경우 다음과 같은 로그 메시지가 나타납니다.
 
  log v1.0 | 2022-08-17 07:24:19,585 | ERROR | ds_logger | custom_regex | 119 | 1 | None | custom_regex_119 | The regex has high risk to identify false positives. Please narrow the regular expression and try again. To add it anyway, use the force flag (-f) at the end
-regex를 Data Sense에 강제로 추가하려는 경우 명령줄 끝에 있는 * -f * 옵션을 사용할 수 있습니다. 너무 넓다고 생각해도 마찬가지입니다.
+regex를 Data Sense에 강제로 추가하려는 경우 명령줄 끝에 있는 * -f * 옵션을 사용할 수 있습니다. 너무 넓다고 생각해도 마찬가지입니다. 또는 "-p" 옵션을 사용하여 검색 결과를 구체화할 수 있습니다.
 
 
 
 === 예
 
-제품 ID는 201로 시작하는 12자리 숫자입니다. 정규식은 * \b201\d{9}\b * 입니다. 이 패턴을 * 내부 제품 ID * 로 식별하려면 데이터 감지 UI의 텍스트를 사용합니다.
+제품 ID는 201로 시작하는 12자리 숫자입니다(예: "201123456789"). 정규식은 * \b201\d{9}\b * 입니다. 데이터 감지 UI의 텍스트가 이 패턴을 * 내부 제품 ID * 로 식별하도록 할 수 있습니다. "product id" 및 "identifier"라는 근접 단어를 추가합니다.
 
 모든 파일에서 내부 제품 ID가 언급된 위치를 확인하려면 다음 명령을 입력합니다.
 
 [source, cli]
 ----
 [user ~]$ cd /opt/netapp/Datasense/
-[user Datasense]$ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "Internal Product ID" -r "\b201\d{9}\b"
+[user Datasense]$ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "Internal Product ID" -r "\b201\d{9}\b" -p "product id,identifier"
 ----
+이 명령의 출력은 다음과 같습니다.
+
 ....
 [+] Adding Custom Regex to Data Sense
 log v1.0 | 2022-08-23 13:19:01,476 | INFO | ds_logger | custom_regex | 154 | 1 | None | custom_regex_154 | A pattern named 'Internal Product ID' was added successfully to Data Sense
