@@ -52,7 +52,7 @@ NetApp Support 사이트에서 Cloud Data Sense 소프트웨어를 다운로드�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] Cloud Data Sense 서비스를 구독하십시오
 [role="quick-margin-para"]
-BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 구입해야 합니다.
+BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 구입해야 합니다.
 
 
 
@@ -321,7 +321,7 @@ Cloud Data Sense 설치 프로그램은 패키지를 설치하고, Docker를 설
 .다음 단계
 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다.
 
-또한 가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.
+또한 가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.
 
 
 
@@ -511,7 +511,7 @@ image:screenshot_work_env_id.png["데이터 감지 구성 페이지의 작업 �
 
 image:screenshot_scanner_groups.png["그룹의 각 스캐너 노드에 대한 IP 주소와 함께 모든 스캐너 그룹을 나열하는 스크린샷"]
 
-가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.
+가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.
 
 
 
@@ -584,4 +584,4 @@ Cloud Data Sense 설치 프로그램이 패키지, Docker 설치를 완료하고
 .다음 단계
 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다.
 
-또한 가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.
+또한 가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.

@@ -137,7 +137,7 @@ Cloud Data Sense는 PDF 보고서를 생성하여 필요에 따라 다른 그룹
 
 == HIPAA 보고서
 
-HIPAA(Health Insurance Portability and Accountability Act) 보고서를 통해 건강 정보가 포함된 파일을 확인할 수 있습니다. 이 솔루션은 HIPAA 데이터 개인 정보 보호법을 준수하기 위한 조직의 요구 사항을 지원하도록 설계되었습니다. Cloud Data Sense에서 찾는 정보는 다음과 같습니다.
+HIPAA(Health Insurance Portability and Accountability Act) 보고서를 통해 건강 정보가 포함된 파일을 확인할 수 있습니다. HIPAA 데이터 개인 정보 보호 법률을 준수하기 위한 조직의 요구 사항을 지원하도록 설계되었습니다. Cloud Data Sense에서 찾는 정보는 다음과 같습니다.
 
 * 상태 참조 패턴
 * ICD-10-cm 의료 코드
@@ -203,6 +203,8 @@ image:screenshot_compliance_data_mapping_report_button.png["데이터 매핑 보
 .결과
 Cloud Data Sense는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
 
+참고: 데이터 감지 페이지의 맨 위에서 을 클릭하여 보고서의 첫 페이지에 표시되는 회사 이름을 사용자 지정할 수 있습니다 image:screenshot_gallery_options.gif["자세히 단추"] 그런 다음 * 회사 이름 변경 * 을 클릭합니다.
+
 
 
 == 데이터 조사 보고서
@@ -235,7 +237,7 @@ JSON 보고서를 선택할 때 보고서를 다운로드할 NFS 공유의 이�
 
 
 
-=== 각 데이터 조사 보고서에 포함된 내용
+=== 각 데이터 조사 보고서에 포함되는 사항
 
 비정형 파일 데이터 보고서 * 에는 파일에 대한 다음 정보가 포함됩니다.
 

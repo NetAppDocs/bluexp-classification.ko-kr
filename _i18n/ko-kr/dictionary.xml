@@ -204,7 +204,6 @@
   <block id="dcba253c1898878efeea1f106871ba52" category="paragraph"><block ref="32c4fb91a406f3c38311c8b665707774" category="inline-link-macro-rx"></block>.</block>
   <block id="00c0607d57d70dd0c000ccd8f5f5bb89" category="section-title">Cloud Data Sense PAYGO 구독을 사용합니다</block>
   <block id="6ab66e7507bcf25ed5182e8854303971" category="paragraph">클라우드 공급자 마켓플레이스에서 용량제 구독을 통해 Cloud Volumes ONTAP 시스템과 클라우드 데이터 센스와 같은 다양한 클라우드 데이터 서비스를 사용할 수 있습니다.</block>
-  <block id="205814fad56f2730ff9c5ed77caa402e" category="paragraph">언제든지 구독할 수 있으며 데이터 양이 1TB를 초과할 때까지 요금이 청구되지 않습니다. 항상 데이터 감지 대시보드에서 스캔되는 데이터의 총 양을 볼 수 있습니다. 지금 가입(_Subscribe Now_) 단추를 사용하면 준비가 되면 쉽게 가입할 수 있습니다.</block>
   <block id="8e8f343d4d11cb796ed5e3db94f54fe3" category="inline-image-macro">검사 중인 데이터의 양과 서비스 가입을 위한 가입 버튼을 보여주는 스크린샷</block>
   <block id="a503bdaee5c948e64f10ac7ae38b987f" category="paragraph"><block ref="a503bdaee5c948e64f10ac7ae38b987f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b2f44b30cb7b59e6531b838d2b079d16" category="paragraph">이러한 단계는 _ 계정 관리자 _ 역할을 가진 사용자가 완료해야 합니다.</block>
@@ -263,7 +262,6 @@
   <block id="16a978df0c48afdfbda069f5d1b195fc" category="admonition">이 섹션에 설명된 보고서는 데이터 소스에서 전체 분류 검사를 수행하도록 선택한 경우에만 사용할 수 있습니다. 매핑 전용 스캔이 있는 데이터 원본은 데이터 매핑 보고서만 생성할 수 있습니다.</block>
   <block id="aa9a765405eb0c3365783f2b0b90debd" category="admonition">NetApp은 Cloud Data Sense에서 식별할 수 있는 개인 데이터와 민감한 개인 데이터의 100% 정확성을 보장할 수 없습니다. 항상 데이터를 검토하여 정보의 유효성을 확인해야 합니다.</block>
   <block id="216b4fc24b6fa4197a8fc2d1066a4de4" category="section-title">개인 정보 보호 위험 평가 보고서</block>
-  <block id="0536072d2717a92a8a5a62bad5ca5809" category="paragraph">개인 정보 보호 위험 평가 보고서는 GDPR 및 CCPA와 같은 개인 정보 보호 규정에 따라 조직의 개인 정보 보호 위험 상태에 대한 개요를 제공합니다. 보고서에는 다음 정보가 포함됩니다.</block>
   <block id="86bb262dfb2fdc1b5bf97779c25bf74e" category="list-text">준수 상태</block>
   <block id="382281063951b90be482eaf4d662e71d" category="inline-xref">심각도 점수</block>
   <block id="1781723f3ebf3dc877d6552ad464f5c8" category="list-text">A <block ref="93dc7e58650d49384eb429ebc02cc1b9" category="inline-xref-macro-rx"></block> 또한 데이터가 중요하지 않거나 개인적이거나 민감한 개인이든 상관없이 배포할 수 있습니다.</block>
@@ -319,7 +317,6 @@
   <block id="c574f719f3835448fef801f6174f2213" category="section-title">PCI DSS 보고서 생성</block>
   <block id="82ee2415e5e4e15c63902d6a550b7af1" category="list-text">규정 준수 * 를 클릭한 다음 * 보고서 * 에서 * PCI DSS 보고서 * 옆에 있는 다운로드 아이콘을 클릭합니다.</block>
   <block id="8e4972d194dcdd01c957ef6b3398d9e2" category="section-title">HIPAA 보고서</block>
-  <block id="d6aeb85e2f20631465d272516fa08415" category="paragraph">HIPAA(Health Insurance Portability and Accountability Act) 보고서를 통해 건강 정보가 포함된 파일을 확인할 수 있습니다. 이 솔루션은 HIPAA 데이터 개인 정보 보호법을 준수하기 위한 조직의 요구 사항을 지원하도록 설계되었습니다. Cloud Data Sense에서 찾는 정보는 다음과 같습니다.</block>
   <block id="9965e5c3b37cecfca0bb5cbb1e086c48" category="list-text">상태 참조 패턴</block>
   <block id="53155f0c534ef44d114eeae0b0f2e638" category="list-text">ICD-10-cm 의료 코드</block>
   <block id="f1d3fc4a48ee497faf58426c477a8bd3" category="list-text">ICD-9-cm 의료 코드</block>
@@ -1359,7 +1356,6 @@
   <block id="e61ce3062cb76770658896b778ad06cd" category="inline-link-macro">데이터베이스를 지원합니다</block>
   <block id="c3cea28bb90c637f494d5021dcebdf2d" category="paragraph">구성 페이지에서 로컬 을 선택할 수 있습니다 <block ref="c23a74d01fbf5deb3a784c3ec1da6439" category="inline-link-macro-rx"></block> 및 <block ref="6d4571a63bcf6d226319383d2911863e" category="inline-link-macro-rx"></block> 선택합니다.</block>
   <block id="343b5204b7d2300922822e2011c9a4f3" category="inline-link-macro">Cloud Data Sense에 대한 BYOL 라이센싱 설정</block>
-  <block id="13fe4e99c19b67b7e79851a22fe8855d" category="paragraph">또한 가능합니다 <block ref="b892dec3891355dbda549908e2a94427" category="inline-link-macro-rx"></block> 현재 Digital Wallet 페이지에서 확인할 수 있습니다. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.</block>
   <block id="395dcebab79d1562df7f797d717d3d8f" category="section-title">대규모 구성을 위한 다중 호스트 설치</block>
   <block id="be4a7080dd55701eeeb6864dd9cb1174" category="paragraph">페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 _Manager node_라고 하며 추가 처리 능력을 제공하는 추가 시스템을 _Scanner nodes_라고 합니다.</block>
   <block id="19e570c9d474722a52d6a09394b18a73" category="paragraph">오프라인 환경의 여러 사내 호스트에 Data Sense 소프트웨어를 설치할 때는 다음 단계를 따르십시오.</block>
@@ -1534,7 +1530,6 @@
   <block id="b6537529e2ca7a01f194a6653cce5a42" category="list-text">인스턴스가 배포되면 * Continue to configuration * 을 클릭하여 _Configuration_페이지로 이동합니다.</block>
   <block id="9b305ee4bd352f956f4cb24478769e42" category="paragraph">구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다.</block>
   <block id="90fcbce9bfec3d7a472c7ee2962c602f" category="inline-link-macro">클라우드 데이터 센스에 대한 라이센스 설정</block>
-  <block id="9f2c63e53415cfb87166b66765887e4c" category="paragraph">또한 가능합니다 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 현재. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.</block>
   <block id="d117f1960f80fb3c03967f2cd00addba" category="summary">클라우드 데이터 센스를 사용하여 Cloud Volumes ONTAP 및 온프레미스 ONTAP 볼륨을 스캔하려면 몇 단계를 완료하십시오.</block>
   <block id="0f7d17ce64dd675722b1c52532f11996" category="doc">Cloud Volumes ONTAP 및 사내 ONTAP에 대한 클라우드 데이터 센스를 시작하십시오</block>
   <block id="f7da4795535fa46a616a7c94cf8bf984" category="list-text">클라우드 데이터 감지 인스턴스에는 각 Cloud Volumes ONTAP 서브넷 또는 온프레미스 ONTAP 시스템에 대한 네트워크 연결이 필요합니다.</block>
@@ -2008,7 +2003,6 @@
   <block id="517748e2f135f076ee74e5741d804b66" category="paragraph">데이터 조사 보고서는 데이터 조사 페이지의 내용을 다운로드하는 것입니다. <block ref="777485da66bf4538c99c96042630b627" category="inline-link-macro-rx"></block>.</block>
   <block id="44ef9b305f89e2a0007a9f26dc30474e" category="section-title">데이터 조사 보고서 생성</block>
   <block id="0f259b55b58f019c0dd1cc33fbe10199" category="list-text">데이터 조사 페이지에서 을 클릭합니다 <block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block> 버튼을 클릭합니다.</block>
-  <block id="02fa34d7d96f4d3bb7e17ee4a2fc93a7" category="section-title">각 데이터 조사 보고서에 포함된 내용</block>
   <block id="6dc6bf0d1023a1b5714c777b474cce12" category="paragraph">비정형 파일 데이터 보고서 * 에는 파일에 대한 다음 정보가 포함됩니다.</block>
   <block id="f7a21d48814a155d5e8e39ddbf0827ae" category="paragraph">Structured Data Report * 에는 데이터베이스 테이블에 대한 다음 정보가 포함되어 있습니다.</block>
   <block id="6c5c8bcc3e6c86825162a1ff2603c1f3" category="section-title">Google Drive 계정의 데이터 스캔에 대한 지원이 추가되었습니다</block>
@@ -2473,7 +2467,6 @@
   <block id="33054e4c4ec78cdbffe4024718f5be95" category="list-text">BlueXP에서 소프트웨어 자동 업그레이드</block>
   <block id="70f30fa3be0f8d566af792a54f7feca4" category="paragraph">BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위해 정기적인 수동 업그레이드가 필요합니다. 데이터 감지 UI 페이지 하단에 데이터 감지 버전이 표시됩니다. 를 확인하십시오 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>.</block>
   <block id="57d5e1045a3473cd48f13a7e21feffdf" category="paragraph">Linux 시스템이 를 충족하는지 확인합니다 <block ref="2d54aecca24274aa47c2fb620cd7d497" category="inline-xref-macro-rx"></block>필요한 모든 소프트웨어가 설치되어 있고 오프라인 환경이 필요한 를 충족한다는 것을 나타냅니다 <block ref="cecf7d2039efa2511a1cd1c96e91a043" category="inline-xref-macro-rx"></block>.</block>
-  <block id="fa834ed3a4990182d6f2cd1a7b04900b" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입니다. 이 시점 이후에 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스가 필요합니다.</block>
   <block id="28312bff8dd6c634a03c918b3596d5f7" category="section-title">BlueXP 커넥터를 설치합니다</block>
   <block id="dd4c90ec72ae39b7ae5e4b23558ad715" category="paragraph">오프라인 온-프레미스 사이트에 BlueXP Connector가 아직 설치되어 있지 않은 경우<block ref="b3b935401d776406adc004ee5c72bf0e" category="inline-link-rx"></block> 오프라인 사이트의 Linux 호스트</block>
   <block id="0c9e786ebc9e7a7d92ca8bd8ccb639a3" category="section-title">BlueXP 및 데이터 감지 사전 요구 사항을 확인합니다</block>
@@ -2530,7 +2523,6 @@
   <block id="90a9997e0440c020b9b048fe6fd4c2bc" category="paragraph">먼저 BlueXP 또는 온프레미스 시스템에 클라우드 데이터 센스의 인스턴스를 배포해야 합니다. 인스턴스가 실행되면 * Data Sense * 탭에서 또는 특정 작업 환경을 선택하여 기존 작업 환경, 데이터베이스 및 기타 데이터 원본에 대한 서비스를 활성화할 수 있습니다.</block>
   <block id="60e395d9f5ec11e9e22b10ca11e3901b" category="paragraph">예. 클라우드 데이터 센스(Cloud Data Sense)는 BlueXP와 완벽하게 통합됩니다. BlueXP 사용자는 작업 영역 권한에 따라 볼 수 있는 작업 환경에 대한 정보만 볼 수 있습니다.</block>
   <block id="4cc029f3cdd3510dcb1f5fd06a5ab6a8" category="paragraph">Cloud Data Sense는 BlueXP Canvas에 추가한 작업 환경과 Data Sense가 네트워크를 통해 액세스할 수 있는 다양한 유형의 정형 및 비정형 데이터 소스에서 데이터를 검색할 수 있습니다.</block>
-  <block id="51a53248ad26463c7bf5cb1ed219cc4b" category="paragraph">클라우드 데이터 센스를 사용하는 비용은 스캔하는 데이터의 양에 따라 다릅니다. BlueXP 작업 공간에서 Data Sense가 스캔하는 첫 1TB의 데이터는 무료입니다. 이 제한에 도달한 후 1TB를 초과하는 데이터를 계속 스캔하려면 다음 중 하나가 필요합니다.</block>
   <block id="f92115ef83b34980e3bba84c1a861bac" category="paragraph">다음 질문은 BlueXP 커넥터와 관련이 있습니다.</block>
   <block id="4b9fa14b0c391d57619fddd2ee2ccc25" category="paragraph">Connector는 클라우드 계정 또는 온프레미스 컴퓨팅 인스턴스에서 실행되는 소프트웨어로, BlueXP에서 클라우드 리소스를 안전하게 관리할 수 있도록 지원합니다. 클라우드 데이터 센스를 사용하려면 커넥터를 구축해야 합니다.</block>
   <block id="ee7ede689c65732abc73da2104adbd45" category="paragraph">BlueXP를 사용하면 온프레미스, 클라우드 및 하이브리드 환경을 비롯한 거의 모든 곳에서 시스템을 검색하고 보고할 수 있습니다. Cloud Data Sense는 일반적으로 SaaS 모델을 사용하여 구축되며, 이 모델에서는 BlueXP 인터페이스를 통해 서비스가 가능하며 하드웨어나 소프트웨어를 설치할 필요가 없습니다. 이처럼 클릭-앤-런 구축 모드에서도 데이터 저장소가 온프레미스에 있든 퍼블릭 클라우드에 있든 상관없이 데이터 관리를 수행할 수 있습니다.</block>
@@ -2538,7 +2530,6 @@
   <block id="e722a863038d03a6b956233c29a8c9e6" category="summary">Cloud Data Sense는 BlueXP의 데이터 거버넌스 서비스로, 회사의 사내 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
   <block id="c62d988c2493270126de8287b22e76ac" category="paragraph">Cloud Data Sense는 BlueXP(이전의 Cloud Manager)를 위한 데이터 거버넌스 서비스로, 사내 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
   <block id="629fc635e3b0007019bd6fe0cb5a386c" category="list-text">파일에 사용자 지정 태그(예: "이동해야 함")를 추가하고 BlueXP 사용자를 할당하여 사용자가 파일 업데이트를 소유할 수 있도록 합니다.</block>
-  <block id="d1f1eb6537084b73d6b1c7485236b667" category="list-text">클라우드 데이터 센스를 사용하는 비용은 스캔하는 데이터의 양에 따라 다릅니다. BlueXP 작업 공간에서 Data Sense가 스캔하는 첫 1TB의 데이터는 무료입니다. 여기에는 모든 작업 환경 및 데이터 소스의 모든 데이터가 포함됩니다. AWS, Azure 또는 GCP Marketplace에 대한 가입 또는 NetApp의 BYOL 라이센스를 구입해야 하며, 이후 계속해서 데이터를 스캔할 수 있습니다. 을 참조하십시오<block ref="7a3eda134173271beb15500b84a25151" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="414779643224750f91153e1e93366d7b" category="list-text">Cloud Data Sense를 사용하려면 BlueXP 커넥터를 구축해야 합니다. BlueXP에서 사용 중인 다른 스토리지 및 서비스로 인해 이미 커넥터가 있는 경우가 많습니다. Connector 인스턴스를 사용하면 배포된 클라우드 공급자가 비용을 청구합니다. 를 참조하십시오<block ref="afb51f96ab234eaf32dde49b48eed419" category="inline-link-rx"></block>. 커넥터를 온프레미스 시스템에 설치하는 경우 비용이 들지 않습니다.</block>
   <block id="81cfe398dd170f2b6299e94974778f0e" category="paragraph">클라우드에 Data Sense를 배포할 때 BlueXP는 Connector와 동일한 서브넷에 인스턴스를 배포합니다.<block ref="5ef86a9d91601df9732f9c29cb9efbcc" category="inline-link-rx"></block></block>
   <block id="77fffe47a015e5ea37a6ab2fa4a35417" category="inline-image-macro">클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 클라우드 데이터 감지 인스턴스를 보여 주는 다이어그램입니다.</block>
@@ -2584,7 +2575,6 @@
   <block id="550ed190220c30a219939b5cc149ea64" category="admonition">ONTAP용 FSx의 경우 클라우드 데이터 센스에서 BlueXP와 동일한 영역에서만 볼륨을 스캔할 수 있습니다.</block>
   <block id="605064cd8edf5ae796b155904f40b48f" category="paragraph">인터넷에 연결되지 않은 사이트에 Data Sense를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP Connector도 같은 사이트에 설치해야 합니다.<block ref="879ebf9ca74e8f08bfff336454f4ade3" category="inline-link-rx"></block>.</block>
   <block id="65b1808e8755301d9b88abfe2641bc90" category="summary">BlueXP 작업 공간에서 Cloud Data Sense가 스캔하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다.</block>
-  <block id="ab1e5b33f7f51cc6c40c92f1f5929447" category="paragraph">BlueXP 작업 공간에서 Cloud Data Sense가 스캔하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다.</block>
   <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.</block>
   <block id="0f6c00034bac6e049845fa36d40deb87" category="inline-image-macro">설정 아이콘을 선택할 수 있는 BlueXP의 오른쪽 상단 배너 스크린샷</block>
   <block id="ec24fbf33d16fbcbcd5109403b3ac212" category="paragraph"><block ref="ec24fbf33d16fbcbcd5109403b3ac212" category="inline-image-macro-rx" type="image"></block></block>
@@ -2619,7 +2609,6 @@
   <block id="51fb345d59b3adb8f0060afb63071c67" category="paragraph">Cloud Volumes ONTAP 시스템은 BlueXP의 Canvas에서 이미 사용 가능해야 합니다. 사내 ONTAP 시스템의 경우 가 있어야 합니다<block ref="0ea86f15e08471a3866cbc09dd9a2bd4" category="inline-link-rx"></block>.</block>
   <block id="0718fb096056f1b13075e60b653a79cf" category="paragraph">인터넷에 액세스할 수 없는 어두운 사이트에 설치된 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행해야 합니다 <block ref="ecc0eddec0bd55859619b2c1bb3475b2" category="inline-link-macro-rx"></block>. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
   <block id="37bd317738b255170eae4641d8d07b07" category="paragraph">환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 클라우드 데이터 감지 간의 연결 등이 포함됩니다. <block ref="d9771ea7e072ff16d9d579f1908bd406" category="inline-xref-macro-rx"></block>.</block>
-  <block id="2fef7080c414770f313f45ddf7b1259e" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 구입해야 합니다.</block>
   <block id="213c26a534506d1ae60070296a0343e1" category="list-text">BlueXP에서 * 거버넌스 &gt; 분류 * 를 선택합니다.</block>
   <block id="b14547d13e4545e40f6cf3e9a06dd4ab" category="list-text">메시지가 나타나면 프록시 세부 정보를 입력합니다. BlueXP Connector가 이미 프록시를 사용하고 있는 경우 데이터 센스에서 Connector에 사용되는 프록시를 자동으로 사용하기 때문에 이 정보를 다시 입력할 필요가 없습니다.</block>
   <block id="a7daee29c59d5c1bd111c784f878f35b" category="paragraph">인터넷에 액세스할 수 없는 어두운 사이트에 설치된 비 NetApp NFS 또는 CIFS 파일 공유를 스캔하는 경우 다음을 수행해야 합니다 <block ref="ecc0eddec0bd55859619b2c1bb3475b2" category="inline-link-macro-rx"></block>. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
@@ -2799,7 +2788,6 @@
   <block id="0cf39354f7edfa15dd84075131e27804" category="list-text">클라우드 공급업체의 BlueXP Marketplace 목록 가입 또는</block>
   <block id="10d127f1d0ce294ce4f4f8e7ebf6106b" category="paragraph">네트워킹 요구 사항이 엄격하면 <block ref="8ee644766673e1cde7b0c260d7a4e2e0" category="inline-link-macro-rx"></block>.</block>
   <block id="21315205ba34163a83853c5526e534c1" category="list-text">한 번에 최대 1K 항목을 재생성할 수 있습니다.</block>
-  <block id="8ec215ce3c88ae58412a2c9d13f5d15b" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 계속해서 데이터를 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 통한 BlueXP 구독이 필요합니다.</block>
   <block id="a8c256c3bc4f2ab999fee3056f7bebab" category="paragraph"><block ref="5d86a8971ca34d1c831cc0be7e11109d" prefix="" category="inline-code"></block></block>
   <block id="79bd49250e598bf53655f50c83b04044" category="list-text">작업 유형(삭제, 복사, 이동, 정책 생성, 정책 업데이트, 파일 재검색, JSON 보고서 다운로드 등)</block>
   <block id="9d282ec5c19d83f47fc9504e4ff50325" category="list-text">클라우드 공급자의 마켓플레이스에서 이미 BlueXP PAYGO(pay-as-you-go) 구독을 구독한 경우 클라우드 데이터 센스(Cloud Data Sense)도 자동으로 구독됩니다. 다시 가입하지 않아도 됩니다.</block>
@@ -2953,7 +2941,6 @@
   <block id="1f3259fd3977a2467ab298df6a6d44d1" category="paragraph">또한 구성 페이지 아래쪽에 있는 그룹의 각 스캐너 노드에 대한 IP 주소 및 상태와 함께 모든 스캐너 그룹 목록을 볼 수 있습니다.</block>
   <block id="e046fe016499c2584ccbc85ec4b21f9d" category="inline-image-macro">그룹의 각 스캐너 노드에 대한 IP 주소와 함께 모든 스캐너 그룹을 나열하는 스크린샷</block>
   <block id="dace7436ca5a83360d9bbd7d056c44bd" category="paragraph"><block ref="dace7436ca5a83360d9bbd7d056c44bd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d780548e828596e2a46211d87c5a2909" category="paragraph">가능합니다 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 현재. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.</block>
   <block id="50e51bdb9274c5704404f14dc8b7e114" category="list-text">파일에 특정 PII가 포함된 경우 이메일을 통해 특정 사용자에게 알립니다(을 사용하여 이 기준을 정의합니다 <block ref="0a2fc0f403ef4a50a3606f593b466bde" category="inline-link-macro-rx"></block>) 따라서 실천 계획을 결정할 수 있습니다.</block>
   <block id="d54227dbf49473f423d5988bdb7771ff" category="inline-link">Cloud Volumes ONTAP 시스템의 계층화에 대해 자세히 알아보십시오</block>
   <block id="aeaf9676bf6ac22ff407af9053be1238" category="inline-link">사내 ONTAP 시스템의 계층화에 대해 자세히 알아보십시오</block>
@@ -3043,4 +3030,18 @@
   <block id="3f69bac652b22744f89b8727420c50db" category="paragraph">스캐닝을 일시 중지하면 데이터 센스에서 볼륨 또는 버킷에 대한 추가 또는 변경 사항에 대해 향후 스캐닝을 수행하지 않지만 시스템에서 현재 모든 결과를 계속 사용할 수 있습니다.<block ref="a7d93e406d54440657820ff66e02fe00" category="inline-link-rx"></block>.</block>
   <block id="1a70f847ca98ead8008196451ddb3173" category="list-text">시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 및 Python 3)가 설치되어 있는지 확인합니다.</block>
   <block id="dc398b6dfc944aa53fc80c488796fb93" category="list-text">시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 및 Python 3)가 설치되어 있는지 확인합니다.</block>
+  <block id="05bff04a554e6a3bc1b13115f3188390" category="list-text">클라우드 데이터 센스를 사용하는 비용은 스캔하는 데이터의 양에 따라 다릅니다. BlueXP 작업 공간에서 Data Sense가 스캔하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 여기에는 모든 작업 환경 및 데이터 소스의 모든 데이터가 포함됩니다. AWS, Azure 또는 GCP Marketplace에 대한 가입 또는 NetApp의 BYOL 라이센스를 구입해야 하며, 이후 계속해서 데이터를 스캔할 수 있습니다. 을 참조하십시오<block ref="7a3eda134173271beb15500b84a25151" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="0efc0d04ea0f559551eaf028d9be1905" category="paragraph">BlueXP 작업 공간에서 Cloud Data Sense가 스캔하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다.</block>
+  <block id="c7fd038a8877e8d2d0c181ebca21d6b7" category="paragraph">언제든지 구독할 수 있으며 30일 평가판이 종료되거나 데이터 양이 1TB를 초과할 때까지 요금이 청구되지 않습니다. 항상 데이터 감지 대시보드에서 스캔되는 데이터의 총 양을 볼 수 있습니다. 지금 가입(_Subscribe Now_) 단추를 사용하면 준비가 되면 쉽게 가입할 수 있습니다.</block>
+  <block id="0ef849d1fbf19559ecd642854437445c" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 이 시점 이후에 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스가 필요합니다.</block>
+  <block id="7d520eab49b612c3173705846b0a81a4" category="paragraph">또한 가능합니다 <block ref="b892dec3891355dbda549908e2a94427" category="inline-link-macro-rx"></block> 현재 Digital Wallet 페이지에서 확인할 수 있습니다. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
+  <block id="4b013f5657095f9d6af00100e52bc1bf" category="paragraph">클라우드 데이터 센스를 사용하는 비용은 스캔하는 데이터의 양에 따라 다릅니다. BlueXP 작업 공간에서 Data Sense가 스캔하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 두 한계 중 하나에 도달한 후 데이터 스캔을 계속하려면 다음 중 하나가 필요합니다.</block>
+  <block id="47a431ede9d263c65258e5be6ff6b2c1" category="paragraph">개인 정보 보호 위험 평가 보고서는 GDPR 및 CCPA와 같은 개인 정보 보호 규정에 따라 조직의 개인 정보 보호 위험 상태에 대한 개요를 제공합니다. 보고서에는 다음 정보가 포함됩니다.</block>
+  <block id="77c511801e7a90a6a31b53c3c33b5397" category="paragraph">HIPAA(Health Insurance Portability and Accountability Act) 보고서를 통해 건강 정보가 포함된 파일을 확인할 수 있습니다. HIPAA 데이터 개인 정보 보호 법률을 준수하기 위한 조직의 요구 사항을 지원하도록 설계되었습니다. Cloud Data Sense에서 찾는 정보는 다음과 같습니다.</block>
+  <block id="af4b0162529178f9269843c02de9011a" category="paragraph">참고: 데이터 감지 페이지의 맨 위에서 을 클릭하여 보고서의 첫 페이지에 표시되는 회사 이름을 사용자 지정할 수 있습니다 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 회사 이름 변경 * 을 클릭합니다.</block>
+  <block id="e9ebebe267d1d822cab67a314b8df765" category="section-title">각 데이터 조사 보고서에 포함되는 사항</block>
+  <block id="507eb1b330c9b9c53f787e32eb212a8c" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 구입해야 합니다.</block>
+  <block id="d16229fe4c13eabaf4888e33502b9f43" category="paragraph">또한 가능합니다 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
+  <block id="68b93206d7f113e3a7eb3b6c41df6f6e" category="paragraph">가능합니다 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
+  <block id="4836df02e5a10e2b5f7369a02cc815e2" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 계속해서 데이터를 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 통한 BlueXP 구독이 필요합니다.</block>
 </blocks>

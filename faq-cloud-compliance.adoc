@@ -311,7 +311,7 @@ Data Sense는 메타데이터만 검색합니다. 이 기능은 전체 데이터
 
 === Cloud Data Sense 비용은 얼마입니까?
 
-클라우드 데이터 센스를 사용하는 비용은 스캔하는 데이터의 양에 따라 다릅니다. BlueXP 작업 공간에서 Data Sense가 스캔하는 첫 1TB의 데이터는 무료입니다. 이 제한에 도달한 후 1TB를 초과하는 데이터를 계속 스캔하려면 다음 중 하나가 필요합니다.
+클라우드 데이터 센스를 사용하는 비용은 스캔하는 데이터의 양에 따라 다릅니다. BlueXP 작업 공간에서 Data Sense가 스캔하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 두 한계 중 하나에 도달한 후 데이터 스캔을 계속하려면 다음 중 하나가 필요합니다.
 
 * 클라우드 공급업체의 BlueXP Marketplace 목록 가입 또는
 * BYOL(Bring-Your-Own-License) 방식으로 NetApp의 BYOL(Bring-Your-License

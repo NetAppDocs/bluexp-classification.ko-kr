@@ -72,7 +72,7 @@ NetApp Support 사이트에서 Cloud Data Sense 소프트웨어를 다운로드�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] Cloud Data Sense 서비스를 구독하십시오
 [role="quick-margin-para"]
-BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 무료입니다. 이 시점 이후에 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스가 필요합니다.
+BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 이 시점 이후에 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스가 필요합니다.
 
 
 
@@ -314,7 +314,7 @@ Data Sense 설치 프로그램은 패키지를 설치하고, 설치를 등록하
 .다음 단계
 구성 페이지에서 로컬 을 선택할 수 있습니다 link:task-getting-started-compliance.html["온프레미스 ONTAP 클러스터"] 및 link:task-scanning-databases.html["데이터베이스를 지원합니다"] 선택합니다.
 
-또한 가능합니다 link:task-licensing-datasense.html#use-a-cloud-data-sense-byol-license["Cloud Data Sense에 대한 BYOL 라이센싱 설정"] 현재 Digital Wallet 페이지에서 확인할 수 있습니다. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.
+또한 가능합니다 link:task-licensing-datasense.html#use-a-cloud-data-sense-byol-license["Cloud Data Sense에 대한 BYOL 라이센싱 설정"] 현재 Digital Wallet 페이지에서 확인할 수 있습니다. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.
 
 
 
@@ -387,7 +387,7 @@ Cloud Data Sense 설치 프로그램이 패키지 설치를 완료하고 설치�
 .다음 단계
 구성 페이지에서 로컬 을 선택할 수 있습니다 link:task-getting-started-compliance.html["온프레미스 ONTAP 클러스터"] 및 로컬 link:task-scanning-databases.html["데이터베이스를 지원합니다"] 선택합니다.
 
-또한 가능합니다 link:task-licensing-datasense.html#use-a-cloud-data-sense-byol-license["Cloud Data Sense에 대한 BYOL 라이센싱 설정"] 현재 Digital Wallet 페이지에서 확인할 수 있습니다. 데이터 양이 1TB를 초과할 때까지 비용이 청구되지 않습니다.
+또한 가능합니다 link:task-licensing-datasense.html#use-a-cloud-data-sense-byol-license["Cloud Data Sense에 대한 BYOL 라이센싱 설정"] 현재 Digital Wallet 페이지에서 확인할 수 있습니다. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.
 
 
 
