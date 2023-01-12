@@ -2418,10 +2418,7 @@
   <block id="9a996c7f10537ef7b705b42e701d4b6e" category="paragraph"><block ref="9a996c7f10537ef7b705b42e701d4b6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="56d39ecb5bf4d2ec753c12fbb0e00108" category="paragraph">AWS 및 AWS GovCloud 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오<block ref="74fb388667736bb2b34ea14720dd63e3" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="261826c213e3c9cbf53df120aaf0be3b" category="paragraph">Azure 및 Azure Government 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오<block ref="e1893ebf6f9d2e927a13d052b78eec9f" category="inline-link-rx"></block> 를 참조하십시오.</block>
-  <block id="2152258e1def6997a945ef8261b66bcc" category="paragraph">필요한 소프트웨어와 실제 설치 파일 * DATASENSE-INinstaller-V1.16.1.tar.gz * 를 추출합니다.</block>
-  <block id="7dcbe0be3e8e2a9fd658d871499bd050" category="list-text">데이터 감지 설치 프로그램 파일(* DATASENSE-INinstaller-&lt;version&gt;.tar.gz*)을 호스트 컴퓨터에 복사합니다.</block>
   <block id="4866a563c343528540aa5c3529f908ca" category="list-text">Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어 1.15.x 버전이 설치되어 있는 경우 1.16.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
-  <block id="eb2cb5912ef10d2dcff7761bde0a5ace" category="paragraph">그러면 * DATASENSE-INinstaller-V1.16.1.tar.gz * 설치 파일이 추출됩니다.</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
@@ -3044,4 +3041,7 @@
   <block id="d16229fe4c13eabaf4888e33502b9f43" category="paragraph">또한 가능합니다 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
   <block id="68b93206d7f113e3a7eb3b6c41df6f6e" category="paragraph">가능합니다 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
   <block id="4836df02e5a10e2b5f7369a02cc815e2" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 계속해서 데이터를 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 통한 BlueXP 구독이 필요합니다.</block>
+  <block id="8b3b2b670034ec0279cb937c145f257a" category="paragraph">필요한 소프트웨어와 실제 설치 파일 * cc_onprem_installer.tar.gz * 를 추출합니다.</block>
+  <block id="6cc29d8f722610f8a1e880227931a300" category="list-text">Data Sense 설치 프로그램 파일(* cc_onpremise_installer.tar.gz *)을 호스트 컴퓨터에 복사합니다.</block>
+  <block id="7b8f90ccd6fc9dda39797ae84ca7f14d" category="paragraph">그러면 설치 파일 * cc_onpremise_installer.tar.gz * 가 추출됩니다.</block>
 </blocks>

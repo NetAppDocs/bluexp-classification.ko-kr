@@ -255,7 +255,7 @@ image:diagram_deploy_onprem_multi_host_no_internet.png["인터넷 액세스 없�
 tar -xzf DataSense-offline-bundle-v1.16.1.tar.gz
 ----
 +
-필요한 소프트웨어와 실제 설치 파일 * DATASENSE-INinstaller-V1.16.1.tar.gz * 를 추출합니다.
+필요한 소프트웨어와 실제 설치 파일 * cc_onprem_installer.tar.gz * 를 추출합니다.
 
 . BlueXP를 시작하고 * Governance > Classification * 을 선택합니다.
 . Activate Data Sense * 를 클릭합니다.
@@ -274,7 +274,7 @@ image:screenshot_cloud_compliance_deploy_darksite.png["클라우드 데이터 �
 +
 [source, cli]
 ----
-tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
+tar -xzf cc_onprem_installer.tar.gz
 ----
 . 설치 프로그램에서 프롬프트가 표시되면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.
 +
@@ -371,7 +371,7 @@ Data Sense 설치 프로그램은 패키지를 설치하고, 설치를 등록하
 
 . 켜짐 * 각 * 스캐너 노드 호스트:
 +
-.. 데이터 감지 설치 프로그램 파일(* DATASENSE-INinstaller-<version>.tar.gz*)을 호스트 컴퓨터에 복사합니다.
+.. Data Sense 설치 프로그램 파일(* cc_onpremise_installer.tar.gz *)을 호스트 컴퓨터에 복사합니다.
 .. 설치 프로그램 파일의 압축을 풉니다.
 .. 3단계에서 복사한 명령을 붙여 넣고 실행합니다.
 +
@@ -410,13 +410,13 @@ Data Sense 소프트웨어는 정기적으로 새로운 기능으로 업데이�
 tar -xvf DataSense-offline-bundle-v1.16.1.tar.gz
 ----
 +
-그러면 * DATASENSE-INinstaller-V1.16.1.tar.gz * 설치 파일이 추출됩니다.
+그러면 설치 파일 * cc_onpremise_installer.tar.gz * 가 추출됩니다.
 
 . 호스트 시스템에서 설치 파일의 압축을 풉니다. 예를 들면 다음과 같습니다.
 +
 [source, cli]
 ----
-tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
+tar -xzf cc_onprem_installer.tar.gz
 ----
 +
 그러면 업그레이드 스크립트 * start_darsite_upgrade.sh * 와 필요한 타사 소프트웨어가 추출됩니다.
