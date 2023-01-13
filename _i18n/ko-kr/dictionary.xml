@@ -151,13 +151,10 @@
   <block id="2ef77a3845de73c82db787233e991d0c" category="doc">SharePoint 계정 스캔 중</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">빠른 시작</block>
   <block id="91e06e9a9ef97681b798e2e5e007ba97" category="paragraph">다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.</block>
-  <block id="040e5e5b0b4e3b56e337960cee1ba171" category="paragraph">SharePoint 계정에 로그인할 관리자 자격 증명이 있고 검색할 SharePoint 사이트의 URL이 있는지 확인합니다.</block>
   <block id="74bb7a594eb368027d02fe1a3688d1d5" category="inline-link-macro">클라우드 데이터 센스를 구축하십시오</block>
   <block id="e8533f7b037610ff8d390f3287ddb129" category="paragraph"><block ref="82045b529e00dc6553b9711a4c4e6861" category="inline-link-macro-rx"></block> 이미 배포된 인스턴스가 없는 경우</block>
-  <block id="0fd354f4598b432146c03a6c1b496e25" category="paragraph">관리자 사용자 자격 증명을 사용하여 액세스할 SharePoint 계정에 로그인하여 새 데이터 원본/작업 환경으로 추가합니다.</block>
   <block id="a8c0024f4de7eafbcc79573f90579f5f" category="paragraph">SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하고 검색 유형을 선택합니다. 한 번에 최대 100개의 URL을 추가할 수 있습니다.</block>
   <block id="2b4e0126afcd89267252cefaf503c414" category="section-title">SharePoint 요구 사항 검토</block>
-  <block id="e1f7c840b56984612690abc476c04c51" category="list-text">모든 SharePoint 사이트에 읽기 권한을 제공하는 SharePoint 계정에 대한 관리자 로그인 자격 증명이 있어야 합니다.</block>
   <block id="f86df9b5b428fe5b37c14bd1162bc107" category="list-text">검색할 모든 데이터에 대해 SharePoint 사이트 URL의 줄 구분 목록이 필요합니다.</block>
   <block id="923e0e9139b80b545817bb342c8afa44" category="section-title">Cloud Data Sense 인스턴스 구축</block>
   <block id="f1ac9839669a6dbca87204adecc06943" category="paragraph">이미 구축된 인스턴스가 없으면 Cloud Data Sense를 구축하십시오.</block>
@@ -167,7 +164,6 @@
   <block id="151eca0a4859a8fbf17435fcbaa0001e" category="paragraph">데이터 감지 소프트웨어로 업그레이드하는 것은 인스턴스에 인터넷 연결이 있는 한 자동으로 수행됩니다.</block>
   <block id="cb49e9afef4bc3127fbf2d354d00fd54" category="list-text">작업 환경 구성 페이지에서 * 데이터 원본 추가 * &gt; * SharePoint Online 계정 추가 * 를 클릭합니다.</block>
   <block id="ea56ecd454d4962a21bd35be41237229" category="list-text">SharePoint Online 계정 추가 대화 상자에서 * SharePoint에 로그인 * 을 클릭합니다.</block>
-  <block id="e61b097ecbac4c8e2db9675d4c9f64cb" category="list-text">나타나는 Microsoft 페이지에서 SharePoint 계정을 선택하고 필요한 관리자 사용자 및 암호를 입력한 다음 * 수락 * 을 클릭하여 Cloud Data Sense가 이 계정에서 데이터를 읽을 수 있도록 합니다.</block>
   <block id="88f6018b4c4004a32e426fcb13381212" category="section-title">규정 준수 검사에 SharePoint 사이트 추가</block>
   <block id="32d4436877412c0a858739daddb125a4" category="list-text">Configuration_ 페이지에서 SharePoint 계정의 * Configuration * 버튼을 클릭합니다.</block>
   <block id="eeca65dd888a9508e6e72469e53273ff" category="inline-image-macro">구성 버튼을 선택할 수 있는 Scan Configuration(스캔 구성) 페이지의 스크린 샷</block>
@@ -320,7 +316,6 @@
   <block id="9965e5c3b37cecfca0bb5cbb1e086c48" category="list-text">상태 참조 패턴</block>
   <block id="53155f0c534ef44d114eeae0b0f2e638" category="list-text">ICD-10-cm 의료 코드</block>
   <block id="f1d3fc4a48ee497faf58426c477a8bd3" category="list-text">ICD-9-cm 의료 코드</block>
-  <block id="73d3d4a3c512af892bcba03ccfb7e0a3" category="list-text">HR – 건강 범주</block>
   <block id="8948f9f8b6a6a046dfc8b73ef1fa8c51" category="list-text">상태 응용 프로그램 데이터 범주입니다</block>
   <block id="889fccf2502dc396b9b9c66885b6a093" category="paragraph">보고서에는 다음 정보가 포함됩니다.</block>
   <block id="8e73880b563de5164876f6e85029b66a" category="list-text">상태 정보가 포함된 파일 수와 작업 환경이 포함된 파일 수</block>
@@ -629,7 +624,6 @@
   <block id="664f12aee95db5001901ada82a66a117" category="inline-link-macro">근접 확인</block>
   <block id="9ad88770f453f002d943e75f7bc6c007" category="paragraph">이 범주의 항목은 모든 언어로 인식할 수 있습니다.</block>
   <block id="8060d07e3adbf13c278991613997a8b6" category="inline-link-macro">Data Fusion를 사용하여 개인 데이터 식별자를 추가합니다</block>
-  <block id="6ea5e530965ed45d43a0385246e6a51b" category="paragraph">데이터베이스 서버를 검색하는 경우 파일에 있는 개인 데이터 목록에 추가할 수 있습니다. Data Fusion_Feature를 사용하면 데이터베이스 테이블에서 열을 선택하여 클라우드 데이터 센스가 '스캔'에서 찾을 추가 식별자를 선택할 수 있습니다. 을 참조하십시오 <block ref="e5fd618a95839b26abd9eb3c166b6d5a" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="a1fa27779242b4902f7ae3bdd5c6d508" category="cell">유형</block>
   <block id="29ee5d1ebcc033234938a5234f1f2075" category="cell">ID입니다</block>
   <block id="ed82815cd7c9b16e760f312718a9a3d3" category="cell">근접성 검증?</block>
@@ -1167,8 +1161,6 @@
   <block id="ddd83696bfecd5c4f7b1fd6fd308c800" category="summary">Cloud Data Sense는 여러 가지 방법으로 개인 데이터를 관리할 수 있습니다. 일부 기능을 사용하면 데이터 마이그레이션을 쉽게 준비할 수 있을 뿐만 아니라 다른 기능도 데이터를 변경할 수 있습니다.</block>
   <block id="4264ca6efffa4cf6fdf127440dfdd525" category="doc">개인 데이터 관리</block>
   <block id="681a30d34dc88519fc9d3b5f02853ef5" category="list-text">특정 데이터의 복사본을 만들어 다른 NFS 위치로 이동하려는 경우 대상 NFS 공유에 파일을 복사할 수 있습니다.</block>
-  <block id="34413ef9a2fa02e162300410e4578dc8" category="list-text">클론 복제된 새 볼륨의 소스 볼륨에서 선택한 파일만 포함하여 ONTAP 볼륨을 새 볼륨으로 복제할 수 있습니다. 이 기능은 데이터를 마이그레이션하고 원본 볼륨에서 특정 파일을 제외하려는 경우에 유용합니다.</block>
-  <block id="d230e126c453ad22ad5fcc3f4415075f" category="list-text">소스 리포지토리에서 특정 대상 위치의 디렉토리로 파일을 복사 및 동기화할 수 있습니다. 이 기능은 소스 파일에 대한 최종 작업이 아직 남아 있는 동안 소스 시스템 간에 데이터를 마이그레이션하는 경우에 유용합니다.</block>
   <block id="13aa22f4ea4821e274ae149a6821fb68" category="list-text">데이터 센스에서 스캔 중인 소스 파일을 모든 NFS 공유로 이동할 수 있습니다.</block>
   <block id="8cd71862f8a8c010084d3687780ba841" category="list-text">안전하지 않거나 위험한 것으로 보이는 파일을 스토리지 시스템에 남겨 두거나 중복으로 식별한 경우 삭제할 수 있습니다.</block>
   <block id="e1ceec320e11017e93f764dd05d20aa0" category="section-title">원본 파일을 복사하는 중입니다</block>
@@ -1177,7 +1169,6 @@
   <block id="73d4c457b0f8ca0f7be75dc85bba7f0f" category="paragraph">특정 데이터의 복사본을 만들어 다른 NFS 위치로 이동하려는 경우 유용합니다.</block>
   <block id="d5c3d70f964953312816ce98d2f4f5d1" category="list-text">* 동일한 애그리게이트의 새 볼륨에 ONTAP 볼륨 * 을 클론 복제하지만 새로운 클론 복제된 볼륨의 소스 볼륨에서 선택한 파일만 포함됩니다.</block>
   <block id="2c727edaa875c00494a86714e286c25d" category="inline-link-macro">플랙스클론</block>
-  <block id="ec086256431805bc6e71317d95f6f6a8" category="paragraph">이 기능은 데이터를 마이그레이션하고 원본 볼륨에서 특정 파일을 제외하려는 경우에 유용합니다. 이 작업은 를 사용합니다 <block ref="92039e8ff3437cbcef178dbc4c5e027b" category="inline-link-macro-rx"></block> 볼륨을 빠르게 복제한 다음 * 선택하지 않은 * 파일을 제거하는 기능입니다.</block>
   <block id="cacf80b84fb78c42b4f9ad4c81a37286" category="list-text">* 단일 소스 저장소(ONTAP 볼륨, S3 버킷, NFS 공유 등)의 파일 * 을 특정 대상(타겟) 위치의 디렉토리로 복사 및 동기화합니다.</block>
   <block id="6e9116627887d2ff2f373f0cac2792f4" category="paragraph">이 기능은 소스 시스템 간에 데이터를 마이그레이션하는 경우에 유용합니다. 초기 복사 후 서비스는 사용자가 설정한 일정에 따라 변경된 데이터를 동기화합니다. 이 작업은 를 사용합니다<block ref="a370f691ddfd2ad7b716b2db4ad021a1" category="inline-link-rx"></block> 소스에서 타겟으로 데이터를 복제 및 동기화하는 기능</block>
   <block id="eebe70a774ce96bd8417ce353c5f5bfb" category="paragraph">Data Sense에서 스캔 중인 소스 파일을 모든 NFS 공유로 복사할 수 있습니다. NFS 공유는 데이터 센스에 통합할 필요가 없으며 선택한 모든 파일이 "&lt;host_name&gt;:/&lt;share_path&gt;" 형식으로 복사될 NFS 공유의 이름을 알아야 합니다.</block>
@@ -1188,7 +1179,6 @@
   <block id="07fc1f9bea8dc1060003a2fea5aa3598" category="list-text">데이터 조사 결과 창에서 복사할 파일을 선택하고 * 복사 * 를 클릭합니다.</block>
   <block id="e78ae78fac1620efb2c4db4938844274" category="inline-image-macro">복사할 파일을 선택하는 방법과 데이터 조사 페이지에서 복사 단추를 선택하는 방법을 보여 주는 스크린샷</block>
   <block id="cb1cacc23b0ae330cc87e78659350142" category="paragraph"><block ref="cb1cacc23b0ae330cc87e78659350142" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="954c8e4a2fef11c0a6762941ba9d8127" category="list-text">모든 페이지의 모든 파일을 선택하려면 제목 행(<block ref="131fceed6fc7a6aedc494491ecbfa63c" category="inline-image-macro-rx" type="image"></block>)를 클릭한 다음 팝업 메시지에서 를 클릭합니다 <block ref="59f58c07f404f0ac69cc91cb0db7e0be" category="inline-image-macro-rx" type="image"></block>목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.</block>
   <block id="62a136d0cb137d3728e47722538ef521" category="list-text">파일 복사 대화 상자에서 * 일반 복사 * 탭을 선택합니다.</block>
   <block id="ce317c87ce4844ca643177409a988555" category="inline-image-macro">선택한 모든 파일이 복사될 NFS 공유의 이름을 지정할 수 있는 파일 복사 대화 상자를 보여 주는 스크린샷입니다.</block>
   <block id="29119fd663ff44c4494107f1f7eaca94" category="paragraph"><block ref="29119fd663ff44c4494107f1f7eaca94" category="inline-image-macro-rx" type="image"></block></block>
@@ -1228,7 +1218,6 @@
   <block id="627bf959aabe96a1a08aad7eaf1ab97a" category="paragraph">Cloud Sync 서비스에는 동기화 관계에 대한 별도의 서비스 요금이 부과되며, 클라우드에 데이터 브로커를 구축할 경우 리소스 요금이 발생합니다.</block>
   <block id="ff0485cd041399c074cb840a8d93eafb" category="list-text">데이터 조사 창에서 하나의 * 작업 환경 * 과 하나의 * 저장소 저장소 * 를 선택하여 모든 파일이 동일한 리포지토리의 파일인지 확인하는 필터를 만듭니다.</block>
   <block id="6b063a37c6525c913c2ebc03bba94e6e" category="paragraph">대상 시스템에 복사 및 동기화할 파일만 표시되도록 다른 필터를 적용합니다.</block>
-  <block id="ec9e1d0eb5ba32bb2965598b3dbf2b63" category="list-text">조사 결과 창에서 제목 행(<block ref="131fceed6fc7a6aedc494491ecbfa63c" category="inline-image-macro-rx" type="image"></block>)를 선택한 다음 팝업 메시지를 표시합니다 <block ref="59f58c07f404f0ac69cc91cb0db7e0be" category="inline-image-macro-rx" type="image"></block> 목록에서 모든 항목 선택(xxx개 항목) * 을 클릭한 다음 * 복사 * 를 클릭합니다.</block>
   <block id="57b19a0c98df2d7d9398a909c1eae2e5" category="paragraph"><block ref="57b19a0c98df2d7d9398a909c1eae2e5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8431faf03ecbbded4ece2797b0f5e558" category="list-text">파일 복사 대화 상자에서 * 동기화 * 탭을 선택합니다.</block>
   <block id="0c6b55cfd6cc79430c7e6b4984da814c" category="inline-image-macro">동기화 옵션을 선택할 수 있는 파일 복사 대화 상자가 표시된 스크린샷</block>
@@ -1381,7 +1370,6 @@
   <block id="edcc6720ea7c450bc260e04210895e7c" category="cell">호스트 간 파일 공유를 위한 NFS 서버(각 스캐너 노드에서 관리자 노드로 필요)</block>
   <block id="06b1338ba02add2b5d2da67663b19ebe" category="cell">2049</block>
   <block id="26285ebf37a162fef382f275814886c9" category="inline-link-macro">단일 호스트 설치</block>
-  <block id="a34d1a701917dbbb1735e81c6c612bc0" category="list-text">에서 1단계부터 8단계까지 수행합니다 <block ref="80550799407a84f7dd8a18bd5786e6be" category="inline-link-macro-rx"></block> 관리자 노드에서.</block>
   <block id="5e2f5642806d5ddc2868631f2e508d3d" category="paragraph">단일 호스트 설치에 사용할 수 있는 변수 외에도 새 옵션 * -n&lt;node_ip&gt; * 를 사용하여 스캐너 노드의 IP 주소를 지정할 수 있습니다. 여러 노드 IP는 쉼표로 구분됩니다.</block>
   <block id="743663a45dfd2f9237dfcf266bf499a6" category="list-text">관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사하여 텍스트 파일에 저장합니다. 예를 들면 다음과 같습니다.</block>
   <block id="bb70d223e1e51328f09038d97ad81b07" category="paragraph">'SUDO./node_install.sh -m 10.11.12.13 -t abcdef-1-3u69m1-1s35212'를 참조하십시오</block>
@@ -1403,7 +1391,6 @@
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="a1244561bd1d271f7f6a76554fae2cde" category="summary">조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. Cloud Data Sense는 오래된 데이터, 비업무용 데이터, 중복 파일 및 시스템의 대용량 파일을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다.</block>
   <block id="16ace13e9030ba8b43b8bf469be3ffff" category="doc">조직에 저장된 데이터에 대한 거버넌스 세부 정보 보기</block>
-  <block id="8e907bbc7c59c56a9ea9a3660e214fb9" category="paragraph">또한, 데이터를 사내 위치에서 클라우드로 마이그레이션하려는 경우 데이터의 크기와 데이터를 이동하기 전에 중요한 정보가 포함되어 있는지 여부를 확인할 수 있습니다.</block>
   <block id="f7b090ae0361a33be68398c938094aa6" category="section-title">Governance 대시보드</block>
   <block id="e5295f0dcd9974bcca40c2b38f856a76" category="paragraph">Governance 대시보드는 스토리지 리소스에 저장된 데이터와 관련된 효율성을 높이고 비용을 제어할 수 있는 정보를 제공합니다.</block>
   <block id="275752eff701cbf90c07d1beb3ef4a06" category="inline-image-macro">Cloud Data Sense Governance 대시보드 스크린샷</block>
@@ -1416,18 +1403,13 @@
   <block id="dc6d9a4419750aae3db17878ffe18e5c" category="inline-link-macro">어떤 유형의 중복 파일이 표시되는지 확인합니다</block>
   <block id="af3ebdfa0de82f4ebf264444127ceba9" category="list-text">* 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. <block ref="aed0fa6f561bb8f0cefd5cb21d93e1cf" category="inline-link-macro-rx"></block>.</block>
   <block id="2b4d8a4ffe486173d89394fc3d6ccdb3" category="section-title">결과 수가 가장 많은 정책입니다</block>
-  <block id="a7a23c7ed8e3b4d314ee2c49d88b93c6" category="paragraph">조사 페이지에 결과를 표시하려면 _Policy_영역에서 정책 이름을 클릭합니다. 사용 가능한 모든 정책 목록을 보려면 * 모두 보기 * 를 클릭합니다.</block>
   <block id="b70528883a2d1dce278c3b16e0f8c608" category="section-title">데이터 개요</block>
-  <block id="0a9145dde57003fa4c977f908ffbd528" category="paragraph">스캔 중인 모든 데이터의 간단한 개요 버튼을 클릭하여 모든 작업 환경 및 데이터 소스에 대한 사용 용량, 데이터 수명, 데이터 크기 및 파일 유형이 포함된 전체 데이터 매핑 보고서를 다운로드합니다. 을 참조하십시오 <block ref="5efa252e20225abbecfacf56f2ab906a" category="inline-link-macro-rx"></block> 을 참조하십시오.</block>
   <block id="5054e48efbd7d7a23b39d5c48f13943f" category="section-title">데이터 민감도에 따라 나열된 상위 데이터 리포지토리</block>
-  <block id="021e89108a720478560938c05dd763cf" category="paragraph">민감도 수준별 상위 데이터 리포지토리_영역에는 가장 중요한 항목이 포함된 상위 4개의 데이터 리포지토리(작업 환경 및 데이터 소스)가 나열됩니다. 각 작업 환경의 막대 차트는 다음과 같이 구분됩니다.</block>
-  <block id="149c82afeb3e94deb5ab558ddbbfbfcb" category="list-text">비개인 데이터</block>
   <block id="0f0be2946f647a34d438bb34323fd30e" category="list-text">민감한 개인 데이터</block>
   <block id="43ec9a8f95b41a9a8648d4df5db2c7f1" category="paragraph">각 섹션 위로 마우스를 가져가면 각 범주의 총 항목 수를 볼 수 있습니다.</block>
   <block id="9f3ca55177a9cff0208b29196f6a269a" category="paragraph">조사 페이지에서 필터링된 결과를 보려면 각 영역을 클릭하여 더 자세히 조사할 수 있습니다.</block>
   <block id="645e4f0b71c92a4a3810668742adff95" category="section-title">열기 권한 유형별로 나열된 데이터</block>
   <block id="140692ffca26cf04b2ffe208e40614b6" category="paragraph">Open Permissions_영역에는 스캔되는 모든 파일에 대해 존재하는 각 권한 유형의 백분율이 표시됩니다. 차트에는 다음과 같은 유형의 사용 권한이 표시됩니다.</block>
-  <block id="5eef11b580781f577a31fd66fb5e92bc" category="list-text">개방 액세스 없음</block>
   <block id="a1803d6c124292f91b3806ee4c46b406" category="list-text">조직에 열기</block>
   <block id="8c8bc01ad66acc46ad4db72461de09d9" category="list-text">공개</block>
   <block id="77660481bdb77bcf47202315fe7e0d51" category="list-text">알 수 없는 액세스</block>
@@ -1440,7 +1422,6 @@
   <block id="adb18f5fb34b742716a832a865f1d8e2" category="section-title">가장 많이 식별된 데이터 분류</block>
   <block id="65da47b6ef0adda3d4c4ed54dfde4494" category="inline-link-macro">파일 형식</block>
   <block id="02ac28e6aac96ae29edd75daf4e929ad" category="inline-link-macro">AIP 레이블</block>
-  <block id="439fa70484344162e488c2f6e8d7f52c" category="paragraph">범주는 보유한 정보의 유형을 표시하여 데이터의 상태를 이해하는 데 도움이 됩니다. 예를 들어 "이력서" 또는 "직원 계약"과 같은 범주에는 중요한 데이터가 포함될 수 있습니다. 결과를 조사할 때 직원 계약이 안전하지 않은 위치에 저장되어 있는 것을 발견할 수 있습니다. 그런 다음 해당 문제를 해결할 수 있습니다.</block>
   <block id="659056cf2678e420a1509bbcc731edcf" category="paragraph">을 참조하십시오 <block ref="21094466ac939ca1953a7d6cc6a49a1d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="cb45e879b815142e4e2cd0d22e5c6dd9" category="paragraph">파일 형식을 검토하면 특정 파일 형식이 올바르게 저장되지 않은 것을 발견할 수 있으므로 중요한 데이터를 제어하는 데 도움이 됩니다.</block>
   <block id="5e8739b0bd7e602b7f492e7398e41425" category="inline-link-macro">파일 형식 보기</block>
@@ -1856,7 +1837,6 @@
   <block id="be27a8dc9dfba1897217ecee5823bd4e" category="list-text">파일에 대한 상태 정보 배포를 식별하는 데 도움이 됩니다. <block ref="1ce675538fc85bf3b1ef6fa4ab26346c" category="inline-link-macro-rx"></block>.</block>
   <block id="e6d68873555c37c43798e1e7f7b8513e" category="list-text">필요한 경우 정책 매개 변수와 일치하는 파일을 자동으로 삭제하려면 확인란을 선택합니다. 에 대해 자세히 알아보십시오 <block ref="30e6ed97d290e57f0e75d9e6322eb503" category="inline-link-macro-rx"></block>.</block>
   <block id="58293f799492274c3df075305508ade4" category="paragraph">Data Sense가 스캔 중인 소스 파일을 지원되는 비정형 데이터 소스에서 특정 대상 위치의 디렉토리로 복사할 수 있습니다 <block ref="ebb58758e77d05976efcc1ccd5134262" category="inline-link-rx"></block>)를 클릭합니다. 초기 복제 후에는 구성한 일정에 따라 파일에서 변경된 모든 데이터가 동기화됩니다.</block>
-  <block id="82ad1ea6a2070297147f61890ad6c8ae" category="list-text">대상 시스템을 선택한 다음 사용하려는 데이터 브로커를 선택(또는 생성)해야 합니다. 부터 시작되는 Cloud Sync 요구 사항을 검토합니다 <block ref="5abefb1df304535da49e476c753377a4" category="inline-link-macro-rx"></block>.</block>
   <block id="1512503c318779a183367c2326a24f21" category="list-text">온프레미스 커넥터 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다.<block ref="ce22b55d293a0e07097135e6515924b6" category="inline-link-rx"></block>.</block>
   <block id="f49cd49d999d1390260fa896a1a3ceec" category="paragraph">을 클릭합니다 <block ref="4860dd37562d5a245a69a17be60d42e2" category="inline-link-macro-rx"></block> 정책에 대해 자세히 알아보십시오.</block>
   <block id="f887e54f519cc35b4741120230ac9d1a" category="paragraph">Classification_area는 가장 많이 식별된 목록을 제공합니다 <block ref="b823fa31d5dec268aaa19a8828bf34fe" category="inline-link-macro-rx"></block>, <block ref="336d27c782a82199a3380deae5570591" category="inline-link-macro-rx"></block>, 및 <block ref="8376771def5b60bb1cfdd0dc180ae5cc" category="inline-link-macro-rx"></block> 스캔 데이터.</block>
@@ -2017,7 +1997,6 @@
   <block id="3fedcf7612eed43efc90d19f42d43f9a" category="paragraph">이제 데이터 감지 사용 권한 기능의 일부로 파일에 액세스할 수 있는 사용자 및 그룹 목록을 볼 수 있습니다. 각 그룹을 확장하여 그룹의 사용자 목록을 표시할 수 있습니다.<block ref="978ddb309e10f2b48cc0f4a959fbca42" category="inline-link-rx"></block>.</block>
   <block id="96ab93ed4512cdb4dd07828ed738b502" category="section-title">데이터 조사 페이지에 두 개의 새 필터가 추가되었습니다</block>
   <block id="9e4e3d73f23809aabccd30c3abe0f99f" category="list-text">“디렉터리 유형” 필터를 사용하면 폴더 또는 공유만 볼 수 있도록 데이터를 구체화할 수 있습니다. 결과는 새 * 디렉터리 * 탭에 표시됩니다.</block>
-  <block id="7613f02556e4a651db53f06b87b1b460" category="list-text">"사용자/그룹 권한" 필터를 사용하면 특정 사용자 또는 그룹에 읽기 및/또는 쓰기 권한이 있는 파일, 폴더 및 공유를 나열할 수 있습니다. 여러 사용자 및/또는 그룹 이름을 선택하거나 부분 이름을 입력할 수 있습니다. T</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오</block>
   <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>.</block>
   <block id="fca7f51b54fee8b38e01607def214d88" category="paragraph">"사용자/그룹 권한"이라는 새 필터가 추가되어 특정 사용자 또는 그룹에 읽기 및/또는 쓰기 권한이 있는 파일을 나열할 수 있습니다. 하나 이상의 사용자 및/또는 그룹 이름을 선택하거나 부분 이름을 입력할 수 있습니다. 이 기능은 Cloud Volumes ONTAP, 온프레미스 ONTAP, Azure NetApp Files, ONTAP용 Amazon FSx 및 파일 공유의 볼륨에 사용할 수 있습니다.</block>
@@ -2214,7 +2193,6 @@
   <block id="7d96313dbf4a19b7144c3ff41f415250" category="section-title">이제 데이터 센스를 통해 한 번에 최대 100,000개의 파일을 이동할 수 있습니다</block>
   <block id="3e0c53bc3881ac60b7e7165fda5915c1" category="inline-link">데이터 센스를 사용하여 파일을 이동하는 방법을 확인하십시오</block>
   <block id="83a532ebc867c79287dd4586ca124d5c" category="paragraph">Data Sense를 사용하여 스캔한 데이터 소스에서 NFS 공유로 파일을 이동하려는 경우 최대 파일 수가 100,000개로 늘어났습니다.<block ref="09dde0c065d21cccd7a9b4c85001931c" category="inline-link-rx"></block>.</block>
-  <block id="b71c8f6fc8800b6bd7a829954617c2fb" category="paragraph">데이터 센스를 사용하면 오스트레일리아 TFN(세금 파일 번호), 오스트레일리아 운전면허증 번호, 오스트레일리아 의료보험 번호 및 호주 여권 번호가 포함된 파일을 식별하고 분류할 수 있습니다. <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>.</block>
   <block id="c761b545ddd43d078ae7ea86495182db" category="paragraph">Data Sense와 통합하는 글로벌 Active Directory 서버는 이제 이전에 지원되는 DNS 서버 외에도 LDAP 서버가 될 수 있습니다. <block ref="de464dfb9c55e9818cd55e6911bff3a5" category="inline-link-macro-rx"></block>.</block>
   <block id="7d3fd85c1133d516ea08b3afb6e176b0" category="list-text">확인할 수 있습니다 <block ref="48c020a7f60397cfd78a107333e0da79" category="inline-link-macro-rx"></block> "모든 권한 보기" 버튼을 클릭하면 각 파일 및 디렉토리에 대해 이 작업을 수행할 수 있습니다.</block>
   <block id="dfb9b838b2fdca41edadb04c9ebbb240" category="list-text">비 NetApp CIFS 파일 공유(NFS 파일 공유 아님)</block>
@@ -2418,7 +2396,6 @@
   <block id="9a996c7f10537ef7b705b42e701d4b6e" category="paragraph"><block ref="9a996c7f10537ef7b705b42e701d4b6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="56d39ecb5bf4d2ec753c12fbb0e00108" category="paragraph">AWS 및 AWS GovCloud 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오<block ref="74fb388667736bb2b34ea14720dd63e3" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="261826c213e3c9cbf53df120aaf0be3b" category="paragraph">Azure 및 Azure Government 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오<block ref="e1893ebf6f9d2e927a13d052b78eec9f" category="inline-link-rx"></block> 를 참조하십시오.</block>
-  <block id="4866a563c343528540aa5c3529f908ca" category="list-text">Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어 1.15.x 버전이 설치되어 있는 경우 1.16.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
@@ -2605,7 +2582,6 @@
   <block id="f0d07e71c0ad5ba2b297c19c3e9347e0" category="inline-link">BlueXP는 이러한 클러스터를 검색합니다</block>
   <block id="51fb345d59b3adb8f0060afb63071c67" category="paragraph">Cloud Volumes ONTAP 시스템은 BlueXP의 Canvas에서 이미 사용 가능해야 합니다. 사내 ONTAP 시스템의 경우 가 있어야 합니다<block ref="0ea86f15e08471a3866cbc09dd9a2bd4" category="inline-link-rx"></block>.</block>
   <block id="0718fb096056f1b13075e60b653a79cf" category="paragraph">인터넷에 액세스할 수 없는 어두운 사이트에 설치된 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행해야 합니다 <block ref="ecc0eddec0bd55859619b2c1bb3475b2" category="inline-link-macro-rx"></block>. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
-  <block id="37bd317738b255170eae4641d8d07b07" category="paragraph">환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 클라우드 데이터 감지 간의 연결 등이 포함됩니다. <block ref="d9771ea7e072ff16d9d579f1908bd406" category="inline-xref-macro-rx"></block>.</block>
   <block id="213c26a534506d1ae60070296a0343e1" category="list-text">BlueXP에서 * 거버넌스 &gt; 분류 * 를 선택합니다.</block>
   <block id="b14547d13e4545e40f6cf3e9a06dd4ab" category="list-text">메시지가 나타나면 프록시 세부 정보를 입력합니다. BlueXP Connector가 이미 프록시를 사용하고 있는 경우 데이터 센스에서 Connector에 사용되는 프록시를 자동으로 사용하기 때문에 이 정보를 다시 입력할 필요가 없습니다.</block>
   <block id="a7daee29c59d5c1bd111c784f878f35b" category="paragraph">인터넷에 액세스할 수 없는 어두운 사이트에 설치된 비 NetApp NFS 또는 CIFS 파일 공유를 스캔하는 경우 다음을 수행해야 합니다 <block ref="ecc0eddec0bd55859619b2c1bb3475b2" category="inline-link-macro-rx"></block>. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
@@ -2796,7 +2772,6 @@
   <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">온-프레미스 위치에 데이터 센스를 설치한 경우 특정 데이터 원본을 스캔하기 위해 스캔 처리 성능이 더 필요한 경우 "스캐너" 노드를 더 추가하고 해당 데이터 원본을 스캔하도록 할당할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다.</block>
   <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">이제 온-프레미스 설치 관리자가 설치를 시작하기 전에 사전 검사를 수행합니다</block>
   <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">Linux 시스템에 Data Sense를 설치할 때 설치 관리자는 실제 설치를 시작하기 전에 시스템이 필요한 모든 요구 사항(CPU, RAM, 용량, 네트워킹 등)을 충족하는지 확인합니다. 따라서 * 설치에 시간을 소비하기 전에 * 문제를 파악할 수 있습니다.</block>
-  <block id="9d2608b0b15c6604020ef66ba698a70d" category="paragraph">인터넷에 액세스할 수 없는 온프레미스 사이트의 호스트에 Cloud Data Sense를 배포했다면 이제 OneDrive 계정 또는 SharePoint 계정에서 로컬 데이터를 검색할 수 있습니다. <block ref="1b9c05db061e84ae6eca6f68bdd32c9b" category="inline-link-macro-rx"></block></block>
   <block id="80ca59a22e157477c940f080c9cf1223" category="paragraph"><block ref="b1c06333aab3fa5206e44a440f888650" category="inline-link-macro-rx"></block>.</block>
   <block id="fa18750d3909d8a2d2d0a22c1611a692" category="paragraph">데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 하지만 아주 작은 충격에도 신경 쓰면 데이터 센스를 구성하여 "느린" 스캔을 수행할 수 있습니다. <block ref="50748b3ac35725f5f9be1dab9c684e55" category="inline-link-macro-rx"></block>.</block>
   <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 BlueXP에서 사용할 수 있습니다.</block>
@@ -3035,7 +3010,6 @@
   <block id="4b013f5657095f9d6af00100e52bc1bf" category="paragraph">클라우드 데이터 센스를 사용하는 비용은 스캔하는 데이터의 양에 따라 다릅니다. BlueXP 작업 공간에서 Data Sense가 스캔하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 두 한계 중 하나에 도달한 후 데이터 스캔을 계속하려면 다음 중 하나가 필요합니다.</block>
   <block id="47a431ede9d263c65258e5be6ff6b2c1" category="paragraph">개인 정보 보호 위험 평가 보고서는 GDPR 및 CCPA와 같은 개인 정보 보호 규정에 따라 조직의 개인 정보 보호 위험 상태에 대한 개요를 제공합니다. 보고서에는 다음 정보가 포함됩니다.</block>
   <block id="77c511801e7a90a6a31b53c3c33b5397" category="paragraph">HIPAA(Health Insurance Portability and Accountability Act) 보고서를 통해 건강 정보가 포함된 파일을 확인할 수 있습니다. HIPAA 데이터 개인 정보 보호 법률을 준수하기 위한 조직의 요구 사항을 지원하도록 설계되었습니다. Cloud Data Sense에서 찾는 정보는 다음과 같습니다.</block>
-  <block id="af4b0162529178f9269843c02de9011a" category="paragraph">참고: 데이터 감지 페이지의 맨 위에서 을 클릭하여 보고서의 첫 페이지에 표시되는 회사 이름을 사용자 지정할 수 있습니다 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 회사 이름 변경 * 을 클릭합니다.</block>
   <block id="e9ebebe267d1d822cab67a314b8df765" category="section-title">각 데이터 조사 보고서에 포함되는 사항</block>
   <block id="507eb1b330c9b9c53f787e32eb212a8c" category="paragraph">BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 구입해야 합니다.</block>
   <block id="d16229fe4c13eabaf4888e33502b9f43" category="paragraph">또한 가능합니다 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
@@ -3044,4 +3018,49 @@
   <block id="8b3b2b670034ec0279cb937c145f257a" category="paragraph">필요한 소프트웨어와 실제 설치 파일 * cc_onprem_installer.tar.gz * 를 추출합니다.</block>
   <block id="6cc29d8f722610f8a1e880227931a300" category="list-text">Data Sense 설치 프로그램 파일(* cc_onpremise_installer.tar.gz *)을 호스트 컴퓨터에 복사합니다.</block>
   <block id="7b8f90ccd6fc9dda39797ae84ca7f14d" category="paragraph">그러면 설치 파일 * cc_onpremise_installer.tar.gz * 가 추출됩니다.</block>
+  <block id="09e1ed363a7252c16bbc8ca0ad3a7d25" category="list-text">클론 복제된 새 볼륨의 소스 볼륨에서 선택한 파일만 포함하여 ONTAP 볼륨을 새 볼륨으로 복제할 수 있습니다. 이 기능은 데이터를 마이그레이션하고 원본 볼륨에서 특정 파일을 제외하려는 경우에 유용합니다.</block>
+  <block id="8a830392b0909b9d61d8e815dedd9fdf" category="list-text">소스 리포지토리에서 특정 대상 위치의 디렉토리로 파일을 복사 및 동기화할 수 있습니다. 이 기능은 소스 파일에 대한 최종 작업이 아직 남아 있는 동안 소스 시스템 간에 데이터를 마이그레이션하는 경우에 유용합니다.</block>
+  <block id="b458a6221660c2545d4e63150fc30774" category="paragraph">이 기능은 데이터를 마이그레이션하고 원본 볼륨에서 특정 파일을 제외하려는 경우에 유용합니다. 이 작업은 를 사용합니다<block ref="95dabe3aae7c23d92fe2946a33d7431b" category="inline-link-rx"></block> 볼륨을 빠르게 복제한 다음 * 선택하지 않은 * 파일을 제거하는 기능입니다.</block>
+  <block id="eb5af0227fcd1de16ca060308646450a" category="list-text">개별 파일을 선택하려면 각 파일(<block ref="27922440534843fc73bbce66b8385327" category="inline-image-macro-rx" type="image"></block>)를 클릭합니다.</block>
+  <block id="96b986b243d8224bb69f4a0238f93c7f" category="list-text">현재 페이지의 모든 파일을 선택하려면 제목 행(<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>)를 클릭합니다.</block>
+  <block id="657428712375fa5789abe7c6de9782a7" category="inline-image-macro">모든 파일 선택 정보</block>
+  <block id="f4b007384ec89845c9935758ba0063c6" category="list-text">모든 페이지의 모든 파일을 선택하려면 제목 행(<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>)를 클릭한 다음 팝업 메시지에서 를 클릭합니다 <block ref="a340f0047d2dd8cefeca9fd0bc9a1c6d" category="inline-image-macro-rx" type="image"></block>목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.</block>
+  <block id="78f57849bdbd66782ef9877d36177fcb" category="list-text">조사 결과 창에서 제목 행(<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>)를 선택한 다음 팝업 메시지를 표시합니다 <block ref="a340f0047d2dd8cefeca9fd0bc9a1c6d" category="inline-image-macro-rx" type="image"></block> 목록에서 모든 항목 선택(xxx개 항목) * 을 클릭한 다음 * 복사 * 를 클릭합니다.</block>
+  <block id="a93d7894db2eb1a8c67a7153c6ef02fd" category="list-text">대상 시스템을 선택한 다음 사용하려는 데이터 브로커를 선택(또는 생성)해야 합니다. 부터 시작되는 Cloud Sync 요구 사항을 검토합니다 <block ref="b962387ad67b92b5132f148579512908" category="inline-link-macro-rx"></block>.</block>
+  <block id="17dca911bcce42574615a9d04b2c26cd" category="paragraph">또한, 데이터를 사내 위치에서 클라우드로 마이그레이션하려는 경우 데이터의 크기와 데이터를 이동하기 전에 중요한 정보가 포함되어 있는지 여부를 확인할 수 있습니다.</block>
+  <block id="8eb1fec334dabbaf8e8ce1c5c57d9629" category="paragraph">Policies_영역에서 결과 수가 가장 많은 정책이 목록 맨 위에 나타납니다. 정책 이름을 클릭하여 조사 페이지에 결과를 표시합니다. 사용 가능한 모든 정책 목록을 보려면 * 모두 보기 * 를 클릭합니다.</block>
+  <block id="078f2282264732bc04d57f7f04fa0205" category="paragraph">Data Overview_ 섹션에서는 스캔되는 모든 데이터에 대한 간단한 개요를 제공합니다. 버튼을 클릭하여 모든 작업 환경 및 데이터 소스에 대한 사용 용량, 데이터 수명, 데이터 크기 및 파일 유형이 포함된 전체 데이터 매핑 보고서를 다운로드합니다. 을 참조하십시오 <block ref="90964462e03b814a1facf08c0124716b" category="inline-link-macro-rx"></block> 이 보고서에 대한 자세한 내용은 를 참조하십시오.</block>
+  <block id="c84e7df5fd818e5aa11d03239984b3bd" category="paragraph">Sensitivity Level_영역별 상위 데이터 리포지토리는 가장 중요한 항목을 포함하는 상위 4개의 데이터 저장소(작업 환경 및 데이터 원본)를 나열합니다. 각 작업 환경의 막대 차트는 다음과 같이 구분됩니다.</block>
+  <block id="c2587967478c7df25fe839d6f619f443" category="list-text">중요하지 않은 데이터입니다</block>
+  <block id="f5423605d721232bdd43a55550c3e489" category="section-title">민감도 및 넓은 권한으로 나열된 데이터</block>
+  <block id="ae9f83336e41be79c7921c9f6c692b67" category="paragraph">중요한 데이터 및 광범위한 권한 영역 은 중요한 데이터(민감한 개인 데이터 및 민감한 개인 데이터 포함)를 포함하고 지나치게 허용적인 파일의 히트 맵을 제공합니다. 이렇게 하면 민감한 데이터와 관련하여 어떤 위험이 있을 수 있는지 확인할 수 있습니다.</block>
+  <block id="e0247fb281ffe9cb88e8d27a1d7db85b" category="paragraph">파일 등급은 X축에 있는 파일에 액세스할 수 있는 권한이 있는 사용자 수(가장 낮음에서 가장 높음)와 Y축에 있는 파일 내의 중요한 식별자 수(가장 낮음에서 가장 높음)를 기준으로 합니다. 블럭은 X 및 Y 축의 항목과 일치하는 파일 수를 나타냅니다. 밝은 색상의 블록이 적합합니다. 더 적은 수의 사용자가 파일에 액세스할 수 있고 파일당 중요한 식별자는 더 적습니다. 어두운 블럭은 조사하려는 항목입니다. 예를 들어 아래 화면에는 짙은 파란색 블록의 호버 텍스트가 표시됩니다. 이 그림은 751-100명의 사용자가 액세스할 수 있는 1,500개의 파일이 있으며, 파일당 501-100개의 민감한 식별자가 있다는 것을 보여 줍니다.</block>
+  <block id="baf19cb0f888989db2710471a613fbd9" category="inline-image-macro">이 패널의 요소 위에 커서를 놓으면 표시되는 데이터를 보여주는 스크린샷입니다.</block>
+  <block id="84bb65a316fae3e8d82ea950dc220467" category="paragraph"><block ref="84bb65a316fae3e8d82ea950dc220467" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c09a51a41728880502cacff404ad64e8" category="paragraph">원하는 블록을 클릭하여 조사 페이지에서 영향을 받는 파일의 필터링된 결과를 확인하여 더 자세히 조사할 수 있습니다.</block>
+  <block id="f4200d6b39c6bf611267284ca071fd8b" category="inline-link-macro">Active Directory 서비스를 데이터 센스에 통합하는 방법을 확인하십시오</block>
+  <block id="87fae032ed5605e45b8ed104db07d51d" category="paragraph">데이터 센스에 ID 서비스를 통합하지 않은 경우 이 패널에 데이터가 표시되지 않습니다. <block ref="ab23cf884d322a71ba54be70f25499ab" category="inline-link-macro-rx"></block>.</block>
+  <block id="fc6931051107a02ba34edee1230d2510" category="admonition">이 패널은 CIFS 공유, OneDrive 및 SharePoint 데이터 소스의 파일을 지원합니다. 현재 데이터베이스, Google Drive, Amazon S3 및 일반 오브젝트 스토리지는 지원되지 않습니다.</block>
+  <block id="4f7b4b702c17bca954d2d186aaea71c0" category="list-text">열기 권한이 없습니다</block>
+  <block id="e5ffd57c8ceca007705d9700419ab52a" category="paragraph">범주는 보유한 정보의 유형을 표시하여 데이터의 상태를 이해하는 데 도움이 됩니다. 예를 들어 "이력서" 또는 "직원 계약"과 같은 범주에는 중요한 데이터가 포함될 수 있습니다. 결과를 조사할 때 직원 계약이 안전하지 않은 위치에 저장되어 있는 것을 발견할 수 있습니다. 그런 다음 해당 문제를 해결할 수 있습니다.</block>
+  <block id="13e71bc7a750dcb909f7b6e859dba7aa" category="paragraph">SharePoint 계정에 로그인할 수 있는 자격 증명이 있고 검색할 SharePoint 사이트의 URL이 있는지 확인합니다.</block>
+  <block id="6d3bb929d06fa3023ab7239f4567ed1a" category="paragraph">자격 있는 사용자 자격 증명을 사용하여 액세스할 SharePoint 계정에 로그인하여 새 데이터 원본/작업 환경으로 추가합니다.</block>
+  <block id="7a8c400460fcd57ab61e646f8f7222ff" category="list-text">모든 SharePoint 사이트에 읽기 권한을 제공하는 SharePoint 계정에 대한 관리자 사용자 로그인 자격 증명이 있어야 합니다.</block>
+  <block id="fbd2a3d3a2a95ffb088fd8e0ccf6b67d" category="list-text">SharePoint Online의 경우 관리자가 아닌 계정을 사용할 수 있지만 해당 사용자는 검색할 모든 SharePoint 사이트에 액세스할 수 있는 권한이 있어야 합니다.</block>
+  <block id="bd483f6f02b237b48ea9d830b65ef4c2" category="list-text">나타나는 Microsoft 페이지에서 SharePoint 계정을 선택하고 사용자 및 암호(관리자 사용자 또는 SharePoint 사이트에 액세스할 수 있는 다른 사용자)를 입력한 다음 * 수락 * 을 클릭하여 Cloud Data Sense가 이 계정의 데이터를 읽을 수 있도록 합니다.</block>
+  <block id="5e6d4a84337eb1e0ff5a019edf3a15d6" category="section-title">중요한 데이터가 포함되어 있고 지나치게 허용적인 파일 차트를 볼 수 있는 기능</block>
+  <block id="d9b195efc41ceb51899b712eb2c0c583" category="paragraph">Governance 대시보드에는 중요한 데이터(민감한 개인 데이터 및 민감한 개인 데이터 포함)를 포함하고 지나치게 허용적인 파일의 열 지도를 제공하는 새로운 _Sensitive Data 및 Wide Permissions_영역이 추가되었습니다. 이렇게 하면 민감한 데이터와 관련하여 어떤 위험이 있을 수 있는지 확인할 수 있습니다.<block ref="315faeb2b0e6f27dd87bce24f0b16dd0" category="inline-link-rx"></block>.</block>
+  <block id="39042f4c3554377e7367f85ef5edf207" category="section-title">데이터 센스에서 일본 개인 번호를 식별할 수 있습니다</block>
+  <block id="21e575de9b2cf958293bb22c657eba7b" category="paragraph">데이터 센스에서 일본어 개인 번호(내 번호라고도 함)가 포함된 파일을 식별하고 분류할 수 있습니다. 여기에는 개인 및 회사 내 번호가 모두 포함됩니다.<block ref="b4ce36808fde13e40836bb7d14af31c6" category="inline-link-rx"></block>.</block>
+  <block id="ee7392d2316f5d3dd66a6f38dfd1dbfb" category="list-text">"사용자/그룹 권한" 필터를 사용하면 특정 사용자 또는 그룹에 읽기 및/또는 쓰기 권한이 있는 파일, 폴더 및 공유를 나열할 수 있습니다. 여러 사용자 및/또는 그룹 이름을 선택하거나 부분 이름을 입력할 수 있습니다.</block>
+  <block id="d03ac14c4e429af55c127e304518d56e" category="paragraph">데이터 센스를 사용하면 오스트레일리아 TFN(세금 파일 번호), 오스트레일리아 운전면허증 번호, 오스트레일리아 의료보험 번호 및 호주 여권 번호가 포함된 파일을 식별하고 분류할 수 있습니다. <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>.</block>
+  <block id="765a37e7c0d57c675f5f9b8438aa0b27" category="paragraph">인터넷에 액세스할 수 없는 온프레미스 사이트의 호스트에 Cloud Data Sense를 배포했다면 이제 OneDrive 계정 또는 SharePoint 계정에서 로컬 데이터를 검색할 수 있습니다. <block ref="1b9c05db061e84ae6eca6f68bdd32c9b" category="inline-link-macro-rx"></block></block>
+  <block id="0e91e4dc71e9acf8654f7179d48b5ccd" category="paragraph">참고: 파일에 있는 개인 데이터 목록에 추가할 수 있습니다. 데이터베이스 서버를 검색하는 경우, _Data Fusion_ 기능을 사용하면 클라우드 데이터 센스가 데이터베이스 테이블에서 열을 선택하여 해당 '검색'에서 찾을 추가 식별자를 선택할 수 있습니다. 텍스트 파일의 사용자 지정 키워드를 추가하거나 정규식을 사용하여 사용자 지정 패턴을 추가할 수도 있습니다. 을 참조하십시오 <block ref="2871b8c2613a3da825be1a942ca6c1d2" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="3631ca73c04d0e5a0d6b08517f6f049f" category="cell">일본 개인 식별 번호(개인 및 법인)</block>
+  <block id="35c134848f5f2aeab535e7e525874a02" category="paragraph">환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 클라우드 데이터 감지 간의 연결 등이 포함됩니다. <block ref="41431224cdc0c634efe8819b91420afe" category="inline-xref-macro-rx"></block>.</block>
+  <block id="21e0d61d9e797a17767287de32bd7bef" category="list-text">HR - 건강 범주</block>
+  <block id="46bd1bd2277d77e6f044cdb7a6983fc6" category="inline-image-macro">자세히 단추</block>
+  <block id="d9453653a677951287ccfb3413d6baff" category="paragraph">참고: 데이터 감지 페이지의 맨 위에서 을 클릭하여 보고서의 첫 페이지에 표시되는 회사 이름을 사용자 지정할 수 있습니다 <block ref="205cf72ce215a0005a3d486daae4dd1a" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 회사 이름 변경 * 을 클릭합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.</block>
+  <block id="9098e762df6423155c77747444ce3402" category="list-text">에서 1단계부터 8단계까지 수행합니다 <block ref="6197de1d9d65c234b52f370ea2ee31e4" category="inline-link-macro-rx"></block> 관리자 노드에서.</block>
+  <block id="63ceb32b6f9962bbdcea6fcd1a87c47e" category="list-text">Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.17.x가 설치된 경우 1.18.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
 </blocks>

@@ -42,7 +42,7 @@ Cloud Data Sense는 여러 가지 방법으로 개인 데이터를 관리할 수
 
 * * 동일한 애그리게이트의 새 볼륨에 ONTAP 볼륨 * 을 클론 복제하지만 새로운 클론 복제된 볼륨의 소스 볼륨에서 선택한 파일만 포함됩니다.
 +
-이 기능은 데이터를 마이그레이션하고 원본 볼륨에서 특정 파일을 제외하려는 경우에 유용합니다. 이 작업은 를 사용합니다 link:https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html["플랙스클론"^] 볼륨을 빠르게 복제한 다음 * 선택하지 않은 * 파일을 제거하는 기능입니다.
+이 기능은 데이터를 마이그레이션하고 원본 볼륨에서 특정 파일을 제외하려는 경우에 유용합니다. 이 작업은 를 사용합니다 https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html["플랙스클론"^] 볼륨을 빠르게 복제한 다음 * 선택하지 않은 * 파일을 제거하는 기능입니다.
 
 * * 단일 소스 저장소(ONTAP 볼륨, S3 버킷, NFS 공유 등)의 파일 * 을 특정 대상(타겟) 위치의 디렉토리로 복사 및 동기화합니다.
 +
@@ -73,7 +73,7 @@ image:screenshot_compliance_copy_multi_files.png["복사할 파일을 선택하�
 +
 ** 개별 파일을 선택하려면 각 파일(image:button_backup_1_volume.png[""])를 클릭합니다.
 ** 현재 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭합니다.
-** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png[""]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
+** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png["모든 파일 선택 정보"]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
 
 
 . 파일 복사 대화 상자에서 * 일반 복사 * 탭을 선택합니다.
@@ -124,7 +124,7 @@ image:screenshot_compliance_copy_multi_files.png["복사할 파일을 선택하�
 +
 ** 개별 파일을 선택하려면 각 파일(image:button_backup_1_volume.png[""])를 클릭합니다.
 ** 현재 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭합니다.
-** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png[""]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
+** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png["모든 파일 선택 정보"]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
 
 
 . 파일 복사 대화 상자에서 * FlexClone * 탭을 선택합니다. 이 페이지에는 볼륨에서 복제할 총 파일 수(선택한 파일)와 클론 복제된 볼륨에서 포함/삭제되지 않은 파일 수(선택하지 않은 파일)가 표시됩니다.
@@ -172,7 +172,7 @@ image:screenshot_compliance_filter_1_repo.png["단일 작업 환경에서 단일
 +
 대상 시스템에 복사 및 동기화할 파일만 표시되도록 다른 필터를 적용합니다.
 
-. 조사 결과 창에서 제목 행(image:button_select_all_files.png[""])를 선택한 다음 팝업 메시지를 표시합니다 image:screenshot_select_all_items.png[""] 목록에서 모든 항목 선택(xxx개 항목) * 을 클릭한 다음 * 복사 * 를 클릭합니다.
+. 조사 결과 창에서 제목 행(image:button_select_all_files.png[""])를 선택한 다음 팝업 메시지를 표시합니다 image:screenshot_select_all_items.png["모든 파일 선택 정보"] 목록에서 모든 항목 선택(xxx개 항목) * 을 클릭한 다음 * 복사 * 를 클릭합니다.
 +
 image:screenshot_compliance_sync_multi_files.png["복사할 파일을 선택하는 방법과 데이터 조사 페이지에서 복사 단추를 선택하는 방법을 보여 주는 스크린샷"]
 
@@ -187,7 +187,7 @@ Cloud Sync UI가 BlueXP에서 열립니다.
 +
 동기화 관계를 정의하라는 메시지가 표시됩니다. 소스 시스템은 데이터 센스에서 이미 선택한 리포지토리와 파일을 기반으로 미리 채워집니다.
 
-. 대상 시스템을 선택한 다음 사용하려는 데이터 브로커를 선택(또는 생성)해야 합니다. 부터 시작되는 Cloud Sync 요구 사항을 검토합니다 link:https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html.html["빠른 시작 설명"^].
+. 대상 시스템을 선택한 다음 사용하려는 데이터 브로커를 선택(또는 생성)해야 합니다. 부터 시작되는 Cloud Sync 요구 사항을 검토합니다 link:https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html["빠른 시작 설명"^].
 
 
 .결과
@@ -227,7 +227,7 @@ image:screenshot_compliance_move_multi_files.png["데이터 조사 페이지에�
 +
 ** 개별 파일을 선택하려면 각 파일(image:button_backup_1_volume.png[""])를 클릭합니다.
 ** 현재 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭합니다.
-** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png[""]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
+** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png["모든 파일 선택 정보"]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
 
 
 . 단추 모음에서 * 이동 * 을 클릭합니다.
@@ -278,7 +278,7 @@ image:screenshot_compliance_delete_multi_files.png["데이터 조사 페이지�
 +
 ** 개별 파일을 선택하려면 각 파일(image:button_backup_1_volume.png[""])를 클릭합니다.
 ** 현재 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭합니다.
-** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png[""]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
+** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png["모든 파일 선택 정보"]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
 
 
 . 버튼 모음에서 * 삭제 * 를 클릭합니다.
