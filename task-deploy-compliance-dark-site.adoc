@@ -106,7 +106,7 @@ CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있�
 
 * * 추가 소프트웨어 *: 데이터 센스를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.
 +
-** Docker Engine 버전 19 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
+** Docker Engine 버전 19.3.1 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
 ** Python 3 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
 
 
@@ -266,7 +266,7 @@ image:screenshot_cloud_compliance_deploy_start.png["클라우드 데이터 센�
 +
 image:screenshot_cloud_compliance_deploy_darksite.png["클라우드 데이터 센스를 사내에 구축하는 버튼을 선택한 스크린샷"]
 
-. deploy Data Sense on premises_dialog에서 제공된 명령을 복사하여 나중에 사용할 수 있도록 텍스트 파일에 붙여넣은 다음 * Close * 를 클릭합니다. 예를 들면 다음과 같습니다.
+. Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사하여 나중에 사용할 수 있도록 텍스트 파일에 붙여넣은 다음 * 닫기 * 를 클릭합니다. 예를 들면 다음과 같습니다.
 +
 'SUDO./install.sh -a 12345-c 27AG75-t 2198qq--암막'
 
@@ -396,7 +396,7 @@ Cloud Data Sense 설치 프로그램이 패키지 설치를 완료하고 설치�
 Data Sense 소프트웨어는 정기적으로 새로운 기능으로 업데이트되므로 정기적으로 새로운 버전을 확인하여 최신 소프트웨어와 기능을 사용하고 있는지 확인해야 합니다. 업그레이드를 자동으로 수행하기 위한 인터넷 연결이 없기 때문에 Data Sense 소프트웨어를 수동으로 업그레이드해야 합니다.
 
 .시작하기 전에
-* Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.17.x가 설치된 경우 1.18.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.
+* Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.18.x가 설치된 경우 1.19.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.
 * 온프레미스 커넥터 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-on-prem-without-internet-access["커넥터 업그레이드 단계를 참조하십시오"^].
 
 
@@ -407,7 +407,7 @@ Data Sense 소프트웨어는 정기적으로 새로운 기능으로 업데이�
 +
 [source, cli]
 ----
-tar -xvf DataSense-offline-bundle-v1.16.1.tar.gz
+tar -xvf DataSense-offline-bundle-v1.19.1.tar.gz
 ----
 +
 그러면 설치 파일 * cc_onpremise_installer.tar.gz * 가 추출됩니다.

@@ -159,7 +159,7 @@ image:diagram_cloud_compliance_instance.png["클라우드 공급자에서 실행
 m5.4xLarge를 사용할 수 없는 지역에서는 데이터 센스를 m4.4x4xLarge 인스턴스에서 대신 실행합니다.
 
 * Azure에서 Cloud Data Sense는 에서 실행됩니다 link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3 vm"^] 512GB 디스크 사용 운영 체제 이미지는 CentOS 7.8입니다.
-* GCP에서 Cloud Data Sense는 에서 실행됩니다 link:https://cloud.google.com/compute/docs/machine-types#recommendations_for_machine_types["N2-표준-16 VM"^] 512GB 표준 영구 디스크 사용. 운영 체제 이미지는 CentOS 7.9입니다.
+* GCP에서 Cloud Data Sense는 에서 실행됩니다 link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16 VM"^] 512GB 표준 영구 디스크 사용. 운영 체제 이미지는 CentOS 7.9입니다.
 +
 n2-standard-16을 사용할 수 없는 지역에서는 n2d-standard-16 또는 n1-standard-16 VM에서 데이터 센스를 대신 실행합니다.
 
@@ -272,7 +272,7 @@ Cloud Data Sense를 사용하면 선택한 데이터 소스에서 일반적인 "
 
 === 데이터 센스의 스캔 데이터
 
-데이터 센스(Data Sense)는 스캐너 노드당 하루에 15-40TB의 데이터를 스캔할 수 있습니다. 스캔 속도는 네트워크 지연 시간, 디스크 지연 시간, 네트워크 대역폭, 환경 크기 및 파일 배포 크기의 영향을 받습니다.
+데이터 센스(Data Sense)는 스캐너 노드당 하루에 15-40GB의 데이터를 스캔할 수 있습니다. 스캔 속도는 네트워크 지연 시간, 디스크 지연 시간, 네트워크 대역폭, 환경 크기 및 파일 배포 크기의 영향을 받습니다.
 
 link:task-deploy-compliance-onprem.html#deploy-data-sense-on-premises["데이터를 스캔하기 위해 여러 스캐너 노드를 구축하는 방법에 대해 자세히 알아보십시오"^].
 

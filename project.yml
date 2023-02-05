@@ -8,7 +8,7 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   rss_page: whats-new.html
-  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,fr-fr,de-de
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,fr-fr
 sidebar:
   entries:
   - title: Cloud Data Sense 문서
@@ -23,7 +23,7 @@ sidebar:
       entries:
       - title: 클라우드에 구축
         url: "/task-deploy-cloud-compliance.html"
-      - title: 인터넷에 액세스할 수 있는 온프레미스 구축
+      - title: 인터넷에 액세스할 수 있는 Linux 호스트에 배포합니다
         url: "/task-deploy-compliance-onprem.html"
       - title: 인터넷에 액세스하지 않고 사내 구축
         url: "/task-deploy-compliance-dark-site.html"
@@ -105,7 +105,7 @@ homepage:
       url: whats-new.html
     - title: 클라우드에 데이터 센스를 구축하십시오
       url: task-deploy-cloud-compliance.html
-    - title: 인터넷을 통해 사내 데이터 센스를 배포하십시오
+    - title: 인터넷을 통해 Linux 호스트에 데이터 센스를 배포합니다
       url: task-deploy-compliance-onprem.html
     - title: 인터넷 없이 온프레미스에서 데이터 센스를 구축합니다
       url: task-deploy-compliance-dark-site.html
@@ -174,13 +174,13 @@ homepage:
   - title: 블로그 커뮤니티
     links:
     - title: NetApp 커뮤니티
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP 활용 사례
-      url: https://cloud.netapp.com/netapp-cloud-data-sense
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: 데이터 감지 사용 사례
+      url: https://bluexp.netapp.com/netapp-cloud-data-sense
     - title: BlueXP 블로그
-      url: https://cloud.netapp.com/blog
+      url: https://bluexp.netapp.com/blog
     - title: 클라우드 웨비나
-      url: https://cloud.netapp.com/events
+      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: cloud-manager-family
