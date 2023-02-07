@@ -44,7 +44,7 @@ image:screenshot_compliance_governance_dashboard.png["Cloud Data Sense Governanc
 ** 기타(일반 "기타" 범주)
 
 
-* * 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. link:task-controlling-private-data.html#viewing-all-duplicated-files["어떤 유형의 중복 파일이 표시되는지 확인합니다"].
+* * 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. link:task-investigate-data.html#viewing-all-duplicated-files["어떤 유형의 중복 파일이 표시되는지 확인합니다"].
 
 
 
@@ -53,13 +53,13 @@ image:screenshot_compliance_governance_dashboard.png["Cloud Data Sense Governanc
 
 Policies_영역에서 결과 수가 가장 많은 정책이 목록 맨 위에 나타납니다. 정책 이름을 클릭하여 조사 페이지에 결과를 표시합니다. 사용 가능한 모든 정책 목록을 보려면 * 모두 보기 * 를 클릭합니다.
 
-을 클릭합니다 link:task-org-private-data.html#controlling-your-data-using-policies["여기"] 정책에 대해 자세히 알아보십시오.
+을 클릭합니다 link:task-using-policies.html["여기"] 정책에 대해 자세히 알아보십시오.
 
 
 
 === 데이터 개요
 
-Data Overview_ 섹션에서는 스캔되는 모든 데이터에 대한 간단한 개요를 제공합니다. 버튼을 클릭하여 모든 작업 환경 및 데이터 소스에 대한 사용 용량, 데이터 수명, 데이터 크기 및 파일 유형이 포함된 전체 데이터 매핑 보고서를 다운로드합니다. 을 참조하십시오 link:task-generating-compliance-reports.html#data-mapping-report["데이터 매핑 보고서"^] 이 보고서에 대한 자세한 내용은 를 참조하십시오.
+Data Overview_ 섹션에서는 스캔되는 모든 데이터에 대한 간단한 개요를 제공합니다. 버튼을 클릭하여 모든 작업 환경 및 데이터 소스에 대한 사용 용량, 데이터 수명, 데이터 크기 및 파일 유형이 포함된 전체 데이터 매핑 보고서를 다운로드합니다. 을 참조하십시오 <<데이터 매핑 보고서,데이터 매핑 보고서>> 이 보고서에 대한 자세한 내용은 를 참조하십시오.
 
 
 
@@ -148,3 +148,36 @@ Classification_area는 가장 많이 식별된 목록을 제공합니다 link:ta
 AIP(Azure Information Protection)에 가입한 경우 콘텐츠에 레이블을 적용하여 문서와 파일을 분류하고 보호할 수 있습니다. 파일에 할당된 가장 많이 사용되는 AIP 레이블을 검토하면 파일에서 가장 많이 사용되는 레이블을 확인할 수 있습니다.
 
 을 참조하십시오 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 레이블"^] 를 참조하십시오.
+
+
+
+=== 데이터 매핑 보고서
+
+데이터 매핑 보고서는 마이그레이션, 백업, 보안 및 규정 준수 프로세스를 결정하는 데 도움이 되도록 기업 데이터 소스에 저장되는 데이터에 대한 개요를 제공합니다. 이 보고서에는 먼저 작업 환경 및 데이터 소스를 모두 요약하는 개요 보고서가 나열되어 있으며 각 작업 환경에 대한 분석을 제공합니다.
+
+보고서에는 다음 정보가 포함됩니다.
+
+사용 용량:: 모든 작업 환경: 각 작업 환경의 파일 수와 사용된 용량을 나열합니다. 단일 작업 환경의 경우: 최대 용량을 사용하는 파일을 나열합니다.
+데이터 사용 기간:: 파일이 생성되거나, 마지막으로 수정되거나, 마지막으로 액세스된 시간에 대한 3개의 차트와 그래프를 제공합니다. 특정 날짜 범위를 기준으로 파일 수와 사용된 용량을 나열합니다.
+데이터 크기:: 작업 환경의 특정 크기 범위 내에 있는 파일 수를 나열합니다.
+파일 형식:: 에는 작업 환경에 저장되는 각 파일 유형의 총 파일 수와 사용된 용량이 나와 있습니다.
+
+
+
+
+==== 데이터 매핑 보고서 생성
+
+데이터 감지 탭으로 이동하여 보고서를 생성합니다.
+
+.단계
+. BlueXP 메뉴에서 * 거버넌스 > 분류 * 를 클릭합니다.
+. Governance * 를 클릭한 다음 Governance Dashboard에서 * Full Data Mapping Overview Report * 버튼을 클릭합니다.
++
+image:screenshot_compliance_data_mapping_report_button.png["데이터 매핑 보고서를 시작하는 방법을 보여 주는 거버넌스 대시보드 스크린샷"]
+
+
+
+.결과
+Cloud Data Sense는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
+
+참고: 데이터 감지 페이지의 맨 위에서 을 클릭하여 보고서의 첫 페이지에 표시되는 회사 이름을 사용자 지정할 수 있습니다 image:screenshot_gallery_options.gif["자세히 단추"] 그런 다음 * 회사 이름 변경 * 을 클릭합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.
