@@ -4,7 +4,7 @@ permalink: task-deploy-compliance-onprem.html
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises 
 summary: 몇 가지 단계를 완료하여 네트워크의 Linux 호스트 또는 인터넷 액세스가 가능한 클라우드의 Linux 호스트에 Cloud Data Sense를 배포합니다. 
 ---
-= 인터넷에 액세스할 수 있는 Linux 호스트에 클라우드 데이터 센스를 배포합니다
+= 인터넷에 액세스할 수 있는 호스트에 클라우드 데이터 센스를 배포합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -105,6 +105,7 @@ CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있�
 * * GCP 시스템 유형 *: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. 추천합니다 https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16"^].
 * * 운영 체제 *: Red Hat Enterprise Linux 또는 CentOS 버전 8.0 ~ 8.7
 +
+** CentOS Stream 8도 지원됩니다
 ** 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
 ** 운영 체제에서 Docker 엔진을 설치할 수 있어야 합니다
 
@@ -277,7 +278,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 
 +
 [source, cli]
 ----
-tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
+tar -xzf DATASENSE-INSTALLER-V1.21.0.tar.gz
 ----
 . 설치 프로그램에서 프롬프트가 표시되면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.
 +

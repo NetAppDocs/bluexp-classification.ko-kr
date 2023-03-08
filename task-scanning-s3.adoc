@@ -117,13 +117,13 @@ BlueXP가 이 AWS 계정에서 S3 버킷을 자동으로 검색하여 Amazon S3 
 +
 image:screenshot_s3_we.gif["Amazon S3 작업 환경 아이콘의 스크린샷"]
 
-. 오른쪽의 데이터 감지 창에서 * 활성화 * 를 클릭합니다.
+. 오른쪽의 서비스 창에서 * 분류 * 옆에 있는 * 활성화 * 를 클릭합니다.
 +
-image:screenshot_s3_enable_compliance.gif["서비스 패널에서 클라우드 데이터 감지 서비스를 활성화하는 스크린샷"]
+image:screenshot_s3_enable_compliance.png["서비스 패널에서 클라우드 데이터 감지 서비스를 활성화하는 스크린샷"]
 
 . 메시지가 표시되면 가 있는 Cloud Data Sense 인스턴스에 IAM 역할을 할당합니다 <<S3 사전 요구 사항 검토,필요한 권한>>.
 +
-image:screenshot_s3_compliance_iam_role.gif["Cloud Data Sense에 대한 AWS IAM 역할 입력 스크린샷"]
+image:screenshot_s3_compliance_iam_role.png["Cloud Data Sense에 대한 AWS IAM 역할 입력 스크린샷"]
 
 . 사용 * 을 클릭합니다.
 
@@ -146,9 +146,9 @@ BlueXP에서 Amazon S3에서 클라우드 데이터 센스를 사용하도록 �
 
 .단계
 . Amazon S3 작업 환경을 선택합니다.
-. 오른쪽 창에서 * 버킷 구성 * 을 클릭합니다.
+. 오른쪽의 서비스 창에서 * 버킷 구성 * 을 클릭합니다.
 +
-image:screenshot_s3_configure_buckets.gif["스캔할 S3 버킷을 선택하기 위해 버킷 구성을 클릭하는 스크린샷"]
+image:screenshot_s3_configure_buckets.png["스캔할 S3 버킷을 선택하기 위해 버킷 구성을 클릭하는 스크린샷"]
 
 . 버킷에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 활성화합니다.
 +
