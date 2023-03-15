@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises 
-summary: 몇 가지 단계를 완료하여 네트워크의 Linux 호스트 또는 인터넷 액세스가 가능한 클라우드의 Linux 호스트에 Cloud Data Sense를 배포합니다. 
+summary: 몇 가지 단계를 완료하여 인터넷 액세스가 가능한 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 데이터 센스를 배포합니다. 
 ---
-= 인터넷에 액세스할 수 있는 호스트에 클라우드 데이터 센스를 배포합니다
+= 인터넷에 액세스할 수 있는 호스트에 데이터 센스를 설치합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,17 +14,21 @@ summary: 몇 가지 단계를 완료하여 네트워크의 Linux 호스트 또�
 
 
 [role="lead"]
-몇 가지 단계를 완료하여 네트워크의 Linux 호스트 또는 인터넷 액세스가 가능한 클라우드의 Linux 호스트에 Cloud Data Sense를 배포합니다.
+몇 가지 단계를 완료하여 인터넷 액세스가 가능한 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 데이터 센스를 배포합니다.
 
 온프레미스에 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 사내 설치가 좋은 옵션이 될 수 있지만, 이것이 요구사항은 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
 
-일반적인 사내 설치에는 다음과 같은 구성 요소와 연결이 있습니다.
+구내의 Linux 호스트에 설치하는 일반적인 구성 요소 및 연결은 다음과 같습니다.
 
 image:diagram_deploy_onprem_overview.png["필요한 BlueXP 및 네트워크 구성 요소 및 관련 연결의 다이어그램"]
 
+클라우드의 Linux 호스트에 설치하는 일반적인 구성 요소 및 연결은 다음과 같습니다.
+
+image:diagram_deploy_onprem_cloud_instance.png["필요한 BlueXP 및 네트워크 구성 요소 및 관련 연결의 다이어그램"]
+
 페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 _Manager node_라고 하며 추가 처리 능력을 제공하는 추가 시스템을 _Scanner nodes_라고 합니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 온프레미스 사이트에 데이터 센스를 구현합니다"] 완전히 안전한 사이트를 위한 것입니다.
+참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 온프레미스 사이트에 데이터 센스를 설치합니다"] 완전히 안전한 사이트를 위한 것입니다.
 
 
 
@@ -97,6 +101,8 @@ Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사
 ** /tmp에 5GiB입니다
 +
 CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있지만 이러한 시스템을 사용할 때는 한계가 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
+
+
 
 
 
@@ -227,7 +233,7 @@ Active Directory에 대한 정보가 있어야 합니다.
 
 
 
-== 온프레미스에서 데이터 센스를 구축합니다
+== Linux 호스트에 데이터 센스를 설치합니다
 
 일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다. <<일반 구성을 위한 단일 호스트 설치,여기에서 해당 단계를 확인하십시오>>.
 
@@ -261,26 +267,23 @@ NOTE: 소프트웨어가 사내에 설치된 경우 클라우드 데이터 센�
 .단계
 . 에서 Cloud Data Sense 소프트웨어를 다운로드하십시오 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * DATASENSE-INinstaller-<version>.tar.gz * 입니다.
 . 설치 프로그램 파일을 사용하려는 Linux 호스트에 복사합니다(scp 또는 다른 방법 사용).
-. BlueXP에서 * 거버넌스 > 분류 * 를 선택합니다.
-. Activate Data Sense * 를 클릭합니다.
-+
-image:screenshot_cloud_compliance_deploy_start.png["클라우드 데이터 센스를 활성화하기 위한 버튼을 선택하는 스크린샷"]
-
-. 클라우드의 인스턴스에 배포할지 아니면 온프레미스의 인스턴스에 구축하는지에 따라 적절한 * 배포 * 버튼을 클릭하여 데이터 감지 구축 마법사를 시작합니다.
-+
-image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 시스템에 Cloud Data Sense를 구축하기 위한 버튼을 선택한 스크린샷"]
-
-. Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사하여 나중에 사용할 수 있도록 텍스트 파일에 붙여넣은 다음 * 닫기 * 를 클릭합니다. 예를 들면 다음과 같습니다.
-+
-'SUDO./install.sh - A 12345-c 27AG75-t 2198qq'
-
 . 호스트 시스템에서 설치 프로그램 파일의 압축을 풉니다. 예를 들면 다음과 같습니다.
 +
 [source, cli]
 ----
 tar -xzf DATASENSE-INSTALLER-V1.21.0.tar.gz
 ----
-. 설치 프로그램에서 프롬프트가 표시되면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.
+. BlueXP에서 * 거버넌스 > 분류 * 를 선택합니다.
+. Activate Data Sense * 를 클릭합니다.
++
+image:screenshot_cloud_compliance_deploy_start.png["클라우드 데이터 센스를 활성화하기 위한 버튼을 선택하는 스크린샷"]
+
+. 클라우드에서 준비한 인스턴스나 온프레미스에서 준비한 인스턴스에 데이터 센스를 설치할 것인지에 따라 적절한 * 배포 * 버튼을 클릭하여 데이터 센스 설치를 시작하십시오.
++
+image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 시스템에 Cloud Data Sense를 구축하기 위한 버튼을 선택한 스크린샷"]
+
+. Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사합니다(예: `sudo ./install.sh -a 12345 -c 27AG75 -t 2198qq`)를 사용하여 텍스트 파일에 붙여 넣어 나중에 사용할 수 있습니다. 그런 다음 * 닫기 * 를 클릭하여 대화 상자를 닫습니다.
+. 호스트 시스템에서 복사한 명령을 입력한 다음 일련의 프롬프트를 따르거나 필요한 모든 매개 변수를 명령줄 인수로 포함하여 전체 명령을 제공할 수 있습니다.
 +
 설치 프로그램은 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되어 있는지 확인합니다.
 
@@ -291,7 +294,8 @@ tar -xzf DATASENSE-INSTALLER-V1.21.0.tar.gz
 
 
  a| 
-.. 6 단계:'SUDO./install.sh -a<account_id>-c<agent_id>-t<token>'에서 복사한 정보를 붙여 넣습니다
+.. 7단계에서 복사한 정보를 붙여 넣습니다.
+`sudo ./install.sh -a <account_id> -c <agent_id> -t <token>`
 .. Connector 인스턴스에서 액세스할 수 있도록 Data Sense 호스트 시스템의 IP 주소 또는 호스트 이름을 입력합니다.
 .. Data Sense 인스턴스에서 액세스할 수 있도록 BlueXP Connector 호스트 시스템의 IP 주소 또는 호스트 이름을 입력합니다.
 .. 메시지가 나타나면 프록시 세부 정보를 입력합니다. BlueXP Connector가 이미 프록시를 사용하고 있는 경우 데이터 센스에서 Connector에 사용되는 프록시를 자동으로 사용하기 때문에 이 정보를 다시 입력할 필요가 없습니다.
@@ -462,10 +466,7 @@ image:screenshot_client_access_token.png["인증 지침 링크가 포함된 API 
 ** _USER_TOKEN_= JWT 사용자 액세스 토큰
 
 
-. add_scanner_node 스크립트가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사하여 텍스트 파일에 저장합니다. 예를 들면 다음과 같습니다.
-+
-`sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF1s35212 -u red95467j`
-
+. add_scanner_node 스크립트가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예: `sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF1s35212 -u red95467j`)를 입력하고 텍스트 파일에 저장합니다.
 . 켜짐 * 각 * 스캐너 노드 호스트:
 +
 .. 데이터 감지 설치 프로그램 파일(* DATASENSE-INinstaller-<version>.tar.gz*)을 호스트 컴퓨터('scp' 또는 다른 방법 사용)에 복사합니다.
@@ -566,10 +567,7 @@ image:screenshot_scanner_groups.png["그룹의 각 스캐너 노드에 대한 IP
 +
 예를 들어, 이 명령은 scanner 노드 3개를 추가합니다. sudo./install.sh -a <account_id> -c <agent_id> -t <token>--host <DS_host>--manager -host <cm_host> * -n <node_IP1>, <node_ip2>, <node_ip2>, <node_proxy scheme -proxy -proxy -proxy -host < 프록시 포트 프록시 -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -port -proxy -proxy -host <
 
-. 관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사하여 텍스트 파일에 저장합니다. 예를 들면 다음과 같습니다.
-+
-'SUDO./node_install.sh -m 10.11.12.13 -t abcdef-1-3u69m1-1s35212'를 참조하십시오
-
+. 관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예: `sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF-1-3u69m1-1s35212`)를 입력하고 텍스트 파일에 저장합니다.
 . 켜짐 * 각 * 스캐너 노드 호스트:
 +
 .. 데이터 감지 설치 프로그램 파일(* DATASENSE-INinstaller-<version>.tar.gz*)을 호스트 컴퓨터('scp' 또는 다른 방법 사용)에 복사합니다.

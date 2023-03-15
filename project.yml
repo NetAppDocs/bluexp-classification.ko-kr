@@ -21,11 +21,11 @@ sidebar:
       url: "/concept-cloud-compliance.html"
     - title: 클라우드 데이터 센스를 구축하십시오
       entries:
-      - title: 클라우드에 구축
+      - title: BlueXP를 사용하여 클라우드에 배포합니다
         url: "/task-deploy-cloud-compliance.html"
-      - title: 인터넷에 액세스할 수 있는 Linux 호스트에 배포합니다
+      - title: 인터넷에 액세스할 수 있는 Linux 호스트에 설치합니다
         url: "/task-deploy-compliance-onprem.html"
-      - title: 인터넷에 액세스하지 않고 사내 구축
+      - title: 인터넷에 접속하지 않고 내부에 설치합니다
         url: "/task-deploy-compliance-dark-site.html"
     - title: 데이터 소스에서 스캔을 활성화합니다
       entries:
@@ -109,7 +109,7 @@ homepage:
       url: concept-cloud-compliance.html
     - title: 새로운 기능
       url: whats-new.html
-    - title: 클라우드에 데이터 센스를 구축하십시오
+    - title: 클라우드에 데이터 센스를 자동으로 배포합니다
       url: task-deploy-cloud-compliance.html
     - title: 인터넷을 통해 Linux 호스트에 데이터 센스를 배포합니다
       url: task-deploy-compliance-onprem.html

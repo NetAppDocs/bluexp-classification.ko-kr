@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-deploy-cloud-compliance.html 
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance 
-summary: 클라우드 데이터 센스를 클라우드에 구축하려면 몇 단계를 완료하십시오. Data Sense 인스턴스는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 배포됩니다. 
+summary: 클라우드 데이터 센스를 클라우드에 구축하려면 몇 단계를 완료하십시오. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 데이터 감지 인스턴스를 배포합니다. 
 ---
-= 클라우드 데이터 센스를 클라우드에 배포합니다
+= BlueXP를 사용하여 클라우드 데이터 센스를 클라우드에 배포합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,9 +14,9 @@ summary: 클라우드 데이터 센스를 클라우드에 구축하려면 몇 �
 
 
 [role="lead"]
-클라우드 데이터 센스를 클라우드에 구축하려면 몇 단계를 완료하십시오. Data Sense 인스턴스는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 배포됩니다.
+클라우드 데이터 센스를 클라우드에 구축하려면 몇 단계를 완료하십시오. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 데이터 감지 인스턴스를 배포합니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 Linux 호스트에 데이터 센스를 배포합니다"]. 온프레미스에도 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 이러한 설치 유형을 사용하는 것이 좋은 옵션이 될 수 있지만, 이것은 필수 사항이 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
+참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 Linux 호스트에 데이터 센스를 설치합니다"]. 온프레미스에도 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 이러한 설치 유형을 사용하는 것이 좋은 옵션이 될 수 있지만, 이것은 필수 사항이 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
 
 
 

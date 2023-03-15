@@ -1214,7 +1214,6 @@
   <block id="75913c473742502800ae1c0a9a5a93df" category="list-text">클라우드 데이터 센스를 계속 운영할 수 있는지 확인하십시오. 데이터를 지속적으로 스캔하려면 Cloud Data Sense 인스턴스가 켜져 있어야 합니다.</block>
   <block id="b8724da75fb917e992576b17378e66b3" category="cell">엔드포인트</block>
   <block id="261addf78c7b2c961032b3dd08ba0b1f" category="cell">목적</block>
-  <block id="8a344d9380d42668324bc0e5df589f1a" category="section-title">데이터 센스를 구축합니다</block>
   <block id="92aadc02d249003db0a3c659eb74f06b" category="inline-link-macro">여기에서 해당 단계를 확인하십시오</block>
   <block id="2e7ee80a6e4d40bc409d4f4893e290bb" category="paragraph">일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다. <block ref="a4f6f244c9fb5caddddb02072a431c59" category="inline-link-macro-rx"></block>.</block>
   <block id="49110f631362d4a9865d9c280368ebb1" category="paragraph">페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. <block ref="31dc1b3eda8e489f4f5ca469c6f3d2e1" category="inline-link-macro-rx"></block>.</block>
@@ -1229,14 +1228,11 @@
   <block id="cce26d229722c6ca9257990a7091d9c0" category="list-text">Activate Data Sense * 를 클릭합니다.</block>
   <block id="af9d594fa710dc13ae352e89ff99e6a8" category="inline-image-macro">클라우드 데이터 센스를 활성화하기 위한 버튼을 선택하는 스크린샷</block>
   <block id="2ee561fe4cbc55aa0245c40198b23955" category="paragraph"><block ref="2ee561fe4cbc55aa0245c40198b23955" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="56aed921ec3e492e9095e626c14396cb" category="list-text">구축 * 을 클릭하여 온프레미스 구축 마법사를 시작합니다.</block>
   <block id="48e13f41d0a6dd2616f2ecf0c9e1eaa6" category="inline-image-macro">클라우드 데이터 센스를 사내에 구축하는 버튼을 선택한 스크린샷</block>
   <block id="d81a8cbca4762be44dc0845220ba9dcf" category="paragraph"><block ref="d81a8cbca4762be44dc0845220ba9dcf" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="de228a79f2490bf5b3308e91ce0e8426" category="paragraph">'SUDO./install.sh -a 12345-c 27AG75-t 2198qq--암막'</block>
   <block id="6b0f70e5c18db6f7f252ec60af1fdda0" category="list-text">호스트 시스템에서 설치 파일의 압축을 풉니다. 예를 들면 다음과 같습니다.</block>
   <block id="7811f7ac7277273963aaa041e6dee561" category="cell">프롬프트가 나타나면 매개 변수를 입력합니다.</block>
   <block id="92a8de5d873f4ac3a57f4d866c8ed98c" category="cell">전체 명령 입력:</block>
-  <block id="ad9960c224b334ea469591738244827c" category="list-text">7단계:'SUDO./install.sh -a&lt;account_id&gt; -c&lt;agent_id&gt; -t&lt;token&gt;--darsite'에서 복사한 정보를 붙여 넣습니다</block>
   <block id="dde575296d7c18c713a24acdec3bb7b6" category="list-text">Connector 인스턴스에서 액세스할 수 있도록 Data Sense 호스트 시스템의 IP 주소 또는 호스트 이름을 입력합니다.</block>
   <block id="99a5b8fe9eadd5739e3e760584c579fc" category="paragraph">변수 값:</block>
   <block id="82fbba9871c4c69830c0ea5c2c6fa6f8" category="list-text">_ACCOUNT_ID_= NetApp 계정 ID입니다</block>
@@ -1279,8 +1275,6 @@
   <block id="06b1338ba02add2b5d2da67663b19ebe" category="cell">2049</block>
   <block id="26285ebf37a162fef382f275814886c9" category="inline-link-macro">단일 호스트 설치</block>
   <block id="5e2f5642806d5ddc2868631f2e508d3d" category="paragraph">단일 호스트 설치에 사용할 수 있는 변수 외에도 새 옵션 * -n&lt;node_ip&gt; * 를 사용하여 스캐너 노드의 IP 주소를 지정할 수 있습니다. 여러 노드 IP는 쉼표로 구분됩니다.</block>
-  <block id="743663a45dfd2f9237dfcf266bf499a6" category="list-text">관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사하여 텍스트 파일에 저장합니다. 예를 들면 다음과 같습니다.</block>
-  <block id="bb70d223e1e51328f09038d97ad81b07" category="paragraph">'SUDO./node_install.sh -m 10.11.12.13 -t abcdef-1-3u69m1-1s35212'를 참조하십시오</block>
   <block id="611c763bf4c9dbb7098d6afa814b754f" category="list-text">켜짐 * 각 * 스캐너 노드 호스트:</block>
   <block id="d3d41a6c99806d8a969b69a369935644" category="list-text">설치 프로그램 파일의 압축을 풉니다.</block>
   <block id="05c158c3674b19417f2abea1a13ea2f3" category="list-text">3단계에서 복사한 명령을 붙여 넣고 실행합니다.</block>
@@ -1356,8 +1350,6 @@
   <block id="7da8f2d897e75578043e0f01e245c1a7" category="paragraph">특정 Data Fusion 소스를 사용하여 파일을 검색하지 않기로 결정한 경우 Data Fusion 인벤토리 페이지에서 소스 행을 선택하고 * Delete Data Fusion Source * 를 클릭할 수 있습니다.</block>
   <block id="9008a71f5aaebece0844ad9fc3bb64a7" category="inline-image-macro">데이터 Fusion 소스를 제거하는 방법을 보여 주는 스크린샷</block>
   <block id="b889af7f2e1d8844037173064a2494e2" category="paragraph"><block ref="b889af7f2e1d8844037173064a2494e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="638b36e7b559bbb7ff5161d7a8fa8bf5" category="doc">클라우드 데이터 센스를 클라우드에 배포합니다</block>
-  <block id="f1b417d70cc0826ea97b7fb76ba27c7a" category="inline-link-macro">인터넷에 액세스할 수 있는 Linux 호스트에 데이터 센스를 배포합니다</block>
   <block id="211751cb447d335f31ff23a277ab83a3" category="inline-link">AWS에서 커넥터 생성</block>
   <block id="b51a9186f236269e0e1206fe364d56ee" category="inline-link">Azure에서 커넥터 만들기</block>
   <block id="24f7d339e21b63b3cef99a7c8f1236fe" category="inline-link">GCP에서 커넥터를 생성하는 중입니다</block>
@@ -1611,7 +1603,6 @@
   <block id="90777a343fd7f5c83c97f473d59a2af2" category="inline-image-macro">단일 파일 공유를 제거하여 파일을 스캔하는 방법을 보여 주는 스크린샷</block>
   <block id="c8716632d7055f530ad579b6f751cf3a" category="paragraph"><block ref="c8716632d7055f530ad579b6f751cf3a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="edc5cb08ed944714ebae42cfa6a8ba4c" category="paragraph">온프레미스에 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 사내 설치가 좋은 옵션이 될 수 있지만, 이것이 요구사항은 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.</block>
-  <block id="ad2930ccaf67236b6ce95ac2d7f536c3" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="8567cf2a27ba4e05e4d07919092c29e8" category="inline-link-macro-rx"></block> 완전히 안전한 사이트를 위한 것입니다.</block>
   <block id="e780ba1dc1fa7caee58066eebb1037f9" category="inline-xref">따르는 요구사항</block>
   <block id="0c2ece8552f22362671f28b71520f912" category="paragraph">또한 을 충족하는 Linux 시스템도 필요합니다 <block ref="a2ec304d11350e1ba44149ab8f817c68" category="inline-xref-macro-rx"></block>.</block>
   <block id="c77d213688bea929060b009132bd92bb" category="paragraph">NetApp Support 사이트에서 Cloud Data Sense 소프트웨어를 다운로드하고 사용할 Linux 호스트에 설치 프로그램 파일을 복사합니다. 그런 다음 설치 마법사를 시작하고 프롬프트에 따라 Data Sense 인스턴스를 배포합니다.</block>
@@ -1619,7 +1610,6 @@
   <block id="9c43d511337ac0c672bf80907225f82e" category="list-text">클라우드 데이터 센스를 사용하려면 아웃바운드 인터넷 액세스가 필요합니다. 가상 또는 물리적 네트워크에서 인터넷 액세스에 프록시 서버를 사용하는 경우 데이터 감지 인스턴스에 다음 엔드포인트에 연결할 수 있는 아웃바운드 인터넷 액세스가 있는지 확인하십시오.</block>
   <block id="f132f9796727cdfbd850e6d1f0af2208" category="cell">https://github.com/docker\https://download.docker.com\http://mirror.centos.org\http://mirrorlist.centos.org\http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm 를 참조하십시오</block>
   <block id="c82303c6d5888ba9f147a501b8fe7f29" category="cell">설치를 위한 필수 패키지를 제공합니다.</block>
-  <block id="a2ed9b99c4cd06a57cbda6cfbd6772c3" category="section-title">온프레미스에서 데이터 센스를 구축합니다</block>
   <block id="cdcaeff13fccb06b7b310f6f966ada4f" category="paragraph">일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다. <block ref="b071f364f4daf7049825f5b1c726d17b" category="inline-xref-macro-rx"></block>.</block>
   <block id="446f633ae412e24a0a66d9d154552c63" category="paragraph">페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. <block ref="72f8bc610961b8d2bc734f2ce5e89019" category="inline-xref-macro-rx"></block>.</block>
   <block id="ab6f827b404fc74a3d59a176e44dce54" category="inline-xref">Linux 호스트 시스템 준비</block>
@@ -1627,9 +1617,7 @@
   <block id="42d1c021036734670ca245849e323735" category="admonition">소프트웨어가 사내에 설치된 경우 클라우드 데이터 센스에서 현재 Azure NetApp Files용 S3 버킷, ONTAP 또는 FSx를 스캔할 수 없습니다. 이 경우 클라우드 및 에 별도의 Connector와 데이터 센스의 인스턴스를 배포해야 합니다<block ref="7ef29812cbbbb10ee35427be73d0c671" category="inline-link-rx"></block> 다양한 데이터 소스에 대해</block>
   <block id="34dc49ad79c5d0ec1f3c661ca216a2a5" category="paragraph">단일 온프레미스 호스트에 Data Sense 소프트웨어를 설치할 때 다음 단계를 따르십시오.</block>
   <block id="bbdb5f5f026c712f36de4a68700316f5" category="list-text">설치 프로그램 파일을 사용하려는 Linux 호스트에 복사합니다(scp 또는 다른 방법 사용).</block>
-  <block id="f7fe0f4c5bd3dd34e31c9eae80732a01" category="paragraph">'SUDO./install.sh - A 12345-c 27AG75-t 2198qq'</block>
   <block id="65a0409250bc34ad7aed301586de5abc" category="list-text">호스트 시스템에서 설치 프로그램 파일의 압축을 풉니다. 예를 들면 다음과 같습니다.</block>
-  <block id="0c3e94a9670a26d481343fe02b9df002" category="list-text">6 단계:'SUDO./install.sh -a&lt;account_id&gt;-c&lt;agent_id&gt;-t&lt;token&gt;'에서 복사한 정보를 붙여 넣습니다</block>
   <block id="2f22ab4135a481a1450cf28cb5f05c26" category="list-text">에서 1단계부터 7단계까지 수행합니다 <block ref="ca10c193ae29117fbfb6ce9e3e248e8b" category="inline-xref-macro-rx"></block> 관리자 노드에서.</block>
   <block id="8b1cdcd166f0c70f7233d0d11c7bddf2" category="paragraph">단일 호스트 설치에 사용할 수 있는 변수 외에도 새 옵션 * -n&lt;node_ip&gt; * 를 사용하여 스캐너 노드의 IP 주소를 지정할 수 있습니다. 여러 스캐너 노드 IP는 쉼표로 구분됩니다.</block>
   <block id="3f0a4de61ad13ce65d1a7332a726eb8d" category="list-text">3단계에서 복사한 명령을 붙여 넣고 실행합니다.</block>
@@ -1637,8 +1625,6 @@
   <block id="1a3dd42e7f140871b4724418e36e52fb" category="sidebar">Cloud Data Sense 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
-  <block id="ce5d6bd317f10e98c0ed8cd1d8a5eb77" category="sidebar">클라우드에 구축</block>
-  <block id="88b8e638dc99736099049254e46001f8" category="sidebar">인터넷에 액세스하지 않고 사내 구축</block>
   <block id="77cb6eb12b1c27e0f1e04f0f158eb184" category="sidebar">데이터 소스에서 스캔을 활성화합니다</block>
   <block id="8c7729e22a223978ef26b521fa9ee122" category="sidebar">Cloud Volumes ONTAP와 온프레미스 ONTAP</block>
   <block id="6b7cef11406f2fff58dcc619a2b7e482" category="sidebar">Amazon S3 버킷</block>
@@ -1689,7 +1675,6 @@
   <block id="bba082dd43baad5296b00863b2fd871e" category="cell">호주 여권 번호</block>
   <block id="17dca5bf3d125aa4d0f3309727923bc6" category="list-text">AIP 레이블을 Cloud Data Sense와 통합한 경우 이 파일에 레이블을 지정하거나 이미 있는 경우 다른 레이블로 변경할 수 있습니다. 을 참조하십시오 <block ref="1d610d8b86b5e1441346aa765100c237" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="d65636c48d5eaaa2a0f018e8b2c9b456" category="paragraph">중복 파일 목록을 다운로드하여 스토리지 관리자에게 전송하여 삭제할 수 있는 파일이 있는지 확인할 수 있습니다. 아니면 가능합니다 <block ref="e6aba68fcf17e4e39481e0dfc445e973" category="inline-link-macro-rx"></block> 특정 버전의 파일이 필요하지 않을 경우</block>
-  <block id="44913217828f63e33072c448b10eb218" category="list-text">설치 프로그램에서 프롬프트가 표시되면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.</block>
   <block id="d34764ccb2a6879e5ef576e7ea2fb550" category="cell">또는 필요한 호스트 매개 변수 'sudo./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt;--host &lt;DS_host&gt;--manager-host &lt;cm_host&gt;--no-proxy--dar사이트'를 제공하여 전체 명령을 미리 생성할 수 있습니다</block>
   <block id="cfc66ec017142ce1f8420ffb8db2e3cd" category="list-text">9단계에서 설명한 것처럼 설치 관리자가 메시지를 표시하면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.</block>
   <block id="5fa878295b23e50238df7f7395042d79" category="paragraph">예를 들어, 이 명령은 3개의 스캐너 노드(sudo./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt;--host &lt;DS_host&gt;--manager-host &lt;cm_host&gt; * -n &lt;node_IP1&gt;, &lt;node_IP2&gt;, &lt;node_ip3&gt; * -- no-proxy-site)를 추가합니다</block>
@@ -1755,7 +1740,6 @@
   <block id="e9b6d5f264bba809d5461558e8379d9e" category="paragraph">데이터 센스도 가능합니다 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>. 하지만 로컬 OneDrive 파일을 검색하려면 몇 개의 선택 끝점에 인터넷 액세스를 제공해야 합니다. <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>.</block>
   <block id="9aa68bac48e77ad847d7e57a68f08944" category="paragraph">이 상태는 디지털 지갑에도 표시됩니다.</block>
   <block id="06314d3359f0409e52f485d16ab0c81f" category="paragraph">Cloud Data Sense 라이센스가 만료되기 전에 업데이트하여 스캔한 데이터에 대한 액세스 중단이 발생하지 않도록 할 수 있습니다.</block>
-  <block id="fb319f290355569f99ed376ce5d98c05" category="paragraph">라이센스가 만료되면 Data Sense는 계속 실행되지만, 스캔된 데이터에 대한 정보를 볼 수 없도록 대시보드에 대한 액세스가 차단됩니다. 라이센스 한도 내에서 용량 사용을 잠재적으로 가져오기 위해 스캔되는 볼륨 수를 줄이려는 경우 _Configuration_ 페이지만 사용할 수 있습니다.</block>
   <block id="becde272662faf1aa4393e2cd5fbf2f7" category="admonition">사용 중인 계정에 BYOL 라이센스와 PAYGO 구독이 모두 있는 경우, BYOL 라이센스가 만료되면 Data Sense_NOT_SHIFT가 PAYGO 구독으로 전환됩니다. BYOL 라이센스를 갱신해야 합니다.</block>
   <block id="14aeecf5ef82e6232639978162b42963" category="paragraph">데이터 전송 비용은 설정에 따라 다릅니다. Cloud Data Sense 인스턴스 및 데이터 소스가 동일한 가용성 영역 및 지역에 있는 경우 데이터 전송 비용이 발생하지 않습니다. 하지만 Cloud Volumes ONTAP 시스템 또는 S3 버킷과 같은 데이터 소스가 _different_Availability Zone 또는 지역에 있는 경우 클라우드 공급자가 데이터 전송 비용을 청구합니다. 자세한 내용은 다음 링크를 참조하십시오.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
@@ -2476,8 +2460,6 @@
   <block id="48e3dc371ee5116828a05b4a97621caa" category="list-text">_DS_MANAGER_IP_= Data Sense Manager 노드 시스템의 전용 IP 주소입니다</block>
   <block id="f58e80ea5a832fe99f930893c4ae0376" category="list-text">_node_private_ip_= 데이터 감지 스캐너 노드 시스템의 IP 주소(여러 스캐너 노드 IP는 쉼표로 구분)</block>
   <block id="33b07d0ffb66d0a6cd8a0162e20adca4" category="list-text">_USER_TOKEN_= JWT 사용자 액세스 토큰</block>
-  <block id="285b492c7171f599200c3fe3d4f808d6" category="list-text">add_scanner_node 스크립트가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사하여 텍스트 파일에 저장합니다. 예를 들면 다음과 같습니다.</block>
-  <block id="58e40c834f3acaaccc3823bbd917e6d7" category="paragraph"><block ref="7c95eda18e13e25941273928f0d149ba" prefix="" category="inline-code"></block></block>
   <block id="b0c80b9aebe2393782fd3bb0680a791b" category="list-text">2단계에서 복사한 명령을 붙여 넣고 실행합니다.</block>
   <block id="8dd42ed78b27180f93de7913ecab156f" category="paragraph">모든 스캐너 노드에서 설치가 완료되고 관리자 노드에 연결된 경우 "add_scanner_node.sh" 스크립트도 완료됩니다. 설치하는 데 10-20분이 소요될 수 있습니다.</block>
   <block id="ced90f42fe9747f4578603471ea454a3" category="list-text">스캐너 그룹에 스캐너 노드를 추가한 경우 관리자 노드로 돌아가 다음 두 가지 작업을 수행합니다.</block>
@@ -2541,11 +2523,9 @@
   <block id="21315205ba34163a83853c5526e534c1" category="list-text">한 번에 최대 1K 항목을 재생성할 수 있습니다.</block>
   <block id="a8c256c3bc4f2ab999fee3056f7bebab" category="paragraph"><block ref="5d86a8971ca34d1c831cc0be7e11109d" prefix="" category="inline-code"></block></block>
   <block id="79bd49250e598bf53655f50c83b04044" category="list-text">작업 유형(삭제, 복사, 이동, 정책 생성, 정책 업데이트, 파일 재검색, JSON 보고서 다운로드 등)</block>
-  <block id="9d282ec5c19d83f47fc9504e4ff50325" category="list-text">클라우드 공급자의 마켓플레이스에서 이미 BlueXP PAYGO(pay-as-you-go) 구독을 구독한 경우 클라우드 데이터 센스(Cloud Data Sense)도 자동으로 구독됩니다. 다시 가입하지 않아도 됩니다.</block>
   <block id="f6d56db241e1b67ea15f2bcfc6d58cee" category="paragraph">BlueXP 가입(AWS의 경우 아래 참조)이 이미 있는 경우, 모든 준비가 완료되어 있으므로 다른 작업은 필요하지 않습니다.</block>
   <block id="8a19b447bcd4da037940f31306b703f2" category="list-text">Cloud Sync 서비스를 활성화하고 소스 시스템과 타겟 시스템 간에 파일을 전송하는 데 사용할 수 있는 데이터 브로커를 하나 이상 구성해야 합니다. 부터 시작되는 Cloud Sync 요구 사항을 검토합니다<block ref="e51d588768ce18b65058ca75b02bbb45" category="inline-link-rx"></block>.</block>
   <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">에서 JSON 보고서 생성 진행률을 볼 수 있습니다 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>.</block>
-  <block id="0527c3c624cc9c38c92e3f9b20bd744d" category="list-text">설치 프로그램에서 프롬프트가 표시되면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.</block>
   <block id="bd975c5b95d2c7b6d2e124201b98445c" category="section-title">2022년 11월 13일(버전 1.17)</block>
   <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">온-프레미스 위치에 데이터 센스를 설치한 경우 특정 데이터 원본을 스캔하기 위해 스캔 처리 성능이 더 필요한 경우 "스캐너" 노드를 더 추가하고 해당 데이터 원본을 스캔하도록 할당할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다.</block>
   <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">이제 온-프레미스 설치 관리자가 설치를 시작하기 전에 사전 검사를 수행합니다</block>
@@ -2648,7 +2628,6 @@
   <block id="9c2468c732c2a3c37f5718ed3927f188" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 오브젝트 스토리지의 사전 요구 사항을 검토합니다</block>
   <block id="fadb1720cdd8a007cefc0f21747a7236" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 오브젝트 스토리지 서비스를 추가합니다</block>
   <block id="0cf30da5b3284b65f1bd1464a838ef7e" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 스캔할 버킷을 선택합니다</block>
-  <block id="9abb28e2822a3af34f9b1e46c458bec4" category="paragraph">일반적인 사내 설치에는 다음과 같은 구성 요소와 연결이 있습니다.</block>
   <block id="f1250c9b73cd8f5ef391e449f0b5dcb4" category="inline-image-macro">필요한 BlueXP 및 네트워크 구성 요소 및 관련 연결의 다이어그램</block>
   <block id="0b0f1899ec6aba7470224b92502a86ac" category="paragraph"><block ref="0b0f1899ec6aba7470224b92502a86ac" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7253a7683e98218c221f39d0f0ad5f29" category="paragraph">또한 클라우드 공급자와 커넥터를 생성할 수도 있습니다. 을 참조하십시오<block ref="e291ebc6db7a8ec08d333384efa4743e" category="inline-link-rx"></block>,<block ref="3f9648a8e8f665af7b23c050702c5c95" category="inline-link-rx"></block>, 또는<block ref="2559e3f18112d727f751d3574900096c" category="inline-link-rx"></block>.</block>
@@ -2877,12 +2856,9 @@
   <block id="6c4af53d01a0fd2f4b9e2d860002e476" category="inline-image-macro">분류자를 편집 및 삭제할 단추가 있는 사용자 지정 분류자 페이지의 스크린 샷</block>
   <block id="ba3a038a97b620898e33b9e09db66632" category="paragraph"><block ref="ba3a038a97b620898e33b9e09db66632" category="inline-image-macro-rx" type="image"></block></block>
   <block id="969665117064b959d3c660b43611f713" category="list-text">Docker Engine 버전 19.3.1 이상<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block>.</block>
-  <block id="666bbf651dbf568f97e37372014cde9a" category="list-text">Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사하여 나중에 사용할 수 있도록 텍스트 파일에 붙여넣은 다음 * 닫기 * 를 클릭합니다. 예를 들면 다음과 같습니다.</block>
   <block id="bef424c97f7f20957409f086ca8ff3db" category="paragraph">호스트 시스템과 Connector 인스턴스 간에 포트 8080을 통해 연결되어 있는 경우 BlueXP의 Data Sense 탭에서 설치 진행률을 확인할 수 있습니다.</block>
   <block id="ed8c7ad82b3b6c68d52e7468a26cf5a7" category="list-text">Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.18.x가 설치된 경우 1.19.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
   <block id="49bb7289b8abc33c271f634fc8149b1e" category="list-text">한 번에 최대 1500만 개의 파일을 이동할 수 있습니다.</block>
-  <block id="c92960c8f2e94d1653cffccc72067124" category="summary">클라우드 데이터 센스를 클라우드에 구축하려면 몇 단계를 완료하십시오. Data Sense 인스턴스는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 배포됩니다.</block>
-  <block id="34bce1a775347f02f4865a45804d2e40" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="645115e66496a0ec0a40c4c3811246be" category="inline-link-macro-rx"></block>. 온프레미스에도 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 이러한 설치 유형을 사용하는 것이 좋은 옵션이 될 수 있지만, 이것은 필수 사항이 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.</block>
   <block id="a09a5c1c3cb0d27dbac4cfa3c73c0ec8" category="list-text">클라우드 배포 마법사를 시작하려면 * 배포 * 를 클릭합니다.</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023년 2월 5일(버전 1.20)</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">모든 이메일 주소로 정책 기반 알림 이메일을 보낼 수 있습니다</block>
@@ -2906,7 +2882,6 @@
   <block id="208609a972f6a4981e2c9511fc7d0063" category="paragraph">Cloud Data Sense는 특정 중요 정책이 결과를 반환할 때 계정의 BlueXP 사용자에게 이메일 알림을 보내 데이터를 보호할 수 있도록 알림을 받을 수 있습니다. 매일, 매주 또는 매월 이메일 알림을 보내도록 선택할 수 있습니다. 또한 BlueXP 계정이 아닌 최대 20개의 전자 메일 주소로 다른 전자 메일 주소로 전자 메일 알림을 보내도록 선택할 수 있습니다.</block>
   <block id="abf0f7e6ece371db4b19fea5e49a4de2" category="list-text">추가 사용자에게 알림 이메일을 보내려면 "이메일 보내기" 확인란을 선택하고 이메일 발송 간격을 선택한 후 최대 20개의 이메일 주소를 입력합니다.</block>
   <block id="590f4e9626c88a785e5743f04a242c0f" category="list-text">GCP에서 Cloud Data Sense는 에서 실행됩니다 <block ref="f47e4641d38801bee7cf28563a438093" category="inline-link-macro-rx"></block> 512GB 표준 영구 디스크 사용. 운영 체제 이미지는 CentOS 7.9입니다.</block>
-  <block id="6cdf48342be8a4ae3df3303f43e83b16" category="summary">몇 가지 단계를 완료하여 네트워크의 Linux 호스트 또는 인터넷 액세스가 가능한 클라우드의 Linux 호스트에 Cloud Data Sense를 배포합니다.</block>
   <block id="4bd0feba4f0658e9db32d120e7e95926" category="paragraph">페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 _Manager node_라고 하며 추가 처리 능력을 제공하는 추가 시스템을 _Scanner nodes_라고 합니다.</block>
   <block id="a76b68d7e44fa22f2d4b5107c0729fa7" category="paragraph">커넥터가 없는 경우<block ref="cc74d10e9becb23436e4fcec6c3105c6" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트</block>
   <block id="6124944413e19a98a7cefa988e91f90e" category="inline-link">m5.4xLarge</block>
@@ -2916,7 +2891,6 @@
   <block id="79561dd1a4e00a3e05c0d892a01e77bf" category="inline-link">N2-표준-16</block>
   <block id="73731a154d429f05332addb49f2ec537" category="list-text">* GCP 시스템 유형 *: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. 추천합니다<block ref="bb9e331217b48a311c7947c404f21f76" category="inline-link-rx"></block>.</block>
   <block id="2b27dbdd91cbe22f05c819e1be37f3ad" category="paragraph">추가 Data Sense 호스트를 스캐너 노드로 사용하려는 경우 이 때 기본 시스템에 다음 규칙을 추가하십시오.</block>
-  <block id="63dd0b4f2d962679267fa85d05e72c92" category="list-text">클라우드의 인스턴스에 배포할지 아니면 온프레미스의 인스턴스에 구축하는지에 따라 적절한 * 배포 * 버튼을 클릭하여 데이터 감지 구축 마법사를 시작합니다.</block>
   <block id="80341b8c2d424b4008a1d168ff76c6a9" category="inline-image-macro">클라우드 또는 사내 시스템에 Cloud Data Sense를 구축하기 위한 버튼을 선택한 스크린샷</block>
   <block id="df6d41b53ad1938e7b8934fc6ffdf147" category="paragraph"><block ref="df6d41b53ad1938e7b8934fc6ffdf147" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a8e0047562d617c82a4034cce03ff08a" category="paragraph">Cloud Data Sense 설치 프로그램은 패키지를 설치하고, 설치를 등록하고, Data Sense를 설치합니다. 설치는 10분에서 20분 정도 걸릴 수 있습니다.</block>
@@ -2924,7 +2898,6 @@
   <block id="3fe624f4914417740fe3cf68a4327554" category="list-text">커넥터 시스템의 IP 주소 또는 호스트 이름, NetApp 계정 ID, 커넥터 클라이언트 ID 및 사용자 액세스 토큰이 있어야 합니다. 스캐너 그룹을 사용하려는 경우 계정의 각 데이터 원본에 대한 작업 환경 ID를 알아야 합니다. 이 정보를 보려면 아래의 *_필수 단계_ * 를 참조하십시오.</block>
   <block id="a566366d665bafe53c9d0a82a6befd65" category="paragraph">여러 사내 호스트에 Data Sense 소프트웨어를 동시에 설치할 때는 다음 단계를 따르십시오. 이러한 방식으로 여러 호스트를 배포할 때는 "스캐너 그룹"을 사용할 수 없습니다.</block>
   <block id="65c70fcd12b102e4a08b42a41a2e7de8" category="paragraph">Cloud Data Sense 설치 프로그램이 패키지 설치를 완료하고 설치를 등록합니다. 설치는 10분에서 20분 정도 걸릴 수 있습니다.</block>
-  <block id="5512cd55404b66757fcb9aa5273c9b47" category="sidebar">인터넷에 액세스할 수 있는 Linux 호스트에 배포합니다</block>
   <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">새로운 기능</block>
   <block id="f8f0bde9e4fc1fbeefb41437010577d4" category="sidebar">인터넷을 통해 Linux 호스트에 데이터 센스를 배포합니다</block>
   <block id="83d2b5781b150dc742697f6275e740ca" category="sidebar">데이터 감지 사용 사례</block>
@@ -3075,7 +3048,6 @@
   <block id="529e58159a0567a96e1265aa7c80760b" category="inline-link">데이터 조사 보고서에 대해 자세히 알아보십시오</block>
   <block id="1519214436b24573d7996e8c310f57e7" category="paragraph">필요한 경우 이러한 결과를 보고서로 내보내면 권한 때문에 어떤 파일이 스캔되고 있는지 또는 스캔되지 않았는지 확인할 수 있습니다.<block ref="55841a629b143f31cba7cbe4e8dd8d86" category="inline-link-rx"></block>.</block>
   <block id="b70232fe808c101066f1d5f669f6a6cd" category="paragraph"><block ref="b70232fe808c101066f1d5f669f6a6cd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e320df9c865260fc39e7beb28a2b5885" category="doc">인터넷에 액세스할 수 있는 호스트에 클라우드 데이터 센스를 배포합니다</block>
   <block id="5dd68ea8038a218beb217f08f4009e7f" category="list-text">CentOS Stream 8도 지원됩니다</block>
   <block id="e47ea30e34a3a076c6a7779b8a54db7c" category="cell">보츠와나 ID 카드(오만) 번호</block>
   <block id="2d3ad991cc78b072cf48ad8db3fb43e0" category="cell">보츠와나 여권 번호</block>
@@ -3130,7 +3102,6 @@
   <block id="8160c3db5ceaeec9f21f500ad90a16ee" category="paragraph"><block ref="8160c3db5ceaeec9f21f500ad90a16ee" category="inline-image-macro-rx" type="image"></block></block>
   <block id="233a7e974842d65dd39122b575514270" category="paragraph">새 범주는 교육 파일에 정의된 대로 생성되며 데이터 센스에 추가됩니다. 그런 다음 데이터 센스에서 모든 데이터 소스를 다시 검색하여 이 새로운 범주에 적합한 파일을 식별합니다. 사용자 지정 분류자 페이지로 돌아가 새 범주와 일치하는 파일 수를 볼 수 있습니다. 모든 데이터 원본을 스캔하여 얻은 결과는 스캔해야 하는 파일 수에 따라 다소 시간이 걸릴 수 있습니다.</block>
   <block id="0fd05b1c9e0bcfc288b3cb64182f45d8" category="summary">인터넷 액세스가 없는 온프레미스 사이트의 호스트에 Cloud Data Sense를 구축하는 몇 가지 단계를 완료하십시오. 이러한 유형의 설치는 보안 사이트에 적합합니다.</block>
-  <block id="dd8d54cd536de1780b72a7a05a4b8f65" category="doc">인터넷에 액세스할 수 없는 호스트에 클라우드 데이터 센스를 배포합니다</block>
   <block id="24986a3fd86695b55b23be0d07a0d801" category="inline-link">BlueXP 커넥터를 업그레이드합니다</block>
   <block id="2976d8218e5021d7d1f5cbbae070157d" category="paragraph">BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위해 정기적인 수동 업그레이드가 필요합니다. 데이터 감지 UI 페이지 하단에 데이터 감지 버전이 표시됩니다. 를 확인하십시오 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="179f3f01544c50dcde464960dc0c66ec" category="inline-link-rx"></block> 및 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>.</block>
   <block id="e6226abfed55ff05d6368103074cf171" category="paragraph">+ 데이터 감지 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
@@ -3183,4 +3154,34 @@
   <block id="11f3580c4a3b779649df6d1a5c193fdf" category="list-text">한 번에 1에서 100,000개 파일 간에 복사할 수 있습니다.</block>
   <block id="5a8d6a8cd28258257694d106e58f4816" category="list-text">최소 20개의 파일을 선택해야 합니다.</block>
   <block id="bd336cd1948dc2bbe990a0988a5e5e9e" category="cell">쿼리에서 포함하거나 제외할 부분 경로 또는 전체 경로를 최대 20개까지 입력합니다. 경로 포함 및 제외 경로를 모두 입력하면 데이터 센스에서 포함된 경로의 모든 파일을 먼저 찾은 다음 제외된 경로에서 파일을 제거한 다음 결과를 표시합니다. 이 필터에서 " * "를 사용하면 아무런 영향이 없으며 검색에서 특정 폴더를 제외할 수 없습니다. 구성된 공유 아래에 있는 모든 디렉토리와 파일이 검색됩니다.</block>
+  <block id="791d01e2ffeb344fb72ea0c9c72960db" category="doc">인터넷에 액세스할 수 없는 호스트에 데이터 센스를 설치합니다</block>
+  <block id="1889f0657e0c433d173ded88a1a3a24f" category="section-title">사내 Linux 호스트에 Data Sense를 설치합니다</block>
+  <block id="497d508053af04935d2eb62e219372c8" category="list-text">사내 설치를 시작하려면 * deploy * 를 클릭합니다.</block>
+  <block id="7bde2d7cf6c722c1135ccccea2a76b1a" category="list-text">Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사합니다(예:<block ref="4041549bf21d4c7bed0bfcbf52842063" prefix=" " category="inline-code"></block>)를 사용하여 텍스트 파일에 붙여 넣어 나중에 사용할 수 있습니다. 그런 다음 * 닫기 * 를 클릭하여 대화 상자를 닫습니다.</block>
+  <block id="9c219f00fda547ddab566c43975acd6b" category="list-text">호스트 시스템에서 복사한 명령을 입력한 다음 일련의 프롬프트를 따르거나 필요한 모든 매개 변수를 명령줄 인수로 포함하여 전체 명령을 제공할 수 있습니다.</block>
+  <block id="2817a1d472ecfcca8fe861c57ec6f447" category="list-text">8단계에서 복사한 정보를 붙여 넣습니다.<block ref="feca0af1809ee364465c858e41f4ada4" prefix=" " category="inline-code"></block></block>
+  <block id="ce99bf86c57675420203e054ffc86a6d" category="list-text">관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예:<block ref="2478484d96d8c17b7752fd15d3b26f12" prefix=" " category="inline-code"></block>)를 입력하고 텍스트 파일에 저장합니다.</block>
+  <block id="b056211dff1fc57845bf9cbcca6028fb" category="summary">클라우드 데이터 센스를 클라우드에 구축하려면 몇 단계를 완료하십시오. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 데이터 감지 인스턴스를 배포합니다.</block>
+  <block id="68e2c37bd2867239a02b30abd4095416" category="doc">BlueXP를 사용하여 클라우드 데이터 센스를 클라우드에 배포합니다</block>
+  <block id="3d8ecdf8f23b00fcd443553659989a15" category="inline-link-macro">인터넷에 액세스할 수 있는 Linux 호스트에 데이터 센스를 설치합니다</block>
+  <block id="79db9e590c357a77fc5430f2dc1f8f69" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="05339bd093ad6200c6b8b4293a577733" category="inline-link-macro-rx"></block>. 온프레미스에도 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 이러한 설치 유형을 사용하는 것이 좋은 옵션이 될 수 있지만, 이것은 필수 사항이 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.</block>
+  <block id="193ff08e362b0135a9b658cb11ea2cca" category="summary">몇 가지 단계를 완료하여 인터넷 액세스가 가능한 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 데이터 센스를 배포합니다.</block>
+  <block id="884b0821c52542ca3e3aa10a26f92b31" category="doc">인터넷에 액세스할 수 있는 호스트에 데이터 센스를 설치합니다</block>
+  <block id="6ee85eb402345aafdbfbb8895e9ee104" category="paragraph">구내의 Linux 호스트에 설치하는 일반적인 구성 요소 및 연결은 다음과 같습니다.</block>
+  <block id="248161764b5ff5f54888ebefe222f3e4" category="paragraph">클라우드의 Linux 호스트에 설치하는 일반적인 구성 요소 및 연결은 다음과 같습니다.</block>
+  <block id="19c8d978817f5ad2c7d566851ddf6e4e" category="paragraph"><block ref="19c8d978817f5ad2c7d566851ddf6e4e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf484cfb7fc7fb235ee523a43dbe1c32" category="inline-link-macro">인터넷에 액세스할 수 없는 온프레미스 사이트에 데이터 센스를 설치합니다</block>
+  <block id="d8ab1de8b00d809182655fd215e4c838" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="740ddda1a4e327959c966d3a6913fb51" category="inline-link-macro-rx"></block> 완전히 안전한 사이트를 위한 것입니다.</block>
+  <block id="115b1db268bc8066a2a6f9174de75f96" category="section-title">Linux 호스트에 데이터 센스를 설치합니다</block>
+  <block id="983f3e7e80ab153851d8f5302ab019d5" category="list-text">클라우드에서 준비한 인스턴스나 온프레미스에서 준비한 인스턴스에 데이터 센스를 설치할 것인지에 따라 적절한 * 배포 * 버튼을 클릭하여 데이터 센스 설치를 시작하십시오.</block>
+  <block id="bda678b1fb683a403f093f2555da8faf" category="list-text">Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사합니다(예:<block ref="a402a6c8a10b4c24d7596599c6dfb7db" prefix=" " category="inline-code"></block>)를 사용하여 텍스트 파일에 붙여 넣어 나중에 사용할 수 있습니다. 그런 다음 * 닫기 * 를 클릭하여 대화 상자를 닫습니다.</block>
+  <block id="e342bb199ba04c6458bcb1b1464f1d00" category="list-text">7단계에서 복사한 정보를 붙여 넣습니다.<block ref="924ff0749b2ad085d56d695be970e489" prefix=" " category="inline-code"></block></block>
+  <block id="3aa548170d376264933f54bb0d2c3ad6" category="list-text">add_scanner_node 스크립트가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예:<block ref="7c95eda18e13e25941273928f0d149ba" prefix=" " category="inline-code"></block>)를 입력하고 텍스트 파일에 저장합니다.</block>
+  <block id="8e477b6128906752f1b086a48c07fef7" category="list-text">관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예:<block ref="2478484d96d8c17b7752fd15d3b26f12" prefix=" " category="inline-code"></block>)를 입력하고 텍스트 파일에 저장합니다.</block>
+  <block id="027400835e3f9c8cdefc405a8ee10cdf" category="list-text">클라우드 공급자의 마켓플레이스에서 이미 BlueXP PAYGO(pay-as-you-go) 구독을 구독한 경우 클라우드 데이터 센스(Cloud Data Sense)도 자동으로 구독됩니다. 다시 가입하지 않아도 됩니다.</block>
+  <block id="3fab6a2d0465498818a33336e6028494" category="paragraph">라이센스가 만료되거나 BYOL 제한에 도달한 경우 Data Sense는 계속 실행되지만, 스캔된 데이터에 대한 정보를 볼 수 없도록 대시보드에 대한 액세스가 차단됩니다. 라이센스 한도 내에서 용량 사용을 잠재적으로 가져오기 위해 스캔되는 볼륨 수를 줄이려는 경우 _Configuration_ 페이지만 사용할 수 있습니다.</block>
+  <block id="20aa1bbdb0fac9cadb849e6ab2887670" category="sidebar">BlueXP를 사용하여 클라우드에 배포합니다</block>
+  <block id="7c454725651fa93e75c3603da01e3ae2" category="sidebar">인터넷에 액세스할 수 있는 Linux 호스트에 설치합니다</block>
+  <block id="34c631136a1ff65c0e2a718e56622097" category="sidebar">인터넷에 접속하지 않고 내부에 설치합니다</block>
+  <block id="86d55936ff74c558250b6d6c3c3440fe" category="sidebar">클라우드에 데이터 센스를 자동으로 배포합니다</block>
 </blocks>
