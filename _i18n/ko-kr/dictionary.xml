@@ -1206,8 +1206,6 @@
   <block id="532b2291afa0585aed0b7f83e343086f" category="inline-xref">사용 권한 및 연결</block>
   <block id="915bca96e4db936d4227065b020aa1cf" category="paragraph">NetApp Support 사이트에서 Cloud Data Sense 소프트웨어를 다운로드하고 사용할 Linux 호스트에 설치 프로그램 파일을 복사합니다. 그런 다음 설치 마법사를 시작하고 화면의 지시에 따라 Cloud Data Sense 인스턴스를 구축합니다.</block>
   <block id="566ccf048003723333e9b10e7b0ffc81" category="section-title">Linux 호스트 시스템을 준비합니다</block>
-  <block id="feb0221200046a709566079a3cbc3e5f" category="list-text">100GiB를 On/OPT에서 사용할 수 있습니다</block>
-  <block id="f12d2902352feb2353dd1667f55dc293" category="list-text">/var에서 400GiB를 사용할 수 있습니다</block>
   <block id="117c0c98e2a5cb3503de68c655378d13" category="inline-link">설치 지침을 봅니다</block>
   <block id="c0ffa5845aefb5e4bb0fa6089bcc513d" category="list-text">Python 3 버전 3.6 이상.<block ref="f67fc9f0c7d8aa701884bad21356a242" category="inline-link-rx"></block>.</block>
   <block id="73b95f9cb4d6b028a07c08d4d8325338" category="paragraph">Cloud Data Sense를 구축하기 전에 다음 사전 요구 사항을 검토하여 지원되는 구성이 있는지 확인하십시오.</block>
@@ -1721,7 +1719,6 @@
   <block id="39ad63f56fe19489716d253d535f6033" category="section-title">글로벌 Active Directory를 통합하여 파일 소유자 및 권한을 식별하는 기능입니다</block>
   <block id="ed02f2ad98646d05140c6f62857791cb" category="section-title">이제 데이터 감지 "정책"을 사용하여 파일을 삭제할 수 있습니다</block>
   <block id="5d7ec019a090d19805ff8b8708516943" category="paragraph">Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 다른 애플리케이션과 공유되는 호스트에서는 데이터 센스를 지원하지 않습니다. 호스트는 전용 호스트여야 합니다.</block>
-  <block id="f9ddd233a713e3719c7d8046ab62cc1e" category="list-text">/tmp에 5GiB입니다</block>
   <block id="7d3786abf2ebb473a5ba70b680734525" category="section-title">BYOL 라이센스 고려사항</block>
   <block id="e95058755e821bf6cb439e37f1f068d7" category="list-text">스캔 중인 데이터의 양이 라이센스 용량의 80%에 도달한 경우, 제한에 도달하면 다시 한 번 표시됩니다</block>
   <block id="d8ea74d0bc0e6f3c5be22312a953d7fb" category="list-text">라이센스가 만료되기 30일 전에 라이센스가 만료되고 라이센스가 만료되면 다시 만료됩니다</block>
@@ -2560,9 +2557,6 @@
   <block id="5145a29bff9f5d1e0a1fc1ca423ecea3" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 데이터 센스를 다운로드하고 배포합니다</block>
   <block id="dc557754b902711b46f03bde4f8cd281" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> Cloud Data Sense 서비스를 구독하십시오</block>
   <block id="369bb58f2fbc4fcfb60a188e89ca29e3" category="list-text">운영 체제에서 Docker Engine을 설치할 수 있어야 합니다</block>
-  <block id="792c9336a56fa746327b500536c3ac74" category="list-text">* 디스크 *: SSD, 500GiB의 사용 가능, 또는</block>
-  <block id="f1c885ee2358fbb418dfe35e68a4002a" category="list-text">RAM *: 64GB(스왑 메모리는 호스트에서 비활성화해야 함)</block>
-  <block id="1f810cefd66fa5d8c5990d6c051c53a7" category="list-text">* CPU *: 16코어</block>
   <block id="7962e6ebf5c099feb974a40aed988873" category="list-text">* 추가 소프트웨어 *: 데이터 센스를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.</block>
   <block id="72334fae14a444a21b5a6f8b702612c3" category="list-text">* Firewalld 고려 사항 *: 사용하려는 경우<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block>데이터 센스를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> 데이터 센스:</block>
   <block id="c353e72a0df04595cb1fda2b9283bd9e" category="paragraph">를 사용하도록 설정한 경우<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> Data Sense를 설치한 후 Docker를 다시 시작해야 합니다.</block>
@@ -2638,7 +2632,6 @@
   <block id="5b028b19d86301024ced75afef69e66d" category="list-text">운영 체제에서 Docker 엔진을 설치할 수 있어야 합니다</block>
   <block id="1c92a0c0cd35f6a2ac3eae778656a791" category="list-text">* Red Hat 서브스크립션 관리 *: Red Hat Enterprise Linux 시스템은 Red Hat 서브스크립션 관리에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.</block>
   <block id="7e9d35e7187b767f275e31d6a5cf324c" category="paragraph">데이터 소스를 스캔하기 위해 여러 개의 데이터 감지 호스트를 사용하는 경우 추가 포트/프로토콜을 활성화해야 합니다. <block ref="3be03acda87575f8178f170dc170b26c" category="inline-link-macro-rx"></block>.</block>
-  <block id="3ce88af879db89d6da43dca91e5ac2a6" category="list-text">프록시를 사용하고 있고 TLS 가로채기를 수행하는 경우 TLS CA 인증서가 저장되는 Data Sense Linux 시스템의 경로를 알아야 합니다.</block>
   <block id="b2fe6e75aa67d3e83769c7fce0162b2e" category="list-text">스캐너 노드에 소프트웨어를 배포하려면 다음 단계를 따르십시오(특정 스캐너 노드에 대해 "스캐너 그룹"을 선택적으로 정의).</block>
   <block id="23dcbd39a65a485d50a0307dbfaed624" category="list-text">다음 스크립트를 실행하여 이 매핑 정보를 모든 스캐너 노드에 등록합니다.<block ref="095075046e7ff767d3fd56d02f6fdfdb" prefix=" " category="inline-code"></block></block>
   <block id="868d9ff1d3a68b958d1cfc9f569a6cd9" category="list-text">를 사용하는 경우<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> 데이터 센스를 설치하기 전에 데이터 센스 기기에서 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> 데이터 센스:</block>
@@ -3184,4 +3177,21 @@
   <block id="7c454725651fa93e75c3603da01e3ae2" category="sidebar">인터넷에 액세스할 수 있는 Linux 호스트에 설치합니다</block>
   <block id="34c631136a1ff65c0e2a718e56622097" category="sidebar">인터넷에 접속하지 않고 내부에 설치합니다</block>
   <block id="86d55936ff74c558250b6d6c3c3440fe" category="sidebar">클라우드에 데이터 센스를 자동으로 배포합니다</block>
+  <block id="1b829a0b2a17806376d7530e7c1aa7d0" category="list-text">스캔하려는 데이터 세트의 크기에 따라 호스트 시스템을 세 가지 크기로 지정할 수 있습니다.</block>
+  <block id="2b55387dd066c5bac646ac61543d152d" category="cell">CPU</block>
+  <block id="05289cee10f1f9057410b216de0d7e36" category="cell">RAM(스왑 메모리는 비활성화 상태여야 함)</block>
+  <block id="380dbc8d9d2c8a17f6ebb0b2c62d3e85" category="cell">디스크</block>
+  <block id="3a69b34ce86dacb205936a8094f6c743" category="cell">대형</block>
+  <block id="dc8179e6e72156a5578bf35cf9574540" category="cell">CPU 16개</block>
+  <block id="5a1fdf37d5cd85436f7504641d78b95f" category="cell">64GB RAM</block>
+  <block id="d1dfcf68dd28742f6e8c1a149039f317" category="cell">/opt * 에서 500GB SSD 켜기/또는 * 100GB 사용 가능 * /var * 5GB에서 사용 가능 /tmp</block>
+  <block id="bef6aed074693bd02885fa89c8b418f0" category="cell">CPU 8개</block>
+  <block id="70eb72cfa1dbdb5556e79344f161d62a" category="cell">32GB RAM</block>
+  <block id="03c4b3e038e1f3312ead503649c43953" category="cell">/opt * 에서 200GB SSD 켜기/또는 * 50GB 사용 가능 * 145GB는 /var * 5GB에서 /tmp에 사용 가능</block>
+  <block id="e706090ac76b3e56523819912497e0f6" category="cell">16GB RAM</block>
+  <block id="ed04b9cefc3e8c7791055ad71b874777" category="cell">/opt * 에서 100GB SSD 켜짐/ 또는 * 50GB 사용 가능 * /var * 5GB에서 사용 가능 * /tmp에서 사용 가능</block>
+  <block id="a0b7a7641d24b4614381b2d6a615f220" category="paragraph">이러한 소형 시스템을 사용할 때는 제한 사항이 있습니다. 을 참조하십시오 <block ref="0e704e23a30c6a19db4ec4aec3706681" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="3080c7bbf6707274907b8ec2e97fb7a8" category="list-text">인터넷 액세스에 프록시를 사용하는 경우:</block>
+  <block id="872a9ee7c158e8dd5094c5c93dcffc57" category="list-text">프록시 서버 정보(IP 주소 또는 호스트 이름, 연결 포트, 연결 스키마: https 또는 http, 사용자 이름 및 암호)가 필요합니다.</block>
+  <block id="566740fad5c1ec59669bd6641875006e" category="list-text">프록시가 TLS 가로채기를 수행하는 경우 TLS CA 인증서가 저장된 Data Sense Linux 시스템의 경로를 알아야 합니다.</block>
 </blocks>
