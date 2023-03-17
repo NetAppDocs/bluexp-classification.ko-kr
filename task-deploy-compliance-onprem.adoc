@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises 
-summary: 몇 가지 단계를 완료하여 인터넷 액세스가 가능한 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 데이터 센스를 배포합니다. 
+summary: 몇 가지 단계를 수행하여 인터넷에 액세스할 수 있는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 Data Sense를 설치하십시오. 이 설치의 일부로 네트워크 또는 클라우드에 Linux 호스트를 수동으로 배포해야 합니다. 
 ---
 = 인터넷에 액세스할 수 있는 호스트에 데이터 센스를 설치합니다
 :hardbreaks:
@@ -14,15 +14,15 @@ summary: 몇 가지 단계를 완료하여 인터넷 액세스가 가능한 네�
 
 
 [role="lead"]
-몇 가지 단계를 완료하여 인터넷 액세스가 가능한 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 데이터 센스를 배포합니다.
+몇 가지 단계를 수행하여 인터넷에 액세스할 수 있는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 Data Sense를 설치하십시오. 이 설치의 일부로 네트워크 또는 클라우드에 Linux 호스트를 수동으로 배포해야 합니다.
 
 온프레미스에 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 사내 설치가 좋은 옵션이 될 수 있지만, 이것이 요구사항은 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
 
-구내의 Linux 호스트에 설치하는 일반적인 구성 요소 및 연결은 다음과 같습니다.
+Linux 호스트 _ 의 일반적인 설치 방법은 다음과 같습니다.
 
 image:diagram_deploy_onprem_overview.png["필요한 BlueXP 및 네트워크 구성 요소 및 관련 연결의 다이어그램"]
 
-클라우드의 Linux 호스트에 설치하는 일반적인 구성 요소 및 연결은 다음과 같습니다.
+클라우드의 Linux 호스트에 _ 을(를) 설치하는 일반적인 구성 요소와 연결은 다음과 같습니다.
 
 image:diagram_deploy_onprem_cloud_instance.png["필요한 BlueXP 및 네트워크 구성 요소 및 관련 연결의 다이어그램"]
 

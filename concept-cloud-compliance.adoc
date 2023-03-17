@@ -278,7 +278,7 @@ Cloud Data Sense를 사용하면 선택한 데이터 소스에서 일반적인 "
 * 분류 스캔을 수행할 때 데이터 센스(Data Sense)는 스캐너 노드당 하루에 15-40GB의 데이터를 스캔할 수 있습니다.
 
 
-link:task-deploy-compliance-onprem.html#deploy-data-sense-on-premises["데이터를 스캔하기 위해 여러 스캐너 노드를 구축하는 방법에 대해 자세히 알아보십시오"^].
+link:task-deploy-compliance-onprem.html#install-data-sense-on-the-linux-host["데이터를 스캔하기 위해 여러 스캐너 노드를 구축하는 방법에 대해 자세히 알아보십시오"^].
 
 
 

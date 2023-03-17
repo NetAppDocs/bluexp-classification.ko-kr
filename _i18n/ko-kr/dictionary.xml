@@ -545,10 +545,6 @@
   <block id="b7be70b4ae08b5c8540e95fbe14dcfa6" category="paragraph">DSAR(Data Subject Access Request) 보고서를 생성하기 위해 데이터 주체 이름을 검색할 때 독일어 및 스페인어가 지원됩니다. 이 보고서는 GDPR 또는 이와 유사한 데이터 개인 정보 보호 법률을 준수하기 위한 조직의 요구 사항을 돕기 위해 작성되었습니다.</block>
   <block id="da848e916ac29d03235a007036cf77ca" category="inline-link-macro">스캔 시 데이터 센스에서 식별하는 모든 개인 데이터 유형 목록을 참조하십시오</block>
   <block id="2e38fe6622e02d0346ffbd31c4347739" category="paragraph">Cloud Manager Connector의 보안 그룹은 보안을 강화하기 위해 Data Sense 인스턴스에 대한 인바운드 및 아웃바운드 트래픽에 포트 80 대신 포트 443을 사용합니다. 두 포트 모두 현재 열려 있으므로 문제가 발생하지 않도록 해야 합니다. 하지만 포트 80은 향후 릴리스에서 더 이상 사용되지 않으므로 이전 버전의 Connector 배포에서 보안 그룹을 업데이트해야 합니다.</block>
-  <block id="586301717819197e24001cac47efdaaa" category="section-title">2022년 1월 2일</block>
-  <block id="e4a822ae3bd5d19b76fea8306ce5774c" category="paragraph">이제 글로벌 Active Directory를 클라우드 데이터 센스와 통합하여 파일 소유자에 대한 데이터 센스 보고서와 파일에 액세스할 수 있는 사용자 및 그룹에 대한 결과를 개선할 수 있습니다.</block>
-  <block id="f8add8b46019d8016befb6aebc941e84" category="inline-link-macro">글로벌 Active Directory를 설정하는 방법을 확인하십시오</block>
-  <block id="4fdca8fbbd2a76d7345e79fb0e7fd3fc" category="inline-link-macro">사용자 지정 정책을 만드는 방법을 알아봅니다</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">자세한 정보</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link-macro">방법을 확인하십시오</block>
   <block id="74585f658544c691c6f6afb583a9dc61" category="inline-link-macro">S3 프로토콜을 사용하는 오브젝트 스토리지 스캔</block>
@@ -1716,8 +1712,6 @@
   <block id="622db54d0a7d9c01c841d932e3988937" category="section-title">SAR 보고서에 대한 새로운 언어 지원</block>
   <block id="8cdccfd2e3c1390208fa5892348c4108" category="section-title">데이터 센스를 통해 세 가지 유형의 개인 데이터를 추가로 식별할 수 있습니다</block>
   <block id="2da79a92d5bb1f1f77ab993c07c12703" category="section-title">커넥터에 대한 데이터 감지 통신을 위해 보안 그룹 포트가 변경되었습니다</block>
-  <block id="39ad63f56fe19489716d253d535f6033" category="section-title">글로벌 Active Directory를 통합하여 파일 소유자 및 권한을 식별하는 기능입니다</block>
-  <block id="ed02f2ad98646d05140c6f62857791cb" category="section-title">이제 데이터 감지 "정책"을 사용하여 파일을 삭제할 수 있습니다</block>
   <block id="5d7ec019a090d19805ff8b8708516943" category="paragraph">Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 다른 애플리케이션과 공유되는 호스트에서는 데이터 센스를 지원하지 않습니다. 호스트는 전용 호스트여야 합니다.</block>
   <block id="7d3786abf2ebb473a5ba70b680734525" category="section-title">BYOL 라이센스 고려사항</block>
   <block id="e95058755e821bf6cb439e37f1f068d7" category="list-text">스캔 중인 데이터의 양이 라이센스 용량의 80%에 도달한 경우, 제한에 도달하면 다시 한 번 표시됩니다</block>
@@ -1831,8 +1825,6 @@
   <block id="659d1ffa40af561d84c53558562c1ec0" category="paragraph">이제 SharePoint 사이트의 문서 및 파일을 스캔하기 위해 SharePoint 온라인 계정을 데이터 센스에 추가할 수 있습니다. <block ref="7eefe10c1c468dca4cd0e6b3eed1adc0" category="inline-link-macro-rx"></block>.</block>
   <block id="77a75568e8846a1bf685d1ee50c690cf" category="paragraph"><block ref="6cdda3320a1281c9d4957b83cba366de" category="inline-link-macro-rx"></block>.</block>
   <block id="d55b3233b82d41486408c8252b8ebafb" category="paragraph">이제 Data Sense는 파일에서 프랑스어 주민등록번호, 프랑스어 ID 및 프랑스어 드라이버 라이센스 번호를 찾을 수 있습니다. <block ref="685a6d4b5536628189414cd84011e60e" category="inline-link-macro-rx"></block>.</block>
-  <block id="eed42314c8425f21a986d3b70cb05658" category="paragraph">Data Sense가 특정 데이터 소스에서 CIFS 볼륨을 스캔할 수 있도록 입력하는 Active Directory 자격 증명 외에도 이 새로운 통합은 다른 사용자 및 시스템을 위한 추가 통합 기능을 제공합니다. 데이터 센스(Data Sense)는 모든 통합 Active Directory에서 사용자 및 권한 세부 정보를 찾습니다. <block ref="64cba81c60533194508987e16994b8d7" category="inline-link-macro-rx"></block>.</block>
-  <block id="aa46c786779de0fbd3280d592901e64f" category="paragraph">Data Sense는 정책에 정의한 쿼리와 일치하는 파일을 자동으로 삭제할 수 있습니다. <block ref="68f7176f15fa3737e845d858e7820489" category="inline-link-macro-rx"></block>.</block>
   <block id="9f2913099fea83e0f323c9eaa2647551" category="inline-link-macro">Data Sense에서 전체 SharePoint 계정을 삭제합니다</block>
   <block id="22653e7e1ce41c78cecfefd77069565b" category="paragraph">참고: 이 작업은 수행할 수 있습니다 <block ref="b445b66eb7994fc8803d57fcbaaa50f1" category="inline-link-macro-rx"></block> SharePoint 계정에서 사용자 데이터를 더 이상 검색하지 않으려는 경우</block>
   <block id="3115aebdd180a7f37b3394bf8996ca30" category="list-text">현재 30MB를 초과하는 파일의 레이블은 변경할 수 없습니다. OneDrive, SharePoint 및 Google Drive 계정의 경우 최대 파일 크기는 4MB입니다.</block>
@@ -2810,7 +2802,6 @@
   <block id="afdc492e219eada4c9eca232defb9ab7" category="paragraph">또한 온프레미스의 Linux 호스트 또는 선호하는 클라우드 공급자의 호스트에 Data Sense를 구축할 수도 있습니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다. 데이터 감지 소프트웨어의 업그레이드는 인스턴스에 인터넷 액세스 권한이 있는 경우 자동으로 수행됩니다.</block>
   <block id="dc59914806276092072d36ab9d88436a" category="section-title">데이터 센스의 스캔 데이터</block>
   <block id="e56c626eb62df6bf64f545a2d416aa7c" category="inline-link-macro">데이터를 스캔하기 위해 여러 스캐너 노드를 구축하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="fb3ba22f3eff98ea203090bc210752be" category="paragraph"><block ref="eefbdd7e2d2119a699d2995aece8c9f3" category="inline-link-macro-rx"></block>.</block>
   <block id="008c6840e9f624b9435a7c107d8afaff" category="paragraph">SaaS 모드에서 BlueXP를 사용할 경우 HTTPS를 통해 BlueXP에 연결되고 브라우저와 Data Sense 인스턴스 간에 전송되는 개인 데이터는 엔드 투 엔드 암호화로 보호됩니다. 즉, NetApp과 타사에서 해당 데이터를 읽을 수 없습니다.</block>
   <block id="c06ccfe24df0bff683583f82911916e0" category="paragraph">100개의 파일을 이동하거나 삭제하는 등 여러 파일에 걸쳐 조사 결과 창에서 비동기 작업을 실행할 경우 프로세스에 시간이 걸릴 수 있습니다. 이러한 작업의 상태를 _Action Status_창에서 모니터링할 수 있으므로 모든 파일에 적용된 시기를 알 수 있습니다.</block>
   <block id="10b276faf6d38414fa314b1a97e5e144" category="list-text">성공 - 데이터 감지 작업이 완료되고 모든 항목이 성공했습니다.</block>
@@ -3094,7 +3085,6 @@
   <block id="55ef1b0dcac87ba2d1e533045a15de28" category="inline-image-macro">데이터 센스에서 새 범주를 정의하는 교육 파일로 사용할 파일을 보여 주는 스크린샷</block>
   <block id="8160c3db5ceaeec9f21f500ad90a16ee" category="paragraph"><block ref="8160c3db5ceaeec9f21f500ad90a16ee" category="inline-image-macro-rx" type="image"></block></block>
   <block id="233a7e974842d65dd39122b575514270" category="paragraph">새 범주는 교육 파일에 정의된 대로 생성되며 데이터 센스에 추가됩니다. 그런 다음 데이터 센스에서 모든 데이터 소스를 다시 검색하여 이 새로운 범주에 적합한 파일을 식별합니다. 사용자 지정 분류자 페이지로 돌아가 새 범주와 일치하는 파일 수를 볼 수 있습니다. 모든 데이터 원본을 스캔하여 얻은 결과는 스캔해야 하는 파일 수에 따라 다소 시간이 걸릴 수 있습니다.</block>
-  <block id="0fd05b1c9e0bcfc288b3cb64182f45d8" category="summary">인터넷 액세스가 없는 온프레미스 사이트의 호스트에 Cloud Data Sense를 구축하는 몇 가지 단계를 완료하십시오. 이러한 유형의 설치는 보안 사이트에 적합합니다.</block>
   <block id="24986a3fd86695b55b23be0d07a0d801" category="inline-link">BlueXP 커넥터를 업그레이드합니다</block>
   <block id="2976d8218e5021d7d1f5cbbae070157d" category="paragraph">BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위해 정기적인 수동 업그레이드가 필요합니다. 데이터 감지 UI 페이지 하단에 데이터 감지 버전이 표시됩니다. 를 확인하십시오 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="179f3f01544c50dcde464960dc0c66ec" category="inline-link-rx"></block> 및 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>.</block>
   <block id="e6226abfed55ff05d6368103074cf171" category="paragraph">+ 데이터 감지 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
@@ -3158,10 +3148,7 @@
   <block id="68e2c37bd2867239a02b30abd4095416" category="doc">BlueXP를 사용하여 클라우드 데이터 센스를 클라우드에 배포합니다</block>
   <block id="3d8ecdf8f23b00fcd443553659989a15" category="inline-link-macro">인터넷에 액세스할 수 있는 Linux 호스트에 데이터 센스를 설치합니다</block>
   <block id="79db9e590c357a77fc5430f2dc1f8f69" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="05339bd093ad6200c6b8b4293a577733" category="inline-link-macro-rx"></block>. 온프레미스에도 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 이러한 설치 유형을 사용하는 것이 좋은 옵션이 될 수 있지만, 이것은 필수 사항이 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.</block>
-  <block id="193ff08e362b0135a9b658cb11ea2cca" category="summary">몇 가지 단계를 완료하여 인터넷 액세스가 가능한 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 데이터 센스를 배포합니다.</block>
   <block id="884b0821c52542ca3e3aa10a26f92b31" category="doc">인터넷에 액세스할 수 있는 호스트에 데이터 센스를 설치합니다</block>
-  <block id="6ee85eb402345aafdbfbb8895e9ee104" category="paragraph">구내의 Linux 호스트에 설치하는 일반적인 구성 요소 및 연결은 다음과 같습니다.</block>
-  <block id="248161764b5ff5f54888ebefe222f3e4" category="paragraph">클라우드의 Linux 호스트에 설치하는 일반적인 구성 요소 및 연결은 다음과 같습니다.</block>
   <block id="19c8d978817f5ad2c7d566851ddf6e4e" category="paragraph"><block ref="19c8d978817f5ad2c7d566851ddf6e4e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cf484cfb7fc7fb235ee523a43dbe1c32" category="inline-link-macro">인터넷에 액세스할 수 없는 온프레미스 사이트에 데이터 센스를 설치합니다</block>
   <block id="d8ab1de8b00d809182655fd215e4c838" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="740ddda1a4e327959c966d3a6913fb51" category="inline-link-macro-rx"></block> 완전히 안전한 사이트를 위한 것입니다.</block>
@@ -3194,4 +3181,9 @@
   <block id="3080c7bbf6707274907b8ec2e97fb7a8" category="list-text">인터넷 액세스에 프록시를 사용하는 경우:</block>
   <block id="872a9ee7c158e8dd5094c5c93dcffc57" category="list-text">프록시 서버 정보(IP 주소 또는 호스트 이름, 연결 포트, 연결 스키마: https 또는 http, 사용자 이름 및 암호)가 필요합니다.</block>
   <block id="566740fad5c1ec59669bd6641875006e" category="list-text">프록시가 TLS 가로채기를 수행하는 경우 TLS CA 인증서가 저장된 Data Sense Linux 시스템의 경로를 알아야 합니다.</block>
+  <block id="bb239f614886950a8a7955eb804ef8d4" category="summary">인터넷 액세스가 없는 사내 사이트의 Linux 호스트에 Data Sense를 설치하려면 몇 가지 단계를 완료하십시오. 이러한 유형의 설치는 보안 사이트에 적합합니다.</block>
+  <block id="82e8ecf7e928e70a97d21b2cd773dec7" category="paragraph"><block ref="c12a8f0104732399e0f36d3f90295943" category="inline-link-macro-rx"></block>.</block>
+  <block id="3ba3230839f950166b5b123c0bb22ee3" category="summary">몇 가지 단계를 수행하여 인터넷에 액세스할 수 있는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 Data Sense를 설치하십시오. 이 설치의 일부로 네트워크 또는 클라우드에 Linux 호스트를 수동으로 배포해야 합니다.</block>
+  <block id="829124a47242d374aed9d0704a781736" category="paragraph">Linux 호스트 _ 의 일반적인 설치 방법은 다음과 같습니다.</block>
+  <block id="f6e3ad4e2f1393513d919f090b15ac68" category="paragraph">클라우드의 Linux 호스트에 _ 을(를) 설치하는 일반적인 구성 요소와 연결은 다음과 같습니다.</block>
 </blocks>
