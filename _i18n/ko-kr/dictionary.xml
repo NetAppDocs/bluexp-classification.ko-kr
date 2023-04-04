@@ -1173,7 +1173,6 @@
   <block id="c8607e69aac6730ea98a4ebb489331b1" category="paragraph"><block ref="c8607e69aac6730ea98a4ebb489331b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d64089f867aa0c6a5cf811a28ddf72cc" category="paragraph">작업 이름을 클릭하여 해당 작업에 해당하는 세부 정보를 볼 수 있습니다.</block>
   <block id="e2115e429619cedeaf6aeedfb1d4d0d7" category="inline-link-macro">인터넷에 액세스할 수 있는 온프레미스 사이트에 데이터 센스를 구현합니다</block>
-  <block id="1c038c580523f9a3d7126408c53a8288" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="1079604978fa03138d29a36dc3d0bf3f" category="inline-link-macro-rx"></block>.</block>
   <block id="70d7362b35a6ff039264c78f2d35ab2c" category="section-title">지원되는 데이터 소스</block>
   <block id="d0a39c85bb5fdaacac18ed6c4e5b511f" category="list-text">온프레미스 ONTAP 시스템</block>
   <block id="ae9d17dd7732dafc7b97f62ac9094cf7" category="list-text">데이터베이스 스키마</block>
@@ -1333,7 +1332,6 @@
   <block id="211751cb447d335f31ff23a277ab83a3" category="inline-link">AWS에서 커넥터 생성</block>
   <block id="b51a9186f236269e0e1206fe364d56ee" category="inline-link">Azure에서 커넥터 만들기</block>
   <block id="24f7d339e21b63b3cef99a7c8f1236fe" category="inline-link">GCP에서 커넥터를 생성하는 중입니다</block>
-  <block id="5c57e099e3c98ea1983b433c3aa4eab8" category="paragraph">아직 커넥터가 없으면 지금 연결선을 작성합니다. 을 참조하십시오<block ref="e291ebc6db7a8ec08d333384efa4743e" category="inline-link-rx"></block>,<block ref="3f9648a8e8f665af7b23c050702c5c95" category="inline-link-rx"></block>, 또는<block ref="2559e3f18112d727f751d3574900096c" category="inline-link-rx"></block>.</block>
   <block id="a54d3bccf6c646c46c072ad1fc403cb6" category="inline-link">Connector를 온-프레미스에 배포합니다</block>
   <block id="b0b5e56bc6683eeb5bd66d725ffbf72f" category="paragraph">환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 클라우드 데이터 감지 간의 연결 등이 포함됩니다. <block ref="25e4901d8a209a1b27bffd328e6e2ea6" category="inline-xref-macro-rx"></block>.</block>
   <block id="376a2280a9f9a3916780ea2443250281" category="paragraph">설치 마법사를 시작하여 클라우드에 Cloud Data Sense 인스턴스를 구축합니다.</block>
@@ -1688,11 +1686,8 @@
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">이 페이지에 제공된 "파일 해시" 값을 사용하여 조사 페이지에 직접 입력하여 특정 중복 파일을 언제든지 검색할 수도 있고, 정책에 사용할 수도 있습니다.</block>
   <block id="7d48333086004a7939c29f033e1bfad5" category="section-title">어두운 사이트에 배포할 때 OneDrive 및 SharePoint 데이터 스캔 지원</block>
   <block id="5d1023de4743a538d723b0eea67b9c49" category="inline-link">다음 끝점에 대한 액세스를 허용해야 합니다.</block>
-  <block id="143cbb5198b43152fc02c7822c0a4df1" category="inline-xref">SharePoint 및 OneDrive 특별 요구 사항</block>
   <block id="03ab5a445b96670c4d6471f1e0ae786c" category="list-text">Cloud Sync를 사용하여 소스 파일 복사 및 동기화</block>
   <block id="21d99d41f7aa56147e5b8e2f64a15458" category="list-text">사용자 피드백을 받는 중입니다</block>
-  <block id="ca31f5af8410452f51d81153fffb5c54" category="cell">login.microsoft.com \graph.microsoft.com 으로 문의하십시오</block>
-  <block id="bea203a1b40a7cbfe57a7032625d4eed" category="cell">Microsoft 서버와 통신하여 선택한 온라인 서비스에 로그인합니다.</block>
   <block id="1b602d3afff4393bd19938efb7312da3" category="inline-link-macro">인터넷에 액세스할 수 없는 온프레미스 위치에 배포되었습니다</block>
   <block id="72be220d746bd2e14365d0ceeea52365" category="inline-link-macro">필요한 엔드포인트 목록은 여기 를 참조하십시오</block>
   <block id="e9b6d5f264bba809d5461558e8379d9e" category="paragraph">데이터 센스도 가능합니다 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>. 하지만 로컬 OneDrive 파일을 검색하려면 몇 개의 선택 끝점에 인터넷 액세스를 제공해야 합니다. <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>.</block>
@@ -1838,7 +1833,6 @@
   <block id="37c9303e988a90a91e5799c6d881439b" category="paragraph">온프레미스 ONTAP 시스템, NetApp이 아닌 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스, OneDrive 폴더, SharePoint 계정, Google Drive 계정은 이러한 클라우드 커넥터를 사용하여 스캔할 수 있습니다.</block>
   <block id="2cadc69c210f0e599ec0b30a0874e883" category="summary">Cloud Data Sense는 다양한 유형의 프라이빗 데이터를 볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 식별할 수 있습니다. Google Drive 계정을 만듭니다.</block>
   <block id="857f40e1f9389fce6087fb43466bb998" category="paragraph">Cloud Data Sense는 다양한 유형의 프라이빗 데이터를 볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 식별할 수 있습니다. Google Drive 계정을 만듭니다. 아래 범주를 참조하십시오.</block>
-  <block id="f0fa14b0913829093cd6b4aeaa24b34d" category="paragraph">데이터 센스를 어두운 사이트에 구축한 경우 현재 Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP, AWS S3 또는 Google Drive 계정을 스캔할 수 없습니다.</block>
   <block id="68c4a78a67d74510c65b916751c96b07" category="list-text">Google Drive 계정의 데이터는 현재 이러한 기능을 사용할 수 없습니다.</block>
   <block id="9c471504c4f66f275b7d110c46622118" category="paragraph">온프레미스 ONTAP 시스템, NetApp이 아닌 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스, OneDrive 폴더, SharePoint 계정, Google Drive 계정은 이러한 클라우드 커넥터를 사용할 때 검색할 수 있습니다.</block>
   <block id="1692b32d79b99cfb5a1277f8c49a23af" category="sidebar">작업 환경을 스캔합니다</block>
@@ -2189,7 +2183,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
   <block id="ed2556b43fbc83ef9623cb9a52ff0389" category="list-text">에서 Cloud Data Sense 소프트웨어를 다운로드하십시오<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>. 선택해야 하는 파일의 이름은 * DATASENSE-INinstaller-&lt;version&gt;.tar.gz * 입니다.</block>
   <block id="67fe0972cc96651c7684b8e71ee21edd" category="list-text">데이터 감지 설치 프로그램 파일(* DATASENSE-INinstaller-&lt;version&gt;.tar.gz*)을 호스트 컴퓨터('scp' 또는 다른 방법 사용)에 복사합니다.</block>
-  <block id="15ce9f257d40f931b2ef8d3576a06c65" category="paragraph">매우 안전한 BlueXP 설치가 필요하지만 OneDrive 계정 또는 SharePoint Online 계정의 로컬 데이터도 스캔하려는 특수한 상황에서는 Data Sense 오프라인 설치 프로그램을 사용하여 몇 개의 선택 끝점에 대한 인터넷 액세스를 제공할 수 있습니다. 을 참조하십시오 <block ref="4422d2d61ce862ef7035c7cbbfd3b606" category="inline-xref-macro-rx"></block> 를 참조하십시오.</block>
   <block id="c5fa07750716427fc488615add6ab90d" category="list-text">특정 중요 정책이 결과를 반환할 때 BlueXP 사용자에게 전자 메일 알림을 보냅니다</block>
   <block id="afc0d971e4ebfa53c171b355bc2599a4" category="list-text">여러 사용자에 대한 BlueXP 역할 설정(예: 계정 관리자 또는 규정 준수 뷰어)</block>
   <block id="33054e4c4ec78cdbffe4024718f5be95" category="list-text">BlueXP에서 소프트웨어 자동 업그레이드</block>
@@ -2198,7 +2191,6 @@
   <block id="0c9e786ebc9e7a7d92ca8bd8ccb639a3" category="section-title">BlueXP 및 데이터 감지 사전 요구 사항을 확인합니다</block>
   <block id="7c2b9bc82b54ae1bc75bf6e5ec464df1" category="list-text">클라우드 데이터 센스에 대한 웹 브라우저 연결을 확인합니다. 클라우드 데이터 센스를 활성화한 후 사용자가 Data Sense 인스턴스에 연결된 호스트에서 BlueXP 인터페이스에 액세스하도록 하십시오.</block>
   <block id="623bbc14fb82c35326b70f6f05086c6b" category="paragraph">Data Sense 인스턴스는 개인 IP 주소를 사용하여 인덱싱된 데이터에 다른 사용자가 액세스할 수 없도록 합니다. 따라서 BlueXP에 액세스하는 데 사용하는 웹 브라우저가 해당 개인 IP 주소에 연결되어 있어야 합니다. 이 연결은 Data Sense 인스턴스와 동일한 네트워크 내에 있는 호스트에서 발생할 수 있습니다.</block>
-  <block id="332d093355e8c40301ec0cb1a26d1539" category="paragraph">인터넷에 액세스할 수 없는 사이트에 BlueXP 및 데이터 센스를 배포하는 경우, 몇 개의 특정 엔드포인트에 대한 인터넷 액세스를 제공하여 SharePoint Online 및 OneDrive 계정의 파일을 검색할 수 있습니다.</block>
   <block id="ec4523191ee1a4a0d44802dcc8de45ee" category="cell">NetApp 계정을 포함한 BlueXP 서비스와 통신합니다.</block>
   <block id="539b59aea4c55d48d6dc70aa65d83ebe" category="list-text">오프라인 환경이 필요한 를 충족하는지 확인합니다 <block ref="cecf7d2039efa2511a1cd1c96e91a043" category="inline-xref-macro-rx"></block>.</block>
   <block id="99bc31b68f8a295277219d11cfd94709" category="list-text">BlueXP를 시작하고 * Governance &gt; Classification * 을 선택합니다.</block>
@@ -2276,7 +2268,6 @@
   <block id="79212600af75dc48b9f7e59a9927a88e" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭한 다음 * 구성 * 탭을 선택합니다.</block>
   <block id="623d17b9d36b70bf9a4a775a9d346f58" category="admonition">Azure NetApp Files의 경우 클라우드 데이터 센스(Cloud Data Sense)는 BlueXP와 동일한 영역에 있는 볼륨만 스캔할 수 있습니다.</block>
   <block id="16f6b76e35946d0224b05a1466e556f0" category="inline-link">BlueXP 기능을 사용하려면 커넥터가 필요합니다</block>
-  <block id="b4af24a1096b735934691c65956c7d7a" category="paragraph">Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다. 을 참조하십시오<block ref="e291ebc6db7a8ec08d333384efa4743e" category="inline-link-rx"></block> 또는<block ref="3f9648a8e8f665af7b23c050702c5c95" category="inline-link-rx"></block>, 또는<block ref="2559e3f18112d727f751d3574900096c" category="inline-link-rx"></block>. 대부분의 경우, 대부분의 경우 Cloud Data Sense를 활성화하려고 시도하기 전에 Connector를 설정했을 것입니다<block ref="d18edc1f87b2c25c3b9a75b33d4a162f" category="inline-link-rx"></block>하지만 지금 설정해야 하는 경우도 있습니다.</block>
   <block id="7d0e3dd93f2549f8ce0be2f0454b12b2" category="cell">BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증.</block>
   <block id="396224b62257ab9727288876f0e89ef6" category="list-text">BlueXP에 필요한 권한이 있는지 확인합니다</block>
   <block id="2553b8550ba26e95a0c0ef9ed98d09b8" category="list-text">BlueXP에 리소스를 배포하고 Cloud Data Sense 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다<block ref="4d2fb4fece4e907087732c2d95d31be2" category="inline-link-rx"></block>.</block>
@@ -2538,9 +2529,7 @@
   <block id="196004c131c20b6770256be1148132f8" category="list-text">서버의 사용자 이름 및 암호</block>
   <block id="baeedc928ad10edb5cbbe96bbe80e8d0" category="inline-link-macro">추가 포트 요구 사항을 참조하십시오</block>
   <block id="502f7dda33435f5064c5b238523eee70" category="paragraph">데이터 소스를 스캔하기 위해 여러 개의 데이터 감지 호스트를 사용하는 경우 추가 포트/프로토콜을 활성화해야 합니다. <block ref="e303a6ed4733e13f7eeaf8613138004c" category="inline-link-macro-rx"></block>.</block>
-  <block id="3bf2456fb220c8f0aea512c206de9dbc" category="paragraph">로컬로 설치된 SharePoint 온-프레미스 계정은 인터넷 액세스 없이 스캔할 수 있습니다.</block>
   <block id="e1095ff19466581c5274f67123c95036" category="cell">https://api.bluexp.netapp.com 으로 문의하십시오</block>
-  <block id="9cd9b273214587b2412be84cb1a1a42d" category="paragraph">이러한 외부 서비스에 처음 연결하는 동안에만 _api.bluexp.netapp.com_ 에 액세스해야 합니다.</block>
   <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">필요한 것</block>
   <block id="ad5480f838ed67e92fecf7af3cef120d" category="paragraph-title">다음 단계</block>
   <block id="86e6b4ce8205c2db3b733482275e7c94" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 검사할 Azure NetApp Files 시스템을 검색합니다</block>
@@ -3231,7 +3220,6 @@
   <block id="5046b3bc48bd37acc83c5000548deccc" category="paragraph">이러한 설정은 현재 기본 설정으로 하드 코딩되어 있습니다. 변경할 수 없습니다.</block>
   <block id="8b6c5ced74ae32d25c3f6ebff98f9529" category="inline-link">Connector On-Premises를 설치합니다</block>
   <block id="d848fab961367a4c9f58a25dc74053f3" category="paragraph">또한 가능합니다<block ref="a4b2312bac71e1fcb5d5edc9dd08d5ef" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트</block>
-  <block id="18843bfa4e839db1b1058138f40db3fd" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다<block ref="975556d00e7303dad94ce8ee11ec8459" category="inline-link-rx"></block> 네트워크 또는 클라우드의 Linux 호스트 데이터 센스를 사내에서 설치하려는 일부 사용자는 Connector를 온프레미스에 설치하도록 선택할 수도 있습니다.</block>
   <block id="7136865bb089260220159be68ad07c25" category="paragraph">보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다<block ref="1b53f67d10a600e06f0d8110c1ecba99" category="inline-link-rx"></block>.</block>
   <block id="d86d903b07bcdf54c0633484d605d52a" category="inline-link">정부 지역에서 커넥터 배포에 대한 자세한 내용은 을 참조하십시오</block>
   <block id="4436ca4e2cfd329d13aeb590ee5ba775" category="paragraph"><block ref="c536f47a35ce0751f8d9699289dc0a42" category="inline-link-rx"></block>.</block>
@@ -3242,7 +3230,6 @@
   <block id="ed4aca88f93f80e744307500461f129e" category="paragraph">CPU와 RAM이 더 적은 AWS 클라우드 환경의 인스턴스에 Data Sense를 구축할 수 있지만 이러한 시스템을 사용할 때는 제한이 있습니다. 을 참조하십시오 <block ref="0e704e23a30c6a19db4ec4aec3706681" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="95744bf1d6e502d3dfe327bf634f2e79" category="paragraph">다음 단계에 따라 클라우드 데이터 센스의 인스턴스를 클라우드에 배포합니다. Connector는 인스턴스를 클라우드에 배포한 다음 해당 인스턴스에 Data Sense 소프트웨어를 설치합니다.</block>
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link-macro">사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오</block>
-  <block id="9d93ac73eba82aefddbfc4386e0c91d9" category="paragraph">AWS 환경의 BlueXP Connector에서 데이터 센스를 배포할 때 기본 인스턴스 크기를 선택하거나 두 개의 작은 인스턴스 유형 중에서 선택할 수 있습니다. <block ref="014512c6bb91f0e0099b18504a19e409" category="inline-link-macro-rx"></block>.</block>
   <block id="7df445bf0c34cf36a966141745590030" category="open-title">AWS에 구축</block>
   <block id="a9720a0db2c46b05c7aa5ef25b98ae6f" category="inline-image-macro">데이터 센스를 활성화하기 위한 버튼 선택 스크린샷</block>
   <block id="e92dba2aab15f8ee7ca722d870383c77" category="paragraph"><block ref="e92dba2aab15f8ee7ca722d870383c77" category="inline-image-macro-rx" type="image"></block></block>
@@ -3323,9 +3310,6 @@
   <block id="914d653aae79118a23517243079b88cb" category="section-title">이제 독립 실행형 스크립트를 사용하여 Linux 시스템이 Data Sense를 설치할 수 있는지 테스트할 수 있습니다</block>
   <block id="374deadc3a3b7f52c668078795f75e3a" category="inline-link">Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하는 방법을 확인하십시오</block>
   <block id="04659fbbded99230220bc3321874622f" category="paragraph">Data Sense 설치를 실행하는 것과 관계없이 Linux 시스템이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다.<block ref="721973ab191f916be1f3432f173ac838" category="inline-link-rx"></block>.</block>
-  <block id="e1161f065b10936afc930fd3d9d0c76f" category="section-title">이제 Data Sense BYOL 라이센스가 다크 사이트에서 지원됩니다</block>
-  <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오</block>
-  <block id="2bf877c3dde2fb63377a0bd54296e758" category="paragraph">이제 Data Sense BYOL 라이센스를 다크 사이트의 Digital Wallet에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다.<block ref="759f11b436ec2c3650ac0547916cb828" category="inline-link-rx"></block>.</block>
   <block id="6858940dfbd3de02768877bc5d1ef613" category="paragraph">데이터 센스(Data Sense)는 하루에 한 번씩 데이터베이스를 검색합니다. 다른 데이터 소스처럼 데이터베이스가 지속적으로 스캔되지 않습니다.</block>
   <block id="5e4569f52e263bc5988dd871099065f5" category="paragraph">데이터 매핑 보고서는 마이그레이션, 백업, 보안 및 규정 준수 프로세스를 결정하는 데 도움이 되도록 기업 데이터 소스에 저장되는 데이터에 대한 개요를 제공합니다. 이 보고서에는 먼저 모든 작업 환경 및 데이터 소스가 요약되어 있는 개요가 나열되며, 각 작업 환경에 대한 분석 정보가 제공됩니다.</block>
   <block id="fcdb71624845b5b7a2eeb832133403e4" category="paragraph">이 보고서는 데이터 센스의 거버넌스 탭에서 생성합니다.</block>
@@ -3356,7 +3340,6 @@
   <block id="73c8e0d6d53518ca1ce3f906cf53a472" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다<block ref="fe048365448a4a82cbd9d363a7137a93" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 데이터 센스를 사내에서 설치하려는 일부 사용자는 Connector를 온프레미스에 설치하도록 선택할 수도 있습니다.</block>
   <block id="b2c7070fe7681d7705e5227c12abb5ee" category="list-text">온프레미스에서 호스트 시스템을 구축할 때 데이터 센스 스캔을 설정하려는 데이터 세트 크기에 따라 세 가지 시스템 크기 중 하나를 선택할 수 있습니다.</block>
   <block id="94e57f42b65e9f971fc0f5d0e58f4dc8" category="admonition">소프트웨어가 사내에 설치된 경우 클라우드 데이터 센스에서 현재 Azure NetApp Files용 S3 버킷, ONTAP 또는 FSx를 스캔할 수 없습니다. 이 경우 클라우드 및 에 별도의 Connector와 데이터 센스의 인스턴스를 배포해야 합니다<block ref="a5731cb9d61066e025286d452caac241" category="inline-link-rx"></block> 다양한 데이터 소스에 대해</block>
-  <block id="d6f3d99b6ad2aad706bd8a6a94b71d48" category="paragraph">BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위해 정기적인 수동 업그레이드가 필요합니다. 데이터 감지 UI 페이지 하단에 데이터 감지 버전이 표시됩니다. 를 확인하십시오 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="6f82a28c992c99e70ccdf6d600627f19" category="inline-link-rx"></block> 및 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>.</block>
   <block id="dcdba57692d95c33c15bffffceb6357c" category="paragraph">오프라인 온-프레미스 사이트에 커넥터가 아직 설치되어 있지 않은 경우<block ref="c356cb96564d1aac144adbd1ad0f2ab1" category="inline-link-rx"></block> 이제 Linux 호스트에서</block>
   <block id="89825cdcfb92068b90e1077fbbbe7eee" category="paragraph">오프라인 온-프레미스 사이트에 BlueXP Connector가 아직 설치되어 있지 않은 경우<block ref="c356cb96564d1aac144adbd1ad0f2ab1" category="inline-link-rx"></block> 오프라인 사이트의 Linux 호스트</block>
   <block id="6ad8560ca7a19d5d074930a230dc50fc" category="cell">500GiB SSD 켜짐/ 또는 * 100GiB를 /opt * 395GiB에서 사용 가능 /var * 5GiB에서 사용 가능 /tmp</block>
@@ -3367,4 +3350,12 @@
   <block id="e432b95f6293cbb473925a15a0256e7e" category="sidebar">BlueXP를 사용하여 클라우드에 데이터 센스를 배포합니다</block>
   <block id="9c32f683e0ed7bb8df9d2a568f69fa40" category="sidebar">인터넷이 있는 Linux 호스트에 데이터 센스를 설치합니다</block>
   <block id="57c34c9d64ebba8a9c190b93c373c389" category="sidebar">인터넷 없이 데이터 센스를 사내에 설치합니다</block>
+  <block id="57f460460036fcd7ebbf1fddeaa6a3a5" category="paragraph">아직 커넥터가 없으면 지금 연결선을 작성합니다. 을 참조하십시오<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block>,<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>, 또는<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>.</block>
+  <block id="5ca4cb8f47339ff01510457bdf20e71f" category="paragraph">Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다. 을 참조하십시오<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block> 또는<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>, 또는<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>. 대부분의 경우, 대부분의 경우 Cloud Data Sense를 활성화하려고 시도하기 전에 Connector를 설정했을 것입니다<block ref="d18edc1f87b2c25c3b9a75b33d4a162f" category="inline-link-rx"></block>하지만 지금 설정해야 하는 경우도 있습니다.</block>
+  <block id="fbed6fb019fa89ff5d9107f99377839f" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다<block ref="a4b2312bac71e1fcb5d5edc9dd08d5ef" category="inline-link-rx"></block> 네트워크 또는 클라우드의 Linux 호스트 데이터 센스를 사내에서 설치하려는 일부 사용자는 Connector를 온프레미스에 설치하도록 선택할 수도 있습니다.</block>
+  <block id="8b4cc0616cd3112ce97c78446249e336" category="inline-link-macro">대체 인스턴스 유형</block>
+  <block id="1829cfbbbae1424b4e04595f05f2c2ed" category="paragraph">AWS 환경의 BlueXP Connector에서 데이터 센스를 배포할 때 기본 인스턴스 크기를 선택하거나 두 개의 작은 인스턴스 유형 중에서 선택할 수 있습니다. <block ref="014512c6bb91f0e0099b18504a19e409" category="inline-link-macro-rx"></block>. 기본 인스턴스 유형을 사용할 수 없는 지역에서는 데이터 센스를 에서 실행합니다 <block ref="45910d58f60ef6c6ec6de81dc1fbd5cf" category="inline-link-macro-rx"></block>.</block>
+  <block id="2b8cbb70f44f3831d9e9d67800ebb915" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="239e282f4ba241974ca818753c648c59" category="inline-link-macro-rx"></block>.</block>
+  <block id="d102535383c097c61a0a9f0f424e371d" category="paragraph">현재 Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP, AWS S3 또는 Google Drive 스캔을 지원하지 않습니다. 데이터 센스를 어두운 사이트에 배포할 때 OneDrive 또는 SharePoint Online 계정</block>
+  <block id="e63a4e65f36778dd22d90e389565023a" category="paragraph">BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위해 정기적인 수동 업그레이드가 필요합니다. 데이터 감지 UI 페이지 하단에 데이터 감지 버전이 표시됩니다. 를 확인하십시오 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="79c1d81a19f6b89269470ecda07878e3" category="inline-link-rx"></block> 및 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>.</block>
 </blocks>

@@ -40,12 +40,6 @@ Data Sense 설치를 실행하는 것과 관계없이 Linux 시스템이 모든 
 
 
 
-=== 이제 Data Sense BYOL 라이센스가 다크 사이트에서 지원됩니다
-
-이제 Data Sense BYOL 라이센스를 다크 사이트의 Digital Wallet에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html#obtain-your-cloud-data-sense-license-file["Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오"].
-
-
-
 == 2023년 3월 7일(버전 1.21)
 
 

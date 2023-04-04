@@ -16,7 +16,7 @@ summary: 인터넷 액세스가 없는 사내 사이트의 Linux 호스트에 Da
 [role="lead"]
 인터넷 액세스가 없는 사내 사이트의 Linux 호스트에 Data Sense를 설치하려면 몇 가지 단계를 완료하십시오. 이러한 유형의 설치는 보안 사이트에 적합합니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 온프레미스 사이트에 데이터 센스를 구현합니다"].
+참고: 또한 이 기능을 사용할 수 있습니다 link:task-quick-start-connector-on-prem.html["인터넷에 액세스할 수 있는 온프레미스 사이트에 데이터 센스를 구현합니다"].
 
 Data Sense 설치 스크립트는 시스템 및 환경이 필수 사전 요구 사항을 충족하는지 확인하는 것으로 시작합니다. 필수 구성 요소가 모두 충족되면 설치가 시작됩니다. Data Sense 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다. link:task-test-linux-system.html["Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하는 방법을 확인하십시오"].
 
@@ -33,9 +33,7 @@ Data Sense 설치 스크립트는 시스템 및 환경이 필수 사전 요구 �
 * S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지
 
 
-매우 안전한 BlueXP 설치가 필요하지만 OneDrive 계정 또는 SharePoint Online 계정의 로컬 데이터도 스캔하려는 특수한 상황에서는 Data Sense 오프라인 설치 프로그램을 사용하여 몇 개의 선택 끝점에 대한 인터넷 액세스를 제공할 수 있습니다. 을 참조하십시오 <<SharePoint 및 OneDrive 특별 요구 사항,SharePoint 및 OneDrive 특별 요구 사항>> 를 참조하십시오.
-
-데이터 센스를 어두운 사이트에 구축한 경우 현재 Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP, AWS S3 또는 Google Drive 계정을 스캔할 수 없습니다.
+현재 Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP, AWS S3 또는 Google Drive 스캔을 지원하지 않습니다. 데이터 센스를 어두운 사이트에 배포할 때 OneDrive 또는 SharePoint Online 계정
 
 
 
@@ -50,7 +48,7 @@ Data Sense 설치 스크립트는 시스템 및 환경이 필수 사전 요구 �
 * 사용자 피드백을 받는 중입니다
 * BlueXP에서 소프트웨어 자동 업그레이드
 +
-BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위해 정기적인 수동 업그레이드가 필요합니다. 데이터 감지 UI 페이지 하단에 데이터 감지 버전이 표시됩니다. 를 확인하십시오 link:whats-new.html["클라우드 데이터 감지 릴리스 정보"] 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-in-a-location-without-internet-access["BlueXP 커넥터를 업그레이드합니다"^] 및 <<데이터 감지 소프트웨어를 업그레이드합니다,데이터 감지 소프트웨어를 업그레이드하십시오>>.
+BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위해 정기적인 수동 업그레이드가 필요합니다. 데이터 감지 UI 페이지 하단에 데이터 감지 버전이 표시됩니다. 를 확인하십시오 link:whats-new.html["클라우드 데이터 감지 릴리스 정보"] 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["BlueXP 커넥터를 업그레이드합니다"^] 및 <<데이터 감지 소프트웨어를 업그레이드합니다,데이터 감지 소프트웨어를 업그레이드하십시오>>.
 
 
 
@@ -207,26 +205,6 @@ Active Directory에 대한 정보가 있어야 합니다.
 
 |===
 데이터 소스를 스캔하기 위해 여러 개의 데이터 감지 호스트를 사용하는 경우 추가 포트/프로토콜을 활성화해야 합니다. link:task-deploy-compliance-dark-site.html#multi-host-installation-for-large-configurations["추가 포트 요구 사항을 참조하십시오"].
-
-
-
-== SharePoint 및 OneDrive 특별 요구 사항
-
-인터넷에 액세스할 수 없는 사이트에 BlueXP 및 데이터 센스를 배포하는 경우, 몇 개의 특정 엔드포인트에 대한 인터넷 액세스를 제공하여 SharePoint Online 및 OneDrive 계정의 파일을 검색할 수 있습니다.
-
-로컬로 설치된 SharePoint 온-프레미스 계정은 인터넷 액세스 없이 스캔할 수 있습니다.
-
-[cols="50,50"]
-|===
-| 엔드포인트 | 목적 
-
-
-| login.microsoft.com \graph.microsoft.com 으로 문의하십시오 | Microsoft 서버와 통신하여 선택한 온라인 서비스에 로그인합니다. 
-
-
-| https://api.bluexp.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
-|===
-이러한 외부 서비스에 처음 연결하는 동안에만 _api.bluexp.netapp.com_ 에 액세스해야 합니다.
 
 
 
