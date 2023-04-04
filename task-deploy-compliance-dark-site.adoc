@@ -18,6 +18,8 @@ summary: 인터넷 액세스가 없는 사내 사이트의 Linux 호스트에 Da
 
 참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 온프레미스 사이트에 데이터 센스를 구현합니다"].
 
+Data Sense 설치 스크립트는 시스템 및 환경이 필수 사전 요구 사항을 충족하는지 확인하는 것으로 시작합니다. 필수 구성 요소가 모두 충족되면 설치가 시작됩니다. Data Sense 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다. link:task-test-linux-system.html["Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하는 방법을 확인하십시오"].
+
 
 
 == 지원되는 데이터 소스
@@ -48,7 +50,7 @@ summary: 인터넷 액세스가 없는 사내 사이트의 Linux 호스트에 Da
 * 사용자 피드백을 받는 중입니다
 * BlueXP에서 소프트웨어 자동 업그레이드
 +
-BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위해 정기적인 수동 업그레이드가 필요합니다. 데이터 감지 UI 페이지 하단에 데이터 감지 버전이 표시됩니다. 를 확인하십시오 link:whats-new.html["클라우드 데이터 감지 릴리스 정보"] 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-on-prem-without-internet-access["BlueXP 커넥터를 업그레이드합니다"^] 및 <<데이터 감지 소프트웨어를 업그레이드합니다,데이터 감지 소프트웨어를 업그레이드하십시오>>.
+BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위해 정기적인 수동 업그레이드가 필요합니다. 데이터 감지 UI 페이지 하단에 데이터 감지 버전이 표시됩니다. 를 확인하십시오 link:whats-new.html["클라우드 데이터 감지 릴리스 정보"] 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-in-a-location-without-internet-access["BlueXP 커넥터를 업그레이드합니다"^] 및 <<데이터 감지 소프트웨어를 업그레이드합니다,데이터 감지 소프트웨어를 업그레이드하십시오>>.
 
 
 
@@ -60,7 +62,7 @@ BlueXP Connector와 데이터 센스 모두 새로운 기능을 사용하기 위
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] BlueXP 커넥터를 설치합니다
 [role="quick-margin-para"]
-오프라인 온-프레미스 사이트에 커넥터가 아직 설치되어 있지 않은 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["커넥터를 배포합니다"^] 이제 Linux 호스트에서
+오프라인 온-프레미스 사이트에 커넥터가 아직 설치되어 있지 않은 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["커넥터를 배포합니다"^] 이제 Linux 호스트에서
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] Data Sense 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
@@ -78,7 +80,7 @@ BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 �
 
 == BlueXP 커넥터를 설치합니다
 
-오프라인 온-프레미스 사이트에 BlueXP Connector가 아직 설치되어 있지 않은 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["커넥터를 배포합니다"^] 오프라인 사이트의 Linux 호스트
+오프라인 온-프레미스 사이트에 BlueXP Connector가 아직 설치되어 있지 않은 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["커넥터를 배포합니다"^] 오프라인 사이트의 Linux 호스트
 
 
 
@@ -93,13 +95,15 @@ Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사
 | 시스템 크기 | CPU | RAM(스왑 메모리는 비활성화 상태여야 함) | 디스크 
 
 
-| 대형 | CPU 16개 | 64GB RAM | /opt * 에서 500GB SSD 켜기/또는 * 100GB 사용 가능 * /var * 5GB에서 사용 가능 /tmp 
+ a| 
+* 대형 *
+| CPU 16개 | 64GB RAM | 500GiB SSD 켜짐/ 또는 * 100GiB를 /opt * 395GiB에서 사용 가능 /var * 5GiB에서 사용 가능 /tmp 
 
 
-| 중간 | CPU 8개 | 32GB RAM | /opt * 에서 200GB SSD 켜기/또는 * 50GB 사용 가능 * 145GB는 /var * 5GB에서 /tmp에 사용 가능 
+| * 중간 * | CPU 8개 | 32GB RAM | /opt-145GiB에서 사용 가능한 200GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다 
 
 
-| 작은 크기 | CPU 8개 | 16GB RAM | /opt * 에서 100GB SSD 켜짐/ 또는 * 50GB 사용 가능 * /var * 5GB에서 사용 가능 * /tmp에서 사용 가능 
+| * 소형 * | CPU 8개 | 16GB RAM | /opt-45GiB에서 사용 가능한 100GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다 
 |===
 +
 이러한 소형 시스템을 사용할 때는 제한 사항이 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
@@ -122,12 +126,9 @@ Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사
 ....
 firewall-cmd --permanent --add-service=http
 firewall-cmd --permanent --add-service=https
-firewall-cmd --permanent --add-service=mysql
 firewall-cmd --permanent --add-port=80/tcp
 firewall-cmd --permanent --add-port=8080/tcp
 firewall-cmd --permanent --add-port=443/tcp
-firewall-cmd --permanent --add-port=555/tcp
-firewall-cmd --permanent --add-port=3306/tcp
 firewall-cmd --reload
 ....
 +
@@ -398,8 +399,8 @@ Cloud Data Sense 설치 프로그램이 패키지 설치를 완료하고 설치�
 Data Sense 소프트웨어는 정기적으로 새로운 기능으로 업데이트되므로 정기적으로 새로운 버전을 확인하여 최신 소프트웨어와 기능을 사용하고 있는지 확인해야 합니다. 업그레이드를 자동으로 수행하기 위한 인터넷 연결이 없기 때문에 Data Sense 소프트웨어를 수동으로 업그레이드해야 합니다.
 
 .시작하기 전에
-* Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.18.x가 설치된 경우 1.19.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.
-* 온프레미스 커넥터 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-on-prem-without-internet-access["커넥터 업그레이드 단계를 참조하십시오"^].
+* Data Sense 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.20.x가 설치되어 있는 경우 1.21.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.
+* 온프레미스 커넥터 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-in-a-location-without-internet-access["커넥터 업그레이드 단계를 참조하십시오"^].
 
 
 .단계

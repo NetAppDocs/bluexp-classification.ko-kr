@@ -18,6 +18,8 @@ summary: 몇 가지 단계를 수행하여 인터넷에 액세스할 수 있는 
 
 온프레미스에 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 사내 설치가 좋은 옵션이 될 수 있지만, 이것이 요구사항은 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
 
+Data Sense 설치 스크립트는 시스템 및 환경이 필수 사전 요구 사항을 충족하는지 확인하는 것으로 시작합니다. 필수 구성 요소가 모두 충족되면 설치가 시작됩니다. Data Sense 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다. link:task-test-linux-system.html["Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하는 방법을 확인하십시오"].
+
 Linux 호스트 _ 의 일반적인 설치 방법은 다음과 같습니다.
 
 image:diagram_deploy_onprem_overview.png["필요한 BlueXP 및 네트워크 구성 요소 및 관련 연결의 다이어그램"]
@@ -38,10 +40,10 @@ image:diagram_deploy_onprem_cloud_instance.png["필요한 BlueXP 및 네트워�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 커넥터를 작성합니다
 [role="quick-margin-para"]
-커넥터가 없는 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트
+커넥터가 없는 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트
 
 [role="quick-margin-para"]
-또한 클라우드 공급자와 커넥터를 생성할 수도 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["GCP에서 커넥터를 생성하는 중입니다"^].
+또한 클라우드 공급자와 커넥터를 생성할 수도 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
@@ -64,7 +66,7 @@ BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 �
 
 데이터 센스를 설치하고 사용하려면 BlueXP 커넥터가 필요합니다. 대부분의 경우, 대부분의 경우 Cloud Data Sense를 활성화하려고 시도하기 전에 Connector를 설정했을 것입니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
 
-클라우드 공급자 환경에 하나를 생성하려면 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["GCP에서 커넥터를 생성하는 중입니다"^].
+클라우드 공급자 환경에 하나를 생성하려면 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^].
 
 특정 클라우드 공급자에 배포된 Connector를 사용해야 하는 몇 가지 시나리오가 있습니다.
 
@@ -78,9 +80,9 @@ Azure NetApp Files의 경우 스캔하려는 볼륨과 동일한 영역에 배�
 
 온프레미스 ONTAP 시스템, NetApp이 아닌 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스, OneDrive 폴더, SharePoint 계정, Google Drive 계정은 이러한 클라우드 커넥터를 사용하여 스캔할 수 있습니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Connector를 온-프레미스에 배포합니다"^] 네트워크 또는 클라우드의 Linux 호스트 데이터 센스를 사내에서 설치하려는 일부 사용자는 Connector를 온프레미스에 설치하도록 선택할 수도 있습니다.
+참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 데이터 센스를 사내에서 설치하려는 일부 사용자는 Connector를 온프레미스에 설치하도록 선택할 수도 있습니다.
 
-보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-to-use-multiple-connectors["다중 커넥터"].
+보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["다중 커넥터"].
 
 데이터 센스를 설치할 때 커넥터 시스템의 IP 주소 또는 호스트 이름이 필요합니다. 이 정보는 구내에 Connector를 설치한 경우 확인할 수 있습니다. Connector가 클라우드에 배포된 경우 BlueXP 콘솔에서 이 정보를 찾을 수 있습니다. 도움말 아이콘을 클릭하고 * 지원 * 을 선택한 다음 * BlueXP 커넥터 * 를 클릭합니다.
 
@@ -92,27 +94,31 @@ Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사
 
 클라우드 데이터 센스를 계속 운영할 수 있는지 확인하십시오. 데이터를 지속적으로 스캔하려면 Cloud Data Sense 장비가 계속 켜져 있어야 합니다.
 
-* 스캔하려는 데이터 세트의 크기에 따라 호스트 시스템을 세 가지 크기로 지정할 수 있습니다.
+* 온프레미스에서 호스트 시스템을 구축할 때 데이터 센스 스캔을 설정하려는 데이터 세트 크기에 따라 세 가지 시스템 크기 중 하나를 선택할 수 있습니다.
 +
 [cols="18,18,26,30"]
 |===
 | 시스템 크기 | CPU | RAM(스왑 메모리는 비활성화 상태여야 함) | 디스크 
 
 
-| 대형 | CPU 16개 | 64GB RAM | /opt * 에서 500GB SSD 켜기/또는 * 100GB 사용 가능 * /var * 5GB에서 사용 가능 /tmp 
+| * 대형 * | CPU 16개 | 64GB RAM | /opt-395GiB에서 사용 가능한 500GiB SSD 켜짐/, 또는 - 100GiB는 /var-5GiB에서 사용 가능 /tmp에서 사용 가능 
 
 
-| 중간 | CPU 8개 | 32GB RAM | /opt * 에서 200GB SSD 켜기/또는 * 50GB 사용 가능 * 145GB는 /var * 5GB에서 /tmp에 사용 가능 
+| * 중간 * | CPU 8개 | 32GB RAM | /opt-145GiB에서 사용 가능한 200GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다 
 
 
-| 작은 크기 | CPU 8개 | 16GB RAM | /opt * 에서 100GB SSD 켜짐/ 또는 * 50GB 사용 가능 * /var * 5GB에서 사용 가능 * /tmp에서 사용 가능 
+| * 소형 * | CPU 8개 | 16GB RAM | /opt-45GiB에서 사용 가능한 100GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다 
 |===
 +
 이러한 소형 시스템을 사용할 때는 제한 사항이 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
 
-* * AWS EC2 인스턴스 유형 *: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. 추천합니다 https://aws.amazon.com/ec2/instance-types/m5/["m5.4xLarge"^].
-* * Azure VM size *: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. 추천합니다 https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3"^].
-* * GCP 시스템 유형 *: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. 추천합니다 https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16"^].
+* Data Sense 설치를 위해 클라우드 인스턴스를 배포할 때 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
++
+** * AWS EC2 인스턴스 유형 *: "m6i.4xLarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^].
+** * Azure VM size *: "Standard_D16s_v3"을 권장합니다. link:reference-instance-types.html#azure-instance-types["추가 Azure 인스턴스 유형을 참조하십시오"^].
+** * GCP 시스템 유형 *: "n2-standard-16"을 권장합니다. link:reference-instance-types.html#gcp-instance-types["추가 GCP 인스턴스 유형을 참조하십시오"^].
+
+
 * * 운영 체제 *: Red Hat Enterprise Linux 또는 CentOS 버전 8.0 ~ 8.7
 +
 ** CentOS Stream 8도 지원됩니다
@@ -252,7 +258,7 @@ image:diagram_deploy_onprem_multi_host_internet.png["인터넷 액세스를 통�
 데이터 감지 소프트웨어로 업그레이드하는 것은 인스턴스에 인터넷 연결이 있는 한 자동으로 수행됩니다.
 
 
-NOTE: 소프트웨어가 사내에 설치된 경우 클라우드 데이터 센스에서 현재 Azure NetApp Files용 S3 버킷, ONTAP 또는 FSx를 스캔할 수 없습니다. 이 경우 클라우드 및 에 별도의 Connector와 데이터 센스의 인스턴스를 배포해야 합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-to-switch-between-connectors["커넥터 사이를 전환합니다"^] 다양한 데이터 소스에 대해
+NOTE: 소프트웨어가 사내에 설치된 경우 클라우드 데이터 센스에서 현재 Azure NetApp Files용 S3 버킷, ONTAP 또는 FSx를 스캔할 수 없습니다. 이 경우 클라우드 및 에 별도의 Connector와 데이터 센스의 인스턴스를 배포해야 합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["커넥터 사이를 전환합니다"^] 다양한 데이터 소스에 대해
 
 
 

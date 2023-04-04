@@ -27,6 +27,8 @@ sidebar:
         url: "/task-deploy-compliance-onprem.html"
       - title: 인터넷에 접속하지 않고 내부에 설치합니다
         url: "/task-deploy-compliance-dark-site.html"
+      - title: Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하십시오
+        url: "/task-test-linux-system.html"
     - title: 데이터 소스에서 스캔을 활성화합니다
       entries:
       - title: Cloud Volumes ONTAP와 온프레미스 ONTAP
@@ -91,6 +93,8 @@ sidebar:
       url: "/task-uninstall-data-sense.html"
   - title: 참조하십시오
     entries:
+    - title: 지원되는 데이터 감지 인스턴스 유형
+      url: "/reference-instance-types.html"
     - title: 데이터 소스에서 수집된 메타데이터
       url: "/reference-collected-metadata.html"
   - title: 지식 및 지원
@@ -109,11 +113,11 @@ homepage:
       url: concept-cloud-compliance.html
     - title: 새로운 기능
       url: whats-new.html
-    - title: 클라우드에 데이터 센스를 자동으로 배포합니다
+    - title: BlueXP를 사용하여 클라우드에 데이터 센스를 배포합니다
       url: task-deploy-cloud-compliance.html
-    - title: 인터넷을 통해 Linux 호스트에 데이터 센스를 배포합니다
+    - title: 인터넷이 있는 Linux 호스트에 데이터 센스를 설치합니다
       url: task-deploy-compliance-onprem.html
-    - title: 인터넷 없이 온프레미스에서 데이터 센스를 구축합니다
+    - title: 인터넷 없이 데이터 센스를 사내에 설치합니다
       url: task-deploy-compliance-dark-site.html
     - title: Active Directory 통합
       url: task-add-active-directory-datasense.html

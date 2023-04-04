@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: reference-instance-types.html 
+keywords: data sense, installation, deployment, instance, virtual machine, cpu, ram, memory, disk, capacity 
+summary: 'Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 클라우드에 데이터 센스를 구축할 때는 전체 기능을 위해 "대규모" 특성을 가진 시스템을 사용하는 것이 좋습니다.' 
+---
+= 지원되는 데이터 감지 인스턴스 유형
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 클라우드에 데이터 센스를 구축할 때는 전체 기능을 위해 "대규모" 특성을 가진 시스템을 사용하는 것이 좋습니다.
+
+CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있지만 이러한 덜 강력한 시스템을 사용할 때는 몇 가지 제한 사항이 있습니다. link:concept-cloud-compliance.html#using-a-smaller-instance-type["이러한 제한 사항에 대해 자세히 알아보십시오"^].
+
+다음 표에서 "기본값"으로 표시된 시스템을 Data Sense를 설치하는 영역에서 사용할 수 없는 경우 표의 다음 시스템이 배포됩니다.
+
+
+
+== AWS 인스턴스 유형
+
+[cols="20,30,25"]
+|===
+| 시스템 크기 | 사양 | 인스턴스 유형 
+
+
+| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xLarge"^] (기본값) m6a.4xLarge m5a.4xLarge m5.4xLarge m4.4xLarge 
+
+
+| 중간 | CPU 8개, 32GB RAM, 200GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.2xLarge"^] (기본값) m6a.2xLarge m5a.2xLarge m5.2xLarge m4.2xLarge 
+
+
+| 작은 크기 | CPU 8개, 16GB RAM, 100GiB SSD | https://aws.amazon.com/ec2/instance-types/c6a/["c6a.2xLarge"^] (기본값) C5A.2xLarge c5.2xLarge c4.2xLarge 
+|===
+
+
+== Azure 인스턴스 유형
+
+[cols="20,30,25"]
+|===
+| 시스템 크기 | 사양 | 인스턴스 유형 
+
+
+| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3"^] (기본값) 
+|===
+
+
+== GCP 인스턴스 유형
+
+[cols="20,30,25"]
+|===
+| 시스템 크기 | 사양 | 인스턴스 유형 
+
+
+| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16"^] (기본값) n2d-standard-16 n1-standard-16 
+|===

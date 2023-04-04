@@ -18,6 +18,34 @@ summary: 클라우드 데이터 센스의 새로운 기능에 대해 알아보�
 
 
 
+== 2023년 4월 3일(버전 1.22)
+
+
+
+=== 새로운 데이터 검색 평가 보고서
+
+데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 세트의 데이터 규정 준수 공백에 대한 인식을 높이는 것입니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-governance-data.html#data-discovery-assessment-report["데이터 검색 평가 보고서를 생성하고 사용하는 방법을 확인하십시오"].
+
+
+
+=== 클라우드의 더 작은 인스턴스에 데이터 센스를 구축할 수 있습니다
+
+AWS 환경의 BlueXP Connector에서 데이터 센스를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 작은 두 가지 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html#using-a-smaller-instance-type["사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오"].
+
+
+
+=== 이제 독립 실행형 스크립트를 사용하여 Linux 시스템이 Data Sense를 설치할 수 있는지 테스트할 수 있습니다
+
+Data Sense 설치를 실행하는 것과 관계없이 Linux 시스템이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-test-linux-system.html["Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하는 방법을 확인하십시오"].
+
+
+
+=== 이제 Data Sense BYOL 라이센스가 다크 사이트에서 지원됩니다
+
+이제 Data Sense BYOL 라이센스를 다크 사이트의 Digital Wallet에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html#obtain-your-cloud-data-sense-license-file["Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오"].
+
+
+
 == 2023년 3월 7일(버전 1.21)
 
 

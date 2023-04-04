@@ -119,6 +119,7 @@ Cloud Data Sense는 연결된 모든 소스에서 특정 파일 또는 데이터
 PCI DSS 보고서:: 파일 전체에서 신용 카드 정보의 배포를 식별하는 데 도움이 됩니다. link:task-generating-compliance-reports.html#pci-dss-report["자세한 정보"^].
 HIPAA 보고서:: 파일에 대한 상태 정보 배포를 식별하는 데 도움이 됩니다. link:task-generating-compliance-reports.html#hipaa-report["자세한 정보"^].
 데이터 매핑 보고서:: 작업 환경의 파일 크기 및 수에 대한 정보를 제공합니다. 여기에는 사용 용량, 데이터 사용 기간, 데이터 크기 및 파일 유형이 포함됩니다. link:task-controlling-governance-data.html#data-mapping-report["자세한 정보"^].
+데이터 검색 평가 보고서:: 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. link:task-controlling-governance-data.html#data-discovery-assessment-report["학습 모드"^].
 특정 정보 유형에 대한 보고서입니다:: 개인 데이터와 민감한 개인 데이터가 포함된 식별된 파일에 대한 세부 정보가 포함된 보고서를 사용할 수 있습니다. 범주 및 파일 유형별로 분류된 파일도 볼 수 있습니다. link:task-controlling-private-data.html["자세한 정보"^].
 
 
@@ -353,7 +354,7 @@ Connector는 클라우드 계정 또는 온프레미스 컴퓨팅 인스턴스�
 
 === 내 호스트에 커넥터를 배포할 수 있습니까?
 
-예. 가능합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Connector를 온-프레미스에 배포합니다"^] 네트워크 또는 클라우드의 Linux 호스트 온-프레미스에 데이터 센스를 배포하려는 경우 Connector를 온-프레미스에도 설치할 수 있지만 필요하지 않습니다.
+예. 가능합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 호스트 온-프레미스에 데이터 센스를 배포하려는 경우 Connector를 온-프레미스에도 설치할 수 있지만 필요하지 않습니다.
 
 
 
@@ -379,9 +380,9 @@ BlueXP를 사용하면 온프레미스, 클라우드 및 하이브리드 환경�
 
 시기 link:task-deploy-cloud-compliance.html["클라우드에 구축"]:
 
-* AWS에서 Cloud Data Sense는 500GB GP2 디스크가 있는 m5.4x대용량 인스턴스에서 실행됩니다.
-* Azure에서 클라우드 데이터 센스(Cloud Data Sense)는 512GB 디스크가 있는 Standard_D16s_v3 VM에서 실행됩니다.
-* GCP에서 Cloud Data Sense는 512GB의 표준 영구 디스크가 있는 n2-standard-16 VM에서 실행됩니다.
+* AWS에서 Cloud Data Sense는 500GiB GP2 디스크를 사용하는 m6i.4xLarge 인스턴스에서 실행됩니다. 배포 중에 더 작은 인스턴스 유형을 선택할 수 있습니다.
+* Azure에서 Cloud Data Sense는 500GiB 디스크를 사용하는 Standard_D16s_v3 VM에서 실행됩니다.
+* GCP에서 Cloud Data Sense는 500GiB 표준 영구 디스크를 갖춘 n2-standard-16 VM에서 실행됩니다.
 
 
 CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있지만 이러한 시스템을 사용할 때는 한계가 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
