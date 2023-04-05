@@ -24,7 +24,7 @@ Linux 호스트에 Data Sense를 수동으로 설치하기 전에 호스트에�
 
 다음 작업을 수행합니다.
 
-. 선택 사항. BlueXP 커넥터가 아직 설치되지 않은 경우 설치합니다. Connector를 설치하지 않고 테스트 스크립트를 실행할 수 있지만 스크립트는 Connector와 Data Sense 호스트 시스템 간의 연결을 검사하므로 Connector를 사용하는 것이 좋습니다.
+. BlueXP 커넥터가 아직 설치되지 않은 경우 설치할 수도 있습니다. Connector를 설치하지 않고 테스트 스크립트를 실행할 수 있지만 스크립트는 Connector와 Data Sense 호스트 시스템 간의 연결을 검사하므로 Connector를 사용하는 것이 좋습니다.
 . 호스트 시스템을 준비하고 모든 요구 사항을 충족하는지 확인합니다.
 . Data Sense 호스트 시스템에서 아웃바운드 인터넷 액세스를 활성화합니다.
 . 모든 시스템에서 필요한 포트가 활성화되어 있는지 확인합니다.
@@ -175,21 +175,23 @@ BlueXP는 HTTPS를 사용하여 ONTAP 클러스터를 검색합니다. 사용자
 
 
 .단계
-. 에서 Data Sense Prerequisites 스크립트를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * test_datasense_prerequisites_<version> * 입니다.
+. 에서 Data Sense Prerequisites 스크립트를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * standalone-pre-requised-tester-<version> * 입니다.
 . 사용할 Linux 호스트에 파일을 복사합니다(사용) `scp` 또는 다른 방법 참조).
 . 스크립트를 실행할 권한을 할당합니다.
 +
 [source, cli]
 ----
-chmod +x test_datasense_prerequisites_1_0
+chmod +x standalone-pre-requisite-tester-v1.21.0
 ----
 . 다음 명령을 사용하여 스크립트를 실행합니다.
 +
-./test_datasense_prerequisites_1_0&#8592; - 암사이트 &GT;
 [source, cli]
 ----
-Add the option "--darksite" only if you are running the script on a host that doesn't have internet access. Certain prerequisite tests are skipped when the host is not connected to the internet.
+ ./standalone-pre-requisite-tester-v1.21.0 <--darksite>
 ----
++
+인터넷 액세스가 없는 호스트에서 스크립트를 실행하는 경우에만 "--car사이트" 옵션을 추가합니다. 호스트가 인터넷에 연결되어 있지 않으면 특정 필수 구성 요소 테스트를 건너뜁니다.
+
 . 이 스크립트는 Data Sense 호스트 시스템의 IP 주소를 묻는 메시지를 표시합니다.
 +
 ** IP 주소 또는 호스트 이름을 입력합니다.
@@ -201,7 +203,7 @@ Add the option "--darksite" only if you are running the script on a host that do
 ** 커넥터가 설치된 경우 * Y * 를 입력합니다. 그런 다음 테스트 스크립트가 이 연결을 테스트할 수 있도록 BlueXP Connector의 IP 주소 또는 호스트 이름을 입력합니다.
 
 
-. 이 스크립트는 시스템에서 다양한 테스트를 실행하고 진행되면서 결과를 표시합니다. 작업이 완료되면 세션 로그를 파일에 씁니다.
+. 이 스크립트는 시스템에서 다양한 테스트를 실행하고 진행되면서 결과를 표시합니다. 작업이 완료되면 세션 로그를 라는 파일에 씁니다 `prerequisites-test-<timestamp>.log` 디렉토리에 있습니다 `/opt/netapp/install_logs`.
 
 
 .결과

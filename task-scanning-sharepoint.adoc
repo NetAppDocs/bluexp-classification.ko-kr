@@ -59,14 +59,11 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 
 이미 구축된 인스턴스가 없으면 Cloud Data Sense를 구축하십시오.
 
-* SharePoint Online의 경우 데이터 감지로 설정할 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드에 구축"^] 또는 link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 온-프레미스 위치에 설치됩니다"^].
-+
-데이터 센스도 가능합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 온프레미스 위치에 배포되었습니다"^]. 그러나 SharePoint Online 파일을 검색하려면 몇 개의 선택 끝점에 인터넷 액세스를 제공해야 합니다. link:task-deploy-compliance-dark-site.html#sharepoint-and-onedrive-special-requirements["필요한 엔드포인트 목록은 여기 를 참조하십시오"].
-
+* SharePoint Online의 경우 데이터 감지로 설정할 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드에 구축"^].
 * SharePoint 온-프레미스의 경우 데이터 센스를 설치할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^] 또는 link:task-deploy-compliance-dark-site.html["인터넷 액세스가 없는 온프레미스 위치"^].
 
 
-인터넷에 연결되지 않은 사이트에 Data Sense를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP Connector도 같은 사이트에 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["자세한 정보"^].
+인터넷에 연결되지 않은 사이트에 Data Sense를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP Connector도 같은 사이트에 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["자세한 정보"^].
 
 데이터 감지 소프트웨어로 업그레이드하는 것은 인스턴스에 인터넷 연결이 있는 한 자동으로 수행됩니다.
 
