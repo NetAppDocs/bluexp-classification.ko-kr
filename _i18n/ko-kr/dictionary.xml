@@ -1647,7 +1647,6 @@
   <block id="d685a618368fbb749c4b5bd0f35479c8" category="paragraph">인터넷을 통해 액세스할 수 있는 S3 오브젝트 스토리지에서 데이터를 스캔하는 경우 <block ref="c89857d519a71c77b0c6382714aad98b" category="inline-link-macro-rx"></block> 또는 <block ref="9a8e8d98e74c934eab8d1ee3d4303b8b" category="inline-link-macro-rx"></block>.</block>
   <block id="22f358540a8137fabaf166237bf90665" category="paragraph">데이터 주체의 전체 이름 또는 알려진 식별자를 검색한 다음 파일 목록 보고서 또는 DSAR 보고서를 다운로드합니다. 검색할 수 있는 기준 <block ref="15f0bc476b1c646a9bfee9ca0397f926" category="inline-link-macro-rx"></block>.</block>
   <block id="e71ab760e664227ced94c9da011b3457" category="paragraph">인터넷을 통해 액세스할 수 있는 비NetApp NFS 또는 CIFS 파일 공유를 스캔하는 경우 다음을 수행할 수 있습니다 <block ref="c89857d519a71c77b0c6382714aad98b" category="inline-link-macro-rx"></block> 또는 <block ref="9a8e8d98e74c934eab8d1ee3d4303b8b" category="inline-link-macro-rx"></block>.</block>
-  <block id="90a01f1462a77154d1dedbbcca2933fd" category="cell">또는 필요한 호스트 및 프록시 매개 변수 'sudo./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt;--host &lt;ds_host&gt;--manager -host &lt;cm_host&gt;--proxy-host &lt;proxy_host&gt;--proxy scheme -port &lt;proxy_port&gt; -proxy -proxy -proxy -dir'를 제공하여 전체 명령을 미리 생성할 수 있습니다</block>
   <block id="0a6dc77d8aa2ba619cb18a788482f78a" category="list-text">_ca_cert_dir_=추가 TLS CA 인증서 번들이 포함된 Data Sense Linux 시스템의 경로입니다. 프록시가 TLS 가로채기를 수행하는 경우에만 필요합니다.</block>
   <block id="48e1e343989571ace6bf404a680635d8" category="list-text">8단계에서 설명한 것처럼 설치 프로그램에서 메시지를 표시하면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.</block>
   <block id="6b356fe759d450cad6ec9f478a17a524" category="paragraph">예를 들어, 이 명령은 scanner 노드 3개를 추가합니다. sudo./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt;--host &lt;DS_host&gt;--manager -host &lt;cm_host&gt; * -n &lt;node_IP1&gt;, &lt;node_ip2&gt;, &lt;node_ip2&gt;, &lt;node_proxy scheme -proxy -proxy -proxy -host &lt; 프록시 포트 프록시 -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -port -proxy -proxy -host &lt;</block>
@@ -1698,7 +1697,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">기술 자료</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
@@ -2222,7 +2220,6 @@
   <block id="e722a863038d03a6b956233c29a8c9e6" category="summary">Cloud Data Sense는 BlueXP의 데이터 거버넌스 서비스로, 회사의 사내 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
   <block id="c62d988c2493270126de8287b22e76ac" category="paragraph">Cloud Data Sense는 BlueXP(이전의 Cloud Manager)를 위한 데이터 거버넌스 서비스로, 사내 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
   <block id="629fc635e3b0007019bd6fe0cb5a386c" category="list-text">파일에 사용자 지정 태그(예: "이동해야 함")를 추가하고 BlueXP 사용자를 할당하여 사용자가 파일 업데이트를 소유할 수 있도록 합니다.</block>
-  <block id="414779643224750f91153e1e93366d7b" category="list-text">Cloud Data Sense를 사용하려면 BlueXP 커넥터를 구축해야 합니다. BlueXP에서 사용 중인 다른 스토리지 및 서비스로 인해 이미 커넥터가 있는 경우가 많습니다. Connector 인스턴스를 사용하면 배포된 클라우드 공급자가 비용을 청구합니다. 를 참조하십시오<block ref="afb51f96ab234eaf32dde49b48eed419" category="inline-link-rx"></block>. 커넥터를 온프레미스 시스템에 설치하는 경우 비용이 들지 않습니다.</block>
   <block id="81cfe398dd170f2b6299e94974778f0e" category="paragraph">클라우드에 Data Sense를 배포할 때 BlueXP는 Connector와 동일한 서브넷에 인스턴스를 배포합니다.<block ref="5ef86a9d91601df9732f9c29cb9efbcc" category="inline-link-rx"></block></block>
   <block id="77fffe47a015e5ea37a6ab2fa4a35417" category="inline-image-macro">클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 클라우드 데이터 감지 인스턴스를 보여 주는 다이어그램입니다.</block>
   <block id="dc915cc9eac06166fea2879d00829d05" category="paragraph"><block ref="dc915cc9eac06166fea2879d00829d05" category="inline-image-macro-rx" type="image"></block></block>
@@ -2863,7 +2860,6 @@
   <block id="fa5af203c1129bb563bbf7f09ad2de8e" category="paragraph">예. 정책 기능과 함께 정책이 결과를 반환하면 데이터를 보호하기 위한 알림을 받을 수 있도록 BlueXP 사용자(매일, 매주 또는 매월) 또는 기타 전자 메일 주소로 전자 메일 알림을 보낼 수 있습니다. 에 대해 자세히 알아보십시오 <block ref="52a90c0911f2be2601275d578a93ce51" category="inline-link-macro-rx"></block>.</block>
   <block id="ea2ae808e5bc26e70d719a3dccac3d1e" category="paragraph">을 참조하십시오<block ref="8035aa4e87ed378ff4c6d7c3151d4d34" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="6eab0919191c5c01e62f627bf1087393" category="inline-link">인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 배포합니다</block>
-  <block id="6d28e64b7f099ab45857b509a498709b" category="paragraph">예, 지원합니다. 가능합니다<block ref="f2a1fddcb7ac8b13f9cfca4e709c5455" category="inline-link-rx"></block>. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 데이터 센스를 사용하여 데이터를 검색할 수 있습니다.</block>
   <block id="6d1902eb0495d9d60f02e9146d0a091a" category="paragraph"><block ref="0ee4c43a6d75245009919f8e1767edb7" category="inline-link-rx"></block>.</block>
   <block id="33720bb7474c733a91f61445b2fe886d" category="paragraph"><block ref="919878f5ddd65e1ab5af9e84f9299a2f" category="inline-link-rx"></block>.</block>
   <block id="1bfc9901c2c53bbd2c3b887e04b0729a" category="inline-image-macro">태그 삭제 단추 위치의 스크린샷</block>
@@ -3066,7 +3062,6 @@
   <block id="115b1db268bc8066a2a6f9174de75f96" category="section-title">Linux 호스트에 데이터 센스를 설치합니다</block>
   <block id="983f3e7e80ab153851d8f5302ab019d5" category="list-text">클라우드에서 준비한 인스턴스나 온프레미스에서 준비한 인스턴스에 데이터 센스를 설치할 것인지에 따라 적절한 * 배포 * 버튼을 클릭하여 데이터 센스 설치를 시작하십시오.</block>
   <block id="bda678b1fb683a403f093f2555da8faf" category="list-text">Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사합니다(예:<block ref="a402a6c8a10b4c24d7596599c6dfb7db" prefix=" " category="inline-code"></block>)를 사용하여 텍스트 파일에 붙여 넣어 나중에 사용할 수 있습니다. 그런 다음 * 닫기 * 를 클릭하여 대화 상자를 닫습니다.</block>
-  <block id="e342bb199ba04c6458bcb1b1464f1d00" category="list-text">7단계에서 복사한 정보를 붙여 넣습니다.<block ref="924ff0749b2ad085d56d695be970e489" prefix=" " category="inline-code"></block></block>
   <block id="3aa548170d376264933f54bb0d2c3ad6" category="list-text">add_scanner_node 스크립트가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예:<block ref="7c95eda18e13e25941273928f0d149ba" prefix=" " category="inline-code"></block>)를 입력하고 텍스트 파일에 저장합니다.</block>
   <block id="8e477b6128906752f1b086a48c07fef7" category="list-text">관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예:<block ref="2478484d96d8c17b7752fd15d3b26f12" prefix=" " category="inline-code"></block>)를 입력하고 텍스트 파일에 저장합니다.</block>
   <block id="027400835e3f9c8cdefc405a8ee10cdf" category="list-text">클라우드 공급자의 마켓플레이스에서 이미 BlueXP PAYGO(pay-as-you-go) 구독을 구독한 경우 클라우드 데이터 센스(Cloud Data Sense)도 자동으로 구독됩니다. 다시 가입하지 않아도 됩니다.</block>
@@ -3111,7 +3106,6 @@
   <block id="f83c4bcfd59e89db53ef94672795f27e" category="list-text">데이터 검색 평가 보고서</block>
   <block id="751e20fca328bd3225d682d4b205d9c5" category="inline-link-macro">학습 모드</block>
   <block id="0333f704191273d1488987d5a5b4f277" category="list-text">스캔한 환경에 대한 상위 수준의 분석을 통해 시스템 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. <block ref="173502513bb309892de570fe58588c73" category="inline-link-macro-rx"></block>.</block>
-  <block id="e16a8819a9208b7412265960bc4c2f5a" category="paragraph">예. 가능합니다<block ref="cc74d10e9becb23436e4fcec6c3105c6" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 호스트 온-프레미스에 데이터 센스를 배포하려는 경우 Connector를 온-프레미스에도 설치할 수 있지만 필요하지 않습니다.</block>
   <block id="0d311bfa55b29c745c3728b0e7b6cab3" category="list-text">AWS에서 Cloud Data Sense는 500GiB GP2 디스크를 사용하는 m6i.4xLarge 인스턴스에서 실행됩니다. 배포 중에 더 작은 인스턴스 유형을 선택할 수 있습니다.</block>
   <block id="61625062dc49be0da13938045a1640a4" category="list-text">Azure에서 Cloud Data Sense는 500GiB 디스크를 사용하는 Standard_D16s_v3 VM에서 실행됩니다.</block>
   <block id="e390a9c964beab7ddd0a015c84e93ec7" category="list-text">GCP에서 Cloud Data Sense는 500GiB 표준 영구 디스크를 갖춘 n2-standard-16 VM에서 실행됩니다.</block>
@@ -3334,4 +3328,12 @@
   <block id="01d6446c1a0e718244e8769f68a304fb" category="list-text">에서 Data Sense Prerequisites 스크립트를 다운로드합니다<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>. 선택해야 하는 파일의 이름은 * standalone-pre-requised-tester-&lt;version&gt; * 입니다.</block>
   <block id="b4628b43616bed69627de3b91fe817d0" category="paragraph">인터넷 액세스가 없는 호스트에서 스크립트를 실행하는 경우에만 "--car사이트" 옵션을 추가합니다. 호스트가 인터넷에 연결되어 있지 않으면 특정 필수 구성 요소 테스트를 건너뜁니다.</block>
   <block id="1bb79e71fe1463a15c91ab711e20a6ac" category="list-text">이 스크립트는 시스템에서 다양한 테스트를 실행하고 진행되면서 결과를 표시합니다. 작업이 완료되면 세션 로그를 라는 파일에 씁니다<block ref="7bca4c3da1c027ba15644b115a5e9fd9" prefix=" " category="inline-code"></block> 디렉토리에 있습니다<block ref="8a788ac11c9bfeaba837d43d9090ac97" prefix=" " category="inline-code"></block>.</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="eb3bdf0b7aac80b1f97cd34fc71c87f8" category="paragraph">예. 가능합니다<block ref="865e4f422286702c9ac14f7eed7c1673" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 호스트 온-프레미스에 데이터 센스를 배포하려는 경우 Connector를 온-프레미스에도 설치할 수 있지만 필요하지 않습니다.</block>
+  <block id="8148d2ccf2e90b3a488adbab294ab6e5" category="paragraph">예, 지원합니다. 가능합니다<block ref="c8cfdd4dd29b4c7bb16d619ba3830694" category="inline-link-rx"></block>. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 데이터 센스를 사용하여 데이터를 검색할 수 있습니다.</block>
+  <block id="b9aa85ae94468e2664d2d1b13a1368b2" category="list-text">Cloud Data Sense를 사용하려면 BlueXP 커넥터를 구축해야 합니다. BlueXP에서 사용 중인 다른 스토리지 및 서비스로 인해 이미 커넥터가 있는 경우가 많습니다. Connector 인스턴스를 사용하면 배포된 클라우드 공급자가 비용을 청구합니다. 를 참조하십시오<block ref="c0edd1cbca522cb267ceeda5d00aace3" category="inline-link-rx"></block>. 커넥터를 온프레미스 시스템에 설치하는 경우 비용이 들지 않습니다.</block>
+  <block id="5f2318cc261d90be3fcc5f4c7cc873c8" category="list-text">7단계에서 복사한 명령을 붙여 넣습니다.<block ref="924ff0749b2ad085d56d695be970e489" prefix=" " category="inline-code"></block></block>
+  <block id="388579bd3749a8791992636cbe6fcba2" category="paragraph">구내에 설치하지 않고 클라우드 인스턴스에 설치하는 경우 를 추가합니다<block ref="8a51c007faa66fa433403fdda9b5aea8" prefix=" " category="inline-code"></block>.</block>
+  <block id="6da4fe596757430b3c8aac2020ced6c0" category="cell">또는 필요한 호스트 및 프록시 매개 변수를 제공하여 전체 명령을 미리 생성할 수도 있습니다.<block ref="dd2499ea1a73d24df83008235f503dbc" prefix=" " category="inline-code"></block></block>
+  <block id="652d29fc9fdc8e0b507bb9eeecca952e" category="list-text">_cloud_provider_= 클라우드 인스턴스에 설치할 때 클라우드 공급자에 따라 "AWS", "Azure" 또는 "GCP"를 입력하십시오.</block>
 </blocks>

@@ -309,13 +309,17 @@ image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 
 
 
  a| 
-.. 7단계에서 복사한 정보를 붙여 넣습니다.
+.. 7단계에서 복사한 명령을 붙여 넣습니다.
 `sudo ./install.sh -a <account_id> -c <agent_id> -t <token>`
++
+구내에 설치하지 않고 클라우드 인스턴스에 설치하는 경우 를 추가합니다 `--manual-cloud-install <cloud_provider>`.
+
 .. Connector 인스턴스에서 액세스할 수 있도록 Data Sense 호스트 시스템의 IP 주소 또는 호스트 이름을 입력합니다.
 .. Data Sense 인스턴스에서 액세스할 수 있도록 BlueXP Connector 호스트 시스템의 IP 주소 또는 호스트 이름을 입력합니다.
 .. 메시지가 나타나면 프록시 세부 정보를 입력합니다. BlueXP Connector가 이미 프록시를 사용하고 있는 경우 데이터 센스에서 Connector에 사용되는 프록시를 자동으로 사용하기 때문에 이 정보를 다시 입력할 필요가 없습니다.
 
-| 또는 필요한 호스트 및 프록시 매개 변수 'sudo./install.sh -a <account_id> -c <agent_id> -t <token>--host <ds_host>--manager -host <cm_host>--proxy-host <proxy_host>--proxy scheme -port <proxy_port> -proxy -proxy -proxy -dir'를 제공하여 전체 명령을 미리 생성할 수 있습니다 
+| 또는 필요한 호스트 및 프록시 매개 변수를 제공하여 전체 명령을 미리 생성할 수도 있습니다.
+`sudo ./install.sh -a <account_id> -c <agent_id> -t <token> --host <ds_host> --manager-host <cm_host> --manual-cloud-install <cloud_provider> --proxy-host <proxy_host> --proxy-port <proxy_port> --proxy-scheme <proxy_scheme> --proxy-user <proxy_user> --proxy-password <proxy_password> --cacert-folder-path <ca_cert_dir>` 
 |===
 +
 변수 값:
@@ -326,6 +330,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 
 ** _token_= JWT 사용자 토큰
 ** _DS_HOST_= Data Sense Linux 시스템의 IP 주소 또는 호스트 이름입니다.
 ** _cm_host_= BlueXP 커넥터 시스템의 IP 주소 또는 호스트 이름입니다.
+** _cloud_provider_= 클라우드 인스턴스에 설치할 때 클라우드 공급자에 따라 "AWS", "Azure" 또는 "GCP"를 입력하십시오.
 ** _proxy_host_= 호스트가 프록시 서버 뒤에 있는 경우 프록시 서버의 IP 또는 호스트 이름입니다.
 ** _proxy_port_= 프록시 서버에 연결할 포트(기본값 80).
 ** _proxy_scheme_= 연결 체계: https 또는 http(기본값 http).
