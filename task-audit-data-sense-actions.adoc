@@ -54,7 +54,7 @@ Data Sense 감사 로그 파일의 내용을 보거나 다운로드하여 어떤
 
 관리 감사 로그 파일은 데이터 감지 시스템의 다음 위치에 있습니다. `/opt/netapp/audit_logs/`
 
-설치 감사 로그 파일은 에 기록됩니다 `/ops/netapp/install_logs`
+설치 감사 로그 파일은 에 기록됩니다 `/opt/netapp/install_logs/`
 
 각 로그 파일의 크기는 최대 10MB입니다. 이 제한에 도달하면 새 로그 파일이 시작됩니다. 로그 파일의 이름은 "DataSense_audit.log", "DataSense_audit.log.1", "DataSense_audit.log.2" 등으로 지정됩니다. 최대 100개의 로그 파일이 시스템에 보존되며, 최대 용량에 도달하면 이전 로그 파일이 자동으로 삭제됩니다.
 

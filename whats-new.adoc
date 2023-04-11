@@ -34,7 +34,7 @@ AWS 환경의 BlueXP Connector에서 데이터 센스를 배포할 때 이제 �
 
 
 
-=== 이제 독립 실행형 스크립트를 사용하여 Linux 시스템이 Data Sense를 설치할 수 있는지 테스트할 수 있습니다
+=== 이제 Data Sense를 설치하기 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다
 
 Data Sense 설치를 실행하는 것과 관계없이 Linux 시스템이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-test-linux-system.html["Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하는 방법을 확인하십시오"].
 
@@ -419,27 +419,3 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-
 === 이제 글로벌 Active Directory 서버가 LDAP 서버가 될 수 있습니다
 
 Data Sense와 통합하는 글로벌 Active Directory 서버는 이제 이전에 지원되는 DNS 서버 외에도 LDAP 서버가 될 수 있습니다. link:task-add-active-directory-datasense.html["자세한 내용을 보려면 여기를 클릭하십시오"].
-
-
-
-== 2022년 3월 15일(버전 1.10.0)
-
-
-
-=== 새 필터 - 특정 사용자 또는 그룹에 읽기 또는 쓰기 권한이 있는 파일을 표시합니다
-
-"사용자/그룹 권한"이라는 새 필터가 추가되어 특정 사용자 또는 그룹에 읽기 및/또는 쓰기 권한이 있는 파일을 나열할 수 있습니다. 하나 이상의 사용자 및/또는 그룹 이름을 선택하거나 부분 이름을 입력할 수 있습니다. 이 기능은 Cloud Volumes ONTAP, 온프레미스 ONTAP, Azure NetApp Files, ONTAP용 Amazon FSx 및 파일 공유의 볼륨에 사용할 수 있습니다.
-
-
-
-=== Data Sense는 SharePoint 및 OneDrive 계정의 파일에 대한 사용 권한을 결정할 수 있습니다
-
-Data Sense는 지금 OneDrive 계정 및 SharePoint 계정에서 스캔되는 파일에 대한 사용 권한을 읽을 수 있습니다. 이 정보는 파일에 대한 조사 창 세부 정보와 거버넌스 대시보드의 열기 권한 영역에 표시됩니다.
-
-
-
-=== 데이터 센스로 두 가지 유형의 개인 데이터를 추가로 식별할 수 있습니다
-
-* 프랑스어 INSEE - INSEE 코드는 프랑스 통계 및 경제 연구(INSEE)에서 다양한 엔터티를 식별하기 위해 사용하는 숫자 코드입니다.
-* 암호 - 이 정보는 영숫자 문자열 옆에 있는 "password"라는 단어의 변이를 찾아 근접 유효성 검사를 통해 식별됩니다. 찾은 항목 수는 규정 준수 대시보드의 "개인 결과" 아래에 나열됩니다. 검색 창에서 Filter * Personal Data > Password * 를 사용하여 암호가 포함된 파일을 검색할 수 있습니다.
-

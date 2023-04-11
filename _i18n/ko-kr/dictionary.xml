@@ -526,9 +526,6 @@
   <block id="21118277527dde4297826bff350dbf36" category="admonition">Active Directory 자격 증명은 첫 번째 CIFS DP 볼륨의 스토리지 VM에만 등록되므로 해당 SVM의 모든 DP 볼륨이 검사됩니다. 다른 SVM에 상주하는 볼륨에 Active Directory 자격 증명이 등록되지 않으므로 DP 볼륨이 검색되지 않습니다.</block>
   <block id="9ef6e09ad71e21ce8a2bf770f33d9a48" category="summary">클라우드 데이터 센스의 새로운 기능에 대해 알아보십시오.</block>
   <block id="5eb06296e8f3d6ac67a2567f14c49b55" category="doc">클라우드 데이터 센스의 새로운 기능</block>
-  <block id="c23f592529f8db7551eafe3830b6427a" category="paragraph">Data Sense는 지금 OneDrive 계정 및 SharePoint 계정에서 스캔되는 파일에 대한 사용 권한을 읽을 수 있습니다. 이 정보는 파일에 대한 조사 창 세부 정보와 거버넌스 대시보드의 열기 권한 영역에 표시됩니다.</block>
-  <block id="d431283363f0e868742391138a4ffbd0" category="list-text">프랑스어 INSEE - INSEE 코드는 프랑스 통계 및 경제 연구(INSEE)에서 다양한 엔터티를 식별하기 위해 사용하는 숫자 코드입니다.</block>
-  <block id="7457180e95a424d146842587474ec483" category="list-text">암호 - 이 정보는 영숫자 문자열 옆에 있는 "password"라는 단어의 변이를 찾아 근접 유효성 검사를 통해 식별됩니다. 찾은 항목 수는 규정 준수 대시보드의 "개인 결과" 아래에 나열됩니다. 검색 창에서 Filter * Personal Data &gt; Password * 를 사용하여 암호가 포함된 파일을 검색할 수 있습니다.</block>
   <block id="dc188738e6cc2e9f8314e1b95f18ebfd" category="inline-link">NetApp Cloud Sync를 참조하십시오</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">자세한 정보</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link-macro">방법을 확인하십시오</block>
@@ -1660,9 +1657,6 @@
   <block id="f887e54f519cc35b4741120230ac9d1a" category="paragraph">Classification_area는 가장 많이 식별된 목록을 제공합니다 <block ref="b823fa31d5dec268aaa19a8828bf34fe" category="inline-link-macro-rx"></block>, <block ref="336d27c782a82199a3380deae5570591" category="inline-link-macro-rx"></block>, 및 <block ref="8376771def5b60bb1cfdd0dc180ae5cc" category="inline-link-macro-rx"></block> 스캔 데이터.</block>
   <block id="e661d5c04d5948d390d622ba88bdcc6b" category="section-title">네 가지 새로운 유형의 호주 개인 데이터는 데이터 센스로 식별할 수 있습니다</block>
   <block id="0387123627dfe002c7435c0101983f19" category="section-title">이제 글로벌 Active Directory 서버가 LDAP 서버가 될 수 있습니다</block>
-  <block id="6c0e8ed69caed245f57b7b8ac8246fff" category="section-title">새 필터 - 특정 사용자 또는 그룹에 읽기 또는 쓰기 권한이 있는 파일을 표시합니다</block>
-  <block id="6bcf3eec310c41993f38eea54e01a446" category="section-title">Data Sense는 SharePoint 및 OneDrive 계정의 파일에 대한 사용 권한을 결정할 수 있습니다</block>
-  <block id="6f7f4b2d525b7b8ad22c1d283e4b195e" category="section-title">데이터 센스로 두 가지 유형의 개인 데이터를 추가로 식별할 수 있습니다</block>
   <block id="5d7ec019a090d19805ff8b8708516943" category="paragraph">Data Sense 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 다른 애플리케이션과 공유되는 호스트에서는 데이터 센스를 지원하지 않습니다. 호스트는 전용 호스트여야 합니다.</block>
   <block id="7d3786abf2ebb473a5ba70b680734525" category="section-title">BYOL 라이센스 고려사항</block>
   <block id="e95058755e821bf6cb439e37f1f068d7" category="list-text">스캔 중인 데이터의 양이 라이센스 용량의 80%에 도달한 경우, 제한에 도달하면 다시 한 번 표시됩니다</block>
@@ -1762,7 +1756,6 @@
   <block id="9e4e3d73f23809aabccd30c3abe0f99f" category="list-text">“디렉터리 유형” 필터를 사용하면 폴더 또는 공유만 볼 수 있도록 데이터를 구체화할 수 있습니다. 결과는 새 * 디렉터리 * 탭에 표시됩니다.</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오</block>
   <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>.</block>
-  <block id="fca7f51b54fee8b38e01607def214d88" category="paragraph">"사용자/그룹 권한"이라는 새 필터가 추가되어 특정 사용자 또는 그룹에 읽기 및/또는 쓰기 권한이 있는 파일을 나열할 수 있습니다. 하나 이상의 사용자 및/또는 그룹 이름을 선택하거나 부분 이름을 입력할 수 있습니다. 이 기능은 Cloud Volumes ONTAP, 온프레미스 ONTAP, Azure NetApp Files, ONTAP용 Amazon FSx 및 파일 공유의 볼륨에 사용할 수 있습니다.</block>
   <block id="9f2913099fea83e0f323c9eaa2647551" category="inline-link-macro">Data Sense에서 전체 SharePoint 계정을 삭제합니다</block>
   <block id="22653e7e1ce41c78cecfefd77069565b" category="paragraph">참고: 이 작업은 수행할 수 있습니다 <block ref="b445b66eb7994fc8803d57fcbaaa50f1" category="inline-link-macro-rx"></block> SharePoint 계정에서 사용자 데이터를 더 이상 검색하지 않으려는 경우</block>
   <block id="3115aebdd180a7f37b3394bf8996ca30" category="list-text">현재 30MB를 초과하는 파일의 레이블은 변경할 수 없습니다. OneDrive, SharePoint 및 Google Drive 계정의 경우 최대 파일 크기는 4MB입니다.</block>
@@ -1899,7 +1892,6 @@
   <block id="360d69dcc915fa54a4ac5faccbaf2127" category="section-title">2022년 6월 12일(버전 1.13.1)</block>
   <block id="2dd4f685f001cb4e6c0149956ba4a997" category="section-title">2022년 5월 11일(버전 1.12.1)</block>
   <block id="07de9e897e96f5f63e0778d691b62d59" category="section-title">2022년 4월 5일(버전 1.11.1)</block>
-  <block id="2d2a847fccc748834cee74d3441a948b" category="section-title">2022년 3월 15일(버전 1.10.0)</block>
   <block id="fae289ef9204f7c3119e084615a6d53f" category="list-text">정부 지역 또는 인터넷 액세스가 없는 온프레미스 위치(어두운 사이트라고도 함)에 Data Sense를 배포한 경우에는 AIP 레이블 기능을 사용할 수 없습니다.</block>
   <block id="49346bec66601a23d58acfc71f396d3f" category="list-text">Azure NetApp Files의 경우 스캔하려는 볼륨과 동일한 영역에 배포해야 합니다.</block>
   <block id="b39e81db6545fcc5e2567ec3c6930540" category="section-title">정부 지역 지원</block>
@@ -3035,7 +3027,6 @@
   <block id="50e1c7a3a999563d022a15104bfe9af7" category="summary">Data Sense는 모든 작업 환경의 파일에 대해 수행된 관리 작업과 데이터 센스에서 스캐닝하고 있는 데이터 소스를 기록합니다. 또한 Data Sense는 데이터 감지 인스턴스를 구축할 때의 작업도 기록합니다.</block>
   <block id="c51565229a51d72034c1622ea299b5e3" category="paragraph">Data Sense 감사 로그 파일의 내용을 보거나 다운로드하여 어떤 파일 변경이 언제 발생했는지 확인할 수 있습니다. 예를 들어, 어떤 요청이 실행되었는지, 요청 시간, 파일이 삭제된 경우 소스 위치 등의 세부 정보 또는 파일이 이동된 경우 소스 및 대상 위치를 확인할 수 있습니다.</block>
   <block id="7ddc3d159536f20b25489b34580e5713" category="paragraph">관리 감사 로그 파일은 데이터 감지 시스템의 다음 위치에 있습니다.<block ref="737f0a89396f6d78b87820109de683eb" prefix=" " category="inline-code"></block></block>
-  <block id="2eb3b1a195ce77ea7e59b84ba423818c" category="paragraph">설치 감사 로그 파일은 에 기록됩니다<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block></block>
   <block id="8193e38e933656edf000dbf251568d4d" category="list-text">오른쪽의 서비스 창에서 * 분류 * 옆에 있는 * 활성화 * 를 클릭합니다.</block>
   <block id="f00fdbf27f97ee0ee538742a5e7ed0ce" category="paragraph"><block ref="f00fdbf27f97ee0ee538742a5e7ed0ce" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6d59c0bcfa7b74d31dfcf319aed7bc81" category="paragraph"><block ref="6d59c0bcfa7b74d31dfcf319aed7bc81" category="inline-image-macro-rx" type="image"></block></block>
@@ -3271,7 +3262,6 @@
   <block id="a2f7db2af3b89cce9c368f52089406c7" category="paragraph">데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 세트의 데이터 규정 준수 공백에 대한 인식을 높이는 것입니다.<block ref="9ad86f8b2d35a79c635fcc2e2795f8e1" category="inline-link-rx"></block>.</block>
   <block id="67778bfe57cf94d953dd530babc8df46" category="section-title">클라우드의 더 작은 인스턴스에 데이터 센스를 구축할 수 있습니다</block>
   <block id="34590974cfa4c7d3c4258641c30ef959" category="paragraph">AWS 환경의 BlueXP Connector에서 데이터 센스를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 작은 두 가지 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다.<block ref="98ea36794454fcb53d0ac9a791bd6948" category="inline-link-rx"></block>.</block>
-  <block id="914d653aae79118a23517243079b88cb" category="section-title">이제 독립 실행형 스크립트를 사용하여 Linux 시스템이 Data Sense를 설치할 수 있는지 테스트할 수 있습니다</block>
   <block id="374deadc3a3b7f52c668078795f75e3a" category="inline-link">Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하는 방법을 확인하십시오</block>
   <block id="04659fbbded99230220bc3321874622f" category="paragraph">Data Sense 설치를 실행하는 것과 관계없이 Linux 시스템이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다.<block ref="721973ab191f916be1f3432f173ac838" category="inline-link-rx"></block>.</block>
   <block id="6858940dfbd3de02768877bc5d1ef613" category="paragraph">데이터 센스(Data Sense)는 하루에 한 번씩 데이터베이스를 검색합니다. 다른 데이터 소스처럼 데이터베이스가 지속적으로 스캔되지 않습니다.</block>
@@ -3336,4 +3326,6 @@
   <block id="388579bd3749a8791992636cbe6fcba2" category="paragraph">구내에 설치하지 않고 클라우드 인스턴스에 설치하는 경우 를 추가합니다<block ref="8a51c007faa66fa433403fdda9b5aea8" prefix=" " category="inline-code"></block>.</block>
   <block id="6da4fe596757430b3c8aac2020ced6c0" category="cell">또는 필요한 호스트 및 프록시 매개 변수를 제공하여 전체 명령을 미리 생성할 수도 있습니다.<block ref="dd2499ea1a73d24df83008235f503dbc" prefix=" " category="inline-code"></block></block>
   <block id="652d29fc9fdc8e0b507bb9eeecca952e" category="list-text">_cloud_provider_= 클라우드 인스턴스에 설치할 때 클라우드 공급자에 따라 "AWS", "Azure" 또는 "GCP"를 입력하십시오.</block>
+  <block id="9e7ff0af4669feb5e45b838a89143e27" category="paragraph">설치 감사 로그 파일은 에 기록됩니다<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block></block>
+  <block id="c1fe7e1d533d99b367d348052b2d15b2" category="section-title">이제 Data Sense를 설치하기 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다</block>
 </blocks>
