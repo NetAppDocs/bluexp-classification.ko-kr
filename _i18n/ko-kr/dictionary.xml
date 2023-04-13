@@ -713,8 +713,6 @@
   <block id="7a833d41d59abd430a8a21760722d14a" category="paragraph"><block ref="57d1ac548ab885ff197c8b0634f5bdfc" category="inline-link-macro-rx"></block>.</block>
   <block id="551187f69bb192d7df69d2113a8acac4" category="admonition">Cloud Data Sense 인스턴스를 완전히 제거하려면 클라우드 공급자의 포털 또는 사내 위치에서 Data Sense 인스턴스를 수동으로 제거해야 합니다.</block>
   <block id="ae64bece015f15eb39e95575c833f8d3" category="section-title">ONTAP 볼륨에서 데이터 계층화가 활성화된 경우 어떻게 됩니까?</block>
-  <block id="2de4e78513aa5bfeb890fe4ddc3ec775" category="paragraph">콜드 데이터를 오브젝트 스토리지에 계층하는 ONTAP 시스템에서 클라우드 데이터 센스를 활성화할 수도 있습니다. 데이터 계층화가 활성화된 경우 데이터 센스(Data Sense)는 디스크에 있는 데이터와 오브젝트 스토리지에 대한 콜드 데이터 등 모든 데이터를 검색합니다.</block>
-  <block id="7245782d4f1eb0db394d9f1f8ae02b2c" category="paragraph">규정 준수 검사에서는 콜드 데이터를 가열하지 않으며 오브젝트 스토리지까지 차갑게 유지됩니다.</block>
   <block id="a7865b20d9097d32d555ae9b2251ef31" category="section-title">Cloud Data Sense는 내 조직에 알림을 전송할 수 있습니까?</block>
   <block id="0a351d661588dd9301518a85a687c4dc" category="paragraph">또한 조직에서 내부적으로 공유할 수 있는 관리 페이지 및 조사 페이지에서 상태 보고서를 다운로드할 수도 있습니다.</block>
   <block id="eab4d10a40c49ac7fa1a3daf5756345e" category="paragraph">클라우드 데이터 센스를 통해 즉각적인 데이터 인사이트를 얻을 수 있습니다. 이러한 통찰력을 추출하여 조직의 요구에 활용할 수 있습니다.</block>
@@ -1512,14 +1510,12 @@
   <block id="d027b079c3ea3f4ab6dd99923ea9e615" category="list-text">* DSAR 보고서 다운로드 *: 데이터 주체에 전송할 수 있는 액세스 요청에 대한 공식 응답입니다. 이 보고서에는 데이터 주제에 대해 Cloud Data Sense에서 찾을 수 있고 템플릿으로 사용하도록 설계된 데이터를 기반으로 자동으로 생성된 정보가 포함됩니다. 양식을 작성하여 내부적으로 검토한 후 데이터 제목으로 보내야 합니다.</block>
   <block id="45c652234dbe5a9ab1456e9185eb8770" category="list-text">* 결과 조사 *: 특정 파일에 대한 세부 정보를 검색, 정렬, 확장하고 파일 목록을 다운로드하여 데이터를 조사할 수 있는 페이지입니다.</block>
   <block id="da4fc4e9038590549f810ab20ac23f1d" category="admonition">10,000개가 넘는 결과가 있을 경우 파일 목록에 최상위 10,000개만 표시됩니다.</block>
-  <block id="62833e4a62aecb06bdb2de4d651190fb" category="summary">Cloud Data Sense는 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별하는 데이터 거버넌스 서비스입니다.</block>
   <block id="c0554a6d8deefa28ad0d9e99455a69f7" category="doc">클라우드 데이터 감지 설명서</block>
   <block id="693cf3d80468cadd83e6ff4a1ef6638d" category="summary">Cloud Data Sense를 사용하여 NetApp이 아닌 NFS 또는 CIFS 파일 공유 스캔을 시작하려면 몇 가지 단계를 완료하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.</block>
   <block id="8b30b43b2d32f52db456a78f120bec50" category="paragraph">CIFS(SMB) 공유의 경우 공유를 액세스할 수 있는 자격 증명이 있는지 확인합니다.</block>
   <block id="d2ea2bf943bb8c943367ebfd6b8aec96" category="paragraph">그룹은 검사할 파일 공유의 컨테이너이며 해당 파일 공유의 작업 환경 이름으로 사용됩니다.</block>
   <block id="925a5b3d46766546e19dbce83a2fefb6" category="paragraph">스캔할 파일 공유 목록을 추가하고 스캔 유형을 선택합니다. 한 번에 최대 100개의 파일 공유를 추가할 수 있습니다.</block>
   <block id="6f1739c829744e6585dc123d746a9106" category="section-title">파일 공유 요구 사항 검토</block>
-  <block id="2f01eae5e8c5b9452e84210106577138" category="list-text">공유는 클라우드 또는 온프레미스 등 어디서나 호스팅할 수 있습니다. 이는 타사 스토리지 시스템에 상주하는 파일 공유입니다.</block>
   <block id="8b1b8390e7a987a1d682e70703508660" category="list-text">Data Sense 인스턴스와 공유 사이에 네트워크 연결이 있어야 합니다.</block>
   <block id="8e4ba18b85274d135925d3a46f8bbe8f" category="list-text">'&lt;host_name&gt;:/&lt;share_path&gt;' 형식으로 추가하려는 공유 목록이 필요합니다. 공유를 개별적으로 입력하거나 스캔하려는 파일 공유의 라인 분리 목록을 제공할 수 있습니다.</block>
   <block id="33eb5451afff60f62a657470854a4f05" category="list-text">CIFS(SMB) 공유의 경우 공유에 대한 읽기 액세스를 제공하는 Active Directory 자격 증명이 있는지 확인합니다. Cloud Data Sense에서 상승된 권한이 필요한 데이터를 검색해야 하는 경우 관리자 자격 증명이 선호됩니다.</block>
@@ -2357,7 +2353,6 @@
   <block id="e3aca1bee4b16554fd364b73482af4f3" category="list-text">로 이동합니다<block ref="100b541e6046352c2cfaf3c9e6ddaf4d" category="inline-link-rx"></block> 를 클릭하고 * 인증 방법 알아보기 * 를 클릭합니다.</block>
   <block id="7ef314f37951a4ffae65aed3439a8da1" category="inline-image-macro">인증 지침 링크가 포함된 API 설명서 페이지의 스크린샷</block>
   <block id="e7897b39cbb592afc0430305aca32cc1" category="paragraph"><block ref="e7897b39cbb592afc0430305aca32cc1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d059d805b5ca279d8574f2b15a932bed" category="list-text">인증 지침에 따라 응답에서 _ACCESS TOKEN_을 복사합니다.</block>
   <block id="9cb50d789a41a5c166876e5a17ca1d7c" category="list-text">Data Sense Manager 노드에서 "add_scanner_node.sh" 스크립트를 실행합니다. 예를 들어, 이 명령은 두 개의 스캐너 노드를 추가합니다.</block>
   <block id="1480262c4a9656977a70cff8c21b5dc0" category="paragraph"><block ref="0d45fd4edeb386e475963435f8cc230a" prefix="" category="inline-code"></block></block>
   <block id="0490466572986d52027e27d707b776a5" category="list-text">_client_id_=커넥터 클라이언트 ID</block>
@@ -2458,7 +2453,6 @@
   <block id="1e91a35a4b5b4c34950343e981ca88b0" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 사용자를 추가하고 스캔 유형을 선택합니다</block>
   <block id="a3f1215a60ced30f6b58ece6e4fb2da2" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 파일 공유 사전 요구 사항을 검토합니다</block>
   <block id="116ef64523fed5112220351fa1d75dc4" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 파일 공유를 보관할 그룹을 생성합니다</block>
-  <block id="b66fb4cea2ccd5e683401c9c49dfb560" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 파일 공유를 추가하고 검색할 공유를 선택합니다</block>
   <block id="9af77730e3223116097b8cf1de0a2c1c" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> BlueXP 커넥터를 설치합니다</block>
   <block id="ae52b22627bc20f5bd1f0ae7399f808a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> Data Sense 사전 요구 사항을 검토합니다</block>
   <block id="5145a29bff9f5d1e0a1fc1ca423ecea3" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 데이터 센스를 다운로드하고 배포합니다</block>
@@ -2673,7 +2667,6 @@
   <block id="c09a51a41728880502cacff404ad64e8" category="paragraph">원하는 블록을 클릭하여 조사 페이지에서 영향을 받는 파일의 필터링된 결과를 확인하여 더 자세히 조사할 수 있습니다.</block>
   <block id="f4200d6b39c6bf611267284ca071fd8b" category="inline-link-macro">Active Directory 서비스를 데이터 센스에 통합하는 방법을 확인하십시오</block>
   <block id="87fae032ed5605e45b8ed104db07d51d" category="paragraph">데이터 센스에 ID 서비스를 통합하지 않은 경우 이 패널에 데이터가 표시되지 않습니다. <block ref="ab23cf884d322a71ba54be70f25499ab" category="inline-link-macro-rx"></block>.</block>
-  <block id="fc6931051107a02ba34edee1230d2510" category="admonition">이 패널은 CIFS 공유, OneDrive 및 SharePoint 데이터 소스의 파일을 지원합니다. 현재 데이터베이스, Google Drive, Amazon S3 및 일반 오브젝트 스토리지는 지원되지 않습니다.</block>
   <block id="4f7b4b702c17bca954d2d186aaea71c0" category="list-text">열기 권한이 없습니다</block>
   <block id="e5ffd57c8ceca007705d9700419ab52a" category="paragraph">범주는 보유한 정보의 유형을 표시하여 데이터의 상태를 이해하는 데 도움이 됩니다. 예를 들어 "이력서" 또는 "직원 계약"과 같은 범주에는 중요한 데이터가 포함될 수 있습니다. 결과를 조사할 때 직원 계약이 안전하지 않은 위치에 저장되어 있는 것을 발견할 수 있습니다. 그런 다음 해당 문제를 해결할 수 있습니다.</block>
   <block id="13e71bc7a750dcb909f7b6e859dba7aa" category="paragraph">SharePoint 계정에 로그인할 수 있는 자격 증명이 있고 검색할 SharePoint 사이트의 URL이 있는지 확인합니다.</block>
@@ -2918,7 +2911,6 @@
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">표의 마지막 열에서 메뉴를 선택한 후 수행할 수 있는 작업을 보여 주는 스크린샷</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="99d97930418935683e2b318283d0dfe1" category="section-title">마지막 액세스 시간 타임 스탬프입니다</block>
-  <block id="328433e1229196dfcfbc0b9d019a9d21" category="paragraph">Data Sense가 파일 공유에서 데이터를 추출하면 운영 체제는 데이터를 액세스하는 것으로 간주하고 그에 따라 "마지막 액세스 시간"을 변경합니다. 스캔 후 데이터 센스(Data Sense)는 마지막 액세스 시간을 원래 타임 스탬프로 되돌리려고 시도합니다. Data Sense에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 시스템은 마지막 액세스 시간을 원래 타임 스탬프로 되돌릴 수 없습니다.</block>
   <block id="8fccf85628cfcd90d8b0fe5cab43c86d" category="paragraph">기본적으로 데이터 센스에 이러한 권한이 없으면 데이터 센스에서 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템이 볼륨의 해당 파일을 검색하지 않습니다. 그러나 마지막 액세스 시간이 파일의 원래 시간으로 재설정되는 것을 염려하지 않을 경우, 데이터 센스에서 권한에 관계없이 볼륨을 스캔하도록 구성 페이지 하단의 * 누락된 "쓰기 속성" 권한 * 스위치를 클릭할 수 있습니다.</block>
   <block id="3b65a5e239394b9dd027910cc1b152c1" category="inline-image-macro">마지막 액세스 시간을 원래 타임 스탬프로 되돌릴 수 있는 올바른 권한이 없더라도 데이터 센스에서 파일을 스캔하도록 하는 데 사용할 수 있는 스위치를 보여 주는 스크린샷입니다.</block>
   <block id="44408bbd035a502d323b922a5560e5d4" category="paragraph"><block ref="44408bbd035a502d323b922a5560e5d4" category="inline-image-macro-rx" type="image"></block></block>
@@ -3328,4 +3320,17 @@
   <block id="652d29fc9fdc8e0b507bb9eeecca952e" category="list-text">_cloud_provider_= 클라우드 인스턴스에 설치할 때 클라우드 공급자에 따라 "AWS", "Azure" 또는 "GCP"를 입력하십시오.</block>
   <block id="9e7ff0af4669feb5e45b838a89143e27" category="paragraph">설치 감사 로그 파일은 에 기록됩니다<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block></block>
   <block id="c1fe7e1d533d99b367d348052b2d15b2" category="section-title">이제 Data Sense를 설치하기 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다</block>
+  <block id="e08c39eeecbac5d5f73dff71e2512def" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 그룹에 파일 공유를 추가합니다</block>
+  <block id="1c23c4b7c88b3335b15ccab5f09de226" category="list-text">공유는 클라우드 또는 온프레미스 등 어디서나 호스팅할 수 있습니다. 대부분의 경우 이는 NetApp이 아닌 스토리지 시스템에 상주하는 파일 공유입니다. 하지만 이전 NetApp 7-Mode 스토리지 시스템의 CIFS 공유를 파일 공유로 스캔할 수 있습니다.</block>
+  <block id="5f191911e5c5f72232f6a4507e559266" category="paragraph">Data Sense는 7-Mode 시스템에서 사용 권한 또는 마지막 액세스 시간을 추출할 수 없습니다. 또한 SMB 버전 2에서 CIFS 공유를 마운트하는 것이 Linux에서 지원되지 않는 알려진 문제가 있습니다.</block>
+  <block id="ba1b63d2bb4a9da8ac213b1773e59355" category="paragraph">Data Sense가 파일 공유에서 데이터를 추출하면 운영 체제는 데이터를 액세스하는 것으로 간주하고 그에 따라 "마지막 액세스 시간"을 변경합니다. 스캔 후 데이터 센스(Data Sense)는 마지막 액세스 시간을 원래 타임 스탬프로 되돌리려고 시도합니다. Data Sense에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 시스템은 마지막 액세스 시간을 원래 타임 스탬프로 되돌릴 수 없습니다. SnapLock로 구성된 ONTAP 볼륨은 읽기 전용 권한을 가지며 마지막 액세스 시간을 원래 타임 스탬프로 되돌릴 수도 없습니다.</block>
+  <block id="a22c3482ee96047a1abb3e9833dd6645" category="summary">BlueXP 분류(클라우드 데이터 감지)는 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별하는 데이터 거버넌스 서비스입니다.</block>
+  <block id="0daf80bfa5f39bbd5725c0b5fb7a4c95" category="paragraph">Data Sense는 오브젝트 스토리지에 콜드 데이터가 계층화된 볼륨을 스캔할 때 로컬 디스크에 있는 모든 데이터와 오브젝트 스토리지에 대한 콜드 데이터가 계층화되어 있는 데이터를 검색합니다. 이는 계층화를 구현하는 NetApp 제품이 아닌 경우에도 마찬가지입니다.</block>
+  <block id="a6ca0e2e27cafcb7c34af13f7d19c004" category="paragraph">스캔으로 콜드 데이터가 가열되지 않으며 오브젝트 스토리지에 보관되어 차갑게 유지됩니다.</block>
+  <block id="10de4bc81f754b19b0d27246a0589c05" category="list-text">참고</block>
+  <block id="312ffbf4bf2c65989ebbd000c725c369" category="list-text">데이터 소스 중 하나라도 데이터 계층화를 구현하는 경우 오브젝트 스토리지에 이미 있는 이전 데이터를 _st오래된 Data_category에서 식별할 수 있습니다.</block>
+  <block id="66d08fa5ddeba835b1d01655713b9120" category="admonition">이 패널은 CIFS 공유, OneDrive 및 SharePoint 데이터 소스의 파일을 지원합니다. 현재 데이터베이스, Google Drive, Amazon S3, 일반 오브젝트 스토리지는 지원되지 않습니다.</block>
+  <block id="fd48a7c8c60d4f4ca62e7f192f27abea" category="list-text">데이터 소스 중 하나라도 데이터 계층화를 구현하는 경우 오브젝트 스토리지에 이미 있는 이전 데이터를 _ Age of Data_graph에서 식별할 수 있습니다.</block>
+  <block id="81ca64cf8cdaf987cf8d5efa54a4b6fd" category="list-text">"사용자 이름" 및 "암호" 매개 변수에서 계정 관리자의 사용자 이름과 암호를 사용하여 인증 지침을 따릅니다.</block>
+  <block id="1edd72049e168646cdf62fc97f08f63c" category="list-text">그런 다음 응답에서 _ACCESS TOKEN_을 복사합니다.</block>
 </blocks>

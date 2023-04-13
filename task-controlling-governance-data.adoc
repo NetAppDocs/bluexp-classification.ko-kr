@@ -45,6 +45,10 @@ image:screenshot_compliance_governance_dashboard.png["Cloud Data Sense Governanc
 
 
 * * 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. link:task-investigate-data.html#viewing-all-duplicated-files["어떤 유형의 중복 파일이 표시되는지 확인합니다"].
++
+참고:: 데이터 소스 중 하나라도 데이터 계층화를 구현하는 경우 오브젝트 스토리지에 이미 있는 이전 데이터를 _st오래된 Data_category에서 식별할 수 있습니다.
+
+
 
 
 
@@ -91,7 +95,7 @@ image:screenshot_compliance_sensitive_data.png["이 패널의 요소 위에 커�
 데이터 센스에 ID 서비스를 통합하지 않은 경우 이 패널에 데이터가 표시되지 않습니다. link:task-add-active-directory-datasense.html["Active Directory 서비스를 데이터 센스에 통합하는 방법을 확인하십시오"^].
 
 
-TIP: 이 패널은 CIFS 공유, OneDrive 및 SharePoint 데이터 소스의 파일을 지원합니다. 현재 데이터베이스, Google Drive, Amazon S3 및 일반 오브젝트 스토리지는 지원되지 않습니다.
+TIP: 이 패널은 CIFS 공유, OneDrive 및 SharePoint 데이터 소스의 파일을 지원합니다. 현재 데이터베이스, Google Drive, Amazon S3, 일반 오브젝트 스토리지는 지원되지 않습니다.
 
 
 
@@ -117,6 +121,10 @@ Age_and_Size_graphs의 항목을 조사하여 삭제해야 할 데이터가 있�
 
 * * 데이터 그래프의 기간 * - 데이터가 생성된 시간, 마지막으로 액세스한 시간 또는 마지막으로 수정된 시간을 기준으로 데이터를 분류합니다.
 * * 데이터 그래프 크기 * - 크기에 따라 데이터를 분류합니다.
++
+참고:: 데이터 소스 중 하나라도 데이터 계층화를 구현하는 경우 오브젝트 스토리지에 이미 있는 이전 데이터를 _ Age of Data_graph에서 식별할 수 있습니다.
+
+
 
 
 

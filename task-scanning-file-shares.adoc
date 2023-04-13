@@ -34,7 +34,7 @@ link:task-deploy-cloud-compliance.html["클라우드 데이터 센스를 구축�
 [role="quick-margin-para"]
 그룹은 검사할 파일 공유의 컨테이너이며 해당 파일 공유의 작업 환경 이름으로 사용됩니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 파일 공유를 추가하고 검색할 공유를 선택합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 그룹에 파일 공유를 추가합니다
 [role="quick-margin-para"]
 스캔할 파일 공유 목록을 추가하고 스캔 유형을 선택합니다. 한 번에 최대 100개의 파일 공유를 추가할 수 있습니다.
 
@@ -44,7 +44,10 @@ link:task-deploy-cloud-compliance.html["클라우드 데이터 센스를 구축�
 
 Cloud Data Sense를 활성화하기 전에 다음 사전 요구 사항을 검토하여 지원되는 구성이 있는지 확인하십시오.
 
-* 공유는 클라우드 또는 온프레미스 등 어디서나 호스팅할 수 있습니다. 이는 타사 스토리지 시스템에 상주하는 파일 공유입니다.
+* 공유는 클라우드 또는 온프레미스 등 어디서나 호스팅할 수 있습니다. 대부분의 경우 이는 NetApp이 아닌 스토리지 시스템에 상주하는 파일 공유입니다. 하지만 이전 NetApp 7-Mode 스토리지 시스템의 CIFS 공유를 파일 공유로 스캔할 수 있습니다.
++
+Data Sense는 7-Mode 시스템에서 사용 권한 또는 마지막 액세스 시간을 추출할 수 없습니다. 또한 SMB 버전 2에서 CIFS 공유를 마운트하는 것이 Linux에서 지원되지 않는 알려진 문제가 있습니다.
+
 * Data Sense 인스턴스와 공유 사이에 네트워크 연결이 있어야 합니다.
 * 다음 포트가 Data Sense 인스턴스에 열려 있는지 확인합니다.
 +
