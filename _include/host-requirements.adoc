@@ -1,0 +1,48 @@
+= 
+:allow-uri-read: 
+
+
+* BlueXP 분류는 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.
+
+
+* 구내 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행할 데이터 세트의 크기에 따라 세 가지 시스템 크기 중에서 선택할 수 있습니다.
++
+[cols="18,18,26,30"]
+|===
+| 시스템 크기 | CPU | RAM(스왑 메모리는 비활성화 상태여야 함) | 디스크 
+
+
+| * 대형 * | CPU 16개 | 64GB RAM | /opt-395GiB에서 사용 가능한 500GiB SSD 켜짐/, 또는 - 100GiB는 /var-5GiB에서 사용 가능 /tmp에서 사용 가능 
+
+
+| * 중간 * | CPU 8개 | 32GB RAM | /opt-145GiB에서 사용 가능한 200GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다 
+
+
+| * 소형 * | CPU 8개 | 16GB RAM | /opt-45GiB에서 사용 가능한 100GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다 
+|===
++
+이러한 소형 시스템을 사용할 때는 제한 사항이 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
+
+* BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
++
+** * AWS EC2 인스턴스 유형 *: "m6i.4xLarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^].
+** * Azure VM size *: "Standard_D16s_v3"을 권장합니다. link:reference-instance-types.html#azure-instance-types["추가 Azure 인스턴스 유형을 참조하십시오"^].
+** * GCP 시스템 유형 *: "n2-standard-16"을 권장합니다. link:reference-instance-types.html#gcp-instance-types["추가 GCP 인스턴스 유형을 참조하십시오"^].
+
+
+* * 운영 체제 *: OS에서 Docker 엔진을 설치할 수 있어야 합니다.
++
+** Red Hat Enterprise Linux 버전 8.0 ~ 8.7
+** CentOS 버전 8.0 ~ 8.7
+** CentOS 스트림 8
+** 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
+
+
+* * Red Hat 서브스크립션 관리 *: 호스트는 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
+* * 추가 소프트웨어 *: BlueXP 분류를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.
++
+** Docker Engine 버전 19.3.1 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
+** Python 3 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
+
+
+

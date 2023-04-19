@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-controlling-governance-data.html 
 keywords: savings, stale data, non-business data, duplicate data, age or data, size of data, highlights, policies 
-summary: 조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. Cloud Data Sense는 오래된 데이터, 비업무용 데이터, 중복 파일 및 시스템의 대용량 파일을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다. 
+summary: 조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. BlueXP 분류는 시스템에 있는 오래된 데이터, 비업무용 데이터, 중복 파일 및 대용량 파일의 양을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다. 
 ---
 = 조직에 저장된 데이터에 대한 거버넌스 세부 정보 보기
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 조직의 스토리지 리소스에 있는 데이터와 관련된 비�
 
 
 [role="lead"]
-조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. Cloud Data Sense는 오래된 데이터, 비업무용 데이터, 중복 파일 및 시스템의 대용량 파일을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다.
+조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. BlueXP 분류는 시스템에 있는 오래된 데이터, 비업무용 데이터, 중복 파일 및 대용량 파일의 양을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다.
 
 또한, 데이터를 사내 위치에서 클라우드로 마이그레이션하려는 경우 데이터의 크기와 데이터를 이동하기 전에 중요한 정보가 포함되어 있는지 여부를 확인할 수 있습니다.
 
@@ -24,7 +24,7 @@ summary: 조직의 스토리지 리소스에 있는 데이터와 관련된 비�
 
 Governance 대시보드는 스토리지 리소스에 저장된 데이터와 관련된 효율성을 높이고 비용을 제어할 수 있는 정보를 제공합니다.
 
-image:screenshot_compliance_governance_dashboard.png["Cloud Data Sense Governance 대시보드 스크린샷"]
+image:screenshot_compliance_governance_dashboard.png["BlueXP 분류 거버넌스 대시보드 스크린샷"]
 
 
 
@@ -92,7 +92,7 @@ image:screenshot_compliance_sensitive_data.png["이 패널의 요소 위에 커�
 
 원하는 블록을 클릭하여 조사 페이지에서 영향을 받는 파일의 필터링된 결과를 확인하여 더 자세히 조사할 수 있습니다.
 
-데이터 센스에 ID 서비스를 통합하지 않은 경우 이 패널에 데이터가 표시되지 않습니다. link:task-add-active-directory-datasense.html["Active Directory 서비스를 데이터 센스에 통합하는 방법을 확인하십시오"^].
+BlueXP 분류와 ID 서비스를 통합하지 않은 경우 이 패널에 데이터가 표시되지 않습니다. link:task-add-active-directory-datasense.html["Active Directory 서비스를 BlueXP 분류와 통합하는 방법을 확인하십시오"^].
 
 
 TIP: 이 패널은 CIFS 공유, OneDrive 및 SharePoint 데이터 소스의 파일을 지원합니다. 현재 데이터베이스, Google Drive, Amazon S3, 일반 오브젝트 스토리지는 지원되지 않습니다.
@@ -185,7 +185,7 @@ AIP(Azure Information Protection)에 가입한 경우 콘텐츠에 레이블을 
 
 === 데이터 매핑 보고서 생성
 
-이 보고서는 데이터 센스의 거버넌스 탭에서 생성합니다.
+BlueXP 분류의 Governance 탭에서 이 보고서를 생성합니다.
 
 .단계
 . BlueXP 메뉴에서 * 거버넌스 > 분류 * 를 클릭합니다.
@@ -196,9 +196,9 @@ image:screenshot_compliance_data_mapping_report_button.png["데이터 매핑 보
 
 
 .결과
-Data Sense는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
+BlueXP 분류는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
 
-참고: 데이터 감지 페이지의 맨 위에서 을 클릭하여 보고서의 첫 페이지에 표시되는 회사 이름을 사용자 지정할 수 있습니다 image:screenshot_gallery_options.gif["자세히 단추"] 그런 다음 * 회사 이름 변경 * 을 클릭합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.
+참고: 을 클릭하여 보고서의 첫 페이지에 나타나는 회사 이름을 BlueXP 분류 페이지 상단에서 사용자 지정할 수 있습니다 image:screenshot_gallery_options.gif["자세히 단추"] 그런 다음 * 회사 이름 변경 * 을 클릭합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.
 
 
 
@@ -230,7 +230,7 @@ Data Discovery Assessment Report는 스캔한 환경에 대한 상위 수준의 
 
 === 데이터 검색 평가 보고서 생성
 
-이 보고서는 데이터 센스의 거버넌스 탭에서 생성합니다.
+BlueXP 분류의 Governance 탭에서 이 보고서를 생성합니다.
 
 .단계
 . BlueXP 메뉴에서 * 거버넌스 > 분류 * 를 클릭합니다.
@@ -241,6 +241,6 @@ image:screenshot_compliance_data_discovery_report_button.png["데이터 검색 �
 
 
 .결과
-Data Sense는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
+BlueXP 분류는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
 
-참고: 데이터 감지 페이지의 맨 위에서 을 클릭하여 보고서의 첫 페이지에 표시되는 회사 이름을 사용자 지정할 수 있습니다 image:screenshot_gallery_options.gif["자세히 단추"] 그런 다음 * 회사 이름 변경 * 을 클릭합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.
+참고: 을 클릭하여 보고서의 첫 페이지에 나타나는 회사 이름을 BlueXP 분류 페이지 상단에서 사용자 지정할 수 있습니다 image:screenshot_gallery_options.gif["자세히 단추"] 그런 다음 * 회사 이름 변경 * 을 클릭합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.

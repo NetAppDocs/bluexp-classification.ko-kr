@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Cloud Data Sense
+  name: BlueXP classification
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,15 +11,15 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
-  - title: Cloud Data Sense 문서
+  - title: BlueXP 분류 문서
     url: "/index.html"
   - title: 릴리스 정보
     url: "/whats-new.html"
   - title: 시작하십시오
     entries:
-    - title: 클라우드 데이터 센스에 대해 알아보십시오
+    - title: BlueXP 분류에 대해 알아보십시오
       url: "/concept-cloud-compliance.html"
-    - title: 클라우드 데이터 센스를 구축하십시오
+    - title: BlueXP 분류를 배포합니다
       entries:
       - title: BlueXP를 사용하여 클라우드에 배포합니다
         url: "/task-deploy-cloud-compliance.html"
@@ -27,7 +27,7 @@ sidebar:
         url: "/task-deploy-compliance-onprem.html"
       - title: 인터넷에 접속하지 않고 내부에 설치합니다
         url: "/task-deploy-compliance-dark-site.html"
-      - title: Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하십시오
+      - title: Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인합니다
         url: "/task-test-linux-system.html"
     - title: 데이터 소스에서 스캔을 활성화합니다
       entries:
@@ -57,7 +57,7 @@ sidebar:
       url: "/task-licensing-datasense.html"
     - title: FAQ 를 참조하십시오
       url: "/faq-cloud-compliance.html"
-  - title: 클라우드 데이터 센스를 사용하십시오
+  - title: BlueXP 분류를 사용합니다
     entries:
     - title: 데이터에 대한 거버넌스 세부 정보를 봅니다
       url: "/task-controlling-governance-data.html"
@@ -77,23 +77,23 @@ sidebar:
       url: task-managing-repo-scanning.html
     - title: 규정 준수 보고서를 생성합니다
       url: "/task-generating-compliance-reports.html"
-  - title: 클라우드 데이터 센스를 관리합니다
+  - title: BlueXP 분류 관리
     entries:
     - title: 사용자 지정 개인 데이터 식별자를 추가합니다
       url: "/task-managing-data-fusion.html"
-    - title: 데이터 감지 작업의 상태를 봅니다
+    - title: BlueXP 분류 작업의 상태를 봅니다
       url: "/task-view-compliance-actions.html"
-    - title: 데이터 감지 작업의 기록을 감사합니다
+    - title: BlueXP 분류 작업의 이력을 감사합니다
       url: "/task-audit-data-sense-actions.html"
-    - title: 데이터 감지 스캔 속도를 줄입니다
+    - title: BlueXP 분류 스캔 속도를 줄입니다
       url: "/task-reduce-scan-speed.html"
-    - title: 데이터 센스에서 데이터 소스를 제거합니다
+    - title: BlueXP 분류에서 데이터 소스를 제거합니다
       url: "/task-managing-compliance.html"
-    - title: 데이터 센스를 제거합니다
+    - title: BlueXP 분류를 제거합니다
       url: "/task-uninstall-data-sense.html"
   - title: 참조하십시오
     entries:
-    - title: 지원되는 데이터 감지 인스턴스 유형
+    - title: 지원되는 BlueXP 분류 인스턴스 유형
       url: "/reference-instance-types.html"
     - title: 데이터 소스에서 수집된 메타데이터
       url: "/reference-collected-metadata.html"
@@ -109,15 +109,15 @@ homepage:
   tiles:
   - title: 시작하십시오
     links:
-    - title: 클라우드 데이터 센스에 대해 알아보십시오
+    - title: BlueXP 분류에 대해 알아보십시오
       url: concept-cloud-compliance.html
     - title: 새로운 기능
       url: whats-new.html
-    - title: BlueXP를 사용하여 클라우드에 데이터 센스를 배포합니다
+    - title: BlueXP를 사용하여 클라우드에 BlueXP 분류를 배포합니다
       url: task-deploy-cloud-compliance.html
-    - title: 인터넷이 있는 Linux 호스트에 데이터 센스를 설치합니다
+    - title: 인터넷을 사용하는 Linux 호스트에 BlueXP 분류를 설치합니다
       url: task-deploy-compliance-onprem.html
-    - title: 인터넷 없이 데이터 센스를 사내에 설치합니다
+    - title: 인터넷 없이 BlueXP 분류를 사내 설치
       url: task-deploy-compliance-dark-site.html
     - title: Active Directory 통합
       url: task-add-active-directory-datasense.html
@@ -185,7 +185,7 @@ homepage:
     links:
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: 데이터 감지 사용 사례
+    - title: BlueXP 분류 활용 사례
       url: https://bluexp.netapp.com/netapp-cloud-data-sense
     - title: BlueXP 블로그
       url: https://bluexp.netapp.com/blog

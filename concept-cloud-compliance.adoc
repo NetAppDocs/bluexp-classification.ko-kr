@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-cloud-compliance.html 
 keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, aip labels, governance, data sense, privacy control, classification, optimization 
-summary: Cloud Data Sense는 BlueXP의 데이터 거버넌스 서비스로, 회사의 사내 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다. 
+summary: BlueXP 분류는 회사의 온프레미스 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별하는 BlueXP용 데이터 거버넌스 서비스입니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다. 
 ---
-= 클라우드 데이터 센스에 대해 알아보십시오
+= BlueXP 분류에 대해 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,26 +14,26 @@ summary: Cloud Data Sense는 BlueXP의 데이터 거버넌스 서비스로, 회�
 
 
 [role="lead"]
-Cloud Data Sense는 BlueXP(이전의 Cloud Manager)를 위한 데이터 거버넌스 서비스로, 사내 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.
+BlueXP 분류는 회사의 온프레미스 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별하는 BlueXP용 데이터 거버넌스 서비스입니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.
 
-https://bluexp.netapp.com/netapp-cloud-data-sense["클라우드 데이터 센스의 사용 사례에 대해 알아보십시오"^].
+https://bluexp.netapp.com/netapp-cloud-data-sense["BlueXP 분류의 사용 사례에 대해 알아보십시오"^].
 
 
 
 == 피처
 
-Cloud Data Sense는 인공 지능(AI), 자연어 처리(NLP) 및 머신 러닝(ML)을 사용하여 엔터티를 추출하고 그에 따라 콘텐츠를 범주화하기 위해 검색하는 콘텐츠를 파악합니다. 이를 통해 데이터 센스에서 다음과 같은 기능 영역을 제공할 수 있습니다.
+BlueXP 분류에서는 인공 지능(AI), 자연어 처리(NLP) 및 머신 러닝(ML)을 사용하여 엔터티를 추출하고 그에 따라 콘텐츠를 범주화하기 위해 검색하는 콘텐츠를 파악합니다. 이를 통해 BlueXP 분류는 다음과 같은 기능 영역을 제공할 수 있습니다.
 
 
 
 === 규정 준수 유지
 
-Data Sense는 규정 준수 작업에 도움이 되는 몇 가지 도구를 제공합니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
+BlueXP 분류는 규정 준수 노력에 도움이 되는 여러 가지 도구를 제공합니다. BlueXP 분류를 사용하여 다음을 수행할 수 있습니다.
 
 * 개인 식별 정보(PII)를 식별합니다.
 * GDPR, CCPA, PCI 및 HIPAA 개인 정보 보호 규정에서 요구하는 광범위한 민감한 개인 정보를 식별합니다.
 * 이름 또는 이메일 주소를 기반으로 Data Subject Access Request(SAR)에 응답합니다.
-* 데이터베이스의 고유 식별자가 다른 저장소의 파일에 있는지 확인합니다. 기본적으로 데이터 감지 스캔에서 식별된 "개인 데이터" 목록을 만듭니다.
+* 데이터베이스의 고유 식별자가 다른 저장소의 파일에 있는지 확인합니다. 기본적으로 BlueXP 분류 검사에서 식별된 "개인 데이터" 목록을 만듭니다.
 * 파일에 특정 PII가 포함된 경우 이메일을 통해 특정 사용자에게 알립니다(을 사용하여 이 기준을 정의합니다 link:task-using-policies.html["정책"^]) 따라서 실천 계획을 결정할 수 있습니다.
 
 
@@ -41,7 +41,7 @@ Data Sense는 규정 준수 작업에 도움이 되는 몇 가지 도구를 제�
 
 === 보안 강화
 
-데이터 센스(Data Sense)는 범죄 목적으로 액세스할 위험이 있는 데이터를 식별할 수 있습니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
+BlueXP 분류는 범죄 목적으로 액세스할 위험이 있는 데이터를 식별할 수 있습니다. BlueXP 분류를 사용하여 다음을 수행할 수 있습니다.
 
 * 전체 조직 또는 공용 에 노출된 공개 권한으로 모든 파일 및 디렉터리(공유 및 폴더)를 식별합니다.
 * 초기 전용 위치 외부에 상주하는 중요한 데이터를 식별합니다.
@@ -55,7 +55,7 @@ Data Sense는 규정 준수 작업에 도움이 되는 몇 가지 도구를 제�
 
 === 스토리지 사용을 최적화합니다
 
-Data Sense는 스토리지의 TCO(총 소유 비용)에 도움이 되는 도구를 제공합니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
+BlueXP 분류는 스토리지 TCO(총 소유 비용)에 도움이 되는 도구를 제공합니다. BlueXP 분류를 사용하여 다음을 수행할 수 있습니다.
 
 * 중복 또는 비업무용 데이터를 식별하여 스토리지 효율성 향상 이 정보를 사용하여 특정 파일을 이동하거나 삭제할 것인지 결정할 수 있습니다.
 * 안전하지 않거나 위험한 것으로 보이는 파일을 스토리지 시스템에 남겨 두거나 중복으로 식별한 경우 삭제합니다. Policies_를 사용하여 특정 조건에 맞는 파일을 자동으로 삭제할 수 있습니다.
@@ -66,7 +66,7 @@ Data Sense는 스토리지의 TCO(총 소유 비용)에 도움이 되는 도구�
 
 === 데이터 마이그레이션을 가속화
 
-데이터 센스를 사용하면 사내 데이터를 퍼블릭 또는 프라이빗 클라우드로 마이그레이션하기 전에 먼저 검색할 수 있습니다. 데이터 센스를 사용하여 다음을 수행할 수 있습니다.
+BlueXP 분류는 퍼블릭 또는 프라이빗 클라우드로 마이그레이션하기 전에 사내 데이터를 검사하는 데 사용할 수 있습니다. BlueXP 분류를 사용하여 다음을 수행할 수 있습니다.
 
 * 데이터를 이동하기 전에 데이터의 크기와 데이터에 중요한 정보가 포함되어 있는지 여부를 확인합니다.
 * 필요한 파일만 대상으로 이동할 수 있도록 소스 데이터(25가지 이상의 조건 유형 기준)를 필터링합니다. 불필요한 데이터는 이동하지 않습니다.
@@ -77,7 +77,7 @@ Data Sense는 스토리지의 TCO(총 소유 비용)에 도움이 되는 도구�
 
 == 지원되는 데이터 소스
 
-Cloud Data Sense는 다음과 같은 유형의 데이터 소스에서 정형 데이터와 비정형 데이터를 스캔 및 분석할 수 있습니다.
+BlueXP 분류는 다음과 같은 유형의 데이터 소스에서 정형 데이터와 비정형 데이터를 스캔 및 분석할 수 있습니다.
 
 * NetApp: *
 
@@ -119,25 +119,25 @@ Cloud Data Sense는 다음과 같은 유형의 데이터 소스에서 정형 데
 * SQL Server(MSSQL)
 
 
-Data Sense는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.
+BlueXP 분류는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.
 
 
 
 == 비용
 
-* 클라우드 데이터 센스를 사용하는 비용은 스캔하는 데이터의 양에 따라 다릅니다. BlueXP 작업 공간에서 Data Sense가 스캔하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 여기에는 모든 작업 환경 및 데이터 소스의 모든 데이터가 포함됩니다. AWS, Azure 또는 GCP Marketplace에 대한 가입 또는 NetApp의 BYOL 라이센스를 구입해야 하며, 이후 계속해서 데이터를 스캔할 수 있습니다. 을 참조하십시오 https://bluexp.netapp.com/netapp-cloud-data-sense["가격"^] 를 참조하십시오.
+* BlueXP 분류 사용 비용은 스캔 중인 데이터의 양에 따라 달라집니다. BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 여기에는 모든 작업 환경 및 데이터 소스의 모든 데이터가 포함됩니다. AWS, Azure 또는 GCP Marketplace에 대한 가입 또는 NetApp의 BYOL 라이센스를 구입해야 하며, 이후 계속해서 데이터를 스캔할 수 있습니다. 을 참조하십시오 https://bluexp.netapp.com/netapp-cloud-data-sense["가격"^] 를 참조하십시오.
 +
-link:task-licensing-datasense.html["Cloud Data Sense에 대한 라이센스 부여 방법을 알아보십시오"^].
+link:task-licensing-datasense.html["BlueXP 분류 라이선스를 취득하는 방법을 알아보십시오"^].
 
-* 클라우드에 Cloud Data Sense를 설치하려면 클라우드 인스턴스를 구축해야 하므로 클라우드 인스턴스가 구축된 클라우드 공급자가 비용을 지불해야 합니다. 을 참조하십시오 <<클라우드 데이터 감지 인스턴스,각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다>>. 사내 시스템에 Data Sense를 설치하면 비용이 들지 않습니다.
-* Cloud Data Sense를 사용하려면 BlueXP 커넥터를 구축해야 합니다. BlueXP에서 사용 중인 다른 스토리지 및 서비스로 인해 이미 커넥터가 있는 경우가 많습니다. Connector 인스턴스를 사용하면 배포된 클라우드 공급자가 비용을 청구합니다. 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-on-prem.html["각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다"^]. 커넥터를 온프레미스 시스템에 설치하는 경우 비용이 들지 않습니다.
+* 클라우드에 BlueXP 분류를 설치하려면 클라우드 인스턴스를 배포해야 하므로 클라우드 인스턴스가 배포된 클라우드 공급자가 비용을 부담합니다. 을 참조하십시오 <<BlueXP 분류 인스턴스입니다,각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다>>. BlueXP 분류를 사내 시스템에 설치하면 비용이 들지 않습니다.
+* BlueXP 분류에서는 BlueXP 커넥터를 배포해야 합니다. BlueXP에서 사용 중인 다른 스토리지 및 서비스로 인해 이미 커넥터가 있는 경우가 많습니다. Connector 인스턴스를 사용하면 배포된 클라우드 공급자가 비용을 청구합니다. 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-on-prem.html["각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다"^]. 커넥터를 온프레미스 시스템에 설치하는 경우 비용이 들지 않습니다.
 
 
 
 
 === 데이터 전송 비용
 
-데이터 전송 비용은 설정에 따라 다릅니다. Cloud Data Sense 인스턴스 및 데이터 소스가 동일한 가용성 영역 및 지역에 있는 경우 데이터 전송 비용이 발생하지 않습니다. 하지만 Cloud Volumes ONTAP 시스템 또는 S3 버킷과 같은 데이터 소스가 _different_Availability Zone 또는 지역에 있는 경우 클라우드 공급자가 데이터 전송 비용을 청구합니다. 자세한 내용은 다음 링크를 참조하십시오.
+데이터 전송 비용은 설정에 따라 다릅니다. BlueXP 분류 인스턴스 및 데이터 소스가 동일한 가용성 영역 및 지역에 있는 경우 데이터 전송 비용이 발생하지 않습니다. 하지만 Cloud Volumes ONTAP 시스템 또는 S3 버킷과 같은 데이터 소스가 _different_Availability Zone 또는 지역에 있는 경우 클라우드 공급자가 데이터 전송 비용을 청구합니다. 자세한 내용은 다음 링크를 참조하십시오.
 
 * https://aws.amazon.com/ec2/pricing/on-demand/["AWS: Amazon EC2 가격"^]
 * https://azure.microsoft.com/en-us/pricing/details/bandwidth/["Microsoft Azure: 대역폭 가격 세부 정보"^]
@@ -146,32 +146,32 @@ link:task-licensing-datasense.html["Cloud Data Sense에 대한 라이센스 부�
 
 
 
-== 클라우드 데이터 감지 인스턴스
+== BlueXP 분류 인스턴스입니다
 
-클라우드에 Data Sense를 배포할 때 BlueXP는 Connector와 동일한 서브넷에 인스턴스를 배포합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오."^]
+BlueXP 분류를 클라우드에 배포하면 BlueXP는 Connector와 동일한 서브넷에 인스턴스를 배포합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오."^]
 
-image:diagram_cloud_compliance_instance.png["클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 클라우드 데이터 감지 인스턴스를 보여 주는 다이어그램입니다."]
+image:diagram_cloud_compliance_instance.png["클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 BlueXP 분류 인스턴스를 보여 주는 다이어그램입니다."]
 
 기본 인스턴스에 대한 다음 사항에 유의하십시오.
 
-* AWS에서 Cloud Data Sense는 에서 실행됩니다 https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xLarge 인스턴스"^] 500GiB GP2 디스크 사용. 운영 체제 이미지는 Amazon Linux 2입니다.
-* Azure에서 Cloud Data Sense는 에서 실행됩니다 link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3 vm"^] 500GiB 디스크 사용 운영 체제 이미지는 CentOS 7.9입니다.
-* GCP에서 Cloud Data Sense는 에서 실행됩니다 link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16 VM"^] 500GiB 표준 영구 디스크 사용 운영 체제 이미지는 CentOS 7.9입니다.
-* 기본 인스턴스를 사용할 수 없는 지역에서는 데이터 센스를 대체 인스턴스에서 실행합니다. link:reference-instance-types.html["대체 인스턴스 유형을 참조하십시오"].
+* AWS에서 BlueXP 분류는 에서 실행됩니다 https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xLarge 인스턴스"^] 500GiB GP2 디스크 사용. 운영 체제 이미지는 Amazon Linux 2입니다. AWS에 구축할 경우 소량의 데이터를 스캔할 경우 더 작은 인스턴스 크기를 선택할 수 있습니다.
+* Azure에서 BlueXP 분류는 에서 실행됩니다 link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3 vm"^] 500GiB 디스크 사용 운영 체제 이미지는 CentOS 7.9입니다.
+* GCP에서 BlueXP 분류는 에서 실행됩니다 link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16 VM"^] 500GiB 표준 영구 디스크 사용 운영 체제 이미지는 CentOS 7.9입니다.
+* 기본 인스턴스를 사용할 수 없는 지역에서는 대체 인스턴스에서 BlueXP 분류가 실행됩니다. link:reference-instance-types.html["대체 인스턴스 유형을 참조하십시오"].
 * 인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_
-* Connector당 하나의 데이터 감지 인스턴스만 배포됩니다.
+* Connector당 하나의 BlueXP 분류 인스턴스만 배포됩니다.
 
 
-또한 온프레미스의 Linux 호스트 또는 선호하는 클라우드 공급자의 호스트에 Data Sense를 구축할 수도 있습니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다. 데이터 감지 소프트웨어의 업그레이드는 인스턴스에 인터넷 액세스 권한이 있는 경우 자동으로 수행됩니다.
+BlueXP 분류를 사내 Linux 호스트 또는 선호하는 클라우드 공급업체의 호스트에 배포할 수도 있습니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다. 인스턴스에 인터넷 액세스가 가능한 한 BlueXP 분류 소프트웨어의 업그레이드는 자동으로 수행됩니다.
 
 
-TIP: Cloud Data Sense는 지속적으로 데이터를 스캔하기 때문에 인스턴스는 항상 실행 상태를 유지해야 합니다.
+TIP: BlueXP 분류는 지속적으로 데이터를 검사하기 때문에 인스턴스가 항상 실행 상태를 유지해야 합니다.
 
 
 
 === 더 작은 인스턴스 유형 사용
 
-CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있지만 이러한 덜 강력한 시스템을 사용할 때는 몇 가지 제한 사항이 있습니다.
+CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지만 이러한 덜 강력한 시스템을 사용할 때는 몇 가지 제약이 있습니다.
 
 [cols="18,26,56"]
 |===
@@ -186,19 +186,19 @@ CPU가 적고 RAM이 적은 시스템에 데이터 센스를 배포할 수 있�
 
 | 작은 크기 | CPU 8개, 16GB RAM, 100GiB SSD | "중간"과 동일한 제한 사항과 식별 기능을 제공합니다 link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["데이터 주체 이름"] 내부 파일이 비활성화되었습니다. 
 |===
-AWS의 클라우드에 Data Sense를 구축할 때 대규모/중간/소규모 인스턴스를 선택할 수 있습니다. Azure 또는 GCP에서 데이터 센스를 배포할 때 이러한 소규모 시스템 중 하나를 사용하려면 ng-contact-data-sense@netapp.com 으로 이메일을 보내 지원을 요청하십시오. 이러한 소규모 클라우드 구성을 구축하려면 반드시 협력해야 합니다.
+AWS의 클라우드에 BlueXP 분류를 배포할 때 대규모/중간/소규모 인스턴스를 선택할 수 있습니다. Azure 또는 GCP에서 BlueXP 분류를 배포할 때 이러한 소규모 시스템 중 하나를 사용하려면 ng-contact-data-sense@netapp.com 으로 이메일을 보내 지원을 요청하십시오. 이러한 소규모 클라우드 구성을 구축하려면 반드시 협력해야 합니다.
 
-온프레미스에 Data Sense를 배포할 때는 작은 사양의 Linux 호스트만 사용하십시오. NetApp에 지원을 요청할 필요가 없습니다.
+BlueXP 분류를 사내에서 배포할 때는 사양이 작은 Linux 호스트를 사용하기만 하면 됩니다. NetApp에 지원을 요청할 필요가 없습니다.
 
 
 
-== 클라우드 데이터 센스의 작동 방식
+== BlueXP 분류의 작동 방식
 
-개략적인 Cloud Data Sense는 다음과 같이 작동합니다.
+BlueXP 분류는 다음과 같이 작동합니다.
 
-. BlueXP에서 데이터 센스의 인스턴스를 배포합니다.
+. BlueXP에서 BlueXP 분류 인스턴스를 배포합니다.
 . 하나 이상의 데이터 소스에서 고급 매핑 또는 심층 스캔을 활성화할 수 있습니다.
-. 데이터 센스 는 AI 학습 프로세스를 사용하여 데이터를 스캔합니다.
+. BlueXP 분류는 AI 학습 프로세스를 사용하여 데이터를 스캔합니다.
 . 제공된 대시보드 및 보고 도구를 사용하여 규정 준수 및 거버넌스 작업에 도움을 줄 수 있습니다.
 
 
@@ -206,13 +206,13 @@ AWS의 클라우드에 Data Sense를 구축할 때 대규모/중간/소규모 �
 
 == 스캔 작동 방식
 
-Cloud Data Sense를 활성화하고 스캔할 볼륨, 버킷, 데이터베이스 스키마 또는 OneDrive 또는 SharePoint 사용자 데이터를 선택한 후 즉시 데이터를 스캔하여 개인 데이터와 중요한 데이터를 식별합니다. 조직 데이터를 매핑하고 각 파일을 분류하며 데이터에서 엔터티 및 미리 정의된 패턴을 식별 및 추출합니다. 검사 결과는 개인 정보, 민감한 개인 정보, 데이터 범주 및 파일 형식의 인덱스입니다.
+BlueXP 분류를 사용하도록 설정하고 검사할 볼륨, 버킷, 데이터베이스 스키마 또는 OneDrive 또는 SharePoint 사용자 데이터를 선택한 후 즉시 데이터를 스캔하여 중요한 개인 데이터를 식별합니다. 조직 데이터를 매핑하고 각 파일을 분류하며 데이터에서 엔터티 및 미리 정의된 패턴을 식별 및 추출합니다. 검사 결과는 개인 정보, 민감한 개인 정보, 데이터 범주 및 파일 형식의 인덱스입니다.
 
-Data Sense는 NFS 및 CIFS 볼륨을 마운트하여 다른 클라이언트와 마찬가지로 데이터에 연결됩니다. CIFS 볼륨을 스캔하려면 Active Directory 자격 증명을 제공해야 하지만 NFS 볼륨은 읽기 전용으로 자동 액세스됩니다.
+BlueXP 분류는 NFS 및 CIFS 볼륨을 마운트하여 다른 클라이언트와 마찬가지로 데이터에 연결됩니다. CIFS 볼륨을 스캔하려면 Active Directory 자격 증명을 제공해야 하지만 NFS 볼륨은 읽기 전용으로 자동 액세스됩니다.
 
-image:diagram_cloud_compliance_scan.png["클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 클라우드 데이터 감지 인스턴스를 보여 주는 다이어그램입니다. Data Sense 인스턴스는 NFS 및 CIFS 볼륨, S3 버킷, OneDrive 계정 및 데이터베이스에 연결하여 검색합니다."]
+image:diagram_cloud_compliance_scan.png["클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 BlueXP 분류 인스턴스를 보여 주는 다이어그램입니다. BlueXP 분류 인스턴스는 NFS 및 CIFS 볼륨, S3 버킷, OneDrive 계정 및 데이터베이스에 연결하여 검색합니다."]
 
-초기 스캔 후 데이터 센스에서 지속적으로 데이터를 스캔하여 변동분 변화를 감지합니다(인스턴스 실행을 유지하는 것이 중요한 이유).
+초기 검사 후 BlueXP 분류는 데이터를 지속적으로 검사하여 증분 변경 사항을 감지합니다(이 때문에 인스턴스를 계속 실행하는 것이 중요합니다).
 
 볼륨 수준, 버킷 수준, 데이터베이스 스키마 수준, OneDrive 사용자 수준 및 SharePoint 사이트 수준에서 스캔을 활성화 및 비활성화할 수 있습니다.
 
@@ -220,7 +220,7 @@ image:diagram_cloud_compliance_scan.png["클라우드 공급자에서 실행되�
 
 === 매핑 스캔과 분류 스캔의 차이점은 무엇입니까
 
-Cloud Data Sense를 사용하면 선택한 데이터 소스에서 일반적인 "매핑" 스캔을 실행할 수 있습니다. 매핑은 데이터에 대한 상위 수준의 개요만 제공하는 반면 분류는 데이터에 대한 세부 수준의 스캐닝을 제공합니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다.
+BlueXP 분류를 통해 선택한 데이터 소스에서 일반적인 "매핑" 스캔을 실행할 수 있습니다. 매핑은 데이터에 대한 상위 수준의 개요만 제공하는 반면 분류는 데이터에 대한 세부 수준의 스캐닝을 제공합니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다.
 
 많은 사용자가 데이터를 신속하게 스캔하여 더 많은 연구가 필요한 데이터 소스를 식별하려고 하므로 이 기능을 좋아하고, 그런 다음 필요한 데이터 소스 또는 볼륨에서만 분류 검사를 활성화할 수 있습니다.
 
@@ -265,50 +265,50 @@ Cloud Data Sense를 사용하면 선택한 데이터 소스에서 일반적인 "
 |===
 
 
-=== 데이터 센스의 스캔 데이터
+=== BlueXP 분류 스캔 데이터의 속도
 
 스캔 속도는 네트워크 지연 시간, 디스크 지연 시간, 네트워크 대역폭, 환경 크기 및 파일 배포 크기의 영향을 받습니다.
 
-* 매핑 스캔을 수행할 때 데이터 센스(Data Sense)는 스캐너 노드당 하루에 100-150GB의 데이터를 스캔할 수 있습니다.
-* 분류 스캔을 수행할 때 데이터 센스(Data Sense)는 스캐너 노드당 하루에 15-40GB의 데이터를 스캔할 수 있습니다.
+* 매핑 스캔을 수행할 때 BlueXP 분류는 스캐너 노드당 하루에 100-150GB의 데이터를 스캔할 수 있습니다.
+* 분류 스캔을 수행할 때 BlueXP 분류는 스캐너 노드당 하루에 15-40개의 BB 데이터를 스캔할 수 있습니다.
 
 
-link:task-deploy-compliance-onprem.html#install-data-sense-on-the-linux-host["데이터를 스캔하기 위해 여러 스캐너 노드를 구축하는 방법에 대해 자세히 알아보십시오"^].
+link:task-deploy-compliance-onprem.html#install-bluexp-classification-on-the-linux-host["데이터를 스캔하기 위해 여러 스캐너 노드를 구축하는 방법에 대해 자세히 알아보십시오"^].
 
 
 
-== Cloud Data Sense가 인덱싱하는 정보입니다
+== BlueXP 분류 색인에 대한 정보
 
-데이터 센스는 데이터(파일)에 범주를 수집, 색인 및 할당합니다. Data Sense 색인에는 다음과 같은 데이터가 포함됩니다.
+BlueXP 분류는 데이터(파일)에 범주를 수집, 색인 및 할당합니다. BlueXP 분류 인덱스의 데이터는 다음과 같습니다.
 
-표준 메타데이터:: Cloud Data Sense는 파일 유형, 크기, 생성 및 수정 날짜 등과 같은 파일에 대한 표준 메타데이터를 수집합니다.
+표준 메타데이터:: BlueXP 분류는 파일 유형, 크기, 생성 및 수정 날짜 등의 파일에 대한 표준 메타데이터를 수집합니다.
 개인 데이터:: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보 link:task-controlling-private-data.html#viewing-files-that-contain-personal-data["개인 데이터에 대해 자세히 알아보십시오"^].
 민감한 개인 데이터:: GDPR 및 기타 개인 정보 보호 규정에 정의된 의료 데이터, 인종 또는 정치적 의견과 같은 민감한 정보의 특별한 유형. link:task-controlling-private-data.html#viewing-files-that-contain-sensitive-personal-data["중요한 개인 데이터에 대해 자세히 알아보십시오"^].
-범주:: Cloud Data Sense는 스캔한 데이터를 다양한 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. link:task-controlling-private-data.html#viewing-files-by-categories["범주에 대해 자세히 알아보십시오"^].
-유형:: Cloud Data Sense는 스캔한 데이터를 파일 형식별로 분해합니다. link:task-controlling-private-data.html#viewing-files-by-file-types["유형에 대해 자세히 알아보십시오"^].
-이름 요소 인식:: Cloud Data Sense는 AI를 사용하여 문서에서 자연인의 이름을 추출합니다. link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["데이터 주체 액세스 요청에 응답하는 방법에 대해 알아봅니다"^].
+범주:: BlueXP 분류는 스캔한 데이터를 다른 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. link:task-controlling-private-data.html#viewing-files-by-categories["범주에 대해 자세히 알아보십시오"^].
+유형:: BlueXP 분류는 스캔한 데이터를 파일 유형별로 분류하여 표시합니다. link:task-controlling-private-data.html#viewing-files-by-file-types["유형에 대해 자세히 알아보십시오"^].
+이름 요소 인식:: BlueXP 분류에서는 AI를 사용하여 문서에서 자연인의 이름을 추출합니다. link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["데이터 주체 액세스 요청에 응답하는 방법에 대해 알아봅니다"^].
 
 
 
 
 == 네트워킹 개요
 
-BlueXP는 Connector 인스턴스의 인바운드 HTTP 연결을 활성화하는 보안 그룹과 함께 Cloud Data Sense 인스턴스를 배포합니다.
+BlueXP는 Connector 인스턴스의 인바운드 HTTP 연결을 활성화하는 보안 그룹과 함께 BlueXP 분류 인스턴스를 배포합니다.
 
-SaaS 모드에서 BlueXP를 사용할 경우 HTTPS를 통해 BlueXP에 연결되고 브라우저와 Data Sense 인스턴스 간에 전송되는 개인 데이터는 엔드 투 엔드 암호화로 보호됩니다. 즉, NetApp과 타사에서 해당 데이터를 읽을 수 없습니다.
+SaaS 모드에서 BlueXP를 사용할 경우 HTTPS를 통해 BlueXP에 연결되고 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 개인 데이터는 엔드-투-엔드 암호화로 보호되므로 NetApp과 타사에서 해당 데이터를 읽을 수 없습니다.
 
-아웃바운드 규칙은 완전히 열립니다. 데이터 감지 소프트웨어를 설치 및 업그레이드하고 사용량 메트릭을 전송하려면 인터넷에 액세스해야 합니다.
+아웃바운드 규칙은 완전히 열립니다. BlueXP 분류 소프트웨어를 설치 및 업그레이드하고 사용 지표를 전송하려면 인터넷 액세스가 필요합니다.
 
-네트워킹 요구 사항이 엄격하면 link:task-deploy-cloud-compliance.html#review-prerequisites["Cloud Data Sense가 접촉하는 엔드포인트에 대해 알아보십시오"^].
+네트워킹 요구 사항이 엄격하면 link:task-deploy-cloud-compliance.html#review-prerequisites["BlueXP 분류 접촉부에 대한 엔드포인트에 대해 알아보십시오"^].
 
 
 
 == 규정 준수 정보에 대한 사용자 액세스
 
-각 사용자에게 할당된 역할은 BlueXP와 클라우드 데이터 감지 내에서 서로 다른 기능을 제공합니다.
+각 사용자에게 할당된 역할은 BlueXP와 BlueXP 분류 내에서 서로 다른 기능을 제공합니다.
 
 * 계정 관리자 * 는 규정 준수 설정을 관리하고 모든 작업 환경에 대한 규정 준수 정보를 볼 수 있습니다.
-* Workspace Admin * 은 액세스 권한이 있는 시스템에 대해서만 준수 설정을 관리하고 준수 정보를 볼 수 있습니다. 작업 영역 관리자가 BlueXP의 작업 환경에 액세스할 수 없는 경우 데이터 감지 탭에서 작업 환경에 대한 규정 준수 정보를 볼 수 없습니다.
+* Workspace Admin * 은 액세스 권한이 있는 시스템에 대해서만 준수 설정을 관리하고 준수 정보를 볼 수 있습니다. 작업 영역 관리자가 BlueXP의 작업 환경에 액세스할 수 없는 경우 BlueXP 분류 탭에서 작업 환경에 대한 규정 준수 정보를 볼 수 없습니다.
 * Compliance Viewer * 역할의 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 시스템에 대한 보고서만 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마 스캔을 활성화/비활성화할 수 없습니다. 이러한 사용자는 파일을 복사, 이동 또는 삭제할 수 없습니다.
 
 

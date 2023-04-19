@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-org-private-data.html 
 keywords: compliance, privacy, filter data, highlights, policies, email alerts, notifications, aip labels, azure information protection, add labels, change labels, tags, data sense 
-summary: Cloud Data Sense는 개인 데이터를 관리하고 구성할 수 있는 다양한 방법을 제공합니다. 따라서 가장 중요한 데이터를 더 쉽게 볼 수 있습니다. 
+summary: BlueXP 분류는 개인 데이터를 관리하고 구성할 수 있는 다양한 방법을 제공합니다. 따라서 가장 중요한 데이터를 더 쉽게 볼 수 있습니다. 
 ---
 = 개인 데이터 구성
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: Cloud Data Sense는 개인 데이터를 관리하고 구성할 수 있�
 
 
 [role="lead"]
-Cloud Data Sense는 개인 데이터를 관리하고 구성할 수 있는 다양한 방법을 제공합니다. 따라서 가장 중요한 데이터를 더 쉽게 볼 수 있습니다.
+BlueXP 분류는 개인 데이터를 관리하고 구성할 수 있는 다양한 방법을 제공합니다. 따라서 가장 중요한 데이터를 더 쉽게 볼 수 있습니다.
 
-* 에 가입되어 있는 경우 https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection)"^] 파일을 분류 및 보호하기 위해 Cloud Data Sense를 사용하여 AIP 레이블을 관리할 수 있습니다.
+* 에 가입되어 있는 경우 https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection)"^] 파일을 분류하고 보호하려면 BlueXP 분류를 사용하여 해당 AIP 레이블을 관리할 수 있습니다.
 * 조직 또는 일부 유형의 추가 작업에 대해 표시할 파일에 태그를 추가할 수 있습니다.
 * BlueXP 사용자를 특정 파일 또는 여러 파일에 할당하여 파일 관리를 책임질 수 있습니다.
 * "정책" 기능을 사용하면 버튼 하나를 클릭하여 결과를 쉽게 볼 수 있도록 사용자 지정 검색 쿼리를 직접 만들 수 있습니다.
@@ -30,23 +30,23 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 
 == 태그나 라벨을 사용해야 합니까?
 
-다음은 Data Sense 태깅 및 Azure Information Protection 레이블과 비교한 것입니다.
+다음은 BlueXP 분류 태깅 및 Azure 정보 보호 라벨과 비교한 것입니다.
 
 [cols="50,50"]
 |===
 | 태그 | 라벨 
 
 
-| 파일 태그는 데이터 센스의 통합된 부분입니다. | Azure 정보 보호(AIP)에 가입해야 합니다. 
+| 파일 태그는 BlueXP 분류의 통합된 부분입니다. | Azure 정보 보호(AIP)에 가입해야 합니다. 
 
 
-| 태그는 데이터 감지 데이터베이스에만 보관되며 파일에 기록되지 않습니다. 파일 또는 액세스되거나 수정된 파일은 변경되지 않습니다. | 레이블은 파일의 일부이며 레이블이 변경되면 파일이 변경됩니다. 또한 이 변경 사항은 액세스 및 수정된 파일 시간도 변경합니다. 
+| 이 태그는 BlueXP 분류 데이터베이스에만 보관되며, 파일에는 기록되지 않습니다. 파일 또는 액세스되거나 수정된 파일은 변경되지 않습니다. | 레이블은 파일의 일부이며 레이블이 변경되면 파일이 변경됩니다. 또한 이 변경 사항은 액세스 및 수정된 파일 시간도 변경합니다. 
 
 
 | 한 파일에 여러 개의 태그를 지정할 수 있습니다. | 단일 파일에 하나의 레이블이 있을 수 있습니다. 
 
 
-| 태그는 복사, 이동, 삭제, 정책 실행 등의 내부 데이터 감지 작업에 사용할 수 있습니다. 등 | 파일을 읽을 수 있는 다른 시스템은 추가 자동화에 사용할 수 있는 레이블을 볼 수 있습니다. 
+| 태그는 복사, 이동, 삭제, 정책 실행 등의 내부 BlueXP 분류 작업에 사용할 수 있습니다. 등 | 파일을 읽을 수 있는 다른 시스템은 추가 자동화에 사용할 수 있는 레이블을 볼 수 있습니다. 
 
 
 | 단일 API 호출만 사용하여 파일에 태그가 있는지 확인합니다. |  
@@ -55,15 +55,15 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 
 == AIP 레이블을 사용하여 데이터를 분류합니다
 
-구독한 경우 Cloud Data Sense에서 검색 중인 파일에서 AIP 레이블을 관리할 수 있습니다 https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection)"^]. AIP를 사용하면 콘텐츠에 레이블을 적용하여 문서와 파일을 분류하고 보호할 수 있습니다. 데이터 센스를 사용하면 파일에 이미 할당된 라벨을 보고, 파일에 라벨을 추가하고, 라벨이 이미 있을 때 라벨을 변경할 수 있습니다.
+에 가입한 경우 BlueXP 분류에서 검색하는 파일의 AIP 레이블을 관리할 수 있습니다 https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection)"^]. AIP를 사용하면 콘텐츠에 레이블을 적용하여 문서와 파일을 분류하고 보호할 수 있습니다. BlueXP 분류를 사용하면 파일에 이미 할당된 레이블을 보고, 파일에 레이블을 추가하고, 레이블이 이미 있는 경우 레이블을 변경할 수 있습니다.
 
-Cloud Data Sense는 .DOC, .DOCX, .PDF, .PPTX, .XLS 파일 형식 내에서 AIP 레이블을 지원합니다. XLSX
+BlueXP 분류는 .DOC, .DOCX, .PDF, .PPTX, .XLS 파일 형식 내에서 AIP 레이블을 지원합니다. XLSX
 
 [NOTE]
 ====
 * 현재 30MB를 초과하는 파일의 레이블은 변경할 수 없습니다. OneDrive, SharePoint 및 Google Drive 계정의 경우 최대 파일 크기는 4MB입니다.
-* 파일에 AIP에 더 이상 존재하지 않는 레이블이 있는 경우 Cloud Data Sense는 이 레이블을 레이블이 없는 파일로 간주합니다.
-* 정부 지역 또는 인터넷 액세스가 없는 온프레미스 위치(어두운 사이트라고도 함)에 Data Sense를 배포한 경우에는 AIP 레이블 기능을 사용할 수 없습니다.
+* 파일에 AIP에 더 이상 존재하지 않는 레이블이 있는 경우 BlueXP 분류에서는 레이블이 없는 파일로 간주합니다.
+* 정부 지역 또는 인터넷 액세스가 없는 온프레미스 위치(어두운 사이트라고도 함)에 BlueXP 분류를 배포한 경우에는 AIP 레이블 기능을 사용할 수 없습니다.
 
 
 ====
@@ -71,7 +71,7 @@ Cloud Data Sense는 .DOC, .DOCX, .PDF, .PPTX, .XLS 파일 형식 내에서 AIP �
 
 === 작업 공간에 AIP 레이블 통합
 
-AIP 레이블을 관리하려면 AIP 레이블 기능을 기존 Azure 계정에 로그인하여 Cloud Data Sense에 통합해야 합니다. 활성화되면 모든 파일의 AIP 레이블을 관리할 수 있습니다 link:concept-cloud-compliance.html#supported-data-sources["데이터 소스"^] BlueXP 작업 영역에서
+AIP 레이블을 관리하려면 기존 Azure 계정에 로그인하여 AIP 레이블 기능을 BlueXP 분류에 통합해야 합니다. 활성화되면 모든 파일의 AIP 레이블을 관리할 수 있습니다 link:concept-cloud-compliance.html#supported-data-sources["데이터 소스"^] BlueXP 작업 영역에서
 
 .요구 사항
 * 계정 및 Azure 정보 보호 라이센스가 있어야 합니다.
@@ -80,13 +80,13 @@ AIP 레이블을 관리하려면 AIP 레이블 기능을 기존 Azure 계정에 
 
 
 .단계
-. 클라우드 데이터 감지 구성 페이지에서 * AIP 레이블 통합 * 을 클릭합니다.
+. BlueXP 분류 구성 페이지에서 * AIP 레이블 통합 * 을 클릭합니다.
 +
-image:screenshot_compliance_integrate_aip_labels.png["AIP 레이블 기능을 Cloud Data Sense에 통합하기 위해 버튼을 클릭하는 모습을 보여 주는 스크린샷"]
+image:screenshot_compliance_integrate_aip_labels.png["단추를 클릭하여 AIP 레이블 기능을 BlueXP 분류에 통합하는 스크린샷."]
 
 . AIP 레이블 통합 대화 상자에서 * Azure에 로그인 * 을 클릭합니다.
 . Microsoft 페이지가 나타나면 계정을 선택하고 필요한 자격 증명을 입력합니다.
-. Cloud Data Sense 탭으로 돌아가면 "_AIP 라벨이 <ACCOUNT_NAME>_ 계정과 성공적으로 통합되었습니다."라는 메시지가 표시됩니다.
+. BlueXP 분류 탭으로 돌아가면 "_AIP 라벨이 <account_name>_ 계정과 성공적으로 통합되었습니다."라는 메시지가 나타납니다.
 . 닫기 * 를 클릭하면 페이지 상단에 _AIP 라벨 통합 _ 이라는 텍스트가 표시됩니다.
 +
 image:screenshot_compliance_aip_labels_int.png["AIP 레이블을 보여 주는 스크린샷이 성공적으로 통합되었습니다."]
@@ -110,7 +110,7 @@ image:screenshot_compliance_show_label.png["할당된 AIP 레이블을 포함하
 
 === AIP 레이블을 수동으로 할당합니다
 
-Cloud Data Sense를 사용하여 파일에서 AIP 레이블을 추가, 변경 및 제거할 수 있습니다.
+BlueXP 분류를 사용하여 파일에서 AIP 레이블을 추가, 변경 및 제거할 수 있습니다.
 
 다음 단계에 따라 AIP 레이블을 단일 파일에 할당합니다.
 
@@ -150,14 +150,14 @@ image:screenshot_compliance_select_aip_label_multi.png["데이터 조사 페이�
 
 === AIP 통합 제거
 
-파일에서 AIP 레이블을 더 이상 관리할 수 없는 경우 Cloud Data Sense 인터페이스에서 AIP 계정을 제거할 수 있습니다.
+파일의 AIP 레이블을 더 이상 관리할 수 없는 경우 BlueXP 분류 인터페이스에서 AIP 계정을 제거할 수 있습니다.
 
-데이터 센스를 사용하여 추가한 레이블은 변경되지 않습니다. 파일에 있는 레이블은 현재 있는 그대로 유지됩니다.
+BlueXP 분류를 사용하여 추가한 레이블은 변경되지 않습니다. 파일에 있는 레이블은 현재 있는 그대로 유지됩니다.
 
 .단계
 . Configuration_페이지에서 * AIP Labels integrated > Remove Integration * 을 클릭합니다.
 +
-image:screenshot_compliance_un_integrate_aip_labels.png["AIP와 Cloud Data Sense의 통합을 제거하는 방법을 보여 주는 스크린샷"]
+image:screenshot_compliance_un_integrate_aip_labels.png["BlueXP 분류와 AIP 통합을 제거하는 방법을 보여 주는 스크린샷."]
 
 . 확인 대화 상자에서 * 통합 제거 * 를 클릭합니다.
 
@@ -168,12 +168,12 @@ image:screenshot_compliance_un_integrate_aip_labels.png["AIP와 Cloud Data Sense
 
 특정 유형의 추가 작업에 대해 표시할 파일에 태그를 추가할 수 있습니다. 예를 들어 일부 중복 파일을 발견하여 이 중 하나를 삭제하려 할 수 있지만 삭제해야 할 파일을 확인해야 합니다. 파일에 "삭제 확인"이라는 태그를 추가할 수 있으므로 이 파일에 몇 가지 조사 및 향후 작업이 필요하다는 것을 알 수 있습니다.
 
-Data Sense를 사용하면 파일에 할당된 태그를 보거나, 파일에서 태그를 추가 또는 제거하거나, 이름을 변경하거나, 기존 태그를 삭제할 수 있습니다.
+BlueXP 분류를 사용하면 파일에 할당된 태그를 보거나, 파일에서 태그를 추가 또는 제거하거나, 이름을 변경하거나, 기존 태그를 삭제할 수 있습니다.
 
-AIP 레이블과 같은 방식으로 태그가 파일에 추가되지 않습니다. 이 태그는 BlueXP 사용자가 Cloud Data Sense를 사용하여 볼 수 있으므로 일부 유형의 후속 작업을 위해 파일을 삭제하거나 확인해야 하는지 여부를 확인할 수 있습니다.
+AIP 레이블과 같은 방식으로 태그가 파일에 추가되지 않습니다. BlueXP 사용자는 BlueXP 분류를 사용하여 태그를 볼 수 있으므로 일부 유형의 후속 작업을 위해 파일을 삭제하거나 확인해야 하는지 확인할 수 있습니다.
 
 
-TIP: Cloud Data Sense에서 파일에 할당된 태그는 볼륨 또는 가상 머신 인스턴스와 같은 리소스에 추가할 수 있는 태그와 관련이 없습니다. 데이터 감지 태그는 파일 레벨에 적용됩니다.
+TIP: BlueXP 분류에서 파일에 할당된 태그는 볼륨 또는 가상 시스템 인스턴스 같은 리소스에 추가할 수 있는 태그와 관련이 없습니다. 파일 수준에서 BlueXP 분류 태그가 적용됩니다.
 
 
 
@@ -181,7 +181,7 @@ TIP: Cloud Data Sense에서 파일에 할당된 태그는 볼륨 또는 가상 �
 
 특정 태그가 지정된 모든 파일을 볼 수 있습니다.
 
-. 클라우드 데이터 센스에서 * 조사 * 탭을 클릭합니다.
+. BlueXP 분류에서 * Investigation * (조사 *) 탭을 클릭합니다.
 . 데이터 조사 페이지의 필터 창에서 * 태그 * 를 클릭한 다음 필요한 태그를 선택합니다.
 +
 image:screenshot_compliance_filter_status.png["필터 창에서 태그를 선택하는 방법을 보여 주는 스크린샷"]
@@ -261,7 +261,7 @@ BlueXP 사용자를 특정 파일 또는 여러 파일에 할당하면 해당 �
 
 예를 들어 너무 많은 사용자가 읽기 및 쓰기 액세스(열린 권한)를 수행할 수 있도록 특정 개인 데이터가 포함된 파일이 있을 수 있습니다. 따라서 상태 태그 "권한 변경"을 할당하고 이 파일을 사용자 "Joan Smith"에게 할당하여 문제 해결 방법을 결정할 수 있습니다. 문제를 해결하면 상태 태그를 "완료됨"으로 변경할 수 있습니다.
 
-사용자 이름은 파일 메타데이터의 일부로 파일에 추가되지 않습니다. BlueXP 사용자는 Cloud Data Sense를 사용할 때 이 이름을 볼 수 있습니다.
+사용자 이름은 파일 메타데이터의 일부로 파일에 추가되지 않습니다. BlueXP 사용자는 BlueXP 분류를 사용할 때 이 이름을 볼 수 있습니다.
 
 조사 페이지의 새 필터를 사용하면 "담당자" 필드에 동일한 사람이 있는 모든 파일을 쉽게 볼 수 있습니다.
 

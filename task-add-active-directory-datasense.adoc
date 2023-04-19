@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-add-active-directory-datasense.html 
 keywords: active directory, ad, data sense, cloud data sense 
-summary: 글로벌 Active Directory를 클라우드 데이터 센스와 통합하여 데이터 센스에서 파일 소유자와 파일에 액세스할 수 있는 사용자 및 그룹에 대해 보고하는 결과를 개선할 수 있습니다. 
+summary: 글로벌 Active Directory를 BlueXP 분류와 통합하여 파일 소유자 및 파일에 액세스할 수 있는 사용자 및 그룹에 대한 BlueXP 분류 보고서의 결과를 개선할 수 있습니다. 
 ---
-= Active Directory를 클라우드 데이터 센스에 통합합니다
+= Active Directory를 BlueXP 분류와 통합합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,11 +14,11 @@ summary: 글로벌 Active Directory를 클라우드 데이터 센스와 통합�
 
 
 [role="lead"]
-글로벌 Active Directory를 클라우드 데이터 센스와 통합하여 데이터 센스에서 파일 소유자와 파일에 액세스할 수 있는 사용자 및 그룹에 대해 보고하는 결과를 개선할 수 있습니다.
+글로벌 Active Directory를 BlueXP 분류와 통합하여 파일 소유자 및 파일에 액세스할 수 있는 사용자 및 그룹에 대한 BlueXP 분류 보고서의 결과를 개선할 수 있습니다.
 
-아래에 나열된 특정 데이터 소스를 설정할 때 Data Sense에서 CIFS 볼륨을 스캔하려면 Active Directory 자격 증명을 입력해야 합니다. 이러한 통합은 데이터 소스에 있는 데이터에 대한 파일 소유자 및 사용 권한 세부 정보와 함께 데이터 센스를 제공합니다. 이러한 데이터 원본에 대해 입력한 Active Directory가 여기에 입력한 글로벌 Active Directory 자격 증명과 다를 수 있습니다. 데이터 센스(Data Sense)는 모든 통합 Active Directory에서 사용자 및 권한 세부 정보를 찾습니다.
+아래 나열된 특정 데이터 소스를 설정할 때 BlueXP에서 CIFS 볼륨을 스캔하려면 Active Directory 자격 증명을 입력해야 합니다. 이러한 통합을 통해 파일 소유자와 BlueXP 분류를 수행하고 해당 데이터 소스에 있는 데이터에 대한 사용 권한 세부 정보를 확인할 수 있습니다. 이러한 데이터 원본에 대해 입력한 Active Directory가 여기에 입력한 글로벌 Active Directory 자격 증명과 다를 수 있습니다. BlueXP 분류는 모든 통합 Active Directory에서 사용자 및 권한 세부 정보를 확인할 수 있습니다.
 
-이러한 통합으로 데이터 센스의 다음 위치에 추가 정보가 제공됩니다.
+이러한 통합은 BlueXP 분류의 다음 위치에 추가 정보를 제공합니다.
 
 * "파일 소유자"를 사용할 수 있습니다. link:task-investigate-data.html#filtering-data-in-the-data-investigation-page["필터"] 그리고 조사 창에서 파일의 메타데이터에서 결과를 확인합니다. SID(보안 식별자)가 포함된 파일 소유자 대신 실제 사용자 이름으로 채워집니다.
 * 확인할 수 있습니다 link:task-investigate-data.html#viewing-permissions-for-files-and-directories["전체 파일 권한"] "모든 권한 보기" 버튼을 클릭하면 각 파일 및 디렉토리에 대해 이 작업을 수행할 수 있습니다.
@@ -32,7 +32,7 @@ NOTE: 로컬 사용자 SID 및 알 수 없는 도메인의 SID는 실제 사용�
 
 == 지원되는 데이터 소스
 
-Active Directory와 클라우드 데이터 센스를 통합하면 다음 데이터 소스 내에서 데이터를 식별할 수 있습니다.
+BlueXP 분류와 Active Directory를 통합하면 다음 데이터 소스 내에서 데이터를 식별할 수 있습니다.
 
 * 온프레미스 ONTAP 시스템
 * Cloud Volumes ONTAP
@@ -49,11 +49,11 @@ Active Directory와 클라우드 데이터 센스를 통합하면 다음 데이�
 
 == Active Directory 서버에 연결하는 중입니다
 
-데이터 센스를 배포하고 데이터 소스에서 스캔을 활성화한 후에는 데이터 센스를 Active Directory와 통합할 수 있습니다. Active Directory는 DNS 서버 IP 주소 또는 LDAP 서버 IP 주소를 사용하여 액세스할 수 있습니다.
+BlueXP 분류를 배포하고 데이터 소스에서 스캔을 활성화한 후 BlueXP 분류를 Active Directory와 통합할 수 있습니다. Active Directory는 DNS 서버 IP 주소 또는 LDAP 서버 IP 주소를 사용하여 액세스할 수 있습니다.
 
-Active Directory 자격 증명은 읽기 전용일 수 있지만 관리자 자격 증명을 제공하면 Data Sense에서 상승된 사용 권한이 필요한 모든 데이터를 읽을 수 있습니다. 자격 증명은 Cloud Data Sense 인스턴스에 저장됩니다.
+Active Directory 자격 증명은 읽기 전용일 수 있지만 관리자 자격 증명을 제공하면 BlueXP 분류에서 상승된 권한이 필요한 모든 데이터를 읽을 수 있습니다. 자격 증명은 BlueXP 분류 인스턴스에 저장됩니다.
 
-CIFS 볼륨/파일 공유의 경우 데이터 감지 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 쓰기 속성 권한이 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.
+CIFS 볼륨/파일 공유의 경우 BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 쓰기 속성 권한이 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.
 
 .요구 사항
 * 회사의 사용자에 대해 Active Directory가 이미 설정되어 있어야 합니다.
@@ -72,7 +72,7 @@ LDAP 서버 IP 주소 또는 여러 IP 주소
 ** LDAP 서버 포트(일반적으로 LDAP의 경우 389, 보안 LDAP의 경우 636)
 
 
-* 다음 포트는 Data Sense 인스턴스에 의한 아웃바운드 통신을 위해 열려 있어야 합니다.
+* BlueXP 분류 인스턴스에서 아웃바운드 통신을 위해 다음 포트가 열려 있어야 합니다.
 +
 [cols="20,20,30,30"]
 |===
@@ -93,22 +93,22 @@ LDAP 서버 IP 주소 또는 여러 IP 주소
 
 
 .단계
-. 클라우드 데이터 감지 구성 페이지에서 * Active Directory 추가 * 를 클릭합니다.
+. BlueXP 분류 구성 페이지에서 * Active Directory 추가 * 를 클릭합니다.
 +
-image:screenshot_compliance_integrate_active_directory.png["Active Directory 서버를 Cloud Data Sense에 추가하기 위해 버튼을 클릭하는 모습을 보여 주는 스크린샷."]
+image:screenshot_compliance_integrate_active_directory.png["버튼을 클릭하여 Active Directory 서버를 BlueXP 분류에 추가하는 것을 보여 주는 스크린샷."]
 
 . Active Directory에 연결 대화 상자에서 Active Directory 세부 정보를 입력하고 * Connect * 를 클릭합니다.
 +
 필요한 경우 * IP 추가 * 를 클릭하여 여러 IP 주소를 추가할 수 있습니다.
 
 +
-image:screenshot_compliance_active_directory_dialog.png["데이터 센스에 통합할 Active Directory를 정의하는 대화 상자의 스크린 샷"]
+image:screenshot_compliance_active_directory_dialog.png["BlueXP 분류와 통합하려는 Active Directory를 정의하는 대화 상자의 스크린샷."]
 
 +
-Data Sense는 Active Directory에 통합되며 새 섹션이 구성 페이지에 추가됩니다.
+BlueXP 분류는 Active Directory에 통합되며 새 섹션이 구성 페이지에 추가됩니다.
 
 +
-image:screenshot_compliance_active_directory_added.png["데이터 센스에 통합된 새로운 Active Directory를 보여 주는 스크린샷"]
+image:screenshot_compliance_active_directory_added.png["BlueXP 분류에 통합된 새로운 Active Directory를 보여 주는 스크린샷"]
 
 
 

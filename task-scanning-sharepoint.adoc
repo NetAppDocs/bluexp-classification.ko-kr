@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-scanning-sharepoint.html 
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, sharepoint, sharepoint online, sharepoint on-premises, data sense 
-summary: Cloud Data Sense를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오. 
+summary: BlueXP 분류를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정의 파일 검색을 시작하는 몇 가지 단계를 완료합니다. 
 ---
 = SharePoint 계정 스캔 중
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Data Sense를 사용하여 SharePoint Online 및 SharePoint On-Pr
 
 
 [role="lead"]
-Cloud Data Sense를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정의 파일 스캔을 시작하려면 몇 단계를 완료하십시오.
+BlueXP 분류를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정의 파일 검색을 시작하는 몇 가지 단계를 완료합니다.
 
 
 
@@ -26,9 +26,9 @@ Cloud Data Sense를 사용하여 SharePoint Online 및 SharePoint On-Premise 계
 [role="quick-margin-para"]
 SharePoint 계정에 로그인할 수 있는 자격 증명이 있고 검색할 SharePoint 사이트의 URL이 있는지 확인합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 클라우드 데이터 감지 인스턴스를 구축합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 인스턴스를 배포합니다
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["클라우드 데이터 센스를 구축하십시오"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] SharePoint 계정에 로그인합니다
 [role="quick-margin-para"]
@@ -42,7 +42,7 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 
 == SharePoint 요구 사항 검토
 
-다음 필수 구성 요소를 검토하여 SharePoint 계정에서 Cloud Data Sense를 활성화할 준비가 되었는지 확인합니다.
+다음 필수 구성 요소를 검토하여 SharePoint 계정에서 BlueXP 분류를 활성화할 준비가 되었는지 확인합니다.
 
 * 모든 SharePoint 사이트에 읽기 권한을 제공하는 SharePoint 계정에 대한 관리자 사용자 로그인 자격 증명이 있어야 합니다.
 +
@@ -55,17 +55,17 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 
 
 
-== Cloud Data Sense 인스턴스 구축
+== BlueXP 분류 인스턴스 배포
 
-이미 구축된 인스턴스가 없으면 Cloud Data Sense를 구축하십시오.
+배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.
 
-* SharePoint Online의 경우 데이터 감지로 설정할 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드에 구축"^].
-* SharePoint 온-프레미스의 경우 데이터 센스를 설치할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^] 또는 link:task-deploy-compliance-dark-site.html["인터넷 액세스가 없는 온프레미스 위치"^].
+* SharePoint Online의 경우 BlueXP 분류는 일 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드에 구축"^].
+* SharePoint 온-프레미스의 경우 BlueXP 분류를 설치할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^] 또는 link:task-deploy-compliance-dark-site.html["인터넷 액세스가 없는 온프레미스 위치"^].
 
 
-인터넷에 연결되지 않은 사이트에 Data Sense를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP Connector도 같은 사이트에 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["자세한 정보"^].
+인터넷에 연결되지 않은 사이트에 BlueXP 분류를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP 커넥터도 같은 사이트에 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["자세한 정보"^].
 
-데이터 감지 소프트웨어로 업그레이드하는 것은 인스턴스에 인터넷 연결이 있는 한 자동으로 수행됩니다.
+인스턴스가 인터넷에 연결되어 있는 경우 BlueXP 분류 소프트웨어로의 업그레이드가 자동화됩니다.
 
 
 
@@ -79,7 +79,7 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 image:screenshot_compliance_add_sharepoint_button.png["SharePoint Online 추가 단추를 클릭할 수 있는 구성 페이지의 스크린 샷"]
 
 . SharePoint Online 계정 추가 대화 상자에서 * SharePoint에 로그인 * 을 클릭합니다.
-. 나타나는 Microsoft 페이지에서 SharePoint 계정을 선택하고 사용자 및 암호(관리자 사용자 또는 SharePoint 사이트에 액세스할 수 있는 다른 사용자)를 입력한 다음 * 수락 * 을 클릭하여 Cloud Data Sense가 이 계정의 데이터를 읽을 수 있도록 합니다.
+. 나타나는 Microsoft 페이지에서 SharePoint 계정을 선택하고 사용자 및 암호(SharePoint 사이트에 액세스할 수 있는 관리자 사용자 또는 기타 사용자)를 입력한 다음 * Accept * 를 클릭하여 BlueXP 분류에서 이 계정의 데이터를 읽을 수 있도록 합니다.
 
 
 SharePoint Online 계정이 작업 환경 목록에 추가됩니다.
@@ -113,7 +113,7 @@ SharePoint 온-프레미스 계정이 작업 환경 목록에 추가됩니다.
 
 == 규정 준수 검사에 SharePoint 사이트 추가
 
-Cloud Data Sense에서 연결된 파일을 검사하도록 개별 SharePoint 사이트 또는 계정의 모든 SharePoint 사이트를 추가할 수 있습니다. SharePoint Online 또는 SharePoint 온-프레미스 사이트를 추가할 때는 이 단계가 동일합니다.
+개별 SharePoint 사이트 또는 계정에 있는 모든 SharePoint 사이트를 추가하여 연결된 파일을 BlueXP 분류로 검색할 수 있습니다. SharePoint Online 또는 SharePoint 온-프레미스 사이트를 추가할 때는 이 단계가 동일합니다.
 
 .단계
 . Configuration_ 페이지에서 SharePoint 계정의 * Configuration * 버튼을 클릭합니다.
@@ -158,7 +158,7 @@ image:screenshot_compliance_sharepoint_add_site.png["스캔할 사이트를 추�
 
 
 .결과
-Cloud Data Sense는 추가한 SharePoint 사이트의 파일을 스캔하기 시작하며, 그 결과는 대시보드와 다른 위치에 표시됩니다.
+BlueXP 분류는 사용자가 추가한 SharePoint 사이트의 파일을 검사하기 시작하고 그 결과는 대시보드와 다른 위치에 표시됩니다.
 
 
 
@@ -168,4 +168,4 @@ Cloud Data Sense는 추가한 SharePoint 사이트의 파일을 스캔하기 시
 
 image:screenshot_compliance_sharepoint_remove_site.png["단일 SharePoint 사이트의 파일 검색 방법을 보여 주는 스크린샷"]
 
-참고: 이 작업은 수행할 수 있습니다 link:task-managing-compliance.html#removing-a-onedrive-sharepoint-or-google-drive-account-from-cloud-data-sense["Data Sense에서 전체 SharePoint 계정을 삭제합니다"] SharePoint 계정에서 사용자 데이터를 더 이상 검색하지 않으려는 경우
+참고: 이 작업은 수행할 수 있습니다 link:task-managing-compliance.html#removing-a-onedrive-sharepoint-or-google-drive-account-from-bluexp-classification["BlueXP 분류에서 전체 SharePoint 계정을 삭제합니다"] SharePoint 계정에서 사용자 데이터를 더 이상 검색하지 않으려는 경우

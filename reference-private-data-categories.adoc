@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-private-data-categories.html 
 keywords: personal files, personal data, sensitive personal files, sensitive personal data, categories, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, sex, criminal, compliance, privacy, 
-summary: Cloud Data Sense는 다양한 유형의 프라이빗 데이터를 볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 식별할 수 있습니다. Google Drive 계정을 만듭니다. 
+summary: 볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 BlueXP 분류가 식별할 수 있는 여러 유형의 개인 데이터가 있습니다. Google Drive 계정을 만듭니다. 
 ---
 = 개인 데이터의 범주입니다
 :hardbreaks:
@@ -14,20 +14,20 @@ summary: Cloud Data Sense는 다양한 유형의 프라이빗 데이터를 볼�
 
 
 [role="lead"]
-Cloud Data Sense는 다양한 유형의 프라이빗 데이터를 볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 식별할 수 있습니다. Google Drive 계정을 만듭니다. 아래 범주를 참조하십시오.
+볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 BlueXP 분류가 식별할 수 있는 여러 유형의 개인 데이터가 있습니다. Google Drive 계정을 만듭니다. 아래 범주를 참조하십시오.
 
 
-TIP: Cloud Data Sense를 사용하여 추가 국가 ID 번호 또는 의료 식별자 등과 같은 다른 프라이빗 데이터 유형을 식별하려면 ng-contact-data-sense@netapp.com 으로 이메일을 보내 요청하십시오.
+TIP: 다른 개인 데이터 유형(예: 추가 국가 ID 번호 또는 의료 식별자)을 식별하기 위해 BlueXP 분류가 필요한 경우, 요청 시 ng-contact-data-sense@netapp.com 으로 이메일을 보내십시오.
 
 
 
 == 개인 데이터의 유형입니다
 
-파일에서 발견된 개인 데이터는 일반 개인 데이터 또는 국가 식별자일 수 있습니다. 아래 표의 세 번째 열은 클라우드 데이터 센스에서 을 사용하는지 여부를 나타냅니다 link:task-controlling-private-data.html#viewing-files-that-contain-personal-data["근접 확인"^] 식별자에 대한 결과를 검증합니다.
+파일에서 발견된 개인 데이터는 일반 개인 데이터 또는 국가 식별자일 수 있습니다. 아래 표의 세 번째 열은 BlueXP 분류의 사용 여부를 나타냅니다 link:task-controlling-private-data.html#viewing-files-that-contain-personal-data["근접 확인"^] 식별자에 대한 결과를 검증합니다.
 
 이러한 항목을 인식할 수 있는 언어는 테이블에서 식별됩니다.
 
-참고: 파일에 있는 개인 데이터 목록에 추가할 수 있습니다. 데이터베이스 서버를 검색하는 경우, _Data Fusion_ 기능을 사용하면 클라우드 데이터 센스가 데이터베이스 테이블에서 열을 선택하여 '검색'에서 찾을 추가 식별자를 선택할 수 있습니다. 텍스트 파일의 사용자 지정 키워드를 추가하거나 정규식을 사용하여 사용자 지정 패턴을 추가할 수도 있습니다. 을 참조하십시오 link:task-managing-data-fusion.html["데이터 감지 스캔에 개인 데이터 식별자를 추가합니다"^] 를 참조하십시오.
+참고: 파일에 있는 개인 데이터 목록에 추가할 수 있습니다. 데이터베이스 서버를 검색하는 경우, _Data Fusion_ 기능을 사용하면 데이터베이스 테이블에서 열을 선택하여 BlueXP 분류에서 검색할 추가 식별자를 선택할 수 있습니다. 텍스트 파일의 사용자 지정 키워드를 추가하거나 정규식을 사용하여 사용자 지정 패턴을 추가할 수도 있습니다. 을 참조하십시오 link:task-managing-data-fusion.html["BlueXP 분류 스캔에 개인 데이터 ID를 추가합니다"^] 를 참조하십시오.
 
 [cols="13,37,10,8,8,8,8,8"]
 |===
@@ -217,7 +217,7 @@ TIP: Cloud Data Sense를 사용하여 추가 국가 ID 번호 또는 의료 식�
 
 == 중요한 개인 데이터의 유형
 
-Cloud Data Sense가 파일에서 찾을 수 있는 중요한 개인 데이터에는 다음 목록이 포함됩니다.
+BlueXP 분류가 파일에서 찾을 수 있는 중요한 개인 데이터에는 다음 목록이 포함됩니다.
 
 이 범주의 항목은 현재 영어로만 인식할 수 있습니다.
 
@@ -236,7 +236,7 @@ ICD-10-CM 의료 코드:: 의료 및 의료 산업에서 사용되는 코드.
 
 == 범주 유형
 
-Cloud Data Sense는 다음과 같이 데이터를 분류합니다.
+BlueXP 분류는 다음과 같이 데이터를 분류합니다.
 
 이러한 범주의 대부분은 영어, 독일어 및 스페인어로 인정될 수 있습니다.
 
@@ -317,7 +317,7 @@ Cloud Data Sense는 다음과 같이 데이터를 분류합니다.
 * 코드
 * 손상되었습니다
 * 데이터베이스 및 인덱스 파일
-* 데이터 감지 브레드크럼입니다
+* BlueXP 분류 브레드크럼입니다
 * 설계 파일
 * 이메일 애플리케이션 데이터
 * 암호화(엔트로피 점수가 높은 파일)
@@ -340,9 +340,9 @@ Cloud Data Sense는 다음과 같이 데이터를 분류합니다.
 
 == 파일 유형
 
-Cloud Data Sense는 모든 파일에서 범주 및 메타데이터 정보를 검색하고 대시보드의 파일 형식 섹션에 모든 파일 형식을 표시합니다.
+BlueXP 분류는 모든 파일에서 범주 및 메타데이터 정보를 검색하고 대시보드의 파일 형식 섹션에 모든 파일 형식을 표시합니다.
 
-그러나 데이터 센스에서 PII(개인 식별 정보)를 감지하거나 DSAR 검색을 수행할 경우 다음 파일 형식만 지원됩니다.
+그러나 BlueXP 분류에서 PII(개인 식별 정보)를 감지하거나 DSAR 검색을 수행할 때는 다음 파일 형식만 지원됩니다.
 
 '+.csv, .dcm, .dicom, .DOC, .DOCX, .JSON, .pdf, .PPTX, .rtf, .TXT, XLS, .XLSX, Docs, Sheets, Slides+'
 
@@ -350,15 +350,15 @@ Cloud Data Sense는 모든 파일에서 범주 및 메타데이터 정보를 검
 
 == 정보가 정확합니다
 
-NetApp은 Cloud Data Sense에서 식별할 수 있는 개인 데이터와 민감한 개인 데이터의 100% 정확성을 보장할 수 없습니다. 항상 데이터를 검토하여 정보의 유효성을 확인해야 합니다.
+NetApp은 BlueXP의 분류 체계에서 식별할 수 있는 개인 데이터와 민감한 개인 데이터의 100% 정확성을 보장할 수 없습니다. 항상 데이터를 검토하여 정보의 유효성을 확인해야 합니다.
 
-테스트를 기준으로 아래 표는 Data Sense에서 찾은 정보의 정확성을 보여줍니다. 정밀 _ 및 _ 리콜 _ 을(를) 통해 분해합니다.
+테스트를 기준으로 아래 표는 BlueXP 분류에서 발견한 정보의 정확성을 보여줍니다. 정밀 _ 및 _ 리콜 _ 을(를) 통해 분해합니다.
 
-정밀도:: 데이터 센스에서 발견한 것이 정확하게 식별되었을 확률입니다. 예를 들어, 개인 데이터의 정밀도가 90%이면 개인 정보가 포함된 것으로 확인된 10개 파일 중 9개가 개인 정보를 포함하고 있음을 의미합니다. 10개 파일 중 1개는 위양성입니다.
-리콜:: 데이터 센스에서 필요한 것을 찾을 수 있는 확률입니다. 예를 들어 개인 데이터의 리콜 비율이 70%이면 데이터 센스에서 조직에 개인 정보가 실제로 포함된 10개 파일 중 7개를 식별할 수 있습니다. 데이터 센스를 사용하면 데이터의 30%가 누락되어 대시보드에 표시되지 않습니다.
+정밀도:: BlueXP 분류가 발견한 것이 올바르게 식별되었을 확률입니다. 예를 들어, 개인 데이터의 정밀도가 90%이면 개인 정보가 포함된 것으로 확인된 10개 파일 중 9개가 개인 정보를 포함하고 있음을 의미합니다. 10개 파일 중 1개는 위양성입니다.
+리콜:: BlueXP 분류 시 필요한 사항을 찾을 수 있는 확률입니다. 예를 들어, 개인 데이터의 리콜 비율이 70%이면 BlueXP 분류에서 조직에 개인 정보가 실제로 포함된 10개 파일 중 7개를 식별할 수 있습니다. BlueXP 분류는 데이터의 30%를 놓칠 수 있으며 대시보드에 표시되지 않습니다.
 
 
-우리는 결과의 정확성을 지속적으로 개선하고 있습니다. 이러한 향상된 기능은 향후 Data Sense 릴리즈에서 자동으로 제공될 예정입니다.
+우리는 결과의 정확성을 지속적으로 개선하고 있습니다. 이러한 개선 사항은 향후 BlueXP 분류 릴리스에서 자동으로 제공됩니다.
 
 [cols="25,20,20"]
 |===

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-deploy-cloud-compliance.html 
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance 
-summary: 클라우드 데이터 센스를 클라우드에 구축하려면 몇 단계를 완료하십시오. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 데이터 감지 인스턴스를 배포합니다. 
+summary: 클라우드에 BlueXP 분류를 배포하기 위한 몇 가지 단계를 완료합니다. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 BlueXP 분류 인스턴스를 배포합니다. 
 ---
-= BlueXP를 사용하여 클라우드 데이터 센스를 클라우드에 배포합니다
+= BlueXP를 사용하여 클라우드에 BlueXP 분류를 배포합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,9 +14,9 @@ summary: 클라우드 데이터 센스를 클라우드에 구축하려면 몇 �
 
 
 [role="lead"]
-클라우드 데이터 센스를 클라우드에 구축하려면 몇 단계를 완료하십시오. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 데이터 감지 인스턴스를 배포합니다.
+클라우드에 BlueXP 분류를 배포하기 위한 몇 가지 단계를 완료합니다. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 BlueXP 분류 인스턴스를 배포합니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 Linux 호스트에 데이터 센스를 설치합니다"]. 온프레미스에도 있는 데이터 감지 인스턴스를 사용하여 사내 ONTAP 시스템을 스캔하려는 경우 이러한 설치 유형을 사용하는 것이 좋은 옵션이 될 수 있지만, 이것은 필수 사항이 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
+참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 Linux 호스트에 BlueXP 분류를 설치합니다"]. 이 설치 유형은 사내에 위치한 BlueXP 분류 인스턴스를 사용하여 온프레미스 ONTAP 시스템을 스캔하려는 경우 좋은 옵션이 될 수 있지만 반드시 필요한 것은 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
 
 
 
@@ -33,21 +33,21 @@ summary: 클라우드 데이터 센스를 클라우드에 구축하려면 몇 �
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
-환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 클라우드 데이터 감지 간의 연결 등이 포함됩니다. <<사전 요구 사항을 검토합니다,전체 목록을 참조하십시오>>.
+환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 BlueXP 분류 간의 연결 등이 포함됩니다. <<사전 요구 사항을 검토합니다,전체 목록을 참조하십시오>>.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 클라우드 데이터 센스를 구축하십시오
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] BlueXP 분류를 배포합니다
 [role="quick-margin-para"]
-설치 마법사를 시작하여 클라우드에 Cloud Data Sense 인스턴스를 구축합니다.
+설치 마법사를 시작하여 클라우드에 BlueXP 분류 인스턴스를 배포합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] Cloud Data Sense 서비스를 구독하십시오
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] BlueXP 분류 서비스에 가입합니다
 [role="quick-margin-para"]
-BlueXP에서 Cloud Data Sense가 검사하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 계속해서 데이터를 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 통한 BlueXP 구독이 필요합니다.
+BlueXP의 BlueXP 분류 검사에서 처음 1TB의 데이터는 30일 동안 무료로 제공됩니다. 해당 시점 이후에도 계속해서 데이터를 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 통한 BlueXP 구독이 필요합니다.
 
 
 
 == 커넥터를 작성합니다
 
-Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^] 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^]. 대부분의 경우, 대부분의 경우 Cloud Data Sense를 활성화하려고 시도하기 전에 Connector를 설정했을 것입니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
+Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^] 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^]. 대부분의 경우 대부분의 경우 BlueXP 분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
 
 특정 클라우드 공급자에 배포된 Connector를 사용해야 하는 몇 가지 시나리오가 있습니다.
 
@@ -62,7 +62,7 @@ Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니�
 
 온프레미스 ONTAP 시스템, NetApp이 아닌 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스, OneDrive 폴더, SharePoint 계정, Google Drive 계정은 이러한 클라우드 커넥터를 사용할 때 검색할 수 있습니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 네트워크 또는 클라우드의 Linux 호스트 데이터 센스를 사내에서 설치하려는 일부 사용자는 Connector를 온프레미스에 설치하도록 선택할 수도 있습니다.
+참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 네트워크 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
 
 보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["다중 커넥터"].
 
@@ -70,7 +70,7 @@ Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니�
 
 === 정부 지역 지원
 
-Connector가 정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 배포되면 Cloud Data Sense가 지원됩니다. 이러한 방식으로 구축할 경우 Data Sense는 다음과 같은 제한 사항을 따릅니다.
+정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 Connector를 구축한 경우 BlueXP 분류가 지원됩니다. 이러한 방식으로 배포된 BlueXP 분류에는 다음과 같은 제한 사항이 있습니다.
 
 * OneDrive 계정, SharePoint 계정 및 Google Drive 계정을 검색할 수 없습니다.
 * Microsoft Azure 정보 보호(AIP) 레이블 기능은 통합할 수 없습니다.
@@ -82,19 +82,19 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-restricted-
 
 == 사전 요구 사항을 검토합니다
 
-클라우드 데이터 센스를 클라우드에 구축하기 전에 다음 사전 요구 사항을 검토하여 지원되는 구성이 있는지 확인하십시오.
+클라우드에 BlueXP 분류를 배포하기 전에 다음 사전 요구 사항을 검토하여 지원되는 구성이 있는지 확인합니다.
 
-클라우드 데이터 센스에서 아웃바운드 인터넷 액세스를 활성화합니다:: 클라우드 데이터 센스를 사용하려면 아웃바운드 인터넷 액세스가 필요합니다. 가상 또는 물리적 네트워크에서 인터넷 액세스에 프록시 서버를 사용하는 경우 데이터 감지 인스턴스에 다음 엔드포인트에 연결할 수 있는 아웃바운드 인터넷 액세스가 있는지 확인하십시오. 클라우드에 Data Sense를 구축하면 Connector와 동일한 서브넷에 위치합니다.
+BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다:: BlueXP 분류에는 아웃바운드 인터넷 액세스가 필요합니다. 가상 또는 물리적 네트워크에서 인터넷 액세스에 프록시 서버를 사용하는 경우 BlueXP 분류 인스턴스에 다음 엔드포인트에 연결할 수 있는 아웃바운드 인터넷 액세스 권한이 있는지 확인합니다. 클라우드에 BlueXP 분류를 배포할 때 Connector와 동일한 서브넷에 위치합니다.
 +
 --
-AWS, Azure 또는 GCP에서 Cloud Data Sense를 구현하는지 여부에 따라 아래에서 적절한 표를 검토하십시오.
+AWS, Azure 또는 GCP에서 BlueXP 분류를 배포하는지 여부에 따라 아래 적절한 표를 검토하십시오.
 
 --
 
 
 [role="tabbed-block"]
 ====
-.AWS 구축에 필요한 엔드포인트
+.AWS에 필요한 엔드포인트
 --
 [cols="43,57"]
 |===
@@ -113,10 +113,10 @@ AWS, Azure 또는 GCP에서 Cloud Data Sense를 구현하는지 여부에 따라
 | https://kinesis.us-east-1.amazonaws.com 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
 
 
-| https://cognito-idp.us-east-1.amazonaws.com\https://cognito-identity.us-east-1.amazonaws.com\https://user-feedback-store-prod.s3.us-west-2.amazonaws.com\https://customer-data-production.s3.us-west-2.amazonaws.com | Cloud Data Sense를 통해 매니페스트와 템플릿을 액세스 및 다운로드하고 로그 및 메트릭을 전송할 수 있습니다. 
+| https://cognito-idp.us-east-1.amazonaws.com\https://cognito-identity.us-east-1.amazonaws.com\https://user-feedback-store-prod.s3.us-west-2.amazonaws.com\https://customer-data-production.s3.us-west-2.amazonaws.com | BlueXP 분류를 통해 매니페스트와 템플릿을 액세스 및 다운로드하고 로그 및 메트릭을 전송할 수 있습니다. 
 |===
 --
-.Azure 구축에 필요한 엔드포인트
+.Azure에 필요한 엔드포인입니다
 --
 [cols="43,57"]
 |===
@@ -135,7 +135,7 @@ AWS, Azure 또는 GCP에서 Cloud Data Sense를 구현하는지 여부에 따라
 | https://support.compliance.api.bluexp.netapp.com/ 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
 |===
 --
-.GCP 배포에 필요한 엔드포인입니다
+.GCP에 필요한 엔드포인입니다
 --
 [cols="43,57"]
 |===
@@ -155,8 +155,8 @@ AWS, Azure 또는 GCP에서 Cloud Data Sense를 구현하는지 여부에 따라
 |===
 --
 ====
-BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP에 리소스를 배포하고 Cloud Data Sense 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^].
-BlueXP Connector가 클라우드 데이터 센스에 액세스할 수 있는지 확인합니다:: Connector와 Cloud Data Sense 인스턴스 간의 연결을 확인합니다. Connector의 보안 그룹은 포트 443을 통해 데이터 감지 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다. 이 연결을 통해 Data Sense 인스턴스를 구축할 수 있으며 규정 준수 및 거버넌스 탭에서 정보를 볼 수 있습니다. Cloud Data Sense는 AWS 및 Azure의 정부 지역에서 지원됩니다.
+BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^].
+BlueXP 커넥터가 BlueXP 분류에 액세스할 수 있는지 확인합니다:: Connector와 BlueXP 분류 인스턴스 간의 연결을 확인합니다. Connector의 보안 그룹은 포트 443을 통해 BlueXP 분류 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다. 이 연결을 통해 BlueXP 분류 인스턴스를 배포할 수 있으며 규정 준수 및 거버넌스 탭에서 정보를 볼 수 있습니다. BlueXP 분류는 AWS 및 Azure의 정부 지역에서 지원됩니다.
 +
 --
 AWS 및 AWS GovCloud 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS의 커넥터 규칙"^] 를 참조하십시오.
@@ -164,14 +164,14 @@ AWS 및 AWS GovCloud 배포에는 추가 인바운드 및 아웃바운드 보안
 Azure 및 Azure Government 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure의 커넥터 규칙"^] 를 참조하십시오.
 
 --
-클라우드 데이터 센스를 계속 운영할 수 있는지 확인하십시오:: 데이터를 지속적으로 스캔하려면 Cloud Data Sense 인스턴스가 켜져 있어야 합니다.
-클라우드 데이터 센스에 대한 웹 브라우저 연결을 확인합니다:: 클라우드 데이터 센스를 활성화한 후 사용자가 Data Sense 인스턴스에 연결된 호스트에서 BlueXP 인터페이스에 액세스하도록 하십시오.
+BlueXP 분류를 계속 실행할 수 있는지 확인합니다:: 데이터를 지속적으로 스캔하려면 BlueXP 분류 인스턴스를 계속 사용해야 합니다.
+웹 브라우저가 BlueXP 분류에 연결되어 있는지 확인합니다:: BlueXP 분류를 사용하도록 설정한 후에는 BlueXP 분류 인스턴스에 연결된 호스트에서 BlueXP 인터페이스에 액세스해야 합니다.
 +
 --
-Data Sense 인스턴스는 개인 IP 주소를 사용하여 인덱싱된 데이터에 인터넷에서 액세스할 수 없도록 합니다. 따라서 BlueXP에 액세스하는 데 사용하는 웹 브라우저가 해당 개인 IP 주소에 연결되어 있어야 합니다. 이러한 연결은 클라우드 공급자(예: VPN)에 직접 연결되거나 데이터 감지 인스턴스와 동일한 네트워크 내에 있는 호스트에서 발생할 수 있습니다.
+BlueXP 분류 인스턴스는 개인 IP 주소를 사용하여 인덱싱된 데이터에 인터넷에서 액세스할 수 없도록 합니다. 따라서 BlueXP에 액세스하는 데 사용하는 웹 브라우저가 해당 개인 IP 주소에 연결되어 있어야 합니다. 이러한 연결은 클라우드 공급자(예: VPN)에 직접 연결되거나 BlueXP 분류 인스턴스와 동일한 네트워크 내에 있는 호스트에서 발생할 수 있습니다.
 
 --
-vCPU 한도를 확인하십시오:: 클라우드 공급자의 vCPU 제한에 따라 필요한 수의 코어를 사용하여 인스턴스를 구축할 수 있는지 확인합니다. BlueXP가 실행 중인 지역의 관련 인스턴스 제품군에 대한 vCPU 제한을 확인해야 합니다. link:concept-cloud-compliance.html#the-cloud-data-sense-instance["필요한 인스턴스 유형을 참조하십시오"].
+vCPU 한도를 확인하십시오:: 클라우드 공급자의 vCPU 제한에 따라 필요한 수의 코어를 사용하여 인스턴스를 구축할 수 있는지 확인합니다. BlueXP가 실행 중인 지역의 관련 인스턴스 제품군에 대한 vCPU 제한을 확인해야 합니다. link:concept-cloud-compliance.html#the-bluexp-classification-instance["필요한 인스턴스 유형을 참조하십시오"].
 +
 --
 vCPU 제한에 대한 자세한 내용은 다음 링크를 참조하십시오.
@@ -181,18 +181,18 @@ vCPU 제한에 대한 자세한 내용은 다음 링크를 참조하십시오.
 * https://cloud.google.com/compute/quotas["Google Cloud 설명서: 리소스 할당량"^]
 
 
-CPU와 RAM이 더 적은 AWS 클라우드 환경의 인스턴스에 Data Sense를 구축할 수 있지만 이러한 시스템을 사용할 때는 제한이 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
+참고로, AWS 클라우드 환경에서는 CPU가 적고 RAM이 적은 인스턴스에 BlueXP 분류를 배포할 수 있지만 이러한 시스템을 사용할 때는 한계가 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
 
 --
 
 
 
 
-== 클라우드에 데이터 센스를 구축하십시오
+== 클라우드에 BlueXP 분류를 배포합니다
 
-다음 단계에 따라 클라우드 데이터 센스의 인스턴스를 클라우드에 배포합니다. Connector는 인스턴스를 클라우드에 배포한 다음 해당 인스턴스에 Data Sense 소프트웨어를 설치합니다.
+다음 단계에 따라 클라우드에 BlueXP 분류 인스턴스를 배포합니다. Connector는 클라우드에 인스턴스를 배포한 다음 해당 인스턴스에 BlueXP 분류 소프트웨어를 설치합니다.
 
-AWS 환경의 BlueXP Connector에서 데이터 센스를 배포할 때 기본 인스턴스 크기를 선택하거나 두 개의 작은 인스턴스 유형 중에서 선택할 수 있습니다. link:concept-cloud-compliance.html#using-a-smaller-instance-type["사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오"]. 기본 인스턴스 유형을 사용할 수 없는 지역에서는 데이터 센스를 에서 실행합니다 link:reference-instance-types.html["대체 인스턴스 유형"].
+AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 기본 인스턴스 크기를 선택하거나 두 개의 작은 인스턴스 유형 중에서 선택할 수 있습니다. link:concept-cloud-compliance.html#using-a-smaller-instance-type["사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오"]. 기본 인스턴스 유형을 사용할 수 없는 지역에서는 BlueXP 분류가 에서 실행됩니다 link:reference-instance-types.html["대체 인스턴스 유형"].
 
 [role="tabbed-block"]
 ====
@@ -201,11 +201,11 @@ AWS 환경의 BlueXP Connector에서 데이터 센스를 배포할 때 기본 �
 .단계
 . BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭합니다.
 +
-image:screenshot_cloud_compliance_deploy_start.png["데이터 센스를 활성화하기 위한 버튼 선택 스크린샷"]
+image:screenshot_cloud_compliance_deploy_start.png["BlueXP 분류를 활성화하기 위한 버튼 선택 스크린샷."]
 
 . Activate Data Sense * 를 클릭합니다.
 +
-image:screenshot_cloud_compliance_deploy_cloud_aws.png["클라우드에 데이터 센스를 구축하기 위한 버튼을 선택한 스크린샷"]
+image:screenshot_cloud_compliance_deploy_cloud_aws.png["클라우드에 BlueXP 분류를 배포하기 위한 버튼을 선택한 스크린샷"]
 
 . Installation_page에서 * deploy > deploy * 를 클릭하여 "큰" 인스턴스 크기를 사용하고 클라우드 배포 마법사를 시작합니다.
 +
@@ -215,13 +215,13 @@ image:screenshot_cloud_compliance_deploy_cloud_aws.png["클라우드에 데이�
 그런 다음 * 배포 * 를 클릭하여 클라우드 배포 마법사를 시작합니다.
 
 +
-image:screenshot_cloud_deploy_resource_size.png["데이터 센스를 배포할 인스턴스의 크기를 선택하는 배포 페이지의 스크린 샷"]
+image:screenshot_cloud_deploy_resource_size.png["BlueXP 분류가 배포될 인스턴스의 크기를 선택하는 배포 페이지의 스크린샷."]
 
 . 구축 단계를 진행할 때 마법사가 진행률을 표시합니다. 문제가 발생하면 중지하고 입력을 묻는 메시지가 표시됩니다.
 +
-image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포하기 위한 데이터 감지 마법사 스크린샷"]
+image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포하기 위한 BlueXP 분류 마법사 스크린샷"]
 
-. 인스턴스가 배포되고 Data Sense가 설치되면 * 구성 계속 * 을 클릭하여 _Configuration_페이지로 이동합니다.
+. 인스턴스가 배포되고 BlueXP 분류가 설치되면 * 구성 계속 * 을 클릭하여 _Configuration_페이지로 이동합니다.
 
 
 --
@@ -231,17 +231,17 @@ image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포�
 . BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭합니다.
 . Activate Data Sense * 를 클릭합니다.
 +
-image:screenshot_cloud_compliance_deploy_start.png["데이터 센스를 활성화하기 위한 버튼 선택 스크린샷"]
+image:screenshot_cloud_compliance_deploy_start.png["BlueXP 분류를 활성화하기 위한 버튼 선택 스크린샷."]
 
 . 클라우드 배포 마법사를 시작하려면 * 배포 * 를 클릭합니다.
 +
-image:screenshot_cloud_compliance_deploy_cloud.png["클라우드에 데이터 센스를 구축하기 위한 버튼을 선택한 스크린샷"]
+image:screenshot_cloud_compliance_deploy_cloud.png["클라우드에 BlueXP 분류를 배포하기 위한 버튼을 선택한 스크린샷"]
 
 . 구축 단계를 진행할 때 마법사가 진행률을 표시합니다. 문제가 발생하면 중지하고 입력을 묻는 메시지가 표시됩니다.
 +
-image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포하기 위한 데이터 감지 마법사 스크린샷"]
+image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포하기 위한 BlueXP 분류 마법사 스크린샷"]
 
-. 인스턴스가 배포되고 Data Sense가 설치되면 * 구성 계속 * 을 클릭하여 _Configuration_페이지로 이동합니다.
+. 인스턴스가 배포되고 BlueXP 분류가 설치되면 * 구성 계속 * 을 클릭하여 _Configuration_페이지로 이동합니다.
 
 
 --
@@ -251,27 +251,27 @@ image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포�
 . BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 클릭합니다.
 . Activate Data Sense * 를 클릭합니다.
 +
-image:screenshot_cloud_compliance_deploy_start.png["데이터 센스를 활성화하기 위한 버튼 선택 스크린샷"]
+image:screenshot_cloud_compliance_deploy_start.png["BlueXP 분류를 활성화하기 위한 버튼 선택 스크린샷."]
 
 . 클라우드 배포 마법사를 시작하려면 * 배포 * 를 클릭합니다.
 +
-image:screenshot_cloud_compliance_deploy_cloud.png["클라우드에 데이터 센스를 구축하기 위한 버튼을 선택한 스크린샷"]
+image:screenshot_cloud_compliance_deploy_cloud.png["클라우드에 BlueXP 분류를 배포하기 위한 버튼을 선택한 스크린샷"]
 
 . 구축 단계를 진행할 때 마법사가 진행률을 표시합니다. 문제가 발생하면 중지하고 입력을 묻는 메시지가 표시됩니다.
 +
-image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포하기 위한 데이터 감지 마법사 스크린샷"]
+image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포하기 위한 BlueXP 분류 마법사 스크린샷"]
 
-. 인스턴스가 배포되고 Data Sense가 설치되면 * 구성 계속 * 을 클릭하여 _Configuration_페이지로 이동합니다.
+. 인스턴스가 배포되고 BlueXP 분류가 설치되면 * 구성 계속 * 을 클릭하여 _Configuration_페이지로 이동합니다.
 
 
 --
 ====
 .결과
-BlueXP는 클라우드 공급업체에 클라우드 데이터 감지 인스턴스를 배포합니다.
+BlueXP는 클라우드 공급업체에 BlueXP 분류 인스턴스를 배포합니다.
 
-인터넷 연결이 가능한 경우 BlueXP Connector 및 Data Sense 소프트웨어 업그레이드가 자동화됩니다.
+인터넷 연결이 가능한 경우 BlueXP Connector 및 BlueXP 분류 소프트웨어에 대한 업그레이드가 자동화됩니다.
 
 .다음 단계
 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다.
 
-또한 가능합니다 link:task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"] 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.
+또한 가능합니다 link:task-licensing-datasense.html["BlueXP 분류 라이선스를 설정합니다"] 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.
