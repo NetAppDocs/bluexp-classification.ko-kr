@@ -179,6 +179,8 @@ homepage:
       url: task-managing-highlights.html#deleting-source-files
     - title: 규정을 준수하지 않는 데이터가 발견되면 이메일 경고를 생성합니다
       url: task-using-policies.html#sending-email-alerts-when-non-compliant-data-is-found
+    - title: 파일 액세스 이벤트 모니터링 및 관리
+      url: task-manage-file-access-events.html
     - title: 데이터 주체 액세스 요청에 응답합니다
       url: task-generating-compliance-reports.html#searching-for-data-subjects-and-downloading-reports
   - title: 블로그 커뮤니티
@@ -189,7 +191,7 @@ homepage:
       url: https://bluexp.netapp.com/netapp-cloud-data-sense
     - title: BlueXP 블로그
       url: https://bluexp.netapp.com/blog
-    - title: 클라우드 웨비나
+    - title: BlueXP 웨비나
       url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP

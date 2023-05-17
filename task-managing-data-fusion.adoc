@@ -138,7 +138,7 @@ image:screenshot_add_keywords_result.png["조사 결과 창에 사용자 정의 
 
 regex를 추가한 후 BlueXP 분류는 모든 데이터 소스 스캔을 다시 시작합니다. 검사가 완료되면 "개인 결과" 섹션 아래의 BlueXP 분류 준수 대시보드와 "개인 데이터" 필터의 조사 페이지에 새 결과가 나타납니다.
 
-을 참조하십시오 https://regex101.com/[] 정규식을 작성하는 데 도움이 필요한 경우
+을 참조하십시오 https://[] 정규식을 작성하는 데 도움이 필요한 경우
 
 .단계
 . Classification settings_tab에서 * Add New Classifier * 를 클릭하여 _Add Custom Classifier_wizard를 실행합니다.

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-scanning-object-storage.html 
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, object storage, data sense 
-summary: 'BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터 스캔을 시작하려면 몇 단계를 완료하십시오. BlueXP 분류는 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에서 데이터를 스캔할 수 있습니다. 여기에는 NetApp StorageGRID, IBM Cloud Object Store, Azure Blob(MinIO 사용), Linode, B2 클라우드 스토리지, Amazon S3 등이 포함됩니다.' 
+summary: 'BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터 스캔을 시작하려면 몇 단계를 완료하십시오. BlueXP 분류는 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에서 데이터를 스캔할 수 있습니다. 여기에는 NetApp StorageGRID, IBM Cloud Object Store, Linode, B2 클라우드 스토리지, Amazon S3 등이 포함됩니다.' 
 ---
 = S3 프로토콜을 사용하는 오브젝트 스토리지 스캔
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터
 
 
 [role="lead"]
-BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터 스캔을 시작하려면 몇 단계를 완료하십시오. BlueXP 분류는 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에서 데이터를 스캔할 수 있습니다. 여기에는 NetApp StorageGRID, IBM Cloud Object Store, Azure Blob(MinIO 사용), Linode, B2 클라우드 스토리지, Amazon S3 등이 포함됩니다.
+BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터 스캔을 시작하려면 몇 단계를 완료하십시오. BlueXP 분류는 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에서 데이터를 스캔할 수 있습니다. 여기에는 NetApp StorageGRID, IBM Cloud Object Store, Linode, B2 클라우드 스토리지, Amazon S3 등이 포함됩니다.
 
 
 
@@ -49,7 +49,6 @@ BlueXP 분류를 활성화하기 전에 다음 필수 구성 요소를 검토하
 
 * 객체 스토리지 서비스에 연결하려면 엔드포인트 URL이 있어야 합니다.
 * BlueXP 분류가 버킷에 액세스할 수 있도록 객체 스토리지 공급업체의 액세스 키 및 비밀 키가 있어야 합니다.
-* Azure Blob을 지원하려면 을 사용해야 합니다 link:https://min.io/["MinIO 서비스"^].
 
 
 

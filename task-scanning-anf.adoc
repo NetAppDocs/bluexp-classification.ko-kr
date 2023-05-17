@@ -24,7 +24,7 @@ Azure NetApp Files용 BlueXP 분류를 시작하려면 몇 가지 단계를 완�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 검사할 Azure NetApp Files 시스템을 검색합니다
 [role="quick-margin-para"]
-Azure NetApp Files 볼륨을 스캔하기 전에 https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["구성을 검색하려면 BlueXP를 설정해야 합니다"^].
+Azure NetApp Files 볼륨을 스캔하기 전에 https://["구성을 검색하려면 BlueXP를 설정해야 합니다"^].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 인스턴스를 배포합니다
 [role="quick-margin-para"]
@@ -63,7 +63,7 @@ Compliance * > * Configuration * > * Edit CIFS Credentials * 를 클릭하고 �
 
 검사할 Azure NetApp Files 시스템이 BlueXP에 작업 환경으로 포함되어 있지 않은 경우 이 때 캔버스에 추가할 수 있습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["BlueXP에서 Azure NetApp Files 시스템을 검색하는 방법을 확인하십시오"^].
+https://["BlueXP에서 Azure NetApp Files 시스템을 검색하는 방법을 확인하십시오"^].
 
 
 

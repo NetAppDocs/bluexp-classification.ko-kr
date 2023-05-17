@@ -40,10 +40,10 @@ image:diagram_deploy_onprem_cloud_instance.png["필요한 BlueXP 및 네트워�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 커넥터를 작성합니다
 [role="quick-margin-para"]
-커넥터가 없는 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트
+커넥터가 없는 경우 https://["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트
 
 [role="quick-margin-para"]
-또한 클라우드 공급자와 커넥터를 생성할 수도 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^].
+또한 클라우드 공급자와 커넥터를 생성할 수도 있습니다. 을 참조하십시오 https://["AWS에서 커넥터 생성"^], https://["Azure에서 커넥터 만들기"^], 또는 https://["GCP에서 커넥터를 생성하는 중입니다"^].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
@@ -64,9 +64,9 @@ BlueXP의 BlueXP 분류 검사에서 처음 1TB의 데이터는 30일 동안 무
 
 == 커넥터를 작성합니다
 
-BlueXP 분류를 설치하고 사용하려면 먼저 BlueXP 커넥터가 필요합니다. 대부분의 경우 대부분의 경우 BlueXP 분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
+BlueXP 분류를 설치하고 사용하려면 먼저 BlueXP 커넥터가 필요합니다. 대부분의 경우 대부분의 경우 BlueXP 분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다 https://["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
 
-클라우드 공급자 환경에 하나를 생성하려면 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^].
+클라우드 공급자 환경에 하나를 생성하려면 를 참조하십시오 https://["AWS에서 커넥터 생성"^], https://["Azure에서 커넥터 만들기"^], 또는 https://["GCP에서 커넥터를 생성하는 중입니다"^].
 
 특정 클라우드 공급자에 배포된 Connector를 사용해야 하는 몇 가지 시나리오가 있습니다.
 
@@ -80,9 +80,9 @@ Azure NetApp Files의 경우 스캔하려는 볼륨과 동일한 영역에 배�
 
 온프레미스 ONTAP 시스템, NetApp이 아닌 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스, OneDrive 폴더, SharePoint 계정, Google Drive 계정은 이러한 클라우드 커넥터를 사용하여 스캔할 수 있습니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
+참고: 또한 이 기능을 사용할 수 있습니다 https://["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
 
-보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["다중 커넥터"].
+보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다 https://["다중 커넥터"].
 
 BlueXP 분류를 설치할 때 커넥터 시스템의 IP 주소 또는 호스트 이름이 필요합니다. 이 정보는 구내에 Connector를 설치한 경우 확인할 수 있습니다. Connector가 클라우드에 배포된 경우 BlueXP 콘솔에서 이 정보를 찾을 수 있습니다. 도움말 아이콘을 클릭하고 * 지원 * 을 선택한 다음 * BlueXP 커넥터 * 를 클릭합니다.
 
@@ -115,6 +115,24 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 +
 이러한 소형 시스템을 사용할 때는 제한 사항이 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
 
+* UNIX 폴더 권한 *: 다음과 같은 최소 UNIX 권한이 필요합니다.
++
+[cols="25,25"]
+|===
+| 폴더 | 최소 권한 
+
+
+| /tmp | `rwxrwxrwt` 
+
+
+| /opt | `rwxr-xr-x` 
+
+
+| /var/lib/docker입니다 | `rwx------` 
+
+
+| /user/lib/systemd/system | `rwxr-xr-x` 
+|===
 * BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
 +
 ** * AWS EC2 인스턴스 유형 *: "m6i.4xLarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^].
@@ -123,21 +141,21 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 
 
 * * 운영 체제 *: OS에서 Docker 엔진을 설치할 수 있어야 합니다.
+
+
+* Red Hat Enterprise Linux 버전 8.0 ~ 8.7
+* CentOS 버전 8.0 ~ 8.7
+* CentOS 스트림 8
+* RHEL 또는 CentOS 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
 +
-** Red Hat Enterprise Linux 버전 8.0 ~ 8.7
-** CentOS 버전 8.0 ~ 8.7
-** CentOS 스트림 8
-** 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
+** * Red Hat 서브스크립션 관리 *: 호스트는 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
+** * 추가 소프트웨어 *: BlueXP 분류를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.
 
 
-* * Red Hat 서브스크립션 관리 *: 호스트는 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
-* * 추가 소프트웨어 *: BlueXP 분류를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.
+* Docker Engine 버전 19.3.1 이상 https://["설치 지침을 봅니다"^].
+* Python 3 버전 3.6 이상. https://["설치 지침을 봅니다"^].
 +
-** Docker Engine 버전 19.3.1 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
-** Python 3 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
-
-
-* * Firewalld 고려 사항 *: 사용하려는 경우 `firewalld`BlueXP 분류를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 따라서 BlueXP 분류와 호환됩니다.
+** * Firewalld 고려 사항 *: 사용하려는 경우 `firewalld`BlueXP 분류를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 따라서 BlueXP 분류와 호환됩니다.
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -158,7 +176,9 @@ firewall-cmd --permanent --add-port=7946/tcp
 firewall-cmd --permanent --add-port=4789/udp
 ....
 +
-를 사용하도록 설정한 경우 `firewalld` BlueXP 분류를 설치한 후 Docker를 다시 시작해야 합니다.
+활성화 또는 업데이트를 할 때마다 Docker를 다시 시작해야 합니다 `firewalld` 설정.
+
+
 
 
 
@@ -188,7 +208,10 @@ BlueXP 분류에는 아웃바운드 인터넷 액세스가 필요합니다. 가�
 | https://support.compliance.api.bluexp.netapp.com/ 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
 
 
-| https://github.com/docker\https://download.docker.com\http://mirror.centos.org\http://mirrorlist.centos.org\http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm 를 참조하십시오 | 설치를 위한 필수 패키지를 제공합니다. 
+| https://github.com/docker \https://download.docker.com 으로 문의하십시오 | Docker 설치를 위한 사전 필수 패키지를 제공합니다. 
+
+
+| http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm 를 참조하십시오 | CentOS 설치를 위한 필수 패키지를 제공합니다. 
 |===
 
 
@@ -262,7 +285,7 @@ image:diagram_deploy_onprem_multi_host_internet.png["인터넷에 연결된 여�
 인스턴스가 인터넷에 연결되어 있는 경우 BlueXP 분류 소프트웨어로의 업그레이드가 자동화됩니다.
 
 
-NOTE: BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTAP용 S3 버킷, Azure NetApp Files 또는 FSx를 스캔할 수 없습니다. 이러한 경우 클라우드 및 에 별도의 Connector 및 BlueXP 분류 인스턴스를 배포해야 합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["커넥터 사이를 전환합니다"^] 다양한 데이터 소스에 대해
+NOTE: BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTAP용 S3 버킷, Azure NetApp Files 또는 FSx를 스캔할 수 없습니다. 이러한 경우 클라우드 및 에 별도의 Connector 및 BlueXP 분류 인스턴스를 배포해야 합니다 https://["커넥터 사이를 전환합니다"^] 다양한 데이터 소스에 대해
 
 
 
@@ -284,7 +307,7 @@ NOTE: BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTA
 
 
 .단계
-. 에서 BlueXP 분류 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * DATASENSE-INinstaller-<version>.tar.gz * 입니다.
+. 에서 BlueXP 분류 소프트웨어를 다운로드합니다 https://["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * DATASENSE-INinstaller-<version>.tar.gz * 입니다.
 . 설치 프로그램 파일을 사용하려는 Linux 호스트에 복사합니다(scp 또는 다른 방법 사용).
 . 호스트 시스템에서 설치 프로그램 파일의 압축을 풉니다. 예를 들면 다음과 같습니다.
 +
@@ -314,24 +337,24 @@ image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 
 
  a| 
 .. 7단계에서 복사한 명령을 붙여 넣습니다.
-`sudo ./install.sh -a <account_id> -c <agent_id> -t <token>`
+`sudo ./install.sh -a <account_id> -c <client_id> -t <user_token>`
 +
 구내에 설치하지 않고 클라우드 인스턴스에 설치하는 경우 를 추가합니다 `--manual-cloud-install <cloud_provider>`.
 
-.. Connector 인스턴스에서 액세스할 수 있도록 BlueXP 분류 호스트 시스템의 IP 주소 또는 호스트 이름을 입력합니다.
-.. BlueXP 커넥터 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 BlueXP 분류 인스턴스에서 액세스할 수 있습니다.
+.. BlueXP 분류 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 Connector 시스템에서 액세스할 수 있도록 합니다.
+.. BlueXP 커넥터 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 BlueXP 분류 시스템에서 액세스할 수 있습니다.
 .. 메시지가 나타나면 프록시 세부 정보를 입력합니다. BlueXP Connector가 이미 프록시를 사용하고 있는 경우 BlueXP 분류가 자동으로 Connector에서 사용하는 프록시를 사용하기 때문에 이 정보를 다시 입력할 필요가 없습니다.
 
 | 또는 필요한 호스트 및 프록시 매개 변수를 제공하여 전체 명령을 미리 생성할 수도 있습니다.
-`sudo ./install.sh -a <account_id> -c <agent_id> -t <token> --host <ds_host> --manager-host <cm_host> --manual-cloud-install <cloud_provider> --proxy-host <proxy_host> --proxy-port <proxy_port> --proxy-scheme <proxy_scheme> --proxy-user <proxy_user> --proxy-password <proxy_password> --cacert-folder-path <ca_cert_dir>` 
+`sudo ./install.sh -a <account_id> -c <client_id> -t <user_token> --host <ds_host> --manager-host <cm_host> --manual-cloud-install <cloud_provider> --proxy-host <proxy_host> --proxy-port <proxy_port> --proxy-scheme <proxy_scheme> --proxy-user <proxy_user> --proxy-password <proxy_password> --cacert-folder-path <ca_cert_dir>` 
 |===
 +
 변수 값:
 
 +
 ** _ACCOUNT_ID_= NetApp 계정 ID입니다
-** _agent_id_=커넥터 ID입니다
-** _token_= JWT 사용자 토큰
+** _client_id_=커넥터 클라이언트 ID(클라이언트 ID에 접미어 "clients"가 없으면 추가)
+** _USER_TOKEN_= JWT 사용자 액세스 토큰
 ** _DS_HOST_= BlueXP 분류 Linux 시스템의 IP 주소 또는 호스트 이름입니다.
 ** _cm_host_= BlueXP 커넥터 시스템의 IP 주소 또는 호스트 이름입니다.
 ** _cloud_provider_= 클라우드 인스턴스에 설치할 때 클라우드 공급자에 따라 "AWS", "Azure" 또는 "GCP"를 입력하십시오.
@@ -445,7 +468,7 @@ firewall-cmd --permanent --add-port=4789/udp
 firewall-cmd --reload
 ....
 +
-를 사용하도록 설정한 경우 `firewalld` BlueXP 분류를 설치한 후 Docker를 다시 시작해야 합니다.
+활성화 또는 업데이트를 할 때마다 Docker를 다시 시작해야 합니다 `firewalld` 설정.
 
 
 
@@ -466,7 +489,7 @@ image:screenshot_connector_client_id.png["BlueXP 커넥터 구성 설정 스크�
 +
 image:screenshot_work_env_id.png["BlueXP 분류 구성 페이지의 작업 환경 ID 스크린샷"]
 
-. 로 이동합니다 https://services.cloud.netapp.com/developer-hub["API 설명서 개발자 허브"^] 를 클릭하고 * 인증 방법 알아보기 * 를 클릭합니다.
+. 로 이동합니다 https://["API 설명서 개발자 허브"^] 를 클릭하고 * 인증 방법 알아보기 * 를 클릭합니다.
 +
 image:screenshot_client_access_token.png["인증 지침 링크가 포함된 API 설명서 페이지의 스크린샷"]
 
@@ -484,7 +507,7 @@ image:screenshot_client_access_token.png["인증 지침 링크가 포함된 API 
 
 +
 ** _ACCOUNT_ID_= NetApp 계정 ID입니다
-** _client_id_=커넥터 클라이언트 ID
+** _client_id_=커넥터 클라이언트 ID(필수 조건 단계에서 복사한 클라이언트 ID에 접미사 "clients" 추가)
 ** _cm_host_= 커넥터 시스템의 IP 주소 또는 호스트 이름입니다
 ** _DS_MANAGER_IP_= BlueXP 분류 관리자 노드 시스템의 전용 IP 주소입니다
 ** _node_private_ip_= BlueXP 분류 스캐너 노드 시스템의 IP 주소(여러 스캐너 노드 IP는 쉼표로 구분)
@@ -590,7 +613,8 @@ image:screenshot_scanner_groups.png["그룹의 각 스캐너 노드에 대한 IP
 단일 호스트 설치에 사용할 수 있는 변수 외에도 새 옵션 * -n<node_ip> * 를 사용하여 스캐너 노드의 IP 주소를 지정할 수 있습니다. 여러 스캐너 노드 IP는 쉼표로 구분됩니다.
 
 +
-예를 들어, 이 명령은 scanner 노드 3개를 추가합니다. sudo./install.sh -a <account_id> -c <agent_id> -t <token>--host <DS_host>--manager -host <cm_host> * -n <node_IP1>, <node_ip2>, <node_ip2>, <node_proxy scheme -proxy -proxy -proxy -host < 프록시 포트 프록시 -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -port -proxy -proxy -host <
+예를 들어, 이 명령은 다음과 같이 3개의 스캐너 노드를 추가합니다.
+`sudo ./install.sh -a <account_id> -c <client_id> -t <user_token> --host <ds_host> --manager-host <cm_host> *-n <node_ip1>,<node_ip2>,<node_ip3>* --proxy-host <proxy_host> --proxy-port <proxy_port> --proxy-scheme <proxy_scheme> --proxy-user <proxy_user> --proxy-password <proxy_password>`
 
 . 관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예: `sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF-1-3u69m1-1s35212`)를 입력하고 텍스트 파일에 저장합니다.
 . 켜짐 * 각 * 스캐너 노드 호스트:

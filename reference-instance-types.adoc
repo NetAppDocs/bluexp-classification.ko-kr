@@ -29,13 +29,13 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 | 시스템 크기 | 사양 | 인스턴스 유형 
 
 
-| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xLarge"^] (기본값) m6a.4xLarge m5a.4xLarge m5.4xLarge m4.4xLarge 
+| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://["m6i.4xLarge"^] (기본값) m6a.4xLarge m5a.4xLarge m5.4xLarge m4.4xLarge 
 
 
-| 중간 | CPU 8개, 32GB RAM, 200GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.2xLarge"^] (기본값) m6a.2xLarge m5a.2xLarge m5.2xLarge m4.2xLarge 
+| 중간 | CPU 8개, 32GB RAM, 200GiB SSD | https://["m6i.2xLarge"^] (기본값) m6a.2xLarge m5a.2xLarge m5.2xLarge m4.2xLarge 
 
 
-| 작은 크기 | CPU 8개, 16GB RAM, 100GiB SSD | https://aws.amazon.com/ec2/instance-types/c6a/["c6a.2xLarge"^] (기본값) C5A.2xLarge c5.2xLarge c4.2xLarge 
+| 작은 크기 | CPU 8개, 16GB RAM, 100GiB SSD | https://["c6a.2xLarge"^] (기본값) C5A.2xLarge c5.2xLarge c4.2xLarge 
 |===
 
 
@@ -46,7 +46,7 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 | 시스템 크기 | 사양 | 인스턴스 유형 
 
 
-| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3"^] (기본값) 
+| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://["standard_d16s_v3"^] (기본값) 
 |===
 
 
@@ -57,5 +57,5 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 | 시스템 크기 | 사양 | 인스턴스 유형 
 
 
-| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16"^] (기본값) n2d-standard-16 n1-standard-16 
+| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://["N2-표준-16"^] (기본값) n2d-standard-16 n1-standard-16 
 |===

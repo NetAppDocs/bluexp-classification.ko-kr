@@ -60,7 +60,7 @@ image:screenshot_compliance_investigation_filtered.png["조사 페이지에서 �
 | 민감한 개인 데이터 | 를 선택합니다 link:reference-private-data-categories.html#types-of-sensitive-personal-data["중요한 개인 데이터의 유형"^]. 
 
 
-| 데이터 제목 | 데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. 
+| 데이터 제목 | 데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. link:task-generating-compliance-reports.html#searching-for-data-subjects-and-downloading-reports["여기에서 데이터 주제에 대해 자세히 알아보십시오"^]. 
 |===
 
 
@@ -192,7 +192,7 @@ link:reference-collected-metadata.html#last-access-time-timestamp[""마지막 �
 
 
 
-=== 중복 데이터를 기준으로 필터링합니다
+=== 데이터를 중복으로 필터링합니다
 
 다음 필터를 사용하여 스토리지에 복제된 파일을 봅니다.
 

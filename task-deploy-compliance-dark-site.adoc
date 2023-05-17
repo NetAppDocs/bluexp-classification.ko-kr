@@ -48,7 +48,7 @@ BlueXP 분류 설치 스크립트는 시스템 및 환경이 필수 전제 조�
 * 사용자 피드백을 받는 중입니다
 * BlueXP에서 소프트웨어 자동 업그레이드
 +
-BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 link:whats-new.html["BlueXP 분류 릴리스 정보"] 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["BlueXP 커넥터를 업그레이드합니다"^] 및 <<BlueXP 분류 소프트웨어를 업그레이드합니다,BlueXP 분류 소프트웨어를 업그레이드합니다>>.
+BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 link:whats-new.html["BlueXP 분류 릴리스 정보"] 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다 https://["BlueXP 커넥터를 업그레이드합니다"^] 및 <<BlueXP 분류 소프트웨어를 업그레이드합니다,BlueXP 분류 소프트웨어를 업그레이드합니다>>.
 
 
 
@@ -60,7 +60,7 @@ BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] BlueXP 커넥터를 설치합니다
 [role="quick-margin-para"]
-오프라인 온-프레미스 사이트에 커넥터가 아직 설치되어 있지 않은 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["커넥터를 배포합니다"^] 이제 Linux 호스트에서
+오프라인 온-프레미스 사이트에 커넥터가 아직 설치되어 있지 않은 경우 https://["커넥터를 배포합니다"^] 이제 Linux 호스트에서
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
@@ -78,7 +78,7 @@ BlueXP의 BlueXP 분류 검사에서 처음 1TB의 데이터는 30일 동안 무
 
 == BlueXP 커넥터를 설치합니다
 
-오프라인 온-프레미스 사이트에 BlueXP Connector가 아직 설치되어 있지 않은 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["커넥터를 배포합니다"^] 오프라인 사이트의 Linux 호스트
+오프라인 온-프레미스 사이트에 BlueXP Connector가 아직 설치되어 있지 않은 경우 https://["커넥터를 배포합니다"^] 오프라인 사이트의 Linux 호스트
 
 
 
@@ -107,6 +107,24 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 +
 이러한 소형 시스템을 사용할 때는 제한 사항이 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
 
+* UNIX 폴더 권한 *: 다음과 같은 최소 UNIX 권한이 필요합니다.
++
+[cols="25,25"]
+|===
+| 폴더 | 최소 권한 
+
+
+| /tmp | `rwxrwxrwt` 
+
+
+| /opt | `rwxr-xr-x` 
+
+
+| /var/lib/docker입니다 | `rwx------` 
+
+
+| /user/lib/systemd/system | `rwxr-xr-x` 
+|===
 * BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
 +
 ** * AWS EC2 인스턴스 유형 *: "m6i.4xLarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^].
@@ -115,21 +133,21 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 
 
 * * 운영 체제 *: OS에서 Docker 엔진을 설치할 수 있어야 합니다.
+
+
+* Red Hat Enterprise Linux 버전 8.0 ~ 8.7
+* CentOS 버전 8.0 ~ 8.7
+* CentOS 스트림 8
+* RHEL 또는 CentOS 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
 +
-** Red Hat Enterprise Linux 버전 8.0 ~ 8.7
-** CentOS 버전 8.0 ~ 8.7
-** CentOS 스트림 8
-** 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
+** * Red Hat 서브스크립션 관리 *: 호스트는 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
+** * 추가 소프트웨어 *: BlueXP 분류를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.
 
 
-* * Red Hat 서브스크립션 관리 *: 호스트는 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
-* * 추가 소프트웨어 *: BlueXP 분류를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.
+* Docker Engine 버전 19.3.1 이상 https://["설치 지침을 봅니다"^].
+* Python 3 버전 3.6 이상. https://["설치 지침을 봅니다"^].
 +
-** Docker Engine 버전 19.3.1 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
-** Python 3 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
-
-
-* * Firewalld 고려 사항 *: 사용하려는 경우 `firewalld`BlueXP 분류를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 따라서 BlueXP 분류와 호환됩니다.
+** * Firewalld 고려 사항 *: 사용하려는 경우 `firewalld`BlueXP 분류를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 따라서 BlueXP 분류와 호환됩니다.
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -140,12 +158,14 @@ firewall-cmd --permanent --add-port=443/tcp
 firewall-cmd --reload
 ....
 +
-를 사용하도록 설정한 경우 `firewalld` BlueXP 분류를 설치한 후 Docker를 다시 시작해야 합니다.
+활성화 또는 업데이트를 할 때마다 Docker를 다시 시작해야 합니다 `firewalld` 설정.
 
 
 
 
-NOTE: 설치 후 BlueXP 분류 호스트 시스템의 IP 주소를 변경할 수 없습니다.
+
+
+TIP: 설치 후 BlueXP 분류 호스트 시스템의 IP 주소를 변경할 수 없습니다.
 
 
 
@@ -153,7 +173,7 @@ NOTE: 설치 후 BlueXP 분류 호스트 시스템의 IP 주소를 변경할 수
 
 BlueXP 분류를 배포하기 전에 다음 전제 조건을 검토하여 지원되는 구성이 있는지 확인합니다.
 
-* Connector에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^].
+* Connector에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://["NetApp에서 제공하는 정책"^].
 * BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 지속적으로 스캔하려면 BlueXP 분류 인스턴스를 계속 사용해야 합니다.
 * 웹 브라우저가 BlueXP 분류에 연결되어 있는지 확인합니다. BlueXP 분류를 사용하도록 설정한 후에는 BlueXP 분류 인스턴스에 연결된 호스트에서 BlueXP 인터페이스에 액세스해야 합니다.
 +
@@ -242,7 +262,7 @@ image:diagram_deploy_onprem_multi_host_no_internet.png["인터넷 액세스 없�
 
 
 .단계
-. 인터넷 구성 시스템의 경우 에서 BlueXP 분류 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * DataSense-offline-bundle-<version>.tar.gz * 입니다.
+. 인터넷 구성 시스템의 경우 에서 BlueXP 분류 소프트웨어를 다운로드합니다 https://["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * DataSense-offline-bundle-<version>.tar.gz * 입니다.
 . 설치 프로그램 번들을 다크 사이트에서 사용할 Linux 호스트에 복사합니다.
 . 호스트 시스템에서 설치 프로그램 번들의 압축을 풉니다. 예를 들면 다음과 같습니다.
 +
@@ -281,20 +301,21 @@ image:screenshot_cloud_compliance_deploy_darksite.png["BlueXP 분류를 사내�
 
  a| 
 .. 8단계에서 복사한 정보를 붙여 넣습니다.
-`sudo ./install.sh -a <account_id> -c <agent_id> -t <token> --darksite`
-.. Connector 인스턴스에서 액세스할 수 있도록 BlueXP 분류 호스트 시스템의 IP 주소 또는 호스트 이름을 입력합니다.
-.. BlueXP 커넥터 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 BlueXP 분류 인스턴스에서 액세스할 수 있습니다.
+`sudo ./install.sh -a <account_id> -c <client_id> -t <user_token> --darksite`
+.. BlueXP 분류 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 Connector 시스템에서 액세스할 수 있도록 합니다.
+.. BlueXP 커넥터 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 BlueXP 분류 시스템에서 액세스할 수 있습니다.
 
-| 또는 필요한 호스트 매개 변수 'sudo./install.sh -a <account_id> -c <agent_id> -t <token>--host <DS_host>--manager-host <cm_host>--no-proxy--dar사이트'를 제공하여 전체 명령을 미리 생성할 수 있습니다 
+| 또는 필요한 호스트 매개 변수를 제공하여 전체 명령을 미리 생성할 수도 있습니다.
+`sudo ./install.sh -a <account_id> -c <client_id> -t <user_token> --host <ds_host> --manager-host <cm_host> --no-proxy --darksite` 
 |===
 +
 변수 값:
 
 +
 ** _ACCOUNT_ID_= NetApp 계정 ID입니다
-** _agent_id_=커넥터 ID입니다
-** _token_= JWT 사용자 토큰
-** _DS_HOST_= BlueXP 분류 Linux 시스템의 IP 주소 또는 호스트 이름입니다.
+** _client_id_=커넥터 클라이언트 ID(클라이언트 ID에 접미어 "clients"가 없으면 추가)
+** _USER_TOKEN_= JWT 사용자 액세스 토큰
+** _DS_HOST_= BlueXP 분류 시스템의 IP 주소 또는 호스트 이름입니다.
 ** _cm_host_= BlueXP 커넥터 시스템의 IP 주소 또는 호스트 이름입니다.
 
 
@@ -357,7 +378,8 @@ BlueXP 분류 설치 프로그램은 패키지를 설치하고, 설치를 등록
 단일 호스트 설치에 사용할 수 있는 변수 외에도 새 옵션 * -n<node_ip> * 를 사용하여 스캐너 노드의 IP 주소를 지정할 수 있습니다. 여러 노드 IP는 쉼표로 구분됩니다.
 
 +
-예를 들어, 이 명령은 3개의 스캐너 노드(sudo./install.sh -a <account_id> -c <agent_id> -t <token>--host <DS_host>--manager-host <cm_host> * -n <node_IP1>, <node_IP2>, <node_ip3> * -- no-proxy-site)를 추가합니다
+예를 들어, 이 명령은 다음과 같이 3개의 스캐너 노드를 추가합니다.
+`sudo ./install.sh -a <account_id> -c <client_id> -t <user_token> --host <ds_host> --manager-host <cm_host> *-n <node_ip1>,<node_ip2>,<node_ip3>* --no-proxy --darksite`
 
 . 관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예: `sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF-1-3u69m1-1s35212`)를 입력하고 텍스트 파일에 저장합니다.
 . 켜짐 * 각 * 스캐너 노드 호스트:
@@ -388,11 +410,11 @@ BlueXP 분류 소프트웨어는 정기적으로 새로운 기능으로 업데�
 
 .시작하기 전에
 * BlueXP 분류 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.20.x가 설치되어 있는 경우 1.21.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.
-* 온프레미스 커넥터 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-in-a-location-without-internet-access["커넥터 업그레이드 단계를 참조하십시오"^].
+* BlueXP Connector 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다. https://["커넥터 업그레이드 단계를 참조하십시오"^].
 
 
 .단계
-. 인터넷 구성 시스템의 경우 에서 BlueXP 분류 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * DataSense-offline-bundle-<version>.tar.gz * 입니다.
+. 인터넷 구성 시스템의 경우 에서 BlueXP 분류 소프트웨어를 다운로드합니다 https://["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * DataSense-offline-bundle-<version>.tar.gz * 입니다.
 . 소프트웨어 번들을 Linux 호스트에 복사하면 BlueXP 분류가 다크 사이트에 설치됩니다.
 . 호스트 시스템에서 소프트웨어 번들의 압축을 풉니다. 예를 들면 다음과 같습니다.
 +

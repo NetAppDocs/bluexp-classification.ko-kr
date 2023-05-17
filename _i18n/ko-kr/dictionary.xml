@@ -105,7 +105,6 @@
   <block id="2ef77a3845de73c82db787233e991d0c" category="doc">SharePoint 계정 스캔 중</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">빠른 시작</block>
   <block id="91e06e9a9ef97681b798e2e5e007ba97" category="paragraph">다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.</block>
-  <block id="a8c0024f4de7eafbcc79573f90579f5f" category="paragraph">SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하고 검색 유형을 선택합니다. 한 번에 최대 100개의 URL을 추가할 수 있습니다.</block>
   <block id="2b4e0126afcd89267252cefaf503c414" category="section-title">SharePoint 요구 사항 검토</block>
   <block id="f86df9b5b428fe5b37c14bd1162bc107" category="list-text">검색할 모든 데이터에 대해 SharePoint 사이트 URL의 줄 구분 목록이 필요합니다.</block>
   <block id="21470a3e6a3feaf105174d0e14c5f537" category="inline-link-macro">클라우드에 구축</block>
@@ -377,7 +376,6 @@
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">자세한 정보</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link-macro">방법을 확인하십시오</block>
   <block id="74585f658544c691c6f6afb583a9dc61" category="inline-link-macro">S3 프로토콜을 사용하는 오브젝트 스토리지 스캔</block>
-  <block id="6988ee4ea30eb643c68d53327c6b1220" category="inline-link">MinIO 서비스</block>
   <block id="93f515959ce6187b986c42fa6959168b" category="doc">개인 데이터의 범주입니다</block>
   <block id="10ff4e7c2ffc1fd426aa6f784a05da66" category="section-title">개인 데이터의 유형입니다</block>
   <block id="664f12aee95db5001901ada82a66a117" category="inline-link-macro">근접 확인</block>
@@ -954,8 +952,6 @@
   <block id="92a8de5d873f4ac3a57f4d866c8ed98c" category="cell">전체 명령 입력:</block>
   <block id="99a5b8fe9eadd5739e3e760584c579fc" category="paragraph">변수 값:</block>
   <block id="82fbba9871c4c69830c0ea5c2c6fa6f8" category="list-text">_ACCOUNT_ID_= NetApp 계정 ID입니다</block>
-  <block id="ce49b2db53a11ca7ddb5f05294345b09" category="list-text">_agent_id_=커넥터 ID입니다</block>
-  <block id="1e182d514fc6063a1b524c471660e230" category="list-text">_token_= JWT 사용자 토큰</block>
   <block id="f31705a3bb2f2507f4803c1d996c4887" category="list-text">_proxy_host_= 호스트가 프록시 서버 뒤에 있는 경우 프록시 서버의 IP 또는 호스트 이름입니다.</block>
   <block id="580d63944c0010bfed9db7cc082666bf" category="list-text">_proxy_port_= 프록시 서버에 연결할 포트(기본값 80).</block>
   <block id="382110a0400b590f5d4cf18a43519ec9" category="list-text">_proxy_scheme_= 연결 체계: https 또는 http(기본값 http).</block>
@@ -1117,7 +1113,6 @@
   <block id="e0beb155f64410441b0e76c0d0350422" category="paragraph">통합을 더 이상 필요로 하지 않는 경우 을 클릭하여 삭제할 수도 있습니다 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> 단추를 클릭한 다음 * Active Directory 제거 * 를 클릭합니다.</block>
   <block id="fd28e251418a49d4390ec8a9b6592efc" category="paragraph">객체 스토리지 서비스에 연결하려면 엔드포인트 URL이 있어야 합니다.</block>
   <block id="763a21e3ec238bca68eb25847cf75843" category="section-title">오브젝트 스토리지의 요구사항 검토</block>
-  <block id="753043f41e69e8fdeb706dd070e87f37" category="list-text">Azure Blob을 지원하려면 을 사용해야 합니다 <block ref="bb7c39e5bbb16f5f9e18534c8bb03c91" category="inline-link-macro-rx"></block>.</block>
   <block id="0065ab04ebf28ab82ddb160d51d486e6" category="paragraph">오브젝트 스토리지 서비스를 추가합니다.</block>
   <block id="58dc807771e7cb80307d5179257d8cf5" category="list-text">작업 환경 구성 페이지에서 * 데이터 소스 추가 * &gt; * 개체 스토리지 서비스 추가 * 를 클릭합니다.</block>
   <block id="28a37c29073d01b41af962aa45f11615" category="inline-image-macro">파일 공유 그룹 추가 버튼을 클릭할 수 있는 스캔 구성 페이지의 스크린 샷</block>
@@ -1228,8 +1223,6 @@
   <block id="c8716632d7055f530ad579b6f751cf3a" category="paragraph"><block ref="c8716632d7055f530ad579b6f751cf3a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e780ba1dc1fa7caee58066eebb1037f9" category="inline-xref">따르는 요구사항</block>
   <block id="0c2ece8552f22362671f28b71520f912" category="paragraph">또한 을 충족하는 Linux 시스템도 필요합니다 <block ref="a2ec304d11350e1ba44149ab8f817c68" category="inline-xref-macro-rx"></block>.</block>
-  <block id="f132f9796727cdfbd850e6d1f0af2208" category="cell">https://github.com/docker\https://download.docker.com\http://mirror.centos.org\http://mirrorlist.centos.org\http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm 를 참조하십시오</block>
-  <block id="c82303c6d5888ba9f147a501b8fe7f29" category="cell">설치를 위한 필수 패키지를 제공합니다.</block>
   <block id="cdcaeff13fccb06b7b310f6f966ada4f" category="paragraph">일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다. <block ref="b071f364f4daf7049825f5b1c726d17b" category="inline-xref-macro-rx"></block>.</block>
   <block id="446f633ae412e24a0a66d9d154552c63" category="paragraph">페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. <block ref="72f8bc610961b8d2bc734f2ce5e89019" category="inline-xref-macro-rx"></block>.</block>
   <block id="ab6f827b404fc74a3d59a176e44dce54" category="inline-xref">Linux 호스트 시스템 준비</block>
@@ -1276,7 +1269,6 @@
   <block id="becce430afb103abe05ad66b3e6cde8a" category="sidebar">규정 준수 보고서를 생성합니다</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 커뮤니티</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="38aabb48c7b00e0c5ef0ec27ca5a850d" category="paragraph"><block ref="38aabb48c7b00e0c5ef0ec27ca5a850d" category="inline-link-rx"></block></block>
   <block id="7c04897feb206ad3e6d38ea88ccde2d4" category="paragraph"><block ref="7c04897feb206ad3e6d38ea88ccde2d4" category="inline-link-rx"></block></block>
   <block id="0e07c8e30d5d787d70fbc93583eb3032" category="paragraph"><block ref="0e07c8e30d5d787d70fbc93583eb3032" category="inline-link-rx"></block></block>
@@ -1285,9 +1277,7 @@
   <block id="67863eec6ed398cda366fe555c1746bd" category="cell">오스트레일리아 의료 보험 번호</block>
   <block id="bba082dd43baad5296b00863b2fd871e" category="cell">호주 여권 번호</block>
   <block id="d65636c48d5eaaa2a0f018e8b2c9b456" category="paragraph">중복 파일 목록을 다운로드하여 스토리지 관리자에게 전송하여 삭제할 수 있는 파일이 있는지 확인할 수 있습니다. 아니면 가능합니다 <block ref="e6aba68fcf17e4e39481e0dfc445e973" category="inline-link-macro-rx"></block> 특정 버전의 파일이 필요하지 않을 경우</block>
-  <block id="d34764ccb2a6879e5ef576e7ea2fb550" category="cell">또는 필요한 호스트 매개 변수 'sudo./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt;--host &lt;DS_host&gt;--manager-host &lt;cm_host&gt;--no-proxy--dar사이트'를 제공하여 전체 명령을 미리 생성할 수 있습니다</block>
   <block id="cfc66ec017142ce1f8420ffb8db2e3cd" category="list-text">9단계에서 설명한 것처럼 설치 관리자가 메시지를 표시하면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.</block>
-  <block id="5fa878295b23e50238df7f7395042d79" category="paragraph">예를 들어, 이 명령은 3개의 스캐너 노드(sudo./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt;--host &lt;DS_host&gt;--manager-host &lt;cm_host&gt; * -n &lt;node_IP1&gt;, &lt;node_IP2&gt;, &lt;node_ip3&gt; * -- no-proxy-site)를 추가합니다</block>
   <block id="eb5d5731dad89c6e51beb903e93f42bf" category="paragraph">구성 페이지에서 로컬 을 선택할 수 있습니다 <block ref="c23a74d01fbf5deb3a784c3ec1da6439" category="inline-link-macro-rx"></block> 및 로컬 <block ref="6d4571a63bcf6d226319383d2911863e" category="inline-link-macro-rx"></block> 선택합니다.</block>
   <block id="7078363248b15fb54dcc0ed38080ad0d" category="list-text">DNS 서버 IP 주소 또는 여러 IP 주소</block>
   <block id="e81c4e4f2b7b93b481e13a8553c2ae1b" category="paragraph">또는</block>
@@ -1297,7 +1287,6 @@
   <block id="d612613d84fc2070d51661d666c6e11b" category="paragraph">필요한 경우 * IP 추가 * 를 클릭하여 여러 IP 주소를 추가할 수 있습니다.</block>
   <block id="22f358540a8137fabaf166237bf90665" category="paragraph">데이터 주체의 전체 이름 또는 알려진 식별자를 검색한 다음 파일 목록 보고서 또는 DSAR 보고서를 다운로드합니다. 검색할 수 있는 기준 <block ref="15f0bc476b1c646a9bfee9ca0397f926" category="inline-link-macro-rx"></block>.</block>
   <block id="48e1e343989571ace6bf404a680635d8" category="list-text">8단계에서 설명한 것처럼 설치 프로그램에서 메시지를 표시하면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.</block>
-  <block id="6b356fe759d450cad6ec9f478a17a524" category="paragraph">예를 들어, 이 명령은 scanner 노드 3개를 추가합니다. sudo./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt;--host &lt;DS_host&gt;--manager -host &lt;cm_host&gt; * -n &lt;node_IP1&gt;, &lt;node_ip2&gt;, &lt;node_ip2&gt;, &lt;node_proxy scheme -proxy -proxy -proxy -host &lt; 프록시 포트 프록시 -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -proxy -port -proxy -proxy -host &lt;</block>
   <block id="b7f2b0e45c51391324aebf221531b036" category="paragraph">ONTAP 볼륨에 대해 FSx를 스캔하기 전에<block ref="68e9cbaf33b2641a589dc87867e4bfec" category="inline-link-rx"></block>.</block>
   <block id="bbd1b36ab0dbd0c17e60ec752bb02a55" category="paragraph"><block ref="b1e4fd148d344599f4a25922d8155dd9" category="inline-link-macro-rx"></block>.</block>
   <block id="91aef07a29d8068140e7dca06bec6d9d" category="list-text">개인 정보 보호 관련 정보와 개인 정보 보호 위험 점수를 제공합니다. <block ref="890a798f73fe571345d1ff7c58a08844" category="inline-link-macro-rx"></block>.</block>
@@ -1538,7 +1527,6 @@
   <block id="69c5667893c99e5a388e892cc9784e66" category="paragraph"><block ref="69c5667893c99e5a388e892cc9784e66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecc7450cf52e0d0d89139603b07ea706" category="paragraph">커서를 _Scan Status_ 열의 차트 위로 이동하면 각 리포지토리에서 매핑하거나 분류할 수 있는 남은 파일 수를 볼 수 있습니다(이 예제의 버킷).</block>
   <block id="1a8f03950c641e2ffffb33146f70ef55" category="admonition">매핑 전용 검색으로 데이터베이스를 설정할 수 없습니다. 데이터베이스 스캐닝은 Off(끄기) 또는 On(켜기)일 수 있습니다. On(켜짐)은 Map &amp; Classify(맵 및 분류)와 동일합니다.</block>
-  <block id="ce12cca419124f32a01c6fec5a3be62f" category="list-text">버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다</block>
   <block id="1ce92447664cc42f3e2c04aaf8570862" category="cell">뉴질랜드 은행 계좌</block>
   <block id="2be885677b02540592a1f44b87ee5fb9" category="cell">뉴질랜드 IRD 번호(세금 ID)</block>
   <block id="3c266b4db1bf588305e19eddcef36116" category="cell">뉴질랜드 여권 번호</block>
@@ -1579,7 +1567,6 @@
   <block id="bb88c75c573c51be16c7d85804e7a9fe" category="list-text">말씀해 주십시오</block>
   <block id="15fca3b27e46d9a8a2810d30feb9b434" category="list-text">기타 스토리지 공급업체</block>
   <block id="30899efa777e04d2606dffe90717c0b4" category="paragraph">* 클라우드: *</block>
-  <block id="52745271323ee9ea30e3a37d0338d118" category="list-text">Azure Blob</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="list-text">Google 클라우드 스토리지</block>
   <block id="f79cd76b16e526d536ec5f9e3a3dbe9d" category="list-text">OneDrive 를 클릭합니다</block>
   <block id="27bafb3855ae4ca3df676518f2aaad5a" category="list-text">SharePoint Online을 클릭합니다</block>
@@ -1822,7 +1809,6 @@
   <block id="7ef314f37951a4ffae65aed3439a8da1" category="inline-image-macro">인증 지침 링크가 포함된 API 설명서 페이지의 스크린샷</block>
   <block id="e7897b39cbb592afc0430305aca32cc1" category="paragraph"><block ref="e7897b39cbb592afc0430305aca32cc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1480262c4a9656977a70cff8c21b5dc0" category="paragraph"><block ref="0d45fd4edeb386e475963435f8cc230a" prefix="" category="inline-code"></block></block>
-  <block id="0490466572986d52027e27d707b776a5" category="list-text">_client_id_=커넥터 클라이언트 ID</block>
   <block id="5d0fd32ac4fe744d7966c459776a6b4c" category="list-text">_cm_host_= 커넥터 시스템의 IP 주소 또는 호스트 이름입니다</block>
   <block id="33b07d0ffb66d0a6cd8a0162e20adca4" category="list-text">_USER_TOKEN_= JWT 사용자 액세스 토큰</block>
   <block id="b0c80b9aebe2393782fd3bb0680a791b" category="list-text">2단계에서 복사한 명령을 붙여 넣고 실행합니다.</block>
@@ -1983,7 +1969,6 @@
   <block id="cc8f113115a15a733dabb8452c0006ca" category="cell">감도 수준(개인, 민감한 개인 또는 민감하지 않음)을 선택합니다.</block>
   <block id="858f7504093c180b7179d29d8e1200d9" category="cell">를 선택합니다 <block ref="1b5fb6ede432593c04dc0306b78c1e56" category="inline-link-macro-rx"></block>.</block>
   <block id="efbc704c741274e96fb34f9918eea9bc" category="cell">를 선택합니다 <block ref="ea8f57582e4e2ddb4974e03972a326d7" category="inline-link-macro-rx"></block>.</block>
-  <block id="e9f27357b5c27ea5a56801efd544f2d7" category="cell">데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다.</block>
   <block id="6dd0ccfe2edc5e0affb1f92d200d803f" category="cell">"공유" 또는 "폴더"와 같은 디렉토리 유형을 선택합니다.</block>
   <block id="af1d33c2d159e6129aa8d5cec06d9e66" category="cell">를 선택합니다 <block ref="4a178e0468c164aff717ffc6699fa1c6" category="inline-link-macro-rx"></block>.</block>
   <block id="7e1e60231552d76c5626d3b5ad9519d3" category="cell">파일 크기 범위를 선택합니다.</block>
@@ -2179,7 +2164,6 @@
   <block id="cfac86d9b67213d6bb2dc5d1e6dff274" category="paragraph">다음 필터를 사용하여 AIP 레이블 또는 태그로 데이터를 봅니다.</block>
   <block id="b6fb796ef2b473f220b609812d519181" category="cell">정책 또는 정책을 선택합니다. 이동 <block ref="578f763d599897de23ba32ec116d6451" category="inline-link-macro-rx"></block> 기존 정책 목록을 보고 고유한 사용자 지정 정책을 만들려면</block>
   <block id="158e99247d19480d767e25e00d129553" category="section-title">분석 상태별로 데이터를 필터링합니다</block>
-  <block id="3da9db7f0e8d0dab6787227f56d0489b" category="section-title">중복 데이터를 기준으로 필터링합니다</block>
   <block id="9c7541a95b9333c21b847910917cc789" category="paragraph">다음 필터를 사용하여 스토리지에 복제된 파일을 봅니다.</block>
   <block id="f29d7c200ca42589e2a229aaea31ee81" category="paragraph">데이터 조사 보고서는 데이터 조사 페이지의 필터링된 콘텐츠를 다운로드하는 것입니다.</block>
   <block id="3cb1844e1b6238f77e2e51aff4e9f4d6" category="list-text">"파일 소유자"를 사용할 수 있습니다. <block ref="11e66926bceae3c2a281c0952ca162a2" category="inline-link-macro-rx"></block> 그리고 조사 창에서 파일의 메타데이터에서 결과를 확인합니다. SID(보안 식별자)가 포함된 파일 소유자 대신 실제 사용자 이름으로 채워집니다.</block>
@@ -2311,7 +2295,6 @@
   <block id="497d508053af04935d2eb62e219372c8" category="list-text">사내 설치를 시작하려면 * deploy * 를 클릭합니다.</block>
   <block id="7bde2d7cf6c722c1135ccccea2a76b1a" category="list-text">Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사합니다(예:<block ref="4041549bf21d4c7bed0bfcbf52842063" prefix=" " category="inline-code"></block>)를 사용하여 텍스트 파일에 붙여 넣어 나중에 사용할 수 있습니다. 그런 다음 * 닫기 * 를 클릭하여 대화 상자를 닫습니다.</block>
   <block id="9c219f00fda547ddab566c43975acd6b" category="list-text">호스트 시스템에서 복사한 명령을 입력한 다음 일련의 프롬프트를 따르거나 필요한 모든 매개 변수를 명령줄 인수로 포함하여 전체 명령을 제공할 수 있습니다.</block>
-  <block id="2817a1d472ecfcca8fe861c57ec6f447" category="list-text">8단계에서 복사한 정보를 붙여 넣습니다.<block ref="feca0af1809ee364465c858e41f4ada4" prefix=" " category="inline-code"></block></block>
   <block id="ce99bf86c57675420203e054ffc86a6d" category="list-text">관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예:<block ref="2478484d96d8c17b7752fd15d3b26f12" prefix=" " category="inline-code"></block>)를 입력하고 텍스트 파일에 저장합니다.</block>
   <block id="19c8d978817f5ad2c7d566851ddf6e4e" category="paragraph"><block ref="19c8d978817f5ad2c7d566851ddf6e4e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bda678b1fb683a403f093f2555da8faf" category="list-text">Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사합니다(예:<block ref="a402a6c8a10b4c24d7596599c6dfb7db" prefix=" " category="inline-code"></block>)를 사용하여 텍스트 파일에 붙여 넣어 나중에 사용할 수 있습니다. 그런 다음 * 닫기 * 를 클릭하여 대화 상자를 닫습니다.</block>
@@ -2361,7 +2344,6 @@
   <block id="04857641e7994338feb506f5b60ebeb0" category="section-title">GCP 인스턴스 유형</block>
   <block id="dd654e120269d83d0f32a6f695b8bab9" category="cell"><block ref="fc953708959f6784e56436278d753426" category="inline-link-rx"></block> (기본값) n2d-standard-16 n1-standard-16</block>
   <block id="aebeafb9d6b45d6e3629685737b0b510" category="doc">파일 액세스 이벤트 모니터링 및 관리</block>
-  <block id="cec7bcb15c6741f47d69974fd0f0a3da" category="paragraph">예를 들어 중요한 직원 파일이나 급여 파일이 변경된 시기를 추적하려는 경우 이러한 파일이 있는 볼륨에서 이 기능을 사용하도록 설정할 수 있습니다. 그런 다음 파일 액세스 감사 로그를 보고 이러한 파일이 변경되었는지 확인할 수 있습니다. 변경한 경우 변경한 사람의 이름과 변경 시점을 확인할 수 있습니다.</block>
   <block id="4189ddcc75f1e8d4ba9a48d4e7f2fa48" category="inline-link">FPolicy 기능</block>
   <block id="686e697538050e4664636337cc3b834f" category="list-text">생성</block>
   <block id="7a1a5f3e79fdc91edf2f5ead9d66abb4" category="list-text">읽기</block>
@@ -2374,8 +2356,6 @@
   <block id="10eaa67ba3824a947cec2803e682249a" category="list-text">온프레미스 ONTAP</block>
   <block id="de7a9ded100f5ab68960785a7977419c" category="section-title">파일 액세스 감사 로깅을 위한 볼륨을 구성합니다</block>
   <block id="80027566e31a879d1baef50d58692dc4" category="paragraph">개별 볼륨에서 파일 액세스 감사 로깅을 활성화하여 파일 및 디렉토리의 변경 사항을 추적할 수 있습니다.</block>
-  <block id="1eab470a6f707b92e15040773251a746" category="list-text">팁</block>
-  <block id="0925da7b2159d87a33d0fde69e738426" category="list-text">현재 각 ONTAP 시스템에서 최대 5개의 볼륨에 대해 파일 액세스 감사를 구성할 수 있습니다.</block>
   <block id="9d0e2b2eb032ffd4efa13096caae567a" category="list-text">데이터 원본에 대한 _Scan Configuration_ 페이지에서 를 클릭합니다 <block ref="50acd719b1954eb4890c002b3b5e71a6" category="inline-image-macro-rx" type="image"></block> 볼륨에 대해 * 파일 액세스 감사 구성 * 을 선택합니다.</block>
   <block id="c791f5a696fa23cbe4c6c1b76be84e2f" category="inline-image-macro">파일 액세스 로깅을 활성화할 볼륨을 선택하는 스크린샷</block>
   <block id="df0da4611bcc736388ba21984af1f174" category="paragraph"><block ref="df0da4611bcc736388ba21984af1f174" category="inline-image-macro-rx" type="image"></block></block>
@@ -2387,26 +2367,14 @@
   <block id="760fa6a53e99af41106fb9a484537801" category="inline-image-macro">특정 볼륨에 대해 파일 액세스 감사 로깅이 활성화되어 있음을 보여 주는 스크린샷</block>
   <block id="128380149729d40c8a7f08ebcf71b393" category="paragraph"><block ref="128380149729d40c8a7f08ebcf71b393" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a11ed4a6864c5bc8fd26866333740e8b" category="paragraph">활성화된 볼륨의 파일에 대해 생성된 모든 파일 액세스 이벤트가 로그 파일에 추가됩니다. 로그 파일을 가끔 확인하여 수신 중인 이벤트 유형을 확인합니다.</block>
-  <block id="1f61b01a11eb001752e432e36c02a458" category="paragraph">파일 액세스 이벤트를 추적하도록 구성한 모든 볼륨에 대해 로그 파일이 생성됩니다. 감사 로그의 각 줄에는 다음 형식의 정보가 포함되어 있습니다.</block>
-  <block id="3608b8757d42972237c90a4166cb40ef" category="paragraph"><block ref="f81bca8d84e25507999914272dc54cf0" prefix="" category="inline-code"></block></block>
-  <block id="1953cba0d55aa268eb5c81452ed41aa0" category="list-text">Timestamp - 이벤트의 날짜 및 시간입니다</block>
-  <block id="0837106e33dba045cd4d616fc85d209f" category="list-text">Volume name - 볼륨의 이름입니다</block>
-  <block id="03c77c7d7f8909d2d11fdaebf9f808ca" category="list-text">이벤트 유형 - 생성, 읽기, 쓰기, 이름 바꾸기, 삭제, 소유자/권한을 변경하고 SACL/DACL을 변경합니다</block>
-  <block id="5dd6810cd17cbba46940574283942107" category="list-text">파일 이름 - 전체 경로 및 파일 이름입니다</block>
-  <block id="4385297914f93c5a09fb1cce2acb1a12" category="list-text">사용자 이름(또는 ID) - 작업을 수행한 사람의 이름 또는 ID입니다</block>
-  <block id="3e5220331a650cbadbd6ee74b8f31714" category="list-text">작업 결과 - 작업이 성공했는지 또는 실패했는지 여부 및 성공/실패 이유</block>
-  <block id="41a8d2e8bafe2324a30d9ef1430e5dcb" category="list-text">작업 세부 정보 - 수행한 작업: 작업에 따라 다릅니다</block>
   <block id="2da4d8c5bc0edc06ac63f3c95d761c7b" category="section-title">파일 액세스 감사 로그 파일에 액세스합니다</block>
   <block id="a02f04e5cf15eab34e36540d19d919c6" category="inline-xref">파일 액세스 감사 로그 구성 페이지에서 이 값을 사용자 지정할 수 있습니다.</block>
-  <block id="cee8cebe9beae40b9ff2920c17036564" category="paragraph">디렉토리에 있는 모든 로그 파일의 총 크기는 기본값인 50GB로 설정됩니다. <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 이 제한에 도달하면 가장 오래된 로그 파일이 자동으로 삭제됩니다.</block>
   <block id="f1232e8f69c85f39de4569648f81f7d8" category="section-title">파일 액세스 감사 로그 설정을 구성합니다</block>
   <block id="03dbd1b5fc01bd9510606278903a28bc" category="cell">감사 로그 옵션</block>
   <block id="d13e01ef2af0326f4f5a6e15fee2c4bc" category="cell">로그 파일 위치</block>
-  <block id="fbc948416dfe24ca5eec1703b2d724e2" category="cell">현재 로그 파일을 쓸 수 있도록 위치가 하드코딩되어 있습니다<block ref="737f0a89396f6d78b87820109de683eb" prefix=" " category="inline-code"></block></block>
   <block id="00fc8ad0777a7d04155f0aea1a460364" category="cell">감사 로그에 대한 최대 스토리지 할당</block>
   <block id="e78e3ddb79416e357c114831c02be2ac" category="cell">디렉토리에 있는 모든 로그 파일의 총 크기는 현재 50GB의 기본값으로 하드 코딩되어 있습니다. 이 제한에 도달하면 가장 오래된 로그 파일이 자동으로 삭제됩니다.</block>
   <block id="b98e5f30ca3cd0f113adc1ab13a39525" category="cell">감사 파일당 최대 감사 이벤트 수입니다</block>
-  <block id="f46fa6c8b79f57cf8c58c5f05f8134cc" category="cell">각 파일은 현재 최대 50,000개의 이벤트를 포함하도록 하드코딩되어 있습니다. 이 최대값에 도달하면 해당 볼륨에 대한 새 로그 파일이 생성됩니다. 새 파일의 타임 스탬프가 최신입니다.</block>
   <block id="5046b3bc48bd37acc83c5000548deccc" category="paragraph">이러한 설정은 현재 기본 설정으로 하드 코딩되어 있습니다. 변경할 수 없습니다.</block>
   <block id="8b6c5ced74ae32d25c3f6ebff98f9529" category="inline-link">Connector On-Premises를 설치합니다</block>
   <block id="d848fab961367a4c9f58a25dc74053f3" category="paragraph">또한 가능합니다<block ref="a4b2312bac71e1fcb5d5edc9dd08d5ef" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트</block>
@@ -2479,16 +2447,13 @@
   <block id="44bc729b266ea1f75cc8d556fa17943e" category="paragraph">클라우드 공급자 환경에 하나를 생성하려면 를 참조하십시오<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block>,<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>, 또는<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>.</block>
   <block id="dcdba57692d95c33c15bffffceb6357c" category="paragraph">오프라인 온-프레미스 사이트에 커넥터가 아직 설치되어 있지 않은 경우<block ref="c356cb96564d1aac144adbd1ad0f2ab1" category="inline-link-rx"></block> 이제 Linux 호스트에서</block>
   <block id="89825cdcfb92068b90e1077fbbbe7eee" category="paragraph">오프라인 온-프레미스 사이트에 BlueXP Connector가 아직 설치되어 있지 않은 경우<block ref="c356cb96564d1aac144adbd1ad0f2ab1" category="inline-link-rx"></block> 오프라인 사이트의 Linux 호스트</block>
-  <block id="c1fb9db100b9c0b30bdce67dd119b43a" category="list-text">온프레미스 커넥터 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다.<block ref="ab6868debf887d8dec6688f98c536c70" category="inline-link-rx"></block>.</block>
   <block id="95d360d4c70cbbf05116206b4e5edd67" category="section-title">로그 파일에 액세스합니다</block>
   <block id="57f460460036fcd7ebbf1fddeaa6a3a5" category="paragraph">아직 커넥터가 없으면 지금 연결선을 작성합니다. 을 참조하십시오<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block>,<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>, 또는<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>.</block>
   <block id="8b4cc0616cd3112ce97c78446249e336" category="inline-link-macro">대체 인스턴스 유형</block>
   <block id="b4628b43616bed69627de3b91fe817d0" category="paragraph">인터넷 액세스가 없는 호스트에서 스크립트를 실행하는 경우에만 "--car사이트" 옵션을 추가합니다. 호스트가 인터넷에 연결되어 있지 않으면 특정 필수 구성 요소 테스트를 건너뜁니다.</block>
   <block id="1bb79e71fe1463a15c91ab711e20a6ac" category="list-text">이 스크립트는 시스템에서 다양한 테스트를 실행하고 진행되면서 결과를 표시합니다. 작업이 완료되면 세션 로그를 라는 파일에 씁니다<block ref="7bca4c3da1c027ba15644b115a5e9fd9" prefix=" " category="inline-code"></block> 디렉토리에 있습니다<block ref="8a788ac11c9bfeaba837d43d9090ac97" prefix=" " category="inline-code"></block>.</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
-  <block id="5f2318cc261d90be3fcc5f4c7cc873c8" category="list-text">7단계에서 복사한 명령을 붙여 넣습니다.<block ref="924ff0749b2ad085d56d695be970e489" prefix=" " category="inline-code"></block></block>
   <block id="388579bd3749a8791992636cbe6fcba2" category="paragraph">구내에 설치하지 않고 클라우드 인스턴스에 설치하는 경우 를 추가합니다<block ref="8a51c007faa66fa433403fdda9b5aea8" prefix=" " category="inline-code"></block>.</block>
-  <block id="6da4fe596757430b3c8aac2020ced6c0" category="cell">또는 필요한 호스트 및 프록시 매개 변수를 제공하여 전체 명령을 미리 생성할 수도 있습니다.<block ref="dd2499ea1a73d24df83008235f503dbc" prefix=" " category="inline-code"></block></block>
   <block id="652d29fc9fdc8e0b507bb9eeecca952e" category="list-text">_cloud_provider_= 클라우드 인스턴스에 설치할 때 클라우드 공급자에 따라 "AWS", "Azure" 또는 "GCP"를 입력하십시오.</block>
   <block id="9e7ff0af4669feb5e45b838a89143e27" category="paragraph">설치 감사 로그 파일은 에 기록됩니다<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block></block>
   <block id="e08c39eeecbac5d5f73dff71e2512def" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 그룹에 파일 공유를 추가합니다</block>
@@ -2509,7 +2474,6 @@
   <block id="bd069242cf8eda4643c1e3d125af30e2" category="list-text">BlueXP 분류 인스턴스와 공유 사이에 네트워크 연결이 있어야 합니다.</block>
   <block id="4c6967e71e17b25bd9aba5d07ac1a719" category="list-text">이러한 포트가 BlueXP 분류 인스턴스에 열려 있는지 확인합니다.</block>
   <block id="7adf75f8aca26c6ef58c5ad60b1edba5" category="list-text">CIFS(SMB) 공유의 경우 공유에 대한 읽기 액세스를 제공하는 Active Directory 자격 증명이 있는지 확인합니다. BlueXP 분류에서 상승된 권한이 필요한 데이터를 검색해야 하는 경우 관리자 자격 증명이 권장됩니다.</block>
-  <block id="0cab35f215ad785f6bbbd922e56cfc04" category="paragraph">BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="bb0a1704cdb3aa4652bac58b0632ab23" category="section-title">BlueXP 분류 인스턴스 배포</block>
   <block id="66d6758c1474f6b831dd835dbec91562" category="paragraph">배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.</block>
   <block id="d040d135cea4209ef4244e9d6e171fee" category="inline-link-macro">클라우드에 BlueXP 분류를 배포합니다</block>
@@ -2658,7 +2622,6 @@
   <block id="599b3adc06ff60709e02c3d42a15c442" category="paragraph">BlueXP 분류에서 호출되면 일반적인 BlueXP 복사 및 동기화 작업 중 일부가 비활성화됩니다.</block>
   <block id="0507a26254d90555779319aac2a586a6" category="paragraph">BlueXP 분류에서 스캔 중인 소스 파일을 모든 NFS 공유로 이동할 수 있습니다. NFS 공유는 BlueXP 분류와 통합되지 않아도 됩니다(참조) <block ref="29fc238c82f37afa6e56193b0cf6f5eb" category="inline-link-macro-rx"></block>)를 클릭합니다.</block>
   <block id="687c2785d0e6bcc55e7d411f98257c26" category="list-text">파일을 이동하려면 NFS 공유를 통해 BlueXP 분류 인스턴스 IP 주소에서 액세스할 수 있어야 합니다.</block>
-  <block id="cba343df3354e636ac19b2eb001d2453" category="summary">BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터 스캔을 시작하려면 몇 단계를 완료하십시오. BlueXP 분류는 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에서 데이터를 스캔할 수 있습니다. 여기에는 NetApp StorageGRID, IBM Cloud Object Store, Azure Blob(MinIO 사용), Linode, B2 클라우드 스토리지, Amazon S3 등이 포함됩니다.</block>
   <block id="ab799d9194a97ef175cc77104273ab42" category="paragraph">BlueXP 분류가 버킷에 액세스할 수 있도록 객체 스토리지 공급업체의 액세스 키 및 비밀 키가 있어야 합니다.</block>
   <block id="53ab1a83968fb0e47aaf2604fd097f22" category="paragraph">BlueXP 분류에 오브젝트 스토리지 서비스를 추가합니다.</block>
   <block id="a9dd30151c7008ee5251686104cfa16e" category="paragraph">인터넷을 통해 액세스할 수 있는 S3 오브젝트 스토리지에서 데이터를 스캔하는 경우 <block ref="8faa540c15177bc62b151869f0948a64" category="inline-link-macro-rx"></block> 또는 <block ref="15df3adeb2abcc06430d6dc64cee819e" category="inline-link-macro-rx"></block>.</block>
@@ -2667,7 +2630,6 @@
   <block id="e263659a3c43d4bb84ed4f6fa63a1fb7" category="list-text">액세스 키 및 비밀 키를 입력하여 BlueXP 분류가 오브젝트 저장소의 버킷에 액세스할 수 있도록 합니다.</block>
   <block id="5f7d2531317684863a8928345cd2c72a" category="paragraph">오브젝트 스토리지 서비스에서 BlueXP 분류를 활성화한 후 다음 단계는 스캔할 버킷을 구성하는 것입니다. BlueXP 분류는 이러한 버킷을 검색하여 사용자가 만든 작업 환경에 표시합니다.</block>
   <block id="37e611c0f6034e9d39537aca9c9331a7" category="paragraph">BlueXP 분류는 활성화한 버킷을 스캔하기 시작합니다. 오류가 있는 경우 오류를 해결하는 데 필요한 작업과 함께 상태 열에 표시됩니다.</block>
-  <block id="0382fa55a5763522351262f003e2c25e" category="paragraph">+ BlueXP 분류 검사에서 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한을 사용하는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="264b044bf416a5337d28443921b46791" category="list-text">BlueXP 분류는 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.</block>
   <block id="34c6b12ec99e0004de549a9d1fd9589c" category="list-text">구내 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행할 데이터 세트의 크기에 따라 세 가지 시스템 크기 중에서 선택할 수 있습니다.</block>
   <block id="d5c832490c0ab9dcb105acd9ee7b4709" category="list-text">BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.</block>
@@ -2715,12 +2677,7 @@
   <block id="e7fa07083790a8112d00af542356ec88" category="paragraph">기본적으로 데이터 보호(DP) 볼륨은 외부에서 노출되지 않고 BlueXP 분류에서 액세스할 수 없기 때문에 스캔되지 않습니다. 이는 사내 ONTAP 시스템 또는 Cloud Volumes ONTAP 시스템에서 SnapMirror 작업을 위한 타겟 볼륨입니다.</block>
   <block id="7c0a9b3e555cf595d3d01d33df76df82" category="list-text">소스 ONTAP 시스템에서 CIFS 볼륨으로 처음 생성된 볼륨을 사용하려면 CIFS 자격 증명을 입력하여 해당 DP 볼륨을 스캔해야 합니다. BlueXP 분류에서 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 이미 입력한 경우 해당 자격 증명을 사용하거나 다른 관리자 자격 증명 집합을 지정할 수 있습니다.</block>
   <block id="fbf1d4f9e395daa419609b8d5b9705f7" category="summary">검사 중인 파일 중 하나에 액세스하거나 변경할 때마다 이벤트에 기록하도록 BlueXP 분류를 구성할 수 있습니다. 그런 다음 이 파일의 내용(파일 액세스 감사 로그)을 보거나 다운로드하여 어떤 파일 변경이 발생했는지, 누가 변경했는지 확인할 수 있습니다.</block>
-  <block id="ba688e1991b77fcd44ff6195e0c84363" category="paragraph">ONTAP 작업 환경의 중요 볼륨에서 이 기능을 활성화할 수 있습니다. 볼륨에서 활성화된 경우 볼륨의 모든 파일 및 디렉토리에 대해 파일 액세스 이벤트가 추적됩니다. 이 기능은 를 기반으로 합니다<block ref="215c8ae39ab5aa2af1bf0d7956d6ac15" category="inline-link-rx"></block> ONTAP 시스템에서 BlueXP 분류 시스템을 FPolicy 서버로 사용하여 ONTAP의 알림 메시지(이벤트)를 수신합니다.</block>
   <block id="52887b7fa084c02e609d7372dfab4740" category="paragraph">BlueXP 분류는 현재 파일 및 디렉토리에 대해 다음 작업에 대한 이벤트를 캡처합니다.</block>
-  <block id="30fc63feb36d512bc110dc008277f74a" category="paragraph">BlueXP 분류는 다음 데이터 소스에 있는 파일에 대한 파일 액세스 이벤트를 기록할 수 있습니다.</block>
-  <block id="e3ca60acdd422d6c4d10471ba7bafd7a" category="paragraph">BlueXP 분류에서 파일에 액세스한 사람의 이름을 식별할 수 있도록 이러한 데이터 원본에 대해 Active Directory를 구성해야 합니다.</block>
-  <block id="63affb81f248b01271368473d544b519" category="paragraph">파일 액세스 감사 로그 파일은 BlueXP 분류 시스템의 다음 위치에 있습니다.<block ref="737f0a89396f6d78b87820109de683eb" prefix=" " category="inline-code"></block></block>
-  <block id="9f6e20b07afbaa7f960a88a7109d46b7" category="paragraph">로그 파일의 이름은 "File_Access_Audit_&lt;volume_name&gt;_&lt;timestamp&gt;.log"이며, 예를 들어 "File Access Audit_MedicalData_20230205092321.log"입니다. &lt;timestamp&gt;는 BlueXP 분류가 파일에 첫 번째 로그를 기록한 시간입니다. 각 파일은 기본적으로 최대 50,000개의 이벤트를 포함하도록 구성됩니다. <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 이 최대값에 도달하면 해당 볼륨에 대한 새 로그 파일이 생성됩니다. 새 파일의 타임 스탬프가 최신입니다.</block>
   <block id="f8a450637ddb6668a04ea30131e3a1e2" category="paragraph">BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux 시스템에 설치되어 있는 경우 로그 파일로 직접 이동할 수 있습니다.</block>
   <block id="c025349cd3a26a699951f8e578938046" category="paragraph">BlueXP 분류를 클라우드에 배포하면 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.</block>
   <block id="cbe58906292040b6d0a07fdaf6ed1e88" category="paragraph">파일 액세스 감사 파일 로그에 대해 구성할 수 있는 세 가지 옵션이 있습니다. 이러한 설정은 이 BlueXP 분류 인스턴스에 대한 파일 액세스 감사 로깅을 구성한 모든 데이터 원본에 적용됩니다. 이러한 설정은 BlueXP classification_Configuration_페이지의 _ 파일 액세스 감사 로그_ 섹션에서 구성합니다.</block>
@@ -2833,7 +2790,6 @@
   <block id="5c06ff49871066f9ed72b5135320a06f" category="list-text">SharePoint 온-프레미스의 경우 BlueXP 분류를 설치할 수 있습니다 <block ref="5433f857b708e940349e34ece6281ba0" category="inline-link-macro-rx"></block> 또는 <block ref="a9e45dedd045b23b06be5ebd4c9f12fb" category="inline-link-macro-rx"></block>.</block>
   <block id="4680fd81d7e45ccfd1ceacd31a49b359" category="paragraph">인터넷에 연결되지 않은 사이트에 BlueXP 분류를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP 커넥터도 같은 사이트에 설치해야 합니다.<block ref="1c688d8f43aa189fb0a1239cdf9c5893" category="inline-link-rx"></block>.</block>
   <block id="4e977298e88aace1f09c15f59ce0e78a" category="list-text">나타나는 Microsoft 페이지에서 SharePoint 계정을 선택하고 사용자 및 암호(SharePoint 사이트에 액세스할 수 있는 관리자 사용자 또는 기타 사용자)를 입력한 다음 * Accept * 를 클릭하여 BlueXP 분류에서 이 계정의 데이터를 읽을 수 있도록 합니다.</block>
-  <block id="180a03d01ffffc932373d00975d086ae" category="paragraph">개별 SharePoint 사이트 또는 계정에 있는 모든 SharePoint 사이트를 추가하여 연결된 파일을 BlueXP 분류로 검색할 수 있습니다. SharePoint Online 또는 SharePoint 온-프레미스 사이트를 추가할 때는 이 단계가 동일합니다.</block>
   <block id="b42ad0875678c7c089fca9adf508bcd1" category="paragraph">BlueXP 분류는 사용자가 추가한 SharePoint 사이트의 파일을 검사하기 시작하고 그 결과는 대시보드와 다른 위치에 표시됩니다.</block>
   <block id="59ebdcac794eeda1621f09a3ecc27439" category="inline-link-macro">BlueXP 분류에서 전체 SharePoint 계정을 삭제합니다</block>
   <block id="87ea3e57f659d791ccd6bc17b3e404d5" category="paragraph">참고: 이 작업은 수행할 수 있습니다 <block ref="afcbfb2e520b0252550180b9b85892a0" category="inline-link-macro-rx"></block> SharePoint 계정에서 사용자 데이터를 더 이상 검색하지 않으려는 경우</block>
@@ -2973,7 +2929,6 @@
   <block id="8e14c56957ac95c2facdf955093df914" category="paragraph">BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행해야 합니다.</block>
   <block id="cd2c26e6dff9147da7b2b00b90713d5e" category="list-text">* Firewalld 고려 사항 *: 사용하려는 경우<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block>BlueXP 분류를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> 따라서 BlueXP 분류와 호환됩니다.</block>
   <block id="90cb1400dc841cf0e0395cb466d11c1b" category="paragraph">추가 BlueXP 분류 호스트를 스캐너 노드(분산 모델)로 사용할 계획이라면 이 규칙을 주 시스템에 추가하십시오.</block>
-  <block id="17929764ec3eccca8e82d4e75aba909b" category="paragraph">를 사용하도록 설정한 경우<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> BlueXP 분류를 설치한 후 Docker를 다시 시작해야 합니다.</block>
   <block id="56fe5177fa37261644d5d8d101772da7" category="paragraph">BlueXP 분류에는 아웃바운드 인터넷 액세스가 필요합니다. 가상 또는 물리적 네트워크에서 인터넷 액세스에 프록시 서버를 사용하는 경우 BlueXP 분류 인스턴스에 다음 엔드포인트에 연결할 수 있는 아웃바운드 인터넷 액세스 권한이 있는지 확인합니다.</block>
   <block id="deee1d8f5a3df758bd42edb041e173a5" category="paragraph">커넥터, BlueXP 분류, Active Directory 및 데이터 소스 간의 통신에 필요한 모든 포트가 열려 있는지 확인해야 합니다.</block>
   <block id="f067a4d9a77738e1e7acac4c6780b5e2" category="cell">커넥터 &lt;&gt;BlueXP 분류</block>
@@ -3106,8 +3061,6 @@
   <block id="8a77259a547d85aa243c1731eb9cf4f9" category="list-text">인터넷 구성 시스템의 경우 에서 BlueXP 분류 소프트웨어를 다운로드합니다<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>. 선택해야 하는 파일의 이름은 * DataSense-offline-bundle-&lt;version&gt;.tar.gz * 입니다.</block>
   <block id="dcbcd05aacb89b95f784a8b1f1d67b86" category="inline-image-macro">BlueXP 분류를 사내에 배포하기 위한 버튼을 선택한 스크린샷</block>
   <block id="9dc22b84a6a7541bd88f9e0826037c0e" category="paragraph"><block ref="9dc22b84a6a7541bd88f9e0826037c0e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3b2bec612e179a339e2d986e54f12d2d" category="list-text">Connector 인스턴스에서 액세스할 수 있도록 BlueXP 분류 호스트 시스템의 IP 주소 또는 호스트 이름을 입력합니다.</block>
-  <block id="20d266f8fd4f7f938ee410c8fc73fb14" category="list-text">BlueXP 커넥터 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 BlueXP 분류 인스턴스에서 액세스할 수 있습니다.</block>
   <block id="00f28e201d21c2b9684ea38809307277" category="list-text">_DS_HOST_= BlueXP 분류 Linux 시스템의 IP 주소 또는 호스트 이름입니다.</block>
   <block id="e1d099266f9e920a7c8817ff766480f2" category="paragraph">BlueXP 분류 설치 프로그램은 패키지를 설치하고, 설치를 등록하고, BlueXP 분류를 설치합니다. 설치는 10분에서 20분 정도 걸릴 수 있습니다.</block>
   <block id="9abb289ebc0275e08c6036e047e788f2" category="paragraph">호스트 시스템과 커넥터 인스턴스 간에 포트 8080을 통해 연결되어 있는 경우 BlueXP의 BlueXP 분류 탭에서 설치 진행 상황을 확인할 수 있습니다.</block>
@@ -3320,4 +3273,72 @@
   <block id="daf1be80b90f9f38eccbf069ac08640c" category="sidebar">인터넷을 사용하는 Linux 호스트에 BlueXP 분류를 설치합니다</block>
   <block id="c3e36333a4a6733ccd92dafc9d8c17b5" category="sidebar">인터넷 없이 BlueXP 분류를 사내 설치</block>
   <block id="c0b7cbffdfa6fa18059367f2045ac22c" category="sidebar">BlueXP 분류 활용 사례</block>
+  <block id="44b48aa0d2158361e53832315034f513" category="paragraph">예를 들어 중요한 직원 파일이나 급여 파일이 변경된 시기를 추적하려는 경우 이러한 파일이 있는 볼륨에서 이 기능을 사용하도록 설정할 수 있습니다. 그런 다음 파일 액세스 감사 로그를 보고 이러한 파일이 변경되었는지 확인할 수 있습니다. 변경 사항이 있는 경우 변경을 수행한 사람의 SID(보안 식별자)와 변경 시점을 확인할 수 있습니다.</block>
+  <block id="f8877f183813ba08abe0b73b3b1c1a0a" category="paragraph">ONTAP 소프트웨어를 실행하는 작업 환경의 중요 볼륨에서 이 기능을 활성화할 수 있습니다. 볼륨에서 활성화된 경우 볼륨의 모든 파일 및 디렉토리에 대해 파일 액세스 이벤트가 추적됩니다. 이 기능은 를 기반으로 합니다<block ref="215c8ae39ab5aa2af1bf0d7956d6ac15" category="inline-link-rx"></block> ONTAP 시스템에서 BlueXP 분류 시스템을 FPolicy 서버로 사용하여 ONTAP의 알림 메시지(이벤트)를 수신합니다.</block>
+  <block id="c7f8db8434f3e3057bca29922b597e31" category="paragraph">BlueXP 분류는 다음 데이터 소스의 ONTAP 볼륨에 있는 파일에 대한 파일 액세스 이벤트를 기록할 수 있습니다.</block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">NetApp ONTAP용 Amazon FSx</block>
+  <block id="64067288b8531fcd99186eba6a8c23b0" category="paragraph">데이터 원본은 ONTAP 버전 9.11 이상의 소프트웨어를 실행해야 합니다.</block>
+  <block id="e409723ead2999f7cf6579d5cdaa079c" category="admonition">현재 각 데이터 소스의 최대 5개 볼륨에 대해 파일 액세스 감사를 구성할 수 있습니다.</block>
+  <block id="266321178f48dd580597ebe11b4ed93e" category="list-text">BlueXP 분류에서 파일에 액세스한 사람의 ID를 나열할 수 있도록 데이터 원본에 대해 Active Directory를 구성해야 합니다.</block>
+  <block id="c59b99fd4a78f457a5e94a037bb88563" category="list-text">BlueXP 분류 시스템에서 아웃바운드 액세스를 위해서는 포트 5018이 열려 있어야 합니다.</block>
+  <block id="4d2cf95eb79434a26117b70f40109d70" category="paragraph">파일 액세스 이벤트를 추적하도록 구성한 모든 볼륨에 대해 로그 파일이 생성됩니다. 로그 파일의 이름은 "&lt;volume_name&gt;_&lt;volume_uuid&gt;_.log"입니다. 예를 들어 "FPolicy_CIFS_838c1727-dd2d-11ed-a3ec-590ce4991.log"입니다. 감사 로그의 각 줄에는 다음 형식의 정보가 포함되어 있습니다.</block>
+  <block id="d3369c54154da78d99f4f3934bb84f8f" category="list-text">Timestamp - 이벤트의 날짜 및 시간입니다</block>
+  <block id="4fe39ce84cbfb175d3002259d9f4de1e" category="list-text">클라이언트 IP - 파일 작업이 수행된 인스턴스/PC/프록시의 IP 주소입니다</block>
+  <block id="abc097a42e084882f0b5057b088f61bd" category="list-text">Volume Name - 볼륨의 이름입니다</block>
+  <block id="dbad63ce70d94484137fd2bcee25dc1c" category="list-text">볼륨 UUID - 볼륨의 UUID입니다</block>
+  <block id="ff8a55161214e6aa8d081013df298e9d" category="list-text">파일 형식 - 파일 형식 또는 DIR입니다</block>
+  <block id="64256f21f179e353ec3d64543426b9ac" category="list-text">File Size - 파일 크기(바이트)입니다</block>
+  <block id="69de0dc8b418fef573ebde0673a1eae6" category="list-text">Path - 영향을 받는 파일 또는 디렉토리의 전체 경로 및 이름입니다</block>
+  <block id="3c08f92438e4ac1c4646bf56ca891fa9" category="list-text">Volume Type - 볼륨의 유형으로 SMB 또는 NFS입니다</block>
+  <block id="04dad560a21879bc6d32b8e30f651a71" category="list-text">사용자 ID - 작업을 수행한 사람의 SID(보안 식별자)입니다</block>
+  <block id="cb4c145642d6cf35e5d4a33ece6b7833" category="list-text">파일 소유자 ID - 파일 소유자의 SID(보안 식별자)입니다</block>
+  <block id="46892b1d18541880bb4ef3ee2f331f45" category="list-text">이벤트 유형 - 만들기, 읽기, 쓰기, 이름 바꾸기, 삭제, 소유자/권한을 변경하거나 SACL/DACL을 변경합니다</block>
+  <block id="ae99dae6f6384006aeadebbab894f370" category="list-text">작업 세부 정보 - 수행한 작업: 작업에 따라 다릅니다</block>
+  <block id="e4e81dbf5cdcb72e814265ea01d1f3eb" category="paragraph">예를 들어, 로그 파일에서 다음 행은 볼륨 "FPolicy_CIFS"에서 "Create" 작업이 발생했다는 것을 나타냅니다. 즉, 볼륨에 새 파일 "F14"가 생성되었습니다.</block>
+  <block id="e5f8c207227297bb2868689eb39d6520" category="paragraph">BlueXP 분류 조사 페이지를 사용하여 볼륨("저장소 저장소" 필터 사용) 또는 파일("파일/디렉터리 경로" 필터 사용)을 검색하여 영향을 받는 볼륨 및 파일에 대한 자세한 정보를 볼 수 있습니다.</block>
+  <block id="f78abbcec2f9ea5bc3fa03b36826fc43" category="paragraph">파일 액세스 감사 로그 파일은 BlueXP 분류 시스템의 다음 위치에 있습니다.<block ref="fec957882759a1b449bd1dfc164a64e6" prefix=" " category="inline-code"></block></block>
+  <block id="d83435d800785132bce0e54bcaa13373" category="paragraph">각 파일은 기본적으로 최대 50,000개의 이벤트를 포함하도록 구성됩니다. <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 이 최대값에 도달하면 로그 파일의 이전 항목을 덮어씁니다.</block>
+  <block id="55b3e20fcb82b08c30a902311468d3c8" category="paragraph">디렉토리의 모든 로그 파일의 총 크기는 기본적으로 최대 50GB로 설정됩니다. <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 이 제한에 도달하면 새 로그 파일이 추가되면 가장 오래된 로그 파일이 삭제됩니다. 또한 14일이 지난 모든 로그 파일은 최대 보존 시간이므로 덮어쓰게 됩니다.</block>
+  <block id="a0381bb8e5ebb77d0c9d2d40db0d1fe3" category="list-text">&lt;datasense_ip&gt; = BlueXP 분류 가상 머신 인스턴스의 IP 주소입니다</block>
+  <block id="5c3750f0826de99975f78125d81ce638" category="cell">현재 로그 파일을 쓸 수 있도록 위치가 하드코딩되어 있습니다<block ref="fec957882759a1b449bd1dfc164a64e6" prefix=" " category="inline-code"></block></block>
+  <block id="190e59fe3d6a787439b4b5c2c989f6bf" category="cell">각 파일은 현재 최대 50,000개의 이벤트를 포함하도록 하드코딩되어 있습니다. 이 최대값에 도달하면 새 이벤트가 추가되면서 이전 이벤트가 삭제됩니다.</block>
+  <block id="a1c4e88cdf8e157dbb344fe556f58d28" category="paragraph">BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
+  <block id="6af032d0de89339877509ae11ea19c63" category="paragraph">SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하고 검색 유형을 선택합니다. 한 번에 최대 100개의 URL을 추가할 수 있으며 각 계정에 대해 최대 1,000개의 사이트를 추가할 수 있습니다.</block>
+  <block id="ef7e50ee52c97b486ba02e2d652aeb20" category="paragraph">개별 SharePoint 사이트 또는 최대 1,000개의 SharePoint 사이트를 계정에 추가하여 관련 파일을 BlueXP 분류로 검색할 수 있습니다. SharePoint Online 또는 SharePoint 온-프레미스 사이트를 추가하든 단계는 동일합니다.</block>
+  <block id="77c882826320136a310240e5fcb6d49b" category="list-text">이 계정에 대해 100개 이상의 사이트를 추가해야 하는 경우 이 계정에 대한 모든 사이트를 추가할 때까지 * SharePoint 사이트 추가 * 를 다시 클릭합니다(계정당 총 사이트 수 최대 1,000개).</block>
+  <block id="114b40cee02180a916d6e0a652f1300d" category="list-text">UNIX 폴더 권한 *: 다음과 같은 최소 UNIX 권한이 필요합니다.</block>
+  <block id="b0f2b97dc5d2b76b26e040408bb1d8af" category="cell">폴더</block>
+  <block id="9dc48a158dad20b2148d68f6a5863b5e" category="cell">최소 권한</block>
+  <block id="d42b9c57d24cf5db3bd8d332dc35437f" category="cell">/tmp</block>
+  <block id="f1e98237c93c0717db2bfa4c6177762f" category="cell"><block ref="4d0e8b4926781b53ee3d95354f5c8bb5" prefix="" category="inline-code"></block></block>
+  <block id="68ab1268abb7e5f5688810968df97d6b" category="cell">/opt</block>
+  <block id="5cbcaeca0f98bea3f5714fbeb859b1f8" category="cell"><block ref="a39d05df186d1deb03343bf4f79e6b17" prefix="" category="inline-code"></block></block>
+  <block id="2e1a4e3f55001820560b237188c70bc3" category="cell">/var/lib/docker입니다</block>
+  <block id="651ffe70d1da174ca6955ceb139ab71c" category="cell"><block ref="20218561600e990c68a725b6b98ae569" prefix="" category="inline-code"></block></block>
+  <block id="361e697d946a0a8473f2bda1979090c3" category="cell">/user/lib/systemd/system</block>
+  <block id="fa17233f7eaadf931550cd80b9ba0e45" category="list-text">RHEL 또는 CentOS 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다</block>
+  <block id="9997b2ae11cbffd6fe1a6e9f683ed24a" category="paragraph">+ BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
+  <block id="ae4d468f55febeccb4eff973d9b635ff" category="inline-link-macro">여기에서 데이터 주제에 대해 자세히 알아보십시오</block>
+  <block id="1a7107cbf75ccf5399b80fbafd0ee649" category="cell">데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. <block ref="dbe06c006d2f67629a75e1ec088edbea" category="inline-link-macro-rx"></block>.</block>
+  <block id="21ed6b8b65a14c2b031742eda9665bec" category="section-title">데이터를 중복으로 필터링합니다</block>
+  <block id="3cdb36967a02a71e0d639c6d71d16ac3" category="summary">BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터 스캔을 시작하려면 몇 단계를 완료하십시오. BlueXP 분류는 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에서 데이터를 스캔할 수 있습니다. 여기에는 NetApp StorageGRID, IBM Cloud Object Store, Linode, B2 클라우드 스토리지, Amazon S3 등이 포함됩니다.</block>
+  <block id="c3e061f64826624fb21952c760e39065" category="paragraph">BlueXP 분류는 SharePoint Online, SharePoint 온-프레미스(SharePoint Server), OneDrive, Google Drive 및 Amazon S3의 데이터 원본에서 "마지막 액세스 시간"을 추출하지 않습니다.</block>
+  <block id="967e2833b7b63650ec3b8ae154cf6a53" category="paragraph">활성화 또는 업데이트를 할 때마다 Docker를 다시 시작해야 합니다<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> 설정.</block>
+  <block id="04b2719843afa330fd4278f18f551cc0" category="list-text">8단계에서 복사한 정보를 붙여 넣습니다.<block ref="f2d89fd6adc07cc741bd63dae759c280" prefix=" " category="inline-code"></block></block>
+  <block id="a4dd9b20157e1f61ccf2fa0ae455122b" category="list-text">BlueXP 분류 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 Connector 시스템에서 액세스할 수 있도록 합니다.</block>
+  <block id="ddc6172b757657046107ead16ab653d6" category="list-text">BlueXP 커넥터 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 BlueXP 분류 시스템에서 액세스할 수 있습니다.</block>
+  <block id="6b0aea6c68ef96dbcfc3127ea709758f" category="cell">또는 필요한 호스트 매개 변수를 제공하여 전체 명령을 미리 생성할 수도 있습니다.<block ref="30e6510f8ccbe93aadbdbce29e25b293" prefix=" " category="inline-code"></block></block>
+  <block id="8ef5d363a3f52c2b1fa183d2e2dbcb3c" category="list-text">_client_id_=커넥터 클라이언트 ID(클라이언트 ID에 접미어 "clients"가 없으면 추가)</block>
+  <block id="e8cce14fafe88ef9a395cf54e51a3470" category="list-text">_DS_HOST_= BlueXP 분류 시스템의 IP 주소 또는 호스트 이름입니다.</block>
+  <block id="f28b62cbbb13ada1264e3712622be29c" category="paragraph">예를 들어, 이 명령은 다음과 같이 3개의 스캐너 노드를 추가합니다.<block ref="1e3d5ab9f2f03870882d89f4a82b2729" prefix=" " category="inline-code"></block></block>
+  <block id="de093cfeaa4d569528bc92ff96d56cde" category="list-text">BlueXP Connector 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다.<block ref="4d8a85a10354910c72eace431e2b6c17" category="inline-link-rx"></block>.</block>
+  <block id="441e8ff948470291018a26dd540b6d1d" category="cell">https://github.com/docker \https://download.docker.com 으로 문의하십시오</block>
+  <block id="b629edc182d9ce4a079d9f954ad3f9b7" category="cell">Docker 설치를 위한 사전 필수 패키지를 제공합니다.</block>
+  <block id="fa328073ed60b8719f54add213e6f2e6" category="cell">http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm 를 참조하십시오</block>
+  <block id="43881c6dbe21a65cdf42dc01d8cfb295" category="cell">CentOS 설치를 위한 필수 패키지를 제공합니다.</block>
+  <block id="3c2ecff14c7a136216f1928a3a8052bf" category="list-text">7단계에서 복사한 명령을 붙여 넣습니다.<block ref="50a00801fc41bbffdcb652318eb14c43" prefix=" " category="inline-code"></block></block>
+  <block id="8a7af24665c107d42e27bf9f85872742" category="cell">또는 필요한 호스트 및 프록시 매개 변수를 제공하여 전체 명령을 미리 생성할 수도 있습니다.<block ref="3b4bbf213dadbeb10421530a3d8a245b" prefix=" " category="inline-code"></block></block>
+  <block id="79dad5af8e7ba04bd45d58a3d10d4209" category="list-text">_client_id_=커넥터 클라이언트 ID(필수 조건 단계에서 복사한 클라이언트 ID에 접미사 "clients" 추가)</block>
+  <block id="800fbb2e9f1063caafe6917c236f24a6" category="paragraph">예를 들어, 이 명령은 다음과 같이 3개의 스캐너 노드를 추가합니다.<block ref="ba1da14563d546c370f034861b50d8f8" prefix=" " category="inline-code"></block></block>
+  <block id="f93e4e0ba0745745e36a3b67b14a8a5b" category="sidebar">BlueXP 웨비나</block>
 </blocks>
