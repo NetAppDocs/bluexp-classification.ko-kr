@@ -63,7 +63,7 @@ image:screenshot_compliance_investigation_page_directory.png["조사 결과 를 
 
 == 중요한 개인 데이터가 들어 있는 파일 보기
 
-BlueXP 분류는 와 같은 개인 정보 보호 규정에 따라 민감한 개인 정보의 특수한 유형을 자동으로 식별합니다 https://["GDPR 9조 및 10조"^]. 예를 들어, 개인의 건강, 인종 또는 성적 취향과 관련된 정보를 제공합니다. link:reference-private-data-categories.html#types-of-sensitive-personal-data["전체 목록을 참조하십시오"^]. BlueXP 분류는 디렉터리(공유 및 폴더) 내의 파일 및 데이터베이스 테이블에서 이러한 유형의 정보를 개별 파일에 식별합니다.
+BlueXP 분류는 와 같은 개인 정보 보호 규정에 따라 민감한 개인 정보의 특수한 유형을 자동으로 식별합니다 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e2051-1-1["GDPR 9조 및 10조"^]. 예를 들어, 개인의 건강, 인종 또는 성적 취향과 관련된 정보를 제공합니다. link:reference-private-data-categories.html#types-of-sensitive-personal-data["전체 목록을 참조하십시오"^]. BlueXP 분류는 디렉터리(공유 및 폴더) 내의 파일 및 데이터베이스 테이블에서 이러한 유형의 정보를 개별 파일에 식별합니다.
 
 BlueXP 분류에서는 인공 지능(AI), 자연어 처리(NLP), 머신 러닝(ML) 및 인지 컴퓨팅(CC)을 사용하여 엔터티를 추출하고 그에 따라 범주화하기 위해 검색하는 내용의 의미를 파악합니다.
 

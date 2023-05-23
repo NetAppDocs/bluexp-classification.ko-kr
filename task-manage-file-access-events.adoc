@@ -18,7 +18,7 @@ summary: '검사 중인 파일 중 하나에 액세스하거나 변경할 때마
 
 예를 들어 중요한 직원 파일이나 급여 파일이 변경된 시기를 추적하려는 경우 이러한 파일이 있는 볼륨에서 이 기능을 사용하도록 설정할 수 있습니다. 그런 다음 파일 액세스 감사 로그를 보고 이러한 파일이 변경되었는지 확인할 수 있습니다. 변경 사항이 있는 경우 변경을 수행한 사람의 SID(보안 식별자)와 변경 시점을 확인할 수 있습니다.
 
-ONTAP 소프트웨어를 실행하는 작업 환경의 중요 볼륨에서 이 기능을 활성화할 수 있습니다. 볼륨에서 활성화된 경우 볼륨의 모든 파일 및 디렉토리에 대해 파일 액세스 이벤트가 추적됩니다. 이 기능은 를 기반으로 합니다 https://["FPolicy 기능"^] ONTAP 시스템에서 BlueXP 분류 시스템을 FPolicy 서버로 사용하여 ONTAP의 알림 메시지(이벤트)를 수신합니다.
+ONTAP 소프트웨어를 실행하는 작업 환경의 중요 볼륨에서 이 기능을 활성화할 수 있습니다. 볼륨에서 활성화된 경우 볼륨의 모든 파일 및 디렉토리에 대해 파일 액세스 이벤트가 추적됩니다. 이 기능은 를 기반으로 합니다 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy 기능"^] ONTAP 시스템에서 BlueXP 분류 시스템을 FPolicy 서버로 사용하여 ONTAP의 알림 메시지(이벤트)를 수신합니다.
 
 BlueXP 분류는 현재 파일 및 디렉토리에 대해 다음 작업에 대한 이벤트를 캡처합니다.
 
@@ -135,9 +135,9 @@ BlueXP 분류를 클라우드에 배포하면 BlueXP 분류 인스턴스에 SSH�
 
 클라우드의 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.
 
-* https://["AWS의 보안 그룹 규칙"^]
-* https://["Azure의 보안 그룹 규칙"^]
-* https://["Google Cloud의 방화벽 규칙"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS의 보안 그룹 규칙"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure의 보안 그룹 규칙"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud의 방화벽 규칙"^]
 
 
 

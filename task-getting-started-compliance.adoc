@@ -28,7 +28,7 @@ BlueXP 분류를 사용하여 Cloud Volumes ONTAP 및 온-프레미스 ONTAP 볼
 
 [role="quick-margin-list"]
 * Cloud Volumes ONTAP 시스템의 경우 BlueXP에서 이러한 작업 환경을 사용할 수 있어야 합니다
-* 사내 ONTAP 시스템의 경우, https://["BlueXP는 ONTAP 클러스터를 검색해야 합니다"^]
+* 사내 ONTAP 시스템의 경우, https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["BlueXP는 ONTAP 클러스터를 검색해야 합니다"^]
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 인스턴스를 배포합니다
@@ -69,7 +69,7 @@ Compliance * > * Configuration * > * Edit CIFS Credentials * 를 클릭하고 �
 
 검사할 데이터 소스가 BlueXP 환경에 아직 없는 경우 현재 캔버스에 추가할 수 있습니다.
 
-Cloud Volumes ONTAP 시스템은 BlueXP의 Canvas에서 이미 사용 가능해야 합니다. 사내 ONTAP 시스템의 경우 가 있어야 합니다 https://["BlueXP는 이러한 클러스터를 검색합니다"^].
+Cloud Volumes ONTAP 시스템은 BlueXP의 Canvas에서 이미 사용 가능해야 합니다. 사내 ONTAP 시스템의 경우 가 있어야 합니다 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["BlueXP는 이러한 클러스터를 검색합니다"^].
 
 
 
