@@ -26,10 +26,10 @@ summary: 클라우드에 BlueXP 분류를 배포하기 위한 몇 가지 단계�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 커넥터를 작성합니다
 [role="quick-margin-para"]
-아직 커넥터가 없으면 지금 연결선을 작성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^].
+아직 커넥터가 없으면 지금 연결선을 작성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^].
 
 [role="quick-margin-para"]
-또한 가능합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트
+또한 가능합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
@@ -47,7 +47,7 @@ BlueXP의 BlueXP 분류 검사에서 처음 1TB의 데이터는 30일 동안 무
 
 == 커넥터를 작성합니다
 
-Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^] 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^]. 대부분의 경우 대부분의 경우 BlueXP 분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
+Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^] 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^]. 대부분의 경우 대부분의 경우 BlueXP 분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
 
 특정 클라우드 공급자에 배포된 Connector를 사용해야 하는 몇 가지 시나리오가 있습니다.
 
@@ -62,9 +62,9 @@ Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니�
 
 온프레미스 ONTAP 시스템, NetApp이 아닌 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스, OneDrive 폴더, SharePoint 계정, Google Drive 계정은 이러한 클라우드 커넥터를 사용할 때 검색할 수 있습니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 네트워크 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
+참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 네트워크 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
 
-보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["다중 커넥터"].
+보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#multiple-connectors["다중 커넥터"].
 
 
 
@@ -76,7 +76,7 @@ Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니�
 * Microsoft Azure 정보 보호(AIP) 레이블 기능은 통합할 수 없습니다.
 
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-restricted-mode.html["정부 지역에서 커넥터 배포에 대한 자세한 내용은 을 참조하십시오"^].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.html["정부 지역에서 커넥터 배포에 대한 자세한 내용은 을 참조하십시오"^].
 
 
 
@@ -155,13 +155,13 @@ AWS, Azure 또는 GCP에서 BlueXP 분류를 배포하는지 여부에 따라 �
 |===
 --
 ====
-BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^].
+BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^].
 BlueXP 커넥터가 BlueXP 분류에 액세스할 수 있는지 확인합니다:: Connector와 BlueXP 분류 인스턴스 간의 연결을 확인합니다. Connector의 보안 그룹은 포트 443을 통해 BlueXP 분류 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다. 이 연결을 통해 BlueXP 분류 인스턴스를 배포할 수 있으며 규정 준수 및 거버넌스 탭에서 정보를 볼 수 있습니다. BlueXP 분류는 AWS 및 Azure의 정부 지역에서 지원됩니다.
 +
 --
-AWS 및 AWS GovCloud 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS의 커넥터 규칙"^] 를 참조하십시오.
+AWS 및 AWS GovCloud 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS의 커넥터 규칙"^] 를 참조하십시오.
 
-Azure 및 Azure Government 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure의 커넥터 규칙"^] 를 참조하십시오.
+Azure 및 Azure Government 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure의 커넥터 규칙"^] 를 참조하십시오.
 
 --
 BlueXP 분류를 계속 실행할 수 있는지 확인합니다:: 데이터를 지속적으로 스캔하려면 BlueXP 분류 인스턴스를 계속 사용해야 합니다.

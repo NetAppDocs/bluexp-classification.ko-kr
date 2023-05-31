@@ -59,7 +59,7 @@ BlueXP 분류는 스토리지 TCO(총 소유 비용)에 도움이 되는 도구�
 
 * 중복 또는 비업무용 데이터를 식별하여 스토리지 효율성 향상 이 정보를 사용하여 특정 파일을 이동하거나 삭제할 것인지 결정할 수 있습니다.
 * 안전하지 않거나 위험한 것으로 보이는 파일을 스토리지 시스템에 남겨 두거나 중복으로 식별한 경우 삭제합니다. Policies_를 사용하여 특정 조건에 맞는 파일을 자동으로 삭제할 수 있습니다.
-* 더 저렴한 오브젝트 스토리지에 계층화할 수 있는 비활성 데이터를 식별하여 스토리지 비용 절감 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["Cloud Volumes ONTAP 시스템의 계층화에 대해 자세히 알아보십시오"^]. https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["사내 ONTAP 시스템의 계층화에 대해 자세히 알아보십시오"^].
+* 더 저렴한 오브젝트 스토리지에 계층화할 수 있는 비활성 데이터를 식별하여 스토리지 비용 절감 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["Cloud Volumes ONTAP 시스템의 계층화에 대해 자세히 알아보십시오"^]. https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["사내 ONTAP 시스템의 계층화에 대해 자세히 알아보십시오"^].
 
 
 
@@ -129,7 +129,7 @@ BlueXP 분류는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0�
 link:task-licensing-datasense.html["BlueXP 분류 라이선스를 취득하는 방법을 알아보십시오"^].
 
 * 클라우드에 BlueXP 분류를 설치하려면 클라우드 인스턴스를 배포해야 하므로 클라우드 인스턴스가 배포된 클라우드 공급자가 비용을 부담합니다. 을 참조하십시오 <<BlueXP 분류 인스턴스입니다,각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다>>. BlueXP 분류를 사내 시스템에 설치하면 비용이 들지 않습니다.
-* BlueXP 분류에서는 BlueXP 커넥터를 배포해야 합니다. BlueXP에서 사용 중인 다른 스토리지 및 서비스로 인해 이미 커넥터가 있는 경우가 많습니다. Connector 인스턴스를 사용하면 배포된 클라우드 공급자가 비용을 청구합니다. 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-on-prem.html["각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다"^]. 커넥터를 온프레미스 시스템에 설치하는 경우 비용이 들지 않습니다.
+* BlueXP 분류에서는 BlueXP 커넥터를 배포해야 합니다. BlueXP에서 사용 중인 다른 스토리지 및 서비스로 인해 이미 커넥터가 있는 경우가 많습니다. Connector 인스턴스를 사용하면 배포된 클라우드 공급자가 비용을 청구합니다. 를 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다"^]. 커넥터를 온프레미스 시스템에 설치하는 경우 비용이 들지 않습니다.
 
 
 
@@ -147,7 +147,7 @@ link:task-licensing-datasense.html["BlueXP 분류 라이선스를 취득하는 �
 
 == BlueXP 분류 인스턴스입니다
 
-BlueXP 분류를 클라우드에 배포하면 BlueXP는 Connector와 동일한 서브넷에 인스턴스를 배포합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오."^]
+BlueXP 분류를 클라우드에 배포하면 BlueXP는 Connector와 동일한 서브넷에 인스턴스를 배포합니다. https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오."^]
 
 image:diagram_cloud_compliance_instance.png["클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 BlueXP 분류 인스턴스를 보여 주는 다이어그램입니다."]
 
@@ -311,4 +311,4 @@ SaaS 모드에서 BlueXP를 사용할 경우 HTTPS를 통해 BlueXP에 연결되
 * Compliance Viewer * 역할의 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 시스템에 대한 보고서만 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마 스캔을 활성화/비활성화할 수 없습니다. 이러한 사용자는 파일을 복사, 이동 또는 삭제할 수 없습니다.
 
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-user-roles.html["BlueXP 역할에 대해 자세히 알아보십시오"^] 및 방법 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-netapp-accounts.html#adding-users["특정 역할을 가진 사용자를 추가합니다"^].
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-user-roles.html["BlueXP 역할에 대해 자세히 알아보십시오"^] 및 방법 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-netapp-accounts.html#adding-users["특정 역할을 가진 사용자를 추가합니다"^].

@@ -63,7 +63,7 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 * SharePoint 온-프레미스의 경우 BlueXP 분류를 설치할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^] 또는 link:task-deploy-compliance-dark-site.html["인터넷 액세스가 없는 온프레미스 위치"^].
 
 
-인터넷에 연결되지 않은 사이트에 BlueXP 분류를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP 커넥터도 같은 사이트에 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["자세한 정보"^].
+인터넷에 연결되지 않은 사이트에 BlueXP 분류를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP 커넥터도 같은 사이트에 설치해야 합니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["자세한 정보"^].
 
 인스턴스가 인터넷에 연결되어 있는 경우 BlueXP 분류 소프트웨어로의 업그레이드가 자동화됩니다.
 

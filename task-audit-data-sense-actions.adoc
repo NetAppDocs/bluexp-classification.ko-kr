@@ -76,7 +76,7 @@ BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux �
 
 클라우드의 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.
 
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS의 보안 그룹 규칙"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure의 보안 그룹 규칙"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud의 방화벽 규칙"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS의 보안 그룹 규칙"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure의 보안 그룹 규칙"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-gcp.html["Google Cloud의 방화벽 규칙"^]
 
