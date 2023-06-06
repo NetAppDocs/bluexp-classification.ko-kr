@@ -134,9 +134,9 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 
 * * 운영 체제 *: OS에서 Docker 엔진을 설치할 수 있어야 합니다.
 +
-** Red Hat Enterprise Linux 버전 8.0 ~ 8.7
-** CentOS 버전 8.0 ~ 8.7
-** CentOS 스트림 8
+** Ubuntu 22.04
+** Red Hat Enterprise Linux 버전 8.0 - 8.5
+** CentOS 버전 8.0 ~ 8.5
 ** RHEL 또는 CentOS 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
 
 
@@ -407,8 +407,8 @@ BlueXP 분류 설치 프로그램이 패키지 설치를 완료하고 설치를 
 BlueXP 분류 소프트웨어는 정기적으로 새로운 기능으로 업데이트되므로 정기적으로 새로운 버전을 확인하여 최신 소프트웨어와 기능을 사용하고 있는지 확인해야 합니다. 업그레이드를 자동으로 수행하기 위한 인터넷 연결이 없기 때문에 BlueXP 분류 소프트웨어를 수동으로 업그레이드해야 합니다.
 
 .시작하기 전에
+* BlueXP Connector 소프트웨어를 최신 버전으로 업그레이드하는 것이 좋습니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["커넥터 업그레이드 단계를 참조하십시오"^].
 * BlueXP 분류 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.20.x가 설치되어 있는 경우 1.21.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.
-* BlueXP Connector 소프트웨어가 최신 버전으로 업그레이드되었는지 확인합니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["커넥터 업그레이드 단계를 참조하십시오"^].
 
 
 .단계
@@ -418,7 +418,7 @@ BlueXP 분류 소프트웨어는 정기적으로 새로운 기능으로 업데�
 +
 [source, cli]
 ----
-tar -xvf DataSense-offline-bundle-v1.21.0.tar.gz
+tar -xvf DataSense-offline-bundle-v1.22.0.tar.gz
 ----
 +
 그러면 설치 파일 * cc_onpremise_installer.tar.gz * 가 추출됩니다.

@@ -97,9 +97,9 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 
 * * 운영 체제 *: OS에서 Docker 엔진을 설치할 수 있어야 합니다.
 +
-** Red Hat Enterprise Linux 버전 8.0 ~ 8.7
-** CentOS 버전 8.0 ~ 8.7
-** CentOS 스트림 8
+** Ubuntu 22.04
+** Red Hat Enterprise Linux 버전 8.0 - 8.5
+** CentOS 버전 8.0 ~ 8.5
 ** RHEL 또는 CentOS 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
 
 
@@ -165,6 +165,10 @@ TIP: 인터넷에 연결되지 않은 사이트에 설치된 호스트 시스템
 
 
 | http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm 를 참조하십시오 | CentOS 설치를 위한 필수 패키지를 제공합니다. 
+
+
+| \http://packages.ubuntu.com/
+\http://archive.ubuntu.com | Ubuntu 설치를 위한 필수 패키지를 제공합니다. 
 |===
 
 

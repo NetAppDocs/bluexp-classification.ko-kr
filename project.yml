@@ -14,7 +14,11 @@ sidebar:
   - title: BlueXP 분류 문서
     url: "/index.html"
   - title: 릴리스 정보
-    url: "/whats-new.html"
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+    - title: 알려진 제한 사항
+      url: "/reference-limitations.html"
   - title: 시작하십시오
     entries:
     - title: BlueXP 분류에 대해 알아보십시오
@@ -73,6 +77,8 @@ sidebar:
       url: "/task-using-policies.html"
     - title: 개인 데이터를 관리합니다
       url: "/task-managing-highlights.html"
+    - title: 파일 액세스 이벤트 모니터링 및 관리
+      url: "/task-manage-file-access-events.html"
     - title: 스캔 설정을 변경합니다
       url: task-managing-repo-scanning.html
     - title: 규정 준수 보고서를 생성합니다

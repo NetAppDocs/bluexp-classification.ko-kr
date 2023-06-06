@@ -142,9 +142,9 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 
 * * 운영 체제 *: OS에서 Docker 엔진을 설치할 수 있어야 합니다.
 +
-** Red Hat Enterprise Linux 버전 8.0 ~ 8.7
-** CentOS 버전 8.0 ~ 8.7
-** CentOS 스트림 8
+** Ubuntu 22.04
+** Red Hat Enterprise Linux 버전 8.0 - 8.5
+** CentOS 버전 8.0 ~ 8.5
 ** RHEL 또는 CentOS 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다
 
 
@@ -210,6 +210,10 @@ BlueXP 분류에는 아웃바운드 인터넷 액세스가 필요합니다. 가�
 
 
 | http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm 를 참조하십시오 | CentOS 설치를 위한 필수 패키지를 제공합니다. 
+
+
+| \http://packages.ubuntu.com/
+\http://archive.ubuntu.com | Ubuntu 설치를 위한 필수 패키지를 제공합니다. 
 |===
 
 
@@ -299,6 +303,8 @@ NOTE: BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTA
 +
 ** 프록시 서버 정보(IP 주소 또는 호스트 이름, 연결 포트, 연결 스키마: https 또는 http, 사용자 이름 및 암호)가 필요합니다.
 ** 프록시가 TLS 가로채기를 수행하는 경우 TLS CA 인증서가 저장된 BlueXP 분류 Linux 시스템의 경로를 알아야 합니다.
+** 프록시는 투명하지 않아야 합니다. 현재 투명 프록시를 지원하지 않습니다.
+** 사용자는 로컬 사용자여야 합니다. 도메인 사용자는 지원되지 않습니다.
 
 
 * 오프라인 환경이 필요한 를 충족하는지 확인합니다 <<BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다,사용 권한 및 연결>>.
@@ -359,7 +365,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 
 ** _proxy_host_= 호스트가 프록시 서버 뒤에 있는 경우 프록시 서버의 IP 또는 호스트 이름입니다.
 ** _proxy_port_= 프록시 서버에 연결할 포트(기본값 80).
 ** _proxy_scheme_= 연결 체계: https 또는 http(기본값 http).
-** _proxy_user_= 기본 인증이 필요한 경우 프록시 서버에 연결할 인증된 사용자입니다.
+** _proxy_user_= 기본 인증이 필요한 경우 프록시 서버에 연결할 인증된 사용자입니다. 사용자는 로컬 사용자여야 합니다. - 도메인 사용자는 지원되지 않습니다.
 ** _proxy_password_=지정한 사용자 이름의 암호입니다.
 ** _ca_cert_dir_=추가 TLS CA 인증서 번들을 포함하는 BlueXP 분류 Linux 시스템의 경로입니다. 프록시가 TLS 가로채기를 수행하는 경우에만 필요합니다.
 

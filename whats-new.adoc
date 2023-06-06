@@ -18,6 +18,40 @@ BlueXP 분류의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2023년 6월 6일(버전 1.23)
+
+
+
+=== 이제 데이터 제목 이름을 검색할 때 일본어가 지원됩니다
+
+Data Subject Access Request(SAR)에 대한 응답으로 시험대상자 이름을 검색할 때 일본어 이름을 입력할 수 있습니다. 을 생성할 수 있습니다 https://docs.netapp.com/us-en/bluexp-classification/task-generating-compliance-reports.html#what-is-a-data-subject-access-request["데이터 주체 액세스 요청 보고서"] 결과 정보를 사용합니다. 에 일본어 이름을 입력할 수도 있습니다 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#filter-data-by-sensitivity-and-content["데이터 조사 페이지의 "데이터 제목" 필터"] 제목 이름이 포함된 파일을 식별합니다.
+
+
+
+=== Ubuntu는 이제 BlueXP 분류를 설치할 수 있는 지원되는 Linux 배포판입니다
+
+Ubuntu 22.04는 BlueXP 분류에 지원되는 운영 체제로 검증되었습니다. 네트워크의 Ubuntu Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["Ubuntu가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 참조하십시오"].
+
+
+
+=== Red Hat Enterprise Linux 8.6과 8.7은 새로운 BlueXP 분류 설치에서 더 이상 지원되지 않습니다
+
+Red Hat은 더 이상 Docker를 지원하지 않으므로 이러한 버전은 새로운 배포에서 지원되지 않습니다. RHEL 8.6 또는 8.7에서 기존 BlueXP 분류 시스템을 실행 중인 경우 NetApp는 계속해서 구성을 지원합니다.
+
+
+
+=== ONTAP 시스템에서 FPolicy 이벤트를 수신하려면 BlueXP 분류를 FPolicy Collector로 구성할 수 있습니다
+
+BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작업 환경의 볼륨에서 감지된 파일 액세스 이벤트를 처리할 수 있습니다. BlueXP 분류는 다음 유형의 FPolicy 이벤트와 파일에서 작업을 수행한 사용자, 즉 만들기, 읽기, 쓰기, 삭제, 이름 바꾸기, 소유자/권한을 변경하고 SACL/DACL을 변경합니다. https://docs.netapp.com/us-en/bluexp-classification/task-manage-file-access-events.html["파일 액세스 이벤트를 모니터링하고 관리하는 방법을 확인하십시오"].
+
+
+
+=== 이제 Data Sense BYOL 라이센스가 다크 사이트에서 지원됩니다
+
+이제 데이터 감지 BYOL 라이센스를 어두운 사이트의 BlueXP 디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html#obtain-your-bluexp-classification-license-file["Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오"].
+
+
+
 == 2023년 4월 3일(버전 1.22)
 
 
@@ -93,7 +127,6 @@ https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categ
 
 === 설치 개선 사항
 
-* CentOS Stream 8을 실행하는 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.
 * 인터넷 접속(다크 사이트)이 없는 사이트의 BlueXP 분류 설치 관리자가 사전 검사를 수행하여 성공적인 설치를 위해 시스템 및 네트워킹 요구 사항이 제대로 갖추어져 있는지 확인합니다.
 * 설치 감사 로그 파일은 지금 저장되며 에 기록됩니다 `/ops/netapp/install_logs`.
 

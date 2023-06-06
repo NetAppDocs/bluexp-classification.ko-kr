@@ -198,6 +198,8 @@ image:screenshot_compliance_data_mapping_report_button.png["데이터 매핑 보
 .결과
 BlueXP 분류는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
 
+보고서가 1MB 이상인 경우 PDF 파일이 BlueXP 분류 인스턴스에 유지되고 정확한 위치에 대한 팝업 메시지가 표시됩니다. BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux 시스템에 설치되어 있는 경우 PDF 파일로 직접 이동할 수 있습니다. 클라우드에 BlueXP 분류를 배포할 때 PDF 파일을 다운로드하려면 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. link:task-audit-data-sense-actions.html#access-the-log-file["Classification 인스턴스의 데이터에 액세스하는 방법을 확인하십시오"^].
+
 참고: 을 클릭하여 보고서의 첫 페이지에 나타나는 회사 이름을 BlueXP 분류 페이지 상단에서 사용자 지정할 수 있습니다 image:screenshot_gallery_options.gif["자세히 단추"] 그런 다음 * 회사 이름 변경 * 을 클릭합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.
 
 
