@@ -2877,7 +2877,6 @@
   <block id="4b273eb22f0e890dce8d8a73dba2425e" category="section-title">BlueXP 분류는 일본어 개인 번호를 식별할 수 있습니다</block>
   <block id="f5055886b0ed4db432221d378f3730c1" category="paragraph">변경할 수 있는 사항 중 일부는 리포지토리가 검색되었는지 여부와 BlueXP 분류가 을 수행하고 있는지 여부입니다 <block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>. 예를 들어 일정 시간 동안 볼륨 스캔을 중지해야 하는 경우 스캔을 일시 중지하고 다시 시작할 수도 있습니다.</block>
   <block id="06f4c04dbf4f6e1007102feb5e139b5f" category="paragraph">BlueXP 분류가 각 작업 환경 및 데이터 소스에 대해 스캔(볼륨, 버킷 등)하는 개별 리포지토리를 볼 수 있습니다. 또한 "매핑된" 수와 "분류된" 수를 확인할 수 있습니다. 모든 데이터에 대해 전체 AI ID가 수행되므로 분류에 더 많은 시간이 소요됩니다.</block>
-  <block id="1653ff09a832461934f62b062bb49a8f" category="paragraph">특정 콘텐츠 스캔을 일시적으로 중지하려면 리포지토리에서 스캔을 "일시 중지"할 수 있습니다. 이것은 스캐닝 "끄기"를 켜는 것과 다릅니다. 스캔이 꺼지면 해당 볼륨에 대한 모든 인덱싱 및 정보가 시스템에서 제거됩니다. 스캐닝을 일시 중지하면 BlueXP 분류에서 리포지토리의 변경 또는 추가 사항에 대한 향후 검사를 수행하지 않지만 현재 모든 결과가 시스템에 계속 표시됩니다.</block>
   <block id="e9ef05a76f2eb11216d8bcec1c8a1ee1" category="paragraph">BlueXP 분류는 데이터를 지속적으로 검사하여 추가한 리포지토리의 변동분을 감지합니다. 그러나 시스템이 모든 환경을 검색하는 데 시간이 걸리며, 스캔된 저장소의 순서를 제어할 방법이 없습니다. 변경 내용이 시스템에 반영되도록 특정 리포지토리를 즉시 다시 스캔해야 하는 경우 리포지토리를 선택하고 다시 검색할 수 있습니다. 이렇게 하면 다른 데이터 앞에 특정 데이터를 우선적으로 스캔할 수 있습니다. 재검색 작업이 완료되면 선택한 리포지토리는 정상적인 BlueXP 분류 일정에 따라 스캔되는 상태로 돌아갑니다.</block>
   <block id="c07dbec3e7acd472789625d35a7563da" category="paragraph">BlueXP 분류는 Amazon S3 및 데이터베이스를 제외한 모든 데이터 소스 유형의 디렉토리 스캔을 지원합니다. 현재 단일 디렉토리(폴더 또는 공유) 또는 여러 디렉토리 재검색 기능을 지원합니다. 향후 지원에는 추가 리포지토리 유형(파일, 데이터베이스 등)을 다시 스캔하는 것이 포함됩니다.</block>
   <block id="eb069b124d02b06908e1071cc2edae80" category="summary">데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 그러나 매우 작은 충격에도 신경 쓰면 BlueXP 분류를 구성하여 "느린" 스캔을 수행할 수 있습니다.</block>
@@ -3150,11 +3149,9 @@
   <block id="ae99dae6f6384006aeadebbab894f370" category="list-text">작업 세부 정보 - 수행한 작업: 작업에 따라 다릅니다</block>
   <block id="e4e81dbf5cdcb72e814265ea01d1f3eb" category="paragraph">예를 들어, 로그 파일에서 다음 행은 볼륨 "FPolicy_CIFS"에서 "Create" 작업이 발생했다는 것을 나타냅니다. 즉, 볼륨에 새 파일 "F14"가 생성되었습니다.</block>
   <block id="e5f8c207227297bb2868689eb39d6520" category="paragraph">BlueXP 분류 조사 페이지를 사용하여 볼륨("저장소 저장소" 필터 사용) 또는 파일("파일/디렉터리 경로" 필터 사용)을 검색하여 영향을 받는 볼륨 및 파일에 대한 자세한 정보를 볼 수 있습니다.</block>
-  <block id="f78abbcec2f9ea5bc3fa03b36826fc43" category="paragraph">파일 액세스 감사 로그 파일은 BlueXP 분류 시스템의 다음 위치에 있습니다.<block ref="fec957882759a1b449bd1dfc164a64e6" prefix=" " category="inline-code"></block></block>
   <block id="d83435d800785132bce0e54bcaa13373" category="paragraph">각 파일은 기본적으로 최대 50,000개의 이벤트를 포함하도록 구성됩니다. <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 이 최대값에 도달하면 로그 파일의 이전 항목을 덮어씁니다.</block>
   <block id="55b3e20fcb82b08c30a902311468d3c8" category="paragraph">디렉토리의 모든 로그 파일의 총 크기는 기본적으로 최대 50GB로 설정됩니다. <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 이 제한에 도달하면 새 로그 파일이 추가되면 가장 오래된 로그 파일이 삭제됩니다. 또한 14일이 지난 모든 로그 파일은 최대 보존 시간이므로 덮어쓰게 됩니다.</block>
   <block id="a0381bb8e5ebb77d0c9d2d40db0d1fe3" category="list-text">&lt;datasense_ip&gt; = BlueXP 분류 가상 머신 인스턴스의 IP 주소입니다</block>
-  <block id="5c3750f0826de99975f78125d81ce638" category="cell">현재 로그 파일을 쓸 수 있도록 위치가 하드코딩되어 있습니다<block ref="fec957882759a1b449bd1dfc164a64e6" prefix=" " category="inline-code"></block></block>
   <block id="190e59fe3d6a787439b4b5c2c989f6bf" category="cell">각 파일은 현재 최대 50,000개의 이벤트를 포함하도록 하드코딩되어 있습니다. 이 최대값에 도달하면 새 이벤트가 추가되면서 이전 이벤트가 삭제됩니다.</block>
   <block id="a1c4e88cdf8e157dbb344fe556f58d28" category="paragraph">BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="6af032d0de89339877509ae11ea19c63" category="paragraph">SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하고 검색 유형을 선택합니다. 한 번에 최대 100개의 URL을 추가할 수 있으며 각 계정에 대해 최대 1,000개의 사이트를 추가할 수 있습니다.</block>
@@ -3348,7 +3345,6 @@
   <block id="8b33a4571db736cc278b213820df9c13" category="paragraph">Data Subject Access Request(SAR)에 대한 응답으로 시험대상자 이름을 검색할 때 일본어 이름을 입력할 수 있습니다. 을 생성할 수 있습니다<block ref="8ff27ad1e3f1d885a2f0c0f257501bb1" category="inline-link-rx"></block> 결과 정보를 사용합니다. 에 일본어 이름을 입력할 수도 있습니다<block ref="615fae5bff7ec48fe0ed5c47e50f199a" category="inline-link-rx"></block> 제목 이름이 포함된 파일을 식별합니다.</block>
   <block id="988e5d1ef231d33d94784c928261f0aa" category="section-title">Ubuntu는 이제 BlueXP 분류를 설치할 수 있는 지원되는 Linux 배포판입니다</block>
   <block id="bf62ea0cc2aa2f5ecb7f712ffcdafc64" category="inline-link">Ubuntu가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 참조하십시오</block>
-  <block id="e79851962ec44d8c7ccd2a63f0c4e92c" category="paragraph">Ubuntu 22.04는 BlueXP 분류에 지원되는 운영 체제로 검증되었습니다. 네트워크의 Ubuntu Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>.</block>
   <block id="eba7ad27f2a236389ef88102ad7e8e2e" category="section-title">Red Hat Enterprise Linux 8.6과 8.7은 새로운 BlueXP 분류 설치에서 더 이상 지원되지 않습니다</block>
   <block id="5b1dc8e5b7717b205bb516bc41f51da7" category="paragraph">Red Hat은 더 이상 Docker를 지원하지 않으므로 이러한 버전은 새로운 배포에서 지원되지 않습니다. RHEL 8.6 또는 8.7에서 기존 BlueXP 분류 시스템을 실행 중인 경우 NetApp는 계속해서 구성을 지원합니다.</block>
   <block id="b5ba343fa4469021dbdf64181a67e909" category="section-title">ONTAP 시스템에서 FPolicy 이벤트를 수신하려면 BlueXP 분류를 FPolicy Collector로 구성할 수 있습니다</block>
@@ -3389,4 +3385,9 @@
   <block id="0fe1279b28d533b32c08d839691ef653" category="inline-image-macro">세 개의 점</block>
   <block id="e56ef2e2348492a4f0e1e9513b068cc4" category="admonition">를 클릭하여 구성 페이지에서 작업 환경에 대한 규정 준수 검사를 활성화할 수도 있습니다 <block ref="a759a567ce9a72b21fd45f48f1f358c8" category="inline-image-macro-rx" type="image"></block> 단추를 클릭하고 * BlueXP 분류 활성화 * 를 선택합니다.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="967ed7b18cc2e131fa8fe860d4e4f18d" category="paragraph">특정 콘텐츠 스캔을 일시적으로 중지하려면 리포지토리에서 스캔을 "일시 중지"할 수 있습니다. 이것은 스캐닝 "끄기"를 켜는 것과 다릅니다. 스캔이 꺼지면 해당 볼륨에 대한 모든 인덱싱 및 정보가 시스템에서 제거되고 데이터 스캔 충전이 중지됩니다. 스캐닝을 일시 중지하면 BlueXP 분류에서 리포지토리의 변경 또는 추가 사항에 대한 향후 검사를 수행하지 않지만 현재 모든 결과가 시스템에 계속 표시됩니다. 스캐닝 일시 중지는 데이터가 계속 존재하기 때문에 데이터 스캔 충전을 중지하지 않습니다.</block>
+  <block id="218b1b5040dd27f37c3fab6adea21bff" category="paragraph">데이터 소스가 제거되면 데이터 스캔 충전이 중지됩니다.</block>
+  <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04는 BlueXP 분류에 지원되는 운영 체제로 검증되었습니다. 설치 프로그램의 버전 1.23을 사용하는 경우 네트워크의 Ubuntu Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>.</block>
+  <block id="3e102feedd861186d57f6a85de9de541" category="paragraph">파일 액세스 감사 로그 파일은 BlueXP 분류 시스템의 다음 위치에 있습니다.<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
+  <block id="7f16356d7b675ed76686e591ad5dc661" category="cell">현재 로그 파일을 쓸 수 있도록 위치가 하드코딩되어 있습니다<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
 </blocks>
