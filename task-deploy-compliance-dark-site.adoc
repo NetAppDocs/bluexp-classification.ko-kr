@@ -87,8 +87,6 @@ BlueXP의 BlueXP 분류 검사에서 처음 1TB의 데이터는 30일 동안 무
 BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행해야 합니다.
 
 * BlueXP 분류는 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.
-
-
 * 구내 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행할 데이터 세트의 크기에 따라 세 가지 시스템 크기 중에서 선택할 수 있습니다.
 +
 [cols="18,18,26,30"]
@@ -96,13 +94,22 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 | 시스템 크기 | CPU | RAM(스왑 메모리는 비활성화 상태여야 함) | 디스크 
 
 
-| * 대형 * | CPU 16개 | 64GB RAM | /opt-395GiB에서 사용 가능한 500GiB SSD 켜짐/, 또는 - 100GiB는 /var-5GiB에서 사용 가능 /tmp에서 사용 가능 
+| * 대형 * | CPU 16개 | 64GB RAM | 500GiB SSD 켜짐/또는
+/opt에서 -100GiB를 사용할 수 있습니다
+/var/lib/docker에서 사용 가능한 395GiB
+/tmp에 -5GiB입니다 
 
 
-| * 중간 * | CPU 8개 | 32GB RAM | /opt-145GiB에서 사용 가능한 200GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다 
+| * 중간 * | CPU 8개 | 32GB RAM | 200GiB SSD 켜짐/또는
+/opt에서 -50GiB를 사용할 수 있습니다
+/var/lib/docker에서 -145GiB를 사용할 수 있습니다
+/tmp에 -5GiB입니다 
 
 
-| * 소형 * | CPU 8개 | 16GB RAM | /opt-45GiB에서 사용 가능한 100GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다 
+| * 소형 * | CPU 8개 | 16GB RAM | 또는 에서 100GiB SSD
+/opt에서 -50GiB를 사용할 수 있습니다
+/var/lib/docker에서 -45GiB를 사용할 수 있습니다
+/tmp에 -5GiB입니다 
 |===
 +
 이러한 소형 시스템을 사용할 때는 제한 사항이 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
@@ -144,6 +151,9 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 * * 추가 소프트웨어 *: BlueXP 분류를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.
 +
 ** Docker Engine 버전 19.3.1 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
++
+https://youtu.be/H1WS_-85pWA["이 비디오 시청"] CentOS에 Docker를 설치하는 빠른 데모를 보려면
+
 ** Python 3 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
 
 

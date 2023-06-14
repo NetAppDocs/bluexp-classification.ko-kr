@@ -2297,11 +2297,8 @@
   <block id="088be43867eaac29f74142859d1e2a13" category="paragraph">필수 구성 요소 스크립트를 실행할 때는 커넥터 시스템의 IP 주소 또는 호스트 이름이 필요합니다. 이 정보는 구내에 Connector를 설치한 경우 확인할 수 있습니다. Connector가 클라우드에 배포된 경우 BlueXP 콘솔에서 이 정보를 찾을 수 있습니다. 도움말 아이콘을 클릭하고 * 지원 * 을 선택한 다음 * BlueXP 커넥터 * 를 클릭합니다.</block>
   <block id="93144470251168b3e5488b736447f48f" category="section-title">호스트 요구 사항을 확인합니다</block>
   <block id="c1b7308083354b8b60760460bcce3ccc" category="cell">* 대형 *</block>
-  <block id="f73b260a6cb60f48bc6d018192dfb51b" category="cell">/opt-395GiB에서 사용 가능한 500GiB SSD 켜짐/, 또는 - 100GiB는 /var-5GiB에서 사용 가능 /tmp에서 사용 가능</block>
   <block id="f3e6e184202c9901024fa409f2c24cb1" category="cell">* 중간 *</block>
-  <block id="63d284249a11c1390977c2b197c85419" category="cell">/opt-145GiB에서 사용 가능한 200GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다</block>
   <block id="e8ae9f0392263b55e4580177a75c948e" category="cell">* 소형 *</block>
-  <block id="6798decba048766a66cd22d4442d7ec0" category="cell">/opt-45GiB에서 사용 가능한 100GiB SSD On/ 또는 -50GiB는 /tmp에서 /var-5GiB에서 사용할 수 있습니다</block>
   <block id="e6414c92b8fa46238f4135e4d3e45674" category="inline-link-macro">추가 AWS 인스턴스 유형을 참조하십시오</block>
   <block id="07c511fd0ad633d44d9e71cb0c9eaba9" category="list-text">* AWS EC2 인스턴스 유형 *: "m6i.4xLarge"를 권장합니다. <block ref="2fad631c28a07a1344ecdbaabb5084bf" category="inline-link-macro-rx"></block>.</block>
   <block id="130a6b20e1175876fb22c9520aa18c8c" category="inline-link-macro">추가 Azure 인스턴스 유형을 참조하십시오</block>
@@ -3042,7 +3039,6 @@
   <block id="bfd2c96cae6d29697ceac4feda921426" category="inline-image-macro">인터넷에 연결된 여러 대의 BlueXP 분류 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여 주는 다이어그램입니다.</block>
   <block id="b1030a584c34dcb45c3a231937109e48" category="paragraph"><block ref="b1030a584c34dcb45c3a231937109e48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0eb32e59a3574faaca63218c3f5922f" category="paragraph">을 참조하십시오 <block ref="dc1d236e8ef0d554549faeaffd48b8b2" category="inline-xref-macro-rx"></block> 및 <block ref="2360c56931bf3d2d23fb74a3dc780c78" category="inline-xref-macro-rx"></block> BlueXP 분류를 배포하기 전에 필요한 전체 목록을 확인하십시오.</block>
-  <block id="86bb25ae4391f2558f38a5358121ae0d" category="paragraph">단일 온-프레미스 호스트에 BlueXP 분류 소프트웨어를 설치할 때 다음 단계를 따르십시오.</block>
   <block id="60e3e1e8b520c28183ebe86bd433deda" category="list-text">프록시가 TLS 가로채기를 수행하는 경우 TLS CA 인증서가 저장된 BlueXP 분류 Linux 시스템의 경로를 알아야 합니다.</block>
   <block id="d66d1b16789175829b23ed7e745d66dd" category="list-text">오프라인 환경이 필요한 를 충족하는지 확인합니다 <block ref="9eb48ce3a280aa134b4c3aab7ed78a68" category="inline-xref-macro-rx"></block>.</block>
   <block id="2fdc544d6ce29e3a29dd3b9cb532c792" category="list-text">에서 BlueXP 분류 소프트웨어를 다운로드합니다<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>. 선택해야 하는 파일의 이름은 * DATASENSE-INinstaller-&lt;version&gt;.tar.gz * 입니다.</block>
@@ -3390,4 +3386,20 @@
   <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04는 BlueXP 분류에 지원되는 운영 체제로 검증되었습니다. 설치 프로그램의 버전 1.23을 사용하는 경우 네트워크의 Ubuntu Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>.</block>
   <block id="3e102feedd861186d57f6a85de9de541" category="paragraph">파일 액세스 감사 로그 파일은 BlueXP 분류 시스템의 다음 위치에 있습니다.<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
   <block id="7f16356d7b675ed76686e591ad5dc661" category="cell">현재 로그 파일을 쓸 수 있도록 위치가 하드코딩되어 있습니다<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
+  <block id="34c688a0843dc19a0624e151973b37a7" category="cell">500GiB SSD 켜짐/또는
+/opt에서 -100GiB를 사용할 수 있습니다
+/var/lib/docker에서 사용 가능한 395GiB
+/tmp에 -5GiB입니다</block>
+  <block id="7c2e343b426a44deea2cb9e6eb69e8af" category="cell">200GiB SSD 켜짐/또는
+/opt에서 -50GiB를 사용할 수 있습니다
+/var/lib/docker에서 -145GiB를 사용할 수 있습니다
+/tmp에 -5GiB입니다</block>
+  <block id="a8ec707d3d7dc0af4b9cce44343387b0" category="cell">또는 에서 100GiB SSD
+/opt에서 -50GiB를 사용할 수 있습니다
+/var/lib/docker에서 -45GiB를 사용할 수 있습니다
+/tmp에 -5GiB입니다</block>
+  <block id="0a10409b2f38332b7a7c8f820fc0edd5" category="inline-link">이 비디오 시청</block>
+  <block id="404a8e21de3fe2bfdd2e77b81889e5cb" category="paragraph"><block ref="21e1c490f7e7bc90ffb6dabbc263e6f2" category="inline-link-rx"></block> CentOS에 Docker를 설치하는 빠른 데모를 보려면</block>
+  <block id="d56adb545fe9309fc7a4cfd339798344" category="paragraph">단일 온-프레미스 호스트에 BlueXP 분류 소프트웨어를 설치할 때 요구 사항을 검토하고 다음 단계를 따르십시오.</block>
+  <block id="cf3d087ad95f213d839f606d398101ee" category="paragraph"><block ref="501f73c9c42bcec313b07a4d01108ec0" category="inline-link-rx"></block> BlueXP 분류 설치 방법을 확인합니다.</block>
 </blocks>
