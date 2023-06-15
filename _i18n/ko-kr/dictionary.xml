@@ -2555,7 +2555,6 @@
   <block id="2875279e7093015cd8ccf93240c548e9" category="paragraph"><block ref="2875279e7093015cd8ccf93240c548e9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e7fa07083790a8112d00af542356ec88" category="paragraph">기본적으로 데이터 보호(DP) 볼륨은 외부에서 노출되지 않고 BlueXP 분류에서 액세스할 수 없기 때문에 스캔되지 않습니다. 이는 사내 ONTAP 시스템 또는 Cloud Volumes ONTAP 시스템에서 SnapMirror 작업을 위한 타겟 볼륨입니다.</block>
   <block id="7c0a9b3e555cf595d3d01d33df76df82" category="list-text">소스 ONTAP 시스템에서 CIFS 볼륨으로 처음 생성된 볼륨을 사용하려면 CIFS 자격 증명을 입력하여 해당 DP 볼륨을 스캔해야 합니다. BlueXP 분류에서 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 이미 입력한 경우 해당 자격 증명을 사용하거나 다른 관리자 자격 증명 집합을 지정할 수 있습니다.</block>
-  <block id="fbf1d4f9e395daa419609b8d5b9705f7" category="summary">검사 중인 파일 중 하나에 액세스하거나 변경할 때마다 이벤트에 기록하도록 BlueXP 분류를 구성할 수 있습니다. 그런 다음 이 파일의 내용(파일 액세스 감사 로그)을 보거나 다운로드하여 어떤 파일 변경이 발생했는지, 누가 변경했는지 확인할 수 있습니다.</block>
   <block id="52887b7fa084c02e609d7372dfab4740" category="paragraph">BlueXP 분류는 현재 파일 및 디렉토리에 대해 다음 작업에 대한 이벤트를 캡처합니다.</block>
   <block id="f8a450637ddb6668a04ea30131e3a1e2" category="paragraph">BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux 시스템에 설치되어 있는 경우 로그 파일로 직접 이동할 수 있습니다.</block>
   <block id="c025349cd3a26a699951f8e578938046" category="paragraph">BlueXP 분류를 클라우드에 배포하면 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.</block>
@@ -3123,11 +3122,9 @@
   <block id="c3e36333a4a6733ccd92dafc9d8c17b5" category="sidebar">인터넷 없이 BlueXP 분류를 사내 설치</block>
   <block id="c0b7cbffdfa6fa18059367f2045ac22c" category="sidebar">BlueXP 분류 활용 사례</block>
   <block id="44b48aa0d2158361e53832315034f513" category="paragraph">예를 들어 중요한 직원 파일이나 급여 파일이 변경된 시기를 추적하려는 경우 이러한 파일이 있는 볼륨에서 이 기능을 사용하도록 설정할 수 있습니다. 그런 다음 파일 액세스 감사 로그를 보고 이러한 파일이 변경되었는지 확인할 수 있습니다. 변경 사항이 있는 경우 변경을 수행한 사람의 SID(보안 식별자)와 변경 시점을 확인할 수 있습니다.</block>
-  <block id="f8877f183813ba08abe0b73b3b1c1a0a" category="paragraph">ONTAP 소프트웨어를 실행하는 작업 환경의 중요 볼륨에서 이 기능을 활성화할 수 있습니다. 볼륨에서 활성화된 경우 볼륨의 모든 파일 및 디렉토리에 대해 파일 액세스 이벤트가 추적됩니다. 이 기능은 를 기반으로 합니다<block ref="215c8ae39ab5aa2af1bf0d7956d6ac15" category="inline-link-rx"></block> ONTAP 시스템에서 BlueXP 분류 시스템을 FPolicy 서버로 사용하여 ONTAP의 알림 메시지(이벤트)를 수신합니다.</block>
   <block id="c7f8db8434f3e3057bca29922b597e31" category="paragraph">BlueXP 분류는 다음 데이터 소스의 ONTAP 볼륨에 있는 파일에 대한 파일 액세스 이벤트를 기록할 수 있습니다.</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">NetApp ONTAP용 Amazon FSx</block>
   <block id="64067288b8531fcd99186eba6a8c23b0" category="paragraph">데이터 원본은 ONTAP 버전 9.11 이상의 소프트웨어를 실행해야 합니다.</block>
-  <block id="e409723ead2999f7cf6579d5cdaa079c" category="admonition">현재 각 데이터 소스의 최대 5개 볼륨에 대해 파일 액세스 감사를 구성할 수 있습니다.</block>
   <block id="266321178f48dd580597ebe11b4ed93e" category="list-text">BlueXP 분류에서 파일에 액세스한 사람의 ID를 나열할 수 있도록 데이터 원본에 대해 Active Directory를 구성해야 합니다.</block>
   <block id="c59b99fd4a78f457a5e94a037bb88563" category="list-text">BlueXP 분류 시스템에서 아웃바운드 액세스를 위해서는 포트 5018이 열려 있어야 합니다.</block>
   <block id="4d2cf95eb79434a26117b70f40109d70" category="paragraph">파일 액세스 이벤트를 추적하도록 구성한 모든 볼륨에 대해 로그 파일이 생성됩니다. 로그 파일의 이름은 "&lt;volume_name&gt;_&lt;volume_uuid&gt;_.log"입니다. 예를 들어 "FPolicy_CIFS_838c1727-dd2d-11ed-a3ec-590ce4991.log"입니다. 감사 로그의 각 줄에는 다음 형식의 정보가 포함되어 있습니다.</block>
@@ -3402,4 +3399,7 @@
   <block id="404a8e21de3fe2bfdd2e77b81889e5cb" category="paragraph"><block ref="21e1c490f7e7bc90ffb6dabbc263e6f2" category="inline-link-rx"></block> CentOS에 Docker를 설치하는 빠른 데모를 보려면</block>
   <block id="d56adb545fe9309fc7a4cfd339798344" category="paragraph">단일 온-프레미스 호스트에 BlueXP 분류 소프트웨어를 설치할 때 요구 사항을 검토하고 다음 단계를 따르십시오.</block>
   <block id="cf3d087ad95f213d839f606d398101ee" category="paragraph"><block ref="501f73c9c42bcec313b07a4d01108ec0" category="inline-link-rx"></block> BlueXP 분류 설치 방법을 확인합니다.</block>
+  <block id="7273543485153af36bd67d8d37fe08b3" category="summary">검사 중인 파일 중 하나에 액세스하거나 변경할 때마다 이벤트에 기록하도록 BlueXP 분류를 구성할 수 있습니다. 그런 다음 이 로그 파일(파일 액세스 감사 로그)의 내용을 보거나 다운로드하여 어떤 파일 변경이 발생했는지, 누가 변경했는지 확인할 수 있습니다.</block>
+  <block id="145ca78924109b125fb405dc2644ebba" category="paragraph">ONTAP 소프트웨어를 실행하는 작업 환경의 중요 볼륨에서 이 기능을 활성화할 수 있습니다. 볼륨에서 활성화된 경우 볼륨의 모든 파일 및 디렉토리에 대해 파일 액세스 이벤트가 추적됩니다. 이 기능은 를 기반으로 합니다<block ref="215c8ae39ab5aa2af1bf0d7956d6ac15" category="inline-link-rx"></block> ONTAP 시스템에서 BlueXP 분류 시스템을 FPolicy 서버로 사용하여 ONTAP의 알림 메시지(이벤트)를 수신합니다. BlueXP 분류는 ONTAP에서 초당 약 990개의 이벤트를 처리할 수 있습니다.</block>
+  <block id="7a6df57d74a900c4b9e956add6358c97" category="paragraph">설치 프로그램은 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되어 있는지 확인합니다.<block ref="4ca4cc07e57f7afbeb1dff6c98bd6092" category="inline-link-rx"></block> 사전 점검 메시지 및 의미를 이해합니다.</block>
 </blocks>
