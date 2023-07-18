@@ -251,7 +251,7 @@ BlueXP 분류는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0�
 
 === 정부 지역에 배포할 때 제한 사항이 있습니까?
 
-정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 Connector를 구축한 경우 BlueXP 분류가 지원됩니다. 이러한 방식으로 배포된 BlueXP 분류에는 다음과 같은 제한 사항이 있습니다.
+커넥터가 정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 배포되어 "제한 모드"라고도 하는 경우 BlueXP 분류가 지원됩니다. 이러한 방식으로 배포된 BlueXP 분류에는 다음과 같은 제한 사항이 있습니다.
 
 * OneDrive 계정, SharePoint 계정 및 Google Drive 계정을 검색할 수 없습니다.
 * Microsoft Azure 정보 보호(AIP) 레이블 기능은 통합할 수 없습니다.
@@ -261,7 +261,7 @@ BlueXP 분류는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0�
 
 === 인터넷 액세스 없이 사이트에 BlueXP 분류를 설치할 경우 어떤 데이터 소스를 검색할 수 있습니까?
 
-BlueXP 분류는 사내 사이트에 로컬인 데이터 소스에서만 데이터를 스캔할 수 있습니다. 현재 BlueXP 분류는 "어두운" 사이트에서 다음 로컬 데이터 소스를 검사할 수 있습니다.
+BlueXP 분류는 사내 사이트에 로컬인 데이터 소스에서만 데이터를 스캔할 수 있습니다. 현재 BlueXP 분류는 "비공개 모드"에서 "다크" 사이트라고도 하는 다음 로컬 데이터 소스를 검사할 수 있습니다.
 
 * 온프레미스 ONTAP 시스템
 * 데이터베이스 스키마
@@ -360,7 +360,7 @@ Connector는 클라우드 계정 또는 온프레미스 컴퓨팅 인스턴스�
 
 === 인터넷에 연결되지 않은 보안 사이트는 어떻게 됩니까?
 
-예, 지원합니다. 가능합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 배포합니다"^]. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 BlueXP 분류를 사용하여 데이터를 검색할 수 있습니다.
+예, 지원합니다. 가능합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 배포합니다"^]. https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["이를 "비공개 모드"라고도 합니다."^]. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 BlueXP 분류를 사용하여 데이터를 검색할 수 있습니다.
 
 
 

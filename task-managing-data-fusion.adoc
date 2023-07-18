@@ -62,15 +62,12 @@ image:screenshot_compliance_add_data_fusion.png["Data Fusion 소스의 스키마
 
 . 데이터 Fusion 소스 추가 * 를 클릭합니다.
 +
-Data Fusion 인벤토리 페이지에는 검사를 위해 BlueXP 분류를 구성한 데이터베이스 소스 열이 표시됩니다.
-
-+
 image:screenshot_compliance_data_fusion_list.png["Data Fusion로 구성한 모든 데이터 원본 참조의 스크린샷"]
 
 
 
 .결과
-다음 검사 후 결과에는 이 새 정보가 "개인 결과" 섹션의 준수 대시보드 및 "개인 데이터" 필터의 조사 페이지에 포함됩니다. 추가한 각 원본 열은 필터 목록에 "Table.Column" 형식(예: "Customers.CustomerID")으로 나타납니다.
+다음 검사 후 결과에는 이 새 정보가 "개인 결과" 섹션의 준수 대시보드 및 "개인 데이터" 필터의 조사 페이지에 포함됩니다. 분류자에 사용한 이름이 필터 목록에 나타납니다(예:) `Customers.CustomerID`.
 
 image:screenshot_add_data_fusion_result.png["조사 결과 창에 Data Fusion 결과의 예가 표시된 스크린샷"]
 
@@ -116,7 +113,7 @@ image:screenshot_select_classifier_tool_keywords.png["BlueXP 분류에서 패턴
 아래 스크린샷은 내부 제품 이름(부엉이의 여러 유형)을 보여줍니다. 이러한 항목에 대한 BlueXP 분류 검색은 대/소문자를 구분하지 않습니다.
 
 +
-image:screenshot_select_classifier_create_logic_keyword.png["고객 분류자의 키워드를 입력하는 스크린샷"]
+image:screenshot_select_classifier_create_logic_keyword.png["사용자 지정 분류자의 키워드를 입력하는 스크린샷"]
 
 . Done(완료) * 을 클릭하면 BlueXP 분류가 시작되어 데이터를 다시 검색합니다.
 
@@ -138,7 +135,10 @@ image:screenshot_add_keywords_result.png["조사 결과 창에 사용자 정의 
 
 regex를 추가한 후 BlueXP 분류는 모든 데이터 소스 스캔을 다시 시작합니다. 검사가 완료되면 "개인 결과" 섹션 아래의 BlueXP 분류 준수 대시보드와 "개인 데이터" 필터의 조사 페이지에 새 결과가 나타납니다.
 
-을 참조하십시오 https://regex101.com/[] 정규식을 작성하는 데 도움이 필요한 경우
+을 참조하십시오 https://regex101.com/[] 정규식을 작성하는 데 도움이 필요한 경우 원하는 맛을 내려면 * Python * 을 선택하여 BlueXP 분류가 정규식에서 일치하는 결과의 유형을 확인하십시오.
+
+
+NOTE: 현재 정규식 생성 시 패턴 플래그 사용을 허용하지 않습니다. 즉, "/"를 사용하면 안 됩니다.
 
 .단계
 . Classification settings_tab에서 * Add New Classifier * 를 클릭하여 _Add Custom Classifier_wizard를 실행합니다.
@@ -161,7 +161,7 @@ image:screenshot_select_classifier_tool_regex.png["BlueXP 분류에서 패턴을
 .. 임의의 법적 정규식을 입력할 수 있습니다. BlueXP 분류에 따라 * Validate * 버튼을 클릭하여 정규식이 유효한지, 정규식이 너무 광범위하지 않은지 확인합니다. 즉, 너무 많은 결과가 반환됩니다.
 .. 선택적으로 근접 단어를 입력하여 결과의 정확도를 높일 수 있습니다. 일반적으로 검색하는 패턴의 300자 이내(찾은 패턴 이전 또는 이후)에 있는 단어입니다. 각 단어 또는 구를 별도의 줄에 입력합니다.
 +
-image:screenshot_select_classifier_create_logic_regex.png["고객 분류자의 regex 및 근접 단어를 입력하는 스크린샷"]
+image:screenshot_select_classifier_create_logic_regex.png["사용자 지정 분류자의 regex 및 근접 단어를 입력하는 스크린샷"]
 
 
 
@@ -241,6 +241,9 @@ image:screenshot_custom_classifier_top_5.png["반환된 결과를 기준으로 �
 == 사용자 지정 분류자를 관리합니다
 
 분류자 편집 * 단추를 사용하여 만든 사용자 지정 분류자를 변경할 수 있습니다.
+
+
+TIP: 지금은 Data Fusion 분류자를 편집할 수 없습니다.
 
 그리고 나중에 추가한 사용자 정의 패턴을 식별하기 위해 BlueXP 분류가 필요하지 않다고 판단될 경우 * 분류자 삭제 * 버튼을 사용하여 각 항목을 제거할 수 있습니다.
 

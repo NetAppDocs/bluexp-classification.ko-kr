@@ -374,7 +374,6 @@
   <block id="abcdab0f1cbbe968798a52245b476c30" category="paragraph">* 참고: * 처음에 DP 볼륨에 대한 액세스를 설정한 후 나중에 추가할 때 CIFS 데이터 보호 볼륨이 없는 경우 구성 페이지 맨 위에 * CIFS DP에 대한 액세스 활성화 * 버튼이 나타납니다. 이 버튼을 클릭하고 CIFS 자격 증명을 추가하여 이러한 CIFS DP 볼륨에 대한 액세스를 설정합니다.</block>
   <block id="21118277527dde4297826bff350dbf36" category="admonition">Active Directory 자격 증명은 첫 번째 CIFS DP 볼륨의 스토리지 VM에만 등록되므로 해당 SVM의 모든 DP 볼륨이 검사됩니다. 다른 SVM에 상주하는 볼륨에 Active Directory 자격 증명이 등록되지 않으므로 DP 볼륨이 검색되지 않습니다.</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">자세한 정보</block>
-  <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link-macro">방법을 확인하십시오</block>
   <block id="74585f658544c691c6f6afb583a9dc61" category="inline-link-macro">S3 프로토콜을 사용하는 오브젝트 스토리지 스캔</block>
   <block id="93f515959ce6187b986c42fa6959168b" category="doc">개인 데이터의 범주입니다</block>
   <block id="10ff4e7c2ffc1fd426aa6f784a05da66" category="section-title">개인 데이터의 유형입니다</block>
@@ -941,7 +940,6 @@
   <block id="d709c500efa2b07b31dad2acb1fc7b92" category="list-text">Linux 시스템이 를 충족하는지 확인합니다 <block ref="2d54aecca24274aa47c2fb620cd7d497" category="inline-xref-macro-rx"></block>.</block>
   <block id="03d8c71f4932cca67122b714ef67000c" category="list-text">필수 소프트웨어 패키지 2개(Docker Engine 및 Python 3)를 설치했는지 확인합니다.</block>
   <block id="7e1fecc0c3cbd38b434a0a6232a69c06" category="list-text">Linux 시스템에 대한 루트 권한이 있는지 확인합니다.</block>
-  <block id="efa6f10157137475f11a46219066d662" category="list-text">설치 프로그램 번들을 다크 사이트에서 사용할 Linux 호스트에 복사합니다.</block>
   <block id="1eecc2fcccd4fcb3cadd8bec3044d3bb" category="list-text">호스트 시스템에서 설치 프로그램 번들의 압축을 풉니다. 예를 들면 다음과 같습니다.</block>
   <block id="cce26d229722c6ca9257990a7091d9c0" category="list-text">Activate Data Sense * 를 클릭합니다.</block>
   <block id="6b0f70e5c18db6f7f252ec60af1fdda0" category="list-text">호스트 시스템에서 설치 파일의 압축을 풉니다. 예를 들면 다음과 같습니다.</block>
@@ -1287,8 +1285,6 @@
   <block id="39630dece802514e5f7336bcbbf0ac6f" category="list-text">파일 전체에서 신용 카드 정보의 배포를 식별하는 데 도움이 됩니다. <block ref="ef3bace538be6eee30a3e48516637cf7" category="inline-link-macro-rx"></block>.</block>
   <block id="be27a8dc9dfba1897217ecee5823bd4e" category="list-text">파일에 대한 상태 정보 배포를 식별하는 데 도움이 됩니다. <block ref="1ce675538fc85bf3b1ef6fa4ab26346c" category="inline-link-macro-rx"></block>.</block>
   <block id="f887e54f519cc35b4741120230ac9d1a" category="paragraph">Classification_area는 가장 많이 식별된 목록을 제공합니다 <block ref="b823fa31d5dec268aaa19a8828bf34fe" category="inline-link-macro-rx"></block>, <block ref="336d27c782a82199a3380deae5570591" category="inline-link-macro-rx"></block>, 및 <block ref="8376771def5b60bb1cfdd0dc180ae5cc" category="inline-link-macro-rx"></block> 스캔 데이터.</block>
-  <block id="e661d5c04d5948d390d622ba88bdcc6b" category="section-title">네 가지 새로운 유형의 호주 개인 데이터는 데이터 센스로 식별할 수 있습니다</block>
-  <block id="0387123627dfe002c7435c0101983f19" category="section-title">이제 글로벌 Active Directory 서버가 LDAP 서버가 될 수 있습니다</block>
   <block id="7d3786abf2ebb473a5ba70b680734525" category="section-title">BYOL 라이센스 고려사항</block>
   <block id="e95058755e821bf6cb439e37f1f068d7" category="list-text">스캔 중인 데이터의 양이 라이센스 용량의 80%에 도달한 경우, 제한에 도달하면 다시 한 번 표시됩니다</block>
   <block id="d8ea74d0bc0e6f3c5be22312a953d7fb" category="list-text">라이센스가 만료되기 30일 전에 라이센스가 만료되고 라이센스가 만료되면 다시 만료됩니다</block>
@@ -1344,15 +1340,6 @@
   <block id="0f259b55b58f019c0dd1cc33fbe10199" category="list-text">데이터 조사 페이지에서 을 클릭합니다 <block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block> 버튼을 클릭합니다.</block>
   <block id="6dc6bf0d1023a1b5714c777b474cce12" category="paragraph">비정형 파일 데이터 보고서 * 에는 파일에 대한 다음 정보가 포함됩니다.</block>
   <block id="f7a21d48814a155d5e8e39ddbf0827ae" category="paragraph">Structured Data Report * 에는 데이터베이스 테이블에 대한 다음 정보가 포함되어 있습니다.</block>
-  <block id="6c5c8bcc3e6c86825162a1ff2603c1f3" category="section-title">Google Drive 계정의 데이터 스캔에 대한 지원이 추가되었습니다</block>
-  <block id="686f6248c08053e57c0ee91c18b2d097" category="inline-link">Google Drive 계정을 검색하는 방법을 확인하십시오</block>
-  <block id="1c569820a2d89c87007e78d8b99f545d" category="inline-link">기존 파일 형식</block>
-  <block id="2f8d7f7b2a9f475f94e961eea0214b6f" category="section-title">데이터 조사 페이지에 디렉토리 수준 보기가 추가되었습니다</block>
-  <block id="a1e4ba958a7013f98fdbb1a883102e86" category="inline-link">스캔한 데이터의 디렉터리 보기를 선택하는 방법을 알아봅니다</block>
-  <block id="fc923fa1acb929379421a26667fff392" category="section-title">그룹 을 확장하여 파일 액세스 권한이 있는 사용자/구성원을 표시합니다</block>
-  <block id="87dc185d970f7684d5d731eebbf8d195" category="inline-link">파일에 대한 읽기 및/또는 쓰기 권한이 있는 사용자 및 그룹을 보는 방법에 대해 알아봅니다</block>
-  <block id="96ab93ed4512cdb4dd07828ed738b502" category="section-title">데이터 조사 페이지에 두 개의 새 필터가 추가되었습니다</block>
-  <block id="9e4e3d73f23809aabccd30c3abe0f99f" category="list-text">“디렉터리 유형” 필터를 사용하면 폴더 또는 공유만 볼 수 있도록 데이터를 구체화할 수 있습니다. 결과는 새 * 디렉터리 * 탭에 표시됩니다.</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오</block>
   <block id="3115aebdd180a7f37b3394bf8996ca30" category="list-text">현재 30MB를 초과하는 파일의 레이블은 변경할 수 없습니다. OneDrive, SharePoint 및 Google Drive 계정의 경우 최대 파일 크기는 4MB입니다.</block>
   <block id="5ba18772d6c4efd6fedbaf5fb29d559a" category="paragraph">조사 페이지의 내용을 필터링하여 원하는 결과만 표시할 수 있습니다. 이 기능은 데이터를 구체화한 후 페이지 상단의 단추 모음을 사용하여 파일 복사, 파일 이동, 파일에 태그 또는 AIP 레이블 추가 등의 다양한 작업을 수행할 수 있으므로 매우 강력한 기능입니다.</block>
@@ -1390,19 +1377,6 @@
   <block id="fe146c842cc64934263018d6ec158b7e" category="sidebar">특정 파일을 보려면 데이터를 필터링합니다</block>
   <block id="bc80eb794f149fca6a16076a0e09247f" category="list-text">최상위 탭을 사용하면 파일(구조화되지 않은 데이터), 디렉토리(폴더 및 파일 공유) 또는 데이터베이스(구조화된 데이터)에서 데이터를 볼 수 있습니다.</block>
   <block id="d5ef18883c38c2dd1dffc30e93610cde" category="paragraph">사용자 파일이 있는 Google Drive 계정을 추가합니다. 여러 사용자의 파일을 스캔하려면 각 사용자에 대해 이 단계를 실행해야 합니다.</block>
-  <block id="f313b26419f4694c764a8d9a38b04ce1" category="section-title">이제 데이터 조사 페이지에서 결과를 .JSON 보고서로 다운로드할 수 있습니다</block>
-  <block id="d214193a7fda757836199c60304f2ab0" category="inline-link">데이터 조사 페이지에서 보고서를 만드는 방법을 알아봅니다</block>
-  <block id="bef8207d9128cb7b1a5dc68939fc3d45" category="section-title">Data Sense UI에서 Data Sense를 제거할 수 있습니다</block>
-  <block id="d96d07db10c050adfb5fed7e3d885b82" category="section-title">이제 감사 로깅을 사용하여 Data Sense가 수행한 작업 기록을 추적할 수 있습니다</block>
-  <block id="1ce49760bcdac502d41fb1e9e547086b" category="paragraph">감사 로그는 Data Sense가 검색 중인 모든 작업 환경 및 데이터 소스의 파일에 대해 Data Sense가 수행한 관리 활동을 추적합니다. 작업은 사용자 생성(파일 삭제, 정책 생성 등) 또는 생성된 정책(파일에 레이블 자동 추가, 파일 자동 삭제 등)이 될 수 있습니다.</block>
-  <block id="f5678b0269d5a9952a36966b56ab8f2e" category="inline-link">감사 로그에 대한 자세한 내용은 을 참조하십시오</block>
-  <block id="a74d72e2c5ed113941ee600287aaa999" category="section-title">데이터 조사 페이지의 중요 ID 수에 대한 새 필터</block>
-  <block id="3c5d93e6c38bd86146cef63658df62d2" category="paragraph">“Number of identifier(식별자 수)” 필터를 사용하면 개인 데이터와 민감한 개인 데이터를 포함하여 특정 수의 중요한 식별자가 있는 파일을 나열할 수 있습니다. 1-10 또는 501-1000과 같은 범위를 선택하여 해당 수의 중요한 식별자가 포함된 파일만 볼 수 있습니다.</block>
-  <block id="a630192bda7a95f4930b54f41701fc66" category="section-title">이제 작성한 기존 정책을 편집할 수 있습니다</block>
-  <block id="61e409921fe798c5667689af4656a112" category="inline-link">정책을 편집하는 방법을 알아봅니다</block>
-  <block id="b6d077046b2cf0c110fa9676e30656f1" category="list-text">데이터 감지 제거 대화 상자에서 * 제거 * 를 입력하여 인스턴스 및 모든 관련 데이터를 삭제할 것인지 확인한 다음 * 제거 * 를 클릭합니다.</block>
-  <block id="9fa93379f19a53edba45b6ad3485c2ec" category="list-text">데이터 감지 제거 대화 상자에서 * 제거 * 를 입력하여 모든 구성 정보를 지우고 * 제거 * 를 클릭합니다.</block>
-  <block id="f5778aefaac6fff25d1b42554bc3eb10" category="list-text">호스트에서 제거를 완료하려면 호스트 시스템에서 제거 스크립트를 실행합니다. 예를 들면 다음과 같습니다.</block>
   <block id="ba7710e66e983f5d109ee54ee938f343" category="paragraph">를 클릭할 수 있습니다 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block> 모든 그룹에 대해 그룹에 속한 사용자 목록을 표시합니다.</block>
   <block id="26ec7ebe8b7297e79affc05b3e89352b" category="cell">식별자 수입니다</block>
   <block id="9774801e5b642078494706b6a4b33bd0" category="paragraph">에서 복사 작업의 진행률을 볼 수 있습니다 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>.</block>
@@ -1444,9 +1418,6 @@
   <block id="e1b1adec6acf239fb7bfb9f392edd34d" category="list-text">권한을 엽니다</block>
   <block id="c24fc9c3402e7cb47c72d71cf6d864be" category="list-text">디렉터리 유형입니다</block>
   <block id="5108bf4a4931cd23ea67515ca4dda122" category="paragraph">이 옵션을 설정하면 모든 데이터 소스에서 느린 스캔이 사용됩니다. 단일 작업 환경 또는 데이터 원본에 대해 느린 스캔을 구성할 수 없습니다.</block>
-  <block id="360d69dcc915fa54a4ac5faccbaf2127" category="section-title">2022년 6월 12일(버전 1.13.1)</block>
-  <block id="2dd4f685f001cb4e6c0149956ba4a997" category="section-title">2022년 5월 11일(버전 1.12.1)</block>
-  <block id="07de9e897e96f5f63e0778d691b62d59" category="section-title">2022년 4월 5일(버전 1.11.1)</block>
   <block id="49346bec66601a23d58acfc71f396d3f" category="list-text">Azure NetApp Files의 경우 스캔하려는 볼륨과 동일한 영역에 배포해야 합니다.</block>
   <block id="b39e81db6545fcc5e2567ec3c6930540" category="section-title">정부 지역 지원</block>
   <block id="b3478a494adde25715314b14559dd6a4" category="list-text">OneDrive 계정, SharePoint 계정 및 Google Drive 계정을 검색할 수 없습니다.</block>
@@ -1482,7 +1453,6 @@
   <block id="9fadb6e2508d92e954b40d39c36e9687" category="inline-link">정책 생성에 대해 자세히 알아보십시오</block>
   <block id="7d96313dbf4a19b7144c3ff41f415250" category="section-title">이제 데이터 센스를 통해 한 번에 최대 100,000개의 파일을 이동할 수 있습니다</block>
   <block id="3e0c53bc3881ac60b7e7165fda5915c1" category="inline-link">데이터 센스를 사용하여 파일을 이동하는 방법을 확인하십시오</block>
-  <block id="c761b545ddd43d078ae7ea86495182db" category="paragraph">Data Sense와 통합하는 글로벌 Active Directory 서버는 이제 이전에 지원되는 DNS 서버 외에도 LDAP 서버가 될 수 있습니다. <block ref="de464dfb9c55e9818cd55e6911bff3a5" category="inline-link-macro-rx"></block>.</block>
   <block id="dfb9b838b2fdca41edadb04c9ebbb240" category="list-text">비 NetApp CIFS 파일 공유(NFS 파일 공유 아님)</block>
   <block id="9816532bdb11b99d3175be528e41c5b6" category="cell">Texas Driver의 라이센스</block>
   <block id="89b56b1e048dcf0ec285e29a05d6d029" category="paragraph">대상 위치에 같은 이름의 파일이 있으면 파일이 이동하지 않습니다.</block>
@@ -1553,7 +1523,6 @@
   <block id="93527746a0aabc74aefe0ff55c837bc7" category="list-text">하나 이상의 데이터 소스에서 고급 매핑 또는 심층 스캔을 활성화할 수 있습니다.</block>
   <block id="c442f433b878bcb44759d46bd9921901" category="list-text">검색 중인 데이터베이스의 특정 열을 기준으로 고유 식별자를 추가할 수 있습니다.</block>
   <block id="68bd9fa0417b646f5dcd316727b11be1" category="list-text">정규식(regex)을 사용하여 개인 패턴을 추가할 수 있습니다. regex는 기존의 미리 정의된 패턴에 추가됩니다.</block>
-  <block id="7a4f785c9bf1b41e9eb899da0e988d27" category="paragraph">다음 검사 후 결과에는 이 새 정보가 "개인 결과" 섹션의 준수 대시보드 및 "개인 데이터" 필터의 조사 페이지에 포함됩니다. 추가한 각 원본 열은 필터 목록에 "Table.Column" 형식(예: "Customers.CustomerID")으로 나타납니다.</block>
   <block id="86776d2aca02c16f7beb228e9112d324" category="inline-image-macro">조사 결과 창에 Data Fusion 결과의 예가 표시된 스크린샷</block>
   <block id="4275c0ed3233cbea8a2f0bc0d2c33395" category="paragraph"><block ref="4275c0ed3233cbea8a2f0bc0d2c33395" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0bac9ec0256a9fd2858c7836245c9025" category="list-text">AWS의 경우 &lt;EC2-USER&gt;를 사용합니다</block>
@@ -1975,8 +1944,6 @@
   <block id="7a8c400460fcd57ab61e646f8f7222ff" category="list-text">모든 SharePoint 사이트에 읽기 권한을 제공하는 SharePoint 계정에 대한 관리자 사용자 로그인 자격 증명이 있어야 합니다.</block>
   <block id="fbd2a3d3a2a95ffb088fd8e0ccf6b67d" category="list-text">SharePoint Online의 경우 관리자가 아닌 계정을 사용할 수 있지만 해당 사용자는 검색할 모든 SharePoint 사이트에 액세스할 수 있는 권한이 있어야 합니다.</block>
   <block id="5e6d4a84337eb1e0ff5a019edf3a15d6" category="section-title">중요한 데이터가 포함되어 있고 지나치게 허용적인 파일 차트를 볼 수 있는 기능</block>
-  <block id="ee7392d2316f5d3dd66a6f38dfd1dbfb" category="list-text">"사용자/그룹 권한" 필터를 사용하면 특정 사용자 또는 그룹에 읽기 및/또는 쓰기 권한이 있는 파일, 폴더 및 공유를 나열할 수 있습니다. 여러 사용자 및/또는 그룹 이름을 선택하거나 부분 이름을 입력할 수 있습니다.</block>
-  <block id="d03ac14c4e429af55c127e304518d56e" category="paragraph">데이터 센스를 사용하면 오스트레일리아 TFN(세금 파일 번호), 오스트레일리아 운전면허증 번호, 오스트레일리아 의료보험 번호 및 호주 여권 번호가 포함된 파일을 식별하고 분류할 수 있습니다. <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>.</block>
   <block id="3631ca73c04d0e5a0d6b08517f6f049f" category="cell">일본 개인 식별 번호(개인 및 법인)</block>
   <block id="21e0d61d9e797a17767287de32bd7bef" category="list-text">HR - 건강 범주</block>
   <block id="46bd1bd2277d77e6f044cdb7a6983fc6" category="inline-image-macro">자세히 단추</block>
@@ -2004,7 +1971,6 @@
   <block id="dfc0ae4804b6b33aec281efa7221c9f8" category="list-text">Select Data Analysis Tool_page에서 분류자를 정의하는 데 사용할 방법으로 * 사용자 지정 정규식 * 을 선택한 후 * 다음 * 을 클릭합니다.</block>
   <block id="a9569396e69f952ac709738236397e87" category="list-text">Create Logic_page에서 정규식과 근접 단어를 입력하고 * Done * 을 클릭합니다.</block>
   <block id="13ba2d1d9a0f00239a30b9470cb310b7" category="list-text">선택적으로 근접 단어를 입력하여 결과의 정확도를 높일 수 있습니다. 일반적으로 검색하는 패턴의 300자 이내(찾은 패턴 이전 또는 이후)에 있는 단어입니다. 각 단어 또는 구를 별도의 줄에 입력합니다.</block>
-  <block id="1e7880d19e1061f1e0be8da511ed88eb" category="inline-image-macro">고객 분류자의 regex 및 근접 단어를 입력하는 스크린샷</block>
   <block id="8925d45313a1840fbda58900234b9850" category="inline-image-macro">스캐닝이 진행 중인 상태에서 시스템에 추가되는 새 정규식 분류자의 결과를 보여 주는 스크린샷</block>
   <block id="a70eb09ec7232b2b5daa5a4ed1191637" category="paragraph"><block ref="a70eb09ec7232b2b5daa5a4ed1191637" category="inline-image-macro-rx" type="image"></block></block>
   <block id="271475eb7f78f9d2e008af17381b1de6" category="section-title">사용자 지정 분류자의 결과를 봅니다</block>
@@ -2155,12 +2121,8 @@
   <block id="e3c79b2ff3bee6052bf8c4ee0232f80e" category="paragraph"><block ref="e3c79b2ff3bee6052bf8c4ee0232f80e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9e4767f52f09ad6e7ef4b30d384072e4" category="list-text">데이터 분석 선택 도구_페이지에서 분류자를 정의하는 데 사용할 방법으로 * 사용자 정의 키워드 * 를 선택한 후 * 다음 * 을 클릭합니다.</block>
   <block id="3a90a5ca5e14d97fff479f3d90241b87" category="list-text">Create Logic_page에서 인식하려는 키워드(각 단어를 별도의 줄에 입력)를 입력하고 * Validate * 를 클릭합니다.</block>
-  <block id="191f56b08d3aa6205b1fc04740933cb0" category="inline-image-macro">고객 분류자의 키워드를 입력하는 스크린샷</block>
-  <block id="e118360bc0be2d158a035dd090d97a14" category="paragraph"><block ref="e118360bc0be2d158a035dd090d97a14" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4a0c8017c43848ad16733c719676cca0" category="paragraph">검사가 완료되면 "개인 결과" 섹션의 준수 대시보드 및 "개인 데이터" 필터의 조사 페이지에 이 새로운 정보가 결과에 포함됩니다.</block>
   <block id="9d56a2a830feae88d7c977220b52c2f0" category="paragraph">보시다시피 분류자의 이름은 개인 결과 패널에서 이름으로 사용됩니다. 이러한 방식으로 여러 키워드 그룹을 활성화하고 각 그룹의 결과를 볼 수 있습니다.</block>
-  <block id="2941998d10d5b129985cf6f71952d76a" category="paragraph">을 참조하십시오<block ref="58ff2edcee6f09ed29d8b1fa3d90f44d" category="inline-link-rx"></block> 정규식을 작성하는 데 도움이 필요한 경우</block>
-  <block id="bc88bee93425842eaf0d676cafac7772" category="paragraph"><block ref="bc88bee93425842eaf0d676cafac7772" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d221f76e0177c019cf82913885bbd0d" category="section-title">사용자 지정 범주를 추가합니다</block>
   <block id="0741a8e3d0de49fd54dd6e2c08c12535" category="inline-link-macro">미리 정의된 범주 목록을 참조하십시오</block>
   <block id="68791bee5ed94dd2236ce0d5fb76ef7c" category="paragraph">범주는 보유한 정보의 유형을 표시하여 데이터의 상태를 이해하는 데 도움이 됩니다. 예를 들어, _resums_ 또는 _employee contracts_와 같은 범주에 중요한 데이터가 포함될 수 있습니다. 결과를 조사할 때 직원 계약이 안전하지 않은 위치에 저장되어 있는 것을 발견할 수 있습니다. 그런 다음 해당 문제를 해결할 수 있습니다.</block>
@@ -2749,7 +2711,6 @@
   <block id="af0ca0f7eeb04884e0718a50bbcfb74d" category="paragraph">BlueXP 분류는 BlueXP Canvas에 추가한 작업 환경과 BlueXP 분류가 네트워크를 통해 액세스할 수 있는 다양한 유형의 정형 및 비정형 데이터 소스에서 데이터를 검색할 수 있습니다.</block>
   <block id="33131c83033941e511576a90476300a6" category="paragraph">BlueXP 분류는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.</block>
   <block id="4f554b82a208efb281c300628a271b8e" category="section-title">인터넷 액세스 없이 사이트에 BlueXP 분류를 설치할 경우 어떤 데이터 소스를 검색할 수 있습니까?</block>
-  <block id="3defc371ca20714c31806a8ab1d93135" category="paragraph">BlueXP 분류는 사내 사이트에 로컬인 데이터 소스에서만 데이터를 스캔할 수 있습니다. 현재 BlueXP 분류는 "어두운" 사이트에서 다음 로컬 데이터 소스를 검사할 수 있습니다.</block>
   <block id="bc90c1660d729d86ab10b8018a956932" category="paragraph">BlueXP 분류는 모든 파일에서 범주 및 메타데이터 정보를 검색하고 대시보드의 파일 형식 섹션에 모든 파일 형식을 표시합니다.</block>
   <block id="6352911cc42108d1f16863e618ef84d4" category="paragraph">BlueXP 분류에서 PII(개인 식별 정보)를 감지하거나 DSAR 검색을 수행할 때 다음 파일 형식만 지원됩니다.</block>
   <block id="d288c89eadda3d7c229b7316faf2209a" category="section-title">BlueXP 분류 체계는 어떤 종류의 데이터와 메타데이터를 캡처합니까?</block>
@@ -2812,7 +2773,6 @@
   <block id="e88adea3b212c154801612c8605db6d5" category="paragraph">Data Fusion _ 라는 기능을 사용하면 조직의 데이터를 스캔하여 데이터베이스에서 고유한 식별자가 다른 데이터 소스에서 검색되는지 여부를 확인할 수 있습니다. 데이터베이스 테이블에서 특정 열 또는 열을 선택하여 BlueXP 분류에서 검색할 추가 식별자를 선택할 수 있습니다. 예를 들어, 아래 다이어그램은 Data Fusion를 사용하여 볼륨, 버킷 및 데이터베이스를 검사하여 Oracle 데이터베이스에서 모든 고객 ID를 확인하는 방법을 보여 줍니다.</block>
   <block id="905a4962b323594ff4605a44781efa64" category="paragraph">자신의 데이터베이스를 스캔하기 때문에 데이터가 저장된 언어는 향후 BlueXP 분류 검사에서 데이터를 식별하는 데 사용됩니다.</block>
   <block id="7d6ff4779a51eda37c81632e481e5db2" category="paragraph">이(가) 있어야 합니다 <block ref="4ec8c7ffee3077e2fe1a50f122f89322" category="inline-link-macro-rx"></block> 데이터 Fusion 소스를 추가하기 전에 BlueXP 분류를 수행합니다.</block>
-  <block id="f0d905a2b95158fa649adac1455f5138" category="paragraph">Data Fusion 인벤토리 페이지에는 검사를 위해 BlueXP 분류를 구성한 데이터베이스 소스 열이 표시됩니다.</block>
   <block id="7c655988789d416c5a4a87e462cfe874" category="paragraph">사용자 지정 키워드를 BlueXP 분류에 추가하여 데이터에서 해당 정보가 있는 위치를 식별할 수 있습니다. BlueXP 분류를 인식할 각 단어를 입력하여 키워드를 추가합니다. 키워드는 BlueXP 분류에서 이미 사용하는 기존의 미리 정의된 키워드에 추가되며, 결과는 개인 패턴 섹션 아래에 표시됩니다.</block>
   <block id="ddebf200916f487e633020a034f5904d" category="paragraph">사용자 지정 키워드를 업데이트한 후 BlueXP 분류는 모든 데이터 소스 스캔을 다시 시작합니다. 검사가 완료되면 "개인 결과" 섹션 아래의 BlueXP 분류 준수 대시보드와 "개인 데이터" 필터의 조사 페이지에 새 결과가 나타납니다.</block>
   <block id="3702db8c41a7dd17f1292e46a0b6c861" category="paragraph">입력한 이름은 BlueXP 분류 UI에 분류자 요구 사항과 일치하는 스캔된 파일의 머리글로, 조사 페이지의 필터 이름으로 표시됩니다.</block>
@@ -2877,13 +2837,10 @@
   <block id="c07dbec3e7acd472789625d35a7563da" category="paragraph">BlueXP 분류는 Amazon S3 및 데이터베이스를 제외한 모든 데이터 소스 유형의 디렉토리 스캔을 지원합니다. 현재 단일 디렉토리(폴더 또는 공유) 또는 여러 디렉토리 재검색 기능을 지원합니다. 향후 지원에는 추가 리포지토리 유형(파일, 데이터베이스 등)을 다시 스캔하는 것이 포함됩니다.</block>
   <block id="eb069b124d02b06908e1071cc2edae80" category="summary">데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 그러나 매우 작은 충격에도 신경 쓰면 BlueXP 분류를 구성하여 "느린" 스캔을 수행할 수 있습니다.</block>
   <block id="97ef33fd9429f1df7d0c8f2bd514652f" category="doc">BlueXP 분류 스캔 속도를 줄입니다</block>
-  <block id="4ee44614605fdee3023ee5e90fc32c96" category="summary">인터넷 액세스가 없는 사내 사이트의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 가지 단계를 완료하십시오. 이러한 유형의 설치는 보안 사이트에 적합합니다.</block>
   <block id="640f79fe2c11ee3747373fdc28e64b1d" category="doc">인터넷에 액세스할 수 없는 호스트에 BlueXP 분류를 설치합니다</block>
   <block id="4f7157701d2db96edcc01457067a6771" category="inline-link-macro">인터넷에 액세스할 수 있는 사내 사이트에 BlueXP 분류를 배포합니다</block>
   <block id="90815e3d99ff61b4887b2f941fff4e46" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="1a9c56cdde8c9a93a744fbe95f12b64a" category="inline-link-macro-rx"></block>.</block>
   <block id="e883a1e45b8fba8675ed0e79f4a46200" category="paragraph">BlueXP 분류 설치 스크립트는 시스템 및 환경이 필수 전제 조건을 충족하는지 확인하는 것으로 시작됩니다. 필수 구성 요소가 모두 충족되면 설치가 시작됩니다. BlueXP 분류 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다. <block ref="18e558c0c5f7db863c39638301013423" category="inline-link-macro-rx"></block>.</block>
-  <block id="c383b2b4ecaf670c0911464dc58a95f6" category="paragraph">이러한 방식으로 설치할 경우("오프라인" 또는 "다크" 사이트라고도 함) BlueXP 분류는 사내 사이트에 로컬인 데이터 소스에서만 데이터를 스캔할 수 있습니다. 현재 BlueXP 분류는 다음 * 로컬 * 데이터 소스를 검사할 수 있습니다.</block>
-  <block id="1c4bb213d1712e300bd8be0758e63681" category="paragraph">현재 Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP, AWS S3 또는 Google Drive 스캔을 지원하지 않습니다. BlueXP 분류가 어두운 사이트에 배포된 경우 OneDrive 또는 SharePoint Online 계정</block>
   <block id="00c4bd00ffe3dc5bd31127d620af994f" category="paragraph">대부분의 BlueXP 분류 기능은 인터넷에 액세스할 수 없는 사이트에 배포할 때 작동합니다. 그러나 인터넷 액세스가 필요한 특정 기능은 지원되지 않습니다. 예를 들면 다음과 같습니다.</block>
   <block id="3810a01b94974a043d567ab2db7a696e" category="list-text">BlueXP 복사 및 동기화를 사용하여 소스 파일 복사 및 동기화</block>
   <block id="4e723b95287afbde0f6a8cc51611032a" category="inline-link-macro">BlueXP 분류 릴리스 정보</block>
@@ -2924,7 +2881,6 @@
   <block id="3cbfe5d6050d3fa6a178743d08cc033f" category="paragraph">BlueXP 분류 설치 프로그램이 패키지 설치를 완료하고 설치를 등록합니다. 설치에는 15 ~ 25분이 소요될 수 있습니다.</block>
   <block id="f00f20082c79c9a705bd40373b5cc586" category="section-title">BlueXP 분류 소프트웨어를 업그레이드합니다</block>
   <block id="63f5b4da5545b30a2083b6f7eedcd826" category="paragraph">BlueXP 분류 소프트웨어는 정기적으로 새로운 기능으로 업데이트되므로 정기적으로 새로운 버전을 확인하여 최신 소프트웨어와 기능을 사용하고 있는지 확인해야 합니다. 업그레이드를 자동으로 수행하기 위한 인터넷 연결이 없기 때문에 BlueXP 분류 소프트웨어를 수동으로 업그레이드해야 합니다.</block>
-  <block id="c8394b699f3b76874fd2d529699d8d72" category="list-text">BlueXP 분류 소프트웨어는 한 번에 하나의 주요 버전으로 업그레이드할 수 있습니다. 예를 들어, 버전 1.20.x가 설치되어 있는 경우 1.21.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
   <block id="b814c5d8e5cff4b4ed2155ea6a2243a8" category="list-text">소프트웨어 번들을 Linux 호스트에 복사하면 BlueXP 분류가 다크 사이트에 설치됩니다.</block>
   <block id="7780686cdd0be0a9a8a2193a030392e5" category="paragraph">BlueXP 분류 소프트웨어가 호스트에서 업그레이드됩니다. 업데이트는 5분에서 10분 정도 소요될 수 있습니다.</block>
   <block id="0c15d0871362e4ad1de8e6731ecdac22" category="paragraph">대규모 구성을 스캔하기 위해 여러 호스트 시스템에 BlueXP 분류를 배포한 경우에는 스캐너 노드에 업그레이드가 필요하지 않습니다.</block>
@@ -3072,11 +3028,9 @@
   <block id="ae2fd70b5fccf0d18c6c0a33a953aa3b" category="doc">BlueXP 분류를 제거하는 중입니다</block>
   <block id="f93e118724d27bde2efdff3938b9b6df" category="paragraph">필요한 단계는 클라우드에 BlueXP 분류를 배포했는지 또는 온프레미스 호스트에 배포했는지에 따라 달라집니다.</block>
   <block id="8d8f6d516c2b2976c4b330129843859b" category="section-title">클라우드 배포에서 BlueXP 분류를 제거합니다</block>
-  <block id="fcab398c475cbf16e71f0af73d900dc3" category="paragraph">BlueXP 분류를 더 이상 사용하지 않으려는 경우 클라우드 공급자에서 BlueXP 분류 인스턴스를 제거하고 삭제할 수 있습니다.</block>
   <block id="fb718f900bda591d59ded552d9f94de8" category="list-text">BlueXP 분류 페이지 상단에서 을 클릭합니다 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 데이터 감지 제거 * 를 클릭합니다.</block>
   <block id="36c78ffc00f44e6669853141b4757135" category="inline-image-macro">BlueXP 분류 소프트웨어를 제거하는 단추 스크린샷.</block>
   <block id="f4b93d0f798b3e20a2411b62607f9933" category="paragraph"><block ref="f4b93d0f798b3e20a2411b62607f9933" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b5898183cb0358b8b05a7f376a3ca8c7" category="paragraph">클라우드 공급자의 콘솔로 이동하여 BlueXP 분류 인스턴스를 삭제할 수도 있습니다. 인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_</block>
   <block id="a3b42cd70d6e63a58b881566f7a8992b" category="section-title">온-프레미스 배포에서 BlueXP 분류를 제거합니다</block>
   <block id="19699e7aed7e972e489e53b7a581039d" category="paragraph">BlueXP 분류를 더 이상 사용하지 않거나 재설치가 필요한 문제가 있는 경우 호스트에서 BlueXP 분류를 제거할 수 있습니다.</block>
   <block id="0b139c0236cbbe51386a48380dccef80" category="summary">BlueXP 분류는 개인 데이터를 관리하고 구성할 수 있는 다양한 방법을 제공합니다. 따라서 가장 중요한 데이터를 더 쉽게 볼 수 있습니다.</block>
@@ -3160,7 +3114,6 @@
   <block id="2e1a4e3f55001820560b237188c70bc3" category="cell">/var/lib/docker입니다</block>
   <block id="651ffe70d1da174ca6955ceb139ab71c" category="cell"><block ref="20218561600e990c68a725b6b98ae569" prefix="" category="inline-code"></block></block>
   <block id="361e697d946a0a8473f2bda1979090c3" category="cell">/user/lib/systemd/system</block>
-  <block id="fa17233f7eaadf931550cd80b9ba0e45" category="list-text">RHEL 또는 CentOS 버전 7.8 또는 7.9를 사용할 수 있지만 Linux 커널 버전은 4.0 이상이어야 합니다</block>
   <block id="9997b2ae11cbffd6fe1a6e9f683ed24a" category="paragraph">+ BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="ae4d468f55febeccb4eff973d9b635ff" category="inline-link-macro">여기에서 데이터 주제에 대해 자세히 알아보십시오</block>
   <block id="1a7107cbf75ccf5399b80fbafd0ee649" category="cell">데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. <block ref="dbe06c006d2f67629a75e1ec088edbea" category="inline-link-macro-rx"></block>.</block>
@@ -3198,7 +3151,6 @@
   <block id="b8896222e179e8ba790e363bd135ecae" category="paragraph">Azure 및 Azure Government 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오<block ref="179e195cc8e81b19d72f9ddb7460e81f" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="ccb7563cf9bbae3ac26b7f8f10f59968" category="paragraph">따라서 여러 위치에 데이터가 있는 경우 를 사용해야 할 수 있습니다<block ref="bc298eaca29e4bff3f0d222b24813861" category="inline-link-rx"></block>.</block>
   <block id="c2a51289509ec65eb3621726e2760f5a" category="paragraph">예. 가능합니다<block ref="643a4fbaa5b15b86bda31e47e3f0d2bb" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 호스트 BlueXP 분류를 사내 배포하려는 경우 Connector를 온-프레미스에도 설치할 수 있지만 반드시 필요한 것은 아닙니다.</block>
-  <block id="b4ebf9c8f6076746b08fc48974345e32" category="paragraph">예, 지원합니다. 가능합니다<block ref="1c270efcf36a8d1c2de58c1ed2ed7315" category="inline-link-rx"></block>. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 BlueXP 분류를 사용하여 데이터를 검색할 수 있습니다.</block>
   <block id="abefc4760bb681a677a193d3f612cf4f" category="paragraph">ONTAP 볼륨에 대해 FSx를 스캔하기 전에<block ref="7452eb54bbdeb3cd1b4f5d5a58a8a661" category="inline-link-rx"></block>.</block>
   <block id="bbb49ffca9a7a090a24129f517c49921" category="paragraph"><block ref="cfae4f09920e34de0a804a19a3f6c70a" category="inline-link-rx"></block>.</block>
   <block id="52ba8ac12050d2494572b940a0d65b25" category="list-text"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
@@ -3227,8 +3179,6 @@
   <block id="30fc689a9c3cd4222329fe3a4c818a33" category="paragraph">드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우<block ref="06a3bc9d474b5d4e44d1a2733cac785a" category="inline-link-rx"></block>.</block>
   <block id="94a52882adfe57c5834eeba52357fc83" category="paragraph">필요한 경우 이러한 결과를 보고서로 내보내면 권한 때문에 어떤 파일이 스캔되고 있는지 또는 스캔되지 않았는지 확인할 수 있습니다.<block ref="12cdeb999c26684f4f639c285d1ab42e" category="inline-link-rx"></block>.</block>
   <block id="8d6538084049892228b105ee80ab20a7" category="paragraph">BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="ec79fe10499592bc63065061930fbb06" category="inline-link-rx"></block> 및 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>.</block>
-  <block id="ba29241cb1ada66fbef1294aa7e1002a" category="paragraph">오프라인 온-프레미스 사이트에 커넥터가 아직 설치되어 있지 않은 경우<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 이제 Linux 호스트에서</block>
-  <block id="b63ff2e2b175854ce3610e27e52a6f21" category="paragraph">오프라인 온-프레미스 사이트에 BlueXP Connector가 아직 설치되어 있지 않은 경우<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 오프라인 사이트의 Linux 호스트</block>
   <block id="772608951c3bed8c37dd30e4fa52ea7a" category="list-text">Connector에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다<block ref="12017b43c12237092f4f947467fd170e" category="inline-link-rx"></block>.</block>
   <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 세트의 데이터 규정 준수 공백에 대한 인식을 높이는 것입니다.<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>.</block>
   <block id="38e8bfeb390cec6e72d97323084e18cc" category="paragraph">AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 두 가지 작은 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다.<block ref="d8ef680ce45b86e2a6afe2805a7e5562" category="inline-link-rx"></block>.</block>
@@ -3260,15 +3210,6 @@
   <block id="3b572d9c05ed055da6459f3e2b6bea84" category="paragraph">스캐닝을 일시 중지하면 데이터 센스에서 볼륨 또는 버킷에 대한 추가 또는 변경 사항에 대해 향후 스캐닝을 수행하지 않지만 시스템에서 현재 모든 결과를 계속 사용할 수 있습니다.<block ref="fba52941eb2875e9ea6da4ed2fe28022" category="inline-link-rx"></block>.</block>
   <block id="03b10003577e8d37f10edbb62ef2ee5c" category="paragraph">과거에는 사용자 지정 정책을 만들었을 때 검색 기준과 일치하는 파일이 결과에 표시됩니다. 이제 결과에 쿼리와 일치하는 디렉토리(폴더 및 파일 공유)도 표시됩니다.<block ref="ccb93d8e566e1e038edf17d92ae50d0d" category="inline-link-rx"></block>.</block>
   <block id="eaca269100e6cf0779ac7a4fcd678906" category="paragraph">Data Sense를 사용하여 스캔한 데이터 소스에서 NFS 공유로 파일을 이동하려는 경우 최대 파일 수가 100,000개로 늘어났습니다.<block ref="5a5ecc63e9c44abe629f0e448f245359" category="inline-link-rx"></block>.</block>
-  <block id="2861f70af3b42e90eec7e285c70a9c8d" category="paragraph">데이터 조사 페이지에서 데이터를 필터링한 후에는 데이터를 .JSON 파일에 보고서로 저장하여 NFS 공유로 내보낼 수 있으며 로컬 시스템의 .csv 파일에 데이터를 저장할 수도 있습니다. 데이터 센스에 내보내기 액세스에 대한 올바른 권한이 있는지 확인하십시오.<block ref="7afde6877e2ae4e967ec248e30653d66" category="inline-link-rx"></block>.</block>
-  <block id="478f08fe5b5fe809c6b21f13651500da" category="paragraph">Data Sense를 제거하여 호스트에서 소프트웨어를 영구적으로 제거할 수 있으며, 클라우드 배포의 경우 Data Sense가 배포된 가상 머신/인스턴스를 삭제할 수 있습니다. 인스턴스를 삭제하면 데이터 센스에서 스캔한 모든 인덱싱된 정보가 영구적으로 삭제됩니다.<block ref="bdca54d6bf3eebba0728d5a1d7eb236c" category="inline-link-rx"></block>.</block>
-  <block id="cd86045a347ee0d8457de102c22a7fdf" category="paragraph"><block ref="5c757199826793147ff22b567458314b" category="inline-link-rx"></block>.</block>
-  <block id="59bf226793c8978b0bab2ae77843401d" category="paragraph"><block ref="7a7e187b1204a0f471af3266bca88524" category="inline-link-rx"></block>.</block>
-  <block id="53736873f529dad7bd7046cb7661c6a9" category="paragraph">이전에 만든 사용자 지정 정책을 변경해야 하는 경우 새 정책을 만드는 대신 정책을 편집할 수 있습니다.<block ref="e3bc30380d421ea397691bfc976eb397" category="inline-link-rx"></block>.</block>
-  <block id="fea76c790acd43cf50315716dc8913b1" category="paragraph">이제 Google Drive 계정을 데이터 센스에 추가하여 해당 Google Drive 계정의 문서와 파일을 검색할 수 있습니다.<block ref="7a1afe123dfdc25a0ad9a0e77396e331" category="inline-link-rx"></block>.</block>
-  <block id="5d453722647d508b47c2cac8119abeed" category="paragraph">Data Sense는 다음 Google Docs 제품군(문서, 시트 및 슬라이드)에서 개인 식별 정보(PII)를 식별할 수 있습니다<block ref="aae50f4bf2d5955e33e4448cfc2446cf" category="inline-link-rx"></block>.</block>
-  <block id="7a7144f5247ce7406c8787806665c592" category="paragraph">이제 모든 파일과 데이터베이스의 데이터를 보고 필터링할 수 있을 뿐 아니라 데이터 조사 페이지의 폴더 및 공유 내의 모든 데이터를 기반으로 데이터를 보고 필터링할 수 있습니다. 디렉토리는 스캔된 CIFS 및 NFS 공유와 OneDrive, SharePoint 및 Google Drive 폴더에 대해 인덱싱됩니다. 따라서 이제 디렉토리 수준에서 사용 권한을 보고 데이터를 관리할 수 있습니다.<block ref="f2a55e31f0ac3e171d1e45b8e3eb2c50" category="inline-link-rx"></block>.</block>
-  <block id="019559d3bd068962cb59afee4e2967d5" category="paragraph">이제 데이터 감지 사용 권한 기능의 일부로 파일에 액세스할 수 있는 사용자 및 그룹 목록을 볼 수 있습니다. 각 그룹을 확장하여 그룹의 사용자 목록을 표시할 수 있습니다.<block ref="70d54ddc5877b170257ba4130e65b17c" category="inline-link-rx"></block>.</block>
   <block id="9aeb191a0aa6c1027436d873f00b71c9" category="paragraph">가능합니다<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.</block>
   <block id="1b01b1e09dd0c52ed6a6d8b4ca2a0568" category="paragraph">클라우드 공급자 환경에 Connector를 만들려면 를 참조하십시오<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>,<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>, 또는<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>.</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
@@ -3297,9 +3238,6 @@
   <block id="643a860f992333b8600ea264aca7c4fc" category="cell">이메일 주소</block>
   <block id="52d854882d971396b8b17f8ac787c3c5" category="cell">IBAN 번호(국제 은행 계좌 번호)</block>
   <block id="5b8c99dad1893a85076709b2d3c2d2d0" category="cell">IP 주소</block>
-  <block id="e5051949dc3a37f9077e85df0f1c8a21" category="list-text">Ubuntu 22.04</block>
-  <block id="bfb5ca6a1be7e27bafb8e663408b453a" category="list-text">Red Hat Enterprise Linux 버전 8.0 - 8.5</block>
-  <block id="0d424e96e4117758c3bc3268ab82bacf" category="list-text">CentOS 버전 8.0 ~ 8.5</block>
   <block id="3dac7b81357a4f4b160a2d842c8e7348" category="list-text">CIFS-139(TCP\UDP) 및 445(TCP\UDP)의 경우</block>
   <block id="130c9b78c071186d7e3d61f1c4eb4c60" category="list-text">BlueXP Connector 소프트웨어를 최신 버전으로 업그레이드하는 것이 좋습니다.<block ref="1189728130fe33c2fb7adb2d97a83d35" category="inline-link-rx"></block>.</block>
   <block id="78b65cf97b25c47011081025c212c7c0" category="paragraph">클라우드에 BlueXP 분류를 배포하기 전에 다음 사전 요구 사항을 검토하여 지원되는 구성이 있는지 확인합니다. 클라우드에 BlueXP 분류를 배포할 때 Connector와 동일한 서브넷에 위치합니다.</block>
@@ -3402,4 +3340,79 @@
   <block id="7273543485153af36bd67d8d37fe08b3" category="summary">검사 중인 파일 중 하나에 액세스하거나 변경할 때마다 이벤트에 기록하도록 BlueXP 분류를 구성할 수 있습니다. 그런 다음 이 로그 파일(파일 액세스 감사 로그)의 내용을 보거나 다운로드하여 어떤 파일 변경이 발생했는지, 누가 변경했는지 확인할 수 있습니다.</block>
   <block id="145ca78924109b125fb405dc2644ebba" category="paragraph">ONTAP 소프트웨어를 실행하는 작업 환경의 중요 볼륨에서 이 기능을 활성화할 수 있습니다. 볼륨에서 활성화된 경우 볼륨의 모든 파일 및 디렉토리에 대해 파일 액세스 이벤트가 추적됩니다. 이 기능은 를 기반으로 합니다<block ref="215c8ae39ab5aa2af1bf0d7956d6ac15" category="inline-link-rx"></block> ONTAP 시스템에서 BlueXP 분류 시스템을 FPolicy 서버로 사용하여 ONTAP의 알림 메시지(이벤트)를 수신합니다. BlueXP 분류는 ONTAP에서 초당 약 990개의 이벤트를 처리할 수 있습니다.</block>
   <block id="7a6df57d74a900c4b9e956add6358c97" category="paragraph">설치 프로그램은 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되어 있는지 확인합니다.<block ref="4ca4cc07e57f7afbeb1dff6c98bd6092" category="inline-link-rx"></block> 사전 점검 메시지 및 의미를 이해합니다.</block>
+  <block id="809de3d4b48cba202a3e92df9b5646ca" category="paragraph">BlueXP 분류를 더 이상 사용하지 않으려는 경우 클라우드 공급자 환경에서 BlueXP 분류 인스턴스를 제거하고 삭제할 수 있습니다.</block>
+  <block id="7b608a074398a486bc744655598680ea" category="list-text">데이터 감지 제거 대화 상자에서 * 제거 * 를 입력하여 BlueXP 커넥터에서 BlueXP 분류 인스턴스를 분리할지 확인한 다음 * 제거 * 를 클릭합니다.</block>
+  <block id="f10f83db534963d9efae7a297e100091" category="list-text">클라우드 공급자의 콘솔로 이동하여 BlueXP 분류 인스턴스를 삭제합니다. 인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_</block>
+  <block id="961ca08e58e9f85191f5707bc4dac07a" category="paragraph">그러면 인스턴스 및 BlueXP 분류에서 수집한 모든 관련 데이터가 삭제됩니다.</block>
+  <block id="2c81bcce32daace3a1e27ca8e62dfd40" category="list-text">호스트에서 소프트웨어를 제거하려면 를 실행합니다<block ref="cc561bef4dbd2996ec2b2478f3e1042d" prefix=" " category="inline-code"></block> 호스트 시스템의 스크립트(예:</block>
+  <block id="e1add3649abfc02bc2a83bd64183210e" category="summary">"비공개 모드"라고도 하는 인터넷 액세스가 없는 사내 사이트의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 가지 단계를 완료하십시오. 이러한 유형의 설치는 보안 사이트에 적합합니다.</block>
+  <block id="05e22c2c931d6a4218f029a72eeb9206" category="inline-link">BlueXP Connector 및 BlueXP 분류의 다양한 배포 모드에 대해 알아보십시오</block>
+  <block id="3c86f5b7f0c9db7841cc30ae9d32c2c2" category="paragraph"><block ref="a9635649936a46cf7723db5b3c00a913" category="inline-link-rx"></block>.</block>
+  <block id="2d2dd43d5ab43d823e03c94645202108" category="paragraph">비공개 모드("오프라인" 또는 "다크" 사이트라고도 함)를 설치할 경우 BlueXP 분류는 사내 사이트에 로컬인 데이터 소스에서만 데이터를 스캔할 수 있습니다. 현재 BlueXP 분류는 다음 * 로컬 * 데이터 소스를 검사할 수 있습니다.</block>
+  <block id="d2a2c5ad694a196d91103a3db366503f" category="paragraph">현재 Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP, AWS S3 또는 Google Drive 스캔을 지원하지 않습니다. BlueXP 분류가 개인 모드로 배포되는 경우 OneDrive 또는 SharePoint Online 계정</block>
+  <block id="548a75d789202d935a1a2f04740b1caf" category="paragraph">아직 비공개 모드로 커넥터가 설치되어 있지 않은 경우<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 이제 Linux 호스트에서</block>
+  <block id="958f4b7cbe550d6d49b31bbeff50f3a9" category="paragraph">BlueXP 커넥터가 아직 비공개 모드로 설치되어 있지 않은 경우<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 오프라인 사이트의 Linux 호스트</block>
+  <block id="ebd8af30c2bd1f5614199bd389919de2" category="list-text">Red Hat Enterprise Linux 버전 7.8 및 7.9 - Linux 커널 버전은 4.0 이상이어야 합니다</block>
+  <block id="067032f0b3420d92b7bee458a84f9cb8" category="list-text">CentOS 버전 7.8 및 7.9 - Linux 커널 버전은 4.0 이상이어야 합니다</block>
+  <block id="171555066bf717df792509b1e762fc08" category="list-text">Rocky Linux 9(BlueXP 분류 버전 1.24 이상 필요)</block>
+  <block id="941bcccad7d165ebd4c5d993e2643a0b" category="list-text">Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)</block>
+  <block id="5c2d28b4f3a99b0fe3968b98ea7d88e5" category="inline-link-macro">자세한 내용은 여기에서 확인하십시오.</block>
+  <block id="92b051108aff71c86d91cfa5338016b1" category="paragraph">모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 기록됩니다<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>. <block ref="d63cd9daf9e428da9929248a998d6b79" category="inline-link-macro-rx"></block>.</block>
+  <block id="e441d0b06845e470533ecf90d990663b" category="list-text">개인 모드에서 사용할 Linux 호스트에 설치 프로그램 번들을 복사합니다.</block>
+  <block id="c28fe179e2385f26eb310f2d32183eea" category="list-text">BlueXP 분류 버전 1.24부터 향후 모든 소프트웨어 버전으로 업그레이드할 수 있습니다.</block>
+  <block id="6d1c16ac15ccc187094a216f48771131" category="paragraph">BlueXP 분류 소프트웨어가 1.24 이전 버전을 실행 중인 경우 한 번에 하나의 주요 버전만 업그레이드할 수 있습니다. 예를 들어, 버전 1.21.x가 설치되어 있는 경우 1.22.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
+  <block id="6aeb4bc196ce15b33fc71ab2281bea05" category="inline-link-macro">데이터베이스에서 사용자 지정 개인 데이터 식별자를 추가하는 방법에 대해 알아봅니다</block>
+  <block id="d2a0b2ea5f0192d44b255b22ac07ac38" category="paragraph">데이터베이스 검사를 사용하도록 설정한 후에는 BlueXP 분류가 데이터베이스의 특정 열을 기반으로 모든 데이터 원본에서 식별하는 고유 식별자를 추가할 수 있습니다. 이를 _Data Fusion_피처라고 합니다. <block ref="27145dd16962daa6321a9c7c31532d09" category="inline-link-macro-rx"></block>.</block>
+  <block id="22aaaee7ed315da82bdc4e6c44ea217b" category="paragraph">현재 한 번에 최대 20개의 파일에 태그를 적용할 수 있습니다. - 데이터 조사 결과 페이지에서 한 페이지.</block>
+  <block id="f02bee48d510d4c39a70c57e295d5f38" category="summary">데이터베이스 스키마를 스캔할 때 BlueXP 분류에서 사용할 수 없는 몇 가지 기능이 있습니다.</block>
+  <block id="7aa098aa616e23b53a2f4243de4e4a07" category="doc">지원 및 지원되지 않는 데이터베이스 기능입니다</block>
+  <block id="f0061c0ade9d240d09f9bbadc2b27aa3" category="paragraph">데이터베이스 스키마를 스캔할 때 BlueXP 분류에서 사용할 수 없는 몇 가지 기능이 있습니다. 아래 목록을 참조하십시오.</block>
+  <block id="990222def8053839fd07dd4a3c81e9dc" category="inline-link-macro">참조하십시오</block>
+  <block id="f408878c9c22bd52607fe08b497546a4" category="paragraph">검사할 BlueXP 분류에 데이터베이스 스키마를 추가할 수 있습니다 <block ref="32350e7a1f032d301549bb941192cdc0" category="inline-link-macro-rx"></block>.</block>
+  <block id="a71f76c3256e4c206a4841d8eb0fed35" category="cell">SQL 서버</block>
+  <block id="35686630aa3baddc18c904374e570233" category="cell">Amazon RDS 비교</block>
+  <block id="06df33001c1d7187fdd81ea1f5b277aa" category="cell">작업</block>
+  <block id="af4141cf3fb8179af4deac9547c01278" category="cell">정책을 생성합니다</block>
+  <block id="c101058e7ea21bbbf2a5ac893088e90b" category="cell">태그</block>
+  <block id="773ecc684d98231f8f23773727622446" category="cell">할당 대상</block>
+  <block id="5e20646580da584d76435da00d6face4" category="cell">데이터를 내보냅니다</block>
+  <block id="cd6ae20e52d83f601c5fa12b66f0f6d0" category="cell">다시 검색합니다</block>
+  <block id="9dd4e461268c8034f5c8564e155c67a6" category="cell">X</block>
+  <block id="6bc362dbf494c61ea117fe3c71ca48a5" category="cell">이동</block>
+  <block id="5fb63579fc981698f97d55bfecb213ea" category="cell">복사</block>
+  <block id="f3f43e30c8c7d78c6ac0173515e57a00" category="cell">필터</block>
+  <block id="e80df5ee03a17fe47c471debd1cb6a7b" category="cell">스캔 분석 상태</block>
+  <block id="16627cf42947f5240556f0586110db9b" category="cell">작업 환경</block>
+  <block id="8e1608d6951087912c426bcb53d12280" category="cell">저장소 저장소</block>
+  <block id="ab8e5ad0942da85cf79224653e3beb72" category="cell">감도 수준</block>
+  <block id="c815717e4decce00234014599e664ab0" category="cell">데이터 제목</block>
+  <block id="3e9f09095e53d4aa46d296b9c32b7be4" category="cell">스캔 분석 이벤트</block>
+  <block id="7c2647ff45382a42029e7a109ef1b4c5" category="cell">파일/디렉토리 경로입니다</block>
+  <block id="c24fd35c406c9694e3bee288f8825b5c" category="cell">권한 필터</block>
+  <block id="e2f64dc02ab3f9d3b659d24b9503b545" category="cell">독일어 ID(Personalausweummer)</block>
+  <block id="95f62f425a7554a6bb2367cbfa3779e7" category="cell">은행 이관의 독일 내부 ID입니다</block>
+  <block id="ac01084f4d5a1af5de639eaf04ad94ff" category="cell">독일 사회 보장 번호(소지아버서머스무머)</block>
+  <block id="1ac31bbf670e91966ab52da26d845a13" category="paragraph">다음 검사 후 결과에는 이 새 정보가 "개인 결과" 섹션의 준수 대시보드 및 "개인 데이터" 필터의 조사 페이지에 포함됩니다. 분류자에 사용한 이름이 필터 목록에 나타납니다(예:)<block ref="4a5be64948722957979f804944a2f3b4" prefix=" " category="inline-code"></block>.</block>
+  <block id="afad61c0157650446d7dd3c6d21a14e6" category="inline-image-macro">사용자 지정 분류자의 키워드를 입력하는 스크린샷</block>
+  <block id="10f58dd452f46270c630a34534611bc1" category="paragraph"><block ref="10f58dd452f46270c630a34534611bc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d1397279bf894721deb3fa47481478d" category="paragraph">을 참조하십시오<block ref="58ff2edcee6f09ed29d8b1fa3d90f44d" category="inline-link-rx"></block> 정규식을 작성하는 데 도움이 필요한 경우 원하는 맛을 내려면 * Python * 을 선택하여 BlueXP 분류가 정규식에서 일치하는 결과의 유형을 확인하십시오.</block>
+  <block id="c010468930979e106d9f7ed3eb1af1fb" category="admonition">현재 정규식 생성 시 패턴 플래그 사용을 허용하지 않습니다. 즉, "/"를 사용하면 안 됩니다.</block>
+  <block id="6fbfdb8194a5bee71195edc43d8d917c" category="inline-image-macro">사용자 지정 분류자의 regex 및 근접 단어를 입력하는 스크린샷</block>
+  <block id="3d6c90f327764becd63dc600a2c87368" category="paragraph"><block ref="3d6c90f327764becd63dc600a2c87368" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="86eb2b827c48e5784ea52b533f562701" category="admonition">지금은 Data Fusion 분류자를 편집할 수 없습니다.</block>
+  <block id="8b099d45c50bad711b65183f7029f3da" category="admonition">현재 각 데이터 소스에서 최대 8개의 볼륨에 대해 파일 액세스 감사를 구성할 수 있습니다.</block>
+  <block id="8aa912f072a560e74be845c27c1d0978" category="paragraph">커넥터가 정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 배포되어 "제한 모드"라고도 하는 경우 BlueXP 분류가 지원됩니다. 이러한 방식으로 배포된 BlueXP 분류에는 다음과 같은 제한 사항이 있습니다.</block>
+  <block id="d8e9d38457b0cf1fc41c4f7dc9118e28" category="paragraph">BlueXP 분류는 사내 사이트에 로컬인 데이터 소스에서만 데이터를 스캔할 수 있습니다. 현재 BlueXP 분류는 "비공개 모드"에서 "다크" 사이트라고도 하는 다음 로컬 데이터 소스를 검사할 수 있습니다.</block>
+  <block id="3b1883650bdcd250161cbf99ce0450d4" category="inline-link">이를 "비공개 모드"라고도 합니다.</block>
+  <block id="26d411dfdee47762b69f79244d61895e" category="paragraph">예, 지원합니다. 가능합니다<block ref="1c270efcf36a8d1c2de58c1ed2ed7315" category="inline-link-rx"></block>.<block ref="93d53de7d74c2549b2ebf074270b753f" category="inline-link-rx"></block>. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 BlueXP 분류를 사용하여 데이터를 검색할 수 있습니다.</block>
+  <block id="0494d69152dc144f6691315fabf9af4d" category="section-title">2023년 7월 17일(버전 1.24)</block>
+  <block id="025b17159c4d2dd28926bdc5b13436e2" category="section-title">BlueXP 분류에서는 두 가지 새로운 유형의 독일 개인 데이터를 식별합니다</block>
+  <block id="f6731e0bd9f7a8a40f83ba1c622ffe25" category="section-title">Rocky Linux 9는 이제 BlueXP 분류를 설치할 수 있는 Linux 배포판입니다</block>
+  <block id="76264cc2bc8d3793465d31c38655f588" category="inline-link">Rocky Linux가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 확인하십시오</block>
+  <block id="059df2e0abacded1764d0222f6ab3b42" category="paragraph">Rocky Linux 9(9.0, 9.1 및 9.2)는 BlueXP 분류에서 지원되는 운영 체제로 인증되었습니다. 설치 프로그램의 1.24 버전을 사용하는 경우, 네트워크의 Rocky Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.<block ref="b549f731e0826bdc1659ea47e9a6f422" category="inline-link-rx"></block>.</block>
+  <block id="cdbb87700ea6d8c32de7576d1ecb9987" category="section-title">BlueXP 분류는 제한 모드 및 비공개 모드에서 완전히 지원됩니다</block>
+  <block id="7c4ed755305616a8a97076615e4aa1e5" category="inline-link">Connector의 BlueXP 배포 모드에 대해 자세히 알아보십시오</block>
+  <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">현재 BlueXP 분류는 인터넷 액세스(비공개 모드)가 없는 사이트와 제한된 아웃바운드 인터넷 액세스(제한 모드)에서 완벽하게 지원됩니다.<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>.</block>
+  <block id="8dd6a265487e54146fb2bdfb3e5174a5" category="section-title">BlueXP 분류의 비공개 모드 설치를 업그레이드할 때 버전을 건너뛸 수 있습니다</block>
+  <block id="241957d9f6c696915858d43476112454" category="paragraph">이제 순차적이지 않더라도 최신 버전의 BlueXP 분류로 업그레이드할 수 있습니다. 즉, 한 번에 한 버전씩 BlueXP 분류를 업그레이드할 때 현재 제한이 없어진다는 의미입니다. 이 기능은 버전 1.24 이상부터 관련이 있습니다.</block>
 </blocks>
