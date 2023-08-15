@@ -1294,15 +1294,11 @@
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
@@ -1420,7 +1416,6 @@
   <block id="b3478a494adde25715314b14559dd6a4" category="list-text">OneDrive 계정, SharePoint 계정 및 Google Drive 계정을 검색할 수 없습니다.</block>
   <block id="d1f03114b8fef49b0f0cb0a28049ecdf" category="list-text">Microsoft Azure 정보 보호(AIP) 레이블 기능은 통합할 수 없습니다.</block>
   <block id="d022b1f14ebf8b0b397ff02f8b6bfe78" category="section-title">정부 지역에 배포할 때 제한 사항이 있습니까?</block>
-  <block id="3f1d923e5a351dcc541f10e98f5da114" category="summary">각 작업 환경 및 데이터 원본에서 스캔되는 데이터를 관리할 수 있습니다. "리포지토리"를 기준으로 변경할 수 있습니다. 즉, 각 볼륨, 버킷, 공유, 스키마, 사용자, 스캔 중인 데이터 소스의 유형에 따라 다릅니다.</block>
   <block id="e4723f182b426a80c2a46707ff02e15e" category="inline-link-macro">매핑 스캔 또는 매핑 및 매핑, 분류 스캔</block>
   <block id="86cfaa233cd6203ca98aec701f702508" category="list-text">구성 탭에서 작업 환경의 * 구성 * 버튼을 클릭합니다.</block>
   <block id="c220e333c84311a5247ea56021c7f9af" category="inline-image-macro">작업 환경의 구성 단추를 클릭하는 방법을 보여 주는 스크린샷</block>
@@ -1428,7 +1423,6 @@
   <block id="d572e0d4b826c4aedc53e9ebf7b16a8f" category="list-text">스캔 구성 페이지에서 모든 리포지토리에 대한 스캔 설정을 볼 수 있습니다.</block>
   <block id="dbb0dfda8b378050531f81450c4bc33e" category="section-title">리포지토리에 대한 스캔 유형을 변경합니다</block>
   <block id="80442a9b9f6c43539008be8521ce5283" category="paragraph">구성 페이지에서 언제든지 작업 환경에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 시작하거나 중지할 수 있습니다. 매핑 전용 스캔에서 매핑 및 분류 스캔으로, 또는 그 반대로 변경할 수도 있습니다.</block>
-  <block id="e2fd7fccc8e37c687bd3d80bafb4e9fd" category="list-text">Scan Configuration(스캔 구성) 페이지에서 * Map * 또는 * Map &amp; Classify *(맵 및 분류) * 스캔을 수행하기 위해 리포지토리(이 예의 버킷)를 변경하거나 * Off *(꺼짐 *)를 선택하여 특정 버킷에 대한 스캔을 중지할 수 있습니다.</block>
   <block id="d2c070afb22765e227addc428b9bb43d" category="inline-image-macro">버킷에 대한 스캔 유형을 선택하는 방법을 보여 주는 스크린샷</block>
   <block id="8d501a2dffff147be5f9997f70b34348" category="paragraph"><block ref="8d501a2dffff147be5f9997f70b34348" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a4bff1a8423db1d5e3d7178be9560749" category="paragraph">특정 유형의 작업 환경에서는 페이지 맨 위에 있는 단추 모음을 사용하여 모든 리포지토리에 대해 전역적으로 스캔 유형을 변경할 수 있습니다. Cloud Volumes ONTAP, On-Premises ONTAP, Azure NetApp Files 및 Amazon FSx for ONTAP 시스템에 대해 유효합니다.</block>
@@ -1459,7 +1453,6 @@
   <block id="e947d88fc82f247e554cf80e35ff0831" category="list-text">Move Files_ 대화 상자에서 선택한 모든 파일이 "&lt;host_name&gt;:/&lt;share_path&gt;" 형식으로 이동될 NFS 공유의 이름을 입력합니다.</block>
   <block id="9bf85e569c6ef93411e4ce74471413a0" category="list-text">Breadcrumb 파일을 그대로 두려면 _Breadcrumb_상자를 선택합니다. 대화 상자에 텍스트를 입력하여 파일이 이동된 위치, 파일을 이동한 사용자 및 파일이 이동된 이유와 같은 기타 정보를 나타낼 수 있습니다.</block>
   <block id="b91992584de04476d486c6819d26aaf3" category="list-text">파일 이동 * 을 클릭합니다.</block>
-  <block id="e023ca0db491fe9b0e7722609710e69b" category="doc">리포지토리에 대한 스캔 설정을 변경합니다</block>
   <block id="cc044854b72a7b1c98c22253b0aaedcd" category="section-title">리포지토리에 대한 스캔 상태를 봅니다</block>
   <block id="bf3aeefcdd65b55f2612004f45b7257f" category="inline-image-macro">버킷이 스캔되고 있는지 여부 및 현재 스캔 상태를 보여주는 스크린샷.</block>
   <block id="69c5667893c99e5a388e892cc9784e66" category="paragraph"><block ref="69c5667893c99e5a388e892cc9784e66" category="inline-image-macro-rx" type="image"></block></block>
@@ -2807,7 +2800,6 @@
   <block id="94b91c8b97a54caa51b5a272c3ed5e69" category="inline-link">BlueXP 분류를 사용하여 소스 파일을 이동하는 방법에 대해 자세히 알아보십시오</block>
   <block id="b862b7d304eea679b5f35e8257c465f6" category="list-text">이제 "파일 경로" 필터를 사용하여 필터링된 쿼리 결과에서 제외할 경로를 지정할 수 있습니다. 특정 데이터를 포함 및 제외하기 위한 경로를 입력하면 BlueXP 분류에서 포함된 경로의 모든 파일을 먼저 찾은 다음 제외된 경로에서 파일을 제거한 다음 결과를 표시합니다.</block>
   <block id="4b273eb22f0e890dce8d8a73dba2425e" category="section-title">BlueXP 분류는 일본어 개인 번호를 식별할 수 있습니다</block>
-  <block id="f5055886b0ed4db432221d378f3730c1" category="paragraph">변경할 수 있는 사항 중 일부는 리포지토리가 검색되었는지 여부와 BlueXP 분류가 을 수행하고 있는지 여부입니다 <block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>. 예를 들어 일정 시간 동안 볼륨 스캔을 중지해야 하는 경우 스캔을 일시 중지하고 다시 시작할 수도 있습니다.</block>
   <block id="06f4c04dbf4f6e1007102feb5e139b5f" category="paragraph">BlueXP 분류가 각 작업 환경 및 데이터 소스에 대해 스캔(볼륨, 버킷 등)하는 개별 리포지토리를 볼 수 있습니다. 또한 "매핑된" 수와 "분류된" 수를 확인할 수 있습니다. 모든 데이터에 대해 전체 AI ID가 수행되므로 분류에 더 많은 시간이 소요됩니다.</block>
   <block id="e9ef05a76f2eb11216d8bcec1c8a1ee1" category="paragraph">BlueXP 분류는 데이터를 지속적으로 검사하여 추가한 리포지토리의 변동분을 감지합니다. 그러나 시스템이 모든 환경을 검색하는 데 시간이 걸리며, 스캔된 저장소의 순서를 제어할 방법이 없습니다. 변경 내용이 시스템에 반영되도록 특정 리포지토리를 즉시 다시 스캔해야 하는 경우 리포지토리를 선택하고 다시 검색할 수 있습니다. 이렇게 하면 다른 데이터 앞에 특정 데이터를 우선적으로 스캔할 수 있습니다. 재검색 작업이 완료되면 선택한 리포지토리는 정상적인 BlueXP 분류 일정에 따라 스캔되는 상태로 돌아갑니다.</block>
   <block id="c07dbec3e7acd472789625d35a7563da" category="paragraph">BlueXP 분류는 Amazon S3 및 데이터베이스를 제외한 모든 데이터 소스 유형의 디렉토리 스캔을 지원합니다. 현재 단일 디렉토리(폴더 또는 공유) 또는 여러 디렉토리 재검색 기능을 지원합니다. 향후 지원에는 추가 리포지토리 유형(파일, 데이터베이스 등)을 다시 스캔하는 것이 포함됩니다.</block>
@@ -3284,7 +3276,6 @@
   <block id="0fe1279b28d533b32c08d839691ef653" category="inline-image-macro">세 개의 점</block>
   <block id="e56ef2e2348492a4f0e1e9513b068cc4" category="admonition">를 클릭하여 구성 페이지에서 작업 환경에 대한 규정 준수 검사를 활성화할 수도 있습니다 <block ref="a759a567ce9a72b21fd45f48f1f358c8" category="inline-image-macro-rx" type="image"></block> 단추를 클릭하고 * BlueXP 분류 활성화 * 를 선택합니다.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
-  <block id="967ed7b18cc2e131fa8fe860d4e4f18d" category="paragraph">특정 콘텐츠 스캔을 일시적으로 중지하려면 리포지토리에서 스캔을 "일시 중지"할 수 있습니다. 이것은 스캐닝 "끄기"를 켜는 것과 다릅니다. 스캔이 꺼지면 해당 볼륨에 대한 모든 인덱싱 및 정보가 시스템에서 제거되고 데이터 스캔 충전이 중지됩니다. 스캐닝을 일시 중지하면 BlueXP 분류에서 리포지토리의 변경 또는 추가 사항에 대한 향후 검사를 수행하지 않지만 현재 모든 결과가 시스템에 계속 표시됩니다. 스캐닝 일시 중지는 데이터가 계속 존재하기 때문에 데이터 스캔 충전을 중지하지 않습니다.</block>
   <block id="218b1b5040dd27f37c3fab6adea21bff" category="paragraph">데이터 소스가 제거되면 데이터 스캔 충전이 중지됩니다.</block>
   <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04는 BlueXP 분류에 지원되는 운영 체제로 검증되었습니다. 설치 프로그램의 버전 1.23을 사용하는 경우 네트워크의 Ubuntu Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>.</block>
   <block id="3e102feedd861186d57f6a85de9de541" category="paragraph">파일 액세스 감사 로그 파일은 BlueXP 분류 시스템의 다음 위치에 있습니다.<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
@@ -3418,7 +3409,6 @@
   <block id="a39ca37fb6314be500ea6c4e6028aad1" category="paragraph">API는 안전하고 UI와 동일한 인증 방법을 사용합니다. 인증에 대한 자세한 내용은 다음을 참조하십시오.<block ref="86100a8a51cdb9259081132b7d91c690" category="inline-link-rx"></block></block>
   <block id="6bb2320a7f7d5e941653039f26a38ad9" category="section-title">Swagger API 참조에 액세스</block>
   <block id="af16b996606b35cb0f77fe07ba2e556a" category="paragraph">Swagger로 이동하려면 BlueXP 분류 인스턴스의 IP 주소가 필요합니다. 클라우드 배포의 경우 공용 IP 주소를 사용합니다. 그런 다음 이 끝점에 도달해야 합니다.</block>
-  <block id="254092d1402121eb76375744912fcb31" category="paragraph"><block ref="76abae69818f3dbdee10e3bc86ddf426" category="inline-link-rx"></block></block>
   <block id="645d03e996949262e33f39d07370b668" category="paragraph"><block ref="e90064c25feae6986ca59b019f3b7da5" category="inline-link-rx"></block> BlueXP 분류 설치 방법을 확인합니다.</block>
   <block id="2dfd5907ae1f7e0e308562b6add41f1d" category="paragraph">설치 프로그램은 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되어 있는지 확인합니다.<block ref="e374801a81d4dcec84b3740adf868110" category="inline-link-rx"></block> 사전 점검 메시지 및 의미를 이해합니다.</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.</block>
@@ -3430,4 +3420,36 @@
   <block id="c77d5103bf67167dd667762d984e1e14" category="section-title">BlueXP 분류 API가 이제 제공됩니다</block>
   <block id="95eaa41c2e7025ac80bcfafd1710ff57" category="paragraph">BlueXP 분류 API를 사용하면 작업을 수행하고, 쿼리를 생성하고, 스캔하는 데이터에 대한 정보를 내보낼 수 있습니다. 대화형 설명서는 Swagger를 사용하여 사용할 수 있습니다. 문서는 조사, 규정 준수, 거버넌스 및 구성을 포함한 여러 범주로 구분됩니다. 각 범주는 BlueXP 분류 UI의 탭에 대한 참조입니다.</block>
   <block id="ca37e37afe1d388be7dabea9f8f09ba3" category="sidebar">BlueXP 분류 비디오</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="b096d4ea7a8d51978fe48f490785e86a" category="list-text">데이터를 삭제, 복사, 레이블 지정 및 할당합니다</block>
+  <block id="c61b92a36eb48c5d3300779a62372cd3" category="list-text">파일 복제 및 복사</block>
+  <block id="49ef162b6621f970581074315940ec6c" category="paragraph">\https://&lt;classification_ip&gt;/documentation 을 참조하십시오</block>
+  <block id="b62dbbecd6533f9627427d34160e7d75" category="section-title">API 사용 예</block>
+  <block id="b7fd2e4068e2c6cc68317c7892c5290c" category="paragraph">다음 예제는 파일을 복사하기 위한 API 호출을 보여 줍니다.</block>
+  <block id="7d9faab09c1d85e60360dfca30ab77cc" category="paragraph-title">API 요청</block>
+  <block id="54b8a71f80c197c6f71c9b29df4f53a8" category="paragraph">처음에는 작업 환경에 대한 모든 관련 필드 및 옵션을 가져와서 조사 탭의 모든 필터를 확인해야 합니다.</block>
+  <block id="d64ed3e9c10229648e069f56e32f4c8e" category="listing-title">응답</block>
+  <block id="de47d5ffc03a894916b0d9b2eab236ab" category="paragraph">요청 매개 변수에서 해당 응답을 사용하여 복사하려는 파일을 필터링합니다.</block>
+  <block id="dfd434a5421b4a63696b02416f668581" category="paragraph">여러 항목에 작업을 적용할 수 있습니다. 지원되는 작업 유형은 이동, 삭제, 복사, 할당, FlexClone, 데이터 내보내기, 재스캔 및 레이블</block>
+  <block id="0ac331cece7c559ed07957dfa637e510" category="paragraph">다음과 같이 복사 작업을 생성합니다.</block>
+  <block id="8ad0c8a225121bfff89f847893f0d610" category="paragraph">다음 API는 해당 API이며, 이를 통해 여러 작업을 생성할 수 있습니다.</block>
+  <block id="87d1cd52d2ec66c4978b4d90f9069a04" category="paragraph">응답은 동작 객체를 반환하므로 API 가져오기 및 삭제 를 사용하여 동작에 대한 상태를 얻거나 취소할 수 있습니다.</block>
+  <block id="fda538fb93989725ef231d5f156d3ee9" category="summary">각 작업 환경과 데이터 소스에서 데이터가 스캔되는 방식을 관리할 수 있습니다. "리포지토리"를 기준으로 변경할 수 있습니다. 즉, 각 볼륨, 버킷, 공유, 스키마, 사용자, 스캔 중인 데이터 소스의 유형에 따라 다릅니다.</block>
+  <block id="43ec96609274e10e69e4ef1f50473aba" category="doc">리포지토리의 스캔 설정을 변경합니다</block>
+  <block id="926f6a4e85f1593fffa7270c143e3ddb" category="paragraph">변경할 수 있는 사항 중 일부는 리포지토리가 검색되었는지 여부와 BlueXP 분류가 을 수행하고 있는지 여부입니다 <block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>. 또한 일정 시간 동안 볼륨 스캔을 중지해야 하는 경우 스캔을 일시 중지하거나 다시 시작할 수도 있습니다.</block>
+  <block id="5c7952df3d9c0233217acae5c6f1153d" category="list-text">Scan Configuration(스캔 구성) 페이지에서 모든 리포지토리(이 예에서는 버킷)를 변경하여 * Map * 또는 * Map &amp; Classify * 스캔을 수행할 수 있습니다.</block>
+  <block id="fa11512af60e80dd5cda30d6a494a8cd" category="section-title">리포지토리에 대한 스캔을 중지합니다</block>
+  <block id="fbadcaa7267ae823837aff45d0dd7135" category="paragraph">규정 준수를 위해 더 이상 모니터링할 필요가 없는 경우 리포지토리(예: 볼륨) 스캔을 중지할 수 있습니다. 스캔을 "OFF(끄기)"로 설정하면 됩니다. 스캔이 꺼지면 해당 볼륨에 대한 모든 인덱싱 및 정보가 시스템에서 제거되고 데이터 스캔 충전이 중지됩니다.</block>
+  <block id="565a8976f79d6c76ecebff0fff08e98a" category="list-text">Scan Configuration(스캔 구성) 페이지에서 * Off * 를 선택하여 특정 버킷에 대한 스캔을 중지합니다.</block>
+  <block id="935638dd063f7f7f75feaf9c1efed37e" category="paragraph"><block ref="935638dd063f7f7f75feaf9c1efed37e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="12b0af2e5ea89b04eb9606c50747a466" category="paragraph">특정 콘텐츠 스캔을 일시적으로 중지하려면 리포지토리에서 스캔을 "일시 중지"할 수 있습니다. 스캐닝을 일시 중지하면 BlueXP 분류에서 리포지토리의 변경 또는 추가 사항에 대한 향후 검사를 수행하지 않지만 현재 모든 결과가 시스템에 계속 표시됩니다. 스캐닝을 일시 중지해도 데이터가 여전히 존재하기 때문에 스캔된 데이터에 대한 충전이 중지되지 않습니다.</block>
+  <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">BlueXP 분류 API에 관해 자세히 알아보십시오</block>
+  <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>.</block>
 </blocks>
