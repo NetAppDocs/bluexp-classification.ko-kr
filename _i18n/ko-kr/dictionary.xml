@@ -2462,7 +2462,6 @@
   <block id="84c1068a68e2f96982851954838c2d5b" category="list-text">BlueXP 분류와 AIP 레이블을 통합한 경우 이 파일에 레이블을 지정하거나 이미 있는 경우 다른 레이블로 변경할 수 있습니다. 을 참조하십시오 <block ref="1d610d8b86b5e1441346aa765100c237" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="50cdf86b563a0d781f053c4a23d816c2" category="paragraph">사용자 및 그룹 이름 대신 SID(보안 식별자)가 표시되는 경우 Active Directory를 BlueXP 분류에 통합해야 합니다. <block ref="a543108cc451095d486457d9ff215fd0" category="inline-link-macro-rx"></block>.</block>
   <block id="bcd3dc09170e331762d1f098247c3974" category="paragraph">BlueXP 분류는 해시 기술을 사용하여 중복 파일을 결정합니다. 파일에 다른 파일과 동일한 해시 코드가 있으면 파일 이름이 다르더라도 파일이 정확하게 중복되었는지 100% 확인할 수 있습니다.</block>
-  <block id="fd1d98039043f82f0635dcf86849024a" category="paragraph">보고서를 로컬 컴퓨터에 .csv 파일(최대 5,000개의 데이터 행 포함) 또는 NFS 공유로 내보내는 .JSON 파일(행 수 무제한 포함)로 저장할 수 있습니다. BlueXP 분류가 파일(구조화되지 않은 데이터), 디렉토리(폴더 및 파일 공유) 또는 데이터베이스(구조화된 데이터)를 검색하는 경우 최대 3개의 보고서 파일을 다운로드할 수 있습니다.</block>
   <block id="c67419f269df3afdc5c4ea77c6a74cef" category="paragraph">파일 공유로 내보낼 때 BlueXP 분류에 내보내기 액세스에 대한 올바른 권한이 있는지 확인합니다.</block>
   <block id="c3e3558057a47a586b2936491602503e" category="summary">BlueXP 분류(클라우드 데이터 감지)를 통해 조직의 하이브리드 멀티 클라우드 전체에서 데이터를 스캔하고 분류할 수 있습니다. BlueXP Classification은 AI 기반 NLP(자연어 처리)를 활용하여 상황별 데이터 분석 및 범주화를 통해 데이터에 대한 실행 가능한 통찰력을 제공하여 규정 준수 요구 사항을 해결하고, 보안 취약점을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화합니다.</block>
   <block id="44b34442167c9611792529867ee76d90" category="doc">BlueXP 분류 문서</block>
@@ -3452,4 +3451,9 @@
   <block id="12b0af2e5ea89b04eb9606c50747a466" category="paragraph">특정 콘텐츠 스캔을 일시적으로 중지하려면 리포지토리에서 스캔을 "일시 중지"할 수 있습니다. 스캐닝을 일시 중지하면 BlueXP 분류에서 리포지토리의 변경 또는 추가 사항에 대한 향후 검사를 수행하지 않지만 현재 모든 결과가 시스템에 계속 표시됩니다. 스캐닝을 일시 중지해도 데이터가 여전히 존재하기 때문에 스캔된 데이터에 대한 충전이 중지되지 않습니다.</block>
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">BlueXP 분류 API에 관해 자세히 알아보십시오</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>.</block>
+  <block id="90ca6bd84833f8a6659f7ea02a7649ba" category="list-text">DFS(Distributed File System) 공유를 일반 CIFS 공유로 추가할 수 있습니다. 그러나 BlueXP 분류에서는 공유가 단일 CIFS 공유로 결합된 여러 서버/볼륨에 구축되어 있음을 인식하지 못하기 때문에 메시지가 실제로 다른 서버/볼륨에 있는 폴더/공유 중 하나에만 적용되는 경우 공유에 대한 권한 또는 연결 오류가 발생할 수 있습니다.</block>
+  <block id="1cf7463413ea994be95c0189c2bb57a5" category="paragraph">보고서를 두 가지 형식으로 저장할 수 있습니다.</block>
+  <block id="d9c89ee38491bdb679829f426faea2ef" category="list-text">최대 5,000개의 데이터 행을 포함할 수 있는 .csv 파일로 로컬 컴퓨터에 저장합니다.</block>
+  <block id="8909a1f3cdd58859743896107e545477" category="list-text">NFS 공유로 내보내는 .JSON 파일로, 최대 100,000개의 데이터 행을 포함할 수 있습니다. 데이터 행이 100,000개 이상이면 .JSON 파일이 추가로 생성됩니다.</block>
+  <block id="090f87d7b81c809aa6a6d81dcabfeeb8" category="paragraph">BlueXP 분류가 파일(비정형 데이터), 디렉토리(폴더 및 파일 공유) 및 데이터베이스(정형 데이터)를 검사하는 경우 최대 3개의 보고서 파일을 다운로드할 수 있습니다.</block>
 </blocks>
