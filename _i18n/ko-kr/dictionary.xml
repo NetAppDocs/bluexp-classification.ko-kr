@@ -2823,7 +2823,6 @@
   <block id="976ad3f2a7f2faaf2e337cc8f2c2ff8d" category="list-text">BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 지속적으로 스캔하려면 BlueXP 분류 인스턴스를 계속 사용해야 합니다.</block>
   <block id="1b3e958cf9a7fe344e74aa95f30a09f3" category="list-text">웹 브라우저가 BlueXP 분류에 연결되어 있는지 확인합니다. BlueXP 분류를 사용하도록 설정한 후에는 BlueXP 분류 인스턴스에 연결된 호스트에서 BlueXP 인터페이스에 액세스해야 합니다.</block>
   <block id="0886f35745ad179bc8c862cc1f35560d" category="paragraph">BlueXP 분류 인스턴스는 개인 IP 주소를 사용하여 인덱싱된 데이터에 다른 사용자가 액세스할 수 없도록 합니다. 따라서 BlueXP에 액세스하는 데 사용하는 웹 브라우저가 해당 개인 IP 주소에 연결되어 있어야 합니다. 이러한 연결은 BlueXP 분류 인스턴스와 동일한 네트워크 내에 있는 호스트에서 발생할 수 있습니다.</block>
-  <block id="357e290720f6835d0225e4c266e5fca5" category="cell">Connector의 보안 그룹은 포트 443을 통해 BlueXP 분류 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다. 포트 8080이 열려 있는지 확인하여 BlueXP에서 설치 진행률을 확인합니다.</block>
   <block id="e47c11f521d98557641f18f4c041fad3" category="cell">BlueXP 분류&lt;&gt;ONTAP 클러스터</block>
   <block id="40e4506c6bd794b594435aa3037f3a4e" category="paragraph">BlueXP 분류에는 각 Cloud Volumes ONTAP 서브넷 또는 온프레미스 ONTAP 시스템에 대한 네트워크 연결이 필요합니다. Cloud Volumes ONTAP의 보안 그룹은 BlueXP 분류 인스턴스에서 인바운드 연결을 허용해야 합니다.</block>
   <block id="6000c544d001c3491f4169e31bbf0604" category="cell">BlueXP 분류&lt;&gt;Active Directory</block>
@@ -3456,4 +3455,8 @@
   <block id="d9c89ee38491bdb679829f426faea2ef" category="list-text">최대 5,000개의 데이터 행을 포함할 수 있는 .csv 파일로 로컬 컴퓨터에 저장합니다.</block>
   <block id="8909a1f3cdd58859743896107e545477" category="list-text">NFS 공유로 내보내는 .JSON 파일로, 최대 100,000개의 데이터 행을 포함할 수 있습니다. 데이터 행이 100,000개 이상이면 .JSON 파일이 추가로 생성됩니다.</block>
   <block id="090f87d7b81c809aa6a6d81dcabfeeb8" category="paragraph">BlueXP 분류가 파일(비정형 데이터), 디렉토리(폴더 및 파일 공유) 및 데이터베이스(정형 데이터)를 검사하는 경우 최대 3개의 보고서 파일을 다운로드할 수 있습니다.</block>
+  <block id="abfab9fcbcf9c983c6fcb0efced8edc6" category="cell">8080(TCP), 6000(TCP), 443(TCP) 및 80</block>
+  <block id="31bf187a1f6ba9a21c24893034392c45" category="cell">Connector의 보안 그룹은 포트 6000 및 443을 통해 BlueXP 분류 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다.
+
+포트 8080이 열려 있는지 확인하여 BlueXP에서 설치 진행률을 확인합니다.</block>
 </blocks>
