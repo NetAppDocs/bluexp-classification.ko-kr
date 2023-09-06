@@ -20,6 +20,7 @@ BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 첫 1TB의 데�
 
 * 클라우드 공급자의 마켓플레이스에서 이미 BlueXP PAYGO(pay-as-you-go) 구독을 신청했다면 BlueXP 분류에도 자동으로 가입됩니다. 다시 가입하지 않아도 됩니다.
 * BlueXP 분류(데이터 감지) BYOL(Bring-Your-Own-License)은 작업 공간의 모든 작업 환경과 데이터 소스에서 스캔할 수 있는 _floating_license입니다. BlueXP 디지털 지갑에 활성 구독이 표시됩니다.
+* 스캔되는 데이터의 양은 스토리지 효율성 없이 논리적 파일 크기를 기준으로 계산됩니다.
 
 
 link:concept-cloud-compliance.html#cost["BlueXP 분류와 관련된 라이센스 및 비용에 대해 자세히 알아보십시오"].
