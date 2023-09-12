@@ -568,7 +568,6 @@
   <block id="f761b4a4393e1a53850ec9f4dd420f50" category="paragraph"><block ref="f761b4a4393e1a53850ec9f4dd420f50" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11dfa7f8030ea34c4933fff6eaa19333" category="list-text">이 파일에 레이블 지정 * 을 클릭한 다음 레이블을 선택합니다.</block>
   <block id="5108557521189397e1f9be01f92633b0" category="paragraph">파일 메타데이터에 레이블이 나타납니다.</block>
-  <block id="398b53642810a3ebb827ca64a7e031fe" category="paragraph">AIP 레이블을 여러 파일에 할당하려면 다음과 같이 하십시오.</block>
   <block id="f26e9a93fd90f2481bfff0f8c4517da6" category="list-text">데이터 조사 결과 창에서 레이블을 지정할 파일을 선택합니다.</block>
   <block id="4547ea9eb340b9b3af947472b935464f" category="inline-image-macro">데이터 조사 페이지에서 레이블을 지정할 파일과 레이블 단추를 선택하는 방법을 보여 주는 스크린샷</block>
   <block id="82f4c85e0490488ae85ec5e3e8910f40" category="paragraph"><block ref="82f4c85e0490488ae85ec5e3e8910f40" category="inline-image-macro-rx" type="image"></block></block>
@@ -634,12 +633,10 @@
   <block id="c920fb7990e3c619785581c1ca57a2e6" category="section-title">특정 파일을 관리할 사용자 할당</block>
   <block id="640ddcfcbdd6fd24058616dfd813d30c" category="paragraph">예를 들어 너무 많은 사용자가 읽기 및 쓰기 액세스(열린 권한)를 수행할 수 있도록 특정 개인 데이터가 포함된 파일이 있을 수 있습니다. 따라서 상태 태그 "권한 변경"을 할당하고 이 파일을 사용자 "Joan Smith"에게 할당하여 문제 해결 방법을 결정할 수 있습니다. 문제를 해결하면 상태 태그를 "완료됨"으로 변경할 수 있습니다.</block>
   <block id="931074f4d66344e7b9658958b6d87907" category="paragraph">조사 페이지의 새 필터를 사용하면 "담당자" 필드에 동일한 사람이 있는 모든 파일을 쉽게 볼 수 있습니다.</block>
-  <block id="6f4326437137a604ca129e07fbf28447" category="paragraph">사용자를 단일 파일에 할당하려면 다음을 수행합니다.</block>
   <block id="a86a8c5ea91657b179c7c6639a2c33e7" category="list-text">Assigned to * 필드를 클릭하고 사용자 이름을 선택합니다.</block>
   <block id="a80ae116cfcf2ab82dcddbfc170be5b7" category="inline-image-macro">데이터 조사 페이지의 파일에 사용자를 할당하는 방법을 보여 주는 스크린샷</block>
   <block id="412f0fb9ebd6475572b807f651180d22" category="paragraph"><block ref="412f0fb9ebd6475572b807f651180d22" category="inline-image-macro-rx" type="image"></block></block>
   <block id="608c20f332a7cdf1c8b13907f1cc490c" category="paragraph">사용자 이름이 파일 메타데이터에 나타납니다.</block>
-  <block id="8533d80dc327c1f01f502cb153b295dd" category="paragraph">사용자를 여러 파일에 할당하려면:</block>
   <block id="9d03854319e73cc41bd352adb5eb647e" category="list-text">데이터 조사 결과 창에서 사용자에게 할당할 파일을 선택합니다.</block>
   <block id="ca614decc202c0a06868e70380a540ca" category="inline-image-macro">데이터 조사 페이지에서 사용자에게 할당할 파일과 할당 대상 버튼을 선택하는 방법을 보여 주는 스크린샷</block>
   <block id="5771f928056682d86e2c8ac3c8a3ba87" category="paragraph"><block ref="5771f928056682d86e2c8ac3c8a3ba87" category="inline-image-macro-rx" type="image"></block></block>
@@ -3472,4 +3469,8 @@
   <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP 분류는 파일이 50MB 이상인 경우에만 중복된 파일을 식별하는 데 사용됩니다. 이제 1MB로 시작하는 중복 파일을 식별할 수 있습니다. 조사 페이지에서 "파일 크기"와 "중복 항목"을 필터링하여 사용자 환경에서 특정 크기의 파일이 복제되었는지 확인할 수 있습니다.</block>
   <block id="a0b0397888c391cefadbe3fa028a49bc" category="list-text">모든 페이지의 모든 파일을 선택하려면 제목 행(<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>)를 클릭한 다음 팝업 메시지에서 를 클릭합니다 <block ref="6d073c59586864da957e4fe8e0338e10" category="inline-image-macro-rx" type="image"></block>목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.</block>
   <block id="b28003dc3eea16791b3379012ffb1993" category="paragraph">한 번에 최대 100,000개의 파일에 태그를 적용할 수 있습니다.</block>
+  <block id="8b6c126d65d4a1501ecb5e4a7f296fa9" category="paragraph"><block ref="78a1f63a475eced077a3b4ccbdcfca4e" category="inline-link-rx"></block> 필수 구성 요소 스크립트를 실행하고 결과를 해석하는 방법을 확인합니다.</block>
+  <block id="6558368ee6073deea643cc8c934764fc" category="paragraph">다음 단계에 따라 여러 파일에 AIP 레이블을 할당합니다. AIP 레이블을 한 번에 최대 20개의 파일(UI에서 한 페이지)에 할당할 수 있습니다.</block>
+  <block id="734926fafb1271c111d9404b81a2a40f" category="paragraph">사용자를 단일 파일에 할당하려면 다음 단계를 수행하십시오.</block>
+  <block id="7cb00932323e74919350bd2ce54bb9db" category="paragraph">사용자를 여러 파일에 할당하려면 다음 단계를 수행하십시오. 사용자를 한 번에 최대 20개의 파일(UI에서 한 페이지)에 할당할 수 있습니다.</block>
 </blocks>
