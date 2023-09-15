@@ -61,7 +61,6 @@
 +
 *** Red Hat Enterprise Linux 버전 7.8 및 7.9 - Linux 커널 버전은 4.0 이상이어야 합니다
 *** CentOS 버전 7.8 및 7.9 - Linux 커널 버전은 4.0 이상이어야 합니다
-*** Rocky Linux 9(BlueXP 분류 버전 1.24 이상 필요)
 *** Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)
 
 

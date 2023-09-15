@@ -204,19 +204,7 @@ AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 기본 인�
 image:screenshot_cloud_compliance_deploy_start.png["BlueXP 분류를 활성화하기 위한 버튼 선택 스크린샷."]
 
 . Activate Data Sense * 를 클릭합니다.
-+
-image:screenshot_cloud_compliance_deploy_cloud_aws.png["클라우드에 BlueXP 분류를 배포하기 위한 버튼을 선택한 스크린샷"]
-
 . Installation_page에서 * deploy > deploy * 를 클릭하여 "큰" 인스턴스 크기를 사용하고 클라우드 배포 마법사를 시작합니다.
-+
-또한 * 배포 > 구성 * 을 클릭하여 검사할 데이터가 많지 않은 경우 두 가지 작은 인스턴스 유형 중에서 선택할 수 있습니다. 이렇게 하면 더 작은 인스턴스를 사용할 때 일부 클라우드 비용을 절감할 수 있습니다. "중간" 리소스 크기는 다음과 같습니다.
-
-+
-그런 다음 * 배포 * 를 클릭하여 클라우드 배포 마법사를 시작합니다.
-
-+
-image:screenshot_cloud_deploy_resource_size.png["BlueXP 분류가 배포될 인스턴스의 크기를 선택하는 배포 페이지의 스크린샷."]
-
 . 구축 단계를 진행할 때 마법사가 진행률을 표시합니다. 문제가 발생하면 중지하고 입력을 묻는 메시지가 표시됩니다.
 +
 image:screenshot_cloud_compliance_wizard_start.png["새 인스턴스를 배포하기 위한 BlueXP 분류 마법사 스크린샷"]
