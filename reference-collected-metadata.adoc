@@ -37,7 +37,7 @@ BlueXP 분류는 데이터 소스 및 작업 환경의 데이터에 대한 분�
 |===
 [NOTE]
 ====
-* BlueXP 분류는 SharePoint Online, SharePoint 온-프레미스(SharePoint Server), OneDrive, Google Drive 및 Amazon S3의 데이터 원본에서 "마지막 액세스 시간"을 추출하지 않습니다.
+* BlueXP 분류는 SharePoint Online, SharePoint 온프레미스(SharePoint Server), OneDrive, Google Drive, Amazon S3, 데이터베이스의 데이터 소스에서는 "마지막 액세스 시간"을 추출하지 않습니다.
 * Windows OS의 이전 버전(예: Windows 7 및 Windows 8)은 시스템 성능에 영향을 줄 수 있으므로 기본적으로 "마지막 액세스 시간" 속성의 컬렉션을 사용하지 않습니다. 이 속성을 수집하지 않으면 "마지막 액세스 시간"을 기반으로 하는 BlueXP 분류 분석에 영향을 줍니다. 필요한 경우 이러한 이전 Windows 시스템에서 마지막 액세스 시간 모음을 활성화할 수 있습니다.
 
 

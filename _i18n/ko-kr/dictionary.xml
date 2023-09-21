@@ -1392,7 +1392,6 @@
   <block id="c02ceb243337f566ebb5a2984a4d72eb" category="list-text">복사 - 원본 및 대상</block>
   <block id="e701a25b99aca57280ba389dd0e551c6" category="paragraph">예를 들어, 로그 파일의 다음 줄은 성공적인 복사 작업과 실패한 복제 작업을 보여 줍니다.</block>
   <block id="fe2e5277ceed073489ebfe172d4ae0e3" category="summary">100개의 파일을 삭제하는 등 여러 파일에 대해 조사 결과 창에서 작업을 실행할 경우 프로세스에 약간의 시간이 걸릴 수 있습니다. 작업 상태 창에서 이러한 비동기 작업의 상태를 모니터링하여 모든 파일에 언제 적용되었는지 확인할 수 있습니다.</block>
-  <block id="a5129dfbdf0dc4588d520f42de3004dd" category="paragraph">이를 통해 성공적으로 완료된 작업, 현재 진행 중인 작업 및 실패한 작업을 볼 수 있으므로 문제를 진단하고 해결할 수 있습니다.</block>
   <block id="038235769c3322b247e85f9bc8d7b5da" category="list-text">데이터의 .csv 보고서 또는 .JSON 보고서를 다운로드할지 여부를 선택하고 * 보고서 다운로드 * 를 클릭합니다.</block>
   <block id="02b8107c002e6577adbfdfd6d6f1b208" category="inline-image-macro">여러 옵션이 있는 조사 보고서 다운로드 페이지의 스크린샷.</block>
   <block id="0b0eacf696b45d65c53ff1b5473edb39" category="paragraph"><block ref="0b0eacf696b45d65c53ff1b5473edb39" category="inline-image-macro-rx" type="image"></block></block>
@@ -1430,7 +1429,6 @@
   <block id="9b0105a4da00bc6036dcb389d0f65890" category="paragraph"><block ref="9b0105a4da00bc6036dcb389d0f65890" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dfb9b838b2fdca41edadb04c9ebbb240" category="list-text">비 NetApp CIFS 파일 공유(NFS 파일 공유 아님)</block>
   <block id="9816532bdb11b99d3175be528e41c5b6" category="cell">Texas Driver의 라이센스</block>
-  <block id="89b56b1e048dcf0ec285e29a05d6d029" category="paragraph">대상 위치에 같은 이름의 파일이 있으면 파일이 이동하지 않습니다.</block>
   <block id="e6860b78555fc79d4429acb5534cf51b" category="paragraph">조직에 맞는 검색 결과를 제공하는 사용자 지정 정책을 만들 수 있습니다. 검색 기준과 일치하는 모든 파일 및 디렉토리(공유 및 폴더)에 대한 결과가 반환됩니다.</block>
   <block id="5587c065d5a62295455b157389cd71e5" category="paragraph">정책 결과에 따라 데이터를 삭제하고 AIP 레이블을 할당하는 작업은 파일에만 유효합니다. 검색 기준과 일치하는 디렉토리는 자동으로 삭제하거나 할당 AIP 레이블을 지정할 수 없습니다.</block>
   <block id="90915c385560094095567649cbd732aa" category="section-title">파일 및 디렉토리에 대한 권한 보기</block>
@@ -2424,7 +2422,6 @@
   <block id="342b7ce218ad37eb58175d677e743a1d" category="paragraph">BlueXP 복사 및 동기화 UI는 BlueXP에서 열립니다.</block>
   <block id="8ed3cff1bce3680cbecb3718361328e0" category="paragraph">동기화 관계를 정의하라는 메시지가 표시됩니다. 소스 시스템은 BlueXP 분류에서 이미 선택한 리포지토리와 파일을 기반으로 미리 채워집니다.</block>
   <block id="599b3adc06ff60709e02c3d42a15c442" category="paragraph">BlueXP 분류에서 호출되면 일반적인 BlueXP 복사 및 동기화 작업 중 일부가 비활성화됩니다.</block>
-  <block id="0507a26254d90555779319aac2a586a6" category="paragraph">BlueXP 분류에서 스캔 중인 소스 파일을 모든 NFS 공유로 이동할 수 있습니다. NFS 공유는 BlueXP 분류와 통합되지 않아도 됩니다(참조) <block ref="29fc238c82f37afa6e56193b0cf6f5eb" category="inline-link-macro-rx"></block>)를 클릭합니다.</block>
   <block id="687c2785d0e6bcc55e7d411f98257c26" category="list-text">파일을 이동하려면 NFS 공유를 통해 BlueXP 분류 인스턴스 IP 주소에서 액세스할 수 있어야 합니다.</block>
   <block id="ab799d9194a97ef175cc77104273ab42" category="paragraph">BlueXP 분류가 버킷에 액세스할 수 있도록 객체 스토리지 공급업체의 액세스 키 및 비밀 키가 있어야 합니다.</block>
   <block id="53ab1a83968fb0e47aaf2604fd097f22" category="paragraph">BlueXP 분류에 오브젝트 스토리지 서비스를 추가합니다.</block>
@@ -3175,7 +3172,6 @@
   <block id="c843b01ef48f3bd79d5d3521fbfa6125" category="cell">_마지막 수정 시간 _</block>
   <block id="e9349d6c7fc3f860e75fd091e850b861" category="cell">_권한 열기 _</block>
   <block id="44f76dcd3cb66939e2cbdab782c8314f" category="cell">_ 사용자/그룹 액세스 _</block>
-  <block id="770ad37e7b6dccf816f59000b32376eb" category="list-text">BlueXP 분류는 SharePoint Online, SharePoint 온-프레미스(SharePoint Server), OneDrive, Google Drive 및 Amazon S3의 데이터 원본에서 "마지막 액세스 시간"을 추출하지 않습니다.</block>
   <block id="846ac2b072f7b636a6e9eec4c3e71fe1" category="list-text">Windows OS의 이전 버전(예: Windows 7 및 Windows 8)은 시스템 성능에 영향을 줄 수 있으므로 기본적으로 "마지막 액세스 시간" 속성의 컬렉션을 사용하지 않습니다. 이 속성을 수집하지 않으면 "마지막 액세스 시간"을 기반으로 하는 BlueXP 분류 분석에 영향을 줍니다. 필요한 경우 이러한 이전 Windows 시스템에서 마지막 액세스 시간 모음을 활성화할 수 있습니다.</block>
   <block id="e636b4a892ea62f67be639b3661d6897" category="list-text">기본적으로 BlueXP 분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP 분류는 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 볼륨의 파일을 검색하지 않습니다. 마지막 액세스 시간이 재설정되는 것을 염려하지 않을 경우 * 를 클릭하거나 각 볼륨에 대한 스캐닝 유형을 선택하십시오 *. 결과 페이지에는 BlueXP 분류가 권한에 관계없이 볼륨을 스캔하도록 설정할 수 있는 설정이 있습니다.</block>
   <block id="dbc6be69ce4e1e10bc890167fa46f18b" category="inline-link-macro">이 BlueXP 분류 제한에 대한 자세한 내용은 을 참조하십시오</block>
@@ -3466,4 +3462,8 @@
   <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">중소 규모 구축은 일시적으로 사용할 수 없습니다</block>
   <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">AWS에 BlueXP 분류의 인스턴스를 구축할 때 * Deploy &gt; Configuration * 을 선택하고 소형 또는 중형 인스턴스를 선택하는 옵션은 현재 사용할 수 없습니다. Deploy &gt; Deploy * 를 선택하여 대규모 인스턴스 크기를 사용하여 인스턴스를 배포할 수 있습니다.</block>
   <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>.</block>
+  <block id="b76d53d86b234eb61cbe1f1f8dd81414" category="paragraph">BlueXP 분류에서 스캔 중인 소스 파일을 모든 NFS 공유로 이동할 수 있습니다. NFS 공유를 BlueXP 분류와 통합할 필요가 없습니다.</block>
+  <block id="125161c62eedd013601db45d9716edf6" category="paragraph">파일을 이동할 때 소스 파일의 하위 디렉토리 구조가 대상 공유에서 다시 생성되므로 파일이 이동된 위치를 쉽게 파악할 수 있습니다. 대상 위치에 같은 이름의 파일이 있으면 파일이 이동하지 않습니다.</block>
+  <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">이를 통해 성공적으로 완료된 작업, 현재 진행 중인 작업 및 실패한 작업을 볼 수 있으므로 문제를 진단하고 해결할 수 있습니다. 단일 파일 이동과 같이 빠르게 완료되는 짧은 작업은 작업 상태 창에 나타나지 않습니다.</block>
+  <block id="b2ed02bab90c71832a95050419f003e6" category="list-text">BlueXP 분류는 SharePoint Online, SharePoint 온프레미스(SharePoint Server), OneDrive, Google Drive, Amazon S3, 데이터베이스의 데이터 소스에서는 "마지막 액세스 시간"을 추출하지 않습니다.</block>
 </blocks>
