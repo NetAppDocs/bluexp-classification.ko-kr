@@ -64,6 +64,17 @@
 *** Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)
 
 
+** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.26 이상이 필요합니다.
++
+*** Red Hat Enterprise Linux 버전 9.0, 9.1 및 9.2
++
+RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.
+
++
+**** 어두운 장소에 설치
+**** 분산 스캔, 마스터 스캐너 노드 및 원격 스캐너 노드 사용
+
+
 
 
 
@@ -77,6 +88,7 @@
 +
 https://youtu.be/Ogoufel1q6c["이 비디오 시청"^] CentOS에 Docker를 설치하는 빠른 데모를 보려면
 
+*** Podman 버전 4 이상 Podman을 설치하려면 시스템 패키지를 업데이트하십시오 (`sudo yum update -y`)를 클릭한 다음 Podman을 설치합니다 (`sudo yum install podman -y`)를 클릭합니다.
 
 
 ** Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].

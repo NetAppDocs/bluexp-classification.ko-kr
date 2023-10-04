@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-test-linux-system.html 
-keywords: cloud compliance, data sense, get started, deploy cloud BlueXP classification, cloud compliance access, compliance, on-premises, linux, test linux system 
+keywords: cloud compliance, data sense, get started, deploy, bluexp classification, cloud compliance access, compliance, on-premises, linux, test linux system, docker, podman 
 summary: Linux 호스트에 수동으로 BlueXP 분류를 설치하기 전에 호스트에서 스크립트를 실행하여 BlueXP 분류를 설치하기 위한 모든 필수 구성 요소가 준비되어 있는지 확인할 수 있습니다. 이 스크립트는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서 실행할 수 있습니다. 호스트를 인터넷에 연결할 수도 있고, 호스트가 인터넷에 액세스할 수 없는 사이트에 상주할 수도 있습니다. 
 ---
 = Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인합니다
@@ -111,6 +111,17 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 *** Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)
 
 
+** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.26 이상이 필요합니다.
++
+*** Red Hat Enterprise Linux 버전 9.0, 9.1 및 9.2
++
+RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.
+
++
+**** 어두운 장소에 설치
+**** 분산 스캔, 마스터 스캐너 노드 및 원격 스캐너 노드 사용
+
+
 
 
 
@@ -124,6 +135,7 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 +
 https://youtu.be/Ogoufel1q6c["이 비디오 시청"^] CentOS에 Docker를 설치하는 빠른 데모를 보려면
 
+*** Podman 버전 4 이상 Podman을 설치하려면 시스템 패키지를 업데이트하십시오 (`sudo yum update -y`)를 클릭한 다음 Podman을 설치합니다 (`sudo yum install podman -y`)를 클릭합니다.
 
 
 ** Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
@@ -150,7 +162,7 @@ firewall-cmd --permanent --add-port=7946/tcp
 firewall-cmd --permanent --add-port=4789/udp
 ....
 +
-활성화 또는 업데이트를 할 때마다 Docker를 다시 시작해야 합니다 `firewalld` 설정.
+Docker 또는 Podman을 활성화 또는 업데이트할 때마다 다시 시작해야 합니다 `firewalld` 설정.
 
 
 
@@ -217,7 +229,7 @@ https://youtu.be/_RCYpuLXiV0?si=QLGUw8mqPrz9qs4B["이 비디오 시청"^] 필수
 
 .필요한 것
 * Linux 시스템이 를 충족하는지 확인합니다 <<호스트 요구 사항을 확인합니다,호스트 요구 사항>>.
-* 시스템에 2개의 필수 소프트웨어 패키지(Docker Engine 및 Python 3)가 설치되어 있는지 확인합니다.
+* 시스템에 2개의 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)가 설치되어 있는지 확인합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
 
 

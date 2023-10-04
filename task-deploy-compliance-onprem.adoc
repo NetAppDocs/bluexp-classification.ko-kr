@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman 
 summary: 네트워크의 Linux 호스트 또는 인터넷 액세스가 가능한 클라우드의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 가지 단계를 완료하십시오. 이 설치의 일부로 네트워크 또는 클라우드에 Linux 호스트를 수동으로 배포해야 합니다. 
 ---
 = 인터넷에 액세스할 수 있는 호스트에 BlueXP 분류를 설치합니다
@@ -156,6 +156,17 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 *** Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)
 
 
+** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.26 이상이 필요합니다.
++
+*** Red Hat Enterprise Linux 버전 9.0, 9.1 및 9.2
++
+RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.
+
++
+**** 어두운 장소에 설치
+**** 분산 스캔, 마스터 스캐너 노드 및 원격 스캐너 노드 사용
+
+
 
 
 
@@ -169,6 +180,7 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 +
 https://youtu.be/Ogoufel1q6c["이 비디오 시청"^] CentOS에 Docker를 설치하는 빠른 데모를 보려면
 
+*** Podman 버전 4 이상 Podman을 설치하려면 시스템 패키지를 업데이트하십시오 (`sudo yum update -y`)를 클릭한 다음 Podman을 설치합니다 (`sudo yum install podman -y`)를 클릭합니다.
 
 
 ** Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
@@ -320,7 +332,7 @@ https://youtu.be/rFpmekdbORc["이 비디오 시청"^] BlueXP 분류 설치 방�
 
 .필요한 것
 * Linux 시스템이 를 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
-* 시스템에 2개의 필수 소프트웨어 패키지(Docker Engine 및 Python 3)가 설치되어 있는지 확인합니다.
+* 시스템에 2개의 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)가 설치되어 있는지 확인합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
 * 인터넷 액세스에 프록시를 사용하는 경우:
 +
@@ -450,7 +462,7 @@ BlueXP 분류에 추가할 스캐너 그룹을 선택하고 이름을 선택할 
 
 .필요한 것
 * 스캐너 노드의 모든 Linux 시스템이 을 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
-* 시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 및 Python 3)가 설치되어 있는지 확인합니다.
+* 시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)가 설치되어 있는지 확인합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
 * 사용 환경이 필요한 를 충족하는지 확인합니다 <<BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다,사용 권한 및 연결>>.
 * 추가하려는 스캐너 노드 호스트의 IP 주소가 있어야 합니다.
@@ -495,7 +507,7 @@ firewall-cmd --permanent --add-port=4789/udp
 firewall-cmd --reload
 ....
 +
-활성화 또는 업데이트를 할 때마다 Docker를 다시 시작해야 합니다 `firewalld` 설정.
+Docker 또는 Podman을 활성화 또는 업데이트할 때마다 다시 시작해야 합니다 `firewalld` 설정.
 
 
 

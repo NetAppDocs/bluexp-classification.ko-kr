@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-cloud-compliance.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, bluexp classification 
 summary: 클라우드에 BlueXP 분류를 배포하기 위한 몇 가지 단계를 완료합니다. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 BlueXP 분류 인스턴스를 배포합니다. 
 ---
 = BlueXP를 사용하여 클라우드에 BlueXP 분류를 배포합니다

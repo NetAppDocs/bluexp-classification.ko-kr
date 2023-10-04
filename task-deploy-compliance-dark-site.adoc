@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-dark-site.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade, private mode 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade, private mode, docker, podman, bluexp classification 
 summary: '"비공개 모드"라고도 하는 인터넷 액세스가 없는 사내 사이트의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 가지 단계를 완료하십시오. 이러한 유형의 설치는 보안 사이트에 적합합니다.' 
 ---
 = 인터넷에 액세스할 수 없는 호스트에 BlueXP 분류를 설치합니다
@@ -150,6 +150,17 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 *** Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)
 
 
+** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.26 이상이 필요합니다.
++
+*** Red Hat Enterprise Linux 버전 9.0, 9.1 및 9.2
++
+RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.
+
++
+**** 어두운 장소에 설치
+**** 분산 스캔, 마스터 스캐너 노드 및 원격 스캐너 노드 사용
+
+
 
 
 
@@ -163,6 +174,7 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 +
 https://youtu.be/Ogoufel1q6c["이 비디오 시청"^] CentOS에 Docker를 설치하는 빠른 데모를 보려면
 
+*** Podman 버전 4 이상 Podman을 설치하려면 시스템 패키지를 업데이트하십시오 (`sudo yum update -y`)를 클릭한 다음 Podman을 설치합니다 (`sudo yum install podman -y`)를 클릭합니다.
 
 
 ** Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
@@ -179,7 +191,7 @@ firewall-cmd --permanent --add-port=443/tcp
 firewall-cmd --reload
 ....
 +
-활성화 또는 업데이트를 할 때마다 Docker를 다시 시작해야 합니다 `firewalld` 설정.
+Docker 또는 Podman을 활성화 또는 업데이트할 때마다 다시 시작해야 합니다 `firewalld` 설정.
 
 
 
@@ -279,7 +291,7 @@ image:diagram_deploy_onprem_multi_host_no_internet.png["인터넷 액세스 없�
 
 .필요한 것
 * Linux 시스템이 를 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
-* 두 가지 필수 소프트웨어 패키지(Docker Engine 및 Python 3)를 설치했는지 확인합니다.
+* 두 가지 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)를 설치했는지 확인합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
 * 오프라인 환경이 필요한 를 충족하는지 확인합니다 <<BlueXP 및 BlueXP 분류 사전 요구 사항을 확인합니다,사용 권한 및 연결>>.
 
@@ -364,7 +376,7 @@ BlueXP 분류 설치 프로그램은 패키지를 설치하고, 설치를 등록
 
 .필요한 것
 * Manager 및 Scanner 노드의 모든 Linux 시스템이 을 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
-* 두 가지 필수 소프트웨어 패키지(Docker Engine 및 Python 3)를 설치했는지 확인합니다.
+* 두 가지 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)를 설치했는지 확인합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
 * 오프라인 환경이 필요한 를 충족하는지 확인합니다 <<BlueXP 및 BlueXP 분류 사전 요구 사항을 확인합니다,사용 권한 및 연결>>.
 * 사용하려는 스캐너 노드 호스트의 IP 주소가 있어야 합니다.
