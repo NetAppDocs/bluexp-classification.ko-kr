@@ -329,6 +329,7 @@ image:screenshot_compliance_investigation_report.png["여러 옵션이 있는 �
 * 만든 시간
 * 마지막 수정
 * 마지막 액세스
+* 권한을 엽니다
 * 파일 소유자
 * 범주
 * 개인 정보
