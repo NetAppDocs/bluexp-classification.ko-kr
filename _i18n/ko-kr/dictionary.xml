@@ -3454,11 +3454,6 @@
   <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">이를 통해 성공적으로 완료된 작업, 현재 진행 중인 작업 및 실패한 작업을 볼 수 있으므로 문제를 진단하고 해결할 수 있습니다. 단일 파일 이동과 같이 빠르게 완료되는 짧은 작업은 작업 상태 창에 나타나지 않습니다.</block>
   <block id="b2ed02bab90c71832a95050419f003e6" category="list-text">BlueXP 분류는 SharePoint Online, SharePoint 온프레미스(SharePoint Server), OneDrive, Google Drive, Amazon S3, 데이터베이스의 데이터 소스에서는 "마지막 액세스 시간"을 추출하지 않습니다.</block>
   <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10월 4일(버전 1.26)</block>
-  <block id="620a73262e6956695319caae21506289" category="section-title">RHEL 버전 9를 사용한 온프레미스 설치 지원</block>
-  <block id="97e778415712a740a3bb71e9070c88c5" category="paragraph">Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 이제 컨테이너 인프라로 Podman 버전 4 이상을 사용하는 RHEL 9.0, 9.1 및 9.2에 대한 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.</block>
-  <block id="081ac57be4c35d4de4fc43c105089d8f" category="paragraph">현재는 마스터 및 원격 스캐너 노드를 사용하는 다크 사이트 설치 또는 분산 스캐닝 환경을 지원하지 않습니다.</block>
-  <block id="db5b005cbaaba7a23899858892848a77" category="section-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
-  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
   <block id="4a90d7d35061a4c9e5845a989ea05db2" category="list-text">다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.26 이상이 필요합니다.</block>
   <block id="59f227bced13db9b55686d58d4422b7b" category="list-text">Red Hat Enterprise Linux 버전 9.0, 9.1 및 9.2</block>
   <block id="ca4483ba58214f8a91253985b52c976c" category="paragraph">RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.</block>
@@ -3481,4 +3476,7 @@
   <block id="5325380bce88952998c2cad273cdef5b" category="paragraph">데이터의 초기 스캔에는 시간이 다소 걸릴 수 있지만 후속 스캔에서는 증분 변경 내용만 검사하므로 시스템 검사 시간이 단축됩니다. BlueXP 분류는 데이터를 라운드 로빈 방식으로 지속적으로 스캔하므로 변경된 모든 데이터를 매우 빠르게 분류할 수 있습니다.</block>
   <block id="098df4b7dbd64ba9dbd496df653f27b4" category="paragraph">BlueXP 분류는 데이터베이스를 하루에 한 번만 스캔합니다. 데이터베이스는 다른 데이터 소스와 마찬가지로 지속적으로 스캔되지 않습니다.</block>
   <block id="9c8736affefce89efb819f7f63f5a237" category="paragraph">초기 검사 후 BlueXP 분류는 라운드 로빈 방식으로 데이터를 지속적으로 스캔하여 증분 변경을 감지합니다. 이렇게 했다면 인스턴스를 계속 실행하는 것이 중요합니다.</block>
+  <block id="74246010013353726bd9ff99866fa7d4" category="section-title">RHEL 버전 9에서 BlueXP 분류의 사내 설치를 지원합니다</block>
+  <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 현재 Podman 버전 4 이상을 컨테이너 인프라로 사용하여 RHEL 9.0, 9.1 및 9.2에서 BlueXP 분류 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.</block>
+  <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">현재 RHEL 9.x를 사용하는 경우 다크 사이트 설치 또는 분산 스캐닝 환경(마스터 및 원격 스캐너 노드 사용)은 지원되지 않습니다</block>
 </blocks>
