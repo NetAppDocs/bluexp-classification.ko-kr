@@ -3479,4 +3479,8 @@
   <block id="74246010013353726bd9ff99866fa7d4" category="section-title">RHEL 버전 9에서 BlueXP 분류의 사내 설치를 지원합니다</block>
   <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 현재 Podman 버전 4 이상을 컨테이너 인프라로 사용하여 RHEL 9.0, 9.1 및 9.2에서 BlueXP 분류 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.</block>
   <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">현재 RHEL 9.x를 사용하는 경우 다크 사이트 설치 또는 분산 스캐닝 환경(마스터 및 원격 스캐너 노드 사용)은 지원되지 않습니다</block>
+  <block id="abff2804f60c6da51fe02e78167abad1" category="section-title">11월 6일(버전 1.26.3)</block>
+  <block id="e25bae53fb1951841531279fa78ee63a" category="section-title">이 릴리스에서는 다음 문제가 해결되었습니다</block>
+  <block id="299ea648aaf9c598beed6ef12a6ef415" category="list-text">시스템에서 스캔된 파일 수를 대시보드에 표시할 때 불일치 문제가 해결되었습니다.</block>
+  <block id="c6e9efb915fb85dd556a71294988c99a" category="list-text">이름 및 메타데이터에 특수 문자가 있는 파일과 디렉터리를 처리하고 보고함으로써 검색 동작을 개선했습니다.</block>
 </blocks>
