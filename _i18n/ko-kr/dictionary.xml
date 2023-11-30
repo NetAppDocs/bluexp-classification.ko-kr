@@ -3370,7 +3370,6 @@
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">BlueXP 분류 API에 관해 자세히 알아보십시오</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>.</block>
   <block id="90ca6bd84833f8a6659f7ea02a7649ba" category="list-text">DFS(Distributed File System) 공유를 일반 CIFS 공유로 추가할 수 있습니다. 그러나 BlueXP 분류에서는 공유가 단일 CIFS 공유로 결합된 여러 서버/볼륨에 구축되어 있음을 인식하지 못하기 때문에 메시지가 실제로 다른 서버/볼륨에 있는 폴더/공유 중 하나에만 적용되는 경우 공유에 대한 권한 또는 연결 오류가 발생할 수 있습니다.</block>
-  <block id="d9c89ee38491bdb679829f426faea2ef" category="list-text">최대 5,000개의 데이터 행을 포함할 수 있는 .csv 파일로 로컬 컴퓨터에 저장합니다.</block>
   <block id="8909a1f3cdd58859743896107e545477" category="list-text">NFS 공유로 내보내는 .JSON 파일로, 최대 100,000개의 데이터 행을 포함할 수 있습니다. 데이터 행이 100,000개 이상이면 .JSON 파일이 추가로 생성됩니다.</block>
   <block id="090f87d7b81c809aa6a6d81dcabfeeb8" category="paragraph">BlueXP 분류가 파일(비정형 데이터), 디렉토리(폴더 및 파일 공유) 및 데이터베이스(정형 데이터)를 검사하는 경우 최대 3개의 보고서 파일을 다운로드할 수 있습니다.</block>
   <block id="abfab9fcbcf9c983c6fcb0efced8edc6" category="cell">8080(TCP), 6000(TCP), 443(TCP) 및 80</block>
@@ -3463,4 +3462,5 @@
   <block id="1f883a560be0732076f2237a57c5195f" category="list-text">BlueXP에서 설치 진행률을 확인할 수 있도록 포트 8080이 열려 있어야 합니다.</block>
   <block id="3834cda66b40129353aaded5673c3634" category="list-text">Red Hat Enterprise Linux 버전 7.8 및 7.9</block>
   <block id="05b80f267d8929f809fe86d91268bc94" category="list-text">CentOS 버전 7.8 및 7.9</block>
+  <block id="7d389403e7b93ff8a467567b0e19cd8a" category="list-text">최대 10,000개의 데이터 행을 포함할 수 있는 .csv 파일로 로컬 컴퓨터에 저장합니다.</block>
 </blocks>
