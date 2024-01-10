@@ -90,6 +90,8 @@ sidebar:
       url: "/task-managing-data-fusion.html"
     - title: BlueXP 분류 작업의 상태를 봅니다
       url: "/task-view-compliance-actions.html"
+    - title: 기존 그룹 ID를 "오픈 투 조직"으로 정의
+      url: "/task-add-group-id-as-open.html"
     - title: BlueXP 분류 작업의 이력을 감사합니다
       url: "/task-audit-data-sense-actions.html"
     - title: BlueXP 분류 스캔 속도를 줄입니다

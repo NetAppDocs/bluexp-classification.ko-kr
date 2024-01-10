@@ -3469,4 +3469,28 @@
   <block id="12863c4f3d21d132902517901137f0ce" category="list-text">스캔 분석 오류</block>
   <block id="c0796e6eb525f9f4fe2a9d96a28d314a" category="list-text">디렉토리 이름</block>
   <block id="ea36f55b106d5d1443d6a1e80c18df3d" category="list-text">디렉토리 소유자</block>
+  <block id="0ee0dd7645f9fd01a3094af2719826bf" category="summary">그룹 ID가 NFS 파일 공유의 파일 또는 폴더에 첨부되면 파일 또는 폴더에 대한 사용 권한을 정의합니다(예: "조직에 열려 있음"). 일부 GID(그룹 ID)가 처음에 "Open to Organization" 권한 수준으로 설정되지 않은 경우 GID에 해당 권한을 추가하여 GID가 첨부된 모든 파일 및 폴더가 "Open to the Organization"으로 간주되도록 할 수 있습니다.</block>
+  <block id="9ada56a36c98a6592b93aac97b759b65" category="doc">추가 그룹 ID를 "오픈 투 조직"으로 정의</block>
+  <block id="54f4d6ea6929f3157249a7232005ba31" category="paragraph">그룹 ID(GID)가 NFS 파일 공유의 파일 또는 폴더에 첨부되면 파일 또는 폴더에 대한 사용 권한을 정의합니다(예: 해당 GID가 "조직에 열려 있는지"). 일부 GID(그룹 ID)가 처음에 "Open to Organization" 권한 수준으로 설정되지 않은 경우 GID에 해당 권한을 추가하여 GID가 첨부된 모든 파일 및 폴더가 "Open to the Organization"으로 간주되도록 할 수 있습니다.</block>
+  <block id="85755c2c4a65adf46f4aed267e145acd" category="paragraph">이렇게 변경하고 BlueXP 분류에서 파일과 폴더를 다시 검사하면 이러한 그룹 ID가 첨부된 모든 파일 및 폴더가 조사 세부 정보 페이지에 이 권한을 표시하고 파일 권한을 표시하는 보고서에도 표시됩니다.</block>
+  <block id="5b2ef9bd1232e63caf3da28133ca8a3d" category="paragraph">BlueXP 분류 시스템에 로그인해야 구성 파일을 편집하고 스크립트를 실행하여 이 기능을 사용할 수 있습니다.</block>
+  <block id="c079e3a087379d135bc6228cdbf4538d" category="section-title">BlueXP 분류 시스템에 로그인합니다</block>
+  <block id="3e6039a3c9f368f407b293a4cae886e2" category="paragraph">BlueXP 분류가 온프레미스의 Linux 머신 또는 클라우드에 구축한 Linux 시스템에 설치되면 구성 파일 및 스크립트에 직접 액세스할 수 있습니다.</block>
+  <block id="aea796c551760c123249c98597ef5dab" category="section-title">그룹 ID에 "조직에 열기" 권한을 추가합니다</block>
+  <block id="cab0d8189f1383e6633abad2d8bb10e2" category="paragraph">이 작업을 시작하기 전에 그룹 ID 번호(GID)가 있어야 합니다.</block>
+  <block id="2783de23499f1b6912284079950af328" category="list-text">BlueXP 분류 시스템에서 "/opt/netapp/config/custom_configuration"으로 이동하여 "data_provider.yaml" 파일을 엽니다.</block>
+  <block id="f81b0bf85bf2ac124c8235722fd5953b" category="list-text">"organization_group_ids:[]" 줄에 그룹 ID를 추가합니다. 예를 들면 다음과 같습니다.</block>
+  <block id="98ab797cb238cc535772dce1663baf49" category="paragraph">이 파일의 다른 내용은 변경하지 마십시오.</block>
+  <block id="fb448d942cb14f250d9497a3bb5f49dc" category="list-text">"/opt/NetApp/Datasense"로 이동하여 다음 스크립트를 실행합니다.</block>
+  <block id="8a9190ee1ce170537f2281a1fd3efbf8" category="paragraph">이 명령은 수정된 그룹 ID 권한을 분류 엔진에 커밋합니다.</block>
+  <block id="fa72d06a2d710ef92a76614af32ec1f7" category="paragraph">이후의 모든 데이터 검사는 이러한 그룹 ID가 "조직 공개"로 첨부된 파일 또는 폴더를 식별합니다.</block>
+  <block id="3ef472518560fb1d514f802f7b78520c" category="paragraph">이와 동일한 단계를 사용하여 그룹 ID 목록을 편집하고 이전에 추가한 그룹 ID를 삭제할 수 있습니다. 수정된 그룹 ID 목록은 스크립트를 실행하여 변경 내용을 커밋한 후에 업데이트됩니다.</block>
+  <block id="547ea5f0fcc4aedf35c256e9b5b85845" category="paragraph">BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense"에서 다음 명령을 실행합니다.</block>
+  <block id="81c60fb26d30a0a1fa208bc6b7d14e6f" category="section-title">1월 10일(버전 1.27)</block>
+  <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
+  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
+  <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">추가 그룹 ID를 "조직에 열기"로 구성</block>
+  <block id="617de59f0823cef046ababc40408cb92" category="inline-link">추가 그룹 ID를 "조직에 열려 있음"으로 추가</block>
+  <block id="883dea14e891e466e8184cc34b65bd17" category="paragraph">이제 처음에 해당 권한으로 설정되지 않은 경우 NFS의 그룹 ID가 BlueXP 분류에서 직접 "Open to Organization"으로 간주되도록 구성할 수 있습니다. 자세한 내용은 를 참조하십시오<block ref="d0c1b51f12c2e361f70a1ff7d6038c44" category="inline-link-rx"></block>.</block>
+  <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">기존 그룹 ID를 "오픈 투 조직"으로 정의</block>
 </blocks>
