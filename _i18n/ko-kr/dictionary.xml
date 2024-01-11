@@ -1294,7 +1294,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
   <block id="b445de53411a165e9c56da6430c38d59" category="inline-link">Azure의 커넥터 규칙</block>
   <block id="c6bcf4a88b4c531d404128df1f1ad3a8" category="list-text">Google Drive 계정</block>
   <block id="dc3d679737d761f6e72564d962617ffa" category="paragraph">많은 사용자가 데이터를 신속하게 스캔하여 더 많은 연구가 필요한 데이터 소스를 식별하려고 하므로 이 기능을 좋아하고, 그런 다음 필요한 데이터 소스 또는 볼륨에서만 분류 검사를 활성화할 수 있습니다.</block>
@@ -1561,7 +1560,6 @@
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">문제를 해결하는 데 도움이 되는 문서를 찾으려면 BlueXP 기술 자료를 검색하십시오.</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXP 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만드십시오.</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">현재 보고 있는 BlueXP 문서입니다.</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. BlueXP 개선에 도움이 되는 피드백을 제출하십시오.</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제에 해당하는 BlueXP를 예로 들 수 있습니다.</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 BlueXP 계정, 작업 영역 및 커넥터의 범위 내에 있습니다.</block>
   <block id="f92115ef83b34980e3bba84c1a861bac" category="paragraph">다음 질문은 BlueXP 커넥터와 관련이 있습니다.</block>
@@ -3481,16 +3479,16 @@
   <block id="2783de23499f1b6912284079950af328" category="list-text">BlueXP 분류 시스템에서 "/opt/netapp/config/custom_configuration"으로 이동하여 "data_provider.yaml" 파일을 엽니다.</block>
   <block id="f81b0bf85bf2ac124c8235722fd5953b" category="list-text">"organization_group_ids:[]" 줄에 그룹 ID를 추가합니다. 예를 들면 다음과 같습니다.</block>
   <block id="98ab797cb238cc535772dce1663baf49" category="paragraph">이 파일의 다른 내용은 변경하지 마십시오.</block>
-  <block id="fb448d942cb14f250d9497a3bb5f49dc" category="list-text">"/opt/NetApp/Datasense"로 이동하여 다음 스크립트를 실행합니다.</block>
   <block id="8a9190ee1ce170537f2281a1fd3efbf8" category="paragraph">이 명령은 수정된 그룹 ID 권한을 분류 엔진에 커밋합니다.</block>
   <block id="fa72d06a2d710ef92a76614af32ec1f7" category="paragraph">이후의 모든 데이터 검사는 이러한 그룹 ID가 "조직 공개"로 첨부된 파일 또는 폴더를 식별합니다.</block>
   <block id="3ef472518560fb1d514f802f7b78520c" category="paragraph">이와 동일한 단계를 사용하여 그룹 ID 목록을 편집하고 이전에 추가한 그룹 ID를 삭제할 수 있습니다. 수정된 그룹 ID 목록은 스크립트를 실행하여 변경 내용을 커밋한 후에 업데이트됩니다.</block>
-  <block id="547ea5f0fcc4aedf35c256e9b5b85845" category="paragraph">BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense"에서 다음 명령을 실행합니다.</block>
   <block id="81c60fb26d30a0a1fa208bc6b7d14e6f" category="section-title">1월 10일(버전 1.27)</block>
   <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">추가 그룹 ID를 "조직에 열기"로 구성</block>
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">추가 그룹 ID를 "조직에 열려 있음"으로 추가</block>
-  <block id="883dea14e891e466e8184cc34b65bd17" category="paragraph">이제 처음에 해당 권한으로 설정되지 않은 경우 NFS의 그룹 ID가 BlueXP 분류에서 직접 "Open to Organization"으로 간주되도록 구성할 수 있습니다. 자세한 내용은 를 참조하십시오<block ref="d0c1b51f12c2e361f70a1ff7d6038c44" category="inline-link-rx"></block>.</block>
   <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">기존 그룹 ID를 "오픈 투 조직"으로 정의</block>
+  <block id="c994485ccd2b31a48f2ec01a7e6462e0" category="list-text">"/opt/netapp/datasense/tools/customer_configuration/data_providers"로 이동하여 다음 스크립트를 실행합니다.</block>
+  <block id="d16189c10d4d8a98db7b1b99d883a1fd" category="paragraph">BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.</block>
+  <block id="f51c5ae20e9943d0b0e6e5c5fff847e4" category="paragraph">이제 처음에 해당 권한으로 설정되지 않은 경우 NFS의 그룹 ID가 BlueXP 분류에서 직접 "Open to Organization"으로 간주되도록 구성할 수 있습니다. 자세한 내용은 를 참조하십시오<block ref="a69630de08e764820516472e7391212c" category="inline-link-rx"></block>.</block>
 </blocks>

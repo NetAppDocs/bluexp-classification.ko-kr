@@ -61,7 +61,7 @@ BlueXP 분류가 온프레미스의 Linux 머신 또는 클라우드에 구축�
 +
 이 파일의 다른 내용은 변경하지 마십시오.
 
-. "/opt/NetApp/Datasense"로 이동하여 다음 스크립트를 실행합니다.
+. "/opt/netapp/datasense/tools/customer_configuration/data_providers"로 이동하여 다음 스크립트를 실행합니다.
 +
  update_data_providers_from_config_file.sh
 +
@@ -73,6 +73,6 @@ BlueXP 분류가 온프레미스의 Linux 머신 또는 클라우드에 구축�
 
 이와 동일한 단계를 사용하여 그룹 ID 목록을 편집하고 이전에 추가한 그룹 ID를 삭제할 수 있습니다. 수정된 그룹 ID 목록은 스크립트를 실행하여 변경 내용을 커밋한 후에 업데이트됩니다.
 
-BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense"에서 다음 명령을 실행합니다.
+BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.
 
  get_data_providers_configuration.sh
