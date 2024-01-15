@@ -30,7 +30,7 @@ BlueXP 분류의 새로운 기능에 대해 알아보십시오.
 
 === 추가 그룹 ID를 "조직에 열기"로 구성
 
-이제 처음에 해당 권한으로 설정되지 않은 경우 NFS의 그룹 ID가 BlueXP 분류에서 직접 "Open to Organization"으로 간주되도록 구성할 수 있습니다. 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/bluexp-classification/task-add-group-id-as-open["추가 그룹 ID를 "조직에 열려 있음"으로 추가"].
+이제 그룹이 처음에 해당 권한으로 설정되지 않은 경우, NFS의 그룹 ID를 BlueXP 분류에서 직접 "Open to Organization"으로 간주하도록 구성할 수 있습니다. 이러한 그룹 ID가 첨부된 파일 및 폴더는 조사 세부 정보 페이지에서 "조직에 열기"로 표시됩니다. 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/bluexp-classification/task-add-group-id-as-open.html["추가 그룹 ID를 "조직에 열려 있음"으로 추가"].
 
 
 
@@ -317,33 +317,3 @@ BlueXP 분류는 일본어 개인 번호(내 번호라고도 함)가 포함된 �
 
 
 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["단일 호스트 서버 및 여러 호스트에 Data Sense를 설치하는 방법에 대해 자세히 알아보십시오"].
-
-
-
-== 2022년 11월 13일(버전 1.17)
-
-
-
-=== SharePoint 온-프레미스 계정 스캔 지원
-
-이제 데이터 센스를 통해 SharePoint Online 계정과 SharePoint 온-프레미스 계정(SharePoint Server)을 모두 검색할 수 있습니다. 자체 서버에 SharePoint를 설치하거나 인터넷에 액세스할 수 없는 사이트에 SharePoint를 설치해야 하는 경우 이제 데이터 센스에서 해당 계정의 사용자 파일을 검색할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-scanning-sharepoint.html#adding-a-sharepoint-on-premise-account["자세한 정보"^].
-
-
-
-=== 여러 디렉토리(폴더 또는 공유)를 재검색하는 기능
-
-이제 변경 사항이 시스템에 반영되도록 여러 디렉토리(폴더 또는 공유)를 즉시 재검색할 수 있습니다. 이렇게 하면 특정 데이터를 다른 데이터보다 먼저 다시 검색하게 할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html#rescanning-data-for-an-existing-repository["디렉토리를 다시 검색하는 방법을 참조하십시오"^].
-
-
-
-=== 특정 데이터 소스를 스캔하기 위해 사내 "스캐너" 노드를 추가하는 기능
-
-온-프레미스 위치에 데이터 센스를 설치한 경우 특정 데이터 원본을 스캔하기 위해 스캔 처리 성능이 더 필요한 경우 "스캐너" 노드를 더 추가하고 해당 데이터 원본을 스캔하도록 할당할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다.
-
-필요한 경우 스캔 중인 데이터 소스에 물리적으로 가까운 호스트 시스템에 스캐너 노드를 설치할 수 있습니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다. https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html#add-scanner-nodes-to-an-existing-deployment["스캐너 노드를 설치하여 추가 데이터 원본을 스캔하는 방법을 알아봅니다"^].
-
-
-
-=== 이제 온-프레미스 설치 관리자가 설치를 시작하기 전에 사전 검사를 수행합니다
-
-Linux 시스템에 Data Sense를 설치할 때 설치 관리자는 실제 설치를 시작하기 전에 시스템이 필요한 모든 요구 사항(CPU, RAM, 용량, 네트워킹 등)을 충족하는지 확인합니다. 따라서 * 설치에 시간을 소비하기 전에 * 문제를 파악할 수 있습니다.

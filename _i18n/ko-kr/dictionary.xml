@@ -1482,7 +1482,6 @@
   <block id="0bac9ec0256a9fd2858c7836245c9025" category="list-text">AWS의 경우 &lt;EC2-USER&gt;를 사용합니다</block>
   <block id="5e0b61460f50f9b62d95b060b2f3f8d2" category="inline-image-macro">조사 결과 창에 사용자 지정 정규식 결과의 예를 보여 주는 스크린샷</block>
   <block id="f0957a103fdf829c95e6748bbaec5b4a" category="paragraph"><block ref="f0957a103fdf829c95e6748bbaec5b4a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a6277013831bd0ba5dd8499592e6d67b" category="inline-link">디렉토리를 다시 검색하는 방법을 참조하십시오</block>
   <block id="88ce972549d8b67ad56bc9e681818ca2" category="section-title">SharePoint Online 계정 추가</block>
   <block id="8b7071c98b3d8a3e43ecfa77bab75857" category="paragraph">사용자 파일이 있는 SharePoint Online 계정을 추가합니다.</block>
   <block id="c5545572ea4069cfaa50e205fd80e522" category="inline-image-macro">SharePoint Online 추가 단추를 클릭할 수 있는 구성 페이지의 스크린 샷</block>
@@ -1658,9 +1657,6 @@
   <block id="8dd42ed78b27180f93de7913ecab156f" category="paragraph">모든 스캐너 노드에서 설치가 완료되고 관리자 노드에 연결된 경우 "add_scanner_node.sh" 스크립트도 완료됩니다. 설치하는 데 10-20분이 소요될 수 있습니다.</block>
   <block id="ced90f42fe9747f4578603471ea454a3" category="list-text">스캐너 그룹에 스캐너 노드를 추가한 경우 관리자 노드로 돌아가 다음 두 가지 작업을 수행합니다.</block>
   <block id="b77072323352dd1724df6d20002eb9f2" category="list-text">다음 스크립트를 실행하여 이 매핑 정보를 모든 스캐너 노드에 등록합니다.<block ref="f484d7848213083a72fafef02f452b57" prefix=" " category="inline-code"></block></block>
-  <block id="0198cdca4033ab7a459e75dac29fa28e" category="section-title">SharePoint 온-프레미스 계정 스캔 지원</block>
-  <block id="9793f1d7484adebeb64fb621258edfaf" category="section-title">여러 디렉토리(폴더 또는 공유)를 재검색하는 기능</block>
-  <block id="feec7c47e3e7cb8ab71bbb29acd13ee0" category="section-title">특정 데이터 소스를 스캔하기 위해 사내 "스캐너" 노드를 추가하는 기능</block>
   <block id="cbcceb43df0c94c9cc9e38ba4b9389c1" category="paragraph">파일이나 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹의 목록과 해당 권한이 있는 권한 유형을 보려면 * 모든 권한 보기 * 를 클릭합니다. 이 단추는 CIFS 공유, SharePoint Online, SharePoint On-Premise 및 OneDrive의 데이터에만 사용할 수 있습니다.</block>
   <block id="aadddcc55c6a2a76a433b97a4366f53f" category="list-text">텍스트 파일에서 사용자 지정 키워드를 추가할 수 있습니다. -- 이러한 단어는 데이터 내에서 식별됩니다.</block>
   <block id="a2c1b5d018e20e258024bece4a2d254e" category="section-title">데이터베이스에서 사용자 지정 개인 데이터 식별자를 추가합니다</block>
@@ -1689,17 +1685,12 @@
   <block id="00fde4d5ca4e0124dccf8017bb92fc4e" category="list-text">전자 메일 알림의 경우 - 전자 메일 주소/계정입니다</block>
   <block id="8cc577dbce4245d15abad6f3b1dfc995" category="paragraph">각 로그 파일의 크기는 최대 10MB입니다. 이 제한에 도달하면 새 로그 파일이 시작됩니다. 로그 파일의 이름은 "DataSense_audit.log", "DataSense_audit.log.1", "DataSense_audit.log.2" 등으로 지정됩니다. 최대 100개의 로그 파일이 시스템에 보존되며, 최대 용량에 도달하면 이전 로그 파일이 자동으로 삭제됩니다.</block>
   <block id="fbda64f06352e44a4e6523dbdd6b039e" category="paragraph">클라우드의 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.</block>
-  <block id="c490178f4142a4c06caeff7c04e922f8" category="inline-link">스캐너 노드를 설치하여 추가 데이터 원본을 스캔하는 방법을 알아봅니다</block>
   <block id="3c73fb515a637be4a1083e3e061099f9" category="paragraph">설치 프로그램은 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되어 있는지 확인합니다.</block>
   <block id="0cf39354f7edfa15dd84075131e27804" category="list-text">클라우드 공급업체의 BlueXP Marketplace 목록 가입 또는</block>
   <block id="21315205ba34163a83853c5526e534c1" category="list-text">한 번에 최대 1K 항목을 재생성할 수 있습니다.</block>
   <block id="a8c256c3bc4f2ab999fee3056f7bebab" category="paragraph"><block ref="5d86a8971ca34d1c831cc0be7e11109d" prefix="" category="inline-code"></block></block>
   <block id="79bd49250e598bf53655f50c83b04044" category="list-text">작업 유형(삭제, 복사, 이동, 정책 생성, 정책 업데이트, 파일 재검색, JSON 보고서 다운로드 등)</block>
   <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">에서 JSON 보고서 생성 진행률을 볼 수 있습니다 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>.</block>
-  <block id="bd975c5b95d2c7b6d2e124201b98445c" category="section-title">2022년 11월 13일(버전 1.17)</block>
-  <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">온-프레미스 위치에 데이터 센스를 설치한 경우 특정 데이터 원본을 스캔하기 위해 스캔 처리 성능이 더 필요한 경우 "스캐너" 노드를 더 추가하고 해당 데이터 원본을 스캔하도록 할당할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다.</block>
-  <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">이제 온-프레미스 설치 관리자가 설치를 시작하기 전에 사전 검사를 수행합니다</block>
-  <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">Linux 시스템에 Data Sense를 설치할 때 설치 관리자는 실제 설치를 시작하기 전에 시스템이 필요한 모든 요구 사항(CPU, RAM, 용량, 네트워킹 등)을 충족하는지 확인합니다. 따라서 * 설치에 시간을 소비하기 전에 * 문제를 파악할 수 있습니다.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾습니다.</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">위의 2단계에서 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
@@ -3098,9 +3089,6 @@
   <block id="256d4a07e31924bad219936ee7fbe092" category="paragraph"><block ref="6cbac5d82b5b6979376ae555290ffa96" category="inline-link-rx"></block>.</block>
   <block id="e5047cfc3a021db29e30390a5a0de3c1" category="paragraph">BlueXP 분류는 일본어 개인 번호(내 번호라고도 함)가 포함된 파일을 식별하고 분류할 수 있습니다. 여기에는 개인 및 회사 내 번호가 모두 포함됩니다.<block ref="902797e77ffbfd681f1fc19dad4fefbc" category="inline-link-rx"></block>.</block>
   <block id="70ef9f0f001698901fc7782c85efbd22" category="paragraph"><block ref="d164dabede0c4e6f2317947d0f40a4c9" category="inline-link-rx"></block>.</block>
-  <block id="b218ff5e02da9d35096238a32166dde5" category="paragraph">이제 데이터 센스를 통해 SharePoint Online 계정과 SharePoint 온-프레미스 계정(SharePoint Server)을 모두 검색할 수 있습니다. 자체 서버에 SharePoint를 설치하거나 인터넷에 액세스할 수 없는 사이트에 SharePoint를 설치해야 하는 경우 이제 데이터 센스에서 해당 계정의 사용자 파일을 검색할 수 있습니다.<block ref="f9677d6768fea140fb85ff23d7983a85" category="inline-link-rx"></block>.</block>
-  <block id="96c123ab6f4734112bc50bc214494621" category="paragraph">이제 변경 사항이 시스템에 반영되도록 여러 디렉토리(폴더 또는 공유)를 즉시 재검색할 수 있습니다. 이렇게 하면 특정 데이터를 다른 데이터보다 먼저 다시 검색하게 할 수 있습니다.<block ref="30c54ee6e02a85bc7c1713b7a90e6ed8" category="inline-link-rx"></block>.</block>
-  <block id="0226172c9b936ddaa203e083a4b9cc81" category="paragraph">필요한 경우 스캔 중인 데이터 소스에 물리적으로 가까운 호스트 시스템에 스캐너 노드를 설치할 수 있습니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다.<block ref="838641529bd2d9079ec09cedca69b267" category="inline-link-rx"></block>.</block>
   <block id="9aeb191a0aa6c1027436d873f00b71c9" category="paragraph">가능합니다<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.</block>
   <block id="1b01b1e09dd0c52ed6a6d8b4ca2a0568" category="paragraph">클라우드 공급자 환경에 Connector를 만들려면 를 참조하십시오<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>,<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>, 또는<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>.</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
@@ -3471,7 +3459,6 @@
   <block id="9ada56a36c98a6592b93aac97b759b65" category="doc">추가 그룹 ID를 "오픈 투 조직"으로 정의</block>
   <block id="54f4d6ea6929f3157249a7232005ba31" category="paragraph">그룹 ID(GID)가 NFS 파일 공유의 파일 또는 폴더에 첨부되면 파일 또는 폴더에 대한 사용 권한을 정의합니다(예: 해당 GID가 "조직에 열려 있는지"). 일부 GID(그룹 ID)가 처음에 "Open to Organization" 권한 수준으로 설정되지 않은 경우 GID에 해당 권한을 추가하여 GID가 첨부된 모든 파일 및 폴더가 "Open to the Organization"으로 간주되도록 할 수 있습니다.</block>
   <block id="85755c2c4a65adf46f4aed267e145acd" category="paragraph">이렇게 변경하고 BlueXP 분류에서 파일과 폴더를 다시 검사하면 이러한 그룹 ID가 첨부된 모든 파일 및 폴더가 조사 세부 정보 페이지에 이 권한을 표시하고 파일 권한을 표시하는 보고서에도 표시됩니다.</block>
-  <block id="5b2ef9bd1232e63caf3da28133ca8a3d" category="paragraph">BlueXP 분류 시스템에 로그인해야 구성 파일을 편집하고 스크립트를 실행하여 이 기능을 사용할 수 있습니다.</block>
   <block id="c079e3a087379d135bc6228cdbf4538d" category="section-title">BlueXP 분류 시스템에 로그인합니다</block>
   <block id="3e6039a3c9f368f407b293a4cae886e2" category="paragraph">BlueXP 분류가 온프레미스의 Linux 머신 또는 클라우드에 구축한 Linux 시스템에 설치되면 구성 파일 및 스크립트에 직접 액세스할 수 있습니다.</block>
   <block id="aea796c551760c123249c98597ef5dab" category="section-title">그룹 ID에 "조직에 열기" 권한을 추가합니다</block>
@@ -3490,5 +3477,6 @@
   <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">기존 그룹 ID를 "오픈 투 조직"으로 정의</block>
   <block id="c994485ccd2b31a48f2ec01a7e6462e0" category="list-text">"/opt/netapp/datasense/tools/customer_configuration/data_providers"로 이동하여 다음 스크립트를 실행합니다.</block>
   <block id="d16189c10d4d8a98db7b1b99d883a1fd" category="paragraph">BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.</block>
-  <block id="f51c5ae20e9943d0b0e6e5c5fff847e4" category="paragraph">이제 처음에 해당 권한으로 설정되지 않은 경우 NFS의 그룹 ID가 BlueXP 분류에서 직접 "Open to Organization"으로 간주되도록 구성할 수 있습니다. 자세한 내용은 를 참조하십시오<block ref="a69630de08e764820516472e7391212c" category="inline-link-rx"></block>.</block>
+  <block id="4103104f589e62a63d3d9cfb58c764f2" category="paragraph">이 기능을 활성화하려면 BlueXP 분류 시스템에 로그인하여 구성 파일을 편집하고 스크립트를 실행해야 합니다.</block>
+  <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">이제 그룹이 처음에 해당 권한으로 설정되지 않은 경우, NFS의 그룹 ID를 BlueXP 분류에서 직접 "Open to Organization"으로 간주하도록 구성할 수 있습니다. 이러한 그룹 ID가 첨부된 파일 및 폴더는 조사 세부 정보 페이지에서 "조직에 열기"로 표시됩니다. 자세한 내용은 를 참조하십시오<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>.</block>
 </blocks>
