@@ -2569,7 +2569,6 @@
   <block id="a0ae0e32ddfd7ab74e020981760f58f8" category="paragraph">BlueXP 분류는 클라우드 또는 온프레미스 등 어느 곳에서든 단일 서버 또는 클러스터를 배포합니다. 서버는 표준 프로토콜을 통해 데이터 소스에 연결하고 동일한 서버에 배포되는 Elasticsearch 클러스터에서 결과를 인덱싱합니다. 따라서 멀티 클라우드, 교차 클라우드, 프라이빗 클라우드 및 온프레미스 환경을 지원할 수 있습니다.</block>
   <block id="ff5134b8822856ebcc5677de01bc300f" category="paragraph">BlueXP 분류는 BlueXP의 일부로 작동하며 AWS, Azure 및 GCP를 지원합니다. 이를 통해 조직은 다양한 클라우드 공급자 전반에서 통합된 개인 정보 보호 가시성을 확보할 수 있습니다.</block>
   <block id="43fb0be49307beaaf607049cdcec4e54" category="section-title">BlueXP 분류에는 REST API가 있으며 타사 도구와 작동합니까?</block>
-  <block id="477e2dc63bdbee29f0ad2ab4fbe572fc" category="paragraph">BlueXP는 서비스에 대한 REST API 기능을 지원합니다. BlueXP가 선호하는 관리 지점이 아닌 경우 REST API를 통해 BlueXP 분류 등의 서비스를 사용할 수도 있습니다. 모든 사용자 동작에는 타사 시스템과 통합할 수 있는 REST API가 있습니다.</block>
   <block id="f08123eb9486c940f0187f02090476ae" category="section-title">시장에서 BlueXP 분류를 사용할 수 있습니까?</block>
   <block id="064545628e27cedb51462f11c151eea0" category="paragraph">예. BlueXP 및 BlueXP 분류는 AWS, Azure 및 GCP 마켓플레이스에서 이용할 수 있습니다.</block>
   <block id="ff33a1d5662bade5069e8522071a3ff9" category="section-title">BlueXP 분류 스캔 및 분석</block>
@@ -3479,4 +3478,7 @@
   <block id="d16189c10d4d8a98db7b1b99d883a1fd" category="paragraph">BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.</block>
   <block id="4103104f589e62a63d3d9cfb58c764f2" category="paragraph">이 기능을 활성화하려면 BlueXP 분류 시스템에 로그인하여 구성 파일을 편집하고 스크립트를 실행해야 합니다.</block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">이제 그룹이 처음에 해당 권한으로 설정되지 않은 경우, NFS의 그룹 ID를 BlueXP 분류에서 직접 "Open to Organization"으로 간주하도록 구성할 수 있습니다. 이러한 그룹 ID가 첨부된 파일 및 폴더는 조사 세부 정보 페이지에서 "조직에 열기"로 표시됩니다. 자세한 내용은 를 참조하십시오<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>.</block>
+  <block id="3fa1e4aec3c930accd20ae2a1e354a79" category="paragraph">BlueXP는 서비스에 대한 REST API 기능을 지원합니다. BlueXP가 선호하는 관리 지점이 아닌 경우 REST API를 통해 BlueXP 분류 등의 서비스를 사용할 수도 있습니다. 모든 사용자 동작에는 타사 시스템과 통합할 수 있는 REST API가 있습니다. 을 참조하십시오 <block ref="6cf6f695e0ddd2cc536783d6e0951a10" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="da4874b0888a9dafc160c24905184d23" category="section-title">ONTAP 볼륨에 있는 스냅샷 복사본이 검사됩니까?</block>
+  <block id="a35301b044a7bc259b579edebe42bff3" category="paragraph">아니요 BlueXP 분류는 볼륨의 콘텐츠와 동일하므로 스냅샷을 스캔하지 않습니다.</block>
 </blocks>
