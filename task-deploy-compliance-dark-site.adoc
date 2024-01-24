@@ -139,7 +139,7 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 | /var/lib/docker입니다 | `rwx------` 
 
 
-| /user/lib/systemd/system | `rwxr-xr-x` 
+| /usr/lib/systemd/system입니다 | `rwxr-xr-x` 
 |===
 * * 운영 체제 *:
 +

@@ -145,7 +145,7 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 | /var/lib/docker입니다 | `rwx------` 
 
 
-| /user/lib/systemd/system | `rwxr-xr-x` 
+| /usr/lib/systemd/system입니다 | `rwxr-xr-x` 
 |===
 * * 운영 체제 *:
 +
