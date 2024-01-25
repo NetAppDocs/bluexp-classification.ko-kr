@@ -18,34 +18,7 @@ summary: '그룹 ID가 NFS 파일 공유의 파일 또는 폴더에 첨부되면
 
 이렇게 변경하고 BlueXP 분류에서 파일과 폴더를 다시 검사하면 이러한 그룹 ID가 첨부된 모든 파일 및 폴더가 조사 세부 정보 페이지에 이 권한을 표시하고 파일 권한을 표시하는 보고서에도 표시됩니다.
 
-이 기능을 활성화하려면 BlueXP 분류 시스템에 로그인하여 구성 파일을 편집하고 스크립트를 실행해야 합니다.
-
-
-
-== BlueXP 분류 시스템에 로그인합니다
-
-BlueXP 분류가 온프레미스의 Linux 머신 또는 클라우드에 구축한 Linux 시스템에 설치되면 구성 파일 및 스크립트에 직접 액세스할 수 있습니다.
-
-클라우드에 BlueXP 분류를 배포할 때는 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.
-
- ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
-* path_to_the_ssh_key> = ssh 인증 키의 위치입니다
-* machine_user>:
-+
-** AWS의 경우 <EC2-USER>를 사용합니다
-** Azure의 경우: BlueXP 인스턴스에 대해 생성한 사용자를 사용합니다
-** GCP의 경우: BlueXP 인스턴스에 대해 생성한 사용자를 사용합니다
-
-
-* datasense_ip> = 가상 시스템 인스턴스의 IP 주소입니다
-
-
-클라우드의 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.
-
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS의 보안 그룹 규칙"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure의 보안 그룹 규칙"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-gcp.html["Google Cloud의 방화벽 규칙"^]
-
+이 기능을 활성화하려면 BlueXP 분류 시스템에 로그인하여 구성 파일을 편집하고 스크립트를 실행해야 합니다. 자세한 내용은 를 참조하십시오 link:reference-log-in-to-instance.html["BlueXP 분류 시스템에 로그인합니다"] Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.
 
 
 

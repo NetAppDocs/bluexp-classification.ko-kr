@@ -53,3 +53,5 @@ image:screenshot_compliance_uninstall.png["BlueXP 분류 소프트웨어를 제�
 cleanup.sh
 ----
 
+
+자세한 내용은 를 참조하십시오 link:reference-log-in-to-instance.html["BlueXP 분류 호스트 시스템에 로그인합니다"].

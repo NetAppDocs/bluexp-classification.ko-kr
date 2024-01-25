@@ -186,6 +186,7 @@ https://youtu.be/Ogoufel1q6c["이 비디오 시청"^] CentOS에 Docker를 설치
 ** Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
 
 
+* * NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP 커넥터 시스템 간에 시간을 동기화해야 합니다.
 * * Firewalld 고려 사항 *: 사용하려는 경우 `firewalld`BlueXP 분류를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 따라서 BlueXP 분류와 호환됩니다.
 +
 ....

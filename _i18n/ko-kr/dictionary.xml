@@ -1660,7 +1660,6 @@
   <block id="8022db3692364177695fce2a133b526b" category="list-text">태그-태그 이름용</block>
   <block id="91f93253b1daa7f572477e6f8dc4f163" category="list-text">사용자 이름으로 할당</block>
   <block id="00fde4d5ca4e0124dccf8017bb92fc4e" category="list-text">전자 메일 알림의 경우 - 전자 메일 주소/계정입니다</block>
-  <block id="8cc577dbce4245d15abad6f3b1dfc995" category="paragraph">각 로그 파일의 크기는 최대 10MB입니다. 이 제한에 도달하면 새 로그 파일이 시작됩니다. 로그 파일의 이름은 "DataSense_audit.log", "DataSense_audit.log.1", "DataSense_audit.log.2" 등으로 지정됩니다. 최대 100개의 로그 파일이 시스템에 보존되며, 최대 용량에 도달하면 이전 로그 파일이 자동으로 삭제됩니다.</block>
   <block id="fbda64f06352e44a4e6523dbdd6b039e" category="paragraph">클라우드의 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.</block>
   <block id="3c73fb515a637be4a1083e3e061099f9" category="paragraph">설치 프로그램은 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되어 있는지 확인합니다.</block>
   <block id="0cf39354f7edfa15dd84075131e27804" category="list-text">클라우드 공급업체의 BlueXP Marketplace 목록 가입 또는</block>
@@ -2187,7 +2186,6 @@
   <block id="1848496efeb9b0561b54c93d4ca7403e" category="list-text">Governance * 를 클릭한 다음 * Data Discovery Assessment Report * 버튼을 클릭합니다.</block>
   <block id="d3cfc5adb7d762b3824a7c02a95765b9" category="inline-image-macro">데이터 검색 평가 보고서를 시작하는 방법을 보여 주는 거버넌스 대시보드 스크린샷</block>
   <block id="6e54901f5113f24a64a46275f84c34da" category="paragraph"><block ref="6e54901f5113f24a64a46275f84c34da" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="95d360d4c70cbbf05116206b4e5edd67" category="section-title">로그 파일에 액세스합니다</block>
   <block id="8b4cc0616cd3112ce97c78446249e336" category="inline-link-macro">대체 인스턴스 유형</block>
   <block id="b4628b43616bed69627de3b91fe817d0" category="paragraph">인터넷 액세스가 없는 호스트에서 스크립트를 실행하는 경우에만 "--car사이트" 옵션을 추가합니다. 호스트가 인터넷에 연결되어 있지 않으면 특정 필수 구성 요소 테스트를 건너뜁니다.</block>
   <block id="1bb79e71fe1463a15c91ab711e20a6ac" category="list-text">이 스크립트는 시스템에서 다양한 테스트를 실행하고 진행되면서 결과를 표시합니다. 작업이 완료되면 세션 로그를 라는 파일에 씁니다<block ref="7bca4c3da1c027ba15644b115a5e9fd9" prefix=" " category="inline-code"></block> 디렉토리에 있습니다<block ref="8a788ac11c9bfeaba837d43d9090ac97" prefix=" " category="inline-code"></block>.</block>
@@ -2677,7 +2675,6 @@
   <block id="fc82aea02743067d55a199569cd61d50" category="doc">BlueXP 분류 작업의 기록 감사</block>
   <block id="323141f17dc965b7894c3fede5810589" category="paragraph">BlueXP 분류 감사 로그 파일의 내용을 보거나 다운로드하여 어떤 파일 변경 사항이 발생했는지, 언제 변경되었는지 확인할 수 있습니다. 예를 들어, 어떤 요청이 실행되었는지, 요청 시간, 파일이 삭제된 경우 소스 위치 등의 세부 정보 또는 파일이 이동된 경우 소스 및 대상 위치를 확인할 수 있습니다.</block>
   <block id="c1e0b6a06406fd162de0635cd20ac657" category="paragraph">관리 감사 로그 파일은 BlueXP 분류 시스템의 다음 위치에 있습니다.<block ref="737f0a89396f6d78b87820109de683eb" prefix=" " category="inline-code"></block></block>
-  <block id="ce0fbdf83a7ac5995d4c903ac0745a09" category="paragraph">BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux 시스템에 설치되어 있는 경우 로그 파일로 직접 이동할 수 있습니다.</block>
   <block id="2970783922bde0b77210901329267de0" category="paragraph">클라우드에 BlueXP 분류를 배포할 때는 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.</block>
   <block id="08aececdd8070f547d2aa65ea8c35446" category="summary">BlueXP 분류의 새로운 기능에 대해 알아보십시오.</block>
   <block id="406ca16c022fe122c7920a69664a84f2" category="doc">BlueXP 분류의 새로운 기능</block>
@@ -3446,10 +3443,19 @@
   <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">기존 그룹 ID를 "오픈 투 조직"으로 정의</block>
   <block id="c994485ccd2b31a48f2ec01a7e6462e0" category="list-text">"/opt/netapp/datasense/tools/customer_configuration/data_providers"로 이동하여 다음 스크립트를 실행합니다.</block>
   <block id="d16189c10d4d8a98db7b1b99d883a1fd" category="paragraph">BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.</block>
-  <block id="4103104f589e62a63d3d9cfb58c764f2" category="paragraph">이 기능을 활성화하려면 BlueXP 분류 시스템에 로그인하여 구성 파일을 편집하고 스크립트를 실행해야 합니다.</block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">이제 그룹이 처음에 해당 권한으로 설정되지 않은 경우, NFS의 그룹 ID를 BlueXP 분류에서 직접 "Open to Organization"으로 간주하도록 구성할 수 있습니다. 이러한 그룹 ID가 첨부된 파일 및 폴더는 조사 세부 정보 페이지에서 "조직에 열기"로 표시됩니다. 자세한 내용은 를 참조하십시오<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>.</block>
   <block id="3fa1e4aec3c930accd20ae2a1e354a79" category="paragraph">BlueXP는 서비스에 대한 REST API 기능을 지원합니다. BlueXP가 선호하는 관리 지점이 아닌 경우 REST API를 통해 BlueXP 분류 등의 서비스를 사용할 수도 있습니다. 모든 사용자 동작에는 타사 시스템과 통합할 수 있는 REST API가 있습니다. 을 참조하십시오 <block ref="6cf6f695e0ddd2cc536783d6e0951a10" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="da4874b0888a9dafc160c24905184d23" category="section-title">ONTAP 볼륨에 있는 스냅샷 복사본이 검사됩니까?</block>
   <block id="a35301b044a7bc259b579edebe42bff3" category="paragraph">아니요 BlueXP 분류는 볼륨의 콘텐츠와 동일하므로 스냅샷을 스캔하지 않습니다.</block>
   <block id="dce2a9642217836d54f614dfd625b753" category="cell">/usr/lib/systemd/system입니다</block>
+  <block id="31af9dbc59d95015ad9e14c7d979d66b" category="summary">때때로 BlueXP 분류 시스템에 로그인하여 로그 파일에 액세스하거나 구성 파일을 편집해야 할 수 있습니다.</block>
+  <block id="d4b72b40125aaee8335dc145cdc6e2f1" category="inline-link-macro">BlueXP 분류 시스템에 로그인합니다</block>
+  <block id="5b40d5baf253a6d11974d57a0890fe5a" category="paragraph">이 기능을 활성화하려면 BlueXP 분류 시스템에 로그인하여 구성 파일을 편집하고 스크립트를 실행해야 합니다. 자세한 내용은 를 참조하십시오 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.</block>
+  <block id="dd2a68717d555f6a974eca51868e4e97" category="list-text">* NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP 커넥터 시스템 간에 시간을 동기화해야 합니다.</block>
+  <block id="bc43ce46ec2d6fbf9c8f6da8a4306dd8" category="section-title">로그 파일 위치</block>
+  <block id="4f2ff1b367ff3e36e64a9ae197aa8277" category="paragraph">각 로그 파일의 크기는 최대 10MB입니다. 이 제한에 도달하면 새 로그 파일이 시작됩니다. 로그 파일의 이름은 "DataSense_audit.log", "DataSense_audit.log.1", "DataSense_audit.log.2" 등으로 지정됩니다. 시스템에 최대 100개의 로그 파일이 보존됩니다. 오래된 로그 파일은 최대 로그 수에 도달하면 자동으로 삭제됩니다.</block>
+  <block id="8d62d7d8c4e5247ff9d832d971c73356" category="section-title">로그 파일 액세스</block>
+  <block id="1adc1bcbca14587886f0722f89d1238c" category="paragraph">로그 파일에 액세스하려면 BlueXP 분류 시스템에 로그인해야 합니다. 자세한 내용은 를 참조하십시오 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.</block>
+  <block id="2556206d42384bb829190e0aafdb0def" category="inline-link-macro">BlueXP 분류 호스트 시스템에 로그인합니다</block>
+  <block id="3d156543c6fce54302812044d96a7f13" category="paragraph">자세한 내용은 를 참조하십시오 <block ref="4d88ed2399fdae83afcc83672f5b6c79" category="inline-link-macro-rx"></block>.</block>
 </blocks>

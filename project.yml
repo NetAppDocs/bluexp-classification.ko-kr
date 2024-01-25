@@ -106,6 +106,8 @@ sidebar:
       url: "/reference-instance-types.html"
     - title: 데이터 소스에서 수집된 메타데이터
       url: "/reference-collected-metadata.html"
+    - title: BlueXP 분류 시스템에 로그인합니다
+      url: "/reference-log-in-to-instance.html"
     - title: BlueXP 분류 API
       url: "/api-classification.html"
   - title: 지식 및 지원
