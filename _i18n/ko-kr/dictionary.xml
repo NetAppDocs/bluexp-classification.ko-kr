@@ -1259,7 +1259,6 @@
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">이 페이지에 제공된 "파일 해시" 값을 사용하여 조사 페이지에 직접 입력하여 특정 중복 파일을 언제든지 검색할 수도 있고, 정책에 사용할 수도 있습니다.</block>
   <block id="21d99d41f7aa56147e5b8e2f64a15458" category="list-text">사용자 피드백을 받는 중입니다</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
@@ -3451,11 +3450,22 @@
   <block id="31af9dbc59d95015ad9e14c7d979d66b" category="summary">때때로 BlueXP 분류 시스템에 로그인하여 로그 파일에 액세스하거나 구성 파일을 편집해야 할 수 있습니다.</block>
   <block id="d4b72b40125aaee8335dc145cdc6e2f1" category="inline-link-macro">BlueXP 분류 시스템에 로그인합니다</block>
   <block id="5b40d5baf253a6d11974d57a0890fe5a" category="paragraph">이 기능을 활성화하려면 BlueXP 분류 시스템에 로그인하여 구성 파일을 편집하고 스크립트를 실행해야 합니다. 자세한 내용은 를 참조하십시오 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.</block>
-  <block id="dd2a68717d555f6a974eca51868e4e97" category="list-text">* NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP 커넥터 시스템 간에 시간을 동기화해야 합니다.</block>
   <block id="bc43ce46ec2d6fbf9c8f6da8a4306dd8" category="section-title">로그 파일 위치</block>
   <block id="4f2ff1b367ff3e36e64a9ae197aa8277" category="paragraph">각 로그 파일의 크기는 최대 10MB입니다. 이 제한에 도달하면 새 로그 파일이 시작됩니다. 로그 파일의 이름은 "DataSense_audit.log", "DataSense_audit.log.1", "DataSense_audit.log.2" 등으로 지정됩니다. 시스템에 최대 100개의 로그 파일이 보존됩니다. 오래된 로그 파일은 최대 로그 수에 도달하면 자동으로 삭제됩니다.</block>
   <block id="8d62d7d8c4e5247ff9d832d971c73356" category="section-title">로그 파일 액세스</block>
   <block id="1adc1bcbca14587886f0722f89d1238c" category="paragraph">로그 파일에 액세스하려면 BlueXP 분류 시스템에 로그인해야 합니다. 자세한 내용은 를 참조하십시오 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.</block>
   <block id="2556206d42384bb829190e0aafdb0def" category="inline-link-macro">BlueXP 분류 호스트 시스템에 로그인합니다</block>
   <block id="3d156543c6fce54302812044d96a7f13" category="paragraph">자세한 내용은 를 참조하십시오 <block ref="4d88ed2399fdae83afcc83672f5b6c79" category="inline-link-macro-rx"></block>.</block>
+  <block id="dfd993077bb353282906702dc3143ec7" category="list-text">* NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP Connector 시스템 간에 시간을 동기화해야 합니다.</block>
+  <block id="0d7b5294055876bf358044259606856f" category="paragraph">BlueXP 분류는 파일 이름, 권한, 생성 시간, 마지막 액세스, 마지막 수정과 같은 메타데이터를 캡처합니다. 여기에는 데이터 조사 세부 정보 페이지와 데이터 조사 보고서에 표시되는 모든 메타데이터가 포함됩니다.</block>
+  <block id="829d8d2f641dd9e58ec1a7d5e605ae21" category="inline-link">BlueXP 분류가 검사하는 프라이빗 데이터의 범주입니다</block>
+  <block id="3db00327e72827118e6c677e24f6a704" category="paragraph">BlueXP 분류는 개인 데이터 및 중요 개인 데이터와 같은 다양한 유형의 프라이빗 데이터를 식별할 수 있습니다. 개인 데이터에 대한 자세한 내용은 을 참조하십시오<block ref="56427cf32f2481dc2470f5e57414e198" category="inline-link-rx"></block>.</block>
+  <block id="74d4d96e624f192d4ebed96b99d9cedd" category="paragraph">스캔되는 데이터는 사용자 환경 내에 유지됩니다.</block>
+  <block id="b39079257432aa2e0ea1ac3e4e36cdf8" category="section-title">중요 데이터는 어떻게 처리됩니까?</block>
+  <block id="35a8814c3eaa26f66ca3a0eea1193f70" category="paragraph">NetApp는 중요한 데이터에 액세스할 수 없으며 UI에 이를 표시하지 않습니다. 중요한 데이터는 마스킹됩니다. 예를 들어, 마지막 4개의 숫자는 신용 카드 정보로 표시됩니다.</block>
+  <block id="a6b6381d05f6dc9530f37099c9feb5cf" category="section-title">데이터가 어디에 저장됩니까?</block>
+  <block id="efe4cf854e0017e5c35b4f8fb03e5a1b" category="paragraph">스캔 결과는 BlueXP 분류 인스턴스 내의 Elastisearch에 저장됩니다.</block>
+  <block id="dbe9d1b278184da6355700a9d5f9c0e6" category="section-title">데이터에 어떻게 액세스됩니까?</block>
+  <block id="9e52028c48600512f13df2884f1ec709" category="paragraph">BlueXP 분류는 API 호출을 통해 Elasticsearch에 저장된 데이터에 액세스하며, 인증이 필요하며 AES-128을 사용하여 암호화됩니다. Elasticsearch에 직접 액세스하려면 루트 액세스가 필요합니다.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
 </blocks>
