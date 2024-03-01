@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference-limitations.html 
-keywords: limitations, data sense, classification, scan shares 
+keywords: limitations, data sense, classification, bluexp, scan shares 
 summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오. 
 ---
 = 알려진 제한 사항
@@ -15,6 +15,17 @@ summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않�
 
 [role="lead"]
 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오.
+
+
+
+== BlueXP 분류 릴리즈에서 옵션이 일시적으로 제거되었습니다
+
+2023년 12월(버전 1.26.6) 릴리즈에서는 다음 옵션이 일시적으로 제거되었습니다.
+
+* 감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다.
+* 디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다.
+* AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 비활성화되었습니다.
+
 
 
 

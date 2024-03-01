@@ -4,7 +4,7 @@ permalink: task-controlling-governance-data.html
 keywords: savings, stale data, non-business data, duplicate data, age or data, size of data, highlights, policies 
 summary: 조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. BlueXP 분류는 시스템에 있는 오래된 데이터, 비업무용 데이터, 중복 파일 및 대용량 파일의 양을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다. 
 ---
-= 조직에 저장된 데이터에 대한 거버넌스 세부 정보 보기
+= 조직에 저장된 데이터에 대한 거버넌스 세부 정보를 봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -44,7 +44,7 @@ image:screenshot_compliance_governance_dashboard.png["BlueXP 분류 거버넌스
 ** 기타(일반 "기타" 범주)
 
 
-* * 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. link:task-investigate-data.html#viewing-all-duplicated-files["어떤 유형의 중복 파일이 표시되는지 확인합니다"].
+* * 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. link:task-investigate-data.html#view-all-duplicated-files["어떤 유형의 중복 파일이 표시되는지 확인합니다"].
 +
 참고:: 데이터 소스 중 하나라도 데이터 계층화를 구현하는 경우 오브젝트 스토리지에 이미 있는 이전 데이터를 _st오래된 Data_category에서 식별할 수 있습니다.
 
@@ -131,7 +131,7 @@ Age_and_Size_graphs의 항목을 조사하여 삭제해야 할 데이터가 있�
 
 === 가장 많이 식별된 데이터 분류
 
-Classification_area는 가장 많이 식별된 목록을 제공합니다 link:task-controlling-private-data.html#viewing-files-by-categories["범주"^], link:task-controlling-private-data.html#viewing-files-by-file-types["파일 형식"^], 및 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 레이블"^] 스캔 데이터.
+Classification_area는 가장 많이 식별된 목록을 제공합니다 link:task-controlling-private-data.html#view-files-by-categories["범주"^], link:task-controlling-private-data.html#view-files-by-file-types["파일 형식"^], 및 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 레이블"^] 스캔 데이터.
 
 
 
@@ -139,7 +139,7 @@ Classification_area는 가장 많이 식별된 목록을 제공합니다 link:ta
 
 범주는 보유한 정보의 유형을 표시하여 데이터의 상태를 이해하는 데 도움이 됩니다. 예를 들어 "이력서" 또는 "직원 계약"과 같은 범주에는 중요한 데이터가 포함될 수 있습니다. 결과를 조사할 때 직원 계약이 안전하지 않은 위치에 저장되어 있는 것을 발견할 수 있습니다. 그런 다음 해당 문제를 해결할 수 있습니다.
 
-을 참조하십시오 link:task-controlling-private-data.html#viewing-files-by-categories["범주별로 파일 보기"^] 를 참조하십시오.
+을 참조하십시오 link:task-controlling-private-data.html#view-files-by-categories["범주별로 파일 보기"^] 를 참조하십시오.
 
 
 
@@ -147,7 +147,7 @@ Classification_area는 가장 많이 식별된 목록을 제공합니다 link:ta
 
 파일 형식을 검토하면 특정 파일 형식이 올바르게 저장되지 않은 것을 발견할 수 있으므로 중요한 데이터를 제어하는 데 도움이 됩니다.
 
-을 참조하십시오 link:task-controlling-private-data.html#viewing-files-by-file-types["파일 형식 보기"^] 를 참조하십시오.
+을 참조하십시오 link:task-controlling-private-data.html#view-files-by-file-types["파일 형식 보기"^] 를 참조하십시오.
 
 
 
@@ -155,7 +155,7 @@ Classification_area는 가장 많이 식별된 목록을 제공합니다 link:ta
 
 AIP(Azure Information Protection)에 가입한 경우 콘텐츠에 레이블을 적용하여 문서와 파일을 분류하고 보호할 수 있습니다. 파일에 할당된 가장 많이 사용되는 AIP 레이블을 검토하면 파일에서 가장 많이 사용되는 레이블을 확인할 수 있습니다.
 
-을 참조하십시오 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 레이블"^] 를 참조하십시오.
+을 참조하십시오 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 레이블"^] 를 참조하십시오.
 
 
 
@@ -183,7 +183,7 @@ AIP(Azure Information Protection)에 가입한 경우 콘텐츠에 레이블을 
 |===
 
 
-=== 데이터 매핑 보고서 생성
+=== 데이터 매핑 보고서를 생성합니다
 
 BlueXP 분류의 Governance 탭에서 이 보고서를 생성합니다.
 
@@ -198,7 +198,7 @@ image:screenshot_compliance_data_mapping_report_button.png["데이터 매핑 보
 .결과
 BlueXP 분류는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.
 
-보고서가 1MB 이상인 경우 PDF 파일이 BlueXP 분류 인스턴스에 유지되고 정확한 위치에 대한 팝업 메시지가 표시됩니다. BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux 시스템에 설치되어 있는 경우 PDF 파일로 직접 이동할 수 있습니다. 클라우드에 BlueXP 분류를 배포할 때 PDF 파일을 다운로드하려면 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. link:task-audit-data-sense-actions.html#access-the-log-file["Classification 인스턴스의 데이터에 액세스하는 방법을 확인하십시오"^].
+보고서가 1MB 이상인 경우 PDF 파일이 BlueXP 분류 인스턴스에 유지되고 정확한 위치에 대한 팝업 메시지가 표시됩니다. BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux 시스템에 설치되어 있는 경우 PDF 파일로 직접 이동할 수 있습니다. 클라우드에 BlueXP 분류를 배포할 때 PDF 파일을 다운로드하려면 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. link:task-audit-data-sense-actions.html#access-the-log-files["Classification 인스턴스의 데이터에 액세스하는 방법을 확인하십시오"^].
 
 참고: 을 클릭하여 보고서의 첫 페이지에 나타나는 회사 이름을 BlueXP 분류 페이지 상단에서 사용자 지정할 수 있습니다 image:screenshot_gallery_options.gif["자세히 단추"] 그런 다음 * 회사 이름 변경 * 을 클릭합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.
 
@@ -230,7 +230,7 @@ Data Discovery Assessment Report는 스캔한 환경에 대한 상위 수준의 
 
 
 
-=== 데이터 검색 평가 보고서 생성
+=== 데이터 검색 평가 보고서를 생성합니다
 
 BlueXP 분류의 Governance 탭에서 이 보고서를 생성합니다.
 

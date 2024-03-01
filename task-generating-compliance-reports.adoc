@@ -4,7 +4,7 @@ permalink: task-generating-compliance-reports.html
 keywords: report, privacy, risk, privacy risk assessment, compliance status, severity, compliance, privacy risk, data subjects, privacy, credit cards, pci dss, hipaa, csv file, json file, dsar 
 summary: BlueXP 분류는 조직의 데이터 개인 정보 보호 프로그램 상태를 보다 잘 이해하기 위해 사용할 수 있는 보고서를 제공합니다. 
 ---
-= 준수 보고서 보기
+= 규정 준수 보고서 보기
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,7 +16,7 @@ summary: BlueXP 분류는 조직의 데이터 개인 정보 보호 프로그램 
 [role="lead"]
 BlueXP 분류는 조직의 데이터 개인 정보 보호 프로그램 상태를 보다 잘 이해하기 위해 사용할 수 있는 보고서를 제공합니다.
 
-기본적으로 BlueXP 분류 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 보려면 <<보고서에 사용할 작업 환경 선택,작업 환경을 선택합니다>>.
+기본적으로 BlueXP 분류 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 보려면 <<보고서의 작업 환경을 선택합니다,작업 환경을 선택합니다>>.
 
 [NOTE]
 ====
@@ -38,7 +38,7 @@ BlueXP 분류는 조직의 데이터 개인 정보 보호 프로그램 상태를
 
 
 
-=== 개인 정보 보호 위험 평가 보고서 생성
+=== 개인정보 보호 위험 평가 보고서를 생성합니다
 
 준수 탭으로 이동하여 보고서를 생성합니다.
 
@@ -118,7 +118,7 @@ PCI DSS(Payment Card Industry Data Security Standard) 보고서를 통해 파일
 
 
 
-=== PCI DSS 보고서 생성
+=== PCI DSS 보고서를 생성합니다
 
 준수 탭으로 이동하여 보고서를 생성합니다.
 
@@ -157,7 +157,7 @@ HIPAA(Health Insurance Portability and Accountability Act) 보고서를 통해 �
 
 
 
-=== HIPAA 보고서 생성
+=== HIPAA 보고서를 생성합니다
 
 준수 탭으로 이동하여 보고서를 생성합니다.
 
@@ -193,7 +193,7 @@ NOTE: 현재 데이터베이스 내에서 데이터 주제 검색이 지원되�
 
 
 
-=== 데이터 주체 검색 및 보고서 다운로드
+=== 데이터 주제를 검색하고 보고서를 다운로드합니다
 
 데이터 주체의 전체 이름 또는 알려진 식별자를 검색한 다음 파일 목록 보고서 또는 DSAR 보고서를 다운로드합니다. 검색할 수 있는 기준 link:reference-private-data-categories.html#types-of-personal-data["모든 개인 정보 유형입니다"^].
 
@@ -224,7 +224,7 @@ NOTE: 10,000개가 넘는 결과가 있을 경우 파일 목록에 최상위 10,
 
 
 
-== 보고서에 사용할 작업 환경 선택
+== 보고서의 작업 환경을 선택합니다
 
 BlueXP 분류 준수 대시보드의 내용을 필터링하여 모든 작업 환경 및 데이터베이스의 규정 준수 데이터를 확인하거나 특정 작업 환경에 대한 규정 준수 데이터를 확인할 수 있습니다.
 

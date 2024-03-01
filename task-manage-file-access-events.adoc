@@ -20,6 +20,9 @@ summary: '검사 중인 파일 중 하나에 액세스하거나 변경할 때마
 
 ONTAP 소프트웨어를 실행하는 작업 환경의 중요 볼륨에서 이 기능을 활성화할 수 있습니다. 볼륨에서 활성화된 경우 볼륨의 모든 파일 및 디렉토리에 대해 파일 액세스 이벤트가 추적됩니다. 이 기능은 를 기반으로 합니다 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy 기능"^] ONTAP 시스템에서 BlueXP 분류 시스템을 FPolicy 서버로 사용하여 ONTAP의 알림 메시지(이벤트)를 수신합니다. BlueXP 분류는 ONTAP에서 초당 약 990개의 이벤트를 처리할 수 있습니다.
 
+
+NOTE: 2023년 12월(버전 1.26.6) 릴리즈에서는 감사 로그 수집을 활성화하는 옵션이 일시적으로 제거되었습니다.
+
 BlueXP 분류는 현재 파일 및 디렉토리에 대해 다음 작업에 대한 이벤트를 캡처합니다.
 
 * 생성

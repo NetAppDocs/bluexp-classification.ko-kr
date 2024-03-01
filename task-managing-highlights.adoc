@@ -4,7 +4,7 @@ permalink: task-managing-highlights.html
 keywords: compliance, privacy, filter data, delete files, move files, copy files, clone files, sync files, data sense, migration 
 summary: BlueXP 분류는 개인 데이터를 관리하는 여러 가지 방법을 제공합니다. 일부 기능을 사용하면 데이터 마이그레이션을 쉽게 준비할 수 있을 뿐만 아니라 다른 기능도 데이터를 변경할 수 있습니다. 
 ---
-= 개인 데이터 관리
+= 개인 데이터를 관리합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -32,7 +32,7 @@ BlueXP 분류는 개인 데이터를 관리하는 여러 가지 방법을 제공
 ====
 
 
-== 원본 파일을 복사하는 중입니다
+== 원본 파일을 복사합니다
 
 BlueXP 분류에서 스캔 중인 모든 원본 파일을 복사할 수 있습니다. 달성하려는 목표에 따라 세 가지 유형의 복사 작업이 있습니다.
 
@@ -52,7 +52,7 @@ BlueXP 분류에서 스캔 중인 모든 원본 파일을 복사할 수 있습�
 
 
 
-=== 소스 파일을 NFS 공유에 복사하는 중입니다
+=== 소스 파일을 NFS 공유에 복사합니다
 
 BlueXP 분류에서 스캔 중인 소스 파일을 모든 NFS 공유로 복사할 수 있습니다. NFS 공유를 BlueXP 분류와 통합할 필요가 없습니다. NFS 공유의 이름을 알아야 선택한 모든 파일이 형식으로 복사됩니다 `<host_name>:/<share_path>`.
 
@@ -94,7 +94,7 @@ image:screenshot_compliance_copy_file.png["데이터 조사 페이지의 파일�
 
 
 
-=== 볼륨 데이터를 새 볼륨에 클로닝
+=== 볼륨 데이터를 새 볼륨에 복제합니다
 
 BlueXP에서 NetApp_FlexClone_기능을 사용하여 스캔하는 기존 ONTAP 볼륨을 클론 복제할 수 있습니다. 이렇게 하면 선택한 파일만 포함하면서 볼륨을 빠르게 복제할 수 있습니다. 이 기능은 데이터를 마이그레이션하는 동안 원본 볼륨에서 특정 파일을 제외하려는 경우 또는 테스트할 볼륨의 복사본을 만들려는 경우에 유용합니다.
 
@@ -147,7 +147,7 @@ image:screenshot_compliance_clone_files_dialog.png["소스 볼륨에서 복제�
 
 
 
-=== 소스 파일을 대상 시스템에 복사 및 동기화 중입니다
+=== 소스 파일을 타겟 시스템에 복사하고 동기화합니다
 
 BlueXP 분류에서 검색하는 소스 파일을 지원되는 비정형 데이터 소스에서 특정 대상 위치의 디렉토리로 복사할 수 있습니다 (https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["BlueXP 복사 및 동기화가 지원되는 대상 위치입니다"^])를 클릭합니다. 초기 복제 후에는 구성한 일정에 따라 파일에서 변경된 모든 데이터가 동기화됩니다.
 
@@ -203,7 +203,7 @@ BlueXP 분류에서 호출되면 일반적인 BlueXP 복사 및 동기화 작업
 
 
 
-== 소스 파일을 NFS 공유로 이동하는 중입니다
+== 소스 파일을 NFS 공유로 이동합니다
 
 BlueXP 분류에서 스캔 중인 소스 파일을 모든 NFS 공유로 이동할 수 있습니다. NFS 공유를 BlueXP 분류와 통합할 필요가 없습니다.
 
@@ -248,11 +248,11 @@ image:screenshot_compliance_move_file.png["데이터 조사 페이지의 파일�
 
 
 
-== 원본 파일을 삭제하는 중입니다
+== 원본 파일을 삭제합니다
 
 안전하지 않거나 너무 위험한 소스 파일을 스토리지 시스템에 남겨 두거나 중복으로 식별한 경우 영구적으로 제거할 수 있습니다. 이 작업은 영구적이며 실행 취소 또는 복원이 없습니다.
 
-조사 창 또는 에서 파일을 수동으로 삭제할 수 있습니다 link:task-using-policies.html#deleting-source-files-automatically-using-policies["정책을 자동으로 사용합니다"^].
+조사 창 또는 에서 파일을 수동으로 삭제할 수 있습니다 link:task-using-policies.html#delete-source-files-automatically-using-policies["정책을 자동으로 사용합니다"^].
 
 
 TIP: 데이터베이스에 있는 파일은 삭제할 수 없습니다. 다른 모든 데이터 원본은 지원됩니다.
@@ -266,7 +266,7 @@ TIP: 데이터베이스에 있는 파일은 삭제할 수 없습니다. 다른 �
 
 
 
-=== 소스 파일을 수동으로 삭제하는 중입니다
+=== 소스 파일을 수동으로 삭제합니다
 
 .요구 사항
 * 파일을 삭제하려면 계정 관리자 또는 작업 영역 관리자 역할이 있어야 합니다.

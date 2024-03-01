@@ -57,7 +57,6 @@
   <block id="8c270421a057347baf727ea386f58d8f" category="cell">시스템 크기</block>
   <block id="360d214e899b88b8fe54a260668c2f48" category="cell">사양</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="cell">제한 사항</block>
-  <block id="6adf97f83acf6453d4a6a4b1070f3754" category="cell">없음</block>
   <block id="87f8a6ab85c9ced3702b4ea641ad4bb5" category="cell">중간</block>
   <block id="67c7201d970ee76fdf5320231dbc0367" category="cell">스캔 속도가 느리며 최대 100만 개의 파일만 스캔할 수 있습니다.</block>
   <block id="2660064e68655415da2628c2ae2f7592" category="cell">작은 크기</block>
@@ -87,10 +86,8 @@
   <block id="7723c0a066a249ebd5a6009e28eb007d" category="list-text">표준 메타데이터</block>
   <block id="6370c5a9859b827de2be9d30ec4b997e" category="list-text">개인 데이터</block>
   <block id="8c6847c1a3fee83b5a17b582397de2ec" category="inline-link-macro">개인 데이터에 대해 자세히 알아보십시오</block>
-  <block id="9c86c531b04dd4c215f890b0c339c9e9" category="list-text">이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보 <block ref="3eee1df461628d1e5e60a06b8a695d25" category="inline-link-macro-rx"></block>.</block>
   <block id="83b358180e4e01f210434dd14618f990" category="list-text">민감한 개인 데이터</block>
   <block id="902c63c889818696415465bcf8e0b76b" category="inline-link-macro">중요한 개인 데이터에 대해 자세히 알아보십시오</block>
-  <block id="c007d54248409a2819a74cfc8f76c508" category="list-text">GDPR 및 기타 개인 정보 보호 규정에 정의된 의료 데이터, 인종 또는 정치적 의견과 같은 민감한 정보의 특별한 유형. <block ref="46c923ad4442ea22c406ccb68f476a0e" category="inline-link-macro-rx"></block>.</block>
   <block id="af1b98adf7f686b84cd0b443e022b7a0" category="list-text">범주</block>
   <block id="6a92cf43085c9bfddf06d24557be9d88" category="inline-link-macro">범주에 대해 자세히 알아보십시오</block>
   <block id="f2d346b1bb7c1c85ab6f7f21e3666b9f" category="list-text">유형</block>
@@ -167,7 +164,6 @@
   <block id="3ce750f001c2369e23b68f3210d9f100" category="inline-image-macro">특정 서비스에 대한 라이센스 업데이트 단추를 선택하는 스크린샷</block>
   <block id="2bdb7af2b6613fafdba930fb09034d3f" category="paragraph"><block ref="2bdb7af2b6613fafdba930fb09034d3f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="41e921305ae1b027e5d364af4a2a9df2" category="list-text">Update License_page에서 라이센스 파일을 업로드하고 * Update License * 를 클릭합니다.</block>
-  <block id="59da637a5daa4fdc3901cb939fca6c7e" category="doc">준수 보고서 보기</block>
   <block id="012baeb8540b8dedd6d71e5dd0f531d0" category="inline-xref">작업 환경을 선택합니다</block>
   <block id="16a978df0c48afdfbda069f5d1b195fc" category="admonition">이 섹션에 설명된 보고서는 데이터 소스에서 전체 분류 검사를 수행하도록 선택한 경우에만 사용할 수 있습니다. 매핑 전용 스캔이 있는 데이터 원본은 데이터 매핑 보고서만 생성할 수 있습니다.</block>
   <block id="216b4fc24b6fa4197a8fc2d1066a4de4" category="section-title">개인 정보 보호 위험 평가 보고서</block>
@@ -178,7 +174,6 @@
   <block id="50b1479ebaf14151aa48027e51cf50af" category="list-text">발견된 개인 데이터 유형 및 데이터 범주에 대한 분석.</block>
   <block id="dac9a37f6b8a5f930c7c6a2c881ac27d" category="list-text">이 평가의 데이터 주체</block>
   <block id="d18b36601a861dcbabfa55ca89a58214" category="list-text">국가 식별자가 발견된 위치별 사람 수.</block>
-  <block id="05d58f8b36588ec9efc20f3482c649ad" category="section-title">개인 정보 보호 위험 평가 보고서 생성</block>
   <block id="df021c142a7f1ae824eb0a27da4d5430" category="list-text">Compliance * 를 클릭한 다음 * Reports * 에서 * Privacy Risk Assessment * 옆에 있는 다운로드 아이콘을 클릭합니다.</block>
   <block id="2c54b257d0aebc5d633127f8a39a688f" category="section-title">심각도 점수</block>
   <block id="87bd2c8f69278a87701c49731c73bb35" category="list-text">모든 데이터 중 개인 데이터의 비율입니다.</block>
@@ -220,7 +215,6 @@
   <block id="9be153c396f5d81a0651e606a15b97a6" category="list-text">파일이 마지막으로 수정된 기간. 이 기능은 신용 카드 정보를 처리하는 데 필요한 것보다 더 오래 보관해서는 안 되기 때문에 유용합니다.</block>
   <block id="6e8eeb60988a6a82d5ccdc9189a04ab1" category="list-text">신용 카드 정보 배포</block>
   <block id="07fbe98a65e816ddb6d2350071bcab9d" category="list-text">신용 카드 정보가 발견된 작업 환경 및 암호화 및 랜섬웨어 방지 기능이 활성화되어 있는지 여부</block>
-  <block id="c574f719f3835448fef801f6174f2213" category="section-title">PCI DSS 보고서 생성</block>
   <block id="82ee2415e5e4e15c63902d6a550b7af1" category="list-text">규정 준수 * 를 클릭한 다음 * 보고서 * 에서 * PCI DSS 보고서 * 옆에 있는 다운로드 아이콘을 클릭합니다.</block>
   <block id="8e4972d194dcdd01c957ef6b3398d9e2" category="section-title">HIPAA 보고서</block>
   <block id="9965e5c3b37cecfca0bb5cbb1e086c48" category="list-text">상태 참조 패턴</block>
@@ -234,7 +228,6 @@
   <block id="475d2ce86284eab3c5230fef8becebe3" category="list-text">파일이 마지막으로 수정된 기간. 이 기능은 건강 정보를 처리하는 데 필요한 것보다 오래 보관할 필요가 없기 때문에 유용합니다.</block>
   <block id="a6287f4c37d3aeaddd03675602115ba3" category="list-text">건강 정보 배포</block>
   <block id="8f8c34ce8b2510cd1c1e29b5a17cd92e" category="list-text">상태 정보가 발견된 작업 환경 및 암호화 및 랜섬웨어 방지 기능이 활성화되어 있는지 여부</block>
-  <block id="bdb2200dccd3bf8bccbda3121ec3619d" category="section-title">HIPAA 보고서 생성</block>
   <block id="f6bcba6045f642cc0b7c93a339fe0eb7" category="list-text">규정 준수 * 를 클릭한 다음 * 보고서 * 에서 * HIPAA 보고서 * 옆에 있는 다운로드 아이콘을 클릭합니다.</block>
   <block id="03841f26d25c8d7aef0d271b79a05859" category="list-text">사용 용량</block>
   <block id="660bfa8882061d8f060790c38df904d6" category="list-text">모든 작업 환경: 각 작업 환경의 파일 수와 사용된 용량을 나열합니다. 단일 작업 환경의 경우: 최대 용량을 사용하는 파일을 나열합니다.</block>
@@ -244,8 +237,6 @@
   <block id="e22f9909ed0cc14af3ae41c9e280cf13" category="list-text">작업 환경의 특정 크기 범위 내에 있는 파일 수를 나열합니다.</block>
   <block id="f12b42eece54a56ffab836a42eb37488" category="list-text">파일 형식</block>
   <block id="7d8121f1bc518fb0e6e184fba09d6b2b" category="list-text">에는 작업 환경에 저장되는 각 파일 유형의 총 파일 수와 사용된 용량이 나와 있습니다.</block>
-  <block id="e880ed205f16cce0e493e65a4bcedcf6" category="section-title">데이터 매핑 보고서 생성</block>
-  <block id="20e8135f6b31b5442360d1284197abb8" category="section-title">보고서에 사용할 작업 환경 선택</block>
   <block id="6033e7117e1fdf38561d007aabe17e6b" category="list-text">필터 드롭다운을 클릭하고 데이터를 보려는 작업 환경을 선택한 다음 * 보기 * 를 클릭합니다.</block>
   <block id="a3b67f96a0c9278d4984faae4a248582" category="inline-image-macro">실행할 보고서의 작업 환경 선택을 위한 스크린 샷</block>
   <block id="71750f5e2f8e92320feced026981497e" category="paragraph"><block ref="71750f5e2f8e92320feced026981497e" category="inline-image-macro-rx" type="image"></block></block>
@@ -523,9 +514,7 @@
   <block id="ae64bece015f15eb39e95575c833f8d3" category="section-title">ONTAP 볼륨에서 데이터 계층화가 활성화된 경우 어떻게 됩니까?</block>
   <block id="0a351d661588dd9301518a85a687c4dc" category="paragraph">또한 조직에서 내부적으로 공유할 수 있는 관리 페이지 및 조사 페이지에서 상태 보고서를 다운로드할 수도 있습니다.</block>
   <block id="2a03ec9e7d9aaa65371a523434cb5fb5" category="inline-link-macro">AIP(Azure Information Protection)</block>
-  <block id="399d9d9194e5aac73d00fdd68d88fed1" category="paragraph"><block ref="d2df47398690701c36c48ad6a1a06ca4" category="inline-link-macro-rx"></block>.</block>
   <block id="70e4204451ab8b7224b342245071bd70" category="paragraph"><block ref="8b78b4503f012c98d9a7bad6859a8875" category="inline-link-macro-rx"></block>.</block>
-  <block id="82e6e10597cf7de906fad4f53b7deab7" category="doc">개인 데이터 구성</block>
   <block id="892f73595a08cb4eef7c3e6319b7f807" category="list-text">조직 또는 일부 유형의 추가 작업에 대해 표시할 파일에 태그를 추가할 수 있습니다.</block>
   <block id="f9f3ed5f443ba769e31426ba3b322b22" category="list-text">"정책" 기능을 사용하면 버튼 하나를 클릭하여 결과를 쉽게 볼 수 있도록 사용자 지정 검색 쿼리를 직접 만들 수 있습니다.</block>
   <block id="6dd2018793ec98bc5468877b15393d0a" category="admonition">이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검사를 수행하도록 선택한 경우에만 사용할 수 있습니다. 매핑 전용 스캔이 있는 데이터 원본은 파일 수준 세부 정보를 표시하지 않습니다.</block>
@@ -538,8 +527,6 @@
   <block id="5419a6956bcb58f1ecfb0764315b597c" category="cell">단일 파일에 하나의 레이블이 있을 수 있습니다.</block>
   <block id="9bd315267ebba0738f6713698f565ca4" category="cell">파일을 읽을 수 있는 다른 시스템은 추가 자동화에 사용할 수 있는 레이블을 볼 수 있습니다.</block>
   <block id="aedd3229a38d6b05f0995fcc5999e0bb" category="cell">단일 API 호출만 사용하여 파일에 태그가 있는지 확인합니다.</block>
-  <block id="2b275eaee13cb00a92bf6cca3d87498e" category="section-title">AIP 레이블을 사용하여 데이터를 분류합니다</block>
-  <block id="96238d4f93a120c69c563c428e826a69" category="section-title">작업 공간에 AIP 레이블 통합</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="list-title">요구 사항</block>
   <block id="134b8f00ffb7e15169d315180cdd63ef" category="list-text">계정 및 Azure 정보 보호 라이센스가 있어야 합니다.</block>
   <block id="adcc63024cda5a3b0a7e68f1bbd11d61" category="list-text">Azure 계정에 대한 로그인 자격 증명이 있어야 합니다.</block>
@@ -551,7 +538,6 @@
   <block id="1a7c4f9b547d006d3e3e176f2ab1602c" category="inline-image-macro">AIP 레이블을 보여 주는 스크린샷이 성공적으로 통합되었습니다.</block>
   <block id="05c8cfaea812d7833aa0ed821f517692" category="paragraph"><block ref="05c8cfaea812d7833aa0ed821f517692" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e7a7d5e760e9862d0cb81aadaad6afb6" category="paragraph">조사 페이지의 결과 창에서 AIP 레이블을 보고 할당할 수 있습니다. 정책을 사용하여 파일에 AIP 레이블을 할당할 수도 있습니다.</block>
-  <block id="efc1c120789b0f58eca439d255b02d13" category="section-title">파일의 AIP 레이블 보기</block>
   <block id="6b366eac1f5f26f43c2dac1c767c2f05" category="paragraph">파일에 할당된 현재 AIP 레이블을 볼 수 있습니다.</block>
   <block id="ddd53e8927c624ebcbf44e804dd39950" category="inline-image-macro">아래쪽 캐럿</block>
   <block id="86336d6e600c30c4d7c8749ad01e4965" category="paragraph">데이터 조사 결과 창에서 을 클릭합니다 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block> 파일 메타데이터 세부 정보를 확장합니다.</block>
@@ -570,7 +556,6 @@
   <block id="7ddc7d6d8dbb2dc5a17135fab81b47cf" category="inline-image-macro">데이터 조사 페이지의 여러 파일에 AIP 레이블을 할당하는 방법을 보여 주는 스크린샷</block>
   <block id="cdeb776dc578fceef2300eedbf8c9aca" category="paragraph"><block ref="cdeb776dc578fceef2300eedbf8c9aca" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ddcea8a74ef269dddbaef0e519805fe0" category="paragraph">선택한 모든 파일의 메타데이터에 AIP 레이블이 추가됩니다.</block>
-  <block id="1a7d62e70b7a4479bb1326435261a45f" category="section-title">AIP 레이블을 정책에 자동으로 할당합니다</block>
   <block id="4c20e62469a6d959b39eee38bf96fbee" category="paragraph">정책 기준을 충족하는 모든 파일에 AIP 레이블을 할당할 수 있습니다. 정책을 생성할 때 AIP 레이블을 지정하거나 정책을 편집할 때 레이블을 추가할 수 있습니다.</block>
   <block id="1541ec8982839d11a2c7b6d49e832c32" category="paragraph">레이블이 파일에 이미 적용되었는지 여부와 레이블의 분류 수준에 따라 레이블을 변경할 때 다음 작업이 수행됩니다.</block>
   <block id="eea4419659684ba18fac003140a4a8b4" category="cell">파일이...</block>
@@ -592,18 +577,14 @@
   <block id="f3e4dff4900974e7d6033b16c7f75179" category="paragraph"><block ref="f3e4dff4900974e7d6033b16c7f75179" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5e0da9e04f209ba6382a6646eafa408a" category="list-text">Save Policy * 를 클릭하면 Policy 설명에 레이블이 표시됩니다.</block>
   <block id="0d7ff31965279bca5aa449dad5118869" category="admonition">정책이 레이블로 구성되었지만 이후에 AIP에서 레이블이 제거된 경우 레이블 이름은 OFF로 설정되고 레이블은 더 이상 할당되지 않습니다.</block>
-  <block id="5803f352e5dd56b3494a56eabe17fd51" category="section-title">AIP 통합 제거</block>
   <block id="640064394e27c9f380f0df378ba639e9" category="list-text">Configuration_페이지에서 * AIP Labels integrated &gt; Remove Integration * 을 클릭합니다.</block>
   <block id="1adb70ded77a9f087a1361758e3bb6ba" category="list-text">확인 대화 상자에서 * 통합 제거 * 를 클릭합니다.</block>
-  <block id="2896b6998e15cd6aa0e7899122d8d308" category="section-title">태그를 적용하여 스캔한 파일을 관리합니다</block>
   <block id="ae71277524debd40a10c5eecfc6441d2" category="paragraph">특정 유형의 추가 작업에 대해 표시할 파일에 태그를 추가할 수 있습니다. 예를 들어 일부 중복 파일을 발견하여 이 중 하나를 삭제하려 할 수 있지만 삭제해야 할 파일을 확인해야 합니다. 파일에 "삭제 확인"이라는 태그를 추가할 수 있으므로 이 파일에 몇 가지 조사 및 향후 작업이 필요하다는 것을 알 수 있습니다.</block>
-  <block id="33f24a352f311748945dfdc2d17db063" category="section-title">특정 태그가 적용된 파일 보기</block>
   <block id="3b073ce36dc01faa340c1b26f1ec94ad" category="paragraph">특정 태그가 지정된 모든 파일을 볼 수 있습니다.</block>
   <block id="88269b0396f7e11ee581650ad642def1" category="list-text">데이터 조사 페이지의 필터 창에서 * 태그 * 를 클릭한 다음 필요한 태그를 선택합니다.</block>
   <block id="5dab2359e7938a23857c1f0e98f9dc1c" category="inline-image-macro">필터 창에서 태그를 선택하는 방법을 보여 주는 스크린샷</block>
   <block id="11088c5daa748233b737d4f0f383f0db" category="paragraph"><block ref="11088c5daa748233b737d4f0f383f0db" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f31450d7e15440981a069481b29172b4" category="paragraph">조사 결과 창에는 해당 태그가 지정된 모든 파일이 표시됩니다.</block>
-  <block id="f33e170ce4b7f60ab8eb1f1311a1a726" category="section-title">파일에 태그 지정</block>
   <block id="964c300d9072ec8289ac7e61f4fd062e" category="paragraph">단일 파일 또는 파일 그룹에 태그를 추가할 수 있습니다.</block>
   <block id="a423c23afbc52ec3e0c82abbbb777944" category="paragraph">단일 파일에 태그 추가하기:</block>
   <block id="7cb3325e26d531c037cf82f547ddc373" category="list-text">태그 * 필드를 클릭하면 현재 할당된 태그가 표시됩니다.</block>
@@ -621,11 +602,9 @@
   <block id="58cb86f2b4a3ffa2124a12532f6afb5f" category="inline-image-macro">데이터 조사 페이지의 여러 파일에 태그를 할당하는 방법을 보여 주는 스크린샷</block>
   <block id="633db9ec25de377fad5f837b7b8bd1a3" category="paragraph"><block ref="633db9ec25de377fad5f837b7b8bd1a3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f600a8cde199f8d2d69183ea7c848954" category="list-text">승인 확인 대화 상자에서 태그 추가를 승인하고 선택한 모든 파일의 메타데이터에 태그가 추가됩니다.</block>
-  <block id="2c542408318e2466085680b27900346c" category="section-title">파일에서 태그를 삭제하는 중입니다</block>
   <block id="aff9af6d08960897da4fd01c93798a8d" category="paragraph">더 이상 사용하지 않아도 되는 태그는 삭제할 수 있습니다.</block>
   <block id="fb99748ee9135bf42ab6cc714136d9f0" category="paragraph">기존 태그에 대해 * x * 를 클릭하기만 하면 됩니다.</block>
   <block id="3358cad1e9fb27ca213fc2453657e851" category="paragraph">여러 파일을 선택한 경우 태그가 모든 파일에서 제거됩니다.</block>
-  <block id="c920fb7990e3c619785581c1ca57a2e6" category="section-title">특정 파일을 관리할 사용자 할당</block>
   <block id="640ddcfcbdd6fd24058616dfd813d30c" category="paragraph">예를 들어 너무 많은 사용자가 읽기 및 쓰기 액세스(열린 권한)를 수행할 수 있도록 특정 개인 데이터가 포함된 파일이 있을 수 있습니다. 따라서 상태 태그 "권한 변경"을 할당하고 이 파일을 사용자 "Joan Smith"에게 할당하여 문제 해결 방법을 결정할 수 있습니다. 문제를 해결하면 상태 태그를 "완료됨"으로 변경할 수 있습니다.</block>
   <block id="931074f4d66344e7b9658958b6d87907" category="paragraph">조사 페이지의 새 필터를 사용하면 "담당자" 필드에 동일한 사람이 있는 모든 파일을 쉽게 볼 수 있습니다.</block>
   <block id="a86a8c5ea91657b179c7c6639a2c33e7" category="list-text">Assigned to * 필드를 클릭하고 사용자 이름을 선택합니다.</block>
@@ -647,11 +626,9 @@
   <block id="e4be9266a700a3741ce848b53cdf44cb" category="list-text">AIP(Azure Information Protection) 레이블을 정책에 정의된 조건과 일치하는 모든 파일에 자동으로 할당합니다</block>
   <block id="556a14198319561f24670a620f5b2fd2" category="list-text">특정 정책이 결과를 반환하면 데이터를 자동으로 보호할 수 있도록 파일을 자동으로 삭제합니다(하루에 한 번)</block>
   <block id="ec765c8328cc06fe6531b9b567451d5f" category="paragraph">또한 조사 페이지의 필터 목록에 정책이 표시됩니다.</block>
-  <block id="7101ead3492fc55fe8e6ae3b0d7ff850" category="section-title">조사 페이지에서 정책 결과를 봅니다</block>
   <block id="94f8db548fe539bc8f110fc0def01143" category="paragraph">조사 페이지에 정책의 결과를 표시하려면 을 클릭합니다 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> 단추를 클릭하여 특정 정책을 선택한 다음 * 결과 조사 * 를 선택합니다.</block>
   <block id="255e1125d849f7edda6bed80ac46496e" category="inline-image-macro">정책 탭에서 특정 정책에 대한 조사 결과 선택 스크린샷</block>
   <block id="81d6d5b017dce15ac441154a1942e517" category="paragraph"><block ref="81d6d5b017dce15ac441154a1942e517" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b0449a02f1a4c60439d939f1f9e382e5" category="section-title">사용자 지정 정책을 만드는 중입니다</block>
   <block id="15dd93dd8e5fe369d32909872743ce92" category="inline-link-macro">데이터 조사 페이지의 데이터 필터링</block>
   <block id="4383466aa7c287f23e7f4932fd00aaf2" category="list-text">원하는 방식으로 모든 필터 특성을 찾은 후 * 이 검색에서 정책 생성 * 을 클릭합니다.</block>
   <block id="96a46d654233ac39fd6e31dda8fc4dae" category="inline-image-macro">필터링된 쿼리를 정책으로 저장하는 방법을 보여 주는 스크린샷</block>
@@ -661,12 +638,10 @@
   <block id="69afb208b3f73c16d486210229cfd874" category="inline-link-macro">정책을 사용하여 소스 파일을 삭제하는 중입니다</block>
   <block id="ed0c49068f9d7e929a30f26c6d8c4a8b" category="inline-link-macro">정책 결과에 따라 이메일 알림을 보냅니다</block>
   <block id="9d85612840e00794629f6dce90aa22fa" category="inline-link-macro">AIP 레이블</block>
-  <block id="aebde29cfdfa1930a437316c54f45e0d" category="list-text">필요한 경우 정책 매개 변수와 일치하는 파일에 AIP 레이블을 자동으로 할당하려면 확인란을 선택하고 레이블을 선택합니다. (이미 AIP 레이블을 통합한 경우에만 해당됩니다. 에 대해 자세히 알아보십시오 <block ref="b0becded2b1c1949046ca8118d27118b" category="inline-link-macro-rx"></block>참조)</block>
   <block id="fdc2c96185d2a7c98ab81a927c827edb" category="list-text">Create Policy * 를 클릭합니다.</block>
   <block id="ab3a166dafa7696427031860a8ba2694" category="inline-image-macro">정책을 구성하고 저장하는 방법을 보여 주는 스크린샷</block>
   <block id="23e34b6c117b6fd91abb568e48195e27" category="paragraph"><block ref="23e34b6c117b6fd91abb568e48195e27" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f124f85896ac18194a54f85b2d21b888" category="paragraph">새 정책이 정책 탭에 나타납니다.</block>
-  <block id="44b09c7ed11f8b8bc1b6c565396ae51f" category="section-title">규정을 준수하지 않는 데이터가 발견되면 이메일 경고를 보냅니다</block>
   <block id="f77f93b662e07d2958780dffbc360ec3" category="paragraph">정책을 만들거나 정책을 편집할 때 이 설정을 구성할 수 있습니다.</block>
   <block id="831a96e5f215f39fdd445625f868bf58" category="paragraph">기존 정책에 전자 메일 업데이트를 추가하려면 다음 단계를 따릅니다.</block>
   <block id="e611dc00053c0d54bc07aac02db6bc88" category="list-text">정책 목록 페이지에서 이메일 설정을 추가(또는 변경)할 정책에 대해 * 편집 * 을 클릭합니다.</block>
@@ -675,8 +650,6 @@
   <block id="9cc0943710c206f20a91720ffe09f7bf" category="paragraph"><block ref="9cc0943710c206f20a91720ffe09f7bf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="03edddfdd703f81e66c3ec945cdf1ae4" category="list-text">정책 저장 * 을 클릭하면 이메일이 전송되는 간격이 정책 설명에 표시됩니다.</block>
   <block id="adae64945c95a64a4e7460741eaad566" category="paragraph">정책의 결과가 있는 경우 첫 번째 이메일이 전송되지만 정책 기준을 충족하는 파일이 있는 경우에만 전송됩니다. 알림 이메일에는 개인 정보가 전송되지 않습니다. 이메일에는 정책 기준과 일치하는 파일이 있으며 정책 결과에 대한 링크가 표시됩니다.</block>
-  <block id="e3aca2a1f52769c86959db59de5c8e57" category="section-title">정책 편집</block>
-  <block id="8a5b49145936e154af1faea833484a85" category="section-title">정책을 삭제하는 중입니다</block>
   <block id="725f2bee980781415fd1a5062a4c3e0c" category="paragraph">사용자 지정 정책이 더 이상 필요하지 않은 경우 만든 모든 사용자 지정 정책을 삭제할 수 있습니다. 미리 정의된 정책은 삭제할 수 없습니다.</block>
   <block id="4f414b6a5ed633d6213d3e02617aa919" category="paragraph">정책을 삭제하려면 를 클릭합니다 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> 특정 정책의 버튼 * 정책 삭제 * 를 클릭한 다음 확인 대화 상자에서 * 정책 삭제 * 를 다시 클릭합니다.</block>
   <block id="8576d798b241f0250d2350430aef4005" category="section-title">사전 정의된 정책 목록입니다</block>
@@ -697,9 +670,6 @@
   <block id="8f08d4145d6e3a493a3fa4cd9e22247f" category="cell">20개가 넘는 개인 파일 또는 개인 행이 50% 이상 포함된 DB 열</block>
   <block id="9b81ccdb2be13f884e301547dfac52b2" category="cell">중요한 개인 데이터 식별자가 20개가 넘는 파일 또는 중요한 개인 데이터가 포함된 행의 50% 이상이 포함된 DB 열</block>
   <block id="d3566f9763235eb9dbff68cd1220088a" category="cell">20개 이상의 민감한 개인 파일이 있는 파일 또는 중요한 개인 정보가 포함된 행의 50% 이상이 있는 DB 열</block>
-  <block id="d244d9b7396fa074e6a948934df3072c" category="doc">조직에 저장된 데이터에 대한 규정 준수 세부 정보 보기</block>
-  <block id="331af28d8562855df8ae24482b6e7207" category="paragraph">일부 작업 환경에 대한 데이터만 보려면 <block ref="e9501f07ec1c7b7f2758fbc3d1e77ae6" category="inline-xref-macro-rx"></block>.</block>
-  <block id="4dd66ca96fb96e8e0b7ea1d39b21b6d2" category="section-title">개인 데이터가 포함된 파일 보기</block>
   <block id="99c411b30c0d86f95c6416318f98106b" category="inline-link-macro">전체 목록을 참조하십시오</block>
   <block id="c39a62af3ed5ce08e86086b818d3d335" category="paragraph">또한 스캔할 데이터베이스 서버를 추가한 경우 _Data Fusion_ 기능을 사용하여 파일을 스캔하여 데이터베이스의 고유 식별자가 해당 파일 또는 기타 데이터베이스에서 검색되는지 여부를 확인할 수 있습니다. 을 참조하십시오 <block ref="e5fd618a95839b26abd9eb3c166b6d5a" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="ff63178a8a067a8614bbbfdf75252bf4" category="inline-link-macro">개인 데이터 표</block>
@@ -710,7 +680,6 @@
   <block id="8c17e3b1b4e627d4a92973aec9ef4ce0" category="inline-image-macro">개인 데이터 형식 옆에 있는 조사 결과 아이콘을 클릭할 수 있는 개인 파일 대화 상자의 스크린샷</block>
   <block id="a08520118359e571f24b420e7729b107" category="paragraph"><block ref="a08520118359e571f24b420e7729b107" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bec06ffefcc7ab6b7882b310c3c7790a" category="list-text">특정 파일에 대한 세부 정보를 검색, 정렬, 확장하고 * 결과 조사 * 를 클릭하여 마스킹된 정보를 보거나 파일 목록을 다운로드하여 데이터를 조사합니다.</block>
-  <block id="14e7cee2f25241a9d6084f5ac31f54b0" category="section-title">중요한 개인 데이터가 들어 있는 파일 보기</block>
   <block id="8677494d8f5c3e6a2c69e93e5254639f" category="inline-link">GDPR 9조 및 10조</block>
   <block id="a8dc04f8b2b452296a4b47a8a5006a86" category="admonition">민감한 개인 데이터를 검색할 때는 영어로만 지원됩니다. 더 많은 언어에 대한 지원은 나중에 추가됩니다.</block>
   <block id="ec3eb784516048a066188028a6d8bd38" category="list-text">중요한 모든 개인 데이터에 대한 세부 정보를 조사하려면 중요한 개인 데이터 백분율 옆에 있는 아이콘을 클릭합니다.</block>
@@ -726,13 +695,11 @@
   <block id="9aa9abf60f82df3e21d796f9168c36b0" category="list-text">기본 화면에서 직접 상위 4개 범주 중 하나에 대한 * 조사 결과 * 아이콘을 클릭하거나 * 모두 보기 * 를 클릭한 다음 범주 중 하나에 대한 아이콘을 클릭합니다.</block>
   <block id="613f07741bbd9071b1b79a6196853b30" category="inline-image-macro">범주 옆에 있는 조사 결과 아이콘을 클릭할 수 있는 범주 대화 상자의 스크린샷</block>
   <block id="7be6351deec8b8b967edf1bf3befd4ee" category="paragraph"><block ref="7be6351deec8b8b967edf1bf3befd4ee" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d467ba6d6db79ffd075794bd2ba9cb62" category="section-title">파일 형식별로 파일 보기</block>
   <block id="a568986c28662b111bad8be3bc7def2a" category="inline-link-macro">파일 형식 목록을 참조하십시오</block>
   <block id="dc3104783e08badc94118d53e3958d1c" category="paragraph">예를 들어 조직에 대한 매우 중요한 정보가 포함된 CAD 파일을 저장할 수 있습니다. 보안이 설정되지 않은 경우 사용 권한을 제한하거나 파일을 다른 위치로 이동하여 중요한 데이터를 제어할 수 있습니다.</block>
   <block id="6ca0bce1ee7983409875080431586833" category="list-text">기본 화면에서 직접 상위 4개 파일 유형 중 하나에 대한 * 조사 결과 * 아이콘을 클릭하거나 * 모두 보기 * 를 클릭한 다음 파일 유형에 대한 아이콘을 클릭합니다.</block>
   <block id="52cb04713493959b4bbe6583f1b9c4aa" category="inline-image-macro">파일 형식 대화 상자의 스크린샷으로, 파일 형식 옆에 있는 결과 조사 아이콘을 클릭할 수 있습니다.</block>
   <block id="a34177e7f46c4653a4d5f3b70742cf17" category="paragraph"><block ref="a34177e7f46c4653a4d5f3b70742cf17" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="054f4bee64257e10c174c4d647399308" category="section-title">파일 메타데이터 보기</block>
   <block id="f934a72c8aa162f28cd2451333d31995" category="paragraph">데이터 조사 결과 창에서 을(를) 클릭할 수 있습니다 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block> 모든 단일 파일에서 파일 메타데이터를 볼 수 있습니다.</block>
   <block id="c545ce144b1f4d763f30d9b729c1590c" category="paragraph"><block ref="c545ce144b1f4d763f30d9b729c1590c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aa4ba8b621d22449a2723e4175ff5c9d" category="inline-link-macro">정책을 생성합니다</block>
@@ -740,32 +707,24 @@
   <block id="adbb2407fea1d2f51e23826ed34596b8" category="paragraph">단일 파일의 세부 정보를 볼 때 파일에 대해 수행할 수 있는 몇 가지 작업이 있습니다.</block>
   <block id="c1a1a583b36cdffdc8d25f588807195d" category="inline-link-macro">소스 파일을 NFS 공유로 이동하는 중입니다</block>
   <block id="d6f6136a58dbea1bfbbeac2efe56059d" category="inline-link-macro">소스 파일을 NFS 공유에 복사하는 중입니다</block>
-  <block id="39818cbec944397bbac9753bbceaeedd" category="list-text">파일을 NFS 공유로 이동하거나 복사할 수 있습니다. 을 참조하십시오 <block ref="590341e5db729864a837ad7726036455" category="inline-link-macro-rx"></block> 및 <block ref="7ba2a508f70171076e09d2a9526d5476" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="476fd7b98b47a6616a0344d3cb8148e6" category="inline-link-macro">원본 파일을 삭제하는 중입니다</block>
-  <block id="4457ece976e0a49a8f68c9bd26bd8a1b" category="list-text">파일을 삭제할 수 있습니다. 을 참조하십시오 <block ref="cd2ebc624881f1a89aa3bf20cdd7440c" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="5e1885042ce945f860120053c61ffb54" category="inline-link-macro">태그 적용 중</block>
-  <block id="850dcc64352d6ec82fb2c15e439c169b" category="list-text">파일에 특정 상태를 할당할 수 있습니다. 을 참조하십시오 <block ref="8a1b9fcafc24ba7d6db53f4a655335df" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="826ff42fce3b59aaac99a39a16e48c77" category="inline-link-macro">파일에 사용자 할당</block>
   <block id="47b3f14316e807b37aaa42895464d283" category="inline-image-macro">자세한 파일 사용 권한을 보여 주는 스크린샷</block>
   <block id="33b3bef30743bda1b0909a4417b45583" category="paragraph"><block ref="33b3bef30743bda1b0909a4417b45583" category="inline-image-macro-rx" type="image"></block></block>
   <block id="70762168244eed6d4b30ab53961acada" category="inline-link-macro">이 작업을 수행하는 방법을 확인하십시오</block>
-  <block id="c928af120c06b9565d871ba33db1c7f5" category="section-title">스토리지 시스템에서 중복 파일을 확인하는 중입니다</block>
   <block id="5180c6809f41234a64af29e1a7ad708c" category="paragraph">중복 파일이 스토리지 시스템에 저장되어 있는지 확인할 수 있습니다. 이 기능은 저장 공간을 절약할 수 있는 영역을 확인하고자 할 때 유용합니다. 또한 특정 사용 권한이나 중요한 정보가 있는 특정 파일이 스토리지 시스템에서 불필요하게 복제되지 않도록 하는 것이 도움이 될 수 있습니다.</block>
   <block id="fc9033d933e9132cc23bfe396744d214" category="inline-link-macro">파일을 삭제합니다</block>
-  <block id="05a9e2e2902a6ea5dacdfe3be87085eb" category="section-title">복제된 모든 파일을 봅니다</block>
   <block id="5b00edf3a5903017b22e268ae58998c0" category="paragraph">작업 환경 및 스캔할 데이터 원본에 중복되는 모든 파일의 목록을 보려면 데이터 조사 페이지에서 * 중복 &gt; 중복 항목 있음 * 이라는 필터를 사용하면 됩니다.</block>
-  <block id="7ae09bb031844e25b6bd333f8e364d99" category="section-title">특정 파일이 중복되어 있는지 확인합니다</block>
   <block id="481ee5e06ca7a72cfe4a783b39c7d0e3" category="paragraph">단일 파일에 중복이 있는지 확인하려면 데이터 조사 결과 창에서 을(를) 클릭합니다 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block> 모든 단일 파일에서 파일 메타데이터를 볼 수 있습니다. 특정 파일의 복제본이 있는 경우 이 정보는 _Duplicates_ 필드 옆에 표시됩니다.</block>
   <block id="b478c70cc88f62deb519e4d41609fff2" category="paragraph">중복 파일 목록과 파일이 있는 위치를 보려면 * 세부 정보 보기 * 를 클릭합니다. 다음 페이지에서 * 중복 보기 * 를 클릭하여 조사 페이지에서 파일을 봅니다.</block>
   <block id="68309bcfd455803ffbae49714037b789" category="inline-image-macro">중복된 파일이 있는 위치를 보는 방법을 보여 주는 스크린샷</block>
   <block id="0dc6d718adece3621c4a40fa3b4b2a82" category="paragraph"><block ref="0dc6d718adece3621c4a40fa3b4b2a82" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c03eb1ff575a67ef8cf7b0cbe6f24dad" category="section-title">특정 작업 환경에 대한 대시보드 데이터 보기</block>
   <block id="47b574d50f0f0cc7ac6ae3ba6d39951f" category="inline-image-macro">특정 작업 환경의 조사 결과를 필터링하는 방법을 보여 주는 스크린샷</block>
   <block id="7675f7474f9e9ad03c6a7bb35d2d9fad" category="paragraph"><block ref="7675f7474f9e9ad03c6a7bb35d2d9fad" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0c99fdc0d05bf34d6834c6ef3cd92bb3" category="inline-image-macro">다운로드 버튼</block>
   <block id="d3720958611294d50237fe72870e0c02" category="inline-image-macro">조사 페이지에서 결과를 구체화할 때 사용할 수 있는 필터의 스크린샷.</block>
   <block id="3fd10935177bff66373986bc384c0307" category="paragraph"><block ref="3fd10935177bff66373986bc384c0307" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="812ce4d3a07734d12cdaa3ed2010e22f" category="list-text">각 열의 맨 위에 있는 컨트롤을 사용하여 결과를 숫자 또는 사전순으로 정렬할 수 있습니다.</block>
   <block id="d7778d0c64b6ba21494c97f77a66885a" category="cell">필터</block>
   <block id="3ec365dd533ddb7ef3d1c111186ce872" category="cell">세부 정보</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">여기</block>
@@ -814,10 +773,8 @@
   <block id="24588d9873aeb10a7d918f9f39a921ad" category="list-text">스토리지 저장소(예: 스키마)</block>
   <block id="ab8a843d390e68d7263eb4d3758cbb94" category="list-text">열 개수</block>
   <block id="8914a2ab502c2e892c90f9e40240866c" category="list-text">행 수</block>
-  <block id="4264ca6efffa4cf6fdf127440dfdd525" category="doc">개인 데이터 관리</block>
   <block id="681a30d34dc88519fc9d3b5f02853ef5" category="list-text">특정 데이터의 복사본을 만들어 다른 NFS 위치로 이동하려는 경우 대상 NFS 공유에 파일을 복사할 수 있습니다.</block>
   <block id="8cd71862f8a8c010084d3687780ba841" category="list-text">안전하지 않거나 위험한 것으로 보이는 파일을 스토리지 시스템에 남겨 두거나 중복으로 식별한 경우 삭제할 수 있습니다.</block>
-  <block id="e1ceec320e11017e93f764dd05d20aa0" category="section-title">원본 파일을 복사하는 중입니다</block>
   <block id="274ca76213f0f731f350a5f61c91b264" category="list-text">* 동일 또는 다른 볼륨 또는 데이터 소스에서 대상 NFS 공유로 파일 * 복사</block>
   <block id="73d4c457b0f8ca0f7be75dc85bba7f0f" category="paragraph">특정 데이터의 복사본을 만들어 다른 NFS 위치로 이동하려는 경우 유용합니다.</block>
   <block id="d5c3d70f964953312816ce98d2f4f5d1" category="list-text">* 동일한 애그리게이트의 새 볼륨에 ONTAP 볼륨 * 을 클론 복제하지만 새로운 클론 복제된 볼륨의 소스 볼륨에서 선택한 파일만 포함됩니다.</block>
@@ -837,7 +794,6 @@
   <block id="577f7e077dfc06e3803431bf95bd8d3b" category="paragraph">파일의 메타데이터 세부 정보를 볼 때 개별 파일을 복사할 수도 있습니다. 파일 복사 * 를 클릭하기만 하면 됩니다.</block>
   <block id="0847b25e23803d73ff0a2e412a366eef" category="inline-image-macro">데이터 조사 페이지의 파일에 대한 메타데이터 세부 정보에서 파일 복사 버튼을 선택하는 스크린샷</block>
   <block id="fb1ff7732bccd8da11bd09f898a27956" category="paragraph"><block ref="fb1ff7732bccd8da11bd09f898a27956" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2c0dd6d9ef4836e8fab2a426a617d531" category="section-title">볼륨 데이터를 새 볼륨에 클로닝</block>
   <block id="6cf0ba5e69af525a045e9a0a7857af7c" category="paragraph">새 볼륨은 소스 볼륨과 동일한 애그리게이트에 생성됩니다. 이 작업을 시작하기 전에 aggregate에서 이 새 볼륨을 위한 공간이 충분한지 확인하십시오. 필요한 경우 스토리지 관리자에게 문의하십시오.</block>
   <block id="1612b9175941a981786b5c32de4a8abc" category="paragraph">* 참고: * FlexGroup 볼륨은 FlexClone에서 지원하지 않으므로 복제할 수 없습니다.</block>
   <block id="b13afea2d6a48fa4e12da584544f7c62" category="list-text">선택한 모든 파일은 동일한 볼륨에서 가져온 것이어야 하며 볼륨이 온라인 상태여야 합니다.</block>
@@ -855,7 +811,6 @@
   <block id="34f7fc61a9c74f5c37e24b622428b631" category="paragraph">클론 작업의 상태가 표시된 대화 상자가 나타납니다.</block>
   <block id="2fe40b402eb4dc28515dfbbf411e5e9e" category="paragraph">클론 복제된 새 볼륨은 소스 볼륨과 동일한 애그리게이트에 생성됩니다.</block>
   <block id="d25aba80994e98cacd011b113628101b" category="inline-link-macro">수동으로 볼륨에서 스캔을 활성화합니다</block>
-  <block id="61d5073996ba69d9a5b4108c7295351d" category="section-title">소스 파일을 대상 시스템에 복사 및 동기화 중입니다</block>
   <block id="59a46e0ea7e3441d068ab93e14650d6e" category="admonition">데이터베이스, OneDrive 계정 또는 SharePoint 계정에 있는 파일은 복사 및 동기화할 수 없습니다.</block>
   <block id="fa00f0feeabd281b23e8571faacaf649" category="list-text">파일을 복사 및 동기화하려면 계정 관리자 또는 작업 영역 관리자 역할이 있어야 합니다.</block>
   <block id="2e5ce55dec2ff1c76b2eb8662089db85" category="list-text">선택한 모든 파일은 동일한 소스 저장소(ONTAP 볼륨, S3 버킷, NFS 또는 CIFS 공유 등)에서 가져온 것이어야 합니다.</block>
@@ -885,7 +840,6 @@
   <block id="f00d1d6da069b57d87e693fce6b2fc27" category="paragraph">안전하지 않거나 너무 위험한 소스 파일을 스토리지 시스템에 남겨 두거나 중복으로 식별한 경우 영구적으로 제거할 수 있습니다. 이 작업은 영구적이며 실행 취소 또는 복원이 없습니다.</block>
   <block id="5415e45b4bcc0ac609070c6e72408406" category="paragraph">파일을 삭제하려면 다음 권한이 필요합니다.</block>
   <block id="e9d85b8e3ea5257d3468eb6f787a1fcd" category="list-text">S3 데이터의 경우 - IAM 역할에는 's3:DeleteObject' 권한이 포함되어야 합니다.</block>
-  <block id="6a73b2e7e212b654de2a1932805f983e" category="section-title">소스 파일을 수동으로 삭제하는 중입니다</block>
   <block id="b625bf3592e2928981ee61c2a8d659a8" category="list-text">파일을 삭제하려면 계정 관리자 또는 작업 영역 관리자 역할이 있어야 합니다.</block>
   <block id="982e0ea8ac129cb8e1614b1eb919a238" category="list-text">한 번에 최대 100,000개의 파일을 삭제할 수 있습니다.</block>
   <block id="d14aadac54b4954b4a906556c2e19bd5" category="list-text">데이터 조사 결과 창에서 삭제할 파일을 선택합니다.</block>
@@ -896,7 +850,6 @@
   <block id="73b79920d299fa15b37932692eeed2d3" category="paragraph">파일의 메타데이터 세부 정보를 볼 때 개별 파일을 삭제할 수도 있습니다. 파일 삭제 * 를 클릭하기만 하면 됩니다.</block>
   <block id="78933a7726c13f608f7d7da25c47d184" category="inline-image-macro">데이터 조사 페이지의 파일에 대한 메타데이터 세부 정보에서 파일 삭제 버튼 선택을 보여 주는 스크린샷</block>
   <block id="1ae48305acc0dd19cfd8f7461fcc887a" category="paragraph"><block ref="1ae48305acc0dd19cfd8f7461fcc887a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c76c06532ae9e59546a748c7233e4451" category="section-title">정책을 사용하여 소스 파일을 자동으로 삭제합니다</block>
   <block id="809f64202f1380bfa162de2b48ae05c0" category="paragraph">계정 관리자만 파일을 자동으로 삭제하는 정책을 만들 수 있습니다.</block>
   <block id="1911b5e2b0381b00e1ac45e47f734440" category="admonition">정책과 일치하는 모든 파일이 하루에 한 번 영구적으로 삭제됩니다.</block>
   <block id="31d61da3269b125b8a056a011eb7348b" category="list-text">"이 정책과 일치하는 파일을 자동으로 삭제" 확인란을 선택하고 * 영구적으로 삭제 * 를 입력하여 이 정책에 따라 파일을 영구적으로 삭제할 것인지 확인합니다.</block>
@@ -976,10 +929,8 @@
   <block id="cdc2b03f6ffa90a892ff07e03233975d" category="paragraph">그러면 업그레이드 스크립트 * start_darsite_upgrade.sh * 와 필요한 타사 소프트웨어가 추출됩니다.</block>
   <block id="85455891651214d50e704a4b3e9dde66" category="list-text">호스트 시스템에서 업그레이드 스크립트를 실행합니다. 예를 들면 다음과 같습니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
-  <block id="16ace13e9030ba8b43b8bf469be3ffff" category="doc">조직에 저장된 데이터에 대한 거버넌스 세부 정보 보기</block>
   <block id="f7b090ae0361a33be68398c938094aa6" category="section-title">Governance 대시보드</block>
   <block id="e5295f0dcd9974bcca40c2b38f856a76" category="paragraph">Governance 대시보드는 스토리지 리소스에 저장된 데이터와 관련된 효율성을 높이고 비용을 제어할 수 있는 정보를 제공합니다.</block>
-  <block id="0751626f1e414dc9007de23880868044" category="section-title">기회 저장</block>
   <block id="66828697b142b247f0ff8f5fde69fed4" category="paragraph">삭제할 데이터가 있는지 또는 더 저렴한 오브젝트 스토리지에 계층화해야 하는지 여부를 확인하려면 _Saving Opportunities_ 영역의 항목을 조사하십시오. 조사 페이지에서 필터링된 결과를 보려면 각 항목을 클릭합니다.</block>
   <block id="da7e456f74e6e77de59afc145e42d85d" category="list-text">* 오래된 데이터 * - 3년 전에 마지막으로 수정된 데이터</block>
   <block id="c25ad118eb89526500bf75c7b98bc13a" category="list-text">* 비 비즈니스 데이터 * - 범주 또는 파일 형식에 따라 업무와 관련이 없는 것으로 간주되는 데이터 여기에는 다음이 포함됩니다.</block>
@@ -1005,12 +956,9 @@
   <block id="adb18f5fb34b742716a832a865f1d8e2" category="section-title">가장 많이 식별된 데이터 분류</block>
   <block id="65da47b6ef0adda3d4c4ed54dfde4494" category="inline-link-macro">파일 형식</block>
   <block id="02ac28e6aac96ae29edd75daf4e929ad" category="inline-link-macro">AIP 레이블</block>
-  <block id="659056cf2678e420a1509bbcc731edcf" category="paragraph">을 참조하십시오 <block ref="21094466ac939ca1953a7d6cc6a49a1d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="cb45e879b815142e4e2cd0d22e5c6dd9" category="paragraph">파일 형식을 검토하면 특정 파일 형식이 올바르게 저장되지 않은 것을 발견할 수 있으므로 중요한 데이터를 제어하는 데 도움이 됩니다.</block>
   <block id="5e8739b0bd7e602b7f492e7398e41425" category="inline-link-macro">파일 형식 보기</block>
-  <block id="604e7f8b88690e4a7309154d6c507dbe" category="paragraph">을 참조하십시오 <block ref="0016b6cca33bb771b0fdf7e717a8f0f9" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="fb91597bc7333ab092ccda3e2c38ed9f" category="paragraph">AIP(Azure Information Protection)에 가입한 경우 콘텐츠에 레이블을 적용하여 문서와 파일을 분류하고 보호할 수 있습니다. 파일에 할당된 가장 많이 사용되는 AIP 레이블을 검토하면 파일에서 가장 많이 사용되는 레이블을 확인할 수 있습니다.</block>
-  <block id="de1409a5455f1de6df444c6a03e3b4a6" category="paragraph">을 참조하십시오 <block ref="8376771def5b60bb1cfdd0dc180ae5cc" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="dac05618fc69864a6bb4607d758eba4b" category="inline-image-macro">데이터베이스의 콘텐츠를 원본으로 사용하여 동일한 데이터가 포함된 파일을 식별하는 방법을 보여 주는 다이어그램입니다.</block>
   <block id="272d016d013ea6f34fea95eb2490c955" category="paragraph"><block ref="272d016d013ea6f34fea95eb2490c955" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9e069456015ebd506621d5c53645d136" category="paragraph">보시다시피, 2개의 볼륨과 1개의 S3 버킷에서 2개의 고유 고객 ID가 발견되었습니다. 데이터베이스 테이블의 모든 일치 항목도 식별됩니다.</block>
@@ -1072,7 +1020,6 @@
   <block id="84f064335aeff156ccda8eb3c64109d6" category="admonition">로컬 사용자 SID 및 알 수 없는 도메인의 SID는 실제 사용자 이름으로 변환되지 않습니다.</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
   <block id="36df1b975561708b246ef1801ea416e5" category="list-text">ONTAP용 FSX</block>
-  <block id="cd77c160f6007bd570b07762f3b9388f" category="section-title">Active Directory 서버에 연결하는 중입니다</block>
   <block id="f116dfc235147909ef3b37492dd58497" category="list-text">회사의 사용자에 대해 Active Directory가 이미 설정되어 있어야 합니다.</block>
   <block id="6fcd963bedffc4e92b9378afcac66a5a" category="list-text">Active Directory에 대한 정보가 있어야 합니다.</block>
   <block id="02edada29b01e453b3830347ae8b9aa3" category="list-text">도메인 이름(Active Directory 이름)</block>
@@ -1090,7 +1037,6 @@
   <block id="619bc5bc43267744dc1433fb5e540eff" category="cell">글로벌 카탈로그</block>
   <block id="c91e3483cf4f90057d02aa492d2b25b1" category="cell">3269</block>
   <block id="c91ca3d20e968a1690e1471dfecc0dda" category="cell">SSL을 통한 글로벌 카탈로그</block>
-  <block id="2e6b92424c978f0e1635007c6ce96700" category="section-title">Active Directory 통합 관리</block>
   <block id="ca3e2e8380ad6cedd810ec4fc49fa9e7" category="paragraph">Active Directory 통합에서 값을 수정해야 하는 경우 * Edit * (편집 *) 버튼을 클릭하여 변경합니다.</block>
   <block id="e0beb155f64410441b0e76c0d0350422" category="paragraph">통합을 더 이상 필요로 하지 않는 경우 을 클릭하여 삭제할 수도 있습니다 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> 단추를 클릭한 다음 * Active Directory 제거 * 를 클릭합니다.</block>
   <block id="fd28e251418a49d4390ec8a9b6592efc" category="paragraph">객체 스토리지 서비스에 연결하려면 엔드포인트 URL이 있어야 합니다.</block>
@@ -1111,7 +1057,6 @@
   <block id="88102a7bc8cb32cc48cc4aeb56b158b1" category="paragraph"><block ref="88102a7bc8cb32cc48cc4aeb56b158b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="156fdad76318b191adaf2ca2a40d61e6" category="inline-image-macro">스캔할 오브젝트 스토리지 버킷 선택 스크린샷</block>
   <block id="c404fb4b7293d499e4c2e44da6b6f739" category="paragraph"><block ref="c404fb4b7293d499e4c2e44da6b6f739" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ce41a706cd7d768f91deb7b6d30a53a6" category="doc">데이터베이스 스키마를 검색하는 중입니다</block>
   <block id="6ba6f62eaa922e3764dfb0e34527892f" category="paragraph">데이터베이스가 지원되고 데이터베이스에 연결하는 데 필요한 정보가 있는지 확인합니다.</block>
   <block id="18145622150e1a809831297a4332c742" category="paragraph">액세스할 데이터베이스 서버를 추가합니다.</block>
   <block id="5a810676627d546e80218e706059b849" category="paragraph">스캔할 스키마를 선택합니다.</block>
@@ -1130,7 +1075,6 @@
   <block id="9beea22282a9d43f642a2cef04f44e43" category="list-text">서비스 이름(Oracle 데이터베이스 액세스에만 해당)</block>
   <block id="2605f71f51c7d6600726326b9237ebc5" category="list-text">스키마에 대한 읽기 액세스를 허용하는 자격 증명</block>
   <block id="bc41579bb1dca18fecae30e859ceff50" category="paragraph">* 참고: * MongoDB의 경우 읽기 전용 관리자 역할이 필요합니다.</block>
-  <block id="87eba47abb2d2374d54845950994f58b" category="section-title">데이터베이스 서버 추가</block>
   <block id="a4d915351d456b98e430d4b56f363817" category="paragraph">스키마가 있는 데이터베이스 서버를 추가합니다.</block>
   <block id="6a92144fbc213814d38b4fcd8dc7ba49" category="list-text">작업 환경 구성 페이지에서 * 데이터 소스 추가 * &gt; * 데이터베이스 서버 추가 * 를 클릭합니다.</block>
   <block id="3a0e5c0a3596c957b4947c3009360640" category="inline-image-macro">DB 서버 추가 버튼을 클릭할 수 있는 스캔 구성 페이지의 스크린 샷</block>
@@ -1143,7 +1087,6 @@
   <block id="975a926a0acffc9710e8ecd51beec54b" category="inline-image-macro">데이터베이스를 식별할 수 있는 DB 서버 추가 페이지의 스크린샷</block>
   <block id="7c6692b3993d10f33b7ccf14b4d921b5" category="paragraph"><block ref="7c6692b3993d10f33b7ccf14b4d921b5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fc992e494348eb4ec6a8872b8dde59da" category="paragraph">데이터베이스가 작업 환경 목록에 추가됩니다.</block>
-  <block id="296c70d3038449465934d85d8968a541" category="section-title">데이터베이스 스키마에서 규정 준수 검사를 활성화 및 비활성화합니다</block>
   <block id="b7a17432eb09c32a574991d9b6b0be00" category="paragraph">언제든지 스키마를 중지하거나 전체 스캔을 시작할 수 있습니다.</block>
   <block id="bee9dc960933af9ecc3b6f30878d28e4" category="admonition">데이터베이스 스키마에 대한 매핑 전용 검사를 선택하는 옵션은 없습니다.</block>
   <block id="66a2cf8e7e33f076420fc7afe01ab7b3" category="list-text">Configuration_ 페이지에서 구성할 데이터베이스의 * Configuration * 버튼을 클릭합니다.</block>
@@ -1155,7 +1098,6 @@
   <block id="bf921de5d4c70eef45feab946da98137" category="paragraph">유럽 GDPR과 같은 개인 정보 보호 규정은 데이터 주체(고객 또는 직원 등)에게 개인 데이터에 액세스할 수 있는 권한을 부여합니다. 데이터 피험자가 이 정보를 요청하는 경우 이를 SAR(데이터 주체 액세스 요청)이라고 합니다. 조직은 이러한 요청에 대해 "부당한 지연 없이", 그리고 수령 후 1개월 이내에 응답해야 합니다.</block>
   <block id="8a464fab58ec0272448f96c6e09a0019" category="paragraph">검색이 완료되면 데이터 주체 액세스 요청 보고서에 대한 파일 목록을 다운로드할 수 있습니다. 이 보고서는 데이터에서 얻은 통찰력을 집계하여 해당 사람에게 다시 보낼 수 있는 법적 용어로 저장합니다.</block>
   <block id="dd363d2f15cf39a647d862100dda0956" category="admonition">현재 데이터베이스 내에서 데이터 주제 검색이 지원되지 않습니다.</block>
-  <block id="b6d9bc7bd8d7f42a7f70429316f4c5a8" category="section-title">데이터 주체 검색 및 보고서 다운로드</block>
   <block id="95fbc0e5629d1a6565b155bfc1a72f1f" category="inline-link-macro">모든 개인 정보 유형입니다</block>
   <block id="c9edde725bcfb1c133b505d4d1320784" category="list-text">데이터 제목 * 을 클릭합니다.</block>
   <block id="f1c85eaf16c9599d4afcc94f0e5efb53" category="list-text">데이터 제목의 전체 이름 또는 알려진 식별자를 검색합니다.</block>
@@ -1237,7 +1179,6 @@
   <block id="9ffceb20e382df6e4587add0d24af321" category="cell">오스트레일리아 TFN(세금 파일 번호)</block>
   <block id="67863eec6ed398cda366fe555c1746bd" category="cell">오스트레일리아 의료 보험 번호</block>
   <block id="bba082dd43baad5296b00863b2fd871e" category="cell">호주 여권 번호</block>
-  <block id="d65636c48d5eaaa2a0f018e8b2c9b456" category="paragraph">중복 파일 목록을 다운로드하여 스토리지 관리자에게 전송하여 삭제할 수 있는 파일이 있는지 확인할 수 있습니다. 아니면 가능합니다 <block ref="e6aba68fcf17e4e39481e0dfc445e973" category="inline-link-macro-rx"></block> 특정 버전의 파일이 필요하지 않을 경우</block>
   <block id="cfc66ec017142ce1f8420ffb8db2e3cd" category="list-text">9단계에서 설명한 것처럼 설치 관리자가 메시지를 표시하면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.</block>
   <block id="eb5d5731dad89c6e51beb903e93f42bf" category="paragraph">구성 페이지에서 로컬 을 선택할 수 있습니다 <block ref="c23a74d01fbf5deb3a784c3ec1da6439" category="inline-link-macro-rx"></block> 및 로컬 <block ref="6d4571a63bcf6d226319383d2911863e" category="inline-link-macro-rx"></block> 선택합니다.</block>
   <block id="7078363248b15fb54dcc0ed38080ad0d" category="list-text">DNS 서버 IP 주소 또는 여러 IP 주소</block>
@@ -1252,7 +1193,6 @@
   <block id="91aef07a29d8068140e7dca06bec6d9d" category="list-text">개인 정보 보호 관련 정보와 개인 정보 보호 위험 점수를 제공합니다. <block ref="890a798f73fe571345d1ff7c58a08844" category="inline-link-macro-rx"></block>.</block>
   <block id="39630dece802514e5f7336bcbbf0ac6f" category="list-text">파일 전체에서 신용 카드 정보의 배포를 식별하는 데 도움이 됩니다. <block ref="ef3bace538be6eee30a3e48516637cf7" category="inline-link-macro-rx"></block>.</block>
   <block id="be27a8dc9dfba1897217ecee5823bd4e" category="list-text">파일에 대한 상태 정보 배포를 식별하는 데 도움이 됩니다. <block ref="1ce675538fc85bf3b1ef6fa4ab26346c" category="inline-link-macro-rx"></block>.</block>
-  <block id="f887e54f519cc35b4741120230ac9d1a" category="paragraph">Classification_area는 가장 많이 식별된 목록을 제공합니다 <block ref="b823fa31d5dec268aaa19a8828bf34fe" category="inline-link-macro-rx"></block>, <block ref="336d27c782a82199a3380deae5570591" category="inline-link-macro-rx"></block>, 및 <block ref="8376771def5b60bb1cfdd0dc180ae5cc" category="inline-link-macro-rx"></block> 스캔 데이터.</block>
   <block id="7d3786abf2ebb473a5ba70b680734525" category="section-title">BYOL 라이센스 고려사항</block>
   <block id="e95058755e821bf6cb439e37f1f068d7" category="list-text">스캔 중인 데이터의 양이 라이센스 용량의 80%에 도달한 경우, 제한에 도달하면 다시 한 번 표시됩니다</block>
   <block id="d8ea74d0bc0e6f3c5be22312a953d7fb" category="list-text">라이센스가 만료되기 30일 전에 라이센스가 만료되고 라이센스가 만료되면 다시 만료됩니다</block>
@@ -1296,7 +1236,6 @@
   <block id="0908d2929b9ac231d6e9a69ca517b2e3" category="section-title">내 호스트에 커넥터를 배포할 수 있습니까?</block>
   <block id="729ba1cfab33ecb7cda6d642c21b247d" category="section-title">인터넷에 연결되지 않은 보안 사이트는 어떻게 됩니까?</block>
   <block id="b783177554ae1d03f46ea830d39a7822" category="section-title">데이터 조사 보고서</block>
-  <block id="44ef9b305f89e2a0007a9f26dc30474e" category="section-title">데이터 조사 보고서 생성</block>
   <block id="0f259b55b58f019c0dd1cc33fbe10199" category="list-text">데이터 조사 페이지에서 을 클릭합니다 <block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block> 버튼을 클릭합니다.</block>
   <block id="6dc6bf0d1023a1b5714c777b474cce12" category="paragraph">비정형 파일 데이터 보고서 * 에는 파일에 대한 다음 정보가 포함됩니다.</block>
   <block id="f7a21d48814a155d5e8e39ddbf0827ae" category="paragraph">Structured Data Report * 에는 데이터베이스 테이블에 대한 다음 정보가 포함되어 있습니다.</block>
@@ -1332,7 +1271,6 @@
   <block id="37c9303e988a90a91e5799c6d881439b" category="paragraph">온프레미스 ONTAP 시스템, NetApp이 아닌 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스, OneDrive 폴더, SharePoint 계정, Google Drive 계정은 이러한 클라우드 커넥터를 사용하여 스캔할 수 있습니다.</block>
   <block id="68c4a78a67d74510c65b916751c96b07" category="list-text">Google Drive 계정의 데이터는 현재 이러한 기능을 사용할 수 없습니다.</block>
   <block id="9c471504c4f66f275b7d110c46622118" category="paragraph">온프레미스 ONTAP 시스템, NetApp이 아닌 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스, OneDrive 폴더, SharePoint 계정, Google Drive 계정은 이러한 클라우드 커넥터를 사용할 때 검색할 수 있습니다.</block>
-  <block id="bc80eb794f149fca6a16076a0e09247f" category="list-text">최상위 탭을 사용하면 파일(구조화되지 않은 데이터), 디렉토리(폴더 및 파일 공유) 또는 데이터베이스(구조화된 데이터)에서 데이터를 볼 수 있습니다.</block>
   <block id="d5ef18883c38c2dd1dffc30e93610cde" category="paragraph">사용자 파일이 있는 Google Drive 계정을 추가합니다. 여러 사용자의 파일을 스캔하려면 각 사용자에 대해 이 단계를 실행해야 합니다.</block>
   <block id="ba7710e66e983f5d109ee54ee938f343" category="paragraph">를 클릭할 수 있습니다 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block> 모든 그룹에 대해 그룹에 속한 사용자 목록을 표시합니다.</block>
   <block id="26ec7ebe8b7297e79affc05b3e89352b" category="cell">식별자 수입니다</block>
@@ -1383,7 +1321,6 @@
   <block id="c220e333c84311a5247ea56021c7f9af" category="inline-image-macro">작업 환경의 구성 단추를 클릭하는 방법을 보여 주는 스크린샷</block>
   <block id="42b33a03e844c37998934099293f35e3" category="paragraph"><block ref="42b33a03e844c37998934099293f35e3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d572e0d4b826c4aedc53e9ebf7b16a8f" category="list-text">스캔 구성 페이지에서 모든 리포지토리에 대한 스캔 설정을 볼 수 있습니다.</block>
-  <block id="dbb0dfda8b378050531f81450c4bc33e" category="section-title">리포지토리에 대한 스캔 유형을 변경합니다</block>
   <block id="80442a9b9f6c43539008be8521ce5283" category="paragraph">구성 페이지에서 언제든지 작업 환경에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 시작하거나 중지할 수 있습니다. 매핑 전용 스캔에서 매핑 및 분류 스캔으로, 또는 그 반대로 변경할 수도 있습니다.</block>
   <block id="d2c070afb22765e227addc428b9bb43d" category="inline-image-macro">버킷에 대한 스캔 유형을 선택하는 방법을 보여 주는 스크린샷</block>
   <block id="8d501a2dffff147be5f9997f70b34348" category="paragraph"><block ref="8d501a2dffff147be5f9997f70b34348" category="inline-image-macro-rx" type="image"></block></block>
@@ -1391,7 +1328,6 @@
   <block id="648f292c272072450d20c88db515b454" category="paragraph">아래 예는 Azure NetApp Files 시스템에 대한 이 단추 모음을 보여줍니다.</block>
   <block id="b0d05a288f1ee1691adac4ca34c54fca" category="inline-image-macro">작업 환경의 모든 볼륨에 대해 동일한 스캔 설정을 구성하는 방법을 보여 주는 스크린샷</block>
   <block id="12a2ab51f6d8555b1efcc9582dee655b" category="paragraph"><block ref="12a2ab51f6d8555b1efcc9582dee655b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6c47f43803aeca87b8119b45040e033c" category="section-title">리포지토리 스캔을 일시 중지하고 다시 시작합니다</block>
   <block id="0f9fab6026fbdbed86f2befe8eae64e1" category="paragraph">언제든지 스캔을 "재시작"할 수 있습니다.</block>
   <block id="8b072c4e238b04c04c81cef3ed309703" category="list-text">Scan Configuration(스캔 구성) 페이지에서 Pause(일시 중지) 버튼을 클릭하여 볼륨 스캐닝을 일시 중지하거나 Resume(재개) 버튼을 눌러 이전에 일시 중지된 볼륨 스캐닝을 재개합니다.</block>
   <block id="bc9b17eea5246a704bb26be367a3b35f" category="inline-image-macro">볼륨에서 스캔을 일시 중지하고 다시 시작하는 방법을 보여 주는 스크린샷</block>
@@ -1400,7 +1336,6 @@
   <block id="9816532bdb11b99d3175be528e41c5b6" category="cell">Texas Driver의 라이센스</block>
   <block id="e6860b78555fc79d4429acb5534cf51b" category="paragraph">조직에 맞는 검색 결과를 제공하는 사용자 지정 정책을 만들 수 있습니다. 검색 기준과 일치하는 모든 파일 및 디렉토리(공유 및 폴더)에 대한 결과가 반환됩니다.</block>
   <block id="5587c065d5a62295455b157389cd71e5" category="paragraph">정책 결과에 따라 데이터를 삭제하고 AIP 레이블을 할당하는 작업은 파일에만 유효합니다. 검색 기준과 일치하는 디렉토리는 자동으로 삭제하거나 할당 AIP 레이블을 지정할 수 없습니다.</block>
-  <block id="90915c385560094095567649cbd732aa" category="section-title">파일 및 디렉토리에 대한 권한 보기</block>
   <block id="b242cddbb1cb85737a2fd06f1d715934" category="paragraph">또한, 사용자 또는 그룹의 이름을 클릭하면 "사용자/그룹 권한" 필터에 입력된 사용자 또는 그룹의 이름과 함께 조사 페이지가 표시되어 사용자 또는 그룹이 액세스할 수 있는 모든 파일 및 디렉터리를 볼 수 있습니다.</block>
   <block id="04843fa750ddea2d46823d2d06cf3063" category="paragraph">일부 데이터 원본은 SharePoint 사이트에 대해 아래 표시된 것처럼 메뉴에 일시 중지 및 다시 시작 기능을 제공합니다.</block>
   <block id="fb575acbb63d1898a1021e2856b18b6e" category="inline-image-macro">SharePoint 사이트에서 검색을 일시 중지하고 다시 시작하는 방법을 보여 주는 스크린샷</block>
@@ -1414,7 +1349,6 @@
   <block id="e947d88fc82f247e554cf80e35ff0831" category="list-text">Move Files_ 대화 상자에서 선택한 모든 파일이 "&lt;host_name&gt;:/&lt;share_path&gt;" 형식으로 이동될 NFS 공유의 이름을 입력합니다.</block>
   <block id="9bf85e569c6ef93411e4ce74471413a0" category="list-text">Breadcrumb 파일을 그대로 두려면 _Breadcrumb_상자를 선택합니다. 대화 상자에 텍스트를 입력하여 파일이 이동된 위치, 파일을 이동한 사용자 및 파일이 이동된 이유와 같은 기타 정보를 나타낼 수 있습니다.</block>
   <block id="b91992584de04476d486c6819d26aaf3" category="list-text">파일 이동 * 을 클릭합니다.</block>
-  <block id="cc044854b72a7b1c98c22253b0aaedcd" category="section-title">리포지토리에 대한 스캔 상태를 봅니다</block>
   <block id="bf3aeefcdd65b55f2612004f45b7257f" category="inline-image-macro">버킷이 스캔되고 있는지 여부 및 현재 스캔 상태를 보여주는 스크린샷.</block>
   <block id="69c5667893c99e5a388e892cc9784e66" category="paragraph"><block ref="69c5667893c99e5a388e892cc9784e66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecc7450cf52e0d0d89139603b07ea706" category="paragraph">커서를 _Scan Status_ 열의 차트 위로 이동하면 각 리포지토리에서 매핑하거나 분류할 수 있는 남은 파일 수를 볼 수 있습니다(이 예제의 버킷).</block>
@@ -1465,7 +1399,6 @@
   <block id="500f464a497c67b1e8f3311a5a3f32dc" category="paragraph"><block ref="500f464a497c67b1e8f3311a5a3f32dc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c078bb07b1ad7af1cc0f5b29159fb618" category="paragraph">SharePoint Online 계정이 작업 환경 목록에 추가됩니다.</block>
   <block id="c6f85ba2c850ce9e6a70c3b08a6a69ce" category="cell">데이터 제목</block>
-  <block id="f976bf2eff4504fae0fc49c0115018dc" category="section-title">기존 리포지토리에 대한 데이터를 다시 스캔하고 있습니다</block>
   <block id="62796d34bcb4d2217e01776ba00d5ea0" category="list-text">디렉토리를 다시 검색하는 경우 디렉토리 내의 모든 파일이 다시 스캔되지만 디렉토리 내의 하위 폴더는 다시 검색되지 않습니다.</block>
   <block id="4e67a9dec79298e79d1abf05ea540fbc" category="list-text">공유를 다시 검색하는 경우 공유의 메타데이터만 다시 스캔됩니다.</block>
   <block id="b8f66688483b508da89754659d7ca8fa" category="inline-image-macro">디렉터리를 선택하고 다시 검색하는 방법을 보여 주는 스크린샷</block>
@@ -1573,7 +1506,6 @@
   <block id="f0d07e71c0ad5ba2b297c19c3e9347e0" category="inline-link">BlueXP는 이러한 클러스터를 검색합니다</block>
   <block id="213c26a534506d1ae60070296a0343e1" category="list-text">BlueXP에서 * 거버넌스 &gt; 분류 * 를 선택합니다.</block>
   <block id="7aeae51930f9c356f9f8611d740f88b8" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.</block>
-  <block id="acdc619c23bd4363ccec733a2e8a38ae" category="list-text">파일을 BlueXP 사용자에게 할당하여 파일에서 수행해야 하는 후속 작업을 처리할 수 있습니다. 을 참조하십시오 <block ref="aae7319c920bbcb541f7fa3a1a1db120" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
   <block id="cd02721523de57441e385fc64cc693cc" category="list-text">SharePoint 사내 계정(SharePoint Server)</block>
   <block id="97f34c43cfd5abbd752382f17f44c9a2" category="list-text">BlueXP 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭합니다.</block>
@@ -1756,7 +1688,6 @@
   <block id="0ffaed104783fa77dca7b463b63d6a3d" category="cell">특정 수의 사용자에게 열려 있는 파일과 폴더를 표시하려면 하나 이상의 범주 범위를 선택합니다.</block>
   <block id="71336345482d82fac965748940e9723b" category="cell">하나 이상의 사용자 이름 및/또는 그룹 이름을 선택하거나 부분 이름을 입력합니다.</block>
   <block id="ff149397e3b0b14099015d624d39c42d" category="cell">파일 소유자 이름을 입력합니다.</block>
-  <block id="5e11b9767e7bd2c58f38d60ac9f67f80" category="cell">를 선택합니다 <block ref="b0becded2b1c1949046ca8118d27118b" category="inline-link-macro-rx"></block> 파일에 할당됩니다.</block>
   <block id="c670f11fe2007eb5c3be88dd2f27af16" category="cell">특정 작업 환경을 선택합니다.</block>
   <block id="5bf1893d83226372ff2fad4fcb1c9ae2" category="cell">볼륨 또는 스키마와 같은 스토리지 리포지토리를 선택합니다.</block>
   <block id="01c40954af185b794e35d719875d3a7a" category="cell">를 선택합니다 <block ref="d4eabbd4fb9268c1389fccae66300714" category="inline-link-macro-rx"></block>.</block>
@@ -1770,7 +1701,6 @@
   <block id="55e421a96ef89113e0aa27aebfaa73aa" category="cell">파일을 마지막으로 수정한 시간 범위를 선택합니다. 또한 사용자 지정 시간 범위를 지정하여 검색 결과를 더욱 구체화할 수도 있습니다.</block>
   <block id="936baf22f04cffa654fef2a2806e8fcd" category="cell">파일이 리포지토리에서 복제되는지 여부를 선택합니다.</block>
   <block id="6c19be59705b1afb4e5b6315b9a0d84e" category="cell">파일 해시를 입력하여 이름이 다르더라도 특정 파일을 찾습니다.</block>
-  <block id="fdd455d725fb278b4fe9d43c83722f88" category="cell">를 선택합니다 <block ref="d459f7b3039eb26458088e9c5f84d9e6" category="inline-link-macro-rx"></block> 파일에 할당됩니다.</block>
   <block id="396e873f2847657ab91854cd3443d47e" category="cell">파일이 할당된 사람의 이름을 선택합니다.</block>
   <block id="542947c94dac5ea97aa3f3323ad86f25" category="cell">호주 운전 면허증</block>
   <block id="15ed3f23837f7e98eb87015b76063af1" category="cell">뉴질랜드 운전면허증</block>
@@ -1895,18 +1825,13 @@
   <block id="79561dd1a4e00a3e05c0d892a01e77bf" category="inline-link">N2-표준-16</block>
   <block id="610e28574a4dbf2d34e497e3ed7bd822" category="list-text">특정 데이터 소스 또는 특정 데이터 소스 그룹(일반적으로 위치에 따라 다름)을 스캔하는 데 도움이 되는 노드 추가</block>
   <block id="3fe624f4914417740fe3cf68a4327554" category="list-text">커넥터 시스템의 IP 주소 또는 호스트 이름, NetApp 계정 ID, 커넥터 클라이언트 ID 및 사용자 액세스 토큰이 있어야 합니다. 스캐너 그룹을 사용하려는 경우 계정의 각 데이터 원본에 대한 작업 환경 ID를 알아야 합니다. 이 정보를 보려면 아래의 *_필수 단계_ * 를 참조하십시오.</block>
-  <block id="a9cb7c21103eb81a473453f19f0d7b20" category="list-text">* 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. <block ref="440fccf34bc4c2a440d9bf3f906df06d" category="inline-link-macro-rx"></block>.</block>
   <block id="c79d6ed12c6347fc1bdd0dd91ef85ff7" category="paragraph">을 클릭합니다 <block ref="6160b7a55bd427b3fb91de138d9f467e" category="inline-link-macro-rx"></block> 정책에 대해 자세히 알아보십시오.</block>
   <block id="f7e44fd8c27ddf80c242fb3dae245422" category="paragraph">Data Overview_ 섹션에서는 스캔되는 모든 데이터에 대한 간단한 개요를 제공합니다. 버튼을 클릭하여 모든 작업 환경 및 데이터 소스에 대한 사용 용량, 데이터 수명, 데이터 크기 및 파일 유형이 포함된 전체 데이터 매핑 보고서를 다운로드합니다. 을 참조하십시오 <block ref="53e5c76c1fe1c6ab36aa624f6960e384" category="inline-xref-macro-rx"></block> 이 보고서에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="fb5cbffc5e8f979523247654de6b0102" category="inline-image-macro">데이터 매핑 보고서를 시작하는 방법을 보여 주는 거버넌스 대시보드 스크린샷</block>
   <block id="7a9d38d1340793fbf851372aaba4270d" category="paragraph"><block ref="7a9d38d1340793fbf851372aaba4270d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5810a6765696da7b12979cf90b9b287c" category="list-text">BlueXP에서 라이센스를 자동으로 업데이트할 수 없는 경우(예: 어두운 사이트에 설치된 경우) 라이센스 파일을 수동으로 업로드해야 합니다.</block>
-  <block id="7c95933908ae16d594ec73affc0831bb" category="doc">데이터에 정책 할당</block>
   <block id="d8cea64df56dbd6c2f05daa03963a550" category="list-text">데이터 조사 페이지에서 사용할 필터를 모두 선택하여 검색을 정의합니다. 을 참조하십시오 <block ref="e79f6c0a50d03630f8bf728699f2d526" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="9b572ee77209685d61af9e6d7a6287c9" category="list-text">필요한 경우 정책 매개 변수와 일치하는 파일을 자동으로 삭제하려면 확인란을 선택합니다. 에 대해 자세히 알아보십시오 <block ref="a7e3716ae3f42340eb342f21d0a53141" category="inline-xref-macro-rx"></block>.</block>
-  <block id="87c229724df460ccb467ced11416411e" category="list-text">필요에 따라 계정의 BlueXP 사용자에게 알림 이메일을 보내려면 확인란을 선택하고 이메일을 보낼 간격을 선택합니다. 에 대해 자세히 알아보십시오 <block ref="f66d6203e0ba3f0c23c1b4e6c30ea659" category="inline-xref-macro-rx"></block>.</block>
   <block id="330f8b46c48484fc9016a8247fb99ba3" category="inline-link-macro">정책을 자동으로 사용합니다</block>
-  <block id="4c72269fd9794f82c5bab4ab12e041f1" category="paragraph">조사 창 또는 에서 파일을 수동으로 삭제할 수 있습니다 <block ref="6099f220852bc903a62b6f3cb3ea01f8" category="inline-link-macro-rx"></block>.</block>
   <block id="80ce077edb1be50ba22951913b78148c" category="doc">데이터 소스에서 수집된 메타데이터</block>
   <block id="f22df8f0b5591e83e42546cc1ff8a3d7" category="cell">* 메타데이터 *</block>
   <block id="4e7da840816931928beff62cd45584f2" category="cell">CIFS *</block>
@@ -1939,8 +1864,6 @@
   <block id="158e99247d19480d767e25e00d129553" category="section-title">분석 상태별로 데이터를 필터링합니다</block>
   <block id="9c7541a95b9333c21b847910917cc789" category="paragraph">다음 필터를 사용하여 스토리지에 복제된 파일을 봅니다.</block>
   <block id="f29d7c200ca42589e2a229aaea31ee81" category="paragraph">데이터 조사 보고서는 데이터 조사 페이지의 필터링된 콘텐츠를 다운로드하는 것입니다.</block>
-  <block id="3cb1844e1b6238f77e2e51aff4e9f4d6" category="list-text">"파일 소유자"를 사용할 수 있습니다. <block ref="11e66926bceae3c2a281c0952ca162a2" category="inline-link-macro-rx"></block> 그리고 조사 창에서 파일의 메타데이터에서 결과를 확인합니다. SID(보안 식별자)가 포함된 파일 소유자 대신 실제 사용자 이름으로 채워집니다.</block>
-  <block id="10747afcf7031178a4a06e679b60a179" category="list-text">확인할 수 있습니다 <block ref="96d05cdc332725fcae471007cae34e27" category="inline-link-macro-rx"></block> "모든 권한 보기" 버튼을 클릭하면 각 파일 및 디렉토리에 대해 이 작업을 수행할 수 있습니다.</block>
   <block id="6b60aa2efdd7dd58a41b7ff64ca17b7a" category="list-text">데이터 주체의 특정 이름 또는 개인 식별자와 관련된 정보가 포함된 모든 파일의 보고서를 추출할 수 있습니다. <block ref="687b2924920d296441b75037f5a19f32" category="inline-link-macro-rx"></block>.</block>
   <block id="0de3b44db953b32901a8c86899f466bf" category="list-text">작업 환경의 파일 크기 및 수에 대한 정보를 제공합니다. 여기에는 사용 용량, 데이터 사용 기간, 데이터 크기 및 파일 유형이 포함됩니다. <block ref="32adca559d3a8c83bce5149c424376df" category="inline-link-macro-rx"></block>.</block>
   <block id="fa5af203c1129bb563bbf7f09ad2de8e" category="paragraph">예. 정책 기능과 함께 정책이 결과를 반환하면 데이터를 보호하기 위한 알림을 받을 수 있도록 BlueXP 사용자(매일, 매주 또는 매월) 또는 기타 전자 메일 주소로 전자 메일 알림을 보낼 수 있습니다. 에 대해 자세히 알아보십시오 <block ref="52a90c0911f2be2601275d578a93ce51" category="inline-link-macro-rx"></block>.</block>
@@ -1959,7 +1882,6 @@
   <block id="1c30d6a3b54fde82807f5962774d68d0" category="paragraph"><block ref="1c30d6a3b54fde82807f5962774d68d0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="162627490dd9e3bfa1451fcbd693e2df" category="list-text">NFS 포트 111 및 2049의 경우</block>
   <block id="ebc566be80d2aa97a2d54b51da6e0306" category="list-text">CIFS-포트 139 및 445의 경우</block>
-  <block id="74c03c84923d39d5386f0068a84a381d" category="paragraph">또한 데이터 조사 페이지에서 결과를 필터링하고 결과 보고서를 CSV 파일로 다운로드할 수도 있습니다. 을 참조하십시오 <block ref="96027b6b3614f949497b9155b3c1b723" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="79ef1979db95fea8f788488be1660ddb" category="paragraph">피험자의 전체 이름 또는 알려진 식별자(예: 이메일 주소)를 검색한 다음 보고서를 다운로드하여 DSAR에 응답할 수 있습니다. 이 보고서는 GDPR 또는 이와 유사한 데이터 개인 정보 보호 법률을 준수하기 위한 조직의 요구 사항을 지원하도록 설계되었습니다.</block>
   <block id="949195768b714c50c6fc8c9385a74cc5" category="sidebar">데이터를 조사합니다</block>
   <block id="8ca194e9f33f192ece200a8c9ed9e621" category="sidebar">데이터에 정책을 할당합니다</block>
@@ -2065,7 +1987,6 @@
   <block id="bef6aed074693bd02885fa89c8b418f0" category="cell">CPU 8개</block>
   <block id="70eb72cfa1dbdb5556e79344f161d62a" category="cell">32GB RAM</block>
   <block id="e706090ac76b3e56523819912497e0f6" category="cell">16GB RAM</block>
-  <block id="a0b7a7641d24b4614381b2d6a615f220" category="paragraph">이러한 소형 시스템을 사용할 때는 제한 사항이 있습니다. 을 참조하십시오 <block ref="0e704e23a30c6a19db4ec4aec3706681" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="3080c7bbf6707274907b8ec2e97fb7a8" category="list-text">인터넷 액세스에 프록시를 사용하는 경우:</block>
   <block id="872a9ee7c158e8dd5094c5c93dcffc57" category="list-text">프록시 서버 정보(IP 주소 또는 호스트 이름, 연결 포트, 연결 스키마: https 또는 http, 사용자 이름 및 암호)가 필요합니다.</block>
   <block id="829124a47242d374aed9d0704a781736" category="paragraph">Linux 호스트 _ 의 일반적인 설치 방법은 다음과 같습니다.</block>
@@ -2181,7 +2102,6 @@
   <block id="483d6c5447c876cec7c9f20a2f16d52e" category="list-text">보존 정책을 변경하거나 특정 데이터(오래된 데이터, 중복 데이터 또는 비업무용 데이터)를 이동 또는 삭제하여 스토리지 비용 절감</block>
   <block id="5672e2463aa066853c9eb4cf4b3e3fa8" category="list-text">전역 그룹 관리 정책을 수정하여 광범위한 사용 권한이 있는 데이터를 보호합니다</block>
   <block id="1f4e12eb3b2fcb4ce87b8ed675d3270c" category="list-text">PII를 보다 안전한 데이터 저장소로 이동하여 개인 또는 민감한 개인 정보가 있는 데이터를 보호합니다</block>
-  <block id="4928ecf57de239e143368971910a2343" category="section-title">데이터 검색 평가 보고서 생성</block>
   <block id="1848496efeb9b0561b54c93d4ca7403e" category="list-text">Governance * 를 클릭한 다음 * Data Discovery Assessment Report * 버튼을 클릭합니다.</block>
   <block id="d3cfc5adb7d762b3824a7c02a95765b9" category="inline-image-macro">데이터 검색 평가 보고서를 시작하는 방법을 보여 주는 거버넌스 대시보드 스크린샷</block>
   <block id="6e54901f5113f24a64a46275f84c34da" category="paragraph"><block ref="6e54901f5113f24a64a46275f84c34da" category="inline-image-macro-rx" type="image"></block></block>
@@ -2224,7 +2144,6 @@
   <block id="6b3a75b3808f31da6754be1d099cbe3f" category="summary">볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 BlueXP 분류가 식별할 수 있는 여러 유형의 개인 데이터가 있습니다. Google Drive 계정을 만듭니다.</block>
   <block id="d025848d80633e7f7dd88e1694478473" category="paragraph">볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 BlueXP 분류가 식별할 수 있는 여러 유형의 개인 데이터가 있습니다. Google Drive 계정을 만듭니다. 아래 범주를 참조하십시오.</block>
   <block id="092e6dee95258860d663bccecea3a137" category="admonition">다른 개인 데이터 유형(예: 추가 국가 ID 번호 또는 의료 식별자)을 식별하기 위해 BlueXP 분류가 필요한 경우, 요청 시 ng-contact-data-sense@netapp.com 으로 이메일을 보내십시오.</block>
-  <block id="205d008b6494d1d9d73cfe5c5bc8d14a" category="paragraph">파일에서 발견된 개인 데이터는 일반 개인 데이터 또는 국가 식별자일 수 있습니다. 아래 표의 세 번째 열은 BlueXP 분류의 사용 여부를 나타냅니다 <block ref="a9db31e17b18ff2d62fd6f2133dfbfce" category="inline-link-macro-rx"></block> 식별자에 대한 결과를 검증합니다.</block>
   <block id="6a966db3fe3382f2e1f9bedacd70bde4" category="inline-link-macro">BlueXP 분류 스캔에 개인 데이터 ID를 추가합니다</block>
   <block id="d92d4f1116f806c4af681905691eff43" category="paragraph">참고: 파일에 있는 개인 데이터 목록에 추가할 수 있습니다. 데이터베이스 서버를 검색하는 경우, _Data Fusion_ 기능을 사용하면 데이터베이스 테이블에서 열을 선택하여 BlueXP 분류에서 검색할 추가 식별자를 선택할 수 있습니다. 텍스트 파일의 사용자 지정 키워드를 추가하거나 정규식을 사용하여 사용자 지정 패턴을 추가할 수도 있습니다. 을 참조하십시오 <block ref="5b7645dae0ded9d9e2c8b83b27050fe0" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="1c5cd4f2794657644bcca6e1c8cd7dfd" category="paragraph">BlueXP 분류가 파일에서 찾을 수 있는 중요한 개인 데이터에는 다음 목록이 포함됩니다.</block>
@@ -2291,7 +2210,6 @@
   <block id="1f8c80b13ea5752a98c91bcaecfcd5f1" category="paragraph">BlueXP 분류 대시보드의 내용을 필터링하여 모든 작업 환경 및 데이터베이스에 대한 규정 준수 데이터를 보거나 특정 작업 환경에 대한 규정 준수 데이터를 확인할 수 있습니다.</block>
   <block id="d8867de26e72d5c1462f532885d969d8" category="paragraph">대시보드를 필터링할 때 BlueXP 분류는 규정 준수 데이터와 보고서를 선택한 작업 환경에만 설정합니다.</block>
   <block id="d00262b814d9ca29426ceae460b61927" category="summary">BlueXP 분류는 조직의 데이터 개인 정보 보호 프로그램 상태를 보다 잘 이해하기 위해 사용할 수 있는 보고서를 제공합니다.</block>
-  <block id="d4b323072f8a67ed4d33c093c06453d1" category="paragraph">기본적으로 BlueXP 분류 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 보려면 <block ref="68584290e1051ffc6ccba308e6db06b0" category="inline-xref-macro-rx"></block>.</block>
   <block id="b6fa61ed970b3d1e0c1e1bd8acca709e" category="paragraph">준수 탭으로 이동하여 보고서를 생성합니다.</block>
   <block id="e1a821d23f1453d667dd352729a4cff7" category="paragraph">BlueXP 분류는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.</block>
   <block id="36e1d0a440607d9a066bde9242895954" category="paragraph">BlueXP 분류는 세 가지 변수를 기준으로 개인 정보 보호 위험 평가 보고서의 심각도 점수를 계산합니다.</block>
@@ -2363,19 +2281,15 @@
   <block id="f2183b09e54e4aa491c008ea8ca08bbc" category="list-text">* Red Hat 서브스크립션 관리 *: 호스트는 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.</block>
   <block id="7299a589db31a0bc8b28dedaafe896cd" category="list-text">* 추가 소프트웨어 *: BlueXP 분류를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.</block>
   <block id="786452cdc534ba8395eb7a26c9ab3efc" category="summary">데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. Governance and Compliance 대시보드를 비롯한 BlueXP 분류 UI의 여러 영역에서 이 페이지로 이동할 수 있습니다.</block>
-  <block id="884309a4cc6c63d83f80240d7635f514" category="cell">파일당 감지된 중요 식별자의 범위를 선택합니다. 개인 데이터 및 민감한 개인 데이터가 포함됩니다. 디렉터리에서 필터링할 때 BlueXP 분류는 각 폴더(및 하위 폴더)의 모든 파일에서 일치하는 항목의 합계를 구합니다.</block>
   <block id="7d90772c058139f0ea31169188a0eac1" category="cell">BlueXP 분류에서 파일을 검색할 시간 범위를 선택합니다. 또한 사용자 지정 시간 범위를 지정하여 검색 결과를 더욱 구체화할 수도 있습니다.</block>
   <block id="ed50439b6d76225c4473b3e79754891d" category="cell">파일 또는 디렉토리(CIFS 또는 NFS만 해당)를 마지막으로 액세스한 시간 범위를 선택합니다. 또한 사용자 지정 시간 범위를 지정하여 검색 결과를 더욱 구체화할 수도 있습니다. BlueXP 분류 검사에서 검사하는 파일 유형의 경우, BlueXP 분류에서 파일을 마지막으로 검사한 것입니다.</block>
   <block id="38047badba2a7d1889fc338e16f28ba7" category="cell">쿼리에서 포함하거나 제외할 부분 경로 또는 전체 경로를 최대 20개까지 입력합니다. 경로 포함 및 제외 경로를 모두 입력하면 BlueXP 분류에서 포함된 경로의 모든 파일을 먼저 찾은 다음 제외된 경로에서 파일을 제거한 다음 결과를 표시합니다. 이 필터에서 " * "를 사용하면 아무런 영향이 없으며 검색에서 특정 폴더를 제외할 수 없습니다. 구성된 공유 아래에 있는 모든 디렉토리와 파일이 검색됩니다.</block>
   <block id="2cc5511704a792153e3bfc286f24901a" category="paragraph">다음 필터를 사용하여 BlueXP 분류 스캔 상태별 데이터를 봅니다.</block>
   <block id="7d1696fb9cd67d3f50bae50111c3ca63" category="cell">BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없어 분류되지 않은 파일을 볼 것인지, 아니면 BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없더라도 분류된 파일을 볼 것인지 선택합니다.</block>
   <block id="9bc1fe9b45fdbabf06c29b2f9720a353" category="inline-link-macro">BlueXP 분류의 통합 AIP</block>
-  <block id="d74c67e21bc9be34bcddf3c81395bed8" category="paragraph">파일이 있는 작업 환경과 볼륨을 보여 주는 것 외에도 메타데이터는 파일 권한, 파일 소유자, 이 파일의 중복 여부 및 할당된 AIP 레이블(있는 경우)을 비롯하여 훨씬 더 많은 정보를 표시합니다 <block ref="0a27b5b5b425e267a582268cc3bc8694" category="inline-link-macro-rx"></block>)를 클릭합니다. 이 정보는 를 계획 중인 경우에 유용합니다 <block ref="cb74d1e92c56be00b84da09155138bef" category="inline-link-macro-rx"></block> 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있기 때문입니다.</block>
-  <block id="84c1068a68e2f96982851954838c2d5b" category="list-text">BlueXP 분류와 AIP 레이블을 통합한 경우 이 파일에 레이블을 지정하거나 이미 있는 경우 다른 레이블로 변경할 수 있습니다. 을 참조하십시오 <block ref="1d610d8b86b5e1441346aa765100c237" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="50cdf86b563a0d781f053c4a23d816c2" category="paragraph">사용자 및 그룹 이름 대신 SID(보안 식별자)가 표시되는 경우 Active Directory를 BlueXP 분류에 통합해야 합니다. <block ref="a543108cc451095d486457d9ff215fd0" category="inline-link-macro-rx"></block>.</block>
   <block id="bcd3dc09170e331762d1f098247c3974" category="paragraph">BlueXP 분류는 해시 기술을 사용하여 중복 파일을 결정합니다. 파일에 다른 파일과 동일한 해시 코드가 있으면 파일 이름이 다르더라도 파일이 정확하게 중복되었는지 100% 확인할 수 있습니다.</block>
   <block id="c67419f269df3afdc5c4ea77c6a74cef" category="paragraph">파일 공유로 내보낼 때 BlueXP 분류에 내보내기 액세스에 대한 올바른 권한이 있는지 확인합니다.</block>
-  <block id="c3e3558057a47a586b2936491602503e" category="summary">BlueXP 분류(클라우드 데이터 감지)를 통해 조직의 하이브리드 멀티 클라우드 전체에서 데이터를 스캔하고 분류할 수 있습니다. BlueXP Classification은 AI 기반 NLP(자연어 처리)를 활용하여 상황별 데이터 분석 및 범주화를 통해 데이터에 대한 실행 가능한 통찰력을 제공하여 규정 준수 요구 사항을 해결하고, 보안 취약점을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화합니다.</block>
   <block id="44b34442167c9611792529867ee76d90" category="doc">BlueXP 분류 문서</block>
   <block id="7323ab6aab1dfb48468b77bc771127f5" category="summary">BlueXP 분류를 사용하여 Cloud Volumes ONTAP 및 온-프레미스 ONTAP 볼륨을 스캔하려면 몇 단계를 완료하십시오.</block>
   <block id="968d6e0e449e2c68755e2d69920c0200" category="doc">Cloud Volumes ONTAP 및 온-프레미스 ONTAP에 대한 BlueXP 분류를 시작합니다</block>
@@ -2642,7 +2556,6 @@
   <block id="b65f3e108ef152bd59fffc2955d2d547" category="paragraph">BlueXP 분류는 BlueXP 분류가 향후 검색에서 식별할 수 있는 "개인 데이터"의 사용자 지정 목록을 추가할 수 있는 여러 가지 방법을 제공하므로, 중요한 데이터가 _ALL_귀하의 조직 파일에 있는 위치에 대한 전체적인 정보를 얻을 수 있습니다.</block>
   <block id="e88adea3b212c154801612c8605db6d5" category="paragraph">Data Fusion _ 라는 기능을 사용하면 조직의 데이터를 스캔하여 데이터베이스에서 고유한 식별자가 다른 데이터 소스에서 검색되는지 여부를 확인할 수 있습니다. 데이터베이스 테이블에서 특정 열 또는 열을 선택하여 BlueXP 분류에서 검색할 추가 식별자를 선택할 수 있습니다. 예를 들어, 아래 다이어그램은 Data Fusion를 사용하여 볼륨, 버킷 및 데이터베이스를 검사하여 Oracle 데이터베이스에서 모든 고객 ID를 확인하는 방법을 보여 줍니다.</block>
   <block id="905a4962b323594ff4605a44781efa64" category="paragraph">자신의 데이터베이스를 스캔하기 때문에 데이터가 저장된 언어는 향후 BlueXP 분류 검사에서 데이터를 식별하는 데 사용됩니다.</block>
-  <block id="7d6ff4779a51eda37c81632e481e5db2" category="paragraph">이(가) 있어야 합니다 <block ref="4ec8c7ffee3077e2fe1a50f122f89322" category="inline-link-macro-rx"></block> 데이터 Fusion 소스를 추가하기 전에 BlueXP 분류를 수행합니다.</block>
   <block id="7c655988789d416c5a4a87e462cfe874" category="paragraph">사용자 지정 키워드를 BlueXP 분류에 추가하여 데이터에서 해당 정보가 있는 위치를 식별할 수 있습니다. BlueXP 분류를 인식할 각 단어를 입력하여 키워드를 추가합니다. 키워드는 BlueXP 분류에서 이미 사용하는 기존의 미리 정의된 키워드에 추가되며, 결과는 개인 패턴 섹션 아래에 표시됩니다.</block>
   <block id="ddebf200916f487e633020a034f5904d" category="paragraph">사용자 지정 키워드를 업데이트한 후 BlueXP 분류는 모든 데이터 소스 스캔을 다시 시작합니다. 검사가 완료되면 "개인 결과" 섹션 아래의 BlueXP 분류 준수 대시보드와 "개인 데이터" 필터의 조사 페이지에 새 결과가 나타납니다.</block>
   <block id="3702db8c41a7dd17f1292e46a0b6c861" category="paragraph">입력한 이름은 BlueXP 분류 UI에 분류자 요구 사항과 일치하는 스캔된 파일의 머리글로, 조사 페이지의 필터 이름으로 표시됩니다.</block>
@@ -2659,7 +2572,6 @@
   <block id="47e4c2aae6a06418422bf2ec5da13da7" category="paragraph">분류자가 추가되고 BlueXP 분류가 모든 데이터 원본을 다시 검색합니다. 사용자 지정 분류자 페이지로 돌아가 새 분류자에 맞는 파일 수를 볼 수 있습니다. 모든 데이터 원본을 스캔하여 얻은 결과는 스캔해야 하는 파일 수에 따라 다소 시간이 걸릴 수 있습니다.</block>
   <block id="5b6013c5c7daa10c8c807063c8c8b22c" category="paragraph">BlueXP 분류는 스캔한 데이터를 다양한 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 인공 지능 분석을 기반으로 하는 주제입니다. <block ref="e4966eba5f5aa891b400570a53d2b0f2" category="inline-link-macro-rx"></block>.</block>
   <block id="c940384a2752413c7ba88aaca9aa1a86" category="paragraph">사용자 지정 범주를 BlueXP 분류에 추가하여 데이터 자산에 고유한 정보 범주를 데이터에서 찾을 수 있도록 할 수 있습니다. 식별하려는 데이터 범주가 포함된 "교육" 파일을 만들어 각 범주를 추가한 다음 BlueXP 분류 기능이 해당 파일을 스캔하여 AI를 통해 "학습"하여 데이터 소스에서 해당 데이터를 식별하도록 합니다. 범주는 BlueXP 분류에서 이미 식별한 기존의 미리 정의된 범주에 추가되며, 결과는 범주 섹션 아래에 표시됩니다.</block>
-  <block id="cbe8155b25db5118616eb1518a75c3d8" category="paragraph">사용자 지정 범주를 업데이트한 후 BlueXP 분류는 모든 데이터 소스 스캔을 다시 시작합니다. 검사가 완료되면 새 결과가 "범주" 섹션의 BlueXP 분류 준수 대시보드 및 "범주" 필터의 조사 페이지에 나타납니다. <block ref="808a87ee72a165bf91101aadbd6c48bb" category="inline-link-macro-rx"></block>.</block>
   <block id="c52d77e366b608504557f6801006baab" category="paragraph">BlueXP 분류에서 인식할 데이터 범주의 샘플이 포함된 최소 25개의 교육 파일을 만들어야 합니다. 지원되는 파일 형식은 다음과 같습니다.</block>
   <block id="5ba00ccaa1be6a68d7a55bf4cfd95060" category="paragraph">파일은 최소 100바이트여야 하며 BlueXP 분류에서 액세스할 수 있는 폴더에 있어야 합니다.</block>
   <block id="3956490c9250dea06d8740f95d1e14b7" category="paragraph">입력하는 이름은 BlueXP 분류 UI에 정의하는 데이터 범주와 일치하는 스캔된 파일의 머리글로, 조사 페이지의 필터 이름으로 표시됩니다.</block>
@@ -2671,7 +2583,6 @@
   <block id="30bb1d853143952513be7ed01a1458b3" category="paragraph">새 범주는 교육 파일에 정의된 대로 생성되며 BlueXP 분류에 추가됩니다. 그런 다음 BlueXP 분류는 모든 데이터 원본을 다시 검색하여 이 새 범주에 적합한 파일을 식별합니다. 사용자 지정 분류자 페이지로 돌아가 새 범주와 일치하는 파일 수를 볼 수 있습니다. 모든 데이터 원본을 스캔하여 얻은 결과는 스캔해야 하는 파일 수에 따라 다소 시간이 걸릴 수 있습니다.</block>
   <block id="db9af798ae25159937450a2da9c414de" category="paragraph">그리고 나중에 추가한 사용자 정의 패턴을 식별하기 위해 BlueXP 분류가 필요하지 않다고 판단될 경우 * 분류자 삭제 * 버튼을 사용하여 각 항목을 제거할 수 있습니다.</block>
   <block id="5017a17c7cb03a76fa4a9d39ad079ab9" category="summary">BlueXP 분류는 BlueXP 분류가 검색하는 모든 작업 환경 및 데이터 소스의 파일에 대해 수행된 관리 작업을 기록합니다. 또한 BlueXP 분류는 BlueXP 분류 인스턴스를 배포할 때 작업을 기록합니다.</block>
-  <block id="fc82aea02743067d55a199569cd61d50" category="doc">BlueXP 분류 작업의 기록 감사</block>
   <block id="323141f17dc965b7894c3fede5810589" category="paragraph">BlueXP 분류 감사 로그 파일의 내용을 보거나 다운로드하여 어떤 파일 변경 사항이 발생했는지, 언제 변경되었는지 확인할 수 있습니다. 예를 들어, 어떤 요청이 실행되었는지, 요청 시간, 파일이 삭제된 경우 소스 위치 등의 세부 정보 또는 파일이 이동된 경우 소스 및 대상 위치를 확인할 수 있습니다.</block>
   <block id="c1e0b6a06406fd162de0635cd20ac657" category="paragraph">관리 감사 로그 파일은 BlueXP 분류 시스템의 다음 위치에 있습니다.<block ref="737f0a89396f6d78b87820109de683eb" prefix=" " category="inline-code"></block></block>
   <block id="2970783922bde0b77210901329267de0" category="paragraph">클라우드에 BlueXP 분류를 배포할 때는 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.</block>
@@ -2804,8 +2715,6 @@
   <block id="b9542475929b3c8ff209e88bb948446b" category="paragraph">BlueXP 분류를 사내 Linux 호스트 또는 선호하는 클라우드 공급업체의 호스트에 배포할 수도 있습니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다. 인스턴스에 인터넷 액세스가 가능한 한 BlueXP 분류 소프트웨어의 업그레이드는 자동으로 수행됩니다.</block>
   <block id="5509f198213f653cadd8f4de67a143bf" category="admonition">BlueXP 분류는 지속적으로 데이터를 검사하기 때문에 인스턴스가 항상 실행 상태를 유지해야 합니다.</block>
   <block id="e0fd86ff833307e88c100c6db47be129" category="paragraph">CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지만 이러한 덜 강력한 시스템을 사용할 때는 몇 가지 제약이 있습니다.</block>
-  <block id="a78aaf0d1a74c2b6043f3ea370323457" category="paragraph">AWS의 클라우드에 BlueXP 분류를 배포할 때 대규모/중간/소규모 인스턴스를 선택할 수 있습니다. Azure 또는 GCP에서 BlueXP 분류를 배포할 때 이러한 소규모 시스템 중 하나를 사용하려면 ng-contact-data-sense@netapp.com 으로 이메일을 보내 지원을 요청하십시오. 이러한 소규모 클라우드 구성을 구축하려면 반드시 협력해야 합니다.</block>
-  <block id="738e771362cc095122d8a2f4de604565" category="paragraph">BlueXP 분류를 사내에서 배포할 때는 사양이 작은 Linux 호스트를 사용하기만 하면 됩니다. NetApp에 지원을 요청할 필요가 없습니다.</block>
   <block id="0420746794140f8978222121f6e4a764" category="section-title">BlueXP 분류의 작동 방식</block>
   <block id="e5cbd4e407b221a95e9bc8b3965978dd" category="paragraph">BlueXP 분류는 다음과 같이 작동합니다.</block>
   <block id="1483534eda512965970c7917b74698ae" category="list-text">BlueXP에서 BlueXP 분류 인스턴스를 배포합니다.</block>
@@ -2821,8 +2730,6 @@
   <block id="737ab30d4451f7b971d756cdcc6b7d6b" category="section-title">BlueXP 분류 색인에 대한 정보</block>
   <block id="28e66615c1e04c19b63a24061d462220" category="paragraph">BlueXP 분류는 데이터(파일)에 범주를 수집, 색인 및 할당합니다. BlueXP 분류 인덱스의 데이터는 다음과 같습니다.</block>
   <block id="e1c6fd17dccbebfc440207f27d59459b" category="list-text">BlueXP 분류는 파일 유형, 크기, 생성 및 수정 날짜 등의 파일에 대한 표준 메타데이터를 수집합니다.</block>
-  <block id="22abd0d5444d4f49059fb40593a006af" category="list-text">BlueXP 분류는 스캔한 데이터를 다른 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. <block ref="c4a6ac90e0e68c07e6a0c53363aff298" category="inline-link-macro-rx"></block>.</block>
-  <block id="bf06434ff8860e330b877a91db6f3f11" category="list-text">BlueXP 분류는 스캔한 데이터를 파일 유형별로 분류하여 표시합니다. <block ref="7a0e9af4a23944c56398184b71788414" category="inline-link-macro-rx"></block>.</block>
   <block id="8546288939f901d3a1276b7f9e394f46" category="list-text">BlueXP 분류에서는 AI를 사용하여 문서에서 자연인의 이름을 추출합니다. <block ref="3e345053a8e9ce1c3eacafd31ce8d78d" category="inline-link-macro-rx"></block>.</block>
   <block id="6baaa35b9d6c708af7920a94de9f3951" category="paragraph">BlueXP는 Connector 인스턴스의 인바운드 HTTP 연결을 활성화하는 보안 그룹과 함께 BlueXP 분류 인스턴스를 배포합니다.</block>
   <block id="be23e27acb2e7fab8227de3a00bddee1" category="paragraph">SaaS 모드에서 BlueXP를 사용할 경우 HTTPS를 통해 BlueXP에 연결되고 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 개인 데이터는 엔드-투-엔드 암호화로 보호되므로 NetApp과 타사에서 해당 데이터를 읽을 수 없습니다.</block>
@@ -2977,7 +2884,6 @@
   <block id="651ffe70d1da174ca6955ceb139ab71c" category="cell"><block ref="20218561600e990c68a725b6b98ae569" prefix="" category="inline-code"></block></block>
   <block id="9997b2ae11cbffd6fe1a6e9f683ed24a" category="paragraph">+ BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="ae4d468f55febeccb4eff973d9b635ff" category="inline-link-macro">여기에서 데이터 주제에 대해 자세히 알아보십시오</block>
-  <block id="1a7107cbf75ccf5399b80fbafd0ee649" category="cell">데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. <block ref="dbe06c006d2f67629a75e1ec088edbea" category="inline-link-macro-rx"></block>.</block>
   <block id="21ed6b8b65a14c2b031742eda9665bec" category="section-title">데이터를 중복으로 필터링합니다</block>
   <block id="3cdb36967a02a71e0d639c6d71d16ac3" category="summary">BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터 스캔을 시작하려면 몇 단계를 완료하십시오. BlueXP 분류는 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에서 데이터를 스캔할 수 있습니다. 여기에는 NetApp StorageGRID, IBM Cloud Object Store, Linode, B2 클라우드 스토리지, Amazon S3 등이 포함됩니다.</block>
   <block id="c3e061f64826624fb21952c760e39065" category="paragraph">BlueXP 분류는 SharePoint Online, SharePoint 온-프레미스(SharePoint Server), OneDrive, Google Drive 및 Amazon S3의 데이터 원본에서 "마지막 액세스 시간"을 추출하지 않습니다.</block>
@@ -3047,12 +2953,9 @@
   <block id="8f031c80211d08a2fc3d24c73c826e4b" category="paragraph"><block ref="d597807e5ef4bec605cdd823cfc707e7" category="inline-link-rx"></block>.</block>
   <block id="b81005c38cb0963c694c4f17fdffdda5" category="paragraph"><block ref="6a34fff85e918ca0361628bb33e44cc4" category="inline-link-rx"></block>.</block>
   <block id="7e1e73ad7e6d01345f57dc84d7cd2c47" category="paragraph"><block ref="8ab3022f8d373945c172f9e89b554e84" category="inline-link-rx"></block>.</block>
-  <block id="c51401ffdfb1031aea6f8a59f0b12ac5" category="paragraph"><block ref="364c24684858aaf9cf725ae1ec404c5d" category="inline-link-rx"></block>.</block>
   <block id="75dbbfa0c63b5452f1dab4062180db11" category="paragraph"><block ref="096bf81f435bf11200f532bd4759e1e0" category="inline-link-rx"></block>.</block>
-  <block id="882ecc5b644de8aa6bd8f8ae2a69ef91" category="paragraph">과거에는 BlueXP 분류로 최대 100,000개의 소스 파일을 NFS 공유로 이동할 수 있었습니다. 이제 한 번에 최대 1,500만 개의 파일을 이동할 수 있습니다.<block ref="9bbad7a61d2ec2ac2169dcc43ec22874" category="inline-link-rx"></block>.</block>
   <block id="451e723f277a39328c39e790b3d47ebc" category="paragraph">새로운 "부분 성공" 상태는 BlueXP 분류 작업이 완료되었고 일부 항목이 실패했으며 100개의 파일을 이동하거나 삭제하는 등 일부 항목이 성공했음을 나타냅니다. 또한 "완료됨" 상태의 이름이 "성공"으로 변경되었습니다. 과거에는 "완료" 상태에 성공했고 실패한 작업이 나열될 수 있습니다. 이제 "성공" 상태는 모든 작업이 모든 항목에 성공했음을 의미합니다.<block ref="81392bd70242cc4257015d9eb2f1d43a" category="inline-link-rx"></block>.</block>
   <block id="fccd9d5627e0ea943a2decbcedc75caf" category="paragraph">Governance 대시보드에는 중요한 데이터(민감한 개인 데이터 및 민감한 개인 데이터 포함)를 포함하고 지나치게 허용적인 파일의 열 지도를 제공하는 새로운 _Sensitive Data 및 Wide Permissions_영역이 추가되었습니다. 이렇게 하면 민감한 데이터와 관련하여 어떤 위험이 있을 수 있는지 확인할 수 있습니다.<block ref="7c90c3d5fe3f2a4e9ca8ce0d84318210" category="inline-link-rx"></block>.</block>
-  <block id="256d4a07e31924bad219936ee7fbe092" category="paragraph"><block ref="6cbac5d82b5b6979376ae555290ffa96" category="inline-link-rx"></block>.</block>
   <block id="e5047cfc3a021db29e30390a5a0de3c1" category="paragraph">BlueXP 분류는 일본어 개인 번호(내 번호라고도 함)가 포함된 파일을 식별하고 분류할 수 있습니다. 여기에는 개인 및 회사 내 번호가 모두 포함됩니다.<block ref="902797e77ffbfd681f1fc19dad4fefbc" category="inline-link-rx"></block>.</block>
   <block id="70ef9f0f001698901fc7782c85efbd22" category="paragraph"><block ref="d164dabede0c4e6f2317947d0f40a4c9" category="inline-link-rx"></block>.</block>
   <block id="9aeb191a0aa6c1027436d873f00b71c9" category="paragraph">가능합니다<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.</block>
@@ -3150,7 +3053,6 @@
   <block id="b9a11b90960ff803269429887ab4cff3" category="list-text">사용자는 로컬 사용자여야 합니다. 도메인 사용자는 지원되지 않습니다.</block>
   <block id="fae80424c022f4f6a5863e7a9e007154" category="list-text">_proxy_user_= 기본 인증이 필요한 경우 프록시 서버에 연결할 인증된 사용자입니다. 사용자는 로컬 사용자여야 합니다. - 도메인 사용자는 지원되지 않습니다.</block>
   <block id="e0f8faa1f60bb9ad057dbed0ae3366cd" category="inline-link-macro">Classification 인스턴스의 데이터에 액세스하는 방법을 확인하십시오</block>
-  <block id="a9420bec80d413a65a75f5b930ab95d6" category="paragraph">보고서가 1MB 이상인 경우 PDF 파일이 BlueXP 분류 인스턴스에 유지되고 정확한 위치에 대한 팝업 메시지가 표시됩니다. BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux 시스템에 설치되어 있는 경우 PDF 파일로 직접 이동할 수 있습니다. 클라우드에 BlueXP 분류를 배포할 때 PDF 파일을 다운로드하려면 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. <block ref="deb8a567236e3a33c0e546690f1ec883" category="inline-link-macro-rx"></block>.</block>
   <block id="0fe1279b28d533b32c08d839691ef653" category="inline-image-macro">세 개의 점</block>
   <block id="e56ef2e2348492a4f0e1e9513b068cc4" category="admonition">를 클릭하여 구성 페이지에서 작업 환경에 대한 규정 준수 검사를 활성화할 수도 있습니다 <block ref="a759a567ce9a72b21fd45f48f1f358c8" category="inline-image-macro-rx" type="image"></block> 단추를 클릭하고 * BlueXP 분류 활성화 * 를 선택합니다.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
@@ -3187,7 +3089,6 @@
   <block id="548a75d789202d935a1a2f04740b1caf" category="paragraph">아직 비공개 모드로 커넥터가 설치되어 있지 않은 경우<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 이제 Linux 호스트에서</block>
   <block id="958f4b7cbe550d6d49b31bbeff50f3a9" category="paragraph">BlueXP 커넥터가 아직 비공개 모드로 설치되어 있지 않은 경우<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 오프라인 사이트의 Linux 호스트</block>
   <block id="5c2d28b4f3a99b0fe3968b98ea7d88e5" category="inline-link-macro">자세한 내용은 여기에서 확인하십시오.</block>
-  <block id="92b051108aff71c86d91cfa5338016b1" category="paragraph">모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 기록됩니다<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>. <block ref="d63cd9daf9e428da9929248a998d6b79" category="inline-link-macro-rx"></block>.</block>
   <block id="e441d0b06845e470533ecf90d990663b" category="list-text">개인 모드에서 사용할 Linux 호스트에 설치 프로그램 번들을 복사합니다.</block>
   <block id="c28fe179e2385f26eb310f2d32183eea" category="list-text">BlueXP 분류 버전 1.24부터 향후 모든 소프트웨어 버전으로 업그레이드할 수 있습니다.</block>
   <block id="6d1c16ac15ccc187094a216f48771131" category="paragraph">BlueXP 분류 소프트웨어가 1.24 이전 버전을 실행 중인 경우 한 번에 하나의 주요 버전만 업그레이드할 수 있습니다. 예를 들어, 버전 1.21.x가 설치되어 있는 경우 1.22.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.</block>
@@ -3312,7 +3213,6 @@
   <block id="43ec96609274e10e69e4ef1f50473aba" category="doc">리포지토리의 스캔 설정을 변경합니다</block>
   <block id="926f6a4e85f1593fffa7270c143e3ddb" category="paragraph">변경할 수 있는 사항 중 일부는 리포지토리가 검색되었는지 여부와 BlueXP 분류가 을 수행하고 있는지 여부입니다 <block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>. 또한 일정 시간 동안 볼륨 스캔을 중지해야 하는 경우 스캔을 일시 중지하거나 다시 시작할 수도 있습니다.</block>
   <block id="5c7952df3d9c0233217acae5c6f1153d" category="list-text">Scan Configuration(스캔 구성) 페이지에서 모든 리포지토리(이 예에서는 버킷)를 변경하여 * Map * 또는 * Map &amp; Classify * 스캔을 수행할 수 있습니다.</block>
-  <block id="fa11512af60e80dd5cda30d6a494a8cd" category="section-title">리포지토리에 대한 스캔을 중지합니다</block>
   <block id="fbadcaa7267ae823837aff45d0dd7135" category="paragraph">규정 준수를 위해 더 이상 모니터링할 필요가 없는 경우 리포지토리(예: 볼륨) 스캔을 중지할 수 있습니다. 스캔을 "OFF(끄기)"로 설정하면 됩니다. 스캔이 꺼지면 해당 볼륨에 대한 모든 인덱싱 및 정보가 시스템에서 제거되고 데이터 스캔 충전이 중지됩니다.</block>
   <block id="565a8976f79d6c76ecebff0fff08e98a" category="list-text">Scan Configuration(스캔 구성) 페이지에서 * Off * 를 선택하여 특정 버킷에 대한 스캔을 중지합니다.</block>
   <block id="935638dd063f7f7f75feaf9c1efed37e" category="paragraph"><block ref="935638dd063f7f7f75feaf9c1efed37e" category="inline-image-macro-rx" type="image"></block></block>
@@ -3334,7 +3234,6 @@
   <block id="0cc4457720b5fe0dd1b8dc6667280ebb" category="list-text">시스템에 두 가지 필수 소프트웨어 패키지(Docker 또는 Podman Engine 및 Python 3)가 설치되어 있는지 확인합니다.</block>
   <block id="bfd42c156b2ca871cd12ee8e72e55e95" category="paragraph">1MB 이상의 개인 정보나 중요한 개인 정보가 포함된 모든 파일(데이터베이스 제외)을 비교하여 중복된 파일이 있는지 확인합니다. 조사 페이지에서 "파일 크기" 필터와 "중복 항목"을 사용하여 사용자 환경에서 특정 크기 범위의 파일이 복제되었는지 확인할 수 있습니다.</block>
   <block id="285a3049428c6b155fde44a18621f551" category="paragraph">모든 중복 파일이 결과 페이지에 표시됩니다.</block>
-  <block id="9d1bf1e07d6563a578988a0916d686ff" category="section-title">9월 5일(버전 1.25)</block>
   <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">조사 결과 페이지에서 최대 100,000개의 항목에 태그를 적용합니다</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">방법을 확인하십시오</block>
   <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">최소 파일 크기가 1MB인 중복 파일을 식별합니다</block>
@@ -3347,12 +3246,10 @@
   <block id="7cb00932323e74919350bd2ce54bb9db" category="paragraph">사용자를 여러 파일에 할당하려면 다음 단계를 수행하십시오. 사용자를 한 번에 최대 20개의 파일(UI에서 한 페이지)에 할당할 수 있습니다.</block>
   <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">중소 규모 구축은 일시적으로 사용할 수 없습니다</block>
   <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">AWS에 BlueXP 분류의 인스턴스를 구축할 때 * Deploy &gt; Configuration * 을 선택하고 소형 또는 중형 인스턴스를 선택하는 옵션은 현재 사용할 수 없습니다. Deploy &gt; Deploy * 를 선택하여 대규모 인스턴스 크기를 사용하여 인스턴스를 배포할 수 있습니다.</block>
-  <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>.</block>
   <block id="b76d53d86b234eb61cbe1f1f8dd81414" category="paragraph">BlueXP 분류에서 스캔 중인 소스 파일을 모든 NFS 공유로 이동할 수 있습니다. NFS 공유를 BlueXP 분류와 통합할 필요가 없습니다.</block>
   <block id="125161c62eedd013601db45d9716edf6" category="paragraph">파일을 이동할 때 소스 파일의 하위 디렉토리 구조가 대상 공유에서 다시 생성되므로 파일이 이동된 위치를 쉽게 파악할 수 있습니다. 대상 위치에 같은 이름의 파일이 있으면 파일이 이동하지 않습니다.</block>
   <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">이를 통해 성공적으로 완료된 작업, 현재 진행 중인 작업 및 실패한 작업을 볼 수 있으므로 문제를 진단하고 해결할 수 있습니다. 단일 파일 이동과 같이 빠르게 완료되는 짧은 작업은 작업 상태 창에 나타나지 않습니다.</block>
   <block id="b2ed02bab90c71832a95050419f003e6" category="list-text">BlueXP 분류는 SharePoint Online, SharePoint 온프레미스(SharePoint Server), OneDrive, Google Drive, Amazon S3, 데이터베이스의 데이터 소스에서는 "마지막 액세스 시간"을 추출하지 않습니다.</block>
-  <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10월 4일(버전 1.26)</block>
   <block id="4a90d7d35061a4c9e5845a989ea05db2" category="list-text">다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.26 이상이 필요합니다.</block>
   <block id="59f227bced13db9b55686d58d4422b7b" category="list-text">Red Hat Enterprise Linux 버전 9.0, 9.1 및 9.2</block>
   <block id="ca4483ba58214f8a91253985b52c976c" category="paragraph">RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.</block>
@@ -3377,7 +3274,6 @@
   <block id="74246010013353726bd9ff99866fa7d4" category="section-title">RHEL 버전 9에서 BlueXP 분류의 사내 설치를 지원합니다</block>
   <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 현재 Podman 버전 4 이상을 컨테이너 인프라로 사용하여 RHEL 9.0, 9.1 및 9.2에서 BlueXP 분류 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.</block>
   <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">현재 RHEL 9.x를 사용하는 경우 다크 사이트 설치 또는 분산 스캐닝 환경(마스터 및 원격 스캐너 노드 사용)은 지원되지 않습니다</block>
-  <block id="abff2804f60c6da51fe02e78167abad1" category="section-title">11월 6일(버전 1.26.3)</block>
   <block id="e25bae53fb1951841531279fa78ee63a" category="section-title">이 릴리스에서는 다음 문제가 해결되었습니다</block>
   <block id="299ea648aaf9c598beed6ef12a6ef415" category="list-text">시스템에서 스캔된 파일 수를 대시보드에 표시할 때 불일치 문제가 해결되었습니다.</block>
   <block id="c6e9efb915fb85dd556a71294988c99a" category="list-text">이름 및 메타데이터에 특수 문자가 있는 파일과 디렉터리를 처리하고 보고함으로써 검색 동작을 개선했습니다.</block>
@@ -3434,7 +3330,6 @@
   <block id="8a9190ee1ce170537f2281a1fd3efbf8" category="paragraph">이 명령은 수정된 그룹 ID 권한을 분류 엔진에 커밋합니다.</block>
   <block id="fa72d06a2d710ef92a76614af32ec1f7" category="paragraph">이후의 모든 데이터 검사는 이러한 그룹 ID가 "조직 공개"로 첨부된 파일 또는 폴더를 식별합니다.</block>
   <block id="3ef472518560fb1d514f802f7b78520c" category="paragraph">이와 동일한 단계를 사용하여 그룹 ID 목록을 편집하고 이전에 추가한 그룹 ID를 삭제할 수 있습니다. 수정된 그룹 ID 목록은 스크립트를 실행하여 변경 내용을 커밋한 후에 업데이트됩니다.</block>
-  <block id="81c60fb26d30a0a1fa208bc6b7d14e6f" category="section-title">1월 10일(버전 1.27)</block>
   <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">추가 그룹 ID를 "조직에 열기"로 구성</block>
@@ -3452,7 +3347,6 @@
   <block id="5b40d5baf253a6d11974d57a0890fe5a" category="paragraph">이 기능을 활성화하려면 BlueXP 분류 시스템에 로그인하여 구성 파일을 편집하고 스크립트를 실행해야 합니다. 자세한 내용은 를 참조하십시오 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.</block>
   <block id="bc43ce46ec2d6fbf9c8f6da8a4306dd8" category="section-title">로그 파일 위치</block>
   <block id="4f2ff1b367ff3e36e64a9ae197aa8277" category="paragraph">각 로그 파일의 크기는 최대 10MB입니다. 이 제한에 도달하면 새 로그 파일이 시작됩니다. 로그 파일의 이름은 "DataSense_audit.log", "DataSense_audit.log.1", "DataSense_audit.log.2" 등으로 지정됩니다. 시스템에 최대 100개의 로그 파일이 보존됩니다. 오래된 로그 파일은 최대 로그 수에 도달하면 자동으로 삭제됩니다.</block>
-  <block id="8d62d7d8c4e5247ff9d832d971c73356" category="section-title">로그 파일 액세스</block>
   <block id="1adc1bcbca14587886f0722f89d1238c" category="paragraph">로그 파일에 액세스하려면 BlueXP 분류 시스템에 로그인해야 합니다. 자세한 내용은 를 참조하십시오 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.</block>
   <block id="2556206d42384bb829190e0aafdb0def" category="inline-link-macro">BlueXP 분류 호스트 시스템에 로그인합니다</block>
   <block id="3d156543c6fce54302812044d96a7f13" category="paragraph">자세한 내용은 를 참조하십시오 <block ref="4d88ed2399fdae83afcc83672f5b6c79" category="inline-link-macro-rx"></block>.</block>
@@ -3464,8 +3358,170 @@
   <block id="b39079257432aa2e0ea1ac3e4e36cdf8" category="section-title">중요 데이터는 어떻게 처리됩니까?</block>
   <block id="35a8814c3eaa26f66ca3a0eea1193f70" category="paragraph">NetApp는 중요한 데이터에 액세스할 수 없으며 UI에 이를 표시하지 않습니다. 중요한 데이터는 마스킹됩니다. 예를 들어, 마지막 4개의 숫자는 신용 카드 정보로 표시됩니다.</block>
   <block id="a6b6381d05f6dc9530f37099c9feb5cf" category="section-title">데이터가 어디에 저장됩니까?</block>
-  <block id="efe4cf854e0017e5c35b4f8fb03e5a1b" category="paragraph">스캔 결과는 BlueXP 분류 인스턴스 내의 Elastisearch에 저장됩니다.</block>
   <block id="dbe9d1b278184da6355700a9d5f9c0e6" category="section-title">데이터에 어떻게 액세스됩니까?</block>
   <block id="9e52028c48600512f13df2884f1ec709" category="paragraph">BlueXP 분류는 API 호출을 통해 Elasticsearch에 저장된 데이터에 액세스하며, 인증이 필요하며 AES-128을 사용하여 암호화됩니다. Elasticsearch에 직접 액세스하려면 루트 액세스가 필요합니다.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
+  <block id="b97835ec7267635dbdb6a030bb594b9b" category="doc">조직에 저장된 데이터에 대한 거버넌스 세부 정보를 봅니다</block>
+  <block id="137856a117db72a4c07a63ed4622372f" category="section-title">기회 저장</block>
+  <block id="079997081651f8a82d27ca6d62534f5e" category="list-text">* 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. <block ref="fcb1526de99321017edbeb7796592372" category="inline-link-macro-rx"></block>.</block>
+  <block id="9342c0e29d04561cbb53f2ba321a759c" category="paragraph">Classification_area는 가장 많이 식별된 목록을 제공합니다 <block ref="d3b5de2fe3785a28f0b4099f30abefe6" category="inline-link-macro-rx"></block>, <block ref="6d5873eba480eee9411c9a14fd12e5d9" category="inline-link-macro-rx"></block>, 및 <block ref="831f3d64e1800ca5ef8e2c817b5a43b2" category="inline-link-macro-rx"></block> 스캔 데이터.</block>
+  <block id="747fb24cd2b94a7b0fc7076c4af2f2c2" category="paragraph">을 참조하십시오 <block ref="3648d3c4c92bd601fe477d66a90a40cd" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="1841518caa387e4e9bb9d49c95609785" category="paragraph">을 참조하십시오 <block ref="624739c32d4b253a90da8dd449f98632" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="181332a3540aa1ea82fa85f6dc6f6625" category="paragraph">을 참조하십시오 <block ref="831f3d64e1800ca5ef8e2c817b5a43b2" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="1ec26f1d39a398158aea4e2d5e31e150" category="section-title">데이터 매핑 보고서를 생성합니다</block>
+  <block id="69bf5c037f5606f34aefc52d8ef3628b" category="paragraph">보고서가 1MB 이상인 경우 PDF 파일이 BlueXP 분류 인스턴스에 유지되고 정확한 위치에 대한 팝업 메시지가 표시됩니다. BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux 시스템에 설치되어 있는 경우 PDF 파일로 직접 이동할 수 있습니다. 클라우드에 BlueXP 분류를 배포할 때 PDF 파일을 다운로드하려면 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. <block ref="21695d5d9eec77c608b7fe7666155715" category="inline-link-macro-rx"></block>.</block>
+  <block id="1f409051045abcc9fdb719d7f375ac7a" category="section-title">데이터 검색 평가 보고서를 생성합니다</block>
+  <block id="8d2b3a00bc0d44767cf3d5dfed11884d" category="section-title">데이터 조사 페이지에서 데이터를 필터링합니다</block>
+  <block id="31d2b3f1b10e9877e365a14d5f9212e4" category="list-text">최상위 탭을 사용하면 파일(비정형 데이터), 디렉토리(폴더 및 파일 공유) 또는 데이터베이스(정형 데이터)에서 데이터를 볼 수 있습니다.</block>
+  <block id="2decf56c6b11817a8a3b1d8d3feeba96" category="list-text">각 열의 맨 위에 있는 컨트롤을 사용하여 결과를 숫자 또는 알파벳 순서로 정렬할 수 있습니다.</block>
+  <block id="edf41506335073de556ea5e2cf897ab7" category="cell">파일당 감지된 중요 식별자의 범위를 선택합니다. 개인 데이터 및 민감한 개인 데이터가 포함됩니다. 디렉터리에서 필터링할 때 BlueXP 분류는 각 폴더(및 하위 폴더)의 모든 파일에서 일치하는 항목의 합계를 구합니다.
+
+참고: 2023년 12월(버전 1.26.6) 릴리스는 디렉토리에서 PII(개인 식별 정보) 데이터의 수를 계산하는 옵션을 일시적으로 제거했습니다.</block>
+  <block id="7fa4c0d19f9e22e46c1599f489a40200" category="cell">데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. <block ref="c68d9f5d265dae5a91c67e9376307e7e" category="inline-link-macro-rx"></block>.</block>
+  <block id="dd6c13315898ffef83a20b77b08aee15" category="cell">를 선택합니다 <block ref="9b3a58766d8c539d0ec9039695618ffe" category="inline-link-macro-rx"></block> 파일에 할당됩니다.</block>
+  <block id="589dfe04fd4fd66d98351532c0822d43" category="cell">를 선택합니다 <block ref="f97d1e70e05df66e5383a32214d43b68" category="inline-link-macro-rx"></block> 파일에 할당됩니다.</block>
+  <block id="d9ff86959e1f6d2016c4db58114184ab" category="section-title">파일 메타데이터 보기</block>
+  <block id="6bfe7c49ed08b9ae3e8b4562fbb9a699" category="paragraph">파일이 있는 작업 환경과 볼륨을 보여 주는 것 외에도 메타데이터는 파일 권한, 파일 소유자, 이 파일의 중복 여부 및 할당된 AIP 레이블(있는 경우)을 비롯하여 훨씬 더 많은 정보를 표시합니다 <block ref="2b7c3ccfb68eb615813c6831857e6287" category="inline-link-macro-rx"></block>)를 클릭합니다. 이 정보는 를 계획 중인 경우에 유용합니다 <block ref="8c7af7ec06ac1cea6800f7cd16a5f7c0" category="inline-link-macro-rx"></block> 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있기 때문입니다.</block>
+  <block id="b0532ead11e8ff469286217af3d2bd21" category="list-text">파일을 NFS 공유로 이동하거나 복사할 수 있습니다. 을 참조하십시오 <block ref="47c4bb8753f1ccd8056e33aa9c09984f" category="inline-link-macro-rx"></block> 및 <block ref="7b9de7c61d109933747889413b3eab6b" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="dd357e172a945ce8d61fe779740b8356" category="list-text">파일을 삭제할 수 있습니다. 을 참조하십시오 <block ref="1619d8f142b3f62dae3a793f7b393a2d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="8ae179cabde4d7ab16ea4d62c9dff439" category="list-text">파일에 특정 상태를 할당할 수 있습니다. 을 참조하십시오 <block ref="13aed6bc1ea45840de263e10256c8800" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="5c02bc6832b3ccc24da05f08c60ce812" category="list-text">파일을 BlueXP 사용자에게 할당하여 파일에서 수행해야 하는 후속 작업을 처리할 수 있습니다. 을 참조하십시오 <block ref="1c8e1beef2d3a961e27ab1da8a9a58a5" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="80040a72b1bfe1dd7112c9895e8e2c3a" category="list-text">BlueXP 분류와 AIP 레이블을 통합한 경우 이 파일에 레이블을 지정하거나 이미 있는 경우 다른 레이블로 변경할 수 있습니다. 을 참조하십시오 <block ref="edb186a87f811c37ad4a5069aa7682ee" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="fffb468d89636ef35919bda57df8f0bc" category="section-title">파일 및 디렉터리에 대한 사용 권한을 봅니다</block>
+  <block id="33f1c68834e7b02c4c8b3b9dc4f796d3" category="section-title">스토리지 시스템에 중복된 파일이 있는지 확인합니다</block>
+  <block id="e6bbcb2826ce1a4f58fd341c4f5ae5f3" category="paragraph">중복 파일 목록을 다운로드하여 스토리지 관리자에게 전송하여 삭제할 수 있는 파일이 있는지 확인할 수 있습니다. 아니면 가능합니다 <block ref="53c8cd880d15e2953a8e763d6f4dff0c" category="inline-link-macro-rx"></block> 특정 버전의 파일이 필요하지 않을 경우</block>
+  <block id="11b431a799ad33cee933ceccc5de850c" category="section-title">모든 중복 파일을 봅니다</block>
+  <block id="3c4c508b343b43aeeceba1d0993025fc" category="section-title">특정 파일이 복제되었는지 확인합니다</block>
+  <block id="d9f65abd84f27877cbba1b5ea828d53d" category="section-title">데이터 조사 보고서를 생성합니다</block>
+  <block id="13b1a6e1bb1b3f8696189ada6b422170" category="list-text">"파일 소유자"를 사용할 수 있습니다. <block ref="8f117870d9a34eabfa5286947f602d95" category="inline-link-macro-rx"></block> 그리고 조사 창에서 파일의 메타데이터에서 결과를 확인합니다. SID(보안 식별자)가 포함된 파일 소유자 대신 실제 사용자 이름으로 채워집니다.</block>
+  <block id="cd4d01ef1bbc41dd6c1a648ca6b131c3" category="list-text">확인할 수 있습니다 <block ref="bb7ccaeb199c0a6d94b809bfbddc428e" category="inline-link-macro-rx"></block> "모든 권한 보기" 버튼을 클릭하면 각 파일 및 디렉토리에 대해 이 작업을 수행할 수 있습니다.</block>
+  <block id="04e7e9631c93eec889b2ab99b5143465" category="section-title">Active Directory 서버에 연결합니다</block>
+  <block id="bbc0bef191e546654d479088a63463e8" category="section-title">Active Directory 통합을 관리합니다</block>
+  <block id="10ccc27cc214fa448d0b8e0b334f0151" category="section-title">BlueXP 분류 릴리즈에서 옵션이 일시적으로 제거되었습니다</block>
+  <block id="dffabdaa2a3357c29a2d709ccde0a0c8" category="paragraph">2023년 12월(버전 1.26.6) 릴리즈에서는 다음 옵션이 일시적으로 제거되었습니다.</block>
+  <block id="bd387dbe20d15a2a0ff5e7602549388e" category="list-text">감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다.</block>
+  <block id="a8a28cc44c1c782e3e832f304d4dfbd7" category="list-text">디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다.</block>
+  <block id="6b1b1c56d9e50ead02cb1c15240f6672" category="list-text">AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 비활성화되었습니다.</block>
+  <block id="20d9878156a2091b70c1ea4cf697dd9d" category="paragraph">파일에서 발견된 개인 데이터는 일반 개인 데이터 또는 국가 식별자일 수 있습니다. 아래 표의 세 번째 열은 BlueXP 분류의 사용 여부를 나타냅니다 <block ref="af3f1f2f9514770a1cfe0f9a422e763d" category="inline-link-macro-rx"></block> 식별자에 대한 결과를 검증합니다.</block>
+  <block id="5d4d8771b47d6c5166952822e552f082" category="cell">매우 크게</block>
+  <block id="286037639991fbe8162e37237400f775" category="cell">32개의 CPU, 128GB RAM, 1TiB SSD</block>
+  <block id="f6f61cf219d5829d5169842d420d1503" category="cell">최대 5억 개의 파일을 스캔할 수 있습니다.</block>
+  <block id="ea1a46649fa6479f8f6b7adefbb4450a" category="cell">최대 2억 5천만 개의 파일을 스캔할 수 있습니다.</block>
+  <block id="d2ab97ef89606f2d10fb34a332e0fdb6" category="paragraph">AWS의 클라우드에 BlueXP 분류를 배포할 때 대규모/중간/소규모 인스턴스를 선택할 수 있습니다. Azure 또는 GCP에서 BlueXP 분류를 구축할 때 이러한 대체 시스템 중 하나를 사용하려면 ng-contact-data-sense@netapp.com 으로 이메일을 보내 지원을 요청하십시오. 이러한 다른 클라우드 구성을 배포하려면 고객과 협력해야 합니다.</block>
+  <block id="8910b1ec473cf0681670f869289481a2" category="paragraph">BlueXP 분류를 온프레미스에 구축할 경우 대체 사양이 있는 Linux 호스트를 사용하면 됩니다. NetApp에 지원을 요청할 필요가 없습니다.</block>
+  <block id="5a8ee8420a5d1cdc5ee93a7fd5065c6a" category="list-text">이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보 <block ref="fc496cc858c0e8dff4419012ba17c358" category="inline-link-macro-rx"></block>.</block>
+  <block id="824da272ee238f0ff0da26b458ce480c" category="list-text">GDPR 및 기타 개인 정보 보호 규정에 정의된 의료 데이터, 인종 또는 정치적 의견과 같은 민감한 정보의 특별한 유형. <block ref="6221f6509a9900ea9a8146767340b3a8" category="inline-link-macro-rx"></block>.</block>
+  <block id="e95f1ed805ee251f2c684538d33ea9f4" category="list-text">BlueXP 분류는 스캔한 데이터를 다른 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. <block ref="722783767558c868b0670a999b08f996" category="inline-link-macro-rx"></block>.</block>
+  <block id="7a8cb013c41bdd9770a1cad9bb979c55" category="list-text">BlueXP 분류는 스캔한 데이터를 파일 유형별로 분류하여 표시합니다. <block ref="a23a1c3a68ab723cb619be8574a4637d" category="inline-link-macro-rx"></block>.</block>
+  <block id="acff74627293e3e739a3c24e5fec03c2" category="cell">* 초대형 *</block>
+  <block id="8a0a1142229b3b639f68556794cbd985" category="cell">32개의 CPU</block>
+  <block id="228d50520d6c2a627ecce76f2775d5e1" category="cell">128GB RAM</block>
+  <block id="92194a80ea376740e10d5ee7343f171c" category="cell">/, 또는 의 1TiB SSD
+/opt에서 -100GiB를 사용할 수 있습니다
+-895GiB는 /var/lib/docker에서 사용할 수 있습니다
+/tmp에 -5GiB입니다</block>
+  <block id="7e6ae7e8de71f1a36043487bc45a85eb" category="paragraph">소형 시스템을 사용할 때는 제한이 있습니다. 을 참조하십시오 <block ref="0e704e23a30c6a19db4ec4aec3706681" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="6652143756854261fc684a5e0baebe87" category="paragraph">모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 기록됩니다<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>. <block ref="696479ac7e872b184d766a98c9dcee75" category="inline-link-macro-rx"></block>.</block>
+  <block id="a006d7d6fbe943e4c3cd4f1f23e24888" category="admonition">2023년 12월(v1.26.6) 릴리즈에서는 AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 일시적으로 제거되었습니다.</block>
+  <block id="7644f60fe7823935bde3cbe9f9e82bf8" category="section-title">AIP 레이블을 사용하여 데이터를 분류합니다</block>
+  <block id="0ed54f1d736772cdfa10d041612c19cc" category="section-title">작업 공간에 AIP 레이블을 통합합니다</block>
+  <block id="dc868ca3e5d8a2a78f0a032d630be98e" category="section-title">파일에서 AIP 레이블을 봅니다</block>
+  <block id="a63feced797847158dd7b93ba9ec1c9c" category="section-title">AIP 레이블을 수동으로 할당합니다</block>
+  <block id="079ba7083ee44d94b780ca3410262aad" category="section-title">AIP 통합을 제거합니다</block>
+  <block id="b711ac049bfb30775a44db0b240bf50a" category="section-title">태그를 적용하여 스캔한 파일을 관리합니다</block>
+  <block id="b093b0407978309f95be2f6607edea0f" category="section-title">특정 태그가 적용된 파일을 봅니다</block>
+  <block id="667181137727a5b43984825022e78afe" category="section-title">파일에 태그를 지정합니다</block>
+  <block id="9e20f51759b1307e883b2ee0dc3f188e" category="section-title">파일에서 태그를 삭제합니다</block>
+  <block id="d36044fd7d23f212e2a9c29198ebfb6a" category="section-title">특정 파일을 관리할 사용자를 지정합니다</block>
+  <block id="503c49a3ccf62894992dc5b2f108ca21" category="section-title">원본 파일을 복사합니다</block>
+  <block id="f1c00e884b0e070464c8f286c3174093" category="section-title">소스 파일을 NFS 공유에 복사합니다</block>
+  <block id="bc2ddaab6055ab1255961a9d20b9b561" category="section-title">볼륨 데이터를 새 볼륨에 복제합니다</block>
+  <block id="526dcc2d2df3c7d2b2a5eff8bfe8f919" category="section-title">소스 파일을 타겟 시스템에 복사하고 동기화합니다</block>
+  <block id="84f7b8f0d62cd1dd2a92acfab284f990" category="section-title">소스 파일을 NFS 공유로 이동합니다</block>
+  <block id="865eee83e350aaa1f9bf0c9f0c4adef0" category="section-title">원본 파일을 삭제합니다</block>
+  <block id="b6da96c1d36493966b387017bdd6ea22" category="paragraph">조사 창 또는 에서 파일을 수동으로 삭제할 수 있습니다 <block ref="e53db43404234e4ae64f1250fb75e000" category="inline-link-macro-rx"></block>.</block>
+  <block id="d771d7d12660fbeb94c2343ab606b51d" category="section-title">소스 파일을 수동으로 삭제합니다</block>
+  <block id="a83bc0aa2bd876d7cc5a350879bd008c" category="section-title">로그 파일에 액세스합니다</block>
+  <block id="a6ed2c91ea69381b6a464e642ca3c940" category="paragraph"><block ref="8600e76f489947dcd3c20a1b1ce1e8ca" category="inline-link-macro-rx"></block>.</block>
+  <block id="ed6f72ce35fa37960b096efc305078ca" category="paragraph">스캔 결과는 BlueXP 분류 인스턴스 내의 Elasticsearch에 저장됩니다.</block>
+  <block id="07b74cfb8b148331baaaa74d89dd4cec" category="doc">규정 준수 보고서 보기</block>
+  <block id="8932e9435ce03fbb7ecf0b2f738ce66a" category="paragraph">기본적으로 BlueXP 분류 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 보려면 <block ref="200c05d79644e6ad09afbf686b752513" category="inline-xref-macro-rx"></block>.</block>
+  <block id="8fe6204e46726000832b41b57a8682fa" category="section-title">개인정보 보호 위험 평가 보고서를 생성합니다</block>
+  <block id="a278deb1b004bff80e79de1e339663d8" category="section-title">PCI DSS 보고서를 생성합니다</block>
+  <block id="3d6c8f2da2f31e222453954edbdc0016" category="section-title">HIPAA 보고서를 생성합니다</block>
+  <block id="dea05f9db0b78f5c37e6ef730d7c9cb3" category="section-title">데이터 주제를 검색하고 보고서를 다운로드합니다</block>
+  <block id="d31797d513ed86de950b1e6cad114a0e" category="section-title">보고서의 작업 환경을 선택합니다</block>
+  <block id="2698a0014cadd28141bb459524e52ece" category="doc">조직에 저장된 데이터에 대한 규정 준수 세부 정보를 봅니다</block>
+  <block id="5bd05de235efc04c8b15b98cdd6622d2" category="paragraph">일부 작업 환경에 대한 데이터만 보려면 <block ref="06e3575e0ad015087c5a66ab84fa89cb" category="inline-xref-macro-rx"></block>.</block>
+  <block id="ee2ce94ca497f99a823b64ee93e29228" category="paragraph">또한 데이터 조사 페이지에서 결과를 필터링하고 결과 보고서를 CSV 파일로 다운로드할 수도 있습니다. 을 참조하십시오 <block ref="f082a9ca9c2b3ab3d0b6d26a35559d93" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="f9643188d49ee294212ab09521305bdd" category="section-title">개인 데이터가 포함된 파일을 봅니다</block>
+  <block id="2d46c3977746d66d8fa8c15b6bc98d6c" category="section-title">중요한 개인 데이터가 포함된 파일을 봅니다</block>
+  <block id="8a5ea9dc53c4c86f4aed7ef4b4da982c" category="section-title">범주별로 파일을 봅니다</block>
+  <block id="ecb953672f3305298a86f0569c18d178" category="section-title">파일 형식별로 파일을 봅니다</block>
+  <block id="303b0a57019c624c482fb5d775729281" category="section-title">특정 작업 환경에 대한 대시보드 데이터를 봅니다</block>
+  <block id="0ed24c69d85b53c201d924087682efef" category="admonition">2023년 12월(버전 1.26.6) 릴리즈에서는 감사 로그 수집을 활성화하는 옵션이 일시적으로 제거되었습니다.</block>
+  <block id="50c07d396e4bf402b72ebf82cfaadea1" category="doc">데이터베이스 스키마를 스캔합니다</block>
+  <block id="846eb83e821481bdeafbcc34c9138401" category="section-title">BlueXP 분류 인스턴스를 배포합니다</block>
+  <block id="117276e96b89d072e0a833596332ef29" category="section-title">데이터베이스 서버를 추가합니다</block>
+  <block id="0dacbfa35e4a190378a78ef8c1f6a644" category="section-title">데이터베이스 스키마에서 규정 준수 검사를 활성화 및 비활성화합니다</block>
+  <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024년 1월 10일(버전 1.27)</block>
+  <block id="c0aa452130abaadece0c71d90274bb8e" category="section-title">2023년 12월(버전 1.26.6)</block>
+  <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">이 릴리스에는 몇 가지 사소한 개선 사항이 포함되어 있습니다.</block>
+  <block id="176a42de7f70d82ff8506b6739d7b290" category="paragraph">이 릴리스에서는 다음 옵션도 일시적으로 제거되었습니다.</block>
+  <block id="39b6848535d4f2679ee032ca465bba8c" category="list-text">감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다. 을 참조하십시오 <block ref="01ac4154b50639da0a94f22ce7059c7f" category="inline-link-macro-rx"></block>.</block>
+  <block id="ea2bddf8f5366e4e19e9f92e993db900" category="list-text">디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다. 을 참조하십시오 <block ref="5f0cc912e1424f54004e4ab3376e7552" category="inline-link-macro-rx"></block>.</block>
+  <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 비활성화되었습니다. 을 참조하십시오 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>.</block>
+  <block id="8571bddd96e0bf7c1af547bf5706fe41" category="section-title">2023년 11월 6일(버전 1.26.3)</block>
+  <block id="7e59fce056fd1f38e1a30dea9fa90ab7" category="section-title">2023년 10월 4일(버전 1.26)</block>
+  <block id="371c5ebc9b12d1edc94ae540d4adaef6" category="section-title">2023년 9월 5일(버전 1.25)</block>
+  <block id="f9be4df42ee71d8a46fc32f8b40e0b1b" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.<block ref="46e19d501a7aeb47676677c6786cd6a8" category="inline-link-rx"></block>.</block>
+  <block id="5dfcd9d1075127141684c90379617d15" category="paragraph"><block ref="f9682605316459d6868d028dc460934e" category="inline-link-rx"></block>.</block>
+  <block id="1a24f136700e7d996dbc845dbf267e7f" category="paragraph">과거에는 BlueXP 분류로 최대 100,000개의 소스 파일을 NFS 공유로 이동할 수 있었습니다. 이제 한 번에 최대 1,500만 개의 파일을 이동할 수 있습니다.<block ref="51df0b03dbf1aa6425434a76a39934ae" category="inline-link-rx"></block>.</block>
+  <block id="e8c2efb8e9d3b045395cb04412e0a901" category="paragraph"><block ref="3cbb63227aae75adda769f4ce4856356" category="inline-link-rx"></block>.</block>
+  <block id="c939d1291c3b87bc95f09e9b4065138e" category="section-title">조사 페이지에서 정책 결과를 봅니다</block>
+  <block id="b35b6bc32132e02089037cba925ed82f" category="section-title">사용자 지정 정책을 만듭니다</block>
+  <block id="8a2a52a8ac4ccb92049a30a391068a19" category="list-text">필요한 경우 정책 매개 변수와 일치하는 파일을 자동으로 삭제하려면 확인란을 선택합니다. 에 대해 자세히 알아보십시오 <block ref="f88efbd37b0606539098521e5f566822" category="inline-xref-macro-rx"></block>.</block>
+  <block id="e23294da5f86a971ed9b9377071c72eb" category="list-text">필요에 따라 계정의 BlueXP 사용자에게 알림 이메일을 보내려면 확인란을 선택하고 이메일을 보낼 간격을 선택합니다. 에 대해 자세히 알아보십시오 <block ref="fb324c3b99a97addc0eaa42935f5e40a" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d02bac7cd8c477dd8dc5c26762c991d7" category="list-text">필요한 경우 정책 매개 변수와 일치하는 파일에 AIP 레이블을 자동으로 할당하려면 확인란을 선택하고 레이블을 선택합니다. (이미 AIP 레이블을 통합한 경우에만 해당됩니다. 에 대해 자세히 알아보십시오 <block ref="9b3a58766d8c539d0ec9039695618ffe" category="inline-link-macro-rx"></block>참조)</block>
+  <block id="d78b3e7832ff9a2bb5655d9088bc9162" category="section-title">비준수 데이터가 발견되면 이메일 알림을 보냅니다</block>
+  <block id="b2d0b99eca7664c29a90b8f6d10b4bdc" category="section-title">정책을 사용하여 소스 파일을 자동으로 삭제합니다</block>
+  <block id="2b3be59bfe2624f8c8c8e5598a41bbc0" category="section-title">정책을 사용하여 AIP 레이블을 자동으로 할당합니다</block>
+  <block id="ad3a8f7c032ad4e96e6372989c781a41" category="section-title">정책을 편집합니다</block>
+  <block id="5d82deb8cba9afb6516c37ca8c24a8ad" category="section-title">정책을 삭제합니다</block>
+  <block id="ea8e3558520841b9ad476460d59b798b" category="doc">BlueXP 분류 스캔에 개인 데이터 식별자를 추가합니다</block>
+  <block id="8ebfdc752250ae84fbace65f427cdb3f" category="paragraph">이(가) 있어야 합니다 <block ref="bbfd14f1fba46892c6cec16b4233f355" category="inline-link-macro-rx"></block> 데이터 Fusion 소스를 추가하기 전에 BlueXP 분류를 수행합니다.</block>
+  <block id="63237392f6a02b88aeb414ad83b2e4f4" category="paragraph">사용자 지정 범주를 업데이트한 후 BlueXP 분류는 모든 데이터 소스 스캔을 다시 시작합니다. 검사가 완료되면 새 결과가 "범주" 섹션의 BlueXP 분류 준수 대시보드 및 "범주" 필터의 조사 페이지에 나타납니다. <block ref="aa135715447fa7e396ac4a2dc64b02cf" category="inline-link-macro-rx"></block>.</block>
+  <block id="8f737a8c409b235d7a43941682f2a548" category="section-title">리포지토리의 스캔 상태를 봅니다</block>
+  <block id="0e7c3262eaa1e23e978644965f5cfcad" category="section-title">리포지토리의 스캔 유형을 변경합니다</block>
+  <block id="74a477b7e0bb4c7103127e1c4536e606" category="section-title">리포지토리에 대한 검색을 중지합니다</block>
+  <block id="3ea62d70182e6d0c238badaaf224dff9" category="section-title">리포지토리에 대한 스캔을 일시 중지했다가 다시 시작합니다</block>
+  <block id="86e9fad25d6f638eb7f7e437763b425e" category="section-title">기존 리포지토리의 데이터를 다시 스캔합니다</block>
+  <block id="592eb07fa38cd17123bbb06a297c20fe" category="sidebar">BlueXP 분류를 통해 조직의 하이브리드 멀티 클라우드 전반에서 데이터를 스캔하고 분류할 수 있습니다. 분류에서는 상황별 데이터 분석 및 분류를 위해 AI 기반 자연어 처리(NLP)를 활용하므로, 데이터에 대한 실행 가능한 통찰력을 제공하여 규정 준수 요구사항을 해결하고, 보안 취약점을 감지하며, 비용을 최적화하고, 마이그레이션을 신속하게 수행할 수 있습니다.</block>
+  <block id="e3a146b1e8e087acabb6e5959293dcd8" category="sidebar">BlueXP 분류(클라우드 데이터 감지)를 통해 조직의 하이브리드 멀티 클라우드 전체에서 데이터를 스캔하고 분류할 수 있습니다. BlueXP 분류는 상황별 데이터 분석 및 분류를 위해 AI 기반 자연어 처리(NLP)를 활용하므로, 데이터에 대한 실행 가능한 통찰력을 제공하여 규정 준수 요구사항을 해결하고, 보안 취약점을 감지하고, 비용을 최적화하고, 마이그레이션을 신속하게 수행할 수 있습니다.</block>
+  <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">새로운 기능</block>
+  <block id="daf1be80b90f9f38eccbf069ac08640c" category="sidebar">인터넷을 사용하는 Linux 호스트에 BlueXP 분류를 설치합니다</block>
+  <block id="c3e36333a4a6733ccd92dafc9d8c17b5" category="sidebar">인터넷 없이 BlueXP 분류를 사내 설치</block>
+  <block id="1692b32d79b99cfb5a1277f8c49a23af" category="sidebar">작업 환경을 스캔합니다</block>
+  <block id="7a1ecd84a5a121cd176d1d7c8945c20b" category="sidebar">Cloud Volumes ONTAP 볼륨</block>
+  <block id="8d097e38d6920ece5917d57da5699e5c" category="sidebar">온프레미스 ONTAP 볼륨</block>
+  <block id="c7596ffa8d20a8a14d1f631c94185f72" category="sidebar">Azure NetApp Files 볼륨</block>
+  <block id="fd2fd9101d9dde8ab7090da05f8117ff" category="sidebar">ONTAP 볼륨에 대한 Amazon FSx</block>
+  <block id="0dcbed0ed443cc2be8b28a4bd6ea0b84" category="sidebar">다른 데이터 소스를 스캔합니다</block>
+  <block id="1dc03133d25c1924f8604133a6fa7f0a" category="sidebar">일반 S3 버킷</block>
+  <block id="3305adbdafef990b45e1b0ded7f5a486" category="sidebar">데이터에 대한 세부 정보를 봅니다</block>
+  <block id="f72e4f10556fdc1e84c715407cbda16b" category="sidebar">개인 정보가 포함된 파일을 봅니다</block>
+  <block id="53aba5c7ba7952b6d58e9dfb83a4516e" category="sidebar">스토리지에 복제된 파일을 봅니다</block>
+  <block id="fe146c842cc64934263018d6ec158b7e" category="sidebar">특정 파일을 보려면 데이터를 필터링합니다</block>
+  <block id="ca60961cf2d876d600daca4a1ad60001" category="sidebar">상위 검색을 볼 수 있는 정책을 생성합니다</block>
+  <block id="514f916b25444f3ec0ab113c2706f83a" category="sidebar">주의가 필요한 파일에 태그 및 소유자 적용</block>
+  <block id="b33a306cb7abd3790ba4311eb102a667" category="sidebar">사용자 지정 개인 데이터 식별자를 추가합니다</block>
+  <block id="2987f20ce906ae32ec7e3e192413377f" category="sidebar">원본 파일 이동</block>
+  <block id="40af1406afc061038f5851961a636714" category="sidebar">규정을 준수하지 않는 데이터가 발견되면 이메일 경고를 생성합니다</block>
+  <block id="9293f14feca10eb970a136a34ecc9d8c" category="sidebar">데이터 주체 액세스 요청에 응답합니다</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
+  <block id="c0b7cbffdfa6fa18059367f2045ac22c" category="sidebar">BlueXP 분류 활용 사례</block>
+  <block id="ca37e37afe1d388be7dabea9f8f09ba3" category="sidebar">BlueXP 분류 비디오</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
+  <block id="f93e4e0ba0745745e36a3b67b14a8a5b" category="sidebar">BlueXP 웨비나</block>
 </blocks>

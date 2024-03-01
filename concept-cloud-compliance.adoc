@@ -177,7 +177,10 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 | 시스템 크기 | 사양 | 제한 사항 
 
 
-| 크게(기본값) | CPU 16개, 64GB RAM, 500GiB SSD | 없음 
+| 매우 크게 | 32개의 CPU, 128GB RAM, 1TiB SSD | 최대 5억 개의 파일을 스캔할 수 있습니다. 
+
+
+| 크게(기본값) | CPU 16개, 64GB RAM, 500GiB SSD | 최대 2억 5천만 개의 파일을 스캔할 수 있습니다. 
 
 
 | 중간 | CPU 8개, 32GB RAM, 200GiB SSD | 스캔 속도가 느리며 최대 100만 개의 파일만 스캔할 수 있습니다. 
@@ -185,9 +188,9 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 
 | 작은 크기 | CPU 8개, 16GB RAM, 100GiB SSD | "중간"과 동일한 제한 사항과 식별 기능을 제공합니다 link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["데이터 주체 이름"] 내부 파일이 비활성화되었습니다. 
 |===
-AWS의 클라우드에 BlueXP 분류를 배포할 때 대규모/중간/소규모 인스턴스를 선택할 수 있습니다. Azure 또는 GCP에서 BlueXP 분류를 배포할 때 이러한 소규모 시스템 중 하나를 사용하려면 ng-contact-data-sense@netapp.com 으로 이메일을 보내 지원을 요청하십시오. 이러한 소규모 클라우드 구성을 구축하려면 반드시 협력해야 합니다.
+AWS의 클라우드에 BlueXP 분류를 배포할 때 대규모/중간/소규모 인스턴스를 선택할 수 있습니다. Azure 또는 GCP에서 BlueXP 분류를 구축할 때 이러한 대체 시스템 중 하나를 사용하려면 ng-contact-data-sense@netapp.com 으로 이메일을 보내 지원을 요청하십시오. 이러한 다른 클라우드 구성을 배포하려면 고객과 협력해야 합니다.
 
-BlueXP 분류를 사내에서 배포할 때는 사양이 작은 Linux 호스트를 사용하기만 하면 됩니다. NetApp에 지원을 요청할 필요가 없습니다.
+BlueXP 분류를 온프레미스에 구축할 경우 대체 사양이 있는 Linux 호스트를 사용하면 됩니다. NetApp에 지원을 요청할 필요가 없습니다.
 
 
 
@@ -281,10 +284,10 @@ link:task-deploy-compliance-onprem.html#install-bluexp-classification-on-the-lin
 BlueXP 분류는 데이터(파일)에 범주를 수집, 색인 및 할당합니다. BlueXP 분류 인덱스의 데이터는 다음과 같습니다.
 
 표준 메타데이터:: BlueXP 분류는 파일 유형, 크기, 생성 및 수정 날짜 등의 파일에 대한 표준 메타데이터를 수집합니다.
-개인 데이터:: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보 link:task-controlling-private-data.html#viewing-files-that-contain-personal-data["개인 데이터에 대해 자세히 알아보십시오"^].
-민감한 개인 데이터:: GDPR 및 기타 개인 정보 보호 규정에 정의된 의료 데이터, 인종 또는 정치적 의견과 같은 민감한 정보의 특별한 유형. link:task-controlling-private-data.html#viewing-files-that-contain-sensitive-personal-data["중요한 개인 데이터에 대해 자세히 알아보십시오"^].
-범주:: BlueXP 분류는 스캔한 데이터를 다른 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. link:task-controlling-private-data.html#viewing-files-by-categories["범주에 대해 자세히 알아보십시오"^].
-유형:: BlueXP 분류는 스캔한 데이터를 파일 유형별로 분류하여 표시합니다. link:task-controlling-private-data.html#viewing-files-by-file-types["유형에 대해 자세히 알아보십시오"^].
+개인 데이터:: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보 link:task-controlling-private-data.html#view-files-that-contain-personal-data["개인 데이터에 대해 자세히 알아보십시오"^].
+민감한 개인 데이터:: GDPR 및 기타 개인 정보 보호 규정에 정의된 의료 데이터, 인종 또는 정치적 의견과 같은 민감한 정보의 특별한 유형. link:task-controlling-private-data.html#view-files-that-contain-sensitive-personal-data["중요한 개인 데이터에 대해 자세히 알아보십시오"^].
+범주:: BlueXP 분류는 스캔한 데이터를 다른 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. link:task-controlling-private-data.html#view-files-by-categories["범주에 대해 자세히 알아보십시오"^].
+유형:: BlueXP 분류는 스캔한 데이터를 파일 유형별로 분류하여 표시합니다. link:task-controlling-private-data.html#view-files-by-file-types["유형에 대해 자세히 알아보십시오"^].
 이름 요소 인식:: BlueXP 분류에서는 AI를 사용하여 문서에서 자연인의 이름을 추출합니다. link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["데이터 주체 액세스 요청에 응답하는 방법에 대해 알아봅니다"^].
 
 

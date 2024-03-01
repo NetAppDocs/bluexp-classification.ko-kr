@@ -1,0 +1,99 @@
+---
+indexpage:
+  title: BlueXP 분류 문서
+  summary: BlueXP 분류(클라우드 데이터 감지)를 통해 조직의 하이브리드 멀티 클라우드 전체에서 데이터를 스캔하고 분류할 수 있습니다.
+    BlueXP 분류는 상황별 데이터 분석 및 분류를 위해 AI 기반 자연어 처리(NLP)를 활용하므로, 데이터에 대한 실행 가능한 통찰력을 제공하여
+    규정 준수 요구사항을 해결하고, 보안 취약점을 감지하고, 비용을 최적화하고, 마이그레이션을 신속하게 수행할 수 있습니다.
+  keywords: classification, cloud data sense, data sense, compliance, security
+  lead: BlueXP 분류를 통해 조직의 하이브리드 멀티 클라우드 전반에서 데이터를 스캔하고 분류할 수 있습니다. 분류에서는 상황별 데이터 분석
+    및 분류를 위해 AI 기반 자연어 처리(NLP)를 활용하므로, 데이터에 대한 실행 가능한 통찰력을 제공하여 규정 준수 요구사항을 해결하고,
+    보안 취약점을 감지하며, 비용을 최적화하고, 마이그레이션을 신속하게 수행할 수 있습니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: BlueXP 분류에 대해 알아보십시오
+      url: concept-cloud-compliance.html
+    - title: 새로운 기능
+      url: whats-new.html
+    - title: BlueXP를 사용하여 클라우드에 BlueXP 분류를 배포합니다
+      url: task-deploy-cloud-compliance.html
+    - title: 인터넷을 사용하는 Linux 호스트에 BlueXP 분류를 설치합니다
+      url: task-deploy-compliance-onprem.html
+    - title: 인터넷 없이 BlueXP 분류를 사내 설치
+      url: task-deploy-compliance-dark-site.html
+    - title: Active Directory 통합
+      url: task-add-active-directory-datasense.html
+    - title: 라이센스를 설정합니다
+      url: task-licensing-datasense.html
+  - title: 작업 환경을 스캔합니다
+    links:
+    - title: Cloud Volumes ONTAP 볼륨
+      url: task-getting-started-compliance.html
+    - title: 온프레미스 ONTAP 볼륨
+      url: task-getting-started-compliance.html
+    - title: Azure NetApp Files 볼륨
+      url: task-scanning-anf.html
+    - title: ONTAP 볼륨에 대한 Amazon FSx
+      url: task-scanning-fsx.html
+    - title: Amazon S3 버킷
+      url: task-scanning-s3.html
+  - title: 다른 데이터 소스를 스캔합니다
+    links:
+    - title: 일반 S3 버킷
+      url: task-scanning-object-storage.html
+    - title: 비 NetApp 파일 공유
+      url: task-scanning-file-shares.html
+    - title: 데이터베이스 스키마
+      url: task-scanning-databases.html
+    - title: OneDrive 계정
+      url: task-scanning-onedrive.html
+    - title: SharePoint 계정
+      url: task-scanning-sharepoint.html
+    - title: Google Drive 계정
+      url: task-scanning-google-drive.html
+  - title: 데이터에 대한 세부 정보를 봅니다
+    links:
+    - title: 개인 정보가 포함된 파일을 봅니다
+      url: task-controlling-private-data.html
+    - title: 스토리지에 복제된 파일을 봅니다
+      url: task-investigate-data.html#check-for-duplicate-files-in-your-storage-systems
+    - title: 특정 파일을 보려면 데이터를 필터링합니다
+      url: task-investigate-data.html
+    - title: 상위 검색을 볼 수 있는 정책을 생성합니다
+      url: task-using-policies.html
+    - title: 규정 준수 보고서를 생성합니다
+      url: task-generating-compliance-reports.html
+  - title: 개인 데이터를 구성합니다
+    links:
+    - title: 주의가 필요한 파일에 태그 및 소유자 적용
+      url: task-org-private-data.html#apply-tags-to-manage-your-scanned-files
+    - title: AIP 레이블을 사용하여 데이터를 분류합니다
+      url: task-org-private-data.html#categorize-your-data-using-aip-labels
+    - title: 사용자 지정 개인 데이터 식별자를 추가합니다
+      url: task-managing-data-fusion.html
+  - title: 개인 데이터를 관리합니다
+    links:
+    - title: 원본 파일을 복사합니다
+      url: task-managing-highlights.html#copy-source-files
+    - title: 원본 파일 이동
+      url: task-managing-highlights.html#move-source-files-to-an-nfs-share
+    - title: 원본 파일을 삭제합니다
+      url: task-managing-highlights.html#delete-source-files
+    - title: 규정을 준수하지 않는 데이터가 발견되면 이메일 경고를 생성합니다
+      url: task-using-policies.html#send-email-alerts-when-non-compliant-data-is-found
+    - title: 파일 액세스 이벤트 모니터링 및 관리
+      url: task-manage-file-access-events.html
+    - title: 데이터 주체 액세스 요청에 응답합니다
+      url: task-generating-compliance-reports.html#search-for-data-subjects-and-download-reports
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: BlueXP 분류 활용 사례
+      url: https://bluexp.netapp.com/netapp-cloud-data-sense
+    - title: BlueXP 분류 비디오
+      url: https://youtube.com/playlist?list=PLdXI3bZJEw7m0dFDhu3w6Yqt71Zqyl2Pw
+    - title: BlueXP 블로그
+      url: https://bluexp.netapp.com/blog
+    - title: BlueXP 웨비나
+      url: https://bluexp.netapp.com/events

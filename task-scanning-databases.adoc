@@ -4,7 +4,7 @@ permalink: task-scanning-databases.html
 keywords: cloud compliance, enable cloud compliance, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, databases, database schemas, Oracle, SAP HANA, SQL Server, MongoDB, PostgreSQL, data sense 
 summary: BlueXP 분류를 사용하여 데이터베이스 스키마 스캔을 시작하려면 몇 단계를 완료하십시오. 
 ---
-= 데이터베이스 스키마를 검색하는 중입니다
+= 데이터베이스 스키마를 스캔합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -42,7 +42,7 @@ link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이�
 
 
 
-== 사전 요구 사항 검토
+== 사전 요구 사항을 검토합니다
 
 BlueXP 분류를 활성화하기 전에 다음 필수 구성 요소를 검토하여 지원되는 구성이 있는지 확인하십시오.
 
@@ -83,7 +83,7 @@ BlueXP 분류 인스턴스에 연결된 모든 데이터베이스는 호스팅 �
 
 
 
-== BlueXP 분류 인스턴스 배포
+== BlueXP 분류 인스턴스를 배포합니다
 
 배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.
 
@@ -95,7 +95,7 @@ BlueXP 분류 인스턴스에 연결된 모든 데이터베이스는 호스팅 �
 
 
 
-== 데이터베이스 서버 추가
+== 데이터베이스 서버를 추가합니다
 
 스키마가 있는 데이터베이스 서버를 추가합니다.
 

@@ -4,7 +4,7 @@ permalink: task-controlling-private-data.html
 keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies 
 summary: 조직의 개인 데이터 및 민감한 개인 데이터에 대한 세부 정보를 확인하여 개인 데이터를 제어할 수 있습니다. 또한 데이터에 있는 BlueXP 분류의 범주 및 파일 형식을 검토하여 가시성을 확보할 수도 있습니다. 
 ---
-= 조직에 저장된 데이터에 대한 규정 준수 세부 정보 보기
+= 조직에 저장된 데이터에 대한 규정 준수 세부 정보를 봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -23,13 +23,13 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 
 image:screenshot_compliance_dashboard.png["BlueXP 분류 대시보드 스크린샷"]
 
-일부 작업 환경에 대한 데이터만 보려면 <<특정 작업 환경에 대한 대시보드 데이터 보기,작업 환경을 선택합니다>>.
+일부 작업 환경에 대한 데이터만 보려면 <<특정 작업 환경에 대한 대시보드 데이터를 봅니다,작업 환경을 선택합니다>>.
 
-또한 데이터 조사 페이지에서 결과를 필터링하고 결과 보고서를 CSV 파일로 다운로드할 수도 있습니다. 을 참조하십시오 link:task-investigate-data.html#filtering-data-in-the-data-investigation-page["데이터 조사 페이지의 데이터 필터링"] 를 참조하십시오.
+또한 데이터 조사 페이지에서 결과를 필터링하고 결과 보고서를 CSV 파일로 다운로드할 수도 있습니다. 을 참조하십시오 link:task-investigate-data.html#filter-data-in-the-data-investigation-page["데이터 조사 페이지의 데이터 필터링"] 를 참조하십시오.
 
 
 
-== 개인 데이터가 포함된 파일 보기
+== 개인 데이터가 포함된 파일을 봅니다
 
 BlueXP 분류는 데이터 내에서 특정 단어, 문자열 및 패턴(Regex)을 자동으로 식별합니다. 예를 들어 개인 식별 정보(PII), 신용 카드 번호, 주민 등록 번호, 은행 계좌 번호, 암호, 있습니다. link:reference-private-data-categories.html#types-of-personal-data["전체 목록을 참조하십시오"^]. BlueXP 분류는 디렉터리(공유 및 폴더) 내의 파일 및 데이터베이스 테이블에서 이러한 유형의 정보를 개별 파일에 식별합니다.
 
@@ -61,7 +61,7 @@ image:screenshot_compliance_investigation_page_directory.png["조사 결과 를 
 
 
 
-== 중요한 개인 데이터가 들어 있는 파일 보기
+== 중요한 개인 데이터가 포함된 파일을 봅니다
 
 BlueXP 분류는 와 같은 개인 정보 보호 규정에 따라 민감한 개인 정보의 특수한 유형을 자동으로 식별합니다 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e2051-1-1["GDPR 9조 및 10조"^]. 예를 들어, 개인의 건강, 인종 또는 성적 취향과 관련된 정보를 제공합니다. link:reference-private-data-categories.html#types-of-sensitive-personal-data["전체 목록을 참조하십시오"^]. BlueXP 분류는 디렉터리(공유 및 폴더) 내의 파일 및 데이터베이스 테이블에서 이러한 유형의 정보를 개별 파일에 식별합니다.
 
@@ -87,7 +87,7 @@ image:screenshot_sensitive_personal_files.gif["개인 데이터 형식 옆에 �
 
 
 
-== 범주별로 파일 보기
+== 범주별로 파일을 봅니다
 
 BlueXP 분류는 스캔한 데이터를 다른 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. link:reference-private-data-categories.html#types-of-categories["범주 목록을 참조하십시오"^].
 
@@ -107,7 +107,7 @@ image:screenshot_categories.gif["범주 옆에 있는 조사 결과 아이콘을
 
 
 
-== 파일 형식별로 파일 보기
+== 파일 형식별로 파일을 봅니다
 
 BlueXP 분류는 스캔한 데이터를 파일 유형별로 분류하여 표시합니다. 파일 형식을 검토하면 특정 파일 형식이 올바르게 저장되지 않은 것을 발견할 수 있으므로 중요한 데이터를 제어하는 데 도움이 됩니다. link:reference-private-data-categories.html#types-of-files["파일 형식 목록을 참조하십시오"^].
 
@@ -124,7 +124,7 @@ image:screenshot_file_types.gif["파일 형식 대화 상자의 스크린샷으�
 
 
 
-== 특정 작업 환경에 대한 대시보드 데이터 보기
+== 특정 작업 환경에 대한 대시보드 데이터를 봅니다
 
 BlueXP 분류 대시보드의 내용을 필터링하여 모든 작업 환경 및 데이터베이스에 대한 규정 준수 데이터를 보거나 특정 작업 환경에 대한 규정 준수 데이터를 확인할 수 있습니다.
 
