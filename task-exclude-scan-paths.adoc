@@ -1,0 +1,164 @@
+---
+sidebar: sidebar 
+permalink: task-exclude-scan-paths.html 
+keywords: exclude scans, folders, directories 
+summary: BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 이러한 디렉토리 이름을 구성 파일에 추가할 수 있습니다. 이 변경 사항을 적용하면 BlueXP 분류 엔진에서 해당 디렉토리에서 검사 데이터를 제외합니다. 
+---
+= BlueXP 분류 검사에서 특정 디렉토리를 제외합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 이러한 디렉토리 이름을 구성 파일에 추가할 수 있습니다. 이 변경 사항을 적용하면 BlueXP 분류 엔진에서 해당 디렉토리에서 검사 데이터를 제외합니다.
+
+BlueXP 분류는 기본적으로 볼륨 스냅샷 데이터의 검사가 볼륨 내의 콘텐츠와 동일하기 때문에 볼륨 스냅샷 데이터 검사를 제외하도록 구성됩니다.
+
+이 기능은 BlueXP 분류 버전 1.29 이상에서 사용할 수 있습니다(2024년 3월부터).
+
+
+
+== 지원되는 데이터 소스
+
+BlueXP 분류 검사에서 특정 디렉토리를 제외하면 다음 데이터 소스에서 NFS 및 CIFS 공유에 대해 지원됩니다.
+
+* 온프레미스 ONTAP
+* Cloud Volumes ONTAP
+* NetApp ONTAP용 Amazon FSx
+* Azure NetApp Files
+* 일반 파일 공유
+
+
+
+
+== 스캔에서 제외할 디렉토리를 정의합니다
+
+디렉토리를 분류 스캔에서 제외하려면 먼저 BlueXP 분류 시스템에 로그인해야 구성 파일을 편집하고 스크립트를 실행할 수 있습니다. 자세한 내용은 를 참조하십시오 link:reference-log-in-to-instance.html["BlueXP 분류 시스템에 로그인합니다"] Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.
+
+[NOTE]
+====
+* BlueXP 분류 시스템별로 최대 50개의 디렉토리 경로를 제외할 수 있습니다.
+* 디렉터리 경로를 제외하면 검색 시간에 영향을 줄 수 있습니다.
+
+
+====
+.단계
+. BlueXP 분류 시스템에서 "/opt/netapp/config/custom_configuration"으로 이동하여 파일을 엽니다 `data_provider.yaml`.
+. "data_providers" 섹션의 "exclude:" 줄에 제외할 디렉토리 경로를 입력합니다. 예를 들면 다음과 같습니다.
++
+....
+exclude:
+- "folder1"
+- "folder2"
+....
++
+이 파일의 다른 내용은 변경하지 마십시오.
+
+. 변경 내용을 파일에 저장합니다.
+. "/opt/netapp/datasense/tools/customer_configuration/data_providers"로 이동하여 다음 스크립트를 실행합니다.
++
+ update_data_providers_from_config_file.sh
++
+이 명령은 스캔에서 제외할 디렉토리를 분류 엔진으로 커밋합니다.
+
+
+
+.결과
+이후의 모든 데이터 스캔은 지정된 디렉토리의 스캔을 제외합니다.
+
+이와 동일한 단계를 사용하여 제외 목록에서 항목을 추가, 편집 또는 삭제할 수 있습니다. 수정된 제외 목록은 스크립트를 실행하여 변경 내용을 커밋한 후 업데이트됩니다.
+
+
+
+== 예
+
+.구성 1:
+이름에 "folder1"이 포함된 모든 폴더는 모든 데이터 원본에서 제외됩니다.
+
+....
+data_providers:
+   exclude:
+   - "folder1"
+....
+.제외할 경로에 대한 예상 결과:
+* /CVO1/폴더1
+* /CVO1/folder1name 을 입력합니다
+* /CVO1/폴더10
+* /CVO1/ * 폴더1
+* /CVO1/+folder1name
+* /CVO1/notfolder10 을 참조하십시오
+* /CVO22/폴더1
+* /CVO22/folder1name 을 입력합니다
+* /CVO22/Folder10 을 참조하십시오
+
+
+.제외되지 않을 경로의 예:
+* /CVO1/* 폴더
+* /CVO1/Foldername 을 입력합니다
+* /CVO22/ * folder20
+
+
+.구성 2:
+이름 시작 부분에만 "* folder1"이 포함된 모든 폴더는 제외됩니다.
+
+....
+data_providers:
+   exclude:
+   - "\\*folder1"
+....
+.제외할 경로에 대한 예상 결과:
+* /CVO/ * 폴더1
+* /CVO/ * folder1name
+* /CVO/ * folder10
+
+
+.제외되지 않을 경로의 예:
+* /CVO/폴더1
+* /CVO/folder1name 을 참조하십시오
+* /CVO/Not * folder10
+
+
+.구성 3:
+이름에 "folder1"이 포함된 데이터 원본 "CVO22"의 모든 폴더는 제외됩니다.
+
+....
+data_providers:
+   exclude:
+   - "CVO22/folder1"
+....
+.제외할 경로에 대한 예상 결과:
+* /CVO22/폴더1
+* /CVO22/folder1name 을 입력합니다
+* /CVO22/Folder10 을 참조하십시오
+
+
+.제외되지 않을 경로의 예:
+* /CVO1/폴더1
+* /CVO1/folder1name 을 입력합니다
+* /CVO1/폴더10
+
+
+
+
+== 폴더 이름의 특수 문자를 이스케이프하는 중입니다
+
+다음 특수 문자 중 하나가 포함된 폴더 이름이 있고 해당 폴더의 데이터를 스캔하지 않으려면 폴더 이름 앞에 이스케이프 시퀀스\\\ 를 사용해야 합니다.
+
+ ., +, *, ?, ^, $, (, ), [, ], {, }, |
+예를 들면 다음과 같습니다.
+
+소스의 경로: `/project/*not_to_scan`
+
+제외 파일의 구문: `"\\*not_to_scan"`
+
+
+
+== 현재 제외 목록을 봅니다
+
+의 내용에 사용할 수 있습니다 `data_provider.yaml` 를 실행한 후 실제로 커밋된 구성 파일과 다른 구성 파일 `update_data_providers_from_config_file.sh` 스크립트. BlueXP 분류 검사에서 제외된 디렉토리의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행합니다.
+
+ get_data_providers_configuration.sh

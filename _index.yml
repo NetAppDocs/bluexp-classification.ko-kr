@@ -59,7 +59,7 @@ indexpage:
       url: task-investigate-data.html#check-for-duplicate-files-in-your-storage-systems
     - title: 특정 파일을 보려면 데이터를 필터링합니다
       url: task-investigate-data.html
-    - title: 상위 검색을 볼 수 있는 정책을 생성합니다
+    - title: 상위 검색의 결과를 볼 수 있는 정책을 만듭니다
       url: task-using-policies.html
     - title: 규정 준수 보고서를 생성합니다
       url: task-generating-compliance-reports.html
@@ -71,6 +71,8 @@ indexpage:
       url: task-org-private-data.html#categorize-your-data-using-aip-labels
     - title: 사용자 지정 개인 데이터 식별자를 추가합니다
       url: task-managing-data-fusion.html
+    - title: 스캔에서 특정 디렉토리를 제외합니다
+      url: task-exclude-scan-paths.html
   - title: 개인 데이터를 관리합니다
     links:
     - title: 원본 파일을 복사합니다

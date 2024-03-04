@@ -1654,13 +1654,6 @@
   <block id="6187258d3b87228cf977d535a5db1ea0" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 사용자 파일에 대한 스캔 유형을 선택합니다</block>
   <block id="1a7c4f8acb1e42cdd7c2f34894fc2a2a" category="cell">크게(기본값)</block>
   <block id="9868eea85c69d464c823a4c7e185121a" category="section-title">매핑 스캔과 분류 스캔의 차이점은 무엇입니까</block>
-  <block id="c3828ad11edf9a8e2a0d7bd8910b2ad3" category="section-title">2022년 12월 11일(버전 1.18)</block>
-  <block id="329171a5c817ab7ae03a1497aa6d59fa" category="section-title">사내 설치 기능의 향상</block>
-  <block id="500b30285e1a741b658bc533a0a125a1" category="paragraph">사내 Data Sense 설치를 위해 다음과 같은 개선 사항이 추가되었습니다.</block>
-  <block id="bacf3e82e48abd0e39c6a162b4aa7191" category="list-text">이제 사내 호스트에서 설치를 시작하기 전에 몇 가지 추가 사전 요구 사항을 확인합니다. 이렇게 하면 호스트 시스템이 데이터 감지 소프트웨어를 설치할 준비가 100% 되어 있는지 확인할 수 있습니다.</block>
-  <block id="8e3833fdafa0cd3a63d1fae40cbd74e9" category="list-text">필요한 모든 폴더에 대한 관련 권한을 테스트합니다</block>
-  <block id="36cbb51c271d3c68a01a8599c0fbd2b8" category="list-text">구성 페이지에서 작업 환경 섹션에 이제 _Working Environment ID_ 및 _Scanner Group_이름이 표시됩니다. 데이터 소스를 스캔하기 위해 추가 처리 성능을 제공하기 위해 여러 데이터 감지 호스트를 사용하려는 경우 작업 환경 ID를 알아야 합니다.</block>
-  <block id="73e22396c6474ab27832098f1351b823" category="inline-link">단일 호스트 서버 및 여러 호스트에 Data Sense를 설치하는 방법에 대해 자세히 알아보십시오</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">시작하기 전에</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
   <block id="9c2468c732c2a3c37f5718ed3927f188" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 오브젝트 스토리지의 사전 요구 사항을 검토합니다</block>
@@ -1672,8 +1665,6 @@
   <block id="23dcbd39a65a485d50a0307dbfaed624" category="list-text">다음 스크립트를 실행하여 이 매핑 정보를 모든 스캐너 노드에 등록합니다.<block ref="095075046e7ff767d3fd56d02f6fdfdb" prefix=" " category="inline-code"></block></block>
   <block id="a27db93614949e38a138b99356391903" category="paragraph-title">필수 단계</block>
   <block id="ddeaea1d2d5cacbe438413e4143bca6e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 클라우드 환경에서 S3 요구사항을 설정합니다</block>
-  <block id="c73eb1c0478b9ea7f0699ac7b64d4214" category="list-text">에 충분한 공간이 있는지 테스트합니다<block ref="2e1a4e3f55001820560b237188c70bc3" prefix=" " category="inline-code"></block>,<block ref="d42b9c57d24cf5db3bd8d332dc35437f" prefix=" " category="inline-code"></block>, 및<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block></block>
-  <block id="da8fda88af08dfa86e6c1895e629a7a5" category="list-text">또한 구성 페이지에서 새 섹션에는 설정한 스캐너 그룹과 각 그룹에 있는 스캐너 노드가 표시됩니다.</block>
   <block id="a0bc8fee488c4982eb9cac7b4cd30c5d" category="list-text">커넥터 호스트는 포트 443을 통한 아웃바운드 HTTPS 액세스를 허용해야 합니다. Connector가 클라우드에 있는 경우 모든 아웃바운드 통신은 사전 정의된 방화벽 또는 라우팅 규칙으로 허용됩니다.</block>
   <block id="be8e8316109467c39dd04940dda55d9c" category="list-text">"/opt/netapp/datasense/working_environment_to_scanner_group_config.yml" 파일을 열고 특정 작업 환경을 스캔할 스캐너 그룹의 매핑을 입력합니다. 각 데이터 소스에 대해 _Working Environment ID_가 있어야 합니다. 예를 들어 다음 항목은 "유럽" 스캐너 그룹에 작업 환경 2개를 추가하고 "United_states" 스캐너 그룹에 작업 환경 2개를 추가합니다.</block>
   <block id="1d4c3c5a59e200a8cf6bd280a00b8b39" category="paragraph">아직 선택하지 않은 경우 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다. 스캐너 그룹을 생성한 경우 각 데이터 소스는 해당 그룹의 스캐너 노드에 의해 스캔됩니다.</block>
@@ -2957,7 +2948,6 @@
   <block id="451e723f277a39328c39e790b3d47ebc" category="paragraph">새로운 "부분 성공" 상태는 BlueXP 분류 작업이 완료되었고 일부 항목이 실패했으며 100개의 파일을 이동하거나 삭제하는 등 일부 항목이 성공했음을 나타냅니다. 또한 "완료됨" 상태의 이름이 "성공"으로 변경되었습니다. 과거에는 "완료" 상태에 성공했고 실패한 작업이 나열될 수 있습니다. 이제 "성공" 상태는 모든 작업이 모든 항목에 성공했음을 의미합니다.<block ref="81392bd70242cc4257015d9eb2f1d43a" category="inline-link-rx"></block>.</block>
   <block id="fccd9d5627e0ea943a2decbcedc75caf" category="paragraph">Governance 대시보드에는 중요한 데이터(민감한 개인 데이터 및 민감한 개인 데이터 포함)를 포함하고 지나치게 허용적인 파일의 열 지도를 제공하는 새로운 _Sensitive Data 및 Wide Permissions_영역이 추가되었습니다. 이렇게 하면 민감한 데이터와 관련하여 어떤 위험이 있을 수 있는지 확인할 수 있습니다.<block ref="7c90c3d5fe3f2a4e9ca8ce0d84318210" category="inline-link-rx"></block>.</block>
   <block id="e5047cfc3a021db29e30390a5a0de3c1" category="paragraph">BlueXP 분류는 일본어 개인 번호(내 번호라고도 함)가 포함된 파일을 식별하고 분류할 수 있습니다. 여기에는 개인 및 회사 내 번호가 모두 포함됩니다.<block ref="902797e77ffbfd681f1fc19dad4fefbc" category="inline-link-rx"></block>.</block>
-  <block id="70ef9f0f001698901fc7782c85efbd22" category="paragraph"><block ref="d164dabede0c4e6f2317947d0f40a4c9" category="inline-link-rx"></block>.</block>
   <block id="9aeb191a0aa6c1027436d873f00b71c9" category="paragraph">가능합니다<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.</block>
   <block id="1b01b1e09dd0c52ed6a6d8b4ca2a0568" category="paragraph">클라우드 공급자 환경에 Connector를 만들려면 를 참조하십시오<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>,<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>, 또는<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>.</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
@@ -3317,14 +3307,12 @@
   <block id="c0796e6eb525f9f4fe2a9d96a28d314a" category="list-text">디렉토리 이름</block>
   <block id="ea36f55b106d5d1443d6a1e80c18df3d" category="list-text">디렉토리 소유자</block>
   <block id="0ee0dd7645f9fd01a3094af2719826bf" category="summary">그룹 ID가 NFS 파일 공유의 파일 또는 폴더에 첨부되면 파일 또는 폴더에 대한 사용 권한을 정의합니다(예: "조직에 열려 있음"). 일부 GID(그룹 ID)가 처음에 "Open to Organization" 권한 수준으로 설정되지 않은 경우 GID에 해당 권한을 추가하여 GID가 첨부된 모든 파일 및 폴더가 "Open to the Organization"으로 간주되도록 할 수 있습니다.</block>
-  <block id="9ada56a36c98a6592b93aac97b759b65" category="doc">추가 그룹 ID를 "오픈 투 조직"으로 정의</block>
   <block id="54f4d6ea6929f3157249a7232005ba31" category="paragraph">그룹 ID(GID)가 NFS 파일 공유의 파일 또는 폴더에 첨부되면 파일 또는 폴더에 대한 사용 권한을 정의합니다(예: 해당 GID가 "조직에 열려 있는지"). 일부 GID(그룹 ID)가 처음에 "Open to Organization" 권한 수준으로 설정되지 않은 경우 GID에 해당 권한을 추가하여 GID가 첨부된 모든 파일 및 폴더가 "Open to the Organization"으로 간주되도록 할 수 있습니다.</block>
   <block id="85755c2c4a65adf46f4aed267e145acd" category="paragraph">이렇게 변경하고 BlueXP 분류에서 파일과 폴더를 다시 검사하면 이러한 그룹 ID가 첨부된 모든 파일 및 폴더가 조사 세부 정보 페이지에 이 권한을 표시하고 파일 권한을 표시하는 보고서에도 표시됩니다.</block>
   <block id="c079e3a087379d135bc6228cdbf4538d" category="section-title">BlueXP 분류 시스템에 로그인합니다</block>
   <block id="3e6039a3c9f368f407b293a4cae886e2" category="paragraph">BlueXP 분류가 온프레미스의 Linux 머신 또는 클라우드에 구축한 Linux 시스템에 설치되면 구성 파일 및 스크립트에 직접 액세스할 수 있습니다.</block>
   <block id="aea796c551760c123249c98597ef5dab" category="section-title">그룹 ID에 "조직에 열기" 권한을 추가합니다</block>
   <block id="cab0d8189f1383e6633abad2d8bb10e2" category="paragraph">이 작업을 시작하기 전에 그룹 ID 번호(GID)가 있어야 합니다.</block>
-  <block id="2783de23499f1b6912284079950af328" category="list-text">BlueXP 분류 시스템에서 "/opt/netapp/config/custom_configuration"으로 이동하여 "data_provider.yaml" 파일을 엽니다.</block>
   <block id="f81b0bf85bf2ac124c8235722fd5953b" category="list-text">"organization_group_ids:[]" 줄에 그룹 ID를 추가합니다. 예를 들면 다음과 같습니다.</block>
   <block id="98ab797cb238cc535772dce1663baf49" category="paragraph">이 파일의 다른 내용은 변경하지 마십시오.</block>
   <block id="8a9190ee1ce170537f2281a1fd3efbf8" category="paragraph">이 명령은 수정된 그룹 ID 권한을 분류 엔진에 커밋합니다.</block>
@@ -3336,7 +3324,6 @@
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">추가 그룹 ID를 "조직에 열려 있음"으로 추가</block>
   <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">기존 그룹 ID를 "오픈 투 조직"으로 정의</block>
   <block id="c994485ccd2b31a48f2ec01a7e6462e0" category="list-text">"/opt/netapp/datasense/tools/customer_configuration/data_providers"로 이동하여 다음 스크립트를 실행합니다.</block>
-  <block id="d16189c10d4d8a98db7b1b99d883a1fd" category="paragraph">BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.</block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">이제 그룹이 처음에 해당 권한으로 설정되지 않은 경우, NFS의 그룹 ID를 BlueXP 분류에서 직접 "Open to Organization"으로 간주하도록 구성할 수 있습니다. 이러한 그룹 ID가 첨부된 파일 및 폴더는 조사 세부 정보 페이지에서 "조직에 열기"로 표시됩니다. 자세한 내용은 를 참조하십시오<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>.</block>
   <block id="3fa1e4aec3c930accd20ae2a1e354a79" category="paragraph">BlueXP는 서비스에 대한 REST API 기능을 지원합니다. BlueXP가 선호하는 관리 지점이 아닌 경우 REST API를 통해 BlueXP 분류 등의 서비스를 사용할 수도 있습니다. 모든 사용자 동작에는 타사 시스템과 통합할 수 있는 REST API가 있습니다. 을 참조하십시오 <block ref="6cf6f695e0ddd2cc536783d6e0951a10" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="da4874b0888a9dafc160c24905184d23" category="section-title">ONTAP 볼륨에 있는 스냅샷 복사본이 검사됩니까?</block>
@@ -3465,7 +3452,6 @@
   <block id="117276e96b89d072e0a833596332ef29" category="section-title">데이터베이스 서버를 추가합니다</block>
   <block id="0dacbfa35e4a190378a78ef8c1f6a644" category="section-title">데이터베이스 스키마에서 규정 준수 검사를 활성화 및 비활성화합니다</block>
   <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024년 1월 10일(버전 1.27)</block>
-  <block id="c0aa452130abaadece0c71d90274bb8e" category="section-title">2023년 12월(버전 1.26.6)</block>
   <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">이 릴리스에는 몇 가지 사소한 개선 사항이 포함되어 있습니다.</block>
   <block id="176a42de7f70d82ff8506b6739d7b290" category="paragraph">이 릴리스에서는 다음 옵션도 일시적으로 제거되었습니다.</block>
   <block id="39b6848535d4f2679ee032ca465bba8c" category="list-text">감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다. 을 참조하십시오 <block ref="01ac4154b50639da0a94f22ce7059c7f" category="inline-link-macro-rx"></block>.</block>
@@ -3512,7 +3498,6 @@
   <block id="f72e4f10556fdc1e84c715407cbda16b" category="sidebar">개인 정보가 포함된 파일을 봅니다</block>
   <block id="53aba5c7ba7952b6d58e9dfb83a4516e" category="sidebar">스토리지에 복제된 파일을 봅니다</block>
   <block id="fe146c842cc64934263018d6ec158b7e" category="sidebar">특정 파일을 보려면 데이터를 필터링합니다</block>
-  <block id="ca60961cf2d876d600daca4a1ad60001" category="sidebar">상위 검색을 볼 수 있는 정책을 생성합니다</block>
   <block id="514f916b25444f3ec0ab113c2706f83a" category="sidebar">주의가 필요한 파일에 태그 및 소유자 적용</block>
   <block id="b33a306cb7abd3790ba4311eb102a667" category="sidebar">사용자 지정 개인 데이터 식별자를 추가합니다</block>
   <block id="2987f20ce906ae32ec7e3e192413377f" category="sidebar">원본 파일 이동</block>
@@ -3524,4 +3509,68 @@
   <block id="ca37e37afe1d388be7dabea9f8f09ba3" category="sidebar">BlueXP 분류 비디오</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="f93e4e0ba0745745e36a3b67b14a8a5b" category="sidebar">BlueXP 웨비나</block>
+  <block id="8180cc16c2c6f5d6b650c76944d52252" category="summary">BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 이러한 디렉토리 이름을 구성 파일에 추가할 수 있습니다. 이 변경 사항을 적용하면 BlueXP 분류 엔진에서 해당 디렉토리에서 검사 데이터를 제외합니다.</block>
+  <block id="f6af5e23cd22bc5f1b7833ad602a5c38" category="doc">BlueXP 분류 검사에서 특정 디렉토리를 제외합니다</block>
+  <block id="bea0fd574e5a5abde1c8262dbd6e2370" category="paragraph">BlueXP 분류는 기본적으로 볼륨 스냅샷 데이터의 검사가 볼륨 내의 콘텐츠와 동일하기 때문에 볼륨 스냅샷 데이터 검사를 제외하도록 구성됩니다.</block>
+  <block id="efebf801e240ae82ed1c434305548b38" category="paragraph">이 기능은 BlueXP 분류 버전 1.29 이상에서 사용할 수 있습니다(2024년 3월부터).</block>
+  <block id="0abc7ce542155915b82311c6450bea62" category="paragraph">BlueXP 분류 검사에서 특정 디렉토리를 제외하면 다음 데이터 소스에서 NFS 및 CIFS 공유에 대해 지원됩니다.</block>
+  <block id="49fe103d0a39e5feeddf772106a8122e" category="list-text">일반 파일 공유</block>
+  <block id="cf2e31e61b9c0d3547f54fc506e4b383" category="section-title">스캔에서 제외할 디렉토리를 정의합니다</block>
+  <block id="78e986fa820c103dbcc45ed24bd2f383" category="paragraph">디렉토리를 분류 스캔에서 제외하려면 먼저 BlueXP 분류 시스템에 로그인해야 구성 파일을 편집하고 스크립트를 실행할 수 있습니다. 자세한 내용은 를 참조하십시오 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.</block>
+  <block id="bc6218284832af039faeb4c497e97a18" category="list-text">BlueXP 분류 시스템별로 최대 50개의 디렉토리 경로를 제외할 수 있습니다.</block>
+  <block id="66a7b6ae1af91171aaf4ecc7afd0b7d0" category="list-text">디렉터리 경로를 제외하면 검색 시간에 영향을 줄 수 있습니다.</block>
+  <block id="2e19c6096e07e117219780aee7f88c45" category="list-text">BlueXP 분류 시스템에서 "/opt/netapp/config/custom_configuration"으로 이동하여 파일을 엽니다<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block>.</block>
+  <block id="6e0803e8653caacbe1a019f32eda00bb" category="list-text">"data_providers" 섹션의 "exclude:" 줄에 제외할 디렉토리 경로를 입력합니다. 예를 들면 다음과 같습니다.</block>
+  <block id="5a0dfd405c0424a01f42cdb7e596d91c" category="list-text">변경 내용을 파일에 저장합니다.</block>
+  <block id="d661ab86a14960e8bcf6cdfa727299d1" category="paragraph">이 명령은 스캔에서 제외할 디렉토리를 분류 엔진으로 커밋합니다.</block>
+  <block id="21f183efd2dff70b58a99d83fc4f0ce7" category="paragraph">이후의 모든 데이터 스캔은 지정된 디렉토리의 스캔을 제외합니다.</block>
+  <block id="a495b8035b743d8b7dea2d9d0918de77" category="paragraph">이와 동일한 단계를 사용하여 제외 목록에서 항목을 추가, 편집 또는 삭제할 수 있습니다. 수정된 제외 목록은 스크립트를 실행하여 변경 내용을 커밋한 후 업데이트됩니다.</block>
+  <block id="ff7c0fcd6a31e735a61c001f75426961" category="section-title">예</block>
+  <block id="0440227581515c72236de5a764242d5c" category="paragraph-title">구성 1:</block>
+  <block id="8c0f7ed2eea737d19ff087745c78f4ae" category="paragraph">이름에 "folder1"이 포함된 모든 폴더는 모든 데이터 원본에서 제외됩니다.</block>
+  <block id="d6d0a43c6c69d1f785258f09797e96a2" category="list-title">제외할 경로에 대한 예상 결과:</block>
+  <block id="0d30977fecaa90640135943496e20863" category="list-text">/CVO1/폴더1</block>
+  <block id="8eb7d336cfc030df3afe89d5c289514d" category="list-text">/CVO1/folder1name 을 입력합니다</block>
+  <block id="9f2d1aa2824b0506dd1e80da3eaebd63" category="list-text">/CVO1/폴더10</block>
+  <block id="15fb383027ef8fbe15d374b2efc33994" category="list-text">/CVO1/ * 폴더1</block>
+  <block id="569806d3b5250620ff0f137d85df73c4" category="list-text">/CVO1/+folder1name</block>
+  <block id="d6f23bc30d0950bf24b440de3579ee1f" category="list-text">/CVO1/notfolder10 을 참조하십시오</block>
+  <block id="7e3057c60782470bd7f0c765e4d614b9" category="list-text">/CVO22/폴더1</block>
+  <block id="b18ea64bfd5aa27240193320e354bfeb" category="list-text">/CVO22/folder1name 을 입력합니다</block>
+  <block id="6fdf0a8d667f474107a56d7566260558" category="list-text">/CVO22/Folder10 을 참조하십시오</block>
+  <block id="7c9e22babb20d95a6ccacbc12c6e72db" category="list-title">제외되지 않을 경로의 예:</block>
+  <block id="ec2b190a955f29720921cc8e6a67731d" category="list-text">/CVO1/* 폴더</block>
+  <block id="0856e33548ceb338ab56d993d8281098" category="list-text">/CVO1/Foldername 을 입력합니다</block>
+  <block id="14b8fac51101a115be8405f9d25adf0c" category="list-text">/CVO22/ * folder20</block>
+  <block id="ce6c202454d84db0a51ee3b673259d76" category="paragraph-title">구성 2:</block>
+  <block id="cd10b67d6b72e9152aca54085862e630" category="paragraph">이름 시작 부분에만 "* folder1"이 포함된 모든 폴더는 제외됩니다.</block>
+  <block id="33114d8cd4f5562094ea8f71798fab0c" category="list-text">/CVO/ * 폴더1</block>
+  <block id="07099186c5910fc2467ae1b4757b70f3" category="list-text">/CVO/ * folder1name</block>
+  <block id="b96768cc207dc3d7940a06aed4482e49" category="list-text">/CVO/ * folder10</block>
+  <block id="129853dc73d0231d5c812823e2480cba" category="list-text">/CVO/폴더1</block>
+  <block id="c855f79110a45e3cf4ee4a2e9f07d01c" category="list-text">/CVO/folder1name 을 참조하십시오</block>
+  <block id="5b6734714cb7b0ac3b7b695994d18616" category="list-text">/CVO/Not * folder10</block>
+  <block id="d3b9102bc3b45248bbfec3ec65c81ffd" category="paragraph-title">구성 3:</block>
+  <block id="c962d247f3d6cbb96db748ddbc8947d0" category="paragraph">이름에 "folder1"이 포함된 데이터 원본 "CVO22"의 모든 폴더는 제외됩니다.</block>
+  <block id="85aafa7a10a33b1a6b3edd3a981f3e09" category="section-title">폴더 이름의 특수 문자를 이스케이프하는 중입니다</block>
+  <block id="555e1283533f2fd2406da22eb7c48543" category="paragraph">다음 특수 문자 중 하나가 포함된 폴더 이름이 있고 해당 폴더의 데이터를 스캔하지 않으려면 폴더 이름 앞에 이스케이프 시퀀스\\\ 를 사용해야 합니다.</block>
+  <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">예를 들면 다음과 같습니다.</block>
+  <block id="f6b342a69edf320338b3f72b95931768" category="paragraph">소스의 경로:<block ref="4cd339ff39aca9d50d4472947a989dc1" prefix=" " category="inline-code"></block></block>
+  <block id="457d08b230361da11684b35702d5d114" category="paragraph">제외 파일의 구문:<block ref="656c9e12809cee621e2abce3032674d0" prefix=" " category="inline-code"></block></block>
+  <block id="3d704d8a7dea04055fa8e435fb3ba4a4" category="section-title">현재 제외 목록을 봅니다</block>
+  <block id="ce591271bee64e6f1ef9a4585a8a1142" category="paragraph">의 내용에 사용할 수 있습니다<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block> 를 실행한 후 실제로 커밋된 구성 파일과 다른 구성 파일<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block> 스크립트. BlueXP 분류 검사에서 제외된 디렉토리의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행합니다.</block>
+  <block id="75377d4edffa6c8df90ec35a6c2955ae" category="section-title">특정 디렉터리에서 스캔 데이터를 제외하도록 서비스를 지시할 수 있습니까?</block>
+  <block id="140079c23bf99666acb52cc8f9b453cb" category="paragraph">예. BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 해당 목록을 분류 엔진에 제공할 수 있습니다. 변경 사항을 적용하면 BlueXP 분류에서 지정된 디렉토리에 있는 검사 데이터를 제외합니다.</block>
+  <block id="cccdbfa223764cc2c6bbdf979c65ac39" category="paragraph"><block ref="8704cac21d49e5e6ff202bcfdaf0dcb0" category="inline-link-macro-rx"></block>.</block>
+  <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024년 3월 4일(버전 1.29)</block>
+  <block id="2155776a968fa3c23d5147a57832435f" category="section-title">이제 특정 데이터 소스 디렉토리에 있는 데이터 검사를 제외할 수 있습니다</block>
+  <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 이러한 디렉토리 이름을 BlueXP 분류 프로세스를 수행하는 구성 파일에 추가할 수 있습니다. 이 기능을 사용하면 불필요한 디렉터리를 검색하지 않거나 잘못된 개인 데이터 결과를 반환할 수 있습니다.</block>
+  <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>.</block>
+  <block id="7cda33697c25a4972bdbfab414004cc2" category="section-title">2023년 12월 14일(버전 1.26.6)</block>
+  <block id="a1663078538acf931413c4667ee4dc32" category="doc">추가 그룹 ID를 조직에 공개됨으로 정의합니다</block>
+  <block id="14262b7b54453519cfa73f76b2652616" category="section-title">현재 그룹 ID 목록을 봅니다</block>
+  <block id="30e7ed02f97ac1e08032a6f980412c4b" category="paragraph">의 내용에 사용할 수 있습니다<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block> 를 실행한 후 실제로 커밋된 구성 파일과 다른 구성 파일<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block> 스크립트. BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.</block>
+  <block id="2238095e02de090e407d911c0f0f1e9f" category="sidebar">상위 검색의 결과를 볼 수 있는 정책을 만듭니다</block>
+  <block id="3e01ecaa94897c14b8a0c8eb76bf0c93" category="sidebar">스캔에서 특정 디렉토리를 제외합니다</block>
+  <block id="c7d804294d8fa0d1ba6bfc80ead25ca0" category="sidebar">스캔에서 디렉토리를 제외합니다</block>
 </blocks>

@@ -4,7 +4,7 @@ permalink: task-add-group-id-as-open.html
 keywords: permissions, open to organization, file access 
 summary: '그룹 ID가 NFS 파일 공유의 파일 또는 폴더에 첨부되면 파일 또는 폴더에 대한 사용 권한을 정의합니다(예: "조직에 열려 있음"). 일부 GID(그룹 ID)가 처음에 "Open to Organization" 권한 수준으로 설정되지 않은 경우 GID에 해당 권한을 추가하여 GID가 첨부된 모든 파일 및 폴더가 "Open to the Organization"으로 간주되도록 할 수 있습니다.' 
 ---
-= 추가 그룹 ID를 "오픈 투 조직"으로 정의
+= 추가 그룹 ID를 조직에 공개됨으로 정의합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -27,13 +27,14 @@ summary: '그룹 ID가 NFS 파일 공유의 파일 또는 폴더에 첨부되면
 이 작업을 시작하기 전에 그룹 ID 번호(GID)가 있어야 합니다.
 
 .단계
-. BlueXP 분류 시스템에서 "/opt/netapp/config/custom_configuration"으로 이동하여 "data_provider.yaml" 파일을 엽니다.
+. BlueXP 분류 시스템에서 "/opt/netapp/config/custom_configuration"으로 이동하여 파일을 엽니다 `data_provider.yaml`.
 . "organization_group_ids:[]" 줄에 그룹 ID를 추가합니다. 예를 들면 다음과 같습니다.
 +
  organization_group_ids: [1014, 1015, 21, 2021, 1013, 2020, 1018, 1019]
 +
 이 파일의 다른 내용은 변경하지 마십시오.
 
+. 변경 내용을 파일에 저장합니다.
 . "/opt/netapp/datasense/tools/customer_configuration/data_providers"로 이동하여 다음 스크립트를 실행합니다.
 +
  update_data_providers_from_config_file.sh
@@ -42,10 +43,15 @@ summary: '그룹 ID가 NFS 파일 공유의 파일 또는 폴더에 첨부되면
 
 
 
+.결과
 이후의 모든 데이터 검사는 이러한 그룹 ID가 "조직 공개"로 첨부된 파일 또는 폴더를 식별합니다.
 
 이와 동일한 단계를 사용하여 그룹 ID 목록을 편집하고 이전에 추가한 그룹 ID를 삭제할 수 있습니다. 수정된 그룹 ID 목록은 스크립트를 실행하여 변경 내용을 커밋한 후에 업데이트됩니다.
 
-BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.
+
+
+== 현재 그룹 ID 목록을 봅니다
+
+의 내용에 사용할 수 있습니다 `data_provider.yaml` 를 실행한 후 실제로 커밋된 구성 파일과 다른 구성 파일 `update_data_providers_from_config_file.sh` 스크립트. BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.
 
  get_data_providers_configuration.sh

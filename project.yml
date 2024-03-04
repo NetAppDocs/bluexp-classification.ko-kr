@@ -88,6 +88,8 @@ sidebar:
     entries:
     - title: 사용자 지정 개인 데이터 식별자를 추가합니다
       url: "/task-managing-data-fusion.html"
+    - title: 스캔에서 디렉토리를 제외합니다
+      url: "/task-exclude-scan-paths.html"
     - title: BlueXP 분류 작업의 상태를 봅니다
       url: "/task-view-compliance-actions.html"
     - title: 기존 그룹 ID를 "오픈 투 조직"으로 정의
