@@ -3573,4 +3573,13 @@
   <block id="2238095e02de090e407d911c0f0f1e9f" category="sidebar">상위 검색의 결과를 볼 수 있는 정책을 만듭니다</block>
   <block id="3e01ecaa94897c14b8a0c8eb76bf0c93" category="sidebar">스캔에서 특정 디렉토리를 제외합니다</block>
   <block id="c7d804294d8fa0d1ba6bfc80ead25ca0" category="sidebar">스캔에서 디렉토리를 제외합니다</block>
+  <block id="6505788c29b47651fe2e94f0607a2ef7" category="section-title">이제 더 큰 인스턴스 지원이 가능합니다</block>
+  <block id="1647534ed4603d68f73fd3f261af9b65" category="paragraph">2억 5천만 개 이상의 파일을 스캔하기 위해 BlueXP 분류가 필요한 경우 클라우드 구축 또는 온프레미스 설치에서 초대형 인스턴스를 사용할 수 있습니다. 이 유형의 시스템은 최대 5억 개의 파일을 스캔할 수 있습니다.</block>
+  <block id="1b4f4b549e0860b1392190bfc2a23f81" category="paragraph"><block ref="1eef614f77c6908f78f84cb1847e2ab8" category="inline-link-rx"></block>.</block>
+  <block id="9b751021fe03877034959f96cd4215c8" category="cell">32개의 CPU, 128GB RAM, 1TiB GP3 SSD</block>
+  <block id="208031164ce87fe17cb9a0ed2c215c9d" category="inline-link">m6i.8x 대형</block>
+  <block id="e29d39e8b73232f4d7b95d15d9f1add1" category="cell"><block ref="0285aa638d8bc84a14485422bcb58514" category="inline-link-rx"></block> (기본값)</block>
+  <block id="49aabd686b53c6afa598f1b2279c7966" category="cell">32개의 CPU, 128GB RAM, 1TiB SSD(최소 처리량 750MB/s)</block>
+  <block id="02201d429f7390acabd29e5c0c6e22e2" category="inline-link">Standard_D32_v3</block>
+  <block id="f15da40a9b4a1b9d1900476ba761ddf8" category="cell"><block ref="98fbfccb7d937f28be2761c9fd869045" category="inline-link-rx"></block> (기본값)</block>
 </blocks>

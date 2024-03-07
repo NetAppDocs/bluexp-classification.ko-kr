@@ -29,6 +29,9 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 | 시스템 크기 | 사양 | 인스턴스 유형 
 
 
+| 매우 크게 | 32개의 CPU, 128GB RAM, 1TiB GP3 SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.8x 대형"^] (기본값) 
+
+
 | 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xLarge"^] (기본값) m6a.4xLarge m5a.4xLarge m5.4xLarge m4.4xLarge 
 
 
@@ -44,6 +47,9 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 [cols="20,30,25"]
 |===
 | 시스템 크기 | 사양 | 인스턴스 유형 
+
+
+| 매우 크게 | 32개의 CPU, 128GB RAM, 1TiB SSD(최소 처리량 750MB/s) | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dv3-series["Standard_D32_v3"^] (기본값) 
 
 
 | 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3"^] (기본값) 
