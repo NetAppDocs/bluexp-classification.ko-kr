@@ -49,7 +49,7 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 | 시스템 크기 | 사양 | 인스턴스 유형 
 
 
-| 매우 크게 | 32개의 CPU, 128GB RAM, 1TiB SSD(최소 처리량 750MB/s) | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dv3-series["Standard_D32_v3"^] (기본값) 
+| 매우 크게 | 32개의 CPU, 128GB RAM, OS 디스크(2,048GiB, 최소 250MB/s 처리량) 및 데이터 디스크(1TiB SSD, 최소 750MB/s 처리량) | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dv3-series["Standard_D32_v3"^] (기본값) 
 
 
 | 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3"^] (기본값) 

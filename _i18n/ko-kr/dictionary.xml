@@ -3579,7 +3579,7 @@
   <block id="9b751021fe03877034959f96cd4215c8" category="cell">32개의 CPU, 128GB RAM, 1TiB GP3 SSD</block>
   <block id="208031164ce87fe17cb9a0ed2c215c9d" category="inline-link">m6i.8x 대형</block>
   <block id="e29d39e8b73232f4d7b95d15d9f1add1" category="cell"><block ref="0285aa638d8bc84a14485422bcb58514" category="inline-link-rx"></block> (기본값)</block>
-  <block id="49aabd686b53c6afa598f1b2279c7966" category="cell">32개의 CPU, 128GB RAM, 1TiB SSD(최소 처리량 750MB/s)</block>
   <block id="02201d429f7390acabd29e5c0c6e22e2" category="inline-link">Standard_D32_v3</block>
   <block id="f15da40a9b4a1b9d1900476ba761ddf8" category="cell"><block ref="98fbfccb7d937f28be2761c9fd869045" category="inline-link-rx"></block> (기본값)</block>
+  <block id="7c6b159592aa05d7d8934685f5b0c4c8" category="cell">32개의 CPU, 128GB RAM, OS 디스크(2,048GiB, 최소 250MB/s 처리량) 및 데이터 디스크(1TiB SSD, 최소 750MB/s 처리량)</block>
 </blocks>
