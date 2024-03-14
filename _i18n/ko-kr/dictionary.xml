@@ -2477,7 +2477,6 @@
   <block id="b1cfb802271338af5bae746aee65d68f" category="paragraph">예. BlueXP 분류는 BlueXP와 완전히 통합되어 있습니다. BlueXP 사용자는 작업 영역 권한에 따라 볼 수 있는 작업 환경에 대한 정보만 볼 수 있습니다.</block>
   <block id="78d74c7ac59dc7722ad434f3b07f8c77" category="paragraph">또한 특정 사용자가 BlueXP 분류 설정을 관리할 수 없는 상태에서 BlueXP 분류 검사 결과만 볼 수 있도록 하려면 해당 사용자에게 Cloud Compliance Viewer 역할을 할당할 수 있습니다.</block>
   <block id="baa3d508ff34a4c15a58d71fbe4f0e0f" category="section-title">내 브라우저와 BlueXP 분류 간에 전송되는 개인 데이터에 누구나 액세스할 수 있습니까?</block>
-  <block id="7dea17d7c4e7f3bb29ea4243e638d5bf" category="paragraph">아니요 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 개인 데이터는 엔드 투 엔드 암호화로 보호되므로 NetApp과 타사에서 데이터를 읽을 수 없습니다. BlueXP 분류는 액세스를 요청하고 승인하지 않는 한 NetApp과 데이터 또는 결과를 공유하지 않습니다.</block>
   <block id="d85edc022c467b1de0d062bc4f4215b5" category="paragraph">BlueXP 분류는 오브젝트 스토리지에 콜드 데이터가 계층화된 볼륨을 검사할 때 로컬 디스크에 있는 모든 데이터와 오브젝트 스토리지에 계층화된 콜드 데이터를 검사합니다. 이는 계층화를 구현하는 NetApp 제품이 아닌 경우에도 마찬가지입니다.</block>
   <block id="f56bd4fda221a92df45e4216f8b75da7" category="section-title">BlueXP 분류가 조직에 알림을 보낼 수 있습니까?</block>
   <block id="b1855bdbeb4a91ab4dc5cedfdb491dbf" category="section-title">BlueXP 분류는 내 파일에 포함된 AIP 레이블과 함께 사용할 수 있습니까?</block>
@@ -2723,7 +2722,6 @@
   <block id="e1c6fd17dccbebfc440207f27d59459b" category="list-text">BlueXP 분류는 파일 유형, 크기, 생성 및 수정 날짜 등의 파일에 대한 표준 메타데이터를 수집합니다.</block>
   <block id="8546288939f901d3a1276b7f9e394f46" category="list-text">BlueXP 분류에서는 AI를 사용하여 문서에서 자연인의 이름을 추출합니다. <block ref="3e345053a8e9ce1c3eacafd31ce8d78d" category="inline-link-macro-rx"></block>.</block>
   <block id="6baaa35b9d6c708af7920a94de9f3951" category="paragraph">BlueXP는 Connector 인스턴스의 인바운드 HTTP 연결을 활성화하는 보안 그룹과 함께 BlueXP 분류 인스턴스를 배포합니다.</block>
-  <block id="be23e27acb2e7fab8227de3a00bddee1" category="paragraph">SaaS 모드에서 BlueXP를 사용할 경우 HTTPS를 통해 BlueXP에 연결되고 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 개인 데이터는 엔드-투-엔드 암호화로 보호되므로 NetApp과 타사에서 해당 데이터를 읽을 수 없습니다.</block>
   <block id="b7753345b24c98f72b73e9e641a456d7" category="paragraph">아웃바운드 규칙은 완전히 열립니다. BlueXP 분류 소프트웨어를 설치 및 업그레이드하고 사용 지표를 전송하려면 인터넷 액세스가 필요합니다.</block>
   <block id="def03cca1b6cd44fc1ef14e712a6c792" category="inline-link-macro">BlueXP 분류 접촉부에 대한 엔드포인트에 대해 알아보십시오</block>
   <block id="80cef547cabd3e510ea56f58ec10a12e" category="paragraph">네트워킹 요구 사항이 엄격하면 <block ref="a5023c570d3c1110eead6b3e84b02871" category="inline-link-macro-rx"></block>.</block>
@@ -3582,4 +3580,6 @@
   <block id="02201d429f7390acabd29e5c0c6e22e2" category="inline-link">Standard_D32_v3</block>
   <block id="f15da40a9b4a1b9d1900476ba761ddf8" category="cell"><block ref="98fbfccb7d937f28be2761c9fd869045" category="inline-link-rx"></block> (기본값)</block>
   <block id="7c6b159592aa05d7d8934685f5b0c4c8" category="cell">32개의 CPU, 128GB RAM, OS 디스크(2,048GiB, 최소 250MB/s 처리량) 및 데이터 디스크(1TiB SSD, 최소 750MB/s 처리량)</block>
+  <block id="f3c46003464601608d44d2644affcce1" category="paragraph">SaaS 모드에서 BlueXP에 연결할 때 HTTPS를 통해 BlueXP에 연결되며 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 프라이빗 데이터는 TLS 1.2를 사용하는 엔드 투 엔드 암호화로 보안이 유지됩니다. 즉, NetApp과 타사가 이 데이터를 읽을 수 없습니다.</block>
+  <block id="522910fcbd37d9f1fe242ff7c7cde8db" category="paragraph">아니요 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 프라이빗 데이터는 TLS 1.2를 사용하여 엔드 투 엔드 암호화로 보안이 유지됩니다. 즉, NetApp과 타사가 이 데이터를 읽을 수 없습니다. BlueXP 분류는 액세스를 요청하고 승인하지 않는 한 NetApp과 데이터 또는 결과를 공유하지 않습니다.</block>
 </blocks>
