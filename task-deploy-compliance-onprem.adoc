@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman, install bluexp classification 
 summary: 네트워크의 Linux 호스트 또는 인터넷 액세스가 가능한 클라우드의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 가지 단계를 완료하십시오. 이 설치의 일부로 네트워크 또는 클라우드에 Linux 호스트를 수동으로 배포해야 합니다. 
 ---
 = 인터넷에 액세스할 수 있는 호스트에 BlueXP 분류를 설치합니다
@@ -162,11 +162,11 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 *** Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)
 
 
-** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.26 이상이 필요합니다.
+** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.30 이상이 필요합니다.
 +
-*** Red Hat Enterprise Linux 버전 9.0, 9.1 및 9.2
+*** Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2 및 9.3
 +
-RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.
+RHEL 8.x 및 RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.
 
 +
 **** 어두운 장소에 설치
@@ -186,14 +186,17 @@ RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니�
 +
 https://youtu.be/Ogoufel1q6c["이 비디오 시청"^] CentOS에 Docker를 설치하는 빠른 데모를 보려면
 
-*** Podman 버전 4 이상 Podman을 설치하려면 시스템 패키지를 업데이트하십시오 (`sudo yum update -y`)를 클릭한 다음 Podman을 설치합니다 (`sudo yum install podman -y`)를 클릭합니다.
+*** Podman 버전 4 이상 Podman을 설치하려면 시스템 패키지를 업데이트하십시오 (`sudo yum update -y`)를 클릭한 다음 Podman을 설치합니다 (`sudo yum install netavark -y`)를 클릭합니다.
 
 
-** Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
 
 
-* * NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP Connector 시스템 간에 시간을 동기화해야 합니다.
-* * Firewalld 고려 사항 *: 사용하려는 경우 `firewalld`BlueXP 분류를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 따라서 BlueXP 분류와 호환됩니다.
+
+
+* Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
++
+** * NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP Connector 시스템 간에 시간을 동기화해야 합니다.
+** * Firewalld 고려 사항 *: 사용하려는 경우 `firewalld`BlueXP 분류를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 따라서 BlueXP 분류와 호환됩니다.
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -215,6 +218,8 @@ firewall-cmd --permanent --add-port=4789/udp
 ....
 +
 Docker 또는 Podman을 활성화 또는 업데이트할 때마다 다시 시작해야 합니다 `firewalld` 설정.
+
+
 
 
 
@@ -574,7 +579,7 @@ image:screenshot_client_access_token.png["인증 지침 링크가 포함된 API 
 
 . 스캐너 그룹에 스캐너 노드를 추가한 경우 관리자 노드로 돌아가 다음 두 가지 작업을 수행합니다.
 +
-.. "/opt/netapp/datasense/working_environment_to_scanner_group_config.yml" 파일을 열고 특정 작업 환경을 스캔할 스캐너 그룹의 매핑을 입력합니다. 각 데이터 소스에 대해 _Working Environment ID_가 있어야 합니다. 예를 들어 다음 항목은 "유럽" 스캐너 그룹에 작업 환경 2개를 추가하고 "United_states" 스캐너 그룹에 작업 환경 2개를 추가합니다.
+.. "/opt/netapp/config/custom_configuration/working_environment_to_scanner_group_config.yml" 파일을 열고 특정 작업 환경을 스캔할 스캐너 그룹의 매핑을 입력합니다. 각 데이터 소스에 대해 _Working Environment ID_가 있어야 합니다. 예를 들어 다음 항목은 "유럽" 스캐너 그룹에 작업 환경 2개를 추가하고 "United_states" 스캐너 그룹에 작업 환경 2개를 추가합니다.
 +
 ....
 scanner_groups:

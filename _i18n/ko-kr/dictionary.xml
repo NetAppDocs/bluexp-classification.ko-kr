@@ -1323,7 +1323,6 @@
   <block id="d572e0d4b826c4aedc53e9ebf7b16a8f" category="list-text">스캔 구성 페이지에서 모든 리포지토리에 대한 스캔 설정을 볼 수 있습니다.</block>
   <block id="80442a9b9f6c43539008be8521ce5283" category="paragraph">구성 페이지에서 언제든지 작업 환경에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 시작하거나 중지할 수 있습니다. 매핑 전용 스캔에서 매핑 및 분류 스캔으로, 또는 그 반대로 변경할 수도 있습니다.</block>
   <block id="d2c070afb22765e227addc428b9bb43d" category="inline-image-macro">버킷에 대한 스캔 유형을 선택하는 방법을 보여 주는 스크린샷</block>
-  <block id="8d501a2dffff147be5f9997f70b34348" category="paragraph"><block ref="8d501a2dffff147be5f9997f70b34348" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a4bff1a8423db1d5e3d7178be9560749" category="paragraph">특정 유형의 작업 환경에서는 페이지 맨 위에 있는 단추 모음을 사용하여 모든 리포지토리에 대해 전역적으로 스캔 유형을 변경할 수 있습니다. Cloud Volumes ONTAP, On-Premises ONTAP, Azure NetApp Files 및 Amazon FSx for ONTAP 시스템에 대해 유효합니다.</block>
   <block id="648f292c272072450d20c88db515b454" category="paragraph">아래 예는 Azure NetApp Files 시스템에 대한 이 단추 모음을 보여줍니다.</block>
   <block id="b0d05a288f1ee1691adac4ca34c54fca" category="inline-image-macro">작업 환경의 모든 볼륨에 대해 동일한 스캔 설정을 구성하는 방법을 보여 주는 스크린샷</block>
@@ -1351,7 +1350,6 @@
   <block id="b91992584de04476d486c6819d26aaf3" category="list-text">파일 이동 * 을 클릭합니다.</block>
   <block id="bf3aeefcdd65b55f2612004f45b7257f" category="inline-image-macro">버킷이 스캔되고 있는지 여부 및 현재 스캔 상태를 보여주는 스크린샷.</block>
   <block id="69c5667893c99e5a388e892cc9784e66" category="paragraph"><block ref="69c5667893c99e5a388e892cc9784e66" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ecc7450cf52e0d0d89139603b07ea706" category="paragraph">커서를 _Scan Status_ 열의 차트 위로 이동하면 각 리포지토리에서 매핑하거나 분류할 수 있는 남은 파일 수를 볼 수 있습니다(이 예제의 버킷).</block>
   <block id="1a8f03950c641e2ffffb33146f70ef55" category="admonition">매핑 전용 검색으로 데이터베이스를 설정할 수 없습니다. 데이터베이스 스캐닝은 Off(끄기) 또는 On(켜기)일 수 있습니다. On(켜짐)은 Map &amp; Classify(맵 및 분류)와 동일합니다.</block>
   <block id="1ce92447664cc42f3e2c04aaf8570862" category="cell">뉴질랜드 은행 계좌</block>
   <block id="2be885677b02540592a1f44b87ee5fb9" category="cell">뉴질랜드 IRD 번호(세금 ID)</block>
@@ -1666,7 +1664,6 @@
   <block id="a27db93614949e38a138b99356391903" category="paragraph-title">필수 단계</block>
   <block id="ddeaea1d2d5cacbe438413e4143bca6e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 클라우드 환경에서 S3 요구사항을 설정합니다</block>
   <block id="a0bc8fee488c4982eb9cac7b4cd30c5d" category="list-text">커넥터 호스트는 포트 443을 통한 아웃바운드 HTTPS 액세스를 허용해야 합니다. Connector가 클라우드에 있는 경우 모든 아웃바운드 통신은 사전 정의된 방화벽 또는 라우팅 규칙으로 허용됩니다.</block>
-  <block id="be8e8316109467c39dd04940dda55d9c" category="list-text">"/opt/netapp/datasense/working_environment_to_scanner_group_config.yml" 파일을 열고 특정 작업 환경을 스캔할 스캐너 그룹의 매핑을 입력합니다. 각 데이터 소스에 대해 _Working Environment ID_가 있어야 합니다. 예를 들어 다음 항목은 "유럽" 스캐너 그룹에 작업 환경 2개를 추가하고 "United_states" 스캐너 그룹에 작업 환경 2개를 추가합니다.</block>
   <block id="1d4c3c5a59e200a8cf6bd280a00b8b39" category="paragraph">아직 선택하지 않은 경우 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다. 스캐너 그룹을 생성한 경우 각 데이터 소스는 해당 그룹의 스캐너 노드에 의해 스캔됩니다.</block>
   <block id="00c5c673cfa296bce54ec77743dbf5a5" category="paragraph">구성 페이지에서 각 작업 환경에 대한 스캐너 그룹 이름을 볼 수 있습니다.</block>
   <block id="1f3259fd3977a2467ab298df6a6d44d1" category="paragraph">또한 구성 페이지 아래쪽에 있는 그룹의 각 스캐너 노드에 대한 IP 주소 및 상태와 함께 모든 스캐너 그룹 목록을 볼 수 있습니다.</block>
@@ -1968,7 +1965,6 @@
   <block id="8e477b6128906752f1b086a48c07fef7" category="list-text">관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예:<block ref="2478484d96d8c17b7752fd15d3b26f12" prefix=" " category="inline-code"></block>)를 입력하고 텍스트 파일에 저장합니다.</block>
   <block id="20aa1bbdb0fac9cadb849e6ab2887670" category="sidebar">BlueXP를 사용하여 클라우드에 배포합니다</block>
   <block id="7c454725651fa93e75c3603da01e3ae2" category="sidebar">인터넷에 액세스할 수 있는 Linux 호스트에 설치합니다</block>
-  <block id="34c631136a1ff65c0e2a718e56622097" category="sidebar">인터넷에 접속하지 않고 내부에 설치합니다</block>
   <block id="2b55387dd066c5bac646ac61543d152d" category="cell">CPU</block>
   <block id="05289cee10f1f9057410b216de0d7e36" category="cell">RAM(스왑 메모리는 비활성화 상태여야 함)</block>
   <block id="380dbc8d9d2c8a17f6ebb0b2c62d3e85" category="cell">디스크</block>
@@ -2009,38 +2005,8 @@
   <block id="04857641e7994338feb506f5b60ebeb0" category="section-title">GCP 인스턴스 유형</block>
   <block id="dd654e120269d83d0f32a6f695b8bab9" category="cell"><block ref="fc953708959f6784e56436278d753426" category="inline-link-rx"></block> (기본값) n2d-standard-16 n1-standard-16</block>
   <block id="aebeafb9d6b45d6e3629685737b0b510" category="doc">파일 액세스 이벤트 모니터링 및 관리</block>
-  <block id="4189ddcc75f1e8d4ba9a48d4e7f2fa48" category="inline-link">FPolicy 기능</block>
-  <block id="686e697538050e4664636337cc3b834f" category="list-text">생성</block>
-  <block id="7a1a5f3e79fdc91edf2f5ead9d66abb4" category="list-text">읽기</block>
-  <block id="1129c0e4d43f2d121652a7302712cff6" category="list-text">쓰기</block>
-  <block id="904a8304056d77e4547744781b7ceb50" category="list-text">이름 바꾸기</block>
   <block id="f2a6c498fb90ee345d997f888fce3b18" category="list-text">삭제</block>
-  <block id="f6b6083eeb29d215e1928471f349dbd8" category="list-text">소유자/권한을 변경합니다</block>
-  <block id="5cd5baa540f42504034e49f94c495d5b" category="list-text">SACL/DACL(Access Control List) 변경 사항 변경</block>
-  <block id="f98b8c01d34111418a2366beacd14ada" category="paragraph">"계정 관리자" 또는 "작업 영역 관리자" 역할을 가진 BlueXP 사용자는 파일 액세스 감사 로깅을 위한 볼륨을 구성할 수 있으며 감사 로그를 보고 다운로드할 수 있습니다. "Compliance Viewer" 역할을 가진 사용자는 감사 로그만 보고 다운로드할 수 있습니다.</block>
   <block id="10eaa67ba3824a947cec2803e682249a" category="list-text">온프레미스 ONTAP</block>
-  <block id="de7a9ded100f5ab68960785a7977419c" category="section-title">파일 액세스 감사 로깅을 위한 볼륨을 구성합니다</block>
-  <block id="80027566e31a879d1baef50d58692dc4" category="paragraph">개별 볼륨에서 파일 액세스 감사 로깅을 활성화하여 파일 및 디렉토리의 변경 사항을 추적할 수 있습니다.</block>
-  <block id="9d0e2b2eb032ffd4efa13096caae567a" category="list-text">데이터 원본에 대한 _Scan Configuration_ 페이지에서 를 클릭합니다 <block ref="50acd719b1954eb4890c002b3b5e71a6" category="inline-image-macro-rx" type="image"></block> 볼륨에 대해 * 파일 액세스 감사 구성 * 을 선택합니다.</block>
-  <block id="c791f5a696fa23cbe4c6c1b76be84e2f" category="inline-image-macro">파일 액세스 로깅을 활성화할 볼륨을 선택하는 스크린샷</block>
-  <block id="df0da4611bcc736388ba21984af1f174" category="paragraph"><block ref="df0da4611bcc736388ba21984af1f174" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8e9c52df3325dfedde0e8bb4b2c520ec" category="list-text">Configure File Access Audit_ 대화 상자에서 * Enable logging of file access events * 확인란을 클릭하고 * Save * 를 클릭합니다.</block>
-  <block id="86c7e2b4da263969c3a2b3ea5a998ce8" category="paragraph">이 때 모든 잠재적 로깅 작업은 기본적으로 선택되며 편집할 수 없습니다.</block>
-  <block id="c3e22ea8facda03b7f5f7e8991838e19" category="inline-image-macro">볼륨에 대한 로깅을 설정 및 비활성화하고 기록할 작업을 선택하는 대화 상자의 스크린 샷</block>
-  <block id="744ed2aff35218670e523298fcffeeb2" category="paragraph"><block ref="744ed2aff35218670e523298fcffeeb2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9a2c4d598beb3c9bc8e390cae73ed5e0" category="list-text">이제 해당 볼륨에 대해 파일 액세스 감사가 활성화되어 있음을 알 수 있습니다.</block>
-  <block id="760fa6a53e99af41106fb9a484537801" category="inline-image-macro">특정 볼륨에 대해 파일 액세스 감사 로깅이 활성화되어 있음을 보여 주는 스크린샷</block>
-  <block id="128380149729d40c8a7f08ebcf71b393" category="paragraph"><block ref="128380149729d40c8a7f08ebcf71b393" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a11ed4a6864c5bc8fd26866333740e8b" category="paragraph">활성화된 볼륨의 파일에 대해 생성된 모든 파일 액세스 이벤트가 로그 파일에 추가됩니다. 로그 파일을 가끔 확인하여 수신 중인 이벤트 유형을 확인합니다.</block>
-  <block id="2da4d8c5bc0edc06ac63f3c95d761c7b" category="section-title">파일 액세스 감사 로그 파일에 액세스합니다</block>
-  <block id="a02f04e5cf15eab34e36540d19d919c6" category="inline-xref">파일 액세스 감사 로그 구성 페이지에서 이 값을 사용자 지정할 수 있습니다.</block>
-  <block id="f1232e8f69c85f39de4569648f81f7d8" category="section-title">파일 액세스 감사 로그 설정을 구성합니다</block>
-  <block id="03dbd1b5fc01bd9510606278903a28bc" category="cell">감사 로그 옵션</block>
-  <block id="d13e01ef2af0326f4f5a6e15fee2c4bc" category="cell">로그 파일 위치</block>
-  <block id="00fc8ad0777a7d04155f0aea1a460364" category="cell">감사 로그에 대한 최대 스토리지 할당</block>
-  <block id="e78e3ddb79416e357c114831c02be2ac" category="cell">디렉토리에 있는 모든 로그 파일의 총 크기는 현재 50GB의 기본값으로 하드 코딩되어 있습니다. 이 제한에 도달하면 가장 오래된 로그 파일이 자동으로 삭제됩니다.</block>
-  <block id="b98e5f30ca3cd0f113adc1ab13a39525" category="cell">감사 파일당 최대 감사 이벤트 수입니다</block>
-  <block id="5046b3bc48bd37acc83c5000548deccc" category="paragraph">이러한 설정은 현재 기본 설정으로 하드 코딩되어 있습니다. 변경할 수 없습니다.</block>
   <block id="8b6c5ced74ae32d25c3f6ebff98f9529" category="inline-link">Connector On-Premises를 설치합니다</block>
   <block id="d86d903b07bcdf54c0633484d605d52a" category="inline-link">정부 지역에서 커넥터 배포에 대한 자세한 내용은 을 참조하십시오</block>
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link-macro">사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오</block>
@@ -2303,12 +2269,6 @@
   <block id="2875279e7093015cd8ccf93240c548e9" category="paragraph"><block ref="2875279e7093015cd8ccf93240c548e9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e7fa07083790a8112d00af542356ec88" category="paragraph">기본적으로 데이터 보호(DP) 볼륨은 외부에서 노출되지 않고 BlueXP 분류에서 액세스할 수 없기 때문에 스캔되지 않습니다. 이는 사내 ONTAP 시스템 또는 Cloud Volumes ONTAP 시스템에서 SnapMirror 작업을 위한 타겟 볼륨입니다.</block>
   <block id="7c0a9b3e555cf595d3d01d33df76df82" category="list-text">소스 ONTAP 시스템에서 CIFS 볼륨으로 처음 생성된 볼륨을 사용하려면 CIFS 자격 증명을 입력하여 해당 DP 볼륨을 스캔해야 합니다. BlueXP 분류에서 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 이미 입력한 경우 해당 자격 증명을 사용하거나 다른 관리자 자격 증명 집합을 지정할 수 있습니다.</block>
-  <block id="52887b7fa084c02e609d7372dfab4740" category="paragraph">BlueXP 분류는 현재 파일 및 디렉토리에 대해 다음 작업에 대한 이벤트를 캡처합니다.</block>
-  <block id="f8a450637ddb6668a04ea30131e3a1e2" category="paragraph">BlueXP 분류가 사내 Linux 시스템이나 클라우드에 배포한 Linux 시스템에 설치되어 있는 경우 로그 파일로 직접 이동할 수 있습니다.</block>
-  <block id="c025349cd3a26a699951f8e578938046" category="paragraph">BlueXP 분류를 클라우드에 배포하면 BlueXP 분류 인스턴스에 SSH를 사용해야 합니다. 사용자 및 암호를 입력하거나 BlueXP Connector 설치 중에 제공한 SSH 키를 사용하여 시스템에 SSH를 수행합니다. SSH 명령은 다음과 같습니다.</block>
-  <block id="cbe58906292040b6d0a07fdaf6ed1e88" category="paragraph">파일 액세스 감사 파일 로그에 대해 구성할 수 있는 세 가지 옵션이 있습니다. 이러한 설정은 이 BlueXP 분류 인스턴스에 대한 파일 액세스 감사 로깅을 구성한 모든 데이터 원본에 적용됩니다. 이러한 설정은 BlueXP classification_Configuration_페이지의 _ 파일 액세스 감사 로그_ 섹션에서 구성합니다.</block>
-  <block id="1298747359e74466e6df21c2af0f081a" category="inline-image-macro">BlueXP 분류 구성 페이지의 감사 로그에 대한 구성 설정을 보여 주는 스크린샷</block>
-  <block id="daf5086072abb79f9e77f3bde2069552" category="paragraph"><block ref="daf5086072abb79f9e77f3bde2069552" category="inline-image-macro-rx" type="image"></block></block>
   <block id="784e4b64058d5e48385415f461c592f1" category="summary">Azure NetApp Files용 BlueXP 분류를 시작하려면 몇 가지 단계를 완료하십시오.</block>
   <block id="8c845b2820fb0d62f8438c10638d6c1d" category="doc">Azure NetApp Files에 대한 BlueXP 분류 시작</block>
   <block id="8d50e02b2718494115c81eb90fb74ae8" category="list-text">BlueXP 분류 인스턴스에는 각 Azure NetApp Files 서브넷에 대한 네트워크 연결이 필요합니다.</block>
@@ -2483,7 +2443,6 @@
   <block id="44d5aeda44eb4d5cf4e34a77d73348a0" category="paragraph">예. 에 가입한 경우 BlueXP 분류에서 검색하는 파일의 AIP 레이블을 관리할 수 있습니다<block ref="dc81bb027ada9d4ecc15bb9933242e3a" category="inline-link-rx"></block>. 파일에 이미 할당된 레이블을 보고, 파일에 레이블을 추가하고, 기존 레이블을 변경할 수 있습니다.</block>
   <block id="a243387e3677f17692394ce770a377f8" category="section-title">BlueXP 분류로 스캔할 수 있는 데이터 소스는 무엇입니까?</block>
   <block id="af0ca0f7eeb04884e0718a50bbcfb74d" category="paragraph">BlueXP 분류는 BlueXP Canvas에 추가한 작업 환경과 BlueXP 분류가 네트워크를 통해 액세스할 수 있는 다양한 유형의 정형 및 비정형 데이터 소스에서 데이터를 검색할 수 있습니다.</block>
-  <block id="33131c83033941e511576a90476300a6" category="paragraph">BlueXP 분류는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.</block>
   <block id="4f554b82a208efb281c300628a271b8e" category="section-title">인터넷 액세스 없이 사이트에 BlueXP 분류를 설치할 경우 어떤 데이터 소스를 검색할 수 있습니까?</block>
   <block id="bc90c1660d729d86ab10b8018a956932" category="paragraph">BlueXP 분류는 모든 파일에서 범주 및 메타데이터 정보를 검색하고 대시보드의 파일 형식 섹션에 모든 파일 형식을 표시합니다.</block>
   <block id="6352911cc42108d1f16863e618ef84d4" category="paragraph">BlueXP 분류에서 PII(개인 식별 정보)를 감지하거나 DSAR 검색을 수행할 때 다음 파일 형식만 지원됩니다.</block>
@@ -2524,7 +2483,6 @@
   <block id="50d06b6efd74f95cfab72bc9b5d467e6" category="paragraph">다음 표에서 "기본값"으로 표시된 시스템을 BlueXP 분류를 설치하는 지역에서 사용할 수 없는 경우 표의 다음 시스템이 배포됩니다.</block>
   <block id="11f000270c03dc2a6cc3e9a5e9262aa8" category="summary">Linux 호스트에 수동으로 BlueXP 분류를 설치하기 전에 호스트에서 스크립트를 실행하여 BlueXP 분류를 설치하기 위한 모든 필수 구성 요소가 준비되어 있는지 확인할 수 있습니다. 이 스크립트는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서 실행할 수 있습니다. 호스트를 인터넷에 연결할 수도 있고, 호스트가 인터넷에 액세스할 수 없는 사이트에 상주할 수도 있습니다.</block>
   <block id="7c7a9443e0597003702e5cc73c6d075a" category="doc">Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인합니다</block>
-  <block id="5be349c248e5fa17aa6ffbde157637c2" category="paragraph">Linux 호스트에 수동으로 BlueXP 분류를 설치하기 전에 호스트에서 스크립트를 실행하여 BlueXP 분류를 설치하기 위한 모든 필수 구성 요소가 준비되어 있는지 확인할 수 있습니다. 이 스크립트는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서 실행할 수 있습니다. 호스트를 인터넷에 연결할 수 있거나 호스트가 인터넷에 액세스할 수 없는 사이트("어두운 사이트")에 상주할 수 있습니다.</block>
   <block id="b739631d891333c2d4cfa4c6421ccdcb" category="paragraph">BlueXP 분류 설치 스크립트의 일부인 필수 테스트 스크립트도 있습니다. 여기에 설명된 스크립트는 BlueXP 분류 설치 스크립트를 실행하는 것과 독립적으로 Linux 호스트를 확인하려는 사용자를 위해 특별히 설계되었습니다.</block>
   <block id="4b764befa0cb902227f07313a78b10cd" category="list-text">BlueXP 커넥터가 아직 설치되지 않은 경우 설치할 수도 있습니다. Connector를 설치하지 않고 테스트 스크립트를 실행할 수 있지만 스크립트는 Connector와 BlueXP 분류 호스트 시스템 간의 연결을 검사하므로 Connector를 사용하는 것이 좋습니다.</block>
   <block id="5db707242c7622101c2fde4b257ef0c8" category="list-text">BlueXP 분류 호스트 시스템에서 아웃바운드 인터넷 액세스를 활성화합니다.</block>
@@ -2606,7 +2564,6 @@
   <block id="c07dbec3e7acd472789625d35a7563da" category="paragraph">BlueXP 분류는 Amazon S3 및 데이터베이스를 제외한 모든 데이터 소스 유형의 디렉토리 스캔을 지원합니다. 현재 단일 디렉토리(폴더 또는 공유) 또는 여러 디렉토리 재검색 기능을 지원합니다. 향후 지원에는 추가 리포지토리 유형(파일, 데이터베이스 등)을 다시 스캔하는 것이 포함됩니다.</block>
   <block id="eb069b124d02b06908e1071cc2edae80" category="summary">데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 그러나 매우 작은 충격에도 신경 쓰면 BlueXP 분류를 구성하여 "느린" 스캔을 수행할 수 있습니다.</block>
   <block id="97ef33fd9429f1df7d0c8f2bd514652f" category="doc">BlueXP 분류 스캔 속도를 줄입니다</block>
-  <block id="640f79fe2c11ee3747373fdc28e64b1d" category="doc">인터넷에 액세스할 수 없는 호스트에 BlueXP 분류를 설치합니다</block>
   <block id="4f7157701d2db96edcc01457067a6771" category="inline-link-macro">인터넷에 액세스할 수 있는 사내 사이트에 BlueXP 분류를 배포합니다</block>
   <block id="90815e3d99ff61b4887b2f941fff4e46" category="paragraph">참고: 또한 이 기능을 사용할 수 있습니다 <block ref="1a9c56cdde8c9a93a744fbe95f12b64a" category="inline-link-macro-rx"></block>.</block>
   <block id="e883a1e45b8fba8675ed0e79f4a46200" category="paragraph">BlueXP 분류 설치 스크립트는 시스템 및 환경이 필수 전제 조건을 충족하는지 확인하는 것으로 시작됩니다. 필수 구성 요소가 모두 충족되면 설치가 시작됩니다. BlueXP 분류 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다. <block ref="18e558c0c5f7db863c39638301013423" category="inline-link-macro-rx"></block>.</block>
@@ -2681,8 +2638,6 @@
   <block id="2826eed8d124e5d52a95532d0b9950e8" category="paragraph">단일 사용자의 Google Drive 파일만 단일 Google Drive 계정의 일부이므로, 사용자의 Google Drive 계정에서 파일 검색을 중지하려면 다음을 수행해야 합니다 <block ref="c538a591b5c01fbf9978450f780e18b6" category="inline-link-macro-rx"></block>.</block>
   <block id="bc2de28feb42e568f3e122df8d001559" category="summary">BlueXP 분류는 회사의 온프레미스 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별하는 BlueXP용 데이터 거버넌스 서비스입니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="doc">BlueXP 분류에 대해 알아보십시오</block>
-  <block id="e8790e96e4416af5e4645d1f865b0000" category="inline-link">BlueXP 분류의 사용 사례에 대해 알아보십시오</block>
-  <block id="af7129dd58c04459ae6112027e903370" category="paragraph"><block ref="5283a57d4ad95c132cb0d2b34d8f7498" category="inline-link-rx"></block>.</block>
   <block id="71e39030d4b3b241d51a6ce6c9ce8bd7" category="paragraph">BlueXP 분류에서는 인공 지능(AI), 자연어 처리(NLP) 및 머신 러닝(ML)을 사용하여 엔터티를 추출하고 그에 따라 콘텐츠를 범주화하기 위해 검색하는 콘텐츠를 파악합니다. 이를 통해 BlueXP 분류는 다음과 같은 기능 영역을 제공할 수 있습니다.</block>
   <block id="840d233bacdf6f0129b122ee5eb8f00f" category="paragraph">BlueXP 분류는 규정 준수 노력에 도움이 되는 여러 가지 도구를 제공합니다. BlueXP 분류를 사용하여 다음을 수행할 수 있습니다.</block>
   <block id="20301ae66154125117e3007e9a481f55" category="list-text">데이터베이스의 고유 식별자가 다른 저장소의 파일에 있는지 확인합니다. 기본적으로 BlueXP 분류 검사에서 식별된 "개인 데이터" 목록을 만듭니다.</block>
@@ -2833,31 +2788,7 @@
   <block id="3304fa5a3260dac4f8f51ddd7ca9e5f3" category="sidebar">BlueXP 분류 스캔 속도를 줄입니다</block>
   <block id="54892fa61b1eb6050fbd342fbf8e2218" category="sidebar">BlueXP 분류에서 데이터 소스를 제거합니다</block>
   <block id="997bc9ee8834fdaee5b662f9a2bd743f" category="sidebar">BlueXP 분류를 제거합니다</block>
-  <block id="44b48aa0d2158361e53832315034f513" category="paragraph">예를 들어 중요한 직원 파일이나 급여 파일이 변경된 시기를 추적하려는 경우 이러한 파일이 있는 볼륨에서 이 기능을 사용하도록 설정할 수 있습니다. 그런 다음 파일 액세스 감사 로그를 보고 이러한 파일이 변경되었는지 확인할 수 있습니다. 변경 사항이 있는 경우 변경을 수행한 사람의 SID(보안 식별자)와 변경 시점을 확인할 수 있습니다.</block>
-  <block id="c7f8db8434f3e3057bca29922b597e31" category="paragraph">BlueXP 분류는 다음 데이터 소스의 ONTAP 볼륨에 있는 파일에 대한 파일 액세스 이벤트를 기록할 수 있습니다.</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">NetApp ONTAP용 Amazon FSx</block>
-  <block id="64067288b8531fcd99186eba6a8c23b0" category="paragraph">데이터 원본은 ONTAP 버전 9.11 이상의 소프트웨어를 실행해야 합니다.</block>
-  <block id="266321178f48dd580597ebe11b4ed93e" category="list-text">BlueXP 분류에서 파일에 액세스한 사람의 ID를 나열할 수 있도록 데이터 원본에 대해 Active Directory를 구성해야 합니다.</block>
-  <block id="c59b99fd4a78f457a5e94a037bb88563" category="list-text">BlueXP 분류 시스템에서 아웃바운드 액세스를 위해서는 포트 5018이 열려 있어야 합니다.</block>
-  <block id="4d2cf95eb79434a26117b70f40109d70" category="paragraph">파일 액세스 이벤트를 추적하도록 구성한 모든 볼륨에 대해 로그 파일이 생성됩니다. 로그 파일의 이름은 "&lt;volume_name&gt;_&lt;volume_uuid&gt;_.log"입니다. 예를 들어 "FPolicy_CIFS_838c1727-dd2d-11ed-a3ec-590ce4991.log"입니다. 감사 로그의 각 줄에는 다음 형식의 정보가 포함되어 있습니다.</block>
-  <block id="d3369c54154da78d99f4f3934bb84f8f" category="list-text">Timestamp - 이벤트의 날짜 및 시간입니다</block>
-  <block id="4fe39ce84cbfb175d3002259d9f4de1e" category="list-text">클라이언트 IP - 파일 작업이 수행된 인스턴스/PC/프록시의 IP 주소입니다</block>
-  <block id="abc097a42e084882f0b5057b088f61bd" category="list-text">Volume Name - 볼륨의 이름입니다</block>
-  <block id="dbad63ce70d94484137fd2bcee25dc1c" category="list-text">볼륨 UUID - 볼륨의 UUID입니다</block>
-  <block id="ff8a55161214e6aa8d081013df298e9d" category="list-text">파일 형식 - 파일 형식 또는 DIR입니다</block>
-  <block id="64256f21f179e353ec3d64543426b9ac" category="list-text">File Size - 파일 크기(바이트)입니다</block>
-  <block id="69de0dc8b418fef573ebde0673a1eae6" category="list-text">Path - 영향을 받는 파일 또는 디렉토리의 전체 경로 및 이름입니다</block>
-  <block id="3c08f92438e4ac1c4646bf56ca891fa9" category="list-text">Volume Type - 볼륨의 유형으로 SMB 또는 NFS입니다</block>
-  <block id="04dad560a21879bc6d32b8e30f651a71" category="list-text">사용자 ID - 작업을 수행한 사람의 SID(보안 식별자)입니다</block>
-  <block id="cb4c145642d6cf35e5d4a33ece6b7833" category="list-text">파일 소유자 ID - 파일 소유자의 SID(보안 식별자)입니다</block>
-  <block id="46892b1d18541880bb4ef3ee2f331f45" category="list-text">이벤트 유형 - 만들기, 읽기, 쓰기, 이름 바꾸기, 삭제, 소유자/권한을 변경하거나 SACL/DACL을 변경합니다</block>
-  <block id="ae99dae6f6384006aeadebbab894f370" category="list-text">작업 세부 정보 - 수행한 작업: 작업에 따라 다릅니다</block>
-  <block id="e4e81dbf5cdcb72e814265ea01d1f3eb" category="paragraph">예를 들어, 로그 파일에서 다음 행은 볼륨 "FPolicy_CIFS"에서 "Create" 작업이 발생했다는 것을 나타냅니다. 즉, 볼륨에 새 파일 "F14"가 생성되었습니다.</block>
-  <block id="e5f8c207227297bb2868689eb39d6520" category="paragraph">BlueXP 분류 조사 페이지를 사용하여 볼륨("저장소 저장소" 필터 사용) 또는 파일("파일/디렉터리 경로" 필터 사용)을 검색하여 영향을 받는 볼륨 및 파일에 대한 자세한 정보를 볼 수 있습니다.</block>
-  <block id="d83435d800785132bce0e54bcaa13373" category="paragraph">각 파일은 기본적으로 최대 50,000개의 이벤트를 포함하도록 구성됩니다. <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 이 최대값에 도달하면 로그 파일의 이전 항목을 덮어씁니다.</block>
-  <block id="55b3e20fcb82b08c30a902311468d3c8" category="paragraph">디렉토리의 모든 로그 파일의 총 크기는 기본적으로 최대 50GB로 설정됩니다. <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 이 제한에 도달하면 새 로그 파일이 추가되면 가장 오래된 로그 파일이 삭제됩니다. 또한 14일이 지난 모든 로그 파일은 최대 보존 시간이므로 덮어쓰게 됩니다.</block>
-  <block id="a0381bb8e5ebb77d0c9d2d40db0d1fe3" category="list-text">&lt;datasense_ip&gt; = BlueXP 분류 가상 머신 인스턴스의 IP 주소입니다</block>
-  <block id="190e59fe3d6a787439b4b5c2c989f6bf" category="cell">각 파일은 현재 최대 50,000개의 이벤트를 포함하도록 하드코딩되어 있습니다. 이 최대값에 도달하면 새 이벤트가 추가되면서 이전 이벤트가 삭제됩니다.</block>
   <block id="a1c4e88cdf8e157dbb344fe556f58d28" category="paragraph">BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="6af032d0de89339877509ae11ea19c63" category="paragraph">SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하고 검색 유형을 선택합니다. 한 번에 최대 100개의 URL을 추가할 수 있으며 각 계정에 대해 최대 1,000개의 사이트를 추가할 수 있습니다.</block>
   <block id="ef7e50ee52c97b486ba02e2d652aeb20" category="paragraph">개별 SharePoint 사이트 또는 최대 1,000개의 SharePoint 사이트를 계정에 추가하여 관련 파일을 BlueXP 분류로 검색할 수 있습니다. SharePoint Online 또는 SharePoint 온-프레미스 사이트를 추가하든 단계는 동일합니다.</block>
@@ -3046,8 +2977,6 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="218b1b5040dd27f37c3fab6adea21bff" category="paragraph">데이터 소스가 제거되면 데이터 스캔 충전이 중지됩니다.</block>
   <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04는 BlueXP 분류에 지원되는 운영 체제로 검증되었습니다. 설치 프로그램의 버전 1.23을 사용하는 경우 네트워크의 Ubuntu Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>.</block>
-  <block id="3e102feedd861186d57f6a85de9de541" category="paragraph">파일 액세스 감사 로그 파일은 BlueXP 분류 시스템의 다음 위치에 있습니다.<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
-  <block id="7f16356d7b675ed76686e591ad5dc661" category="cell">현재 로그 파일을 쓸 수 있도록 위치가 하드코딩되어 있습니다<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
   <block id="34c688a0843dc19a0624e151973b37a7" category="cell">500GiB SSD 켜짐/또는
 /opt에서 -100GiB를 사용할 수 있습니다
 /var/lib/docker에서 사용 가능한 395GiB
@@ -3062,8 +2991,6 @@
 /tmp에 -5GiB입니다</block>
   <block id="0a10409b2f38332b7a7c8f820fc0edd5" category="inline-link">이 비디오 시청</block>
   <block id="d56adb545fe9309fc7a4cfd339798344" category="paragraph">단일 온-프레미스 호스트에 BlueXP 분류 소프트웨어를 설치할 때 요구 사항을 검토하고 다음 단계를 따르십시오.</block>
-  <block id="7273543485153af36bd67d8d37fe08b3" category="summary">검사 중인 파일 중 하나에 액세스하거나 변경할 때마다 이벤트에 기록하도록 BlueXP 분류를 구성할 수 있습니다. 그런 다음 이 로그 파일(파일 액세스 감사 로그)의 내용을 보거나 다운로드하여 어떤 파일 변경이 발생했는지, 누가 변경했는지 확인할 수 있습니다.</block>
-  <block id="145ca78924109b125fb405dc2644ebba" category="paragraph">ONTAP 소프트웨어를 실행하는 작업 환경의 중요 볼륨에서 이 기능을 활성화할 수 있습니다. 볼륨에서 활성화된 경우 볼륨의 모든 파일 및 디렉토리에 대해 파일 액세스 이벤트가 추적됩니다. 이 기능은 를 기반으로 합니다<block ref="215c8ae39ab5aa2af1bf0d7956d6ac15" category="inline-link-rx"></block> ONTAP 시스템에서 BlueXP 분류 시스템을 FPolicy 서버로 사용하여 ONTAP의 알림 메시지(이벤트)를 수신합니다. BlueXP 분류는 ONTAP에서 초당 약 990개의 이벤트를 처리할 수 있습니다.</block>
   <block id="809de3d4b48cba202a3e92df9b5646ca" category="paragraph">BlueXP 분류를 더 이상 사용하지 않으려는 경우 클라우드 공급자 환경에서 BlueXP 분류 인스턴스를 제거하고 삭제할 수 있습니다.</block>
   <block id="7b608a074398a486bc744655598680ea" category="list-text">데이터 감지 제거 대화 상자에서 * 제거 * 를 입력하여 BlueXP 커넥터에서 BlueXP 분류 인스턴스를 분리할지 확인한 다음 * 제거 * 를 클릭합니다.</block>
   <block id="f10f83db534963d9efae7a297e100091" category="list-text">클라우드 공급자의 콘솔로 이동하여 BlueXP 분류 인스턴스를 삭제합니다. 인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_</block>
@@ -3113,12 +3040,10 @@
   <block id="1ac31bbf670e91966ab52da26d845a13" category="paragraph">다음 검사 후 결과에는 이 새 정보가 "개인 결과" 섹션의 준수 대시보드 및 "개인 데이터" 필터의 조사 페이지에 포함됩니다. 분류자에 사용한 이름이 필터 목록에 나타납니다(예:)<block ref="4a5be64948722957979f804944a2f3b4" prefix=" " category="inline-code"></block>.</block>
   <block id="afad61c0157650446d7dd3c6d21a14e6" category="inline-image-macro">사용자 지정 분류자의 키워드를 입력하는 스크린샷</block>
   <block id="10f58dd452f46270c630a34534611bc1" category="paragraph"><block ref="10f58dd452f46270c630a34534611bc1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1d1397279bf894721deb3fa47481478d" category="paragraph">을 참조하십시오<block ref="58ff2edcee6f09ed29d8b1fa3d90f44d" category="inline-link-rx"></block> 정규식을 작성하는 데 도움이 필요한 경우 원하는 맛을 내려면 * Python * 을 선택하여 BlueXP 분류가 정규식에서 일치하는 결과의 유형을 확인하십시오.</block>
   <block id="c010468930979e106d9f7ed3eb1af1fb" category="admonition">현재 정규식 생성 시 패턴 플래그 사용을 허용하지 않습니다. 즉, "/"를 사용하면 안 됩니다.</block>
   <block id="6fbfdb8194a5bee71195edc43d8d917c" category="inline-image-macro">사용자 지정 분류자의 regex 및 근접 단어를 입력하는 스크린샷</block>
   <block id="3d6c90f327764becd63dc600a2c87368" category="paragraph"><block ref="3d6c90f327764becd63dc600a2c87368" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86eb2b827c48e5784ea52b533f562701" category="admonition">지금은 Data Fusion 분류자를 편집할 수 없습니다.</block>
-  <block id="8b099d45c50bad711b65183f7029f3da" category="admonition">현재 각 데이터 소스에서 최대 8개의 볼륨에 대해 파일 액세스 감사를 구성할 수 있습니다.</block>
   <block id="8aa912f072a560e74be845c27c1d0978" category="paragraph">커넥터가 정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 배포되어 "제한 모드"라고도 하는 경우 BlueXP 분류가 지원됩니다. 이러한 방식으로 배포된 BlueXP 분류에는 다음과 같은 제한 사항이 있습니다.</block>
   <block id="d8e9d38457b0cf1fc41c4f7dc9118e28" category="paragraph">BlueXP 분류는 사내 사이트에 로컬인 데이터 소스에서만 데이터를 스캔할 수 있습니다. 현재 BlueXP 분류는 "비공개 모드"에서 "다크" 사이트라고도 하는 다음 로컬 데이터 소스를 검사할 수 있습니다.</block>
   <block id="3b1883650bdcd250161cbf99ce0450d4" category="inline-link">이를 "비공개 모드"라고도 합니다.</block>
@@ -3238,12 +3163,8 @@
   <block id="125161c62eedd013601db45d9716edf6" category="paragraph">파일을 이동할 때 소스 파일의 하위 디렉토리 구조가 대상 공유에서 다시 생성되므로 파일이 이동된 위치를 쉽게 파악할 수 있습니다. 대상 위치에 같은 이름의 파일이 있으면 파일이 이동하지 않습니다.</block>
   <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">이를 통해 성공적으로 완료된 작업, 현재 진행 중인 작업 및 실패한 작업을 볼 수 있으므로 문제를 진단하고 해결할 수 있습니다. 단일 파일 이동과 같이 빠르게 완료되는 짧은 작업은 작업 상태 창에 나타나지 않습니다.</block>
   <block id="b2ed02bab90c71832a95050419f003e6" category="list-text">BlueXP 분류는 SharePoint Online, SharePoint 온프레미스(SharePoint Server), OneDrive, Google Drive, Amazon S3, 데이터베이스의 데이터 소스에서는 "마지막 액세스 시간"을 추출하지 않습니다.</block>
-  <block id="4a90d7d35061a4c9e5845a989ea05db2" category="list-text">다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.26 이상이 필요합니다.</block>
-  <block id="59f227bced13db9b55686d58d4422b7b" category="list-text">Red Hat Enterprise Linux 버전 9.0, 9.1 및 9.2</block>
-  <block id="ca4483ba58214f8a91253985b52c976c" category="paragraph">RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.</block>
   <block id="1b32bd564a2d99c25093d522b505880d" category="list-text">어두운 장소에 설치</block>
   <block id="1a81412d076e7b9aa74911a0adfb4688" category="list-text">분산 스캔, 마스터 스캐너 노드 및 원격 스캐너 노드 사용</block>
-  <block id="cf49e2a8099d82e2f5780f13362c4f6c" category="list-text">Podman 버전 4 이상 Podman을 설치하려면 시스템 패키지를 업데이트하십시오 <block ref="2331e8e9c17f410bdfc0aa461e9aa2b7" prefix="(" category="inline-code"></block>)를 클릭한 다음 Podman을 설치합니다 <block ref="e831e1bb8caac0e1ff717314d00a328d" prefix="(" category="inline-code"></block>)를 클릭합니다.</block>
   <block id="194351f6f6e0cb2f129f2a15d7f6df07" category="list-text">시스템에 2개의 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)가 설치되어 있는지 확인합니다.</block>
   <block id="70982664d9f01c2eb3895d455947c83d" category="list-text">시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)가 설치되어 있는지 확인합니다.</block>
   <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스와 관련된 기술 지원을 받으려면 지원을 등록해야 합니다. Cloud Volumes ONTAP 시스템의 주요 워크플로우를 사용하려면 지원 등록도 필요합니다.</block>
@@ -3444,7 +3365,6 @@
   <block id="8a5ea9dc53c4c86f4aed7ef4b4da982c" category="section-title">범주별로 파일을 봅니다</block>
   <block id="ecb953672f3305298a86f0569c18d178" category="section-title">파일 형식별로 파일을 봅니다</block>
   <block id="303b0a57019c624c482fb5d775729281" category="section-title">특정 작업 환경에 대한 대시보드 데이터를 봅니다</block>
-  <block id="0ed24c69d85b53c201d924087682efef" category="admonition">2023년 12월(버전 1.26.6) 릴리즈에서는 감사 로그 수집을 활성화하는 옵션이 일시적으로 제거되었습니다.</block>
   <block id="50c07d396e4bf402b72ebf82cfaadea1" category="doc">데이터베이스 스키마를 스캔합니다</block>
   <block id="846eb83e821481bdeafbcc34c9138401" category="section-title">BlueXP 분류 인스턴스를 배포합니다</block>
   <block id="117276e96b89d072e0a833596332ef29" category="section-title">데이터베이스 서버를 추가합니다</block>
@@ -3480,7 +3400,6 @@
   <block id="74a477b7e0bb4c7103127e1c4536e606" category="section-title">리포지토리에 대한 검색을 중지합니다</block>
   <block id="3ea62d70182e6d0c238badaaf224dff9" category="section-title">리포지토리에 대한 스캔을 일시 중지했다가 다시 시작합니다</block>
   <block id="86e9fad25d6f638eb7f7e437763b425e" category="section-title">기존 리포지토리의 데이터를 다시 스캔합니다</block>
-  <block id="592eb07fa38cd17123bbb06a297c20fe" category="sidebar">BlueXP 분류를 통해 조직의 하이브리드 멀티 클라우드 전반에서 데이터를 스캔하고 분류할 수 있습니다. 분류에서는 상황별 데이터 분석 및 분류를 위해 AI 기반 자연어 처리(NLP)를 활용하므로, 데이터에 대한 실행 가능한 통찰력을 제공하여 규정 준수 요구사항을 해결하고, 보안 취약점을 감지하며, 비용을 최적화하고, 마이그레이션을 신속하게 수행할 수 있습니다.</block>
   <block id="e3a146b1e8e087acabb6e5959293dcd8" category="sidebar">BlueXP 분류(클라우드 데이터 감지)를 통해 조직의 하이브리드 멀티 클라우드 전체에서 데이터를 스캔하고 분류할 수 있습니다. BlueXP 분류는 상황별 데이터 분석 및 분류를 위해 AI 기반 자연어 처리(NLP)를 활용하므로, 데이터에 대한 실행 가능한 통찰력을 제공하여 규정 준수 요구사항을 해결하고, 보안 취약점을 감지하고, 비용을 최적화하고, 마이그레이션을 신속하게 수행할 수 있습니다.</block>
   <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">새로운 기능</block>
   <block id="daf1be80b90f9f38eccbf069ac08640c" category="sidebar">인터넷을 사용하는 Linux 호스트에 BlueXP 분류를 설치합니다</block>
@@ -3582,4 +3501,46 @@
   <block id="7c6b159592aa05d7d8934685f5b0c4c8" category="cell">32개의 CPU, 128GB RAM, OS 디스크(2,048GiB, 최소 250MB/s 처리량) 및 데이터 디스크(1TiB SSD, 최소 750MB/s 처리량)</block>
   <block id="f3c46003464601608d44d2644affcce1" category="paragraph">SaaS 모드에서 BlueXP에 연결할 때 HTTPS를 통해 BlueXP에 연결되며 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 프라이빗 데이터는 TLS 1.2를 사용하는 엔드 투 엔드 암호화로 보안이 유지됩니다. 즉, NetApp과 타사가 이 데이터를 읽을 수 없습니다.</block>
   <block id="522910fcbd37d9f1fe242ff7c7cde8db" category="paragraph">아니요 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 프라이빗 데이터는 TLS 1.2를 사용하여 엔드 투 엔드 암호화로 보안이 유지됩니다. 즉, NetApp과 타사가 이 데이터를 읽을 수 없습니다. BlueXP 분류는 액세스를 요청하고 승인하지 않는 한 NetApp과 데이터 또는 결과를 공유하지 않습니다.</block>
+  <block id="f943db85a7c2edd799890ddb18f29cab" category="doc">인터넷에 액세스할 수 없는 Linux 호스트에 BlueXP 분류를 설치합니다</block>
+  <block id="e920147793c6514a998387c74226605b" category="paragraph">인터넷에 액세스할 수 없는 온프레미스 사이트의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 단계를 완료하십시오. _ private mode _ 라고도 합니다. 이러한 유형의 설치는 보안 사이트에 적합합니다.</block>
+  <block id="8e75bb9e135d127903c8df1b4d72574d" category="list-text">다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.30 이상이 필요합니다.</block>
+  <block id="17809026adc94f6c0d618b91e6379bec" category="list-text">Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2 및 9.3</block>
+  <block id="57da374715d9745b4dd1b2494e49b1c4" category="paragraph">RHEL 8.x 및 RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.</block>
+  <block id="555c829e9c93dc526a387388830a8e53" category="list-text">Podman 버전 4 이상 Podman을 설치하려면 시스템 패키지를 업데이트하십시오 <block ref="2331e8e9c17f410bdfc0aa461e9aa2b7" prefix="(" category="inline-code"></block>)를 클릭한 다음 Podman을 설치합니다 <block ref="f93cc32458404a89e1885eee2d68276f" prefix="(" category="inline-code"></block>)를 클릭합니다.</block>
+  <block id="bf9330c0401cb1794286325e86e14bc1" category="paragraph">BlueXP 분류는 NFS 버전 3.x와 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.</block>
+  <block id="8da041e8fe3c0d961b0ec560416bc9a4" category="section-title">BlueXP 분류를 수행하려면 자격 증명에 액세스해야 합니까?</block>
+  <block id="e54c52f3a3c545fc2e2f82026ac5945f" category="paragraph">BlueXP 분류 자체는 스토리지 자격 증명을 검색하지 않습니다. BlueXP Connector에 저장됩니다.</block>
+  <block id="7add4f4508f6a065e3f94f770f4bac2d" category="paragraph">BlueXP 분류에서는 스캔 전에 CIFS 자격 증명을 사용하여 공유를 마운트하는 등의 데이터 플레인 자격 증명을 사용합니다.</block>
+  <block id="6ff26ca67814a870d6ad78d3687ba1a9" category="section-title">서비스와 커넥터 간의 통신이 HTTP를 사용합니까?</block>
+  <block id="421bab1ab5399669513b071e1e856dca" category="paragraph">예, BlueXP 분류는 HTTP를 사용하여 BlueXP Connector와 통신합니다.</block>
+  <block id="5f0111c9b1c6f9cd6124c008eaaa60d2" category="paragraph">Linux 호스트에 수동으로 BlueXP 분류를 설치하기 전에 호스트에서 스크립트를 실행하여 BlueXP 분류를 설치하기 위한 모든 필수 구성 요소가 준비되어 있는지 확인할 수 있습니다. 이 스크립트는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서 실행할 수 있습니다. 호스트를 인터넷에 연결하거나 호스트가 인터넷에 액세스할 수 없는 사이트(A_Dark site_)에 상주할 수 있습니다.</block>
+  <block id="3b78d440a5ebfde1b671393949a4e52a" category="list-text">"/opt/netapp/config/custom_configuration/working_environment_to_scanner_group_config.yml" 파일을 열고 특정 작업 환경을 스캔할 스캐너 그룹의 매핑을 입력합니다. 각 데이터 소스에 대해 _Working Environment ID_가 있어야 합니다. 예를 들어 다음 항목은 "유럽" 스캐너 그룹에 작업 환경 2개를 추가하고 "United_states" 스캐너 그룹에 작업 환경 2개를 추가합니다.</block>
+  <block id="0acb6de298fd251ec0fab09f46d78a47" category="summary">요구사항에 부합하는 BlueXP 분류의 구축을 계획합니다.</block>
+  <block id="7ac7bc027539aa6045c98c020acd30a2" category="doc">어떤 BlueXP 분류 구축을 사용해야 합니까?</block>
+  <block id="6f3a66c40c100d6b6795bf6321152c15" category="paragraph">BlueXP 분류를 다양한 방법으로 구축할 수 있습니다. 어떤 방법이 사용자의 요구를 충족시키는지 알아보십시오.</block>
+  <block id="b335b8e0c79afc046cc019e0ba9e9622" category="paragraph">BlueXP 분류를 다음과 같은 방법으로 구축할 수 있습니다.</block>
+  <block id="b723c5ee7facb4d3bb0af0a7d2f3d7ab" category="list-text"><block ref="cf6b836a5ed0d1fcbc1d079fcc9d0736" category="inline-link-macro-rx"></block>. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 BlueXP 분류 인스턴스를 배포합니다.</block>
+  <block id="112a4fbc92b6e9c424407aa2efa54779" category="list-text"><block ref="953e3010369667b8110edc0847a61543" category="inline-link-macro-rx"></block>. 네트워크의 Linux 호스트 또는 인터넷에 액세스할 수 있는 클라우드의 Linux 호스트에 BlueXP 분류를 설치합니다. 사내에 있는 BlueXP 분류 인스턴스를 사용하여 온프레미스 ONTAP 시스템을 검사하려는 경우 이러한 설치 유형이 좋은 옵션이 될 수 있지만 반드시 필요한 것은 아닙니다.</block>
+  <block id="5be81ee840734d5fff39d8fb451e87de" category="inline-link-macro">인터넷 액세스 없이 온-프레미스 사이트에 Linux 호스트에 설치합니다</block>
+  <block id="7c5fdd74ce4770d435a4270b4817294a" category="list-text"><block ref="7ec82fd84f3aea81a9c6badedcfda318" category="inline-link-macro-rx"></block>는 _private 모드라고도 합니다._설치 스크립트를 사용하는 이 유형의 설치는 보안 사이트에 적합합니다.</block>
+  <block id="a59f7e9514f364f5b3574b8ad02f202d" category="paragraph">인터넷에 액세스할 수 있는 Linux 호스트에 설치하고 인터넷에 액세스할 수 없는 Linux 호스트에 온-프레미스 설치 모두 설치 스크립트를 사용합니다. 이 스크립트는 시스템과 환경이 사전 요구 사항을 충족하는지 확인하는 것으로 시작됩니다. 필수 구성 요소가 충족되면 설치가 시작됩니다. BlueXP 분류 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다.</block>
+  <block id="1e4c9e5b4eb9656593e357ac3f61cdc1" category="paragraph">을 참조하십시오 <block ref="a838f62b35f046b790a8a32eff3e63b6" category="inline-link-macro-rx"></block>.</block>
+  <block id="b05347ded7555dfe4b18afd3dfa678f3" category="paragraph">BlueXP 분류의 새로운 기능 (Cloud Data Sense)을 알아봅니다.</block>
+  <block id="1e3ff9766d4708d7de4568322138b5f8" category="section-title">2024년 4월 1일(버전 1.30)</block>
+  <block id="1f2986b833ebc6f322deb045aeee0ad8" category="section-title">RHEL v8.8 및 v9.3 BlueXP 분류에 대한 지원이 추가되었습니다</block>
+  <block id="91e323b860fc9af090c33fd0be441816" category="paragraph">이 릴리스는 이전에 지원되는 9.x 외에도 Red Hat Enterprise Linux v8.8 및 v9.3에 대한 지원을 제공하며, Docker 엔진 대신 Podman이 필요합니다.</block>
+  <block id="07dc3e2055cac820c8885923e98b8e76" category="paragraph">이는 BlueXP 분류의 수동 온프레미스 설치에 적용할 수 있습니다.</block>
+  <block id="2c435ff16ae089dc2d457e7776588268" category="paragraph">Podman 컨테이너 엔진을 사용해야 하는 운영 체제에는 BlueXP 분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2 및 9.3 이상이 필요합니다.</block>
+  <block id="fae29fbaffa78fbfd6537b0feec1a925" category="inline-link-macro">BlueXP 분류 구축 개요</block>
+  <block id="729b0325b4dca702948987b756d6c4dd" category="paragraph">에 대해 자세히 알아보십시오 <block ref="203983d50efda661e0fb2921922583cd" category="inline-link-macro-rx"></block>.</block>
+  <block id="efdeb6220b979140e56f16caceb1d7e9" category="section-title">감사 로그 수집을 활성화하는 옵션이 제거되었습니다</block>
+  <block id="677b8eea0d783418318883e36c4858cc" category="paragraph">커서를 _Mapping Status_column의 차트 위로 가져가면 각 리포지토리에서 매핑되거나 분류될 파일의 수가 표시됩니다(이 예에서는 버킷).</block>
+  <block id="cdf1bf05ba65b107bb0cbe2a4303f966" category="paragraph"><block ref="cdf1bf05ba65b107bb0cbe2a4303f966" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="87fce6273ae6270f06beebf56898bc70" category="paragraph">BlueXP 분류(Cloud Data Sense)는 기업의 온프레미스 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 프라이빗 정보를 식별하는 BlueXP용 데이터 거버넌스 서비스입니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
+  <block id="d4da00138f887427e0760f21c97fa0cf" category="inline-link">정규식 101</block>
+  <block id="f535e41ec22971f3dc912b4a0c3e1502" category="inline-link">Python Regex 테스터 페이지입니다</block>
+  <block id="2858913580d22c83f2ed3c5bf98afa04" category="paragraph">정규식을 작성하는 데 도움이 필요한 경우 을 참조하십시오<block ref="44042c0043421e388aa50c9206936192" category="inline-link-rx"></block>. 원하는 맛을 내려면 * Python * 을 선택하여 BlueXP 분류가 정규식에서 일치하는 결과의 유형을 확인하십시오. 를 클릭합니다<block ref="16efc9dbee1da4ffa610197a33616f3b" category="inline-link-rx"></block> 또한 패턴의 그래픽 표현을 표시할 때 유용합니다.</block>
+  <block id="e7695799ba8bc92bb08a6949b8326571" category="sidebar">BlueXP 분류(클라우드 데이터 감지)를 통해 조직의 하이브리드 멀티 클라우드 전체에서 데이터를 스캔하고 분류할 수 있습니다. 분류에서는 상황별 데이터 분석 및 분류를 위해 AI 기반 자연어 처리(NLP)를 활용하므로, 데이터에 대한 실행 가능한 통찰력을 제공하여 규정 준수 요구사항을 해결하고, 보안 취약점을 감지하며, 비용을 최적화하고, 마이그레이션을 신속하게 수행할 수 있습니다.</block>
+  <block id="23b8d81b3767810f42dfbd7dcd9bd760" category="sidebar">어떤 배포를 사용해야 합니까</block>
+  <block id="fca1d82780afb1668b61925e8a0b964a" category="sidebar">인터넷 액세스 없이 온프레미스 Linux 호스트에 설치합니다</block>
 </blocks>

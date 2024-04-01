@@ -26,11 +26,13 @@ sidebar:
       url: "/concept-cloud-compliance.html"
     - title: BlueXP 분류를 배포합니다
       entries:
+      - title: 어떤 배포를 사용해야 합니까
+        url: "/task-deploy-overview.html"
       - title: BlueXP를 사용하여 클라우드에 배포합니다
         url: "/task-deploy-cloud-compliance.html"
       - title: 인터넷에 액세스할 수 있는 Linux 호스트에 설치합니다
         url: "/task-deploy-compliance-onprem.html"
-      - title: 인터넷에 접속하지 않고 내부에 설치합니다
+      - title: 인터넷 액세스 없이 온프레미스 Linux 호스트에 설치합니다
         url: "/task-deploy-compliance-dark-site.html"
       - title: Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인합니다
         url: "/task-test-linux-system.html"

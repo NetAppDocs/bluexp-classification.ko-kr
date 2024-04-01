@@ -245,7 +245,7 @@ BlueXP 분류는 BlueXP Canvas에 추가한 작업 환경과 BlueXP 분류가 �
 * Google Drive 계정
 
 
-BlueXP 분류는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.
+BlueXP 분류는 NFS 버전 3.x와 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.
 
 
 
@@ -392,9 +392,23 @@ Connector는 클라우드 계정 또는 온프레미스 컴퓨팅 인스턴스�
 
 
 
+=== BlueXP 분류를 수행하려면 자격 증명에 액세스해야 합니까?
+
+BlueXP 분류 자체는 스토리지 자격 증명을 검색하지 않습니다. BlueXP Connector에 저장됩니다.
+
+BlueXP 분류에서는 스캔 전에 CIFS 자격 증명을 사용하여 공유를 마운트하는 등의 데이터 플레인 자격 증명을 사용합니다.
+
+
+
 === 내 호스트에 커넥터를 배포할 수 있습니까?
 
 예. 가능합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 호스트 BlueXP 분류를 사내 배포하려는 경우 Connector를 온-프레미스에도 설치할 수 있지만 반드시 필요한 것은 아닙니다.
+
+
+
+=== 서비스와 커넥터 간의 통신이 HTTP를 사용합니까?
+
+예, BlueXP 분류는 HTTP를 사용하여 BlueXP Connector와 통신합니다.
 
 
 
