@@ -24,19 +24,31 @@ BlueXP 분류의 새로운 기능 (Cloud Data Sense)을 알아봅니다.
 
 === RHEL v8.8 및 v9.3 BlueXP 분류에 대한 지원이 추가되었습니다
 
-이 릴리스는 이전에 지원되는 9.x 외에도 Red Hat Enterprise Linux v8.8 및 v9.3에 대한 지원을 제공하며, Docker 엔진 대신 Podman이 필요합니다.
-
-이는 BlueXP 분류의 수동 온프레미스 설치에 적용할 수 있습니다.
+이 릴리스는 이전에 지원되는 9.x 외에도 Red Hat Enterprise Linux v8.8 및 v9.3에 대한 지원을 제공하며, Docker 엔진 대신 Podman이 필요합니다. 이는 BlueXP 분류의 수동 온프레미스 설치에 적용할 수 있습니다.
 
 Podman 컨테이너 엔진을 사용해야 하는 운영 체제에는 BlueXP 분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2 및 9.3 이상이 필요합니다.
 
-에 대해 자세히 알아보십시오 link:task-deploy-overview.html["BlueXP 분류 구축 개요"].
+에 대해 자세히 알아보십시오 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-overview.html["BlueXP 분류 구축 개요"].
 
 
 
 === 감사 로그 수집을 활성화하는 옵션이 제거되었습니다
 
 감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다.
+
+
+
+=== 스캔 속도가 향상되었습니다
+
+보조 스캐너 노드의 스캔 성능이 향상되었습니다. 스캔 처리 능력이 추가로 필요한 경우 스캐너 노드를 더 추가할 수 있습니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 호스트에 BlueXP 분류를 설치합니다"].
+
+
+
+=== 자동 업그레이드
+
+인터넷에 액세스할 수 있는 시스템에 BlueXP 분류를 구축한 경우 시스템이 자동으로 업그레이드됩니다. 이전에는 마지막 사용자 작업 이후 특정 시간이 경과한 후에 업그레이드가 발생했습니다. 이 릴리즈에서는 현지 시간이 오전 1시에서 오전 5시 사이인 경우 BlueXP 분류가 자동으로 업그레이드됩니다. 로컬 시간이 이 시간을 벗어난 경우 마지막 사용자 작업 이후 특정 시간이 경과하면 업그레이드가 수행됩니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 Linux 호스트에 설치합니다"].
+
+인터넷에 액세스하지 않고 BlueXP 분류를 구축한 경우 수동으로 업그레이드해야 합니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 Linux 호스트에 BlueXP 분류를 설치합니다"].
 
 
 

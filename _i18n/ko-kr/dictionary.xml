@@ -3528,11 +3528,8 @@
   <block id="b05347ded7555dfe4b18afd3dfa678f3" category="paragraph">BlueXP 분류의 새로운 기능 (Cloud Data Sense)을 알아봅니다.</block>
   <block id="1e3ff9766d4708d7de4568322138b5f8" category="section-title">2024년 4월 1일(버전 1.30)</block>
   <block id="1f2986b833ebc6f322deb045aeee0ad8" category="section-title">RHEL v8.8 및 v9.3 BlueXP 분류에 대한 지원이 추가되었습니다</block>
-  <block id="91e323b860fc9af090c33fd0be441816" category="paragraph">이 릴리스는 이전에 지원되는 9.x 외에도 Red Hat Enterprise Linux v8.8 및 v9.3에 대한 지원을 제공하며, Docker 엔진 대신 Podman이 필요합니다.</block>
-  <block id="07dc3e2055cac820c8885923e98b8e76" category="paragraph">이는 BlueXP 분류의 수동 온프레미스 설치에 적용할 수 있습니다.</block>
   <block id="2c435ff16ae089dc2d457e7776588268" category="paragraph">Podman 컨테이너 엔진을 사용해야 하는 운영 체제에는 BlueXP 분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2 및 9.3 이상이 필요합니다.</block>
   <block id="fae29fbaffa78fbfd6537b0feec1a925" category="inline-link-macro">BlueXP 분류 구축 개요</block>
-  <block id="729b0325b4dca702948987b756d6c4dd" category="paragraph">에 대해 자세히 알아보십시오 <block ref="203983d50efda661e0fb2921922583cd" category="inline-link-macro-rx"></block>.</block>
   <block id="efdeb6220b979140e56f16caceb1d7e9" category="section-title">감사 로그 수집을 활성화하는 옵션이 제거되었습니다</block>
   <block id="677b8eea0d783418318883e36c4858cc" category="paragraph">커서를 _Mapping Status_column의 차트 위로 가져가면 각 리포지토리에서 매핑되거나 분류될 파일의 수가 표시됩니다(이 예에서는 버킷).</block>
   <block id="cdf1bf05ba65b107bb0cbe2a4303f966" category="paragraph"><block ref="cdf1bf05ba65b107bb0cbe2a4303f966" category="inline-image-macro-rx" type="image"></block></block>
@@ -3543,4 +3540,11 @@
   <block id="e7695799ba8bc92bb08a6949b8326571" category="sidebar">BlueXP 분류(클라우드 데이터 감지)를 통해 조직의 하이브리드 멀티 클라우드 전체에서 데이터를 스캔하고 분류할 수 있습니다. 분류에서는 상황별 데이터 분석 및 분류를 위해 AI 기반 자연어 처리(NLP)를 활용하므로, 데이터에 대한 실행 가능한 통찰력을 제공하여 규정 준수 요구사항을 해결하고, 보안 취약점을 감지하며, 비용을 최적화하고, 마이그레이션을 신속하게 수행할 수 있습니다.</block>
   <block id="23b8d81b3767810f42dfbd7dcd9bd760" category="sidebar">어떤 배포를 사용해야 합니까</block>
   <block id="fca1d82780afb1668b61925e8a0b964a" category="sidebar">인터넷 액세스 없이 온프레미스 Linux 호스트에 설치합니다</block>
+  <block id="bed0a63060826a7b1ed8cba91cb12ba6" category="paragraph">이 릴리스는 이전에 지원되는 9.x 외에도 Red Hat Enterprise Linux v8.8 및 v9.3에 대한 지원을 제공하며, Docker 엔진 대신 Podman이 필요합니다. 이는 BlueXP 분류의 수동 온프레미스 설치에 적용할 수 있습니다.</block>
+  <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">에 대해 자세히 알아보십시오<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block>.</block>
+  <block id="6cf7e053021d02a6a394c1e69f8e8352" category="section-title">스캔 속도가 향상되었습니다</block>
+  <block id="9d343bee917ed42deed4a08429d2e86f" category="paragraph">보조 스캐너 노드의 스캔 성능이 향상되었습니다. 스캔 처리 능력이 추가로 필요한 경우 스캐너 노드를 더 추가할 수 있습니다. 자세한 내용은 을 참조하십시오<block ref="bccb2247e180b6227640eec7d70d0351" category="inline-link-rx"></block>.</block>
+  <block id="747585a36be1e14a4dd3ff25c4bf1e48" category="section-title">자동 업그레이드</block>
+  <block id="5908128f01988745be85a67845195980" category="paragraph">인터넷에 액세스할 수 있는 시스템에 BlueXP 분류를 구축한 경우 시스템이 자동으로 업그레이드됩니다. 이전에는 마지막 사용자 작업 이후 특정 시간이 경과한 후에 업그레이드가 발생했습니다. 이 릴리즈에서는 현지 시간이 오전 1시에서 오전 5시 사이인 경우 BlueXP 분류가 자동으로 업그레이드됩니다. 로컬 시간이 이 시간을 벗어난 경우 마지막 사용자 작업 이후 특정 시간이 경과하면 업그레이드가 수행됩니다. 자세한 내용은 을 참조하십시오<block ref="ec7f7d5f354f2c39e4e863a85c31a7f9" category="inline-link-rx"></block>.</block>
+  <block id="7adcca7abf8ead9407a9511a195904c3" category="paragraph">인터넷에 액세스하지 않고 BlueXP 분류를 구축한 경우 수동으로 업그레이드해야 합니다. 자세한 내용은 을 참조하십시오<block ref="9aedc51770264f0d93a81417a0d08768" category="inline-link-rx"></block>.</block>
 </blocks>
