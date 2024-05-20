@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, data sense, bluexp, bluexp classification' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, data sense, cloud data sense, bluexp, bluexp classification' 
 summary: BlueXP 분류의 새로운 기능에 대해 알아보십시오. 
 ---
 = BlueXP 분류의 새로운 기능
@@ -15,6 +15,18 @@ summary: BlueXP 분류의 새로운 기능에 대해 알아보십시오.
 
 [role="lead"]
 BlueXP 분류의 새로운 기능 (Cloud Data Sense)을 알아봅니다.
+
+
+
+== 2024년 5월 15일(버전 1.31)
+
+
+
+=== BlueXP 내에서 무료 서비스로 분류할 수 있습니다
+
+BlueXP 분류는 이제 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 내에서 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.
+
+link:reference-free-paid.html["더 이상 사용되지 않는 기능에 대해 자세히 알아보십시오"].
 
 
 
@@ -92,9 +104,9 @@ https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.htm
 
 이 릴리스에는 몇 가지 사소한 개선 사항이 포함되어 있습니다.
 
-이 릴리스에서는 다음 옵션도 일시적으로 제거되었습니다.
+이 릴리스에서는 다음 옵션도 제거되었습니다.
 
-* 감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다. 을 참조하십시오 link:task-manage-file-access-events.html["파일 액세스 이벤트 모니터링 및 관리"].
+* 감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다.
 * 디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다. 을 참조하십시오 link:task-investigate-data.html#filter-data-by-sensitivity-and-content["조직에 저장된 데이터를 조사합니다"].
 * AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 비활성화되었습니다. 을 참조하십시오 link:task-org-private-data.html["개인 데이터를 구성합니다"].
 
@@ -207,7 +219,7 @@ Red Hat은 더 이상 Docker를 지원하지 않으므로 이러한 버전은 �
 
 === ONTAP 시스템에서 FPolicy 이벤트를 수신하려면 BlueXP 분류를 FPolicy Collector로 구성할 수 있습니다
 
-BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작업 환경의 볼륨에서 감지된 파일 액세스 이벤트를 처리할 수 있습니다. BlueXP 분류는 다음 유형의 FPolicy 이벤트와 파일에서 작업을 수행한 사용자, 즉 만들기, 읽기, 쓰기, 삭제, 이름 바꾸기, 소유자/권한을 변경하고 SACL/DACL을 변경합니다. https://docs.netapp.com/us-en/bluexp-classification/task-manage-file-access-events.html["파일 액세스 이벤트를 모니터링하고 관리하는 방법을 확인하십시오"].
+BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작업 환경의 볼륨에서 감지된 파일 액세스 이벤트를 처리할 수 있습니다. BlueXP 분류는 다음 유형의 FPolicy 이벤트와 파일에서 작업을 수행한 사용자, 즉 만들기, 읽기, 쓰기, 삭제, 이름 바꾸기, 소유자/권한을 변경하고 SACL/DACL을 변경합니다.
 
 
 

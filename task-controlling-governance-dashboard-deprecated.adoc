@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task-controlling-governance-dashboard-deprecated.html 
+keywords: savings, stale data, non-business data, duplicate data, age or data, size of data, highlights, policies 
+summary: 조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. BlueXP 분류는 시스템에 있는 오래된 데이터, 비업무용 데이터, 중복 파일 및 대용량 파일의 양을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다. 
+---
+= 거버넌스 대시보드를 사용하여 데이터에 대한 거버넌스 세부 정보를 봅니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. BlueXP 분류는 시스템에 있는 오래된 데이터, 비업무용 데이터, 중복 파일 및 대용량 파일의 양을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다.
+
+또한, 데이터를 사내 위치에서 클라우드로 마이그레이션하려는 경우 데이터의 크기와 데이터를 이동하기 전에 중요한 정보가 포함되어 있는지 여부를 확인할 수 있습니다.
+
+[]
+====
+* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다.
+
+====
+
+
+== 거버넌스 대시보드에서 민감도 및 광범위한 사용 권한별로 나열된 데이터
+
+Governance 대시보드의 _Sensitive Data 및 Wide Permissions_area는 중요한 데이터(민감한 개인 데이터와 민감한 개인 데이터 모두 포함)가 포함되어 있고 지나치게 허용적인 파일의 열 맵을 제공합니다. 이렇게 하면 민감한 데이터와 관련하여 어떤 위험이 있을 수 있는지 확인할 수 있습니다.
+
+
+NOTE: 이 내용은 BlueXP 분류 버전 1.30 이상에 적용됩니다.
+
+파일 등급은 X축에 있는 파일에 액세스할 수 있는 권한이 있는 사용자 수(가장 낮음에서 가장 높음)와 Y축에 있는 파일 내의 중요한 식별자 수(가장 낮음에서 가장 높음)를 기준으로 합니다. 블럭은 X 및 Y 축의 항목과 일치하는 파일 수를 나타냅니다. 밝은 색상의 블록이 적합합니다. 더 적은 수의 사용자가 파일에 액세스할 수 있고 파일당 중요한 식별자는 더 적습니다. 어두운 블럭은 조사하려는 항목입니다. 예를 들어 아래 화면에는 짙은 파란색 블록의 호버 텍스트가 표시됩니다. 이 그림은 751-100명의 사용자가 액세스할 수 있는 1,500개의 파일이 있으며, 파일당 501-100개의 민감한 식별자가 있다는 것을 보여 줍니다.
+
+image:screenshot_compliance_sensitive_data.png["이 패널의 요소 위에 커서를 놓으면 표시되는 데이터를 보여주는 스크린샷입니다."]
+
+원하는 블록을 클릭하여 조사 페이지에서 영향을 받는 파일의 필터링된 결과를 확인하여 더 자세히 조사할 수 있습니다.
+
+BlueXP 분류와 ID 서비스를 통합하지 않은 경우 이 패널에 데이터가 표시되지 않습니다. link:task-add-active-directory-datasense.html["Active Directory 서비스를 BlueXP 분류와 통합하는 방법을 확인하십시오"^].
+
+
+TIP: 이 패널은 CIFS 공유, OneDrive 및 SharePoint 데이터 소스의 파일을 지원합니다. 현재 데이터베이스, Google Drive, Amazon S3, 일반 오브젝트 스토리지는 지원되지 않습니다.
+
+
+
+== AIP 레이블을 보여 주는 대시보드의 분류 영역입니다
+
+대시보드의 _Classification_영역에는 스캔한 데이터에서 가장 많이 식별되는 AIP(Azure Information Protection) 레이블 목록이 표시됩니다.
+
+AIP(Azure Information Protection)에 가입한 경우 콘텐츠에 레이블을 적용하여 문서와 파일을 분류하고 보호할 수 있습니다. 파일에 할당된 가장 많이 사용되는 AIP 레이블을 검토하면 파일에서 가장 많이 사용되는 레이블을 확인할 수 있습니다.
+
+을 참조하십시오 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 레이블"^] 를 참조하십시오.

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: task-licensing-datasense.html 
-keywords: subscribe, trial, marketplace, subscription, paygo, pay as you go, byol, bring your own license, data sense, cloud data sense 
+permalink: task-licensing-byol-freetrial.html 
+keywords: subscribe, trial, marketplace, subscription, byol, bring your own license, data sense, cloud data sense 
 summary: BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다. 
 ---
-= BlueXP 분류를 위한 용량제 라이센싱 설정
+= 무료 평가판을 설정하거나 BlueXP 분류에 대한 자체 라이센스를 가져옵니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,18 +14,16 @@ summary: BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 첫 1TB
 
 
 [role="lead"]
-데이터를 스캔하려면 PAYGO(용량제) 구독이 필요합니다.
+1.30 이전 버전의 경우 BlueXP 작업 공간에서 BlueXP 분류 스캔을 수행하는 첫 번째 1TB의 데이터를 30일간 무료로 사용할 수 있습니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다.
 
 []
 ====
-* 참고 * 이 정보는 BlueXP 분류 핵심 버전 1.31 이상에만 관련이 있습니다.
+* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다.
 
 ====
 추가 내용을 읽기 전에 몇 가지 참고 사항을 확인하십시오.
 
-* 클라우드 공급자의 마켓플레이스에서 이미 BlueXP PAYGO(pay-as-you-go) 구독을 신청했다면 BlueXP 분류에도 자동으로 가입됩니다. 다시 가입하지 않아도 됩니다.
-
-
+* BlueXP 분류(데이터 감지) BYOL(Bring-Your-Own-License)은 작업 공간의 모든 작업 환경과 데이터 소스에서 스캔할 수 있는 _floating_license입니다. BlueXP 디지털 지갑에 활성 구독이 표시됩니다.
 * 스캔되는 데이터의 양은 스토리지 효율성 없이 논리적 파일 크기를 기준으로 계산됩니다.
 
 
@@ -35,64 +33,17 @@ link:concept-cloud-compliance.html#cost["BlueXP 분류와 관련된 라이센스
 
 == 30일 무료 평가판
 
-BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 최대 500TB의 데이터에 대해 30일 무료 평가판을 사용할 수 있습니다. 이후 데이터 검색을 계속하려면 NetApp에서 BYOL 라이센스를 구입하거나 클라우드 공급자의 마켓플레이스에서 구독을 신청해야 합니다.
+BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 최대 1TB의 데이터에 대해 30일 무료 평가판을 사용할 수 있습니다. 이후 데이터 검색을 계속하려면 NetApp에서 BYOL 라이센스를 구입하거나 클라우드 공급자의 마켓플레이스에서 구독을 신청해야 합니다.
 
-언제든지 가입할 수 있으며 30일 평가판이 끝난 후에도 요금이 부과되지 않습니다. BlueXP 분류 거버넌스 대시보드에서 스캔되는 데이터의 총 양을 항상 확인할 수 있습니다. 지금 가입(_Subscribe Now_) 단추를 사용하면 준비가 되면 쉽게 가입할 수 있습니다.
+언제든지 구독할 수 있으며 30일 평가판이 종료되거나 데이터 양이 1TB를 초과할 때까지 요금이 청구되지 않습니다. BlueXP 분류 거버넌스 대시보드에서 스캔되는 데이터의 총 양을 항상 확인할 수 있습니다. 지금 가입(_Subscribe Now_) 단추를 사용하면 준비가 되면 쉽게 가입할 수 있습니다.
 
 image:screenshot_compliance_subscribe.png["검사 중인 데이터의 양과 서비스 가입을 위한 가입 버튼을 보여주는 스크린샷"]
 
 
 
-== BlueXP 분류 PAYGO 구독을 사용합니다
-
-클라우드 공급자의 마켓플레이스에서 용량제 구독을 통해 Cloud Volumes ONTAP 시스템 및 BlueXP 분류와 같은 많은 BlueXP 서비스 사용에 대한 라이센스를 등록할 수 있습니다. 단일 구독에서 시간 단위로 BlueXP 분류를 검사하는 데이터의 양에 대한 비용을 클라우드 공급자에게 지불하게 됩니다.
-
-구독하면 무료 평가판이 종료된 후에도 서비스가 중단되지 않습니다. 평가판이 종료되면 BlueXP 코어 버전 1.31 이상의 비용이 청구되지 않습니다.
-
-.단계
-이러한 단계는 _ 계정 관리자 _ 역할을 가진 사용자가 완료해야 합니다.
-
-. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
-+
-image:screenshot_settings_icon.gif["설정 아이콘을 선택할 수 있는 BlueXP의 오른쪽 상단 배너 스크린샷"]
-
-. 자격 증명 * 을 클릭한 다음 AWS 인스턴스 프로필, Azure Managed Service Identity 또는 Google Project에 대한 자격 증명을 찾습니다.
-+
-구독은 인스턴스 프로필, 관리 서비스 ID 또는 Google Project에 추가해야 합니다. 그렇지 않으면 충전이 작동하지 않습니다.
-
-+
-AWS용 아래 표시된 것처럼 이미 BlueXP에 가입되어 있다면 모두 준비가 완료된 것입니다. 더 필요한 것은 없습니다.
-
-+
-image:screenshot_profile_subscription.gif["활성 구독이 있는 인스턴스 프로필을 보여 주는 자격 증명 페이지의 스크린 샷"]
-
-. 아직 구독이 없는 경우 작업 메뉴를 클릭하고 * 가입 연계 * 를 클릭합니다.
-+
-image:screenshot_add_subscription.gif["자격 증명 페이지의 메뉴 스크린샷 구독과 자격 증명을 연결하는 단추가 표시됩니다."]
-
-. 기존 구독을 선택하고 * Associate * 를 클릭하거나 * Add Subscription * 을 클릭하고 단계를 따릅니다.
-+
-다음 비디오에서는 을 연결하는 방법을 보여줍니다 https://aws.amazon.com/marketplace/pp/prodview-oorxakq6lq7m4["AWS 마켓플레이스 를 참조하십시오"^] AWS 구독:
-
-+
-video::video_subscribing_aws.mp4[width=848,height=480]
-+
-다음 비디오에서는 을 연결하는 방법을 보여줍니다 https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.cloud-manager?tab=Overview["Azure 마켓플레이스 를 참조하십시오"^] Azure 구독 신청:
-
-+
-video::video_subscribing_azure.mp4[width=848,height=480]
-+
-다음 비디오에서는 을 연결하는 방법을 보여줍니다 https://console.cloud.google.com/marketplace/details/netapp-cloudmanager/cloud-manager?supportedpurview=project["Google Cloud 마켓플레이스 를 참조하십시오"^] GCP 구독 신청:
-
-+
-video::video_subscribing_gcp.mp4[width=848,height=480]
-
-
-
-
 == 연간 계약을 사용합니다
 
-연간 계약을 체결하여 연간 BlueXP 분류 사용 1년, 2년 또는 3년 기간으로 제공됩니다.
+연간 계약을 구매하여 BlueXP 분류에 대한 비용을 매년 지불합니다. 1년, 2년 또는 3년 기간으로 제공됩니다.
 
 마켓플레이스에서 연간 계약을 체결한 경우 모든 BlueXP 분류 데이터 스캔 비용이 해당 계약에 대해 청구됩니다. BYOL은 연간 시장 계약을 혼합 및 일치시킬 수 없습니다.
 
@@ -107,7 +58,7 @@ video::video_subscribing_gcp.mp4[width=848,height=480]
 
 NetApp에서 제공하는 자체 라이센스는 1년, 2년 또는 3년간 제공됩니다. BYOL BlueXP 분류(Data Sense) 라이센스는 작업 환경 및 데이터 소스의 * 전체 * 간에 전체 용량을 공유하는 _ floating_license로 초기 라이센스 및 갱신을 간편하게 수행할 수 있습니다.
 
-BlueXP 분류 라이센스가 없는 경우 NetApp에 문의하여 하나를 다운로드하십시오.
+BlueXP 분류 라이센스가 없는 경우 다음 연락처로 문의해 주십시오.
 
 * mailto:ng-contact-data-sense@netapp.com?subject=Licensing [라이센스 구매를 위해 이메일 보내기].
 * 라이센스를 요청하려면 BlueXP 오른쪽 하단의 채팅 아이콘을 클릭하십시오.

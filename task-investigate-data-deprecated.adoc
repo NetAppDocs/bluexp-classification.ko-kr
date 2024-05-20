@@ -1,0 +1,99 @@
+---
+sidebar: sidebar 
+permalink: task-investigate-data-deprecated.html 
+keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies 
+summary: 데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. Governance and Compliance 대시보드를 비롯한 BlueXP 분류 UI의 여러 영역에서 이 페이지로 이동할 수 있습니다. 
+---
+= 데이터 조사 페이지에 저장된 데이터를 조사합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. Governance and Compliance 대시보드를 비롯한 BlueXP 분류 UI의 여러 영역에서 이 페이지로 이동할 수 있습니다.
+
+
+NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검사를 수행하도록 선택한 경우에만 사용할 수 있습니다. 매핑 전용 스캔이 있는 데이터 원본은 파일 수준 세부 정보를 표시하지 않습니다.
+
+
+
+== 데이터 조사 페이지에서 데이터를 필터링합니다
+
+조사 페이지의 내용을 필터링하여 원하는 결과만 표시할 수 있습니다. 이 기능은 데이터를 구체화한 후 페이지 상단의 단추 모음을 사용하여 파일 복사, 파일 이동, 파일에 태그 또는 AIP 레이블 추가 등의 다양한 작업을 수행할 수 있으므로 매우 강력한 기능입니다.
+
+
+
+=== 태그, 레이블, 할당된 사용자 및 정책을 기준으로 데이터를 필터링합니다
+
+다음 필터를 사용하여 태그, AIP 레이블, 할당된 사용자 또는 정책으로 데이터를 볼 수 있습니다.
+
+[]
+====
+* 참고 * 태그, 레이블 및 할당된 사용자를 기준으로 필터링하는 기능은 BlueXP 분류 버전 1.30 이상에만 해당됩니다.
+
+====
+[cols="30,60"]
+|===
+| 필터 | 세부 정보 
+
+
+| 정책 | 정책 또는 정책을 선택합니다. 이동 link:task-using-policies.html["여기"^] 기존 정책 목록을 보고 고유한 사용자 지정 정책을 만들려면 
+
+
+| 라벨 | 를 선택합니다 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 레이블"] 파일에 할당됩니다. 
+
+
+| 태그 | 를 선택합니다 link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["태그 또는 태그"] 파일에 할당됩니다. 
+
+
+| 할당 대상 | 파일이 할당된 사람의 이름을 선택합니다. 
+|===
+
+
+== 데이터 조사 보고서를 생성합니다
+
+데이터 조사 보고서는 데이터 조사 페이지의 필터링된 콘텐츠를 다운로드하는 것입니다.
+
+보고서는 두 가지 형식으로 제공됩니다.
+
+* 로컬 컴퓨터에 저장할 수 있는 .csv 파일
++
+이 보고서에는 최대 10,000개의 데이터 행이 포함될 수 있습니다.
+
+* NFS 공유로 내보내는 .JSON 파일
++
+데이터가 250,000행이 넘는 경우 .JSON 파일이 추가로 생성됩니다.
+
++
+파일 공유로 내보낼 때 BlueXP 분류에 내보내기 액세스에 대한 올바른 권한이 있는지 확인합니다.
+
++
+[]
+====
+* 참고 * 에서 보고서를 생성할 수 있는 기능. JSON 형식은 BlueXP 분류 버전 1.30 이하에만 적용됩니다.
+
+====
+
+
+BlueXP 분류가 파일(비정형 데이터), 디렉토리(폴더 및 파일 공유) 및 데이터베이스(정형 데이터)를 검사하는 경우 최대 3개의 보고서 파일을 다운로드할 수 있습니다.
+
+.단계
+. 데이터 조사 페이지에서 을 클릭합니다 image:button_download.png["다운로드 버튼"] 버튼을 클릭합니다.
+. 데이터의 .csv 보고서 또는 .JSON 보고서를 다운로드할지 여부를 선택하고 * 보고서 다운로드 * 를 클릭합니다.
++
+JSON 보고서를 선택할 때 보고서를 다운로드할 NFS 공유의 이름을 '<host_name>:/<share_path>' 형식으로 입력합니다.
+
++
+에서 JSON 보고서 생성 진행률을 볼 수 있습니다 link:task-view-compliance-actions.html["작업 상태 창"].
+
++
+[]
+====
+* 참고 * 태그, 레이블 및 할당된 사용자를 기준으로 필터링하는 기능은 BlueXP 분류 버전 1.30 이상에만 해당됩니다.
+
+====
+

@@ -44,20 +44,10 @@ sidebar:
         url: "/task-scanning-anf.html"
       - title: ONTAP용 Amazon FSx
         url: "/task-scanning-fsx.html"
-      - title: Amazon S3 버킷
-        url: "/task-scanning-s3.html"
       - title: 데이터베이스 스키마
         url: "/task-scanning-databases.html"
-      - title: OneDrive 계정
-        url: "/task-scanning-onedrive.html"
-      - title: SharePoint 계정
-        url: "/task-scanning-sharepoint.html"
-      - title: Google Drive 계정
-        url: "/task-scanning-google-drive.html"
       - title: 파일 공유
         url: "/task-scanning-file-shares.html"
-      - title: 오브젝트 스토리지
-        url: "/task-scanning-object-storage.html"
     - title: Active Directory 통합
       url: "/task-add-active-directory-datasense.html"
     - title: 라이센스를 설정합니다
@@ -74,34 +64,64 @@ sidebar:
       url: "/reference-private-data-categories.html"
     - title: 데이터를 조사합니다
       url: "/task-investigate-data.html"
-    - title: 개인 데이터를 구성합니다
-      url: "/task-org-private-data.html"
     - title: 데이터에 정책을 할당합니다
       url: "/task-using-policies.html"
-    - title: 개인 데이터를 관리합니다
-      url: "/task-managing-highlights.html"
     - title: 스캔 설정을 변경합니다
       url: task-managing-repo-scanning.html
     - title: 규정 준수 보고서를 생성합니다
       url: "/task-generating-compliance-reports.html"
   - title: BlueXP 분류 관리
     entries:
-    - title: 사용자 지정 개인 데이터 식별자를 추가합니다
-      url: "/task-managing-data-fusion.html"
     - title: 스캔에서 디렉토리를 제외합니다
       url: "/task-exclude-scan-paths.html"
-    - title: BlueXP 분류 작업의 상태를 봅니다
-      url: "/task-view-compliance-actions.html"
     - title: 기존 그룹 ID를 "오픈 투 조직"으로 정의
       url: "/task-add-group-id-as-open.html"
-    - title: BlueXP 분류 작업의 이력을 감사합니다
-      url: "/task-audit-data-sense-actions.html"
-    - title: BlueXP 분류 스캔 속도를 줄입니다
-      url: "/task-reduce-scan-speed.html"
     - title: BlueXP 분류에서 데이터 소스를 제거합니다
       url: "/task-managing-compliance.html"
     - title: BlueXP 분류를 제거합니다
       url: "/task-uninstall-data-sense.html"
+  - title: 더 이상 사용되지 않는 기능
+    entries:
+    - title: 사용되지 않는 기능 목록입니다
+      url: "/reference-free-paid.html"
+    - title: BlueXP 분류를 배포합니다
+      entries:
+      - title: 인터넷에 액세스할 수 없는 여러 호스트에 BlueXP 분류를 설치합니다
+        url: "/task-deploy-multi-host-install-dark-site.html"
+      - title: 기존 배포에 스캐너 노드를 추가합니다
+        url: "/task-deploy-add-scanner-nodes.html"
+      - title: 무료 평가판을 설정하거나 라이센스를 가져옵니다
+        url: "/task-licensing-byol-freetrial.html"
+    - title: 데이터를 스캔합니다
+      entries:
+      - title: Amazon S3 버킷을 스캔합니다
+        url: "/task-scanning-s3.html"
+      - title: OneDrive 계정을 검색합니다
+        url: "/task-scanning-onedrive.html"
+      - title: SharePoint 계정을 검색합니다
+        url: "/task-scanning-sharepoint.html"
+      - title: Google Drive 계정을 스캔합니다
+        url: "/task-scanning-google-drive.html"
+      - title: S3 프로토콜을 사용하는 오브젝트 스토리지를 검색합니다
+        url: "/task-scanning-object-storage.html"
+    - title: 데이터 관리
+      entries:
+      - title: 거버넌스 대시보드에서 데이터에 대한 거버넌스 세부 정보를 봅니다
+        url: "/task-controlling-governance-dashboard-deprecated.html"
+      - title: 개인 데이터를 구성합니다
+        url: "/task-org-private-data.html"
+      - title: 개인 데이터를 관리합니다
+        url: "/task-managing-highlights.html"
+      - title: 사용자 지정 개인 데이터 식별자를 추가합니다
+        url: "/task-managing-data-fusion.html"
+      - title: BlueXP 분류 작업의 상태를 봅니다
+        url: "/task-view-compliance-actions.html"
+      - title: BlueXP 분류 작업의 이력을 감사합니다
+        url: "/task-audit-data-sense-actions.html"
+      - title: BlueXP 분류 스캔 속도를 줄입니다
+        url: "/task-reduce-scan-speed.html"
+      - title: OneDrive, SharePoint 또는 Google Drive 계정을 제거합니다
+        url: "/task-managing-compliance-deprecated.html"
   - title: 참조하십시오
     entries:
     - title: 지원되는 BlueXP 분류 인스턴스 유형

@@ -23,6 +23,9 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["BlueXP Conn
 BlueXP 분류 설치 스크립트는 시스템 및 환경이 필수 전제 조건을 충족하는지 확인하는 것으로 시작됩니다. 필수 구성 요소가 모두 충족되면 설치가 시작됩니다. BlueXP 분류 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다. link:task-test-linux-system.html["Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인하는 방법을 참조하십시오"].
 
 
+NOTE: 기존 버전 1.30 이하의 경우 여러 호스트에 BlueXP 분류를 설치해야 하는 경우, 을 참조하십시오 link:task-deploy-multi-host-install-dark-site.html["인터넷에 액세스할 수 없는 여러 호스트에 BlueXP 분류를 설치합니다"].
+
+
 
 == 지원되는 데이터 소스
 
@@ -30,12 +33,10 @@ BlueXP 분류 설치 스크립트는 시스템 및 환경이 필수 전제 조�
 
 * 온프레미스 ONTAP 시스템
 * 데이터베이스 스키마
-* SharePoint 사내 계정(SharePoint Server)
 * 비NetApp NFS 또는 CIFS 파일 공유
-* S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지
 
 
-현재 Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP, AWS S3 또는 Google Drive 스캔을 지원하지 않습니다. BlueXP 분류가 개인 모드로 배포되는 경우 OneDrive 또는 SharePoint Online 계정
+BlueXP 분류를 프라이빗 모드로 구축한 경우 현재 Cloud Volumes ONTAP, Azure NetApp Files 또는 FSx for ONTAP 계정 검사는 지원되지 않습니다.
 
 
 
@@ -43,14 +44,11 @@ BlueXP 분류 설치 스크립트는 시스템 및 환경이 필수 전제 조�
 
 대부분의 BlueXP 분류 기능은 인터넷에 액세스할 수 없는 사이트에 배포할 때 작동합니다. 그러나 인터넷 액세스가 필요한 특정 기능은 지원되지 않습니다. 예를 들면 다음과 같습니다.
 
-* Microsoft Azure 정보 보호(AIP) 레이블 관리
-* 특정 중요 정책이 결과를 반환할 때 BlueXP 사용자에게 전자 메일 알림을 보냅니다
 * 여러 사용자에 대한 BlueXP 역할 설정(예: 계정 관리자 또는 규정 준수 뷰어)
 * BlueXP 복사 및 동기화를 사용하여 소스 파일 복사 및 동기화
-* 사용자 피드백을 받는 중입니다
 * BlueXP에서 소프트웨어 자동 업그레이드
 +
-BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 link:whats-new.html["BlueXP 분류 릴리스 정보"] 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["BlueXP 커넥터를 업그레이드합니다"^] 및 <<BlueXP 분류 소프트웨어를 업그레이드합니다,BlueXP 분류 소프트웨어를 업그레이드합니다>>.
+BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 link:whats-new.html["BlueXP 분류 릴리스 정보"] 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["BlueXP 커넥터를 업그레이드합니다"^] 및 <<BlueXP 분류 소프트웨어를 업그레이드합니다,BlueXP 분류 소프트웨어를 업그레이드합니다>>.
 
 
 
@@ -74,7 +72,7 @@ NetApp Support 사이트에서 BlueXP 분류 소프트웨어를 다운로드하�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] BlueXP 분류 서비스에 가입합니다
 [role="quick-margin-para"]
-BlueXP의 BlueXP 분류 검사에서 처음 1TB의 데이터는 30일 동안 무료로 제공됩니다. 이 시점 이후에 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스가 필요합니다.
+BlueXP에서 BlueXP 분류 검사를 수행하는 첫 번째 500TB의 데이터는 30일간 무료로 제공됩니다. 이 시점 이후에 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스가 필요합니다. BlueXP 코어 버전 1.31은 무료로 제공됩니다.
 
 
 
@@ -283,17 +281,15 @@ Active Directory에 대한 정보가 있어야 합니다.
 
 
 |===
-여러 BlueXP 분류 호스트를 사용하여 데이터 소스를 검사하는 추가 처리 기능을 제공하는 경우 추가 포트/프로토콜을 활성화해야 합니다. link:task-deploy-compliance-dark-site.html#multi-host-installation-for-large-configurations["추가 포트 요구 사항을 참조하십시오"].
+여러 BlueXP 분류 호스트를 사용하여 데이터 소스를 검사하는 추가 처리 기능을 제공하는 경우 추가 포트/프로토콜을 활성화해야 합니다. link:task-deploy-compliance-dark-site.html["추가 포트 요구 사항을 참조하십시오"].
 
 
 
 == 사내 Linux 호스트에 BlueXP 분류를 설치합니다
 
-일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다. link:task-deploy-compliance-dark-site.html#single-host-installation-for-typical-configurations["여기에서 해당 단계를 확인하십시오"].
+일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다.
 
 image:diagram_deploy_onprem_single_host_no_internet.png["인터넷 액세스 없이 내부에 배포된 단일 BlueXP 분류 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여 주는 다이어그램입니다."]
-
-페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. link:task-deploy-compliance-dark-site.html#multi-host-installation-for-large-configurations["여기에서 해당 단계를 확인하십시오"].
 
 image:diagram_deploy_onprem_multi_host_no_internet.png["인터넷 액세스 없이 내부에 배포된 여러 BlueXP 분류 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여 주는 다이어그램입니다."]
 
@@ -303,7 +299,7 @@ image:diagram_deploy_onprem_multi_host_no_internet.png["인터넷 액세스 없�
 
 오프라인 환경의 단일 사내 호스트에 BlueXP 분류 소프트웨어를 설치할 때는 다음 단계를 따르십시오.
 
-모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 기록됩니다 `/opt/netapp/install_logs/`. link:task-audit-data-sense-actions.html#access-the-log-files["자세한 내용은 여기에서 확인하십시오."].
+모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 기록됩니다 `/opt/netapp/install_logs/`. link:task-audit-data-sense-actions.html["자세한 내용은 여기에서 확인하십시오."].
 
 .필요한 것
 * Linux 시스템이 를 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
@@ -380,78 +376,7 @@ BlueXP 분류 설치 프로그램은 패키지를 설치하고, 설치를 등록
 .다음 단계
 구성 페이지에서 로컬 을 선택할 수 있습니다 link:task-getting-started-compliance.html["온프레미스 ONTAP 클러스터"] 및 link:task-scanning-databases.html["데이터베이스를 지원합니다"] 선택합니다.
 
-또한 가능합니다 link:task-licensing-datasense.html#use-a-bluexp-classification-byol-license["BlueXP 분류에 대한 BYOL 라이센스 설정"] 현재 BlueXP 디지털 전자지갑에서 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.
-
-
-
-=== 대규모 구성을 위한 다중 호스트 설치
-
-페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 _Manager node_라고 하며 추가 처리 능력을 제공하는 추가 시스템을 _Scanner nodes_라고 합니다.
-
-오프라인 환경의 여러 사내 호스트에 BlueXP 분류 소프트웨어를 설치할 때는 다음 단계를 따르십시오.
-
-.필요한 것
-* Manager 및 Scanner 노드의 모든 Linux 시스템이 을 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
-* 두 가지 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)를 설치했는지 확인합니다.
-* Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
-* 오프라인 환경이 필요한 를 충족하는지 확인합니다 <<BlueXP 및 BlueXP 분류 사전 요구 사항을 확인합니다,사용 권한 및 연결>>.
-* 사용하려는 스캐너 노드 호스트의 IP 주소가 있어야 합니다.
-* 모든 호스트에서 다음 포트 및 프로토콜을 활성화해야 합니다.
-+
-[cols="15,20,55"]
-|===
-| 포트 | 프로토콜 | 설명 
-
-
-| 2377 | TCP | 클러스터 관리 통신 
-
-
-| 7946 | TCP, UDP | 노드 간 통신 
-
-
-| 4789 | UDP입니다 | 오버레이 네트워크 트래픽 
-
-
-| 50 | ESP | 암호화된 IPsec 오버레이 네트워크(ESP) 트래픽 
-
-
-| 111 | TCP, UDP | 호스트 간 파일 공유를 위한 NFS 서버(각 스캐너 노드에서 관리자 노드로 필요) 
-
-
-| 2049 | TCP, UDP | 호스트 간 파일 공유를 위한 NFS 서버(각 스캐너 노드에서 관리자 노드로 필요) 
-|===
-
-
-.단계
-. 에서 1단계부터 8단계까지 수행합니다 link:task-deploy-compliance-dark-site.html#single-host-installation-for-typical-configurations["단일 호스트 설치"] 관리자 노드에서.
-. 9단계에서 설명한 것처럼 설치 관리자가 메시지를 표시하면 일련의 프롬프트에 필요한 값을 입력하거나 설치 프로그램에 명령줄 인수로 필요한 매개 변수를 제공할 수 있습니다.
-+
-단일 호스트 설치에 사용할 수 있는 변수 외에도 새 옵션 * -n<node_ip> * 를 사용하여 스캐너 노드의 IP 주소를 지정할 수 있습니다. 여러 노드 IP는 쉼표로 구분됩니다.
-
-+
-예를 들어, 이 명령은 다음과 같이 3개의 스캐너 노드를 추가합니다.
-`sudo ./install.sh -a <account_id> -c <client_id> -t <user_token> --host <ds_host> --manager-host <cm_host> *-n <node_ip1>,<node_ip2>,<node_ip3>* --no-proxy --darksite`
-
-. 관리자 노드 설치가 완료되기 전에 스캐너 노드에 필요한 설치 명령이 대화 상자에 표시됩니다. 명령을 복사합니다(예: `sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF-1-3u69m1-1s35212`)를 입력하고 텍스트 파일에 저장합니다.
-. 켜짐 * 각 * 스캐너 노드 호스트:
-+
-.. Data Sense 설치 프로그램 파일(* cc_onpremise_installer.tar.gz *)을 호스트 컴퓨터에 복사합니다.
-.. 설치 프로그램 파일의 압축을 풉니다.
-.. 3단계에서 복사한 명령을 붙여 넣고 실행합니다.
-+
-모든 스캐너 노드에서 설치가 완료되고 관리자 노드에 연결되었으면 관리자 노드 설치도 완료됩니다.
-
-
-
-
-
-.결과
-BlueXP 분류 설치 프로그램이 패키지 설치를 완료하고 설치를 등록합니다. 설치에는 15 ~ 25분이 소요될 수 있습니다.
-
-.다음 단계
-구성 페이지에서 로컬 을 선택할 수 있습니다 link:task-getting-started-compliance.html["온프레미스 ONTAP 클러스터"] 및 로컬 link:task-scanning-databases.html["데이터베이스를 지원합니다"] 선택합니다.
-
-또한 가능합니다 link:task-licensing-datasense.html#use-a-bluexp-classification-byol-license["BlueXP 분류에 대한 BYOL 라이센스 설정"] 현재 BlueXP 디지털 전자지갑에서 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.
+또한 가능합니다 link:task-licensing-datasense.html["BlueXP 분류에 대한 BYOL 라이센스 설정"] 현재 BlueXP 디지털 전자지갑에서 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.
 
 
 
@@ -460,7 +385,7 @@ BlueXP 분류 설치 프로그램이 패키지 설치를 완료하고 설치를 
 BlueXP 분류 소프트웨어는 정기적으로 새로운 기능으로 업데이트되므로 정기적으로 새로운 버전을 확인하여 최신 소프트웨어와 기능을 사용하고 있는지 확인해야 합니다. 업그레이드를 자동으로 수행하기 위한 인터넷 연결이 없기 때문에 BlueXP 분류 소프트웨어를 수동으로 업그레이드해야 합니다.
 
 .시작하기 전에
-* BlueXP Connector 소프트웨어를 최신 버전으로 업그레이드하는 것이 좋습니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["커넥터 업그레이드 단계를 참조하십시오"^].
+* BlueXP Connector 소프트웨어를 최신 버전으로 업그레이드하는 것이 좋습니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["커넥터 업그레이드 단계를 참조하십시오"^].
 * BlueXP 분류 버전 1.24부터 향후 모든 소프트웨어 버전으로 업그레이드할 수 있습니다.
 +
 BlueXP 분류 소프트웨어가 1.24 이전 버전을 실행 중인 경우 한 번에 하나의 주요 버전만 업그레이드할 수 있습니다. 예를 들어, 버전 1.21.x가 설치되어 있는 경우 1.22.x로 업그레이드할 수 있습니다 몇 가지 주요 버전이 뒤쳐지면 소프트웨어를 여러 번 업그레이드해야 합니다.

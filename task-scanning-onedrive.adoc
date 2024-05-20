@@ -4,7 +4,7 @@ permalink: task-scanning-onedrive.html
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, onedrive, data sense 
 summary: BlueXP 분류를 사용하여 사용자의 OneDrive 폴더에 있는 파일을 스캔하려면 몇 단계를 완료하십시오. 
 ---
-= OneDrive 계정 스캔 중
+= OneDrive 계정을 검색합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,6 +16,11 @@ summary: BlueXP 분류를 사용하여 사용자의 OneDrive 폴더에 있는 �
 [role="lead"]
 BlueXP 분류를 사용하여 사용자의 OneDrive 폴더에 있는 파일을 스캔하려면 몇 단계를 완료하십시오.
 
+[]
+====
+* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다.
+
+====
 
 
 == 빠른 시작
@@ -133,5 +138,3 @@ BlueXP 분류는 사용자가 추가한 파일의 스캔을 시작하고 그 결
 사용자가 회사를 떠나거나 이메일 주소가 변경되면 개별 OneDrive 사용자가 파일을 스캔하지 못하도록 할 수 있습니다. 구성 페이지에서 * OneDrive 사용자 제거 * 를 클릭하면 됩니다.
 
 image:screenshot_compliance_onedrive_remove_user.png["단일 사용자의 파일 스캔 작업을 제거하는 방법을 보여 주는 스크린샷"]
-
-참고: 이 작업은 수행할 수 있습니다 link:task-managing-compliance.html#removing-a-onedrive-sharepoint-or-google-drive-account-from-bluexp-classification["BlueXP 분류에서 전체 OneDrive 계정을 삭제합니다"] 더 이상 OneDrive 계정에서 사용자 데이터를 스캔하지 않으려는 경우

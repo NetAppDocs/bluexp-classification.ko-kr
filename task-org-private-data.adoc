@@ -16,11 +16,12 @@ summary: BlueXP 분류는 개인 데이터를 관리하고 구성할 수 있는 
 [role="lead"]
 BlueXP 분류는 개인 데이터를 관리하고 구성할 수 있는 다양한 방법을 제공합니다. 따라서 가장 중요한 데이터를 더 쉽게 볼 수 있습니다.
 
+[]
+====
+* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다. 2023년 12월(v1.26.6) 릴리즈에서는 AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 제거되었습니다.
+
+====
 * 에 가입되어 있는 경우 https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection)"^] 파일을 분류하고 보호하려면 BlueXP 분류를 사용하여 해당 AIP 레이블을 관리할 수 있습니다.
-+
-
-NOTE: 2023년 12월(v1.26.6) 릴리즈에서는 AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 일시적으로 제거되었습니다.
-
 * 조직 또는 일부 유형의 추가 작업에 대해 표시할 파일에 태그를 추가할 수 있습니다.
 * BlueXP 사용자를 특정 파일 또는 여러 파일에 할당하여 파일 관리를 책임질 수 있습니다.
 * "정책" 기능을 사용하면 버튼 하나를 클릭하여 결과를 쉽게 볼 수 있도록 사용자 지정 검색 쿼리를 직접 만들 수 있습니다.

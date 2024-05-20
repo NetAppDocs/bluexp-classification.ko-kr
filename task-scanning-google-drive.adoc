@@ -4,7 +4,7 @@ permalink: task-scanning-google-drive.html
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, google drive, data sense 
 summary: BlueXP 분류를 사용하여 Google Drive 계정의 사용자 파일 스캔을 시작하려면 몇 단계를 완료하십시오. 
 ---
-= Google Drive 계정을 검색하는 중입니다
+= Google Drive 계정을 스캔합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,6 +16,11 @@ summary: BlueXP 분류를 사용하여 Google Drive 계정의 사용자 파일 �
 [role="lead"]
 BlueXP 분류를 사용하여 Google Drive 계정의 사용자 파일 스캔을 시작하려면 몇 단계를 완료하십시오.
 
+[]
+====
+* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다.
+
+====
 
 
 == 빠른 시작
@@ -40,7 +45,7 @@ link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이�
 
 
 
-== Google Drive 요구 사항 검토
+== Google 드라이브 요구 사항을 검토합니다
 
 다음 전제 조건을 검토하여 Google Drive 계정에서 BlueXP 분류를 활성화할 준비가 되었는지 확인합니다.
 
@@ -59,7 +64,7 @@ link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이�
 
 
 
-== BlueXP 분류 배포
+== BlueXP 분류를 배포합니다
 
 배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.
 
@@ -69,7 +74,7 @@ BlueXP 분류는 일 수 있습니다 link:task-deploy-cloud-compliance.html["�
 
 
 
-== Google Drive 계정을 추가하는 중입니다
+== Google Drive 계정을 추가합니다
 
 사용자 파일이 있는 Google Drive 계정을 추가합니다. 여러 사용자의 파일을 스캔하려면 각 사용자에 대해 이 단계를 실행해야 합니다.
 
@@ -86,7 +91,7 @@ Google Drive 계정이 작업 환경 목록에 추가됩니다.
 
 
 
-== 사용자 데이터에 대한 스캔 유형을 선택합니다
+== 사용자 데이터에 대한 검색 유형을 선택합니다
 
 BlueXP 분류가 사용자 데이터에 대해 수행할 스캔 유형을 선택합니다.
 
@@ -120,6 +125,6 @@ BlueXP 분류는 사용자가 추가한 Google Drive 계정의 파일 스캔을 
 
 
 
-== 규정 준수 검사에서 Google Drive 계정을 제거하는 중입니다
+== 규정 준수 스캔에서 Google Drive 계정을 제거합니다
 
-단일 사용자의 Google Drive 파일만 단일 Google Drive 계정의 일부이므로, 사용자의 Google Drive 계정에서 파일 검색을 중지하려면 다음을 수행해야 합니다 link:task-managing-compliance.html#removing-a-onedrive-sharepoint-or-google-drive-account-from-bluexp-classification["BlueXP 분류에서 Google Drive 계정을 삭제합니다"].
+단일 사용자의 Google Drive 파일만 단일 Google Drive 계정의 일부이므로, 사용자의 Google Drive 계정에서 파일 검색을 중지하려면 다음을 수행해야 합니다 link:task-managing-compliance.html["BlueXP 분류에서 Google Drive 계정을 삭제합니다"].
