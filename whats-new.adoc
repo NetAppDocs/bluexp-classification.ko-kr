@@ -42,6 +42,8 @@ Podman 컨테이너 엔진을 사용해야 하는 운영 체제에는 BlueXP 분
 
 에 대해 자세히 알아보십시오 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-overview.html["BlueXP 분류 구축 개요"].
 
+Connector를 사내에 상주하는 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 분류가 지원됩니다. RHEL 8 또는 9 호스트가 AWS, Azure 또는 Google Cloud에 상주하는 경우에는 지원되지 않습니다.
+
 
 
 === 감사 로그 수집을 활성화하는 옵션이 제거되었습니다

@@ -3544,4 +3544,5 @@
   <block id="77811a66f12d1085614f313861555339" category="sidebar">데이터 관리</block>
   <block id="08a8e0f5e4c7d91e565955cb7f30b215" category="sidebar">거버넌스 대시보드에서 데이터에 대한 거버넌스 세부 정보를 봅니다</block>
   <block id="aeb69ebcaffd7e18cd55db906e582bf5" category="sidebar">OneDrive, SharePoint 또는 Google Drive 계정을 제거합니다</block>
+  <block id="b6417b62aacc6d16c1ae7a79d851d413" category="paragraph">Connector를 사내에 상주하는 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 분류가 지원됩니다. RHEL 8 또는 9 호스트가 AWS, Azure 또는 Google Cloud에 상주하는 경우에는 지원되지 않습니다.</block>
 </blocks>
