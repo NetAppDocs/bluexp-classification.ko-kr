@@ -15,7 +15,7 @@ indexpage:
       url: concept-cloud-compliance.html
     - title: 새로운 기능
       url: whats-new.html
-    - title: 무료 및 유료 버전으로 제공되는 기능
+    - title: BlueXP 코어 및 기존 버전에서 사용할 수 있는 기능
       url: reference-free-paid.html
     - title: BlueXP를 사용하여 클라우드에 BlueXP 분류를 배포합니다
       url: task-deploy-cloud-compliance.html

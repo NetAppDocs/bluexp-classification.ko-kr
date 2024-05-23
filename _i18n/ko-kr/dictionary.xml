@@ -600,7 +600,6 @@
   <block id="9d85612840e00794629f6dce90aa22fa" category="inline-link-macro">AIP 레이블</block>
   <block id="fdc2c96185d2a7c98ab81a927c827edb" category="list-text">Create Policy * 를 클릭합니다.</block>
   <block id="ab3a166dafa7696427031860a8ba2694" category="inline-image-macro">정책을 구성하고 저장하는 방법을 보여 주는 스크린샷</block>
-  <block id="23e34b6c117b6fd91abb568e48195e27" category="paragraph"><block ref="23e34b6c117b6fd91abb568e48195e27" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f124f85896ac18194a54f85b2d21b888" category="paragraph">새 정책이 정책 탭에 나타납니다.</block>
   <block id="ba7f20906bacf4fde87c14d7628aaec2" category="inline-image-macro">정책에 대해 보낼 전자 메일 기준을 선택하는 방법을 보여 주는 스크린샷</block>
   <block id="9cc0943710c206f20a91720ffe09f7bf" category="paragraph"><block ref="9cc0943710c206f20a91720ffe09f7bf" category="inline-image-macro-rx" type="image"></block></block>
@@ -3498,7 +3497,6 @@
   <block id="e2175eca7cd7227e608f98540d53af5e" category="paragraph">이 릴리스에서는 다음 옵션도 제거되었습니다.</block>
   <block id="cf39647f74e2ee71e92d2dcb020dab2d" category="paragraph">BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작업 환경의 볼륨에서 감지된 파일 액세스 이벤트를 처리할 수 있습니다. BlueXP 분류는 다음 유형의 FPolicy 이벤트와 파일에서 작업을 수행한 사용자, 즉 만들기, 읽기, 쓰기, 삭제, 이름 바꾸기, 소유자/권한을 변경하고 SACL/DACL을 변경합니다.</block>
   <block id="06e3e3e8a40062c8a44b3bead8f60ccb" category="list-text">OneDrive 계정 및 SharePoint 계정(레거시 버전 1.30 이하)</block>
-  <block id="a0c44cafcacc5478c539dba887219bc9" category="sidebar">무료 및 유료 버전으로 제공되는 기능</block>
   <block id="2cb8839a5444b5db421bd5b52586dd24" category="sidebar">데이터 원본을 검사합니다</block>
   <block id="98f9f8a11a148aec70c39965293ea9b3" category="sidebar">더 이상 사용되지 않는 기능</block>
   <block id="dd6f713e594790101284e68ce9ae76f7" category="sidebar">더 이상 사용되지 않는 기능 목록입니다</block>
@@ -3529,4 +3527,6 @@
   <block id="ff9a5988c9084ed8f91f339a8c5730ef" category="sidebar">BlueXP 분류 사용 중단 구축</block>
   <block id="08504eba0f24252abaffadf616e91d7c" category="sidebar">스캔 데이터 사용 중단</block>
   <block id="58b46c120f259bfcd0cbe13c84945204" category="sidebar">데이터 사용 중단 관리</block>
+  <block id="9b07697830dbb49b6ea67bff8f36ad42" category="paragraph"><block ref="9b07697830dbb49b6ea67bff8f36ad42" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="39ba3e6e56f553f6665e61fc4be73bd0" category="sidebar">BlueXP 코어 및 기존 버전에서 사용할 수 있는 기능</block>
 </blocks>

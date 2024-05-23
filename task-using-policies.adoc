@@ -55,7 +55,7 @@ image:screenshot_compliance_save_as_highlight.png["필터링된 쿼리를 정책
 .. 필요에 따라 확인란을 선택하여 정책 매개 변수와 일치하는 파일을 자동으로 삭제합니다.
 .. Create Policy * 를 클릭합니다.
 +
-image:screenshot_compliance_save_highlight.png["정책을 구성하고 저장하는 방법을 보여 주는 스크린샷"]
+image:screenshot_compliance_save_highlight2.png["정책을 구성하고 저장하는 방법을 보여 주는 스크린샷"]
 
 
 
