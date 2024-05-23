@@ -24,18 +24,13 @@
   <block id="005b996ef864c5e5d692c055b435643b" category="paragraph">인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
   <block id="9e476387322a5c250893cf9c5c4ce78c" category="inline-link-macro">정책</block>
-  <block id="335e4bf959c1a6bf79337e11e91e4b41" category="paragraph">* 작업 환경: *</block>
   <block id="434b441a61769bba5eecb3dd327a4342" category="list-text">Cloud Volumes ONTAP(AWS, Azure 또는 GCP에 구축)</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="list-text">온프레미스 ONTAP 클러스터</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
   <block id="18cf072964a583150dd247485ba75b92" category="list-text">ONTAP용 Amazon FSx</block>
   <block id="270fcb785810d0206945029bb05f4e97" category="list-text">Amazon S3</block>
-  <block id="69324e9ada23ef5bcac1bc763ac5938e" category="paragraph">* 데이터 소스: *</block>
   <block id="34a23f91ee1733d5151d67d6f922e573" category="list-text">비 NetApp 파일 공유</block>
-  <block id="c58c082d5caf77a57bf200c63dfeaeb9" category="list-text">오브젝트 스토리지(S3 프로토콜 사용)</block>
-  <block id="807a3c50d901b21b3f3b8e077bc903f8" category="list-text">OneDrive 계정</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
-  <block id="59aab28b54594c59dab8d19afd9478e4" category="inline-link">가격</block>
   <block id="73e82d6326f541ace82886b5c0cd44eb" category="inline-xref">각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다</block>
   <block id="e1229dd3741de325a7a26a00931944cd" category="inline-link">각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다</block>
   <block id="17dc12e433367516ebb888f04d0428a7" category="section-title">데이터 전송 비용</block>
@@ -90,7 +85,6 @@
   <block id="7b895b198aba9634ffec5e0ec9a3aff4" category="section-title">네트워킹 개요</block>
   <block id="d359ba9662c22ff5e27bf861300c6bbf" category="section-title">규정 준수 정보에 대한 사용자 액세스</block>
   <block id="7e576e4144e56e656ad24bb096e2e6fe" category="list-text">계정 관리자 * 는 규정 준수 설정을 관리하고 모든 작업 환경에 대한 규정 준수 정보를 볼 수 있습니다.</block>
-  <block id="e84e463a5d50d51ba24671ea703ccd3a" category="list-text">Compliance Viewer * 역할의 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 시스템에 대한 보고서만 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마 스캔을 활성화/비활성화할 수 없습니다. 이러한 사용자는 파일을 복사, 이동 또는 삭제할 수 없습니다.</block>
   <block id="2d4684d2aec68a0b0d987ac449846c38" category="inline-link">특정 역할을 가진 사용자를 추가합니다</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">빠른 시작</block>
   <block id="91e06e9a9ef97681b798e2e5e007ba97" category="paragraph">다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.</block>
@@ -499,7 +493,6 @@
   <block id="4971e76b33cd221cbe44ae11708dcf1a" category="paragraph"><block ref="63c04392b8948e626a251971bdfb13c0" category="inline-link-macro-rx"></block>.</block>
   <block id="7a833d41d59abd430a8a21760722d14a" category="paragraph"><block ref="57d1ac548ab885ff197c8b0634f5bdfc" category="inline-link-macro-rx"></block>.</block>
   <block id="ae64bece015f15eb39e95575c833f8d3" category="section-title">ONTAP 볼륨에서 데이터 계층화가 활성화된 경우 어떻게 됩니까?</block>
-  <block id="0a351d661588dd9301518a85a687c4dc" category="paragraph">또한 조직에서 내부적으로 공유할 수 있는 관리 페이지 및 조사 페이지에서 상태 보고서를 다운로드할 수도 있습니다.</block>
   <block id="2a03ec9e7d9aaa65371a523434cb5fb5" category="inline-link-macro">AIP(Azure Information Protection)</block>
   <block id="70e4204451ab8b7224b342245071bd70" category="paragraph"><block ref="8b78b4503f012c98d9a7bad6859a8875" category="inline-link-macro-rx"></block>.</block>
   <block id="892f73595a08cb4eef7c3e6319b7f807" category="list-text">조직 또는 일부 유형의 추가 작업에 대해 표시할 파일에 태그를 추가할 수 있습니다.</block>
@@ -808,7 +801,6 @@
   <block id="70d7362b35a6ff039264c78f2d35ab2c" category="section-title">지원되는 데이터 소스</block>
   <block id="d0a39c85bb5fdaacac18ed6c4e5b511f" category="list-text">온프레미스 ONTAP 시스템</block>
   <block id="ae9d17dd7732dafc7b97f62ac9094cf7" category="list-text">데이터베이스 스키마</block>
-  <block id="ec1fb1662782ed20e20c07aa72cea943" category="list-text">비NetApp NFS 또는 CIFS 파일 공유</block>
   <block id="c6b920b524033c55e0dbc0115eae5c7e" category="list-text">S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지</block>
   <block id="b2ddcf19cd8b44eb7a130f3b9f666f56" category="inline-link">커넥터를 배포합니다</block>
   <block id="5462103113dfca7582cf43f266db09a2" category="inline-xref">호스트 요구 사항</block>
@@ -1144,20 +1136,16 @@
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
   <block id="b445de53411a165e9c56da6430c38d59" category="inline-link">Azure의 커넥터 규칙</block>
-  <block id="c6bcf4a88b4c531d404128df1f1ad3a8" category="list-text">Google Drive 계정</block>
   <block id="dc3d679737d761f6e72564d962617ffa" category="paragraph">많은 사용자가 데이터를 신속하게 스캔하여 더 많은 연구가 필요한 데이터 소스를 식별하려고 하므로 이 기능을 좋아하고, 그런 다음 필요한 데이터 소스 또는 볼륨에서만 분류 검사를 활성화할 수 있습니다.</block>
   <block id="a29f21b4143f28dd101eaaa1fe82fd69" category="inline-xref">아래 전체 목록을 참조하십시오</block>
   <block id="ddc3aba4eccf7778417b3605919f552e" category="list-text">기존 시스템에서 클라우드로 데이터 마이그레이션</block>
   <block id="1e99ed6a00e6ef3956359cd96c54b66c" category="section-title">소스 시스템 및 데이터 유형의 유형입니다</block>
   <block id="9648ab08d5b3fccc9c9ca3160e445cda" category="paragraph">다음 질문은 스캔할 수 있는 스토리지 유형 및 스캔할 데이터 유형과 관련되어 있습니다.</block>
-  <block id="bdcce4158cfc2b8c6a2ccd87f6c5170b" category="list-text">데이터베이스(Amazon RDS, MongoDB, MySQL, Oracle, PostgreSQL, SAP HANA, SQL Server)</block>
   <block id="0adefa52dc5e774fb8bd1c62fec82b84" category="paragraph">'+.csv, .dcm, .dicom, .DOC, .DOCX, .JSON, .pdf, .PPTX, .rtf, .TXT, XLS, .XLSX, Docs, Sheets, Slides+'</block>
   <block id="720afdfb61af450cb24ecd2ff70d9559" category="list-text">데이터 매핑 스캔.</block>
   <block id="00fb8639b6c2826bd3fceaa0d36399d8" category="paragraph">고속 스캔 후 데이터 매핑 보고서를 생성할 수 있습니다. 이 보고서는 리소스 활용도, 마이그레이션, 백업, 보안 및 규정 준수 프로세스에 대한 의사 결정을 돕기 위해 기업 데이터 소스에 저장된 데이터에 대한 개요입니다.</block>
   <block id="201f7350fba7bb40edd7973d2df21f7d" category="list-text">데이터 분류(딥) 스캔.</block>
   <block id="1a068d00fba0764fe495dfcb9428ba33" category="section-title">추가 수익 실적을</block>
-  <block id="4aaa082eb5a6a6d38594fed7ac9dfc5c" category="list-text">BYOL(Bring-Your-Own-License) 방식으로 NetApp의 BYOL(Bring-Your-License</block>
-  <block id="df633ebdc2836fc65b2b5c8df3071fad" category="section-title">BYOL 용량 제한에 도달하면 어떻게 됩니까?</block>
   <block id="f56912566696fa3cc8524bcac5febbeb" category="section-title">커넥터 전개</block>
   <block id="c6dbaaf1bef168a38de37623edb997f7" category="section-title">커넥터란 무엇입니까?</block>
   <block id="417cf0f3678f81efde443c4a85c2acb8" category="section-title">커넥터를 어디에 설치해야 합니까?</block>
@@ -1252,7 +1240,6 @@
   <block id="8b072c4e238b04c04c81cef3ed309703" category="list-text">Scan Configuration(스캔 구성) 페이지에서 Pause(일시 중지) 버튼을 클릭하여 볼륨 스캐닝을 일시 중지하거나 Resume(재개) 버튼을 눌러 이전에 일시 중지된 볼륨 스캐닝을 재개합니다.</block>
   <block id="bc9b17eea5246a704bb26be367a3b35f" category="inline-image-macro">볼륨에서 스캔을 일시 중지하고 다시 시작하는 방법을 보여 주는 스크린샷</block>
   <block id="9b0105a4da00bc6036dcb389d0f65890" category="paragraph"><block ref="9b0105a4da00bc6036dcb389d0f65890" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dfb9b838b2fdca41edadb04c9ebbb240" category="list-text">비 NetApp CIFS 파일 공유(NFS 파일 공유 아님)</block>
   <block id="9816532bdb11b99d3175be528e41c5b6" category="cell">Texas Driver의 라이센스</block>
   <block id="e6860b78555fc79d4429acb5534cf51b" category="paragraph">조직에 맞는 검색 결과를 제공하는 사용자 지정 정책을 만들 수 있습니다. 검색 기준과 일치하는 모든 파일 및 디렉토리(공유 및 폴더)에 대한 결과가 반환됩니다.</block>
   <block id="b242cddbb1cb85737a2fd06f1d715934" category="paragraph">또한, 사용자 또는 그룹의 이름을 클릭하면 "사용자/그룹 권한" 필터에 입력된 사용자 또는 그룹의 이름과 함께 조사 페이지가 표시되어 사용자 또는 그룹이 액세스할 수 있는 모든 파일 및 디렉터리를 볼 수 있습니다.</block>
@@ -1408,9 +1395,7 @@
   <block id="213c26a534506d1ae60070296a0343e1" category="list-text">BlueXP에서 * 거버넌스 &gt; 분류 * 를 선택합니다.</block>
   <block id="7aeae51930f9c356f9f8611d740f88b8" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭한 다음 * 규정 준수 * 탭을 클릭합니다.</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
-  <block id="cd02721523de57441e385fc64cc693cc" category="list-text">SharePoint 사내 계정(SharePoint Server)</block>
   <block id="97f34c43cfd5abbd752382f17f44c9a2" category="list-text">BlueXP 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭합니다.</block>
-  <block id="4bb7a83842b1271682b6be62080707cb" category="list-text">SharePoint Online 및 온-프레미스 계정</block>
   <block id="e83ddd1a0d6942fff435d08a6e6cf089" category="list-text">SharePoint 사내(SharePoint Server)</block>
   <block id="1174d989c9d4a376553a67cf5fde5d2f" category="list-text">데이터 조사 결과 창에서 다시 검색할 폴더 또는 공유를 선택하고 * 다시 검사 * 를 클릭합니다.</block>
   <block id="dd5ebefe18289742811faf4ca70e23a7" category="list-text">SharePoint 온-프레미스의 경우 SharePoint Server의 URL도 필요합니다.</block>
@@ -1491,7 +1476,6 @@
   <block id="00fde4d5ca4e0124dccf8017bb92fc4e" category="list-text">전자 메일 알림의 경우 - 전자 메일 주소/계정입니다</block>
   <block id="fbda64f06352e44a4e6523dbdd6b039e" category="paragraph">클라우드의 시스템에 액세스하려면 보안 그룹 인바운드 규칙을 수정해야 합니다. 자세한 내용은 다음을 참조하십시오.</block>
   <block id="3c73fb515a637be4a1083e3e061099f9" category="paragraph">설치 프로그램은 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되어 있는지 확인합니다.</block>
-  <block id="0cf39354f7edfa15dd84075131e27804" category="list-text">클라우드 공급업체의 BlueXP Marketplace 목록 가입 또는</block>
   <block id="21315205ba34163a83853c5526e534c1" category="list-text">한 번에 최대 1K 항목을 재생성할 수 있습니다.</block>
   <block id="a8c256c3bc4f2ab999fee3056f7bebab" category="paragraph"><block ref="5d86a8971ca34d1c831cc0be7e11109d" prefix="" category="inline-code"></block></block>
   <block id="79bd49250e598bf53655f50c83b04044" category="list-text">작업 유형(삭제, 복사, 이동, 정책 생성, 정책 업데이트, 파일 재검색, JSON 보고서 다운로드 등)</block>
@@ -1736,8 +1720,6 @@
   <block id="f29d7c200ca42589e2a229aaea31ee81" category="paragraph">데이터 조사 보고서는 데이터 조사 페이지의 필터링된 콘텐츠를 다운로드하는 것입니다.</block>
   <block id="6b60aa2efdd7dd58a41b7ff64ca17b7a" category="list-text">데이터 주체의 특정 이름 또는 개인 식별자와 관련된 정보가 포함된 모든 파일의 보고서를 추출할 수 있습니다. <block ref="687b2924920d296441b75037f5a19f32" category="inline-link-macro-rx"></block>.</block>
   <block id="0de3b44db953b32901a8c86899f466bf" category="list-text">작업 환경의 파일 크기 및 수에 대한 정보를 제공합니다. 여기에는 사용 용량, 데이터 사용 기간, 데이터 크기 및 파일 유형이 포함됩니다. <block ref="32adca559d3a8c83bce5149c424376df" category="inline-link-macro-rx"></block>.</block>
-  <block id="fa5af203c1129bb563bbf7f09ad2de8e" category="paragraph">예. 정책 기능과 함께 정책이 결과를 반환하면 데이터를 보호하기 위한 알림을 받을 수 있도록 BlueXP 사용자(매일, 매주 또는 매월) 또는 기타 전자 메일 주소로 전자 메일 알림을 보낼 수 있습니다. 에 대해 자세히 알아보십시오 <block ref="52a90c0911f2be2601275d578a93ce51" category="inline-link-macro-rx"></block>.</block>
-  <block id="ea2ae808e5bc26e70d719a3dccac3d1e" category="paragraph">을 참조하십시오<block ref="8035aa4e87ed378ff4c6d7c3151d4d34" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="6eab0919191c5c01e62f627bf1087393" category="inline-link">인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 배포합니다</block>
   <block id="1bfc9901c2c53bbd2c3b887e04b0729a" category="inline-image-macro">태그 삭제 단추 위치의 스크린샷</block>
   <block id="40a535759cb359e9c73b128ff3596ce9" category="paragraph"><block ref="40a535759cb359e9c73b128ff3596ce9" category="inline-image-macro-rx" type="image"></block></block>
@@ -2305,9 +2287,6 @@
   <block id="78d74c7ac59dc7722ad434f3b07f8c77" category="paragraph">또한 특정 사용자가 BlueXP 분류 설정을 관리할 수 없는 상태에서 BlueXP 분류 검사 결과만 볼 수 있도록 하려면 해당 사용자에게 Cloud Compliance Viewer 역할을 할당할 수 있습니다.</block>
   <block id="baa3d508ff34a4c15a58d71fbe4f0e0f" category="section-title">내 브라우저와 BlueXP 분류 간에 전송되는 개인 데이터에 누구나 액세스할 수 있습니까?</block>
   <block id="d85edc022c467b1de0d062bc4f4215b5" category="paragraph">BlueXP 분류는 오브젝트 스토리지에 콜드 데이터가 계층화된 볼륨을 검사할 때 로컬 디스크에 있는 모든 데이터와 오브젝트 스토리지에 계층화된 콜드 데이터를 검사합니다. 이는 계층화를 구현하는 NetApp 제품이 아닌 경우에도 마찬가지입니다.</block>
-  <block id="f56bd4fda221a92df45e4216f8b75da7" category="section-title">BlueXP 분류가 조직에 알림을 보낼 수 있습니까?</block>
-  <block id="b1855bdbeb4a91ab4dc5cedfdb491dbf" category="section-title">BlueXP 분류는 내 파일에 포함된 AIP 레이블과 함께 사용할 수 있습니까?</block>
-  <block id="44d5aeda44eb4d5cf4e34a77d73348a0" category="paragraph">예. 에 가입한 경우 BlueXP 분류에서 검색하는 파일의 AIP 레이블을 관리할 수 있습니다<block ref="dc81bb027ada9d4ecc15bb9933242e3a" category="inline-link-rx"></block>. 파일에 이미 할당된 레이블을 보고, 파일에 레이블을 추가하고, 기존 레이블을 변경할 수 있습니다.</block>
   <block id="a243387e3677f17692394ce770a377f8" category="section-title">BlueXP 분류로 스캔할 수 있는 데이터 소스는 무엇입니까?</block>
   <block id="af0ca0f7eeb04884e0718a50bbcfb74d" category="paragraph">BlueXP 분류는 BlueXP Canvas에 추가한 작업 환경과 BlueXP 분류가 네트워크를 통해 액세스할 수 있는 다양한 유형의 정형 및 비정형 데이터 소스에서 데이터를 검색할 수 있습니다.</block>
   <block id="4f554b82a208efb281c300628a271b8e" category="section-title">인터넷 액세스 없이 사이트에 BlueXP 분류를 설치할 경우 어떤 데이터 소스를 검색할 수 있습니까?</block>
@@ -2320,8 +2299,6 @@
   <block id="dd3080e9b8238619b33db17f32f0014c" category="paragraph">전체 스캔 후에는 데이터 조사 페이지의 데이터 보기 및 구체화, 파일 내 이름 검색, 복사, 이동, 원본 파일 삭제 등 데이터에 적용할 수 있는 여러 가지 BlueXP 분류 기능이 추가로 있습니다.</block>
   <block id="c7c0e44b6916a9859c04b6f890acc7f4" category="paragraph">다음 질문은 BlueXP 분류 사용과 관련된 라이센스 및 비용에 관한 것입니다.</block>
   <block id="c327ff2d5e993e56b5e37bd52bc902cc" category="section-title">BlueXP 분류 비용은 얼마입니까?</block>
-  <block id="ceff76808d468622c1e0a066fef32324" category="paragraph">BlueXP 분류 사용 비용은 스캔 중인 데이터의 양에 따라 달라집니다. BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 두 한계 중 하나에 도달한 후 데이터 스캔을 계속하려면 다음 중 하나가 필요합니다.</block>
-  <block id="08ded86bec8c14194b76ccd46cc137b5" category="paragraph">BYOL 용량 제한에 도달하면 BlueXP 분류가 계속 실행되지만 스캔된 데이터에 대한 정보를 볼 수 없도록 대시보드에 대한 액세스가 차단됩니다. 라이센스 한도 내에서 용량 사용을 잠재적으로 가져오기 위해 스캔되는 볼륨 수를 줄이려는 경우 구성 페이지만 사용할 수 있습니다. BlueXP 분류에 대한 전체 액세스 권한을 회복하려면 BYOL 라이센스를 갱신해야 합니다.</block>
   <block id="655b44b42a0405ade73bd1b7c7fe7759" category="paragraph">Connector는 클라우드 계정 또는 온프레미스 컴퓨팅 인스턴스에서 실행되는 소프트웨어로, BlueXP에서 클라우드 리소스를 안전하게 관리할 수 있도록 지원합니다. BlueXP 분류를 사용하려면 커넥터를 배포해야 합니다.</block>
   <block id="20d2d9d43536e58f448006e30ede92ef" category="section-title">BlueXP 분류 구축</block>
   <block id="f64f1950281393c4954c25f27bf434bd" category="paragraph">다음 질문은 별도의 BlueXP 분류 인스턴스와 관련이 있습니다.</block>
@@ -2501,7 +2478,6 @@
   <block id="840d233bacdf6f0129b122ee5eb8f00f" category="paragraph">BlueXP 분류는 규정 준수 노력에 도움이 되는 여러 가지 도구를 제공합니다. BlueXP 분류를 사용하여 다음을 수행할 수 있습니다.</block>
   <block id="ce02ca731a7112daefd674bb361fff90" category="paragraph">BlueXP 분류는 범죄 목적으로 액세스할 위험이 있는 데이터를 식별할 수 있습니다. BlueXP 분류를 사용하여 다음을 수행할 수 있습니다.</block>
   <block id="f9d643ab04854145a0dd7aacf4788ad5" category="paragraph">BlueXP 분류는 스토리지 TCO(총 소유 비용)에 도움이 되는 도구를 제공합니다. BlueXP 분류를 사용하여 다음을 수행할 수 있습니다.</block>
-  <block id="6f329e64b2ec5336c7b26cd545ec085a" category="paragraph">BlueXP 분류는 다음과 같은 유형의 데이터 소스에서 정형 데이터와 비정형 데이터를 스캔 및 분석할 수 있습니다.</block>
   <block id="79de69a9c27339b7e2c0888ade6a7ff9" category="list-text">클라우드에 BlueXP 분류를 설치하려면 클라우드 인스턴스를 배포해야 하므로 클라우드 인스턴스가 배포된 클라우드 공급자가 비용을 부담합니다. 을 참조하십시오 <block ref="a640e98c8584c0b162d717c76dd083cd" category="inline-xref-macro-rx"></block>. BlueXP 분류를 사내 시스템에 설치하면 비용이 들지 않습니다.</block>
   <block id="5224a506004fee451317bef2d8675e7e" category="inline-image-macro">클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 BlueXP 분류 인스턴스를 보여 주는 다이어그램입니다.</block>
   <block id="fd1e8dbd30ef938d68f6110d8e753a9e" category="paragraph"><block ref="fd1e8dbd30ef938d68f6110d8e753a9e" category="inline-image-macro-rx" type="image"></block></block>
@@ -2598,7 +2574,6 @@
   <block id="c4070b10cbb51d0f6e51c7660f31d23e" category="paragraph">BlueXP 분류는 .DOC, .DOCX, .PDF, .PPTX, .XLS 파일 형식 내에서 AIP 레이블을 지원합니다. XLSX</block>
   <block id="520c4020066bd01c032e80343eb1c80a" category="list-text">파일에 AIP에 더 이상 존재하지 않는 레이블이 있는 경우 BlueXP 분류에서는 레이블이 없는 파일로 간주합니다.</block>
   <block id="5ec40c5e6d8523b9b27a700af68e8db5" category="list-text">정부 지역 또는 인터넷 액세스가 없는 온프레미스 위치(어두운 사이트라고도 함)에 BlueXP 분류를 배포한 경우에는 AIP 레이블 기능을 사용할 수 없습니다.</block>
-  <block id="31bb1a36af754f234f9441ac77d0d491" category="paragraph">AIP 레이블을 관리하려면 기존 Azure 계정에 로그인하여 AIP 레이블 기능을 BlueXP 분류에 통합해야 합니다. 활성화되면 모든 파일의 AIP 레이블을 관리할 수 있습니다 <block ref="590012ab10bd1b63820c3ad5e15aed82" category="inline-link-macro-rx"></block> BlueXP 작업 영역에서</block>
   <block id="cd687af63af301ade0c53e918d96e65c" category="list-text">BlueXP 분류 구성 페이지에서 * AIP 레이블 통합 * 을 클릭합니다.</block>
   <block id="9552319fe1a50c182971c77d6c6d0c4a" category="inline-image-macro">단추를 클릭하여 AIP 레이블 기능을 BlueXP 분류에 통합하는 스크린샷.</block>
   <block id="d8f9af26cf2404ac2e5cb244b9a30e31" category="paragraph"><block ref="d8f9af26cf2404ac2e5cb244b9a30e31" category="inline-image-macro-rx" type="image"></block></block>
@@ -3066,7 +3041,6 @@
   <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">기존 그룹 ID를 "오픈 투 조직"으로 정의</block>
   <block id="c994485ccd2b31a48f2ec01a7e6462e0" category="list-text">"/opt/netapp/datasense/tools/customer_configuration/data_providers"로 이동하여 다음 스크립트를 실행합니다.</block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">이제 그룹이 처음에 해당 권한으로 설정되지 않은 경우, NFS의 그룹 ID를 BlueXP 분류에서 직접 "Open to Organization"으로 간주하도록 구성할 수 있습니다. 이러한 그룹 ID가 첨부된 파일 및 폴더는 조사 세부 정보 페이지에서 "조직에 열기"로 표시됩니다. 자세한 내용은 를 참조하십시오<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>.</block>
-  <block id="3fa1e4aec3c930accd20ae2a1e354a79" category="paragraph">BlueXP는 서비스에 대한 REST API 기능을 지원합니다. BlueXP가 선호하는 관리 지점이 아닌 경우 REST API를 통해 BlueXP 분류 등의 서비스를 사용할 수도 있습니다. 모든 사용자 동작에는 타사 시스템과 통합할 수 있는 REST API가 있습니다. 을 참조하십시오 <block ref="6cf6f695e0ddd2cc536783d6e0951a10" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="da4874b0888a9dafc160c24905184d23" category="section-title">ONTAP 볼륨에 있는 스냅샷 복사본이 검사됩니까?</block>
   <block id="a35301b044a7bc259b579edebe42bff3" category="paragraph">아니요 BlueXP 분류는 볼륨의 콘텐츠와 동일하므로 스냅샷을 스캔하지 않습니다.</block>
   <block id="dce2a9642217836d54f614dfd625b753" category="cell">/usr/lib/systemd/system입니다</block>
@@ -3155,7 +3129,6 @@
   <block id="865eee83e350aaa1f9bf0c9f0c4adef0" category="section-title">원본 파일을 삭제합니다</block>
   <block id="d771d7d12660fbeb94c2343ab606b51d" category="section-title">소스 파일을 수동으로 삭제합니다</block>
   <block id="a83bc0aa2bd876d7cc5a350879bd008c" category="section-title">로그 파일에 액세스합니다</block>
-  <block id="a6ed2c91ea69381b6a464e642ca3c940" category="paragraph"><block ref="8600e76f489947dcd3c20a1b1ce1e8ca" category="inline-link-macro-rx"></block>.</block>
   <block id="ed6f72ce35fa37960b096efc305078ca" category="paragraph">스캔 결과는 BlueXP 분류 인스턴스 내의 Elasticsearch에 저장됩니다.</block>
   <block id="07b74cfb8b148331baaaa74d89dd4cec" category="doc">규정 준수 보고서 보기</block>
   <block id="8932e9435ce03fbb7ecf0b2f738ce66a" category="paragraph">기본적으로 BlueXP 분류 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 보려면 <block ref="200c05d79644e6ad09afbf686b752513" category="inline-xref-macro-rx"></block>.</block>
@@ -3378,9 +3351,7 @@
   <block id="cbbd546102a0bc266daf8b091654a2b4" category="paragraph">인터넷 액세스가 가능한 Linux 호스트의 기존 배포에 스캐너 노드를 추가할 수 있습니다.</block>
   <block id="c9e3afc5b6aaffe6ac686b4597beb1c2" category="list-text">스캐너 노드용 모든 Linux 시스템이 호스트 요구 사항을 충족하는지 확인합니다.</block>
   <block id="b265c78ad0089ab8d45e4e16de6c955f" category="list-text">사용자 환경이 필요한 권한 및 연결을 충족하는지 확인합니다.</block>
-  <block id="02840098861c7ad2f05f7818f3cd9f42" category="paragraph">BlueXP에서 BlueXP 분류 검사를 수행하는 첫 번째 500TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 계속해서 데이터를 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 통한 BlueXP 구독이 필요합니다.</block>
   <block id="e32bdff502d5f24b8e2b7d5291d9fe6a" category="list-text">AWS 또는 Amazon FSx for ONTAP 버킷에서 데이터를 스캔할 때 Cloud Volumes ONTAP AWS의 커넥터를 사용합니다.</block>
-  <block id="b9223018c07973c3d44c3544ea71f666" category="paragraph">온프레미스 ONTAP 시스템, 비 NetApp 파일 공유, 일반 S3 오브젝트 스토리지 및 데이터베이스를 검사할 수 있습니다. 이러한 클라우드 커넥터를 사용할 경우</block>
   <block id="d23cdfe3be69f69baed369d543f36aa9" category="paragraph">Classification_area는 가장 많이 식별된 목록을 제공합니다 <block ref="d3b5de2fe3785a28f0b4099f30abefe6" category="inline-link-macro-rx"></block> 및 <block ref="6d5873eba480eee9411c9a14fd12e5d9" category="inline-link-macro-rx"></block> 스캔 데이터.</block>
   <block id="f754acc189a7236fe2fb4657457fcb2c" category="paragraph">* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다. 2023년 12월(v1.26.6) 릴리즈에서는 AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 제거되었습니다.</block>
   <block id="13871df601ad6fe31ca70129438c5986" category="list-text">BlueXP 분류는 데이터베이스 데이터 소스에서 "마지막으로 액세스한 시간"을 추출하지 않습니다.</block>
@@ -3389,7 +3360,6 @@
   <block id="c7b12c8155232c80e9aca6bc1eb67427" category="paragraph">1.30 이하 버전의 경우 여러 호스트에 BlueXP 분류를 설치해야 하는 경우, 을 참조하십시오 <block ref="94ed65ad8557cbd4dade332ad2e77a61" category="inline-link-macro-rx"></block>.</block>
   <block id="0dcde9bea70f4948a25486523fde4e97" category="paragraph">또한 가능합니다 <block ref="76c224cc80265848284829e2886db42b" category="inline-link-macro-rx"></block> 완전히 안전한 사이트를 위한 것입니다.</block>
   <block id="85aa6acd6442a61f72e7d0ea942bae6f" category="admonition">1.30 이전 버전의 경우 스캐너 노드를 추가하려면 을 참조하십시오 <block ref="6201a969fc4638d8cfca1139fbc49a51" category="inline-link-macro-rx"></block>.</block>
-  <block id="8910c7d2c0ea97f7243545a9153a2762" category="paragraph">BlueXP에서 BlueXP 분류 검사를 수행하는 첫 번째 500TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 구입해야 합니다.</block>
   <block id="7cc60b2d044c80070664df0b3bdf1a77" category="paragraph">BlueXP 분류를 설치하고 사용하려면 먼저 BlueXP 커넥터가 필요합니다. 대부분의 경우 대부분의 경우 BlueXP 분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다<block ref="4b65067251af1a04ab5f187e9a47f47a" category="inline-link-rx"></block>하지만 지금 설정해야 하는 경우도 있습니다.</block>
   <block id="d91ed5bff9bd13eee5c43964bbe67be4" category="list-text">AWS 또는 Amazon FSx for ONTAP에서 Cloud Volumes ONTAP 데이터를 스캔할 때는 AWS의 커넥터를 사용합니다.</block>
   <block id="f7ddb3fae62084df9775f83831fce054" category="paragraph">온프레미스 ONTAP 시스템, 비 NetApp 파일 공유 및 데이터베이스 계정은 이러한 클라우드 커넥터를 사용하여 검사할 수 있습니다.</block>
@@ -3467,8 +3437,6 @@
   <block id="aa03ad3837e520978aceb5f3f06e3acc" category="paragraph">BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 최대 500TB의 데이터에 대해 30일 무료 평가판을 사용할 수 있습니다. 이후 데이터 검색을 계속하려면 NetApp에서 BYOL 라이센스를 구입하거나 클라우드 공급자의 마켓플레이스에서 구독을 신청해야 합니다.</block>
   <block id="bb0dfe0b54c3baac2c6710b8940b4744" category="paragraph">언제든지 가입할 수 있으며 30일 평가판이 끝난 후에도 요금이 부과되지 않습니다. BlueXP 분류 거버넌스 대시보드에서 스캔되는 데이터의 총 양을 항상 확인할 수 있습니다. 지금 가입(_Subscribe Now_) 단추를 사용하면 준비가 되면 쉽게 가입할 수 있습니다.</block>
   <block id="f5e624878bf9762aa2d37e975ce44226" category="paragraph">구독하면 무료 평가판이 종료된 후에도 서비스가 중단되지 않습니다. 평가판이 종료되면 BlueXP 코어 버전 1.31 이상의 비용이 청구되지 않습니다.</block>
-  <block id="ea3f2d7d4d355da886e9a61f85ef440d" category="paragraph">연간 계약을 체결하여 연간 BlueXP 분류 사용 1년, 2년 또는 3년 기간으로 제공됩니다.</block>
-  <block id="a0294eb160aa64c46110636473e56f33" category="paragraph">BlueXP 분류 라이센스가 없는 경우 NetApp에 문의하여 하나를 다운로드하십시오.</block>
   <block id="98700edb399fd9cd3004efe19dd93686" category="doc">Google Drive 계정을 스캔합니다</block>
   <block id="08ad59dcccad79cacd26939ded6a4aaf" category="section-title">Google 드라이브 요구 사항을 검토합니다</block>
   <block id="587344d853bf2178c36331b139134c53" category="section-title">Google Drive 계정을 추가합니다</block>
@@ -3478,7 +3446,6 @@
   <block id="470ff04800cc0e7e4547c6f8184436fa" category="admonition">기존 버전 1.30 이하의 경우 여러 호스트에 BlueXP 분류를 설치해야 하는 경우, 을 참조하십시오 <block ref="94ed65ad8557cbd4dade332ad2e77a61" category="inline-link-macro-rx"></block>.</block>
   <block id="991ebd87a81ed22c3d81251fd13ad652" category="paragraph">BlueXP 분류를 프라이빗 모드로 구축한 경우 현재 Cloud Volumes ONTAP, Azure NetApp Files 또는 FSx for ONTAP 계정 검사는 지원되지 않습니다.</block>
   <block id="806f5ac1a8b4e82bb0bb458ed4a8f577" category="paragraph">BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="03a7f11cb6270c0421715ee58cbcdb85" category="inline-link-rx"></block> 및 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>.</block>
-  <block id="bbe5af14df083907120d20d0dfd67809" category="paragraph">BlueXP에서 BlueXP 분류 검사를 수행하는 첫 번째 500TB의 데이터는 30일간 무료로 제공됩니다. 이 시점 이후에 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스가 필요합니다. BlueXP 코어 버전 1.31은 무료로 제공됩니다.</block>
   <block id="3fba2d2072ada5e4a305ed49625f7c97" category="paragraph">여러 BlueXP 분류 호스트를 사용하여 데이터 소스를 검사하는 추가 처리 기능을 제공하는 경우 추가 포트/프로토콜을 활성화해야 합니다. <block ref="8ab506a6f74eff926eb35a8eb7627a1d" category="inline-link-macro-rx"></block>.</block>
   <block id="ce9b3c0997395cdac24ac84544289f19" category="paragraph">일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다.</block>
   <block id="1d8330f2303758f6a2278d74e5f2fda9" category="paragraph">또한 가능합니다 <block ref="22859e5e32c097ea1d67937698834047" category="inline-link-macro-rx"></block> 현재 BlueXP 디지털 전자지갑에서 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
@@ -3490,9 +3457,7 @@
   <block id="705e8077ff3af41dc9b8a84050d869d1" category="paragraph">1.30 이전 버전을 사용한 사용자는 구독이 만료될 때까지 해당 버전을 계속 사용할 수 있습니다.</block>
   <block id="c43934763319d8b34916e416e6cab93d" category="list-text">보안 담당자가 즉시 조치를 취할 수 있도록 새 보안 문제를 자동으로 감지하려면 _Policies_를 사용하십시오.</block>
   <block id="12745f1753f4a2151c5bd9d0d7cadbd9" category="list-text">중복 또는 비업무용 데이터를 식별하여 스토리지 효율성 향상</block>
-  <block id="0961d28fb6751f833f6618d3ead18455" category="list-text">파일 공유(예: Dell EMC Isilon, Pure Storage, Nutanix 등)</block>
   <block id="fd3b4579ab972a1738986581275cfcfa" category="list-text">데이터베이스:</block>
-  <block id="2829810f94e62c98b1953f33cf0661fd" category="paragraph">BlueXP 분류는 이제 최대 500TiB의 데이터에 무료로 사용할 수 있습니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 스캔하려는 데이터가 500TiB를 넘는 경우 원본 시스템 중 일부에서 스캔을 비활성화하고 500TiB 제한을 초과할 수 있는 새로운 시스템을 스캔할 수 있습니다.</block>
   <block id="bcf2e25b0a67b74f2ef04fa33cb52b61" category="section-title">비용</block>
   <block id="ee47dd1923abd4a3137c0a87287394d9" category="paragraph">데이터 전송 비용은 설정에 따라 다릅니다. BlueXP 분류 인스턴스 및 데이터 소스가 동일한 가용성 영역 및 지역에 있는 경우 데이터 전송 비용이 발생하지 않습니다. 그러나 Cloud Volumes ONTAP 시스템과 같은 데이터 원본이 _different_Availability Zone 또는 지역에 있는 경우에는 클라우드 공급자가 데이터 전송 비용을 청구합니다. 자세한 내용은 다음 링크를 참조하십시오.</block>
   <block id="48548251123016c15c7cccf4410ce19b" category="paragraph">BlueXP 분류를 활성화하고 스캔할 저장소(볼륨, 데이터베이스 스키마 또는 기타 사용자 데이터)를 선택하면 즉시 데이터 스캔이 시작되어 개인 및 중요 데이터를 식별합니다. 대부분의 경우 백업, 미러 또는 DR 사이트 대신 라이브 운영 데이터를 검사하는 데 집중해야 합니다. 그런 다음 BlueXP 분류를 통해 조직 데이터를 매핑하고, 각 파일을 분류하고, 데이터에서 엔터티와 미리 정의된 패턴을 식별하고 추출합니다. 검사 결과는 개인 정보, 민감한 개인 정보, 데이터 범주 및 파일 형식의 인덱스입니다.</block>
@@ -3527,7 +3492,6 @@
   <block id="4cf46b88592b20071552593714707a46" category="paragraph">소스 볼륨이 있는 작업 환경에 대해 BlueXP 분류를 사용하도록 설정한 * 모든 볼륨 매핑 * 또는 * 모든 볼륨 매핑 및 분류 * 를 처음 선택한 경우 BlueXP 분류는 복제된 새 볼륨을 자동으로 스캔합니다. 처음에 이러한 선택 항목을 사용하지 않은 경우 이 새 볼륨을 스캔하려면 가 필요합니다 <block ref="9c238ad6b45b928020692cb5de74fd06" category="inline-link-macro-rx"></block>.</block>
   <block id="c63897b00e1bb7484e004dc2e1337d94" category="paragraph">조사 창 또는 에서 파일을 수동으로 삭제할 수 있습니다 <block ref="189dcbbb5debf653b5fc0860b1c881e2" category="inline-link-macro-rx"></block>.</block>
   <block id="240debedb0b95c0376b930ba9355ecf4" category="section-title">2024년 5월 15일(버전 1.31)</block>
-  <block id="1b4882b9c3ea8338ab43984dee93eba3" category="section-title">BlueXP 내에서 무료 서비스로 분류할 수 있습니다</block>
   <block id="ac229efd3fa61c5457dcab252996be0b" category="paragraph">BlueXP 분류는 이제 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 내에서 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.</block>
   <block id="3607a722a9a09bb6d405f4d84609e858" category="inline-link-macro">더 이상 사용되지 않는 기능에 대해 자세히 알아보십시오</block>
   <block id="1a50d9154328b370f6d9bbbab041964a" category="paragraph"><block ref="671322b9b43cc49264f86b21ef88a11d" category="inline-link-macro-rx"></block>.</block>
@@ -3540,10 +3504,29 @@
   <block id="dd6f713e594790101284e68ce9ae76f7" category="sidebar">더 이상 사용되지 않는 기능 목록입니다</block>
   <block id="4ebce9b5fd8cf4975c04bb94087ff4b3" category="sidebar">사용되지 않는 기능 목록입니다</block>
   <block id="57a53311aaf61c9ce5d7ccc7b0678f93" category="sidebar">무료 평가판을 설정하거나 라이센스를 가져옵니다</block>
-  <block id="d7d802cbdbf98cd72c574cb0eda77889" category="sidebar">데이터를 스캔합니다</block>
-  <block id="77811a66f12d1085614f313861555339" category="sidebar">데이터 관리</block>
   <block id="08a8e0f5e4c7d91e565955cb7f30b215" category="sidebar">거버넌스 대시보드에서 데이터에 대한 거버넌스 세부 정보를 봅니다</block>
   <block id="aeb69ebcaffd7e18cd55db906e582bf5" category="sidebar">OneDrive, SharePoint 또는 Google Drive 계정을 제거합니다</block>
   <block id="b6417b62aacc6d16c1ae7a79d851d413" category="paragraph">Connector를 사내에 상주하는 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 분류가 지원됩니다. RHEL 8 또는 9 호스트가 AWS, Azure 또는 Google Cloud에 상주하는 경우에는 지원되지 않습니다.</block>
   <block id="cfe5d63c50c4794111fa6f65b931e130" category="cell">조사에서 CSV로 데이터를 내보냅니다</block>
+  <block id="09c3548e206e0fdb1fb77e5c168f0624" category="paragraph">아니요, BlueXP 분류에는 REST API가 없습니다.</block>
+  <block id="53fa8df095671f897c8cbcd13ce182b1" category="inline-link-macro">지원되는 작업 환경 및 데이터 소스</block>
+  <block id="2930994d2cff6bdaceb544c2a0169659" category="paragraph">을 참조하십시오 <block ref="fb235327a04124182aad24d53e898b94" category="inline-link-macro-rx"></block>.</block>
+  <block id="3270840fec1d1272ecdf8fa5dacfe375" category="paragraph">BlueXP 분류는 BlueXP 핵심 기능이며 비용이 청구되지 않습니다.</block>
+  <block id="1f5565609924c19f8cc66ee9b3e5ff8b" category="paragraph">클라우드 공급자 마켓플레이스를 통해 BlueXP 구독을 신청해야 합니다.</block>
+  <block id="07005138abd2ab6bc21bd0ca8dd1552a" category="paragraph">온프레미스 ONTAP 시스템, NetApp 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스를 검사할 수 있으며, 이러한 클라우드 커넥터를 사용할 수도 있습니다.</block>
+  <block id="178bf9bf543decf7d7b3739b703708f1" category="paragraph">AIP 레이블을 관리하려면 기존 Azure 계정에 로그인하여 AIP 레이블 기능을 BlueXP 분류에 통합해야 합니다. 활성화되면 모든 파일의 AIP 레이블을 관리할 수 있습니다 <block ref="9f69f043f42f5e941f29feed1ea9caea" category="inline-link-macro-rx"></block> BlueXP 작업 영역에서</block>
+  <block id="25c24221a948a50ce66f8d4fb0f6d79c" category="paragraph">클라우드 공급자 마켓플레이스에 가입해야 합니다.</block>
+  <block id="147b35ab5352426bba38d99d810db4ed" category="list-text">NetApp Support 사이트에서 라이센스 파일을 얻을 수 있습니다.</block>
+  <block id="5956d6a178701862e65cfb2557c264ca" category="paragraph">BlueXP 분류(Data Sense) BYOL 라이센스를 사용하는 경우, 검사 중인 모든 데이터의 크기가 용량 제한에 도달하거나 라이센스 만료 날짜가 임박한 경우 BlueXP 분류 UI와 BlueXP 디지털 지갑 UI에 경고가 표시됩니다.</block>
+  <block id="c5225ba8742170a4ff16813a131d50d2" category="paragraph">다음과 같은 경고가 표시됩니다.</block>
+  <block id="c6f088f8c47d3f6f693b41a70370107f" category="paragraph">BlueXP 분류를 통해 다음과 같은 유형의 작업 환경 및 데이터 소스에서 정형 및 비정형 데이터를 스캔하고 분석할 수 있습니다.</block>
+  <block id="4e74f624e4d0f3f558ca01aa93696658" category="paragraph">* 작업 환경 *</block>
+  <block id="181c4b9812ec18a3c5280cac985783ed" category="paragraph">* 데이터 소스 *</block>
+  <block id="ffc184891768c331383cd53bcd1bc968" category="list-text">NetApp 파일 공유</block>
+  <block id="1d4f5c4d2298eeba0567ba65029151d4" category="paragraph">BlueXP 분류를 무료로 사용할 수 있습니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다.</block>
+  <block id="92b5d31c7573ec4b607f3345517ac2ac" category="list-text">Compliance Viewer * 역할의 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 시스템에 대한 보고서만 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마 스캔을 활성화/비활성화할 수 없습니다.</block>
+  <block id="d1e72f4d21bb915d180e5f6d1e9d4264" category="section-title">BlueXP 내에서 핵심 서비스로 분류할 수 있습니다</block>
+  <block id="ff9a5988c9084ed8f91f339a8c5730ef" category="sidebar">BlueXP 분류 사용 중단 구축</block>
+  <block id="08504eba0f24252abaffadf616e91d7c" category="sidebar">스캔 데이터 사용 중단</block>
+  <block id="58b46c120f259bfcd0cbe13c84945204" category="sidebar">데이터 사용 중단 관리</block>
 </blocks>

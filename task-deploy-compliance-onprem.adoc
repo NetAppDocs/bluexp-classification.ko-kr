@@ -63,7 +63,7 @@ NetApp Support 사이트에서 클라우드 BlueXP 분류 소프트웨어를 다
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] BlueXP 분류 서비스에 가입합니다
 [role="quick-margin-para"]
-BlueXP에서 BlueXP 분류 검사를 수행하는 첫 번째 500TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 클라우드 공급자 마켓플레이스 또는 NetApp의 BYOL 라이센스를 구입해야 합니다.
+클라우드 공급자 마켓플레이스에 가입해야 합니다.
 
 
 

@@ -70,16 +70,22 @@ BlueXP 분류는 스토리지 TCO(총 소유 비용)에 도움이 되는 도구�
 
 
 
-== 지원되는 데이터 소스
+== 지원되는 작업 환경 및 데이터 소스
 
-BlueXP 분류는 다음과 같은 유형의 데이터 소스에서 정형 데이터와 비정형 데이터를 스캔 및 분석할 수 있습니다.
+BlueXP 분류를 통해 다음과 같은 유형의 작업 환경 및 데이터 소스에서 정형 및 비정형 데이터를 스캔하고 분석할 수 있습니다.
+
+* 작업 환경 *
 
 * Cloud Volumes ONTAP(AWS, Azure 또는 GCP에 구축)
 * 온프레미스 ONTAP 클러스터
 * Azure NetApp Files
 * ONTAP용 Amazon FSx
 * Google Cloud NetApp 볼륨
-* 파일 공유(예: Dell EMC Isilon, Pure Storage, Nutanix 등)
+
+
+* 데이터 소스 *
+
+* NetApp 파일 공유
 * 데이터베이스:
 +
 ** Amazon Relational Database Service(Amazon RDS)
@@ -99,7 +105,7 @@ BlueXP 분류는 NFS 버전 3.x와 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원�
 
 == 비용
 
-BlueXP 분류는 이제 최대 500TiB의 데이터에 무료로 사용할 수 있습니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 스캔하려는 데이터가 500TiB를 넘는 경우 원본 시스템 중 일부에서 스캔을 비활성화하고 500TiB 제한을 초과할 수 있는 새로운 시스템을 스캔할 수 있습니다.
+BlueXP 분류를 무료로 사용할 수 있습니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다.
 
 
 
@@ -280,7 +286,7 @@ SaaS 모드에서 BlueXP에 연결할 때 HTTPS를 통해 BlueXP에 연결되며
 
 * 계정 관리자 * 는 규정 준수 설정을 관리하고 모든 작업 환경에 대한 규정 준수 정보를 볼 수 있습니다.
 * Workspace Admin * 은 액세스 권한이 있는 시스템에 대해서만 준수 설정을 관리하고 준수 정보를 볼 수 있습니다. 작업 영역 관리자가 BlueXP의 작업 환경에 액세스할 수 없는 경우 BlueXP 분류 탭에서 작업 환경에 대한 규정 준수 정보를 볼 수 없습니다.
-* Compliance Viewer * 역할의 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 시스템에 대한 보고서만 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마 스캔을 활성화/비활성화할 수 없습니다. 이러한 사용자는 파일을 복사, 이동 또는 삭제할 수 없습니다.
+* Compliance Viewer * 역할의 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 시스템에 대한 보고서만 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마 스캔을 활성화/비활성화할 수 없습니다.
 
 
 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-user-roles.html["BlueXP 역할에 대해 자세히 알아보십시오"^] 및 방법 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-netapp-accounts.html#adding-users["특정 역할을 가진 사용자를 추가합니다"^].

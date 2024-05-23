@@ -38,7 +38,6 @@ BlueXP 분류와 Active Directory를 통합하면 다음 데이터 소스 내에
 * Cloud Volumes ONTAP
 * Azure NetApp Files
 * ONTAP용 FSX
-* 비 NetApp CIFS 파일 공유(NFS 파일 공유 아님)
 * OneDrive 계정 및 SharePoint 계정(레거시 버전 1.30 이하)
 
 

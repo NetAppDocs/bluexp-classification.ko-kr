@@ -76,7 +76,7 @@ BlueXP 분류는 .DOC, .DOCX, .PDF, .PPTX, .XLS 파일 형식 내에서 AIP 레�
 
 === 작업 공간에 AIP 레이블을 통합합니다
 
-AIP 레이블을 관리하려면 기존 Azure 계정에 로그인하여 AIP 레이블 기능을 BlueXP 분류에 통합해야 합니다. 활성화되면 모든 파일의 AIP 레이블을 관리할 수 있습니다 link:concept-cloud-compliance.html#supported-data-sources["데이터 소스"^] BlueXP 작업 영역에서
+AIP 레이블을 관리하려면 기존 Azure 계정에 로그인하여 AIP 레이블 기능을 BlueXP 분류에 통합해야 합니다. 활성화되면 모든 파일의 AIP 레이블을 관리할 수 있습니다 link:concept-cloud-compliance.html["데이터 소스"^] BlueXP 작업 영역에서
 
 .요구 사항
 * 계정 및 Azure 정보 보호 라이센스가 있어야 합니다.
