@@ -30,7 +30,8 @@ image:diagram_deploy_onprem_cloud_instance.png["필요한 BlueXP 및 네트워�
 
 1.30 이하 버전에서 페타바이트 단위의 데이터를 스캔하는 대규모 구성의 경우 추가 처리 성능을 제공하기 위해 여러 호스트를 포함할 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 _Manager node_라고 하며 추가 처리 능력을 제공하는 추가 시스템을 _Scanner nodes_라고 합니다.
 
-1.30 이하 버전의 경우 여러 호스트에 BlueXP 분류를 설치해야 하는 경우, 을 참조하십시오 link:task-deploy-multi-host-install-dark-site.html["인터넷에 액세스할 수 없는 여러 호스트에 BlueXP 분류를 설치합니다"].
+
+NOTE: 기존 버전 1.30 이하의 경우 여러 호스트에 BlueXP 분류를 설치해야 하는 경우, 을 참조하십시오 link:task-deploy-multi-host-install-dark-site.html["인터넷에 액세스할 수 없는 여러 호스트에 BlueXP 분류를 설치합니다"].
 
 또한 가능합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 사내 사이트에 BlueXP 분류를 설치합니다"] 완전히 안전한 사이트를 위한 것입니다.
 
@@ -83,11 +84,9 @@ Azure NetApp Files의 경우 스캔하려는 볼륨과 동일한 영역에 배�
 * GCP의 Cloud Volumes ONTAP에서 데이터를 스캔할 때 GCP의 커넥터를 사용합니다.
 
 
-온프레미스 ONTAP 시스템, 비 NetApp 파일 공유 및 데이터베이스 계정은 이러한 클라우드 커넥터를 사용하여 검사할 수 있습니다.
+온프레미스 ONTAP 시스템, NetApp 파일 공유 및 데이터베이스 계정은 이러한 클라우드 커넥터를 사용하여 검사할 수 있습니다.
 
 참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
-
-보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["다중 커넥터"].
 
 BlueXP 분류를 설치할 때 커넥터 시스템의 IP 주소 또는 호스트 이름이 필요합니다. 이 정보는 구내에 Connector를 설치한 경우 확인할 수 있습니다. Connector가 클라우드에 배포된 경우 BlueXP 콘솔에서 이 정보를 찾을 수 있습니다. 도움말 아이콘을 클릭하고 * 지원 * 을 선택한 다음 * BlueXP 커넥터 * 를 클릭합니다.
 
@@ -316,8 +315,6 @@ Active Directory에 대한 정보가 있어야 합니다.
 
 
 |===
-여러 BlueXP 분류 호스트를 사용하여 데이터 소스를 검사하는 추가 처리 기능을 제공하는 경우 추가 포트/프로토콜을 활성화해야 합니다. link:task-deploy-compliance-onprem.html["추가 포트 요구 사항을 참조하십시오"].
-
 
 
 == Linux 호스트에 BlueXP 분류를 설치합니다

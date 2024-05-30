@@ -14,10 +14,10 @@ summary: 몇 가지 단계를 완료하여 BlueXP 분류와 직접 비NetApp NFS
 
 
 [role="lead"]
-몇 가지 단계를 완료하여 BlueXP 분류와 직접 비NetApp NFS 또는 CIFS 파일 공유 스캔을 시작하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.
+몇 단계를 완료하여 Google Cloud NetApp 볼륨 및 이전 NetApp 7-Mode 시스템에서 NFS 또는 CIFS 파일 공유 검색을 시작하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.
 
 
-TIP: 파일 공유를 추가하는 방법만이 Google Cloud NetApp 볼륨에서 데이터를 스캔할 수 있습니다.
+NOTE: 비 NetApp 파일 공유의 데이터 검사는 BlueXP 분류 코어 버전에서 지원되지 않습니다.
 
 
 
@@ -47,7 +47,7 @@ link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이�
 
 BlueXP 분류를 활성화하기 전에 다음 필수 구성 요소를 검토하여 지원되는 구성이 있는지 확인하십시오.
 
-* 공유는 클라우드 또는 온프레미스 등 어디서나 호스팅할 수 있습니다. 대부분의 경우 이는 NetApp이 아닌 스토리지 시스템에 상주하는 파일 공유입니다. 하지만 이전 NetApp 7-Mode 스토리지 시스템의 CIFS 공유를 파일 공유로 스캔할 수 있습니다.
+* 공유는 클라우드 또는 온프레미스 등 어디서나 호스팅할 수 있습니다. 이전 NetApp 7-Mode 스토리지 시스템의 CIFS 공유를 파일 공유로 검사할 수 있습니다.
 +
 BlueXP 분류는 7-Mode 시스템에서 사용 권한 또는 "마지막 액세스 시간"을 추출할 수 없습니다. 또한 일부 Linux 버전과 7-Mode 시스템의 CIFS 공유 사이에서 알려진 문제로 인해 NTLM 인증이 활성화된 SMB v1만 사용하도록 공유를 구성해야 합니다.
 
@@ -71,10 +71,6 @@ BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 �
 == BlueXP 분류 인스턴스 배포
 
 배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.
-
-인터넷을 통해 액세스할 수 있는 비NetApp NFS 또는 CIFS 파일 공유를 스캔하는 경우 다음을 수행할 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드에 BlueXP 분류를 배포합니다"^] 또는 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치에 BlueXP 분류를 배포합니다"^].
-
-인터넷에 액세스할 수 없는 어두운 사이트에 설치된 비 NetApp NFS 또는 CIFS 파일 공유를 스캔하는 경우 다음을 수행해야 합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 동일한 사내 위치에 BlueXP 분류를 배포합니다"^]. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.
 
 인스턴스가 인터넷에 연결되어 있는 경우 BlueXP 분류 소프트웨어로의 업그레이드가 자동화됩니다.
 
@@ -119,7 +115,7 @@ image:screenshot_compliance_fileshares_add_initial_shares.png["그룹에 초기 
 기존 그룹에 파일 공유를 추가하는 경우 * 공유 추가 * 를 클릭합니다.
 
 +
-image:screenshot_compliance_fileshares_add_more_shares.png["공유 추가 버튼을 보여 주는 스크린샷으로, 그룹에 공유를 더 추가할 수 있습니다."]
+image:screenshot_compliance_fileshares_add_more_shares2.png["공유 추가 버튼을 보여 주는 스크린샷으로, 그룹에 공유를 더 추가할 수 있습니다."]
 
 . 추가할 파일 공유의 프로토콜을 선택하고, 스캔하려는 파일 공유를 한 줄에 하나씩 추가하고, * 계속 * 을 클릭합니다.
 +

@@ -60,7 +60,7 @@ Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니�
 * GCP의 Cloud Volumes ONTAP에서 데이터를 스캔할 때 GCP의 커넥터를 사용합니다.
 
 
-온프레미스 ONTAP 시스템, NetApp 파일 공유, 일반 S3 오브젝트 스토리지, 데이터베이스를 검사할 수 있으며, 이러한 클라우드 커넥터를 사용할 수도 있습니다.
+온프레미스 ONTAP 시스템, NetApp 파일 공유 및 데이터베이스는 이러한 클라우드 커넥터를 사용할 때 검사할 수 있습니다.
 
 참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 네트워크 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
 
