@@ -52,7 +52,7 @@ BlueXP 분류는 파일 공유에서 데이터를 추출할 때 운영 체제는
 
 image:screenshot_scan_missing_permissions.png["마지막 액세스 시간을 원래 타임 스탬프로 되돌릴 수 있는 올바른 권한이 없더라도 BlueXP 분류 작업이 파일을 검사하는 데 사용할 수 있는 스위치를 보여주는 스크린샷입니다."]
 
-이 기능은 온프레미스 ONTAP 시스템, Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP 및 비 NetApp 파일 공유에 적용할 수 있습니다.
+이 기능은 온프레미스 ONTAP 시스템, Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP 및 타사 파일 공유에 적용됩니다.
 
 조사 페이지에 _Scan Analysis Event_ 라는 필터가 있어 BlueXP 분류로 마지막 액세스 시간을 되돌릴 수 없기 때문에 분류되지 않은 파일을 표시할 수 있습니다. 또는 BlueXP 분류로 마지막 액세스 시간을 되돌릴 수 없지만 분류된 파일을 사용할 수 있습니다.
 

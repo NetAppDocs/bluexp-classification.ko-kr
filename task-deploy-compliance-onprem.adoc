@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman, install bluexp classification 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman, install bluexp classification, cloud data sense 
 summary: 네트워크의 Linux 호스트 또는 인터넷 액세스가 가능한 클라우드의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 가지 단계를 완료하십시오. 이 설치의 일부로 네트워크 또는 클라우드에 Linux 호스트를 수동으로 배포해야 합니다. 
 ---
 = 인터넷에 액세스할 수 있는 호스트에 BlueXP 분류를 설치합니다
@@ -99,7 +99,7 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 지속적으로 스캔하려면 BlueXP 분류 장비가 켜져 있어야 합니다.
 
 * BlueXP 분류는 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.
-* 구내 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행할 데이터 세트의 크기에 따라 세 가지 시스템 크기 중에서 선택할 수 있습니다.
+* 사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 3가지 시스템 크기 중에서 선택할 수 있습니다.
 +
 [cols="17,17,27,31"]
 |===
@@ -114,19 +114,19 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 
 | * 대형 * | CPU 16개 | 64GB RAM | 500GiB SSD 켜짐/또는
 /opt에서 -100GiB를 사용할 수 있습니다
-/var/lib/docker에서 사용 가능한 395GiB
+-395GiB는 /var/lib/docker, Podman/var/lib/컨테이너 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
 /tmp에 -5GiB입니다 
 
 
 | * 중간 * | CPU 8개 | 32GB RAM | 200GiB SSD 켜짐/또는
 /opt에서 -50GiB를 사용할 수 있습니다
-/var/lib/docker에서 -145GiB를 사용할 수 있습니다
+-145GiB는 /var/lib/docker 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
 /tmp에 -5GiB입니다 
 
 
 | * 소형 * | CPU 8개 | 16GB RAM | 또는 에서 100GiB SSD
 /opt에서 -50GiB를 사용할 수 있습니다
-/var/lib/docker에서 -45GiB를 사용할 수 있습니다
+-45GiB는 /var/lib/docker 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
 /tmp에 -5GiB입니다 
 |===
 +
@@ -134,7 +134,7 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 
 * BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
 +
-** * AWS EC2 인스턴스 유형 *: "m6i.4xLarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^].
+** * Amazon Elastic Compute Cloud(Amazon EC2) 인스턴스 유형 *: "m6i.4xlarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^].
 ** * Azure VM size *: "Standard_D16s_v3"을 권장합니다. link:reference-instance-types.html#azure-instance-types["추가 Azure 인스턴스 유형을 참조하십시오"^].
 ** * GCP 시스템 유형 *: "n2-standard-16"을 권장합니다. link:reference-instance-types.html#gcp-instance-types["추가 GCP 인스턴스 유형을 참조하십시오"^].
 
