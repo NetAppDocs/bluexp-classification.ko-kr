@@ -51,8 +51,6 @@ sidebar:
         url: "/task-scanning-file-shares.html"
     - title: Active Directory 통합
       url: "/task-add-active-directory-datasense.html"
-    - title: 라이센스를 설정합니다
-      url: "/task-licensing-datasense.html"
     - title: FAQ 를 참조하십시오
       url: "/faq-cloud-compliance.html"
   - title: BlueXP 분류를 사용합니다
@@ -91,8 +89,6 @@ sidebar:
         url: "/task-deploy-multi-host-install-dark-site.html"
       - title: 기존 배포에 스캐너 노드를 추가합니다
         url: "/task-deploy-add-scanner-nodes.html"
-      - title: 무료 평가판을 설정하거나 라이센스를 가져옵니다
-        url: "/task-licensing-byol-freetrial.html"
     - title: 스캔 데이터 사용 중단
       entries:
       - title: Amazon S3 버킷을 스캔합니다

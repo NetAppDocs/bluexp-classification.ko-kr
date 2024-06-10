@@ -39,10 +39,6 @@ summary: 클라우드에 BlueXP 분류를 배포하기 위한 몇 가지 단계�
 [role="quick-margin-para"]
 설치 마법사를 시작하여 클라우드에 BlueXP 분류 인스턴스를 배포합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] BlueXP 분류 서비스에 가입합니다
-[role="quick-margin-para"]
-클라우드 공급자 마켓플레이스를 통해 BlueXP 구독을 신청해야 합니다.
-
 
 
 == 커넥터를 작성합니다
@@ -257,5 +253,3 @@ BlueXP는 클라우드 공급업체에 BlueXP 분류 인스턴스를 배포합�
 
 .다음 단계
 구성 페이지에서 스캔할 데이터 원본을 선택할 수 있습니다.
-
-또한 가능합니다 link:task-licensing-datasense.html["BlueXP 분류 라이선스를 설정합니다"] 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.

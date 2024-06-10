@@ -202,5 +202,3 @@ image:screenshot_work_env_id.png["BlueXP 분류 구성 페이지의 작업 환�
 또한 구성 페이지 아래쪽에 있는 그룹의 각 스캐너 노드에 대한 IP 주소 및 상태와 함께 모든 스캐너 그룹 목록을 볼 수 있습니다.
 
 image:screenshot_scanner_groups.png["그룹의 각 스캐너 노드에 대한 IP 주소와 함께 모든 스캐너 그룹을 보여 주는 스크린샷."]
-
-가능합니다 link:task-licensing-datasense.html["BlueXP 분류 라이선스를 설정합니다"] 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.

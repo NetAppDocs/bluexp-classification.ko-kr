@@ -85,5 +85,3 @@ BlueXP 분류 설치 프로그램이 패키지 설치를 완료하고 설치를 
 
 .다음 단계
 구성 페이지에서 로컬 을 선택할 수 있습니다 link:task-getting-started-compliance.html["온프레미스 ONTAP 클러스터"] 및 로컬 link:task-scanning-databases.html["데이터베이스를 지원합니다"] 선택합니다.
-
-또한 가능합니다 link:task-licensing-datasense.html["BlueXP 분류에 대한 BYOL 라이센스 설정"] 현재 BlueXP 디지털 전자지갑에서 30일 무료 평가판이 종료된 후에도 요금이 부과되지 않습니다.

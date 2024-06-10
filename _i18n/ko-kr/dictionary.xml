@@ -1075,7 +1075,6 @@
   <block id="8c7729e22a223978ef26b521fa9ee122" category="sidebar">Cloud Volumes ONTAP와 온프레미스 ONTAP</block>
   <block id="c2d47b6bc95c845ff73e9809734fad1a" category="sidebar">파일 공유</block>
   <block id="81ef4cd6c60d70e2956f5aceef3493d2" category="sidebar">Active Directory 통합</block>
-  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="sidebar">라이센스를 설정합니다</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">FAQ 를 참조하십시오</block>
   <block id="a1b1318193a35f78be2416bedbe04261" category="sidebar">데이터에 대한 거버넌스 세부 정보를 봅니다</block>
   <block id="056f094fced7be2185f9f1e21b455e6b" category="sidebar">데이터에 대한 규정 준수 세부 정보를 봅니다</block>
@@ -2146,7 +2145,6 @@
   <block id="f7266d8094dca138937225e514a105f9" category="paragraph">환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 BlueXP 분류 간의 연결 등이 포함됩니다. <block ref="25e4901d8a209a1b27bffd328e6e2ea6" category="inline-xref-macro-rx"></block>.</block>
   <block id="c420094b0555914cda2fb7305e46da39" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> BlueXP 분류를 배포합니다</block>
   <block id="d6939615c063b246ee57f46ba5658a27" category="paragraph">설치 마법사를 시작하여 클라우드에 BlueXP 분류 인스턴스를 배포합니다.</block>
-  <block id="fbd26eae2917c57f49aa73f6b5377420" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> BlueXP 분류 서비스에 가입합니다</block>
   <block id="3c4d86937393bb95a8eb9deff91fdca3" category="list-text">Azure 또는 Azure NetApp Files의 Cloud Volumes ONTAP에서 데이터를 스캔할 때 Azure의 커넥터를 사용합니다.</block>
   <block id="434f7377ad007c7085d3489daef770a7" category="paragraph">정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 Connector를 구축한 경우 BlueXP 분류가 지원됩니다. 이러한 방식으로 배포된 BlueXP 분류에는 다음과 같은 제한 사항이 있습니다.</block>
   <block id="a3c7cd542dbae9813f2f591e1d616bf8" category="list-text">BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다</block>
@@ -2176,8 +2174,6 @@
   <block id="1f61c6b070b23b20d4af173152567e3d" category="paragraph"><block ref="1f61c6b070b23b20d4af173152567e3d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f7f52f1ee1d2634a6ef6ca88452892e9" category="paragraph">BlueXP는 클라우드 공급업체에 BlueXP 분류 인스턴스를 배포합니다.</block>
   <block id="e15b54208d366c801ab9cdffb6e683fc" category="paragraph">인터넷 연결이 가능한 경우 BlueXP Connector 및 BlueXP 분류 소프트웨어에 대한 업그레이드가 자동화됩니다.</block>
-  <block id="5f33fdb01d61b0057674068a8e4f48fa" category="inline-link-macro">BlueXP 분류 라이선스를 설정합니다</block>
-  <block id="7cdfce8fdd8dcd9e17a5ea7ac3072db4" category="paragraph">또한 가능합니다 <block ref="732c743571ecc0dc482f5e9d7d25880e" category="inline-link-macro-rx"></block> 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
   <block id="bd55f8107f06cc057a2ee0b7487375bc" category="summary">BlueXP 분류를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정의 파일 검색을 시작하는 몇 가지 단계를 완료합니다.</block>
   <block id="30a7d0aa212920161c46f31812859285" category="paragraph">다음 필수 구성 요소를 검토하여 SharePoint 계정에서 BlueXP 분류를 활성화할 준비가 되었는지 확인합니다.</block>
   <block id="9505f2139fceb372def97e101e0d0f23" category="list-text">SharePoint Online의 경우 BlueXP 분류는 일 수 있습니다 <block ref="879c41e64fac303868428ba32472ed0b" category="inline-link-macro-rx"></block>.</block>
@@ -2263,7 +2259,6 @@
   <block id="e4304e4b14d97af30d876414d94156c9" category="paragraph">BlueXP 분류는 메타데이터만 스캔합니다. 이 기능은 전체 데이터 관리 및 거버넌스, 빠른 프로젝트 범위 지정, 대규모 부동산 및 우선순위 지정에 유용합니다. 데이터 매핑은 메타데이터를 기반으로 하며 * 빠른 * 스캔으로 간주됩니다.</block>
   <block id="d506351fc51b067200effaea00b650b7" category="paragraph">BlueXP 분류 검사는 표준 프로토콜 및 사용자 환경 전체에서 읽기 전용 권한을 사용하여 수행합니다. Select 파일은 랜섬웨어 관련 중요 비즈니스 관련 데이터, 개인 정보 및 문제를 대상으로 열렸다 스캔됩니다.</block>
   <block id="dd3080e9b8238619b33db17f32f0014c" category="paragraph">전체 스캔 후에는 데이터 조사 페이지의 데이터 보기 및 구체화, 파일 내 이름 검색, 복사, 이동, 원본 파일 삭제 등 데이터에 적용할 수 있는 여러 가지 BlueXP 분류 기능이 추가로 있습니다.</block>
-  <block id="c7c0e44b6916a9859c04b6f890acc7f4" category="paragraph">다음 질문은 BlueXP 분류 사용과 관련된 라이센스 및 비용에 관한 것입니다.</block>
   <block id="c327ff2d5e993e56b5e37bd52bc902cc" category="section-title">BlueXP 분류 비용은 얼마입니까?</block>
   <block id="655b44b42a0405ade73bd1b7c7fe7759" category="paragraph">Connector는 클라우드 계정 또는 온프레미스 컴퓨팅 인스턴스에서 실행되는 소프트웨어로, BlueXP에서 클라우드 리소스를 안전하게 관리할 수 있도록 지원합니다. BlueXP 분류를 사용하려면 커넥터를 배포해야 합니다.</block>
   <block id="20d2d9d43536e58f448006e30ede92ef" category="section-title">BlueXP 분류 구축</block>
@@ -2408,14 +2403,12 @@
   <block id="00f28e201d21c2b9684ea38809307277" category="list-text">_DS_HOST_= BlueXP 분류 Linux 시스템의 IP 주소 또는 호스트 이름입니다.</block>
   <block id="e1d099266f9e920a7c8817ff766480f2" category="paragraph">BlueXP 분류 설치 프로그램은 패키지를 설치하고, 설치를 등록하고, BlueXP 분류를 설치합니다. 설치는 10분에서 20분 정도 걸릴 수 있습니다.</block>
   <block id="9abb289ebc0275e08c6036e047e788f2" category="paragraph">호스트 시스템과 커넥터 인스턴스 간에 포트 8080을 통해 연결되어 있는 경우 BlueXP의 BlueXP 분류 탭에서 설치 진행 상황을 확인할 수 있습니다.</block>
-  <block id="41400601e067114b3b38643c1a3f9b1c" category="inline-link-macro">BlueXP 분류에 대한 BYOL 라이센스 설정</block>
   <block id="04094342c588e9aace2c0624ecce4366" category="paragraph">오프라인 환경의 여러 사내 호스트에 BlueXP 분류 소프트웨어를 설치할 때는 다음 단계를 따르십시오.</block>
   <block id="3cbfe5d6050d3fa6a178743d08cc033f" category="paragraph">BlueXP 분류 설치 프로그램이 패키지 설치를 완료하고 설치를 등록합니다. 설치에는 15 ~ 25분이 소요될 수 있습니다.</block>
   <block id="f00f20082c79c9a705bd40373b5cc586" category="section-title">BlueXP 분류 소프트웨어를 업그레이드합니다</block>
   <block id="63f5b4da5545b30a2083b6f7eedcd826" category="paragraph">BlueXP 분류 소프트웨어는 정기적으로 새로운 기능으로 업데이트되므로 정기적으로 새로운 버전을 확인하여 최신 소프트웨어와 기능을 사용하고 있는지 확인해야 합니다. 업그레이드를 자동으로 수행하기 위한 인터넷 연결이 없기 때문에 BlueXP 분류 소프트웨어를 수동으로 업그레이드해야 합니다.</block>
   <block id="b814c5d8e5cff4b4ed2155ea6a2243a8" category="list-text">소프트웨어 번들을 Linux 호스트에 복사하면 BlueXP 분류가 다크 사이트에 설치됩니다.</block>
   <block id="7780686cdd0be0a9a8a2193a030392e5" category="paragraph">BlueXP 분류 소프트웨어가 호스트에서 업그레이드됩니다. 업데이트는 5분에서 10분 정도 소요될 수 있습니다.</block>
-  <block id="0c15d0871362e4ad1de8e6731ecdac22" category="paragraph">대규모 구성을 스캔하기 위해 여러 호스트 시스템에 BlueXP 분류를 배포한 경우에는 스캐너 노드에 업그레이드가 필요하지 않습니다.</block>
   <block id="c22cac5d13be450c907e1e287edd3bb0" category="paragraph">BlueXP 분류 UI 페이지 하단에 있는 버전을 확인하여 소프트웨어가 업데이트되었는지 확인할 수 있습니다.</block>
   <block id="dc2cef0fd6e1865d999166313e8a662e" category="list-text">성공 - BlueXP 분류 작업이 완료되고 모든 항목이 성공했습니다.</block>
   <block id="49c1585bc7478e2c4fa2d03438b162bb" category="list-text">부분 성공 - BlueXP 분류 작업이 완료되고 일부 항목이 실패하여 일부 항목이 성공했습니다.</block>
@@ -2517,7 +2510,6 @@
   <block id="9d303bf713b934df67ac3fc8db55e1df" category="list-text">_DS_MANAGER_IP_= BlueXP 분류 관리자 노드 시스템의 전용 IP 주소입니다</block>
   <block id="63cd14dda48c5ae594fd32586e8adbe6" category="list-text">_node_private_ip_= BlueXP 분류 스캐너 노드 시스템의 IP 주소(여러 스캐너 노드 IP는 쉼표로 구분)</block>
   <block id="66860472392a03bca0e5ca8e62545a3d" category="paragraph">BlueXP 분류는 모든 데이터 소스를 스캔하기 위해 관리자 및 스캐너 노드와 함께 설정됩니다.</block>
-  <block id="c1421d8b9e8d1f53104bed922d4c6218" category="paragraph">가능합니다 <block ref="732c743571ecc0dc482f5e9d7d25880e" category="inline-link-macro-rx"></block> 현재. 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
   <block id="59fa51186008f79eadcd65359371b963" category="inline-link-macro">BlueXP 분류 고지 사항</block>
   <block id="2e704f1b5abc96acf51b532e4a02d03c" category="list-text"><block ref="2e704f1b5abc96acf51b532e4a02d03c" category="inline-link-macro-rx"></block></block>
   <block id="1fd880d67ad7d5a9e1ce56b61569fe92" category="summary">문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거하기 위해 BlueXP 분류 소프트웨어를 제거할 수 있습니다. 또한 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. BlueXP 분류에서 검색한 모든 정보는 영구적으로 삭제됩니다.</block>
@@ -3313,7 +3305,6 @@
   <block id="428a85a15f039350823864cdd9f6711b" category="paragraph">페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. 자세한 내용 링크: task-deploy-multi-host-install-dark-site.html&gt; 대규모 구성을 위해 여러 호스트에 설치하는 방법</block>
   <block id="758de85e3f025a37293713e5735825a9" category="admonition">BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTAP용 S3 버킷, Azure NetApp Files 또는 FSx를 스캔할 수 없습니다. 이러한 경우 클라우드 및 에 별도의 Connector 및 BlueXP 분류 인스턴스를 배포해야 합니다<block ref="3cd9b819ecbc63be3401566b7b7cbf66" category="inline-link-rx"></block> 다양한 데이터 소스에 대해</block>
   <block id="f221652320e994dc66aab1d5d6da5fb7" category="paragraph">모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 기록됩니다<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>. <block ref="c7911c51adef419f386feff4cec8acf6" category="inline-link-macro-rx"></block>.</block>
-  <block id="106ac36303312e947023d820e6e7357c" category="paragraph">또한 가능합니다 <block ref="732c743571ecc0dc482f5e9d7d25880e" category="inline-link-macro-rx"></block> 현재. 30일 무료 평가판이 종료된 후에도 요금이 부과되지 않습니다.</block>
   <block id="8a2fa9f62a3f919edf2af881f8e7795e" category="paragraph">BlueXP 분류로 볼륨 및 데이터베이스에서 식별할 수 있는 여러 유형의 프라이빗 데이터가 있습니다. 아래 범주를 참조하십시오.</block>
   <block id="224bbd10a45d7fdcbbb8075666b6c93a" category="cell">파일당 감지된 중요 식별자의 범위를 선택합니다. 개인 데이터 및 민감한 개인 데이터가 포함됩니다. 디렉터리에서 필터링할 때 BlueXP 분류는 각 폴더(및 하위 폴더)의 모든 파일에서 일치하는 항목의 합계를 구합니다.
 
@@ -3391,7 +3382,6 @@
   <block id="806f5ac1a8b4e82bb0bb458ed4a8f577" category="paragraph">BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="03a7f11cb6270c0421715ee58cbcdb85" category="inline-link-rx"></block> 및 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>.</block>
   <block id="3fba2d2072ada5e4a305ed49625f7c97" category="paragraph">여러 BlueXP 분류 호스트를 사용하여 데이터 소스를 검사하는 추가 처리 기능을 제공하는 경우 추가 포트/프로토콜을 활성화해야 합니다. <block ref="8ab506a6f74eff926eb35a8eb7627a1d" category="inline-link-macro-rx"></block>.</block>
   <block id="ce9b3c0997395cdac24ac84544289f19" category="paragraph">일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다.</block>
-  <block id="1d8330f2303758f6a2278d74e5f2fda9" category="paragraph">또한 가능합니다 <block ref="22859e5e32c097ea1d67937698834047" category="inline-link-macro-rx"></block> 현재 BlueXP 디지털 전자지갑에서 30일 무료 평가판이 종료될 때까지 요금이 부과되지 않습니다.</block>
   <block id="8cf455ffbc4c9c6d2cfe61097a812701" category="list-text">BlueXP Connector 소프트웨어를 최신 버전으로 업그레이드하는 것이 좋습니다.<block ref="bc80efc6b3afb0a245df87934f8f3cd1" category="inline-link-rx"></block>.</block>
   <block id="279ac5dd73c3a5783ebeb10e172c4f38" category="paragraph">중요</block>
   <block id="a14a0ee1284c6c34c6c0305b52963e2f" category="paragraph">2024년 5월 버전 1.31부터 BlueXP 분류를 추가 비용 없이 BlueXP 내에서 핵심 기능으로 사용할 수 있습니다. 분류 라이선스 또는 가입이 필요하지 않습니다. NetApp 스토리지 시스템에서의 BlueXP 분류 기능도 중점적으로 다루므로 사용되지 않거나 활용도가 낮은 일부 기능은 더 이상 사용되지 않습니다.</block>
@@ -3425,7 +3415,6 @@
   <block id="6e154273e95ff921bb43e9896a26d6bb" category="paragraph">인터넷 액세스 없이 사이트에서 페타바이트 단위의 데이터를 검색할 수 있는 대규모 구성의 경우 여러 호스트를 포함시켜 처리 성능을 높일 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 _Manager node_라고 하며 추가 처리 능력을 제공하는 추가 시스템을 _Scanner nodes_라고 합니다.</block>
   <block id="b9c7e18d108f82ba440210aecbe950ad" category="list-text">Manager 및 Scanner 노드용 모든 Linux 시스템이 호스트 요구 사항을 충족하는지 확인합니다.</block>
   <block id="928ed2812cce5a72d98ee96a2b856e67" category="list-text">오프라인 환경이 필요한 사용 권한 및 연결을 충족하는지 확인합니다.</block>
-  <block id="d681456d0964ef9c77d0e295444695a9" category="paragraph">또한 가능합니다 <block ref="22859e5e32c097ea1d67937698834047" category="inline-link-macro-rx"></block> 현재 BlueXP 디지털 전자지갑에서 30일 무료 평가판이 종료된 후에도 요금이 부과되지 않습니다.</block>
   <block id="1b37870dae094b28860019e52e52b4ff" category="doc">BlueXP 분류에서 OneDrive, SharePoint 또는 Google Drive 계정 제거</block>
   <block id="15d852c533c897c089cb8de8c1b7855c" category="doc">OneDrive 계정을 검색합니다</block>
   <block id="311be35314517dfdb66902778b278206" category="doc">Amazon S3 버킷을 스캔합니다</block>
@@ -3444,7 +3433,6 @@
   <block id="98f9f8a11a148aec70c39965293ea9b3" category="sidebar">더 이상 사용되지 않는 기능</block>
   <block id="dd6f713e594790101284e68ce9ae76f7" category="sidebar">더 이상 사용되지 않는 기능 목록입니다</block>
   <block id="4ebce9b5fd8cf4975c04bb94087ff4b3" category="sidebar">사용되지 않는 기능 목록입니다</block>
-  <block id="57a53311aaf61c9ce5d7ccc7b0678f93" category="sidebar">무료 평가판을 설정하거나 라이센스를 가져옵니다</block>
   <block id="08a8e0f5e4c7d91e565955cb7f30b215" category="sidebar">거버넌스 대시보드에서 데이터에 대한 거버넌스 세부 정보를 봅니다</block>
   <block id="aeb69ebcaffd7e18cd55db906e582bf5" category="sidebar">OneDrive, SharePoint 또는 Google Drive 계정을 제거합니다</block>
   <block id="b6417b62aacc6d16c1ae7a79d851d413" category="paragraph">Connector를 사내에 상주하는 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 분류가 지원됩니다. RHEL 8 또는 9 호스트가 AWS, Azure 또는 Google Cloud에 상주하는 경우에는 지원되지 않습니다.</block>
@@ -3453,9 +3441,7 @@
   <block id="53fa8df095671f897c8cbcd13ce182b1" category="inline-link-macro">지원되는 작업 환경 및 데이터 소스</block>
   <block id="2930994d2cff6bdaceb544c2a0169659" category="paragraph">을 참조하십시오 <block ref="fb235327a04124182aad24d53e898b94" category="inline-link-macro-rx"></block>.</block>
   <block id="3270840fec1d1272ecdf8fa5dacfe375" category="paragraph">BlueXP 분류는 BlueXP 핵심 기능이며 비용이 청구되지 않습니다.</block>
-  <block id="1f5565609924c19f8cc66ee9b3e5ff8b" category="paragraph">클라우드 공급자 마켓플레이스를 통해 BlueXP 구독을 신청해야 합니다.</block>
   <block id="178bf9bf543decf7d7b3739b703708f1" category="paragraph">AIP 레이블을 관리하려면 기존 Azure 계정에 로그인하여 AIP 레이블 기능을 BlueXP 분류에 통합해야 합니다. 활성화되면 모든 파일의 AIP 레이블을 관리할 수 있습니다 <block ref="9f69f043f42f5e941f29feed1ea9caea" category="inline-link-macro-rx"></block> BlueXP 작업 영역에서</block>
-  <block id="25c24221a948a50ce66f8d4fb0f6d79c" category="paragraph">클라우드 공급자 마켓플레이스에 가입해야 합니다.</block>
   <block id="147b35ab5352426bba38d99d810db4ed" category="list-text">NetApp Support 사이트에서 라이센스 파일을 얻을 수 있습니다.</block>
   <block id="5956d6a178701862e65cfb2557c264ca" category="paragraph">BlueXP 분류(Data Sense) BYOL 라이센스를 사용하는 경우, 검사 중인 모든 데이터의 크기가 용량 제한에 도달하거나 라이센스 만료 날짜가 임박한 경우 BlueXP 분류 UI와 BlueXP 디지털 지갑 UI에 경고가 표시됩니다.</block>
   <block id="c5225ba8742170a4ff16813a131d50d2" category="paragraph">다음과 같은 경고가 표시됩니다.</block>
@@ -3565,16 +3551,12 @@
   <block id="7eac8ad7bb67a204924dcc6a4113f103" category="list-text">* 오류 * (빨간색 점): 문제가 발생하여 검사를 완료할 수 없습니다. 작업을 완료해야 하는 경우 도구 설명에 "required action(필요한 작업)" 열 아래에 오류가 표시됩니다.  그렇지 않으면 "오류" 상태가 표시되고 복구를 시도합니다. 완료되면 상태가 변경됩니다.</block>
   <block id="4c5b4656410d347cf852f162490f2e15" category="list-text">*스캔하지 않음*: "끄기"의 볼륨 구성이 선택되었고 시스템이 볼륨을 스캔하지 않습니다.</block>
   <block id="bf5237098b7bb15bc07f1d47863a9b8a" category="section-title">2024년 6월 5일(버전 1.32)</block>
-  <block id="b9620e9aadf9827ac9bb29001772b3f0" category="paragraph">이 릴리스에는 다음 업데이트가 포함됩니다.</block>
-  <block id="b83927d03444ee961e834ea1c3b0581b" category="section-title">매핑 검사는 메타데이터를 수집합니다</block>
-  <block id="6c7aa72b096dc637dbeefccf15ca45f8" category="paragraph">다음 메타데이터는 매핑 검사 중에 파일에서 추출되며 거버넌스, 규정 준수 및 조사 대시보드에 표시됩니다.</block>
-  <block id="240625d3ff2ba7b1a3949f7ddfb468d3" category="section-title">대시보드의 추가 데이터</block>
-  <block id="43ac3190fe70b3bdb1f5d5b7083f374a" category="paragraph">이 릴리스는 매핑 검사 중에 거버넌스, 규정 준수 및 조사 대시보드에 표시되는 데이터를 업데이트합니다.</block>
-  <block id="9b28a6e87457a6a3bfb03009dcd0b84a" category="inline-link">매핑 스캔과 분류 스캔의 차이점은 무엇입니까</block>
-  <block id="c7fb92ca31125e81e2a4f2982bc6a806" category="paragraph">자세한 내용은 을 참조하십시오<block ref="4062fc8e6e6df1b01a1de644d8a7eeca" category="inline-link-rx"></block></block>
   <block id="7910c8307cac3d62eca8ac0d42301b38" category="section-title">구성 페이지의 새 매핑 상태 열</block>
   <block id="cfbaa8108dcd3c438f032a03ea5c380b" category="paragraph">이 릴리즈는 이제 구성 페이지에 새 매핑 상태 열을 표시합니다. 새 열을 통해 매핑이 실행 중인지, 대기열에 있는지, 일시 중지되었는지 등을 확인할 수 있습니다.</block>
   <block id="2f94c0116c501abdbd5c76ddef86d94a" category="paragraph">상태에 대한 설명은 을 참조하십시오<block ref="cacd3972a6d9bfb8b2d3cde3ba576e77" category="inline-link-rx"></block>.</block>
   <block id="d37bdc46b0a428edd8f0ab35c24067ea" category="paragraph">아래 나열된 특정 데이터 소스를 설정할 때 BlueXP에서 CIFS 볼륨을 스캔하려면 Active Directory 자격 증명을 입력해야 합니다. 이러한 통합을 통해 파일 소유자와 BlueXP 분류를 수행하고 해당 데이터 소스에 있는 데이터에 대한 사용 권한 세부 정보를 확인할 수 있습니다. 이러한 데이터 원본에 대해 입력한 Active Directory가 여기에 입력한 글로벌 Active Directory 자격 증명과 다를 수 있습니다. BlueXP 분류는 모든 통합 Active Directory에서 사용자 및 권한 세부 정보를 확인할 수 있습니다.</block>
   <block id="70f05bdab0f283eaffba98f53fceb776" category="paragraph">CIFS 볼륨/파일 공유의 경우, BlueXP 분류 검사에서 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 쓰기 속성 권한이 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
+  <block id="bf353be94d6ba74709e3d127af6ba1a6" category="paragraph">다음 질문은 BlueXP 분류를 사용하기 위한 라이센스 및 비용과 관련됩니다.</block>
+  <block id="b660413c1fbf79ce31a119db078401fe" category="paragraph">이 릴리스에는 다음 업데이트가 포함되어 있습니다.</block>
+  <block id="ee817e39b08fa171d62efb8f7b4143b2" category="admonition">BlueXP 분류 핵심 버전에서는 Active Directory와의 통합이 지원되지 않습니다.</block>
 </blocks>

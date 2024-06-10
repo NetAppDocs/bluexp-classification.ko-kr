@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-cloud-compliance.html 
-keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning,  governance, cloud data sense, data sense, privacy control, classification, optimization, cloud data sense, bluexp 
+keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning,  governance, cloud data sense, data sense, privacy control, classification, optimization, cloud data sense, bluexp, bluexp classification 
 summary: BlueXP 분류는 회사의 온프레미스 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별하는 BlueXP용 데이터 거버넌스 서비스입니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다. 
 ---
 = BlueXP 분류에 대해 알아보십시오
@@ -280,7 +280,7 @@ BlueXP 분류를 통해 선택한 데이터 소스에서 일반적인 "매핑" �
 | 비즈니스 데이터가 아닌 데이터 | 예 | 예 
 
 
-| 중복된 파일 | 예 | 아니요 
+| 중복된 파일 | 예 | 예 
 
 
 | 미리 정의된 정책 | 예 | 아니요 
@@ -397,7 +397,7 @@ BlueXP 분류를 통해 선택한 데이터 소스에서 일반적인 "매핑" �
 | 데이터 제목 | 예 | 아니요 
 
 
-| 중복 | 예 | 아니요 
+| 중복 | 예 | 예 
 
 
 | 분류 상태입니다 | 예 | 상태는 항상 "제한된 통찰력"입니다. 
