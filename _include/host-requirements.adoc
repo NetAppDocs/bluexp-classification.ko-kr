@@ -3,7 +3,7 @@
 
 
 * BlueXP 분류는 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.
-* 사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 3가지 시스템 크기 중에서 선택할 수 있습니다.
+* 사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 이러한 시스템 크기 중에서 선택할 수 있습니다.
 +
 [cols="17,17,27,31"]
 |===
@@ -20,22 +20,7 @@
 /opt에서 -100GiB를 사용할 수 있습니다
 -395GiB는 /var/lib/docker, Podman/var/lib/컨테이너 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
 /tmp에 -5GiB입니다 
-
-
-| * 중간 * | CPU 8개 | 32GB RAM | 200GiB SSD 켜짐/또는
-/opt에서 -50GiB를 사용할 수 있습니다
--145GiB는 /var/lib/docker 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
-/tmp에 -5GiB입니다 
-
-
-| * 소형 * | CPU 8개 | 16GB RAM | 또는 에서 100GiB SSD
-/opt에서 -50GiB를 사용할 수 있습니다
--45GiB는 /var/lib/docker 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
-/tmp에 -5GiB입니다 
 |===
-+
-소형 시스템을 사용할 때는 제한이 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
-
 * BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
 +
 ** * Amazon Elastic Compute Cloud(Amazon EC2) 인스턴스 유형 *: "m6i.4xlarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^].

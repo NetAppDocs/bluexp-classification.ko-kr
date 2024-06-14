@@ -47,8 +47,6 @@ indexpage:
       url: task-using-policies.html
     - title: 규정 준수 보고서를 생성합니다
       url: task-generating-compliance-reports.html
-    - title: 규정을 준수하지 않는 데이터가 발견되면 이메일 경고를 생성합니다
-      url: task-using-policies.html
     - title: 데이터 주체 액세스 요청에 응답합니다
       url: task-generating-compliance-reports.html#search-for-data-subjects-and-download-reports
   - title: 더 이상 사용되지 않는 기능

@@ -1812,9 +1812,6 @@
   <block id="3a69b34ce86dacb205936a8094f6c743" category="cell">대형</block>
   <block id="dc8179e6e72156a5578bf35cf9574540" category="cell">CPU 16개</block>
   <block id="5a1fdf37d5cd85436f7504641d78b95f" category="cell">64GB RAM</block>
-  <block id="bef6aed074693bd02885fa89c8b418f0" category="cell">CPU 8개</block>
-  <block id="70eb72cfa1dbdb5556e79344f161d62a" category="cell">32GB RAM</block>
-  <block id="e706090ac76b3e56523819912497e0f6" category="cell">16GB RAM</block>
   <block id="3080c7bbf6707274907b8ec2e97fb7a8" category="list-text">인터넷 액세스에 프록시를 사용하는 경우:</block>
   <block id="872a9ee7c158e8dd5094c5c93dcffc57" category="list-text">프록시 서버 정보(IP 주소 또는 호스트 이름, 연결 포트, 연결 스키마: https 또는 http, 사용자 이름 및 암호)가 필요합니다.</block>
   <block id="829124a47242d374aed9d0704a781736" category="paragraph">Linux 호스트 _ 의 일반적인 설치 방법은 다음과 같습니다.</block>
@@ -1863,8 +1860,6 @@
   <block id="088be43867eaac29f74142859d1e2a13" category="paragraph">필수 구성 요소 스크립트를 실행할 때는 커넥터 시스템의 IP 주소 또는 호스트 이름이 필요합니다. 이 정보는 구내에 Connector를 설치한 경우 확인할 수 있습니다. Connector가 클라우드에 배포된 경우 BlueXP 콘솔에서 이 정보를 찾을 수 있습니다. 도움말 아이콘을 클릭하고 * 지원 * 을 선택한 다음 * BlueXP 커넥터 * 를 클릭합니다.</block>
   <block id="93144470251168b3e5488b736447f48f" category="section-title">호스트 요구 사항을 확인합니다</block>
   <block id="c1b7308083354b8b60760460bcce3ccc" category="cell">* 대형 *</block>
-  <block id="f3e6e184202c9901024fa409f2c24cb1" category="cell">* 중간 *</block>
-  <block id="e8ae9f0392263b55e4580177a75c948e" category="cell">* 소형 *</block>
   <block id="e6414c92b8fa46238f4135e4d3e45674" category="inline-link-macro">추가 AWS 인스턴스 유형을 참조하십시오</block>
   <block id="130a6b20e1175876fb22c9520aa18c8c" category="inline-link-macro">추가 Azure 인스턴스 유형을 참조하십시오</block>
   <block id="d713d26696157989a3e54d75e186ddb9" category="list-text">* Azure VM size *: "Standard_D16s_v3"을 권장합니다. <block ref="600a0a16acacbb97202eae2cd680ce79" category="inline-link-macro-rx"></block>.</block>
@@ -3053,7 +3048,6 @@
 /opt에서 -100GiB를 사용할 수 있습니다
 -895GiB는 /var/lib/docker에서 사용할 수 있습니다
 /tmp에 -5GiB입니다</block>
-  <block id="7e6ae7e8de71f1a36043487bc45a85eb" category="paragraph">소형 시스템을 사용할 때는 제한이 있습니다. 을 참조하십시오 <block ref="0e704e23a30c6a19db4ec4aec3706681" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="7644f60fe7823935bde3cbe9f9e82bf8" category="section-title">AIP 레이블을 사용하여 데이터를 분류합니다</block>
   <block id="0ed54f1d736772cdfa10d041612c19cc" category="section-title">작업 공간에 AIP 레이블을 통합합니다</block>
   <block id="dc868ca3e5d8a2a78f0a032d630be98e" category="section-title">파일에서 AIP 레이블을 봅니다</block>
@@ -3126,7 +3120,6 @@
   <block id="f72e4f10556fdc1e84c715407cbda16b" category="sidebar">개인 정보가 포함된 파일을 봅니다</block>
   <block id="53aba5c7ba7952b6d58e9dfb83a4516e" category="sidebar">스토리지에 복제된 파일을 봅니다</block>
   <block id="fe146c842cc64934263018d6ec158b7e" category="sidebar">특정 파일을 보려면 데이터를 필터링합니다</block>
-  <block id="40af1406afc061038f5851961a636714" category="sidebar">규정을 준수하지 않는 데이터가 발견되면 이메일 경고를 생성합니다</block>
   <block id="9293f14feca10eb970a136a34ecc9d8c" category="sidebar">데이터 주체 액세스 요청에 응답합니다</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
@@ -3484,18 +3477,9 @@
   <block id="7478ade8cfb34d944424b511227fdfa2" category="paragraph">보고서가 1MB를 초과하는 경우 .pdf 파일이 BlueXP 분류 인스턴스에 유지되며 정확한 위치에 대한 팝업 메시지가 표시됩니다. BlueXP 분류를 온프레미스의 Linux 머신 또는 클라우드에 구축한 Linux 시스템에 설치하면 .pdf 파일로 직접 이동할 수 있습니다. 클라우드에 BlueXP 분류가 배포되는 경우 BlueXP 분류 인스턴스에 SSH로 연결하여 .pdf 파일을 다운로드해야 합니다. <block ref="21695d5d9eec77c608b7fe7666155715" category="inline-link-macro-rx"></block>.</block>
   <block id="a271d225cad25b912ce5858124897ffe" category="paragraph">Data Discovery Assessment Report는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여 줍니다. 결과는 데이터의 매핑과 분류를 기반으로 합니다. 이 보고서의 목표는 데이터 세트의 3가지 중요한 측면에 대한 인식을 높이는 것입니다.</block>
   <block id="a5c44a10e9c98a0d20204951c490574b" category="paragraph">이 기능은 온프레미스 ONTAP 시스템, Cloud Volumes ONTAP, Azure NetApp Files, FSx for ONTAP 및 타사 파일 공유에 적용됩니다.</block>
-  <block id="cd0e4d172a3c3cc49c7d48effd234198" category="list-text">사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 3가지 시스템 크기 중에서 선택할 수 있습니다.</block>
   <block id="30786f70a10900b6a9d4fd46363a55cb" category="cell">500GiB SSD 켜짐/또는
 /opt에서 -100GiB를 사용할 수 있습니다
 -395GiB는 /var/lib/docker, Podman/var/lib/컨테이너 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
-/tmp에 -5GiB입니다</block>
-  <block id="fb7aa8c3ffe50126e6eca8378926faad" category="cell">200GiB SSD 켜짐/또는
-/opt에서 -50GiB를 사용할 수 있습니다
--145GiB는 /var/lib/docker 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
-/tmp에 -5GiB입니다</block>
-  <block id="276dee9bc704113bddf51474d12b15ff" category="cell">또는 에서 100GiB SSD
-/opt에서 -50GiB를 사용할 수 있습니다
--45GiB는 /var/lib/docker 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
 /tmp에 -5GiB입니다</block>
   <block id="b5f08a168a732355a95d9acdc430dcaf" category="list-text">* Amazon Elastic Compute Cloud(Amazon EC2) 인스턴스 유형 *: "m6i.4xlarge"를 권장합니다. <block ref="2fad631c28a07a1344ecdbaabb5084bf" category="inline-link-macro-rx"></block>.</block>
   <block id="797b21f4662c52d1572473764912397d" category="paragraph">의 내용에 사용할 수 있습니다<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block> 를 실행한 후 실제로 커밋된 파일과 다른 구성 파일<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block> 스크립트. BlueXP 분류에 추가한 그룹 ID의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행하십시오.</block>
@@ -3559,4 +3543,5 @@
   <block id="ee817e39b08fa171d62efb8f7b4143b2" category="admonition">BlueXP 분류 핵심 버전에서는 Active Directory와의 통합이 지원되지 않습니다.</block>
   <block id="14aa1b744a832a1cebfb9dd4d34b809d" category="paragraph">BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="29c5c6557943f5249ffe666c6e468ce9" category="inline-link-rx"></block> 및 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>.</block>
   <block id="8a39158958544ff49d3dc95bad3f3a82" category="list-text">BlueXP Connector 소프트웨어를 최신 버전으로 업그레이드하는 것이 좋습니다.<block ref="4abf459c8cfa6d4ca98cecc130eefa9a" category="inline-link-rx"></block>.</block>
+  <block id="914179b3d4545ce8b8e8ba122c53f4d9" category="list-text">사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 이러한 시스템 크기 중에서 선택할 수 있습니다.</block>
 </blocks>
