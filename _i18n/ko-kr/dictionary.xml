@@ -47,9 +47,7 @@
   <block id="360d214e899b88b8fe54a260668c2f48" category="cell">사양</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="cell">제한 사항</block>
   <block id="87f8a6ab85c9ced3702b4ea641ad4bb5" category="cell">중간</block>
-  <block id="67c7201d970ee76fdf5320231dbc0367" category="cell">스캔 속도가 느리며 최대 100만 개의 파일만 스캔할 수 있습니다.</block>
   <block id="2660064e68655415da2628c2ae2f7592" category="cell">작은 크기</block>
-  <block id="49ca56879094b0664574fba79a043f6b" category="inline-link-macro">데이터 주체 이름</block>
   <block id="fc9e95a58725aa4fd51268d90c52f9e1" category="list-text">제공된 대시보드 및 보고 도구를 사용하여 규정 준수 및 거버넌스 작업에 도움을 줄 수 있습니다.</block>
   <block id="ea2c817c93e9afe80e6a8d8f74c1692d" category="section-title">스캔 작동 방식</block>
   <block id="a6555d8888ac95f7925f179ea7e8d4a8" category="paragraph">아래 표에는 몇 가지 차이점이 나와 있습니다.</block>
@@ -69,16 +67,13 @@
   <block id="142b203627d7e1032702a2d19364935b" category="cell">파일 내에서 이름을 검색합니다</block>
   <block id="94422fa6b0fe23d0ab463703c0022a63" category="inline-link-macro">정책</block>
   <block id="2dfcc311be6fe47855e067cf6907780f" category="cell">다른 보고서를 실행할 수 있습니다</block>
-  <block id="7723c0a066a249ebd5a6009e28eb007d" category="list-text">표준 메타데이터</block>
   <block id="6370c5a9859b827de2be9d30ec4b997e" category="list-text">개인 데이터</block>
   <block id="8c6847c1a3fee83b5a17b582397de2ec" category="inline-link-macro">개인 데이터에 대해 자세히 알아보십시오</block>
   <block id="83b358180e4e01f210434dd14618f990" category="list-text">민감한 개인 데이터</block>
   <block id="902c63c889818696415465bcf8e0b76b" category="inline-link-macro">중요한 개인 데이터에 대해 자세히 알아보십시오</block>
   <block id="af1b98adf7f686b84cd0b443e022b7a0" category="list-text">범주</block>
   <block id="6a92cf43085c9bfddf06d24557be9d88" category="inline-link-macro">범주에 대해 자세히 알아보십시오</block>
-  <block id="f2d346b1bb7c1c85ab6f7f21e3666b9f" category="list-text">유형</block>
   <block id="5cb163817b0d897b166cc75827e8c477" category="inline-link-macro">유형에 대해 자세히 알아보십시오</block>
-  <block id="999ab1f0dcc560a0944b54ec5ef461c0" category="list-text">이름 요소 인식</block>
   <block id="13d0a191166a1a3dc29ebcd8e3aae81f" category="inline-link-macro">데이터 주체 액세스 요청에 응답하는 방법에 대해 알아봅니다</block>
   <block id="7b895b198aba9634ffec5e0ec9a3aff4" category="section-title">네트워킹 개요</block>
   <block id="d359ba9662c22ff5e27bf861300c6bbf" category="section-title">규정 준수 정보에 대한 사용자 액세스</block>
@@ -388,16 +383,6 @@
   <block id="3b5f87032b5dd0beea89f73c7f8f64c0" category="cell">영국 ID(Nino)</block>
   <block id="f5817b4cc67ee41de01a4a19fc33ef7d" category="cell">미국 주민등록번호</block>
   <block id="0ff635b15f7fdd9403b351ffc3d0c2a1" category="section-title">중요한 개인 데이터의 유형</block>
-  <block id="98d51623eb7c03f43fa0678301f5efd4" category="list-text">형사 절차 참조</block>
-  <block id="369810982fcd806bbde0147f11c0364d" category="list-text">인종 참조</block>
-  <block id="4d0838c277b16e4c72ecafbaf587b10f" category="list-text">상태 참조</block>
-  <block id="f23c75cf09f52ec14b1d9b58cc0fe32c" category="list-text">ICD-9-cm 의료 코드</block>
-  <block id="ea13a98b7046850c04c07db39e39139c" category="list-text">의료 및 의료 산업에서 사용되는 코드.</block>
-  <block id="94eba79711527a8cc4882b225301c4d1" category="list-text">ICD-10-CM 의료 코드</block>
-  <block id="3a2343e75371abf39ce11f0ae877ef3b" category="list-text">철학적 신념 기준</block>
-  <block id="e02ca0fa6e286458f0e6d2d8ab570cbe" category="list-text">정치적 견해 참조</block>
-  <block id="9c816fac79e497eaa62bbb4a3adddfc1" category="list-text">종교적 신념 참조</block>
-  <block id="1126ae684e7f83d7ad03320e3339f2e4" category="list-text">성생활 또는 오리엔테이션 참조</block>
   <block id="3b59f947bb18be76ff03ca45ee9db241" category="section-title">범주 유형</block>
   <block id="3adbdb3ac060038aa0e6e6c138ef9873" category="cell">범주</block>
   <block id="78463a384a5aa4fad5fa73e2f506ecfc" category="cell">영어</block>
@@ -437,7 +422,6 @@
   <block id="01ff99864c73c43a845fe1b26d70c372" category="list-text">애플리케이션 데이터</block>
   <block id="0fa5a9c40f7f4a1f5dc486811f7a9a68" category="list-text">파일 보관</block>
   <block id="b22f0418e8ac915eb66f829d262d14a2" category="list-text">오디오</block>
-  <block id="cbfc4d641fb7ac2f1bc7044e77fe8b2c" category="list-text">비즈니스 애플리케이션 데이터</block>
   <block id="255b0d6720ed538171a7e78daf8f4feb" category="list-text">CAD 파일</block>
   <block id="ca0dbad92a874b2f69b549293387925e" category="list-text">코드</block>
   <block id="15ff2bcedc465304bd186b34a01e251e" category="list-text">손상되었습니다</block>
@@ -1128,9 +1112,7 @@
   <block id="1e99ed6a00e6ef3956359cd96c54b66c" category="section-title">소스 시스템 및 데이터 유형의 유형입니다</block>
   <block id="9648ab08d5b3fccc9c9ca3160e445cda" category="paragraph">다음 질문은 스캔할 수 있는 스토리지 유형 및 스캔할 데이터 유형과 관련되어 있습니다.</block>
   <block id="0adefa52dc5e774fb8bd1c62fec82b84" category="paragraph">'+.csv, .dcm, .dicom, .DOC, .DOCX, .JSON, .pdf, .PPTX, .rtf, .TXT, XLS, .XLSX, Docs, Sheets, Slides+'</block>
-  <block id="720afdfb61af450cb24ecd2ff70d9559" category="list-text">데이터 매핑 스캔.</block>
   <block id="00fb8639b6c2826bd3fceaa0d36399d8" category="paragraph">고속 스캔 후 데이터 매핑 보고서를 생성할 수 있습니다. 이 보고서는 리소스 활용도, 마이그레이션, 백업, 보안 및 규정 준수 프로세스에 대한 의사 결정을 돕기 위해 기업 데이터 소스에 저장된 데이터에 대한 개요입니다.</block>
-  <block id="201f7350fba7bb40edd7973d2df21f7d" category="list-text">데이터 분류(딥) 스캔.</block>
   <block id="1a068d00fba0764fe495dfcb9428ba33" category="section-title">추가 수익 실적을</block>
   <block id="f56912566696fa3cc8524bcac5febbeb" category="section-title">커넥터 전개</block>
   <block id="c6dbaaf1bef168a38de37623edb997f7" category="section-title">커넥터란 무엇입니까?</block>
@@ -1560,13 +1542,6 @@
   <block id="542947c94dac5ea97aa3f3323ad86f25" category="cell">호주 운전 면허증</block>
   <block id="15ed3f23837f7e98eb87015b76063af1" category="cell">뉴질랜드 운전면허증</block>
   <block id="6e7f259c1c7d110bc303264a6e6061a8" category="cell">뉴질랜드 NHI(National Health Index) 번호</block>
-  <block id="eee8240ee2489053f1b73dc1c725bc30" category="list-text">자연인의 범죄 소신 및 범죄에 관한 데이터.</block>
-  <block id="8c91af16b200cd5f170a0c293f6c8c10" category="list-text">자연인의 인종 또는 민족에 관한 데이터.</block>
-  <block id="fa9e0f66f09e924c8d185b0c3f264c96" category="list-text">자연인의 건강에 관한 데이터.</block>
-  <block id="21b44c1ea87d2453923ecdda08fbf204" category="list-text">자연인의 철학적 신념에 관한 데이터.</block>
-  <block id="09695dd2eeacedaa3efcdb4907f651ba" category="list-text">자연인의 정치적 의견에 관한 자료.</block>
-  <block id="93bdcf06c4b4aa8c6c1c5863c54998be" category="list-text">자연인의 종교적 신념에 관한 데이터.</block>
-  <block id="29ba89564fc652396b0a0ef333c039bf" category="list-text">자연인의 성생활 또는 성적 취향과 관련된 데이터.</block>
   <block id="43b0a31f7bbdb0db052e57796301b990" category="list-text">암호화(엔트로피 점수가 높은 파일)</block>
   <block id="d9c711e681dca1e6422cd0a91260f448" category="list-text">암호로 보호된 파일</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.</block>
@@ -1703,7 +1678,6 @@
   <block id="6eab0919191c5c01e62f627bf1087393" category="inline-link">인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 배포합니다</block>
   <block id="1bfc9901c2c53bbd2c3b887e04b0729a" category="inline-image-macro">태그 삭제 단추 위치의 스크린샷</block>
   <block id="40a535759cb359e9c73b128ff3596ce9" category="paragraph"><block ref="40a535759cb359e9c73b128ff3596ce9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="03e99071560d504538c377f7a5f5ac11" category="cell">"중간"과 동일한 제한 사항과 식별 기능을 제공합니다 <block ref="20b2486d30a598a87d1d40b385a9aa49" category="inline-link-macro-rx"></block> 내부 파일이 비활성화되었습니다.</block>
   <block id="36e377c8a0b4c6ebe59f98c838a743cd" category="cell">을 실행하는 기능 <block ref="6b956b76d0c0c2036c3988157efcea9e" category="inline-link-macro-rx"></block></block>
   <block id="45bb3a28f3aa6feb29d3e208dcf8e08c" category="cell">생성 <block ref="70f775217afdc5846c2e8494b632caaf" category="inline-link-macro-rx"></block> 맞춤형 검색 결과를 제공합니다</block>
   <block id="9ece336caf3d2b843dafc984e27b323e" category="paragraph">스캔 속도는 네트워크 지연 시간, 디스크 지연 시간, 네트워크 대역폭, 환경 크기 및 파일 배포 크기의 영향을 받습니다.</block>
@@ -1928,9 +1902,7 @@
   <block id="07ada1e73188e64ef4fd43b06b4a2a48" category="paragraph">BlueXP 분류는 사용자가 추가한 파일 공유의 파일을 검사하기 시작하고 그 결과는 대시보드와 다른 위치에 표시됩니다.</block>
   <block id="6b3a75b3808f31da6754be1d099cbe3f" category="summary">볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 BlueXP 분류가 식별할 수 있는 여러 유형의 개인 데이터가 있습니다. Google Drive 계정을 만듭니다.</block>
   <block id="092e6dee95258860d663bccecea3a137" category="admonition">다른 개인 데이터 유형(예: 추가 국가 ID 번호 또는 의료 식별자)을 식별하기 위해 BlueXP 분류가 필요한 경우, 요청 시 ng-contact-data-sense@netapp.com 으로 이메일을 보내십시오.</block>
-  <block id="1c5cd4f2794657644bcca6e1c8cd7dfd" category="paragraph">BlueXP 분류가 파일에서 찾을 수 있는 중요한 개인 데이터에는 다음 목록이 포함됩니다.</block>
   <block id="b7dea65f9a155deeb2a423a4459776ee" category="paragraph">BlueXP 분류는 다음과 같이 데이터를 분류합니다.</block>
-  <block id="aab8888eeef9e8f15190e6721c92486d" category="list-text">BlueXP 분류 브레드크럼입니다</block>
   <block id="e28941ad3ee4450d4e082c1ed4ac7223" category="paragraph">BlueXP 분류는 모든 파일에서 범주 및 메타데이터 정보를 검색하고 대시보드의 파일 형식 섹션에 모든 파일 형식을 표시합니다.</block>
   <block id="e4ef3ccfa363c6ab883bef97f62feda4" category="paragraph">그러나 BlueXP 분류에서 PII(개인 식별 정보)를 감지하거나 DSAR 검색을 수행할 때는 다음 파일 형식만 지원됩니다.</block>
   <block id="28fda5ce8d3d029d75bd23c4faaf51cb" category="paragraph">NetApp은 BlueXP의 분류 체계에서 식별할 수 있는 개인 데이터와 민감한 개인 데이터의 100% 정확성을 보장할 수 없습니다. 항상 데이터를 검토하여 정보의 유효성을 확인해야 합니다.</block>
@@ -2251,8 +2223,6 @@
   <block id="6352911cc42108d1f16863e618ef84d4" category="paragraph">BlueXP 분류에서 PII(개인 식별 정보)를 감지하거나 DSAR 검색을 수행할 때 다음 파일 형식만 지원됩니다.</block>
   <block id="d288c89eadda3d7c229b7316faf2209a" category="section-title">BlueXP 분류 체계는 어떤 종류의 데이터와 메타데이터를 캡처합니까?</block>
   <block id="724ba2aee906c26a6c05f56bbf0dd434" category="paragraph">BlueXP 분류를 통해 데이터 소스에서 일반적인 "매핑" 스캔 또는 전체 "분류" 스캔을 실행할 수 있습니다. 매핑은 데이터에 대한 상위 수준의 개요만 제공하는 반면 분류는 데이터에 대한 세부 수준의 스캐닝을 제공합니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다.</block>
-  <block id="e4304e4b14d97af30d876414d94156c9" category="paragraph">BlueXP 분류는 메타데이터만 스캔합니다. 이 기능은 전체 데이터 관리 및 거버넌스, 빠른 프로젝트 범위 지정, 대규모 부동산 및 우선순위 지정에 유용합니다. 데이터 매핑은 메타데이터를 기반으로 하며 * 빠른 * 스캔으로 간주됩니다.</block>
-  <block id="d506351fc51b067200effaea00b650b7" category="paragraph">BlueXP 분류 검사는 표준 프로토콜 및 사용자 환경 전체에서 읽기 전용 권한을 사용하여 수행합니다. Select 파일은 랜섬웨어 관련 중요 비즈니스 관련 데이터, 개인 정보 및 문제를 대상으로 열렸다 스캔됩니다.</block>
   <block id="dd3080e9b8238619b33db17f32f0014c" category="paragraph">전체 스캔 후에는 데이터 조사 페이지의 데이터 보기 및 구체화, 파일 내 이름 검색, 복사, 이동, 원본 파일 삭제 등 데이터에 적용할 수 있는 여러 가지 BlueXP 분류 기능이 추가로 있습니다.</block>
   <block id="c327ff2d5e993e56b5e37bd52bc902cc" category="section-title">BlueXP 분류 비용은 얼마입니까?</block>
   <block id="655b44b42a0405ade73bd1b7c7fe7759" category="paragraph">Connector는 클라우드 계정 또는 온프레미스 컴퓨팅 인스턴스에서 실행되는 소프트웨어로, BlueXP에서 클라우드 리소스를 안전하게 관리할 수 있도록 지원합니다. BlueXP 분류를 사용하려면 커넥터를 배포해야 합니다.</block>
@@ -2442,7 +2412,6 @@
   <block id="d05dbd72313077420069ae49fe175de1" category="list-text">Connector당 하나의 BlueXP 분류 인스턴스만 배포됩니다.</block>
   <block id="b9542475929b3c8ff209e88bb948446b" category="paragraph">BlueXP 분류를 사내 Linux 호스트 또는 선호하는 클라우드 공급업체의 호스트에 배포할 수도 있습니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다. 인스턴스에 인터넷 액세스가 가능한 한 BlueXP 분류 소프트웨어의 업그레이드는 자동으로 수행됩니다.</block>
   <block id="5509f198213f653cadd8f4de67a143bf" category="admonition">BlueXP 분류는 지속적으로 데이터를 검사하기 때문에 인스턴스가 항상 실행 상태를 유지해야 합니다.</block>
-  <block id="e0fd86ff833307e88c100c6db47be129" category="paragraph">CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지만 이러한 덜 강력한 시스템을 사용할 때는 몇 가지 제약이 있습니다.</block>
   <block id="0420746794140f8978222121f6e4a764" category="section-title">BlueXP 분류의 작동 방식</block>
   <block id="e5cbd4e407b221a95e9bc8b3965978dd" category="paragraph">BlueXP 분류는 다음과 같이 작동합니다.</block>
   <block id="1483534eda512965970c7917b74698ae" category="list-text">BlueXP에서 BlueXP 분류 인스턴스를 배포합니다.</block>
@@ -2452,7 +2421,6 @@
   <block id="4aa06a2b4191eee9b59686458a3cf0e5" category="section-title">BlueXP 분류 스캔 데이터의 속도</block>
   <block id="737ab30d4451f7b971d756cdcc6b7d6b" category="section-title">BlueXP 분류 색인에 대한 정보</block>
   <block id="28e66615c1e04c19b63a24061d462220" category="paragraph">BlueXP 분류는 데이터(파일)에 범주를 수집, 색인 및 할당합니다. BlueXP 분류 인덱스의 데이터는 다음과 같습니다.</block>
-  <block id="e1c6fd17dccbebfc440207f27d59459b" category="list-text">BlueXP 분류는 파일 유형, 크기, 생성 및 수정 날짜 등의 파일에 대한 표준 메타데이터를 수집합니다.</block>
   <block id="6baaa35b9d6c708af7920a94de9f3951" category="paragraph">BlueXP는 Connector 인스턴스의 인바운드 HTTP 연결을 활성화하는 보안 그룹과 함께 BlueXP 분류 인스턴스를 배포합니다.</block>
   <block id="b7753345b24c98f72b73e9e641a456d7" category="paragraph">아웃바운드 규칙은 완전히 열립니다. BlueXP 분류 소프트웨어를 설치 및 업그레이드하고 사용 지표를 전송하려면 인터넷 액세스가 필요합니다.</block>
   <block id="def03cca1b6cd44fc1ef14e712a6c792" category="inline-link-macro">BlueXP 분류 접촉부에 대한 엔드포인트에 대해 알아보십시오</block>
@@ -2994,7 +2962,6 @@
   <block id="dfd993077bb353282906702dc3143ec7" category="list-text">* NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP Connector 시스템 간에 시간을 동기화해야 합니다.</block>
   <block id="0d7b5294055876bf358044259606856f" category="paragraph">BlueXP 분류는 파일 이름, 권한, 생성 시간, 마지막 액세스, 마지막 수정과 같은 메타데이터를 캡처합니다. 여기에는 데이터 조사 세부 정보 페이지와 데이터 조사 보고서에 표시되는 모든 메타데이터가 포함됩니다.</block>
   <block id="829d8d2f641dd9e58ec1a7d5e605ae21" category="inline-link">BlueXP 분류가 검사하는 프라이빗 데이터의 범주입니다</block>
-  <block id="3db00327e72827118e6c677e24f6a704" category="paragraph">BlueXP 분류는 개인 데이터 및 중요 개인 데이터와 같은 다양한 유형의 프라이빗 데이터를 식별할 수 있습니다. 개인 데이터에 대한 자세한 내용은 을 참조하십시오<block ref="56427cf32f2481dc2470f5e57414e198" category="inline-link-rx"></block>.</block>
   <block id="74d4d96e624f192d4ebed96b99d9cedd" category="paragraph">스캔되는 데이터는 사용자 환경 내에 유지됩니다.</block>
   <block id="b39079257432aa2e0ea1ac3e4e36cdf8" category="section-title">중요 데이터는 어떻게 처리됩니까?</block>
   <block id="35a8814c3eaa26f66ca3a0eea1193f70" category="paragraph">NetApp는 중요한 데이터에 액세스할 수 없으며 UI에 이를 표시하지 않습니다. 중요한 데이터는 마스킹됩니다. 예를 들어, 마지막 4개의 숫자는 신용 카드 정보로 표시됩니다.</block>
@@ -3030,17 +2997,10 @@
   <block id="bd387dbe20d15a2a0ff5e7602549388e" category="list-text">감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다.</block>
   <block id="a8a28cc44c1c782e3e832f304d4dfbd7" category="list-text">디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다.</block>
   <block id="6b1b1c56d9e50ead02cb1c15240f6672" category="list-text">AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 비활성화되었습니다.</block>
-  <block id="20d9878156a2091b70c1ea4cf697dd9d" category="paragraph">파일에서 발견된 개인 데이터는 일반 개인 데이터 또는 국가 식별자일 수 있습니다. 아래 표의 세 번째 열은 BlueXP 분류의 사용 여부를 나타냅니다 <block ref="af3f1f2f9514770a1cfe0f9a422e763d" category="inline-link-macro-rx"></block> 식별자에 대한 결과를 검증합니다.</block>
   <block id="5d4d8771b47d6c5166952822e552f082" category="cell">매우 크게</block>
   <block id="286037639991fbe8162e37237400f775" category="cell">32개의 CPU, 128GB RAM, 1TiB SSD</block>
   <block id="f6f61cf219d5829d5169842d420d1503" category="cell">최대 5억 개의 파일을 스캔할 수 있습니다.</block>
   <block id="ea1a46649fa6479f8f6b7adefbb4450a" category="cell">최대 2억 5천만 개의 파일을 스캔할 수 있습니다.</block>
-  <block id="d2ab97ef89606f2d10fb34a332e0fdb6" category="paragraph">AWS의 클라우드에 BlueXP 분류를 배포할 때 대규모/중간/소규모 인스턴스를 선택할 수 있습니다. Azure 또는 GCP에서 BlueXP 분류를 구축할 때 이러한 대체 시스템 중 하나를 사용하려면 ng-contact-data-sense@netapp.com 으로 이메일을 보내 지원을 요청하십시오. 이러한 다른 클라우드 구성을 배포하려면 고객과 협력해야 합니다.</block>
-  <block id="8910b1ec473cf0681670f869289481a2" category="paragraph">BlueXP 분류를 온프레미스에 구축할 경우 대체 사양이 있는 Linux 호스트를 사용하면 됩니다. NetApp에 지원을 요청할 필요가 없습니다.</block>
-  <block id="5a8ee8420a5d1cdc5ee93a7fd5065c6a" category="list-text">이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보 <block ref="fc496cc858c0e8dff4419012ba17c358" category="inline-link-macro-rx"></block>.</block>
-  <block id="824da272ee238f0ff0da26b458ce480c" category="list-text">GDPR 및 기타 개인 정보 보호 규정에 정의된 의료 데이터, 인종 또는 정치적 의견과 같은 민감한 정보의 특별한 유형. <block ref="6221f6509a9900ea9a8146767340b3a8" category="inline-link-macro-rx"></block>.</block>
-  <block id="e95f1ed805ee251f2c684538d33ea9f4" category="list-text">BlueXP 분류는 스캔한 데이터를 다른 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. <block ref="722783767558c868b0670a999b08f996" category="inline-link-macro-rx"></block>.</block>
-  <block id="7a8cb013c41bdd9770a1cad9bb979c55" category="list-text">BlueXP 분류는 스캔한 데이터를 파일 유형별로 분류하여 표시합니다. <block ref="a23a1c3a68ab723cb619be8574a4637d" category="inline-link-macro-rx"></block>.</block>
   <block id="acff74627293e3e739a3c24e5fec03c2" category="cell">* 초대형 *</block>
   <block id="8a0a1142229b3b639f68556794cbd985" category="cell">32개의 CPU</block>
   <block id="228d50520d6c2a627ecce76f2775d5e1" category="cell">128GB RAM</block>
@@ -3074,7 +3034,6 @@
   <block id="3d6c8f2da2f31e222453954edbdc0016" category="section-title">HIPAA 보고서를 생성합니다</block>
   <block id="dea05f9db0b78f5c37e6ef730d7c9cb3" category="section-title">데이터 주제를 검색하고 보고서를 다운로드합니다</block>
   <block id="d31797d513ed86de950b1e6cad114a0e" category="section-title">보고서의 작업 환경을 선택합니다</block>
-  <block id="2698a0014cadd28141bb459524e52ece" category="doc">조직에 저장된 데이터에 대한 규정 준수 세부 정보를 봅니다</block>
   <block id="5bd05de235efc04c8b15b98cdd6622d2" category="paragraph">일부 작업 환경에 대한 데이터만 보려면 <block ref="06e3575e0ad015087c5a66ab84fa89cb" category="inline-xref-macro-rx"></block>.</block>
   <block id="ee2ce94ca497f99a823b64ee93e29228" category="paragraph">또한 데이터 조사 페이지에서 결과를 필터링하고 결과 보고서를 CSV 파일로 다운로드할 수도 있습니다. 을 참조하십시오 <block ref="f082a9ca9c2b3ab3d0b6d26a35559d93" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="f9643188d49ee294212ab09521305bdd" category="section-title">개인 데이터가 포함된 파일을 봅니다</block>
@@ -3298,7 +3257,6 @@
   <block id="428a85a15f039350823864cdd9f6711b" category="paragraph">페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. 자세한 내용 링크: task-deploy-multi-host-install-dark-site.html&gt; 대규모 구성을 위해 여러 호스트에 설치하는 방법</block>
   <block id="758de85e3f025a37293713e5735825a9" category="admonition">BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTAP용 S3 버킷, Azure NetApp Files 또는 FSx를 스캔할 수 없습니다. 이러한 경우 클라우드 및 에 별도의 Connector 및 BlueXP 분류 인스턴스를 배포해야 합니다<block ref="3cd9b819ecbc63be3401566b7b7cbf66" category="inline-link-rx"></block> 다양한 데이터 소스에 대해</block>
   <block id="f221652320e994dc66aab1d5d6da5fb7" category="paragraph">모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 기록됩니다<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>. <block ref="c7911c51adef419f386feff4cec8acf6" category="inline-link-macro-rx"></block>.</block>
-  <block id="8a2fa9f62a3f919edf2af881f8e7795e" category="paragraph">BlueXP 분류로 볼륨 및 데이터베이스에서 식별할 수 있는 여러 유형의 프라이빗 데이터가 있습니다. 아래 범주를 참조하십시오.</block>
   <block id="224bbd10a45d7fdcbbb8075666b6c93a" category="cell">파일당 감지된 중요 식별자의 범위를 선택합니다. 개인 데이터 및 민감한 개인 데이터가 포함됩니다. 디렉터리에서 필터링할 때 BlueXP 분류는 각 폴더(및 하위 폴더)의 모든 파일에서 일치하는 항목의 합계를 구합니다.
 
 참고: 2023년 12월 (버전 1.26.6) 릴리스는 디렉토리로 개인 식별 정보 (PII) 데이터의 수를 계산하는 옵션을 제거했습니다.</block>
@@ -3520,7 +3478,6 @@
   <block id="fb8a04662bc42d13ae8a2d1bddbc05b3" category="cell">상태는 항상 "제한된 통찰력"입니다.</block>
   <block id="29344a3c58cf84dcf0144a3627f021d1" category="cell">파일 해시</block>
   <block id="4df26807127a67f2d98166e4384eea07" category="cell">사용자/그룹 권한</block>
-  <block id="922dab0122736d5f9b503433210903c7" category="list-text">BlueXP 분류에서는 AI를 사용하여 문서에서 사람들의 자연어 이름을 추출합니다. <block ref="3e345053a8e9ce1c3eacafd31ce8d78d" category="inline-link-macro-rx"></block>.</block>
   <block id="c1de1b0548f24874b79874a91bd0f05a" category="paragraph">파일 등급은 X축에 있는 파일에 액세스할 수 있는 권한이 있는 사용자 수(가장 낮음에서 가장 높음)와 Y축에 있는 파일 내의 중요한 식별자 수(가장 낮음에서 가장 높음)를 기준으로 합니다. 블럭은 X 및 Y 축의 항목과 일치하는 파일 수를 나타냅니다. 밝은 색상의 블록이 적합합니다. 더 적은 수의 사용자가 파일에 액세스할 수 있고 파일당 중요한 식별자는 더 적습니다. 어두운 블럭은 조사하려는 항목입니다. 예를 들어, 아래 화면에는 진한 파란색 블록에 대한 도구 설명 텍스트가 표시됩니다. 이 그림은 751-100명의 사용자가 액세스할 수 있는 1,500개의 파일이 있으며, 파일당 501-100개의 민감한 식별자가 있다는 것을 보여 줍니다.</block>
   <block id="d4af8d75643e49d82b42b7eb654ed0c7" category="summary">각 작업 환경과 BlueXP 분류의 데이터 소스에서 데이터가 스캔되는 방식을 관리할 수 있습니다. "리포지토리"를 기준으로 변경할 수 있습니다. 즉, 각 볼륨, 버킷, 공유, 스키마, 사용자, 스캔 중인 데이터 소스의 유형에 따라 다릅니다.</block>
   <block id="e415c7da5280de793049e6b59816274d" category="paragraph">구성 페이지에서 각 작업 환경의 스캔 상태를 볼 수 있습니다.</block>
@@ -3544,4 +3501,45 @@
   <block id="14aa1b744a832a1cebfb9dd4d34b809d" category="paragraph">BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="29c5c6557943f5249ffe666c6e468ce9" category="inline-link-rx"></block> 및 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>.</block>
   <block id="8a39158958544ff49d3dc95bad3f3a82" category="list-text">BlueXP Connector 소프트웨어를 최신 버전으로 업그레이드하는 것이 좋습니다.<block ref="4abf459c8cfa6d4ca98cecc130eefa9a" category="inline-link-rx"></block>.</block>
   <block id="914179b3d4545ce8b8e8ba122c53f4d9" category="list-text">사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 이러한 시스템 크기 중에서 선택할 수 있습니다.</block>
+  <block id="6c09b1dff892b8048d63b1e31c61b814" category="section-title">다양한 인스턴스 유형에 배포</block>
+  <block id="df08805f9a68769e5aca6dccacac7494" category="paragraph">CPU와 RAM이 적은 시스템에 BlueXP 분류를 구축할 수 있습니다.</block>
+  <block id="57637b2cc8a0490c839620385b595b3e" category="paragraph">Azure 또는 GCP에서 BlueXP 분류를 구축할 때 더 작은 인스턴스 유형을 사용하려면 ng-contact-data-sense@netapp.com 으로 이메일을 보내 지원을 요청하십시오.</block>
+  <block id="ac1250c44ca3735bfcf1d4592b478a30" category="list-text">* 표준 메타데이터 * BlueXP 분류는 파일 유형, 크기, 생성 및 수정 날짜 등과 같은 파일에 대한 표준 메타데이터를 수집합니다.</block>
+  <block id="e59e38f5b5a816003a773fb9f75ff139" category="list-text">* 개인 정보 *: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보(PII). <block ref="fc496cc858c0e8dff4419012ba17c358" category="inline-link-macro-rx"></block>.</block>
+  <block id="58b08b9a6ba479db4005e79f9e8bfbc2" category="list-text">* 민감한 개인 데이터 *: GDPR 및 기타 개인 정보 보호 규정에 정의된 건강 데이터, 인종 또는 정치적 견해와 같은 민감한 개인 정보의 특별한 유형(SPii). <block ref="6221f6509a9900ea9a8146767340b3a8" category="inline-link-macro-rx"></block>.</block>
+  <block id="e1b5177c05ab6adddb3fa94c4f67b610" category="list-text">*Categories *: BlueXP 분류는 스캔한 데이터를 가져와 다른 유형의 범주로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. <block ref="722783767558c868b0670a999b08f996" category="inline-link-macro-rx"></block>.</block>
+  <block id="0fbd08a5b8412239310f1e6624aeaf6c" category="list-text">* 유형 *: BlueXP 분류는 스캔한 데이터를 가져와 파일 형식에 따라 분류합니다. <block ref="a23a1c3a68ab723cb619be8574a4637d" category="inline-link-macro-rx"></block>.</block>
+  <block id="9557b1a380e33e450b6180ada3830e35" category="list-text">* 이름 엔티티 인식 * : BlueXP 분류는 AI를 사용하여 문서에서 사람들의 자연 이름을 추출합니다. <block ref="3e345053a8e9ce1c3eacafd31ce8d78d" category="inline-link-macro-rx"></block>.</block>
+  <block id="41265acabb9b2d4334b8c5ef8c74cfaa" category="list-text">* Data mapping scan *: BlueXP 분류는 메타데이터만 검사합니다. 이 기능은 전체 데이터 관리 및 거버넌스, 빠른 프로젝트 범위 지정, 대규모 부동산 및 우선순위 지정에 유용합니다. 데이터 매핑은 메타데이터를 기반으로 하며 * 빠른 * 스캔으로 간주됩니다.</block>
+  <block id="f8360a4b00aa848a20011c9cc810d223" category="list-text">* 데이터 분류(Deep) 스캔 *: BlueXP 분류는 환경 전체에서 표준 프로토콜과 읽기 전용 권한을 사용하여 스캔합니다. Select 파일은 랜섬웨어 관련 중요 비즈니스 관련 데이터, 개인 정보 및 문제를 대상으로 열렸다 스캔됩니다.</block>
+  <block id="8ee30d3fc93bcfebcb66c04d52653b48" category="paragraph">BlueXP 분류는 개인 정보(PII) 및 민감한 개인 정보(SPii)와 같은 다양한 유형의 프라이빗 데이터를 식별할 수 있습니다. 개인 데이터에 대한 자세한 내용은 을 참조하십시오<block ref="56427cf32f2481dc2470f5e57414e198" category="inline-link-rx"></block>.</block>
+  <block id="dccdebfeec8fafe3af210e0af17af320" category="paragraph">BlueXP 분류로 볼륨 및 데이터베이스에서 식별할 수 있는 여러 유형의 프라이빗 데이터가 있습니다.</block>
+  <block id="3b6b18ad7909031011a3960e81ac99e4" category="paragraph">BlueXP 분류에 따르면 다음과 같은 2가지 유형의 개인 데이터를 식별합니다.</block>
+  <block id="85542d81e9687ba10d962e859cdaf35a" category="list-text">* 개인 식별 정보(PII) *</block>
+  <block id="874a594310f3c66b96cad8a1ef4af095" category="list-text">* 민감한 개인 정보(SPii) *</block>
+  <block id="185a6c810ca281a80052f73d8e326953" category="paragraph">파일에서 발견되는 개인 데이터 또는 _개인 식별 정보_(PII)는 일반 개인 데이터 또는 국가 식별자가 될 수 있습니다. 아래 표의 세 번째 열은 BlueXP 분류의 사용 여부를 나타냅니다 <block ref="af3f1f2f9514770a1cfe0f9a422e763d" category="inline-link-macro-rx"></block> 식별자에 대한 결과를 검증합니다.</block>
+  <block id="22535a9e2a33599f897498d121038146" category="paragraph">BlueXP 분류는 파일에서 다음과 같은 민감한 개인 정보(SPii)를 찾을 수 있습니다.</block>
+  <block id="0327f9ba6d0f4d1eac4f3812d1dcc54d" category="list-text">* 형사 절차 참조 * : 자연인의 범죄 유죄 및 범죄에 관한 자료.</block>
+  <block id="5082eafb320441003f6c8b58c5b11b66" category="list-text">* 민족성 참조 * : 자연인의 인종 또는 민족 기원에 관한 데이터.</block>
+  <block id="c8c0005ddc44c030f46554f4bc13d30e" category="list-text">* 건강 참조 * : 자연인의 건강에 관한 데이터.</block>
+  <block id="b4c4d50bf222c6d6d068e6a38a559115" category="list-text">* ICD-9-CM 의료 코드 *: 의료 및 건강 산업에서 사용되는 코드입니다.</block>
+  <block id="70ab4c8266b508a7c918db522f484d33" category="list-text">* ICD-10-CM 의료 코드 *: 의료 및 건강 산업에서 사용되는 코드입니다.</block>
+  <block id="008e44ccec3f4ad845a4564ae19ec928" category="list-text">* 철학적 신념 참조 * : 자연인의 철학적 신념에 관한 자료.</block>
+  <block id="39090e91c08fbc9c0ce9490c2ec652b4" category="list-text">* 정치적 견해 참조 * : 자연인의 정치적 견해에 관한 자료.</block>
+  <block id="07053b2e2c9a4f0dbf4313c9308bb0c1" category="list-text">* 종교적 믿음 참조 * : 자연인의 종교적 신념에 관한 자료.</block>
+  <block id="f614278f8ed5632a7d1b8328e4f9380e" category="list-text">* 섹스 라이프 또는 오리엔테이션 참조 * : 자연인의 섹스 생활 또는 성적 지향에 관한 데이터.</block>
+  <block id="374b37a5e415f7edd5cf6f52521389b8" category="list-text">BlueXP 분류의 Breadcrumb
+비즈니스 애플리케이션 데이터</block>
+  <block id="1903cd6e75503b7859268e96d356ea13" category="doc">조직에 저장된 개인 데이터에 대한 규정 준수 세부 정보를 봅니다</block>
+  <block id="aa7740206cc512120060a1c060de9543" category="paragraph">조직의 개인 데이터(PII) 및 중요 개인(SPii) 데이터에 대한 세부 정보를 확인하여 개인 데이터를 제어할 수 있습니다. 또한 데이터에 있는 BlueXP 분류의 범주 및 파일 형식을 검토하여 가시성을 확보할 수도 있습니다.</block>
+  <block id="3b08fbca8f3b3deaf466cedfd425cfc6" category="section-title">2024년 7월 1일 (버전 1.33)</block>
+  <block id="b9620e9aadf9827ac9bb29001772b3f0" category="paragraph">이 릴리스에는 다음 업데이트가 포함됩니다.</block>
+  <block id="d61892207457d808cffbfc18b9dcd8ad" category="section-title">Ubuntu 지원</block>
+  <block id="0db04e76c6afbdb79f128758ee937013" category="paragraph">이 릴리스는 Ubuntu 24.04 Linux 플랫폼을 지원합니다.</block>
+  <block id="b83927d03444ee961e834ea1c3b0581b" category="section-title">매핑 검사는 메타데이터를 수집합니다</block>
+  <block id="6c7aa72b096dc637dbeefccf15ca45f8" category="paragraph">다음 메타데이터는 매핑 검사 중에 파일에서 추출되며 거버넌스, 규정 준수 및 조사 대시보드에 표시됩니다.</block>
+  <block id="240625d3ff2ba7b1a3949f7ddfb468d3" category="section-title">대시보드의 추가 데이터</block>
+  <block id="43ac3190fe70b3bdb1f5d5b7083f374a" category="paragraph">이 릴리스는 매핑 검사 중에 거버넌스, 규정 준수 및 조사 대시보드에 표시되는 데이터를 업데이트합니다.</block>
+  <block id="9b28a6e87457a6a3bfb03009dcd0b84a" category="inline-link">매핑 스캔과 분류 스캔의 차이점은 무엇입니까</block>
+  <block id="c7fb92ca31125e81e2a4f2982bc6a806" category="paragraph">자세한 내용은 을 참조하십시오<block ref="4062fc8e6e6df1b01a1de644d8a7eeca" category="inline-link-rx"></block></block>
 </blocks>
