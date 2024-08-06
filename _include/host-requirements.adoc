@@ -51,8 +51,8 @@
 ** 다음 운영 체제에서는 Docker 컨테이너 엔진을 사용해야 합니다.
 +
 *** Red Hat Enterprise Linux 버전 7.8 및 7.9
-*** CentOS 버전 7.8 및 7.9
 *** Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)
+*** Ubuntu 24.04(BlueXP 분류 버전 1.23 이상 필요)
 
 
 ** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.30 이상이 필요합니다.

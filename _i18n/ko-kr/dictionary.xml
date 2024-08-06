@@ -2919,7 +2919,6 @@
   <block id="ba66ea25533ed21d178a828c4ca4e652" category="list-text">BlueXP 분류 BYOL 라이센스가 다크 사이트에서 작동하도록 하려면 포트 6000이 필요합니다.</block>
   <block id="1f883a560be0732076f2237a57c5195f" category="list-text">BlueXP에서 설치 진행률을 확인할 수 있도록 포트 8080이 열려 있어야 합니다.</block>
   <block id="3834cda66b40129353aaded5673c3634" category="list-text">Red Hat Enterprise Linux 버전 7.8 및 7.9</block>
-  <block id="05b80f267d8929f809fe86d91268bc94" category="list-text">CentOS 버전 7.8 및 7.9</block>
   <block id="875fbf0a91ad95e1c95e1ac6fd492bc2" category="paragraph">보고서는 두 가지 형식으로 제공됩니다.</block>
   <block id="238112e6876034d2f424b96b637afe8a" category="list-text">로컬 컴퓨터에 저장할 수 있는 .csv 파일</block>
   <block id="604cde1447e130e4655296bd7bafa56a" category="paragraph">이 보고서에는 최대 10,000개의 데이터 행이 포함될 수 있습니다.</block>
@@ -3496,7 +3495,6 @@
   <block id="70f05bdab0f283eaffba98f53fceb776" category="paragraph">CIFS 볼륨/파일 공유의 경우, BlueXP 분류 검사에서 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 쓰기 속성 권한이 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="bf353be94d6ba74709e3d127af6ba1a6" category="paragraph">다음 질문은 BlueXP 분류를 사용하기 위한 라이센스 및 비용과 관련됩니다.</block>
   <block id="b660413c1fbf79ce31a119db078401fe" category="paragraph">이 릴리스에는 다음 업데이트가 포함되어 있습니다.</block>
-  <block id="ee817e39b08fa171d62efb8f7b4143b2" category="admonition">BlueXP 분류 핵심 버전에서는 Active Directory와의 통합이 지원되지 않습니다.</block>
   <block id="14aa1b744a832a1cebfb9dd4d34b809d" category="paragraph">BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="29c5c6557943f5249ffe666c6e468ce9" category="inline-link-rx"></block> 및 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>.</block>
   <block id="8a39158958544ff49d3dc95bad3f3a82" category="list-text">BlueXP Connector 소프트웨어를 최신 버전으로 업그레이드하는 것이 좋습니다.<block ref="4abf459c8cfa6d4ca98cecc130eefa9a" category="inline-link-rx"></block>.</block>
   <block id="914179b3d4545ce8b8e8ba122c53f4d9" category="list-text">사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 이러한 시스템 크기 중에서 선택할 수 있습니다.</block>
@@ -3542,4 +3540,11 @@
   <block id="9b28a6e87457a6a3bfb03009dcd0b84a" category="inline-link">매핑 스캔과 분류 스캔의 차이점은 무엇입니까</block>
   <block id="c7fb92ca31125e81e2a4f2982bc6a806" category="paragraph">자세한 내용은 을 참조하십시오<block ref="4062fc8e6e6df1b01a1de644d8a7eeca" category="inline-link-rx"></block></block>
   <block id="1e61042bc6437e79f5a1cc09c86acd1a" category="list-text">Podman 버전 4 이상 Podman을 <block ref="9305f04686d4e3dadce4d1e9e77d9d71" prefix="(" category="inline-code"></block>설치하려면)를 입력합니다.</block>
+  <block id="70e7e6a41e0598a3902dbaf5ca936aa0" category="list-text">Ubuntu 24.04(BlueXP 분류 버전 1.23 이상 필요)</block>
+  <block id="e1de422d9b50a40fe1300cc8736bc7f0" category="section-title">2024년 8월 5일(버전 1.34)</block>
+  <block id="70d1ac1a529ac546d3e60b81ee464a1d" category="paragraph">이 BlueXP  분류 릴리스에는 다음 업데이트가 포함됩니다.</block>
+  <block id="44a73383773bebac3194e73bd06397a8" category="section-title">CentOS에서 Ubuntu로 변경합니다</block>
+  <block id="6a1611bc2c4a6c8c16154f81c0323dc2" category="paragraph">BlueXP  분류는 Microsoft Azure 및 Google Cloud Platform (GCP)용 Linux 운영 체제를 CentOS 7.9에서 Ubuntu 22.04로 업데이트했습니다.</block>
+  <block id="d70ebaa1f93a5c2b07653dd485593661" category="inline-link">인터넷에 액세스할 수 있는 Linux 호스트에 설치하고 Linux 호스트 시스템을 준비합니다</block>
+  <block id="e6b6c1b590b016ecf7556d1571a4309e" category="paragraph">배포 세부 정보는 을<block ref="ba79134a77255d2e97755d6f7b772847" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>

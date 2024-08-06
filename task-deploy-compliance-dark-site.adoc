@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-dark-site.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade, private mode, docker, podman, bluexp classification, classification, install, cloud data sense, cds, linux host 
+keywords: cloud compliance, bluexp, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, linux, ubuntu, compliance, on-premises, dark site, upgrade, private mode, docker, podman, rhel, bluexp classification, classification, install, cloud data sense, cds, linux host 
 summary: '"비공개 모드"라고도 하는 인터넷 액세스가 없는 사내 사이트의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 가지 단계를 완료하십시오. 이러한 유형의 설치는 보안 사이트에 적합합니다.' 
 ---
 = 인터넷에 액세스할 수 없는 Linux 호스트에 BlueXP 분류를 설치합니다
@@ -130,8 +130,8 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 ** 다음 운영 체제에서는 Docker 컨테이너 엔진을 사용해야 합니다.
 +
 *** Red Hat Enterprise Linux 버전 7.8 및 7.9
-*** CentOS 버전 7.8 및 7.9
 *** Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)
+*** Ubuntu 24.04(BlueXP 분류 버전 1.23 이상 필요)
 
 
 ** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.30 이상이 필요합니다.
