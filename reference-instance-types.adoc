@@ -16,7 +16,7 @@ summary: 'BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, R
 [role="lead"]
 BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 소프트웨어 요구 사항 등을 충족하는 호스트에서 실행해야 합니다. 클라우드에 BlueXP 분류를 배포할 때는 모든 기능을 위해 "큰" 특성을 가진 시스템을 사용하는 것이 좋습니다.
 
-CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지만 이러한 덜 강력한 시스템을 사용할 때는 몇 가지 제약이 있습니다. link:concept-cloud-compliance.html#using-a-smaller-instance-type["이러한 제한 사항에 대해 자세히 알아보십시오"^].
+CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지만 이러한 덜 강력한 시스템을 사용할 때는 몇 가지 제약이 있습니다. link:concept-cloud-compliance.html["이러한 제한 사항에 대해 자세히 알아보십시오"^]..
 
 다음 표에서 "기본값"으로 표시된 시스템을 BlueXP 분류를 설치하는 지역에서 사용할 수 없는 경우 표의 다음 시스템이 배포됩니다.
 

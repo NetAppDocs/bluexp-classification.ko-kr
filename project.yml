@@ -39,16 +39,18 @@ sidebar:
         url: "/task-test-linux-system.html"
     - title: 데이터 소스에서 스캔을 활성화합니다
       entries:
-      - title: Cloud Volumes ONTAP와 온프레미스 ONTAP
-        url: "/task-getting-started-compliance.html"
       - title: Azure NetApp Files
         url: "/task-scanning-anf.html"
       - title: ONTAP용 Amazon FSx
         url: "/task-scanning-fsx.html"
+      - title: Cloud Volumes ONTAP와 온프레미스 ONTAP
+        url: "/task-getting-started-compliance.html"
       - title: 데이터베이스 스키마
         url: "/task-scanning-databases.html"
       - title: 파일 공유
         url: "/task-scanning-file-shares.html"
+      - title: StorageGRID
+        url: "/task-scanning-storagegrid.html"
     - title: Active Directory 통합
       url: "/task-add-active-directory-datasense.html"
     - title: FAQ 를 참조하십시오

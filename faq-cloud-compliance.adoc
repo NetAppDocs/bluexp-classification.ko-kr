@@ -373,8 +373,6 @@ BlueXP를 사용하면 온프레미스, 클라우드 및 하이브리드 환경�
 * GCP에서 BlueXP 분류는 500GiB 표준 영구 디스크를 사용하는 n2-standard-16 VM에서 실행됩니다.
 
 
-CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지만 이러한 시스템을 사용할 때는 한계가 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
-
 link:concept-cloud-compliance.html["BlueXP 분류의 작동 방식에 대해 자세히 알아보십시오"^].
 
 

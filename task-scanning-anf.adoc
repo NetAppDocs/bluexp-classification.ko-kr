@@ -4,7 +4,7 @@ permalink: task-scanning-anf.html
 keywords: cloud compliance, get started, enable cloud compliance, cloud compliance access, privacy, compliance, ANF, azure netApp files, data sense 
 summary: Azure NetApp Files용 BlueXP 분류를 시작하려면 몇 가지 단계를 완료하십시오. 
 ---
-= Azure NetApp Files에 대한 BlueXP 분류 시작
+= Azure NetApp Files에 대한 BlueXP  분류를 시작하십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -59,7 +59,7 @@ Compliance * > * Configuration * > * Edit CIFS Credentials * 를 클릭하고 �
 
 
 
-== 스캔할 Azure NetApp Files 시스템 검색
+== 스캔할 Azure NetApp Files 시스템을 검색합니다
 
 검사할 Azure NetApp Files 시스템이 BlueXP에 작업 환경으로 포함되어 있지 않은 경우 이 때 캔버스에 추가할 수 있습니다.
 
@@ -67,7 +67,7 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["B
 
 
 
-== BlueXP 분류 인스턴스 배포
+== BlueXP 분류 인스턴스를 배포합니다
 
 link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
 
@@ -79,7 +79,7 @@ BlueXP 분류는 Azure NetApp Files 볼륨을 스캔할 때 클라우드에 배�
 
 
 
-== 작업 환경에서 BlueXP 분류 활성화
+== 작업 환경에서 BlueXP  분류를 활성화합니다
 
 Azure NetApp Files 볼륨에서 BlueXP 분류를 활성화할 수 있습니다.
 
@@ -93,7 +93,7 @@ image:screenshot_cloud_compliance_anf_scan_config.png["BlueXP 분류 인스턴�
 ** 모든 볼륨을 매핑하고 분류하려면 * 모든 볼륨 매핑 및 분류 * 를 클릭합니다.
 ** 각 볼륨에 대한 스캔을 사용자 정의하려면 * 를 클릭하거나 각 볼륨에 대한 스캐닝 유형을 선택한 다음 매핑 및/또는 분류할 볼륨을 선택합니다.
 +
-을 참조하십시오 <<볼륨에서 규정 준수 검사 활성화 및 비활성화,볼륨에서 규정 준수 검사 활성화 및 비활성화>> 를 참조하십시오.
+자세한 내용은 을 <<볼륨에 대해 규정 준수 검사를 활성화 및 비활성화합니다,볼륨에 대해 규정 준수 검사를 활성화 및 비활성화합니다>> 참조하십시오.
 
 
 
@@ -112,7 +112,7 @@ BlueXP 분류는 작업 환경에서 선택한 볼륨을 스캔하기 시작합�
 ====
 
 
-== BlueXP 분류에서 볼륨에 액세스할 수 있는지 확인합니다
+== BlueXP  분류에서 볼륨에 대한 액세스 권한이 있는지 확인합니다
 
 네트워킹, 보안 그룹 및 내보내기 정책을 확인하여 BlueXP 분류가 볼륨에 액세스할 수 있는지 확인합니다. CIFS 볼륨에 액세스할 수 있도록 BlueXP 분류에 CIFS 자격 증명을 제공해야 합니다.
 
@@ -161,7 +161,7 @@ image:screenshot_compliance_volume_details.gif["스캔 구성에서 4개의 볼�
 
 
 
-== 볼륨에서 규정 준수 검사 활성화 및 비활성화
+== 볼륨에 대해 규정 준수 검사를 활성화 및 비활성화합니다
 
 구성 페이지에서 언제든지 작업 환경에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 시작하거나 중지할 수 있습니다. 매핑 전용 스캔에서 매핑 및 분류 스캔으로, 또는 그 반대로 변경할 수도 있습니다. 모든 볼륨을 검사하는 것이 좋습니다.
 

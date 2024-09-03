@@ -173,8 +173,6 @@ vCPU 제한에 대한 자세한 내용은 다음 링크를 참조하십시오.
 * https://cloud.google.com/compute/quotas["Google Cloud 설명서: 리소스 할당량"^]
 
 
-참고로, AWS 클라우드 환경에서는 CPU가 적고 RAM이 적은 인스턴스에 BlueXP 분류를 배포할 수 있지만 이러한 시스템을 사용할 때는 한계가 있습니다. 을 참조하십시오 link:concept-cloud-compliance.html#using-a-smaller-instance-type["더 작은 인스턴스 유형 사용"] 를 참조하십시오.
-
 --
 
 
