@@ -1,7 +1,7 @@
 ---
-sidebar: sidebariance, privacy, compliance, object storage, data sense 
+sidebar: sidebar 
 permalink: task-scanning-storagegrid.html 
-keywords: cloud compliance, enable cloud compl 
+keywords: cloud compliance, enable cloud compliance, privacy, compliance, object storage, data sense 
 summary: 몇 가지 단계를 완료하여 StorageGRID 내에서 BlueXP  분류로 직접 데이터 스캔을 시작합니다. 
 ---
 = StorageGRID 데이터 검사를 시작합니다
