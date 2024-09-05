@@ -22,9 +22,9 @@ summary: 몇 가지 단계를 완료하여 StorageGRID 내에서 BlueXP  분류
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 오브젝트 스토리지의 사전 요구 사항을 검토합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] StorageGRID 사전 요구 사항을 검토하십시오
 [role="quick-margin-para"]
-객체 스토리지 서비스에 연결하려면 엔드포인트 URL이 있어야 합니다.
+StorageGRID 서비스에 연결하려면 끝점 URL이 있어야 합니다.
 
 [role="quick-margin-para"]
 BlueXP  분류가 버킷에 액세스할 수 있도록 StorageGRID의 액세스 키 및 비밀 키가 있어야 합니다.
@@ -33,7 +33,7 @@ BlueXP  분류가 버킷에 액세스할 수 있도록 StorageGRID의 액세스
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 오브젝트 스토리지 서비스를 추가합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] StorageGRID 서비스를 추가합니다
 [role="quick-margin-para"]
 StorageGRID 서비스를 BlueXP  분류에 추가합니다.
 
@@ -70,17 +70,17 @@ BlueXP  분류 소프트웨어로의 업그레이드는 인스턴스가 인터�
 StorageGRID 서비스를 추가합니다.
 
 .단계
-. 작업 환경 구성 페이지에서 * 데이터 소스 추가 * > * 개체 스토리지 서비스 추가 * 를 클릭합니다.
+. 작업 환경 구성 페이지에서 * 데이터 소스 추가 * > * StorageGRID 추가 * 를 클릭합니다.
 +
-image:screenshot_compliance_add_object_storage_button.png["파일 공유 그룹 추가 버튼을 클릭할 수 있는 스캔 구성 페이지의 스크린 샷"]
+image:screenshot-scanning-add-storagegrid.png["StorageGRID 추가 버튼을 클릭할 수 있는 스캔 구성 페이지의 스크린샷."]
 
-. 오브젝트 스토리지 서비스 추가 대화 상자에서 StorageGRID 서비스에 대한 세부 정보를 입력하고 * 계속 * 을 클릭합니다.
+. StorageGRID 서비스 추가 대화 상자에서 StorageGRID 서비스에 대한 세부 정보를 입력하고 * 계속 * 을 클릭합니다.
 +
 .. 작업 환경에 사용할 이름을 입력합니다. 이 이름은 연결할 StorageGRID 서비스의 이름을 반영해야 합니다.
 .. 객체 스토리지 서비스에 액세스하려면 엔드포인트 URL을 입력하십시오.
 .. BlueXP  분류가 StorageGRID의 버킷에 액세스할 수 있도록 액세스 키 및 비밀 키를 입력합니다.
 +
-image:screenshot_compliance_add_object_storage.png["오브젝트 스토리지 서비스에 액세스하기 위한 값을 입력하는 대화 상자의 스크린 샷"]
+image:screenshot-scanning-storagegrid-add.png["StorageGRID 서비스에 액세스하기 위한 값을 입력하는 대화 상자 스크린샷"]
 
 
 
@@ -98,11 +98,11 @@ StorageGRID에서 BlueXP  분류를 활성화한 후 다음 단계는 스캔할
 .단계
 . 구성 페이지에서 StorageGRID 작업 환경에서 * 구성 * 을 클릭합니다.
 +
-image:screenshot_compliance_object_storage_config.png["스캔할 버킷을 선택할 수 있도록 작업 환경에 대한 구성을 클릭하는 스크린샷."]
+image:screenshot-scanning-storagegrid-configuration.png["스캔할 버킷을 선택할 수 있도록 작업 환경에 대한 구성을 클릭하는 스크린샷."]
 
 . 버킷에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 활성화합니다.
 +
-image:screenshot_compliance_object_storage_select_buckets.png["스캔할 오브젝트 스토리지 버킷 선택 스크린샷"]
+image:screenshot-scanning-add-storagegrid-buckets.png["스캔할 StorageGRID 버킷을 선택하는 스크린샷"]
 
 +
 [cols="45,45"]

@@ -182,7 +182,7 @@ vCPU 제한에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
 다음 단계에 따라 클라우드에 BlueXP 분류 인스턴스를 배포합니다. Connector는 클라우드에 인스턴스를 배포한 다음 해당 인스턴스에 BlueXP 분류 소프트웨어를 설치합니다.
 
-AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 기본 인스턴스 크기를 선택하거나 두 개의 작은 인스턴스 유형 중에서 선택할 수 있습니다. link:concept-cloud-compliance.html#using-a-smaller-instance-type["사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오"]. 기본 인스턴스 유형을 사용할 수 없는 지역에서는 BlueXP 분류가 에서 실행됩니다 link:reference-instance-types.html["대체 인스턴스 유형"].
+기본 인스턴스 유형을 사용할 수 없는 지역에서는 BlueXP  분류가 에서 link:reference-instance-types.html["대체 인스턴스 유형"]실행됩니다.
 
 [role="tabbed-block"]
 ====
