@@ -33,7 +33,7 @@ BlueXP 코어 버전에서는 1.31 이상 버전부터 더 이상 사용되지 �
 | 온프레미스 ONTAP 클러스터 | 예 | 예 
 
 
-| StorageGRID | 예 | 아니요 
+| StorageGRID | 예 | 예 
 
 
 | Azure NetApp Files | 예 | 예 

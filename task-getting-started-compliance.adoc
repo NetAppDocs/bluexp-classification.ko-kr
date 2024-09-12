@@ -4,7 +4,7 @@ permalink: task-getting-started-compliance.html
 keywords: cloud compliance, get started, enable cloud compliance, cifs credentials, smb credentials, cloud compliance access, privacy, compliance, dp volumes, data protection volumes, CVO, Cloud Volumes ONTAP, data sense 
 summary: BlueXP 분류를 사용하여 Cloud Volumes ONTAP 및 온-프레미스 ONTAP 볼륨을 스캔하려면 몇 단계를 완료하십시오. 
 ---
-= Cloud Volumes ONTAP 및 온프레미스 ONTAP에 대한 BlueXP  분류를 시작하십시오
+= BlueXP  분류로 Cloud Volumes ONTAP 및 온프레미스 ONTAP 볼륨을 스캔합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
