@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-licensing-byol-freetrial.html 
 keywords: subscribe, trial, marketplace, subscription, byol, bring your own license, data sense, cloud data sense 
-summary: BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다. 
+summary: BlueXP  프로젝트 또는 작업 공간에서 BlueXP  분류가 스캔하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다. 
 ---
 = 무료 평가판을 설정하거나 BlueXP 분류에 대한 자체 라이센스를 가져옵니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 첫 1TB
 
 
 [role="lead"]
-1.30 이전 버전의 경우 BlueXP 작업 공간에서 BlueXP 분류 스캔을 수행하는 첫 번째 1TB의 데이터를 30일간 무료로 사용할 수 있습니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다.
+1.30 이하 버전의 경우 BlueXP  프로젝트 또는 작업 공간에서 BlueXP  분류가 스캔하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다.
 
 []
 ====
@@ -23,7 +23,7 @@ summary: BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 첫 1TB
 ====
 추가 내용을 읽기 전에 몇 가지 참고 사항을 확인하십시오.
 
-* BlueXP 분류(데이터 감지) BYOL(Bring-Your-Own-License)은 작업 공간의 모든 작업 환경과 데이터 소스에서 스캔할 수 있는 _floating_license입니다. BlueXP 디지털 지갑에 활성 구독이 표시됩니다.
+* BYOL(BlueXP  분류) BYOL(Bring-Your-Own-License)은 스캔하려는 BlueXP  프로젝트 또는 작업 공간의 모든 작업 환경과 데이터 소스에서 사용할 수 있는 _floating_license입니다. BlueXP 디지털 지갑에 활성 구독이 표시됩니다.
 * 스캔되는 데이터의 양은 스토리지 효율성 없이 논리적 파일 크기를 기준으로 계산됩니다.
 
 
@@ -33,7 +33,7 @@ link:concept-cloud-compliance.html#cost["BlueXP 분류와 관련된 라이센스
 
 == 30일 무료 평가판
 
-BlueXP 작업 공간에서 BlueXP 분류 검사를 수행하는 최대 1TB의 데이터에 대해 30일 무료 평가판을 사용할 수 있습니다. 이후 데이터 검색을 계속하려면 NetApp에서 BYOL 라이센스를 구입하거나 클라우드 공급자의 마켓플레이스에서 구독을 신청해야 합니다.
+30일 무료 평가판은 BlueXP  프로젝트 또는 작업 공간에서 BlueXP  분류가 스캔하는 최대 1TB의 데이터에 대해 사용할 수 있습니다. 이후 데이터 검색을 계속하려면 NetApp에서 BYOL 라이센스를 구입하거나 클라우드 공급자의 마켓플레이스에서 구독을 신청해야 합니다.
 
 언제든지 구독할 수 있으며 30일 평가판이 종료되거나 데이터 양이 1TB를 초과할 때까지 요금이 청구되지 않습니다. BlueXP 분류 거버넌스 대시보드에서 스캔되는 데이터의 총 양을 항상 확인할 수 있습니다. 지금 가입(_Subscribe Now_) 단추를 사용하면 준비가 되면 쉽게 가입할 수 있습니다.
 
