@@ -136,15 +136,7 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 
 ** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.30 이상이 필요합니다.
 +
-*** Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2 및 9.3
-+
-RHEL 8.x 및 RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.
-
-+
-**** 어두운 장소에 설치
-**** 분산 스캔, 마스터 스캐너 노드 및 원격 스캐너 노드 사용
-
-
+*** Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2, 9.3, 9.4
 
 
 
@@ -155,9 +147,6 @@ RHEL 8.x 및 RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되�
 ** 사용 중인 OS에 따라 컨테이너 엔진 중 하나를 설치해야 합니다.
 +
 *** Docker Engine 버전 19.3.1 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
-+
-https://youtu.be/Ogoufel1q6c["이 비디오 시청"^] CentOS에 Docker를 설치하는 빠른 데모를 보려면
-
 *** Podman 버전 4 이상 Podman을 (`sudo yum install podman netavark -y`설치하려면)를 입력합니다.
 
 

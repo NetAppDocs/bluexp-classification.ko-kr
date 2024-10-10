@@ -2353,8 +2353,6 @@
   <block id="5224a506004fee451317bef2d8675e7e" category="inline-image-macro">클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 BlueXP 분류 인스턴스를 보여 주는 다이어그램입니다.</block>
   <block id="fd1e8dbd30ef938d68f6110d8e753a9e" category="paragraph"><block ref="fd1e8dbd30ef938d68f6110d8e753a9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8efedf0156c990ce376aed3b9694842" category="list-text">AWS에서 BlueXP 분류는 에서 실행됩니다<block ref="8b5561a11e73285eb1f0d9f437aa0677" category="inline-link-rx"></block> 500GiB GP2 디스크 사용. 운영 체제 이미지는 Amazon Linux 2입니다. AWS에 구축할 경우 소량의 데이터를 스캔할 경우 더 작은 인스턴스 크기를 선택할 수 있습니다.</block>
-  <block id="5be3f656bf8d3ebc226f24be2f937262" category="list-text">Azure에서 BlueXP 분류는 에서 실행됩니다 <block ref="258fa0e906df18ccf945022280cc0721" category="inline-link-macro-rx"></block> 500GiB 디스크 사용 운영 체제 이미지는 CentOS 7.9입니다.</block>
-  <block id="3efce2eadb0031e842d4fbb423c4b11b" category="list-text">GCP에서 BlueXP 분류는 에서 실행됩니다 <block ref="f47e4641d38801bee7cf28563a438093" category="inline-link-macro-rx"></block> 500GiB 표준 영구 디스크 사용 운영 체제 이미지는 CentOS 7.9입니다.</block>
   <block id="555b1e52bb127041158dea54f3685aaf" category="list-text">기본 인스턴스를 사용할 수 없는 지역에서는 대체 인스턴스에서 BlueXP 분류가 실행됩니다. <block ref="e3d4e40a766f2ed64294b1dd26c6e095" category="inline-link-macro-rx"></block>.</block>
   <block id="d05dbd72313077420069ae49fe175de1" category="list-text">Connector당 하나의 BlueXP 분류 인스턴스만 배포됩니다.</block>
   <block id="b9542475929b3c8ff209e88bb948446b" category="paragraph">BlueXP 분류를 사내 Linux 호스트 또는 선호하는 클라우드 공급업체의 호스트에 배포할 수도 있습니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다. 인스턴스에 인터넷 액세스가 가능한 한 BlueXP 분류 소프트웨어의 업그레이드는 자동으로 수행됩니다.</block>
@@ -2492,8 +2490,6 @@
   <block id="f28b62cbbb13ada1264e3712622be29c" category="paragraph">예를 들어, 이 명령은 다음과 같이 3개의 스캐너 노드를 추가합니다.<block ref="1e3d5ab9f2f03870882d89f4a82b2729" prefix=" " category="inline-code"></block></block>
   <block id="441e8ff948470291018a26dd540b6d1d" category="cell">https://github.com/docker \https://download.docker.com 으로 문의하십시오</block>
   <block id="b629edc182d9ce4a079d9f954ad3f9b7" category="cell">Docker 설치를 위한 사전 필수 패키지를 제공합니다.</block>
-  <block id="fa328073ed60b8719f54add213e6f2e6" category="cell">http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm 를 참조하십시오</block>
-  <block id="43881c6dbe21a65cdf42dc01d8cfb295" category="cell">CentOS 설치를 위한 필수 패키지를 제공합니다.</block>
   <block id="3c2ecff14c7a136216f1928a3a8052bf" category="list-text">7단계에서 복사한 명령을 붙여 넣습니다.<block ref="50a00801fc41bbffdcb652318eb14c43" prefix=" " category="inline-code"></block></block>
   <block id="8a7af24665c107d42e27bf9f85872742" category="cell">또는 필요한 호스트 및 프록시 매개 변수를 제공하여 전체 명령을 미리 생성할 수도 있습니다.<block ref="3b4bbf213dadbeb10421530a3d8a245b" prefix=" " category="inline-code"></block></block>
   <block id="79dad5af8e7ba04bd45d58a3d10d4209" category="list-text">_client_id_=커넥터 클라이언트 ID(필수 조건 단계에서 복사한 클라이언트 ID에 접미사 "clients" 추가)</block>
@@ -2700,7 +2696,6 @@
   <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">현재 BlueXP 분류는 인터넷 액세스(비공개 모드)가 없는 사이트와 제한된 아웃바운드 인터넷 액세스(제한 모드)에서 완벽하게 지원됩니다.<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>.</block>
   <block id="8dd6a265487e54146fb2bdfb3e5174a5" category="section-title">BlueXP 분류의 비공개 모드 설치를 업그레이드할 때 버전을 건너뛸 수 있습니다</block>
   <block id="241957d9f6c696915858d43476112454" category="paragraph">이제 순차적이지 않더라도 최신 버전의 BlueXP 분류로 업그레이드할 수 있습니다. 즉, 한 번에 한 버전씩 BlueXP 분류를 업그레이드할 때 현재 제한이 없어진다는 의미입니다. 이 기능은 버전 1.24 이상부터 관련이 있습니다.</block>
-  <block id="15fc1f8a66b3adfefe2541e773678539" category="paragraph"><block ref="2ff31411f6cc987d8090218f1850091e" category="inline-link-rx"></block> CentOS에 Docker를 설치하는 빠른 데모를 보려면</block>
   <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">BlueXP에서 * 도움말 &gt; 지원 * 을 선택합니다.</block>
   <block id="6a1b74969231967ed071d465206b15c7" category="list-text">전화로 통화하려면 * 전화 * 를 선택하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
   <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">NetApp 지원 전문가와 함께 티켓을 열려면 * 케이스 생성 * 을 선택하십시오.</block>
@@ -2802,8 +2797,6 @@
   <block id="b76d53d86b234eb61cbe1f1f8dd81414" category="paragraph">BlueXP 분류에서 스캔 중인 소스 파일을 모든 NFS 공유로 이동할 수 있습니다. NFS 공유를 BlueXP 분류와 통합할 필요가 없습니다.</block>
   <block id="125161c62eedd013601db45d9716edf6" category="paragraph">파일을 이동할 때 소스 파일의 하위 디렉토리 구조가 대상 공유에서 다시 생성되므로 파일이 이동된 위치를 쉽게 파악할 수 있습니다. 대상 위치에 같은 이름의 파일이 있으면 파일이 이동하지 않습니다.</block>
   <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">이를 통해 성공적으로 완료된 작업, 현재 진행 중인 작업 및 실패한 작업을 볼 수 있으므로 문제를 진단하고 해결할 수 있습니다. 단일 파일 이동과 같이 빠르게 완료되는 짧은 작업은 작업 상태 창에 나타나지 않습니다.</block>
-  <block id="1b32bd564a2d99c25093d522b505880d" category="list-text">어두운 장소에 설치</block>
-  <block id="1a81412d076e7b9aa74911a0adfb4688" category="list-text">분산 스캔, 마스터 스캐너 노드 및 원격 스캐너 노드 사용</block>
   <block id="194351f6f6e0cb2f129f2a15d7f6df07" category="list-text">시스템에 2개의 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)가 설치되어 있는지 확인합니다.</block>
   <block id="70982664d9f01c2eb3895d455947c83d" category="list-text">시스템에 두 가지 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)가 설치되어 있는지 확인합니다.</block>
   <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스와 관련된 기술 지원을 받으려면 지원을 등록해야 합니다. Cloud Volumes ONTAP 시스템의 주요 워크플로우를 사용하려면 지원 등록도 필요합니다.</block>
@@ -3083,8 +3076,6 @@
   <block id="f943db85a7c2edd799890ddb18f29cab" category="doc">인터넷에 액세스할 수 없는 Linux 호스트에 BlueXP 분류를 설치합니다</block>
   <block id="e920147793c6514a998387c74226605b" category="paragraph">인터넷에 액세스할 수 없는 온프레미스 사이트의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 단계를 완료하십시오. _ private mode _ 라고도 합니다. 이러한 유형의 설치는 보안 사이트에 적합합니다.</block>
   <block id="8e75bb9e135d127903c8df1b4d72574d" category="list-text">다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.30 이상이 필요합니다.</block>
-  <block id="17809026adc94f6c0d618b91e6379bec" category="list-text">Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2 및 9.3</block>
-  <block id="57da374715d9745b4dd1b2494e49b1c4" category="paragraph">RHEL 8.x 및 RHEL 9.x를 사용하는 경우 다음 기능은 현재 지원되지 않습니다.</block>
   <block id="bf9330c0401cb1794286325e86e14bc1" category="paragraph">BlueXP 분류는 NFS 버전 3.x와 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.</block>
   <block id="8da041e8fe3c0d961b0ec560416bc9a4" category="section-title">BlueXP 분류를 수행하려면 자격 증명에 액세스해야 합니까?</block>
   <block id="e54c52f3a3c545fc2e2f82026ac5945f" category="paragraph">BlueXP 분류 자체는 스토리지 자격 증명을 검색하지 않습니다. BlueXP Connector에 저장됩니다.</block>
@@ -3548,4 +3539,14 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAP에서 다음과 같은 주요 워크플로우를 사용하려면 NetApp 지원 사이트 자격 증명을 BlueXP  조직과 연결해야 합니다.</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSS 자격 증명을 BlueXP  조직과 연결하는 것은 BlueXP  사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP  조직 ID와 연결됩니다. BlueXP  조직에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="c5910ee83de42fbe3194b03bc2ba3298" category="list-text">Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2, 9.3, 9.4</block>
+  <block id="4f34a80e3e6d8f9cd074e18c890d4c92" category="list-text">Azure의 경우 BlueXP  분류가 500GiB 디스크를 사용하는 에서 <block ref="258fa0e906df18ccf945022280cc0721" category="inline-link-macro-rx"></block>실행됩니다. 운영 체제 이미지는 Ubuntu 22.04입니다.</block>
+  <block id="8f378974482a16d17205adf9936c789b" category="list-text">GCP에서 BlueXP  분류는 500GiB 표준 영구 디스크가 있는 에서 <block ref="f47e4641d38801bee7cf28563a438093" category="inline-link-macro-rx"></block>실행됩니다. 운영 체제 이미지는 Ubuntu 22.04입니다.</block>
+  <block id="e75804de09e19a35ad3cd360d45cd0fb" category="section-title">2024년 10월 10일(버전 1.36)</block>
+  <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">이 BlueXP  분류 릴리스에는 다음 업데이트가 포함됩니다.</block>
+  <block id="44b53ed30a4c420b95b8adba575b84a6" category="section-title">RHEL 9.4 지원</block>
+  <block id="409886e91bb1c98ce7537a6ea025aa8e" category="paragraph">이 릴리스는 Red Hat Enterprise Linux v9.4 및 이전에 지원되는 버전을 지원합니다. 이는 다크 사이트 배포를 포함하여 BlueXP  분류의 수동 온-프레미스 설치에 적용됩니다.</block>
+  <block id="a851e95484895c6e743c9be7755facd2" category="paragraph">다음 운영 체제는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP  분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2, 9.3 및 9.4.</block>
+  <block id="7062dd46798946172bc9078744756dfc" category="section-title">향상된 스캔 성능</block>
+  <block id="8455b67ff73ad2f75c922d81e0449780" category="paragraph">이번 릴리스에서는 향상된 스캔 성능을 제공합니다.</block>
 </blocks>

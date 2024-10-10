@@ -129,8 +129,8 @@ image:diagram_cloud_compliance_instance.png["클라우드 공급자에서 실행
 기본 인스턴스에 대한 다음 사항에 유의하십시오.
 
 * AWS에서 BlueXP 분류는 에서 실행됩니다 https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xLarge 인스턴스"^] 500GiB GP2 디스크 사용. 운영 체제 이미지는 Amazon Linux 2입니다. AWS에 구축할 경우 소량의 데이터를 스캔할 경우 더 작은 인스턴스 크기를 선택할 수 있습니다.
-* Azure에서 BlueXP 분류는 에서 실행됩니다 link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3 vm"^] 500GiB 디스크 사용 운영 체제 이미지는 CentOS 7.9입니다.
-* GCP에서 BlueXP 분류는 에서 실행됩니다 link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16 VM"^] 500GiB 표준 영구 디스크 사용 운영 체제 이미지는 CentOS 7.9입니다.
+* Azure의 경우 BlueXP  분류가 500GiB 디스크를 사용하는 에서 link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3 vm"^]실행됩니다. 운영 체제 이미지는 Ubuntu 22.04입니다.
+* GCP에서 BlueXP  분류는 500GiB 표준 영구 디스크가 있는 에서 link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16 VM"^]실행됩니다. 운영 체제 이미지는 Ubuntu 22.04입니다.
 * 기본 인스턴스를 사용할 수 없는 지역에서는 대체 인스턴스에서 BlueXP 분류가 실행됩니다. link:reference-instance-types.html["대체 인스턴스 유형을 참조하십시오"].
 * 인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_
 * Connector당 하나의 BlueXP 분류 인스턴스만 배포됩니다.
