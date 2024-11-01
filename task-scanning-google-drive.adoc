@@ -97,8 +97,7 @@ BlueXP 분류가 사용자 데이터에 대해 수행할 스캔 유형을 선택
 
 .단계
 . Configuration_ 페이지에서 Google Drive 계정의 * Configuration * 버튼을 클릭합니다.
-+
-image:screenshot_compliance_google_drive_add_sites.png["구성 버튼을 선택할 수 있는 구성 페이지의 스크린 샷"]
+
 
 . Google Drive 계정의 파일에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 활성화합니다.
 +

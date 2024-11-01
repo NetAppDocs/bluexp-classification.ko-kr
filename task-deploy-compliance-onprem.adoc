@@ -36,9 +36,6 @@ NOTE: 기존 버전 1.30 이하의 경우 여러 호스트에 BlueXP 분류를 �
 또한 가능합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 사내 사이트에 BlueXP 분류를 설치합니다"] 완전히 안전한 사이트를 위한 것입니다.
 
 
-NOTE: 1.30 이전 버전의 경우 스캐너 노드를 추가하려면 을 참조하십시오 link:task-deploy-add-scanner-nodes.html["기존 배포에 스캐너 노드를 추가합니다"].
-
-
 
 == 빠른 시작
 

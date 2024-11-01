@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, data sense, cloud data sense, bluexp, bluexp classification' 
 summary: BlueXP 분류의 새로운 기능에 대해 알아보십시오. 
 ---
-= BlueXP 분류의 새로운 기능
+= BlueXP  분류의 새로운 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,17 +14,49 @@ summary: BlueXP 분류의 새로운 기능에 대해 알아보십시오.
 
 
 [role="lead"]
-BlueXP 분류의 새로운 기능 (Cloud Data Sense)을 알아봅니다.
+BlueXP 분류의 새로운 기능에 대해 알아보십시오.
 
 
 
-== 2024년 10월 10일(버전 1.36)
+== 2024년 11월 4일
+
+
+
+=== 버전 1.37
 
 이 BlueXP  분류 릴리스에는 다음 업데이트가 포함됩니다.
 
 
 
-=== RHEL 9.4 지원
+==== RHEL 8.10 지원
+
+이 릴리스는 Red Hat Enterprise Linux v8.10 및 이전에 지원되는 버전을 지원합니다. 이는 다크 사이트 배포를 포함하여 BlueXP  분류의 수동 온-프레미스 설치에 적용됩니다.
+
+다음 운영 체제는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP  분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 8.10, 9.0, 9.1, 9.2, 9.3 및 9.4.
+
+에 대해 자세히 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류"]알아보십시오.
+
+
+
+==== NFS v4.1 지원
+
+이 릴리즈에서는 이전에 지원된 버전 외에 NFS v4.1에 대한 지원도 제공합니다.
+
+에 대해 자세히 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류"]알아보십시오.
+
+
+
+== 2024년 10월 10일
+
+
+
+=== 버전 1.36
+
+이 BlueXP  분류 릴리스에는 다음 업데이트가 포함됩니다.
+
+
+
+==== RHEL 9.4 지원
 
 이 릴리스는 Red Hat Enterprise Linux v9.4 및 이전에 지원되는 버전을 지원합니다. 이는 다크 사이트 배포를 포함하여 BlueXP  분류의 수동 온-프레미스 설치에 적용됩니다.
 
@@ -34,23 +66,27 @@ BlueXP 분류의 새로운 기능 (Cloud Data Sense)을 알아봅니다.
 
 
 
-=== 향상된 스캔 성능
+==== 향상된 스캔 성능
 
 이번 릴리스에서는 향상된 스캔 성능을 제공합니다.
 
 
 
-== 2024년 9월 2일(버전 1.35)
+== 2024년 9월 2일
+
+
+
+=== 버전 1.35
 
 이 BlueXP  분류 릴리스에는 다음 업데이트가 포함됩니다.
 
 
 
-=== StorageGRID 데이터를 스캔합니다
+==== StorageGRID 데이터를 스캔합니다
 
 이제 BlueXP  분류를 통해 StorageGRID에서 데이터를 스캔할 수 있습니다.
 
-자세한 내용은 을 link:task-scanning-storagegrid.html["StorageGRID 데이터를 스캔합니다"]참조하십시오.
+자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-classification/task-scanning-storagegrid.html["StorageGRID 데이터를 스캔합니다"]참조하십시오.
 
 
 
@@ -331,7 +367,7 @@ BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작
 
 === 이제 Data Sense BYOL 라이센스가 다크 사이트에서 지원됩니다
 
-이제 데이터 감지 BYOL 라이센스를 어두운 사이트의 BlueXP 디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html#obtain-your-bluexp-classification-license-file["Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오"].
+이제 데이터 감지 BYOL 라이센스를 어두운 사이트의 BlueXP 디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다.
 
 
 

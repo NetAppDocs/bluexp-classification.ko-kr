@@ -226,7 +226,7 @@ image:screenshot_compliance_dp_cifs_volumes.png["CIFS 데이터 보호 볼륨을
 
 
 
-. 스캔할 각 DP 볼륨을 활성화합니다 <<볼륨에서 규정 준수 검사 활성화 및 비활성화,다른 볼륨을 활성화해도 마찬가지입니다>>.
+. 스캔할 각 DP 볼륨을 활성화합니다.
 
 
 .결과

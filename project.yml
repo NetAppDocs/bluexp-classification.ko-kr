@@ -10,7 +10,7 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   rss_page: whats-new.html
-  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: BlueXP 분류 문서
@@ -89,8 +89,6 @@ sidebar:
       entries:
       - title: 인터넷에 액세스할 수 없는 여러 호스트에 BlueXP 분류를 설치합니다
         url: "/task-deploy-multi-host-install-dark-site.html"
-      - title: 기존 배포에 스캐너 노드를 추가합니다
-        url: "/task-deploy-add-scanner-nodes.html"
     - title: 스캔 데이터 사용 중단
       entries:
       - title: Amazon S3 버킷을 스캔합니다
