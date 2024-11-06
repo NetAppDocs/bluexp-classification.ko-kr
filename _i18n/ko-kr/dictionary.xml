@@ -1470,7 +1470,6 @@
   <block id="688de20ddbb7b2207a9c3999989be28b" category="cell">이메일 주소 - 높은 위험</block>
   <block id="d55a6a9af72cb1355db97941acafb865" category="cell">개인 데이터 - 높은 위험</block>
   <block id="39dcf805c803eacb6e35a6ea5e8cb25d" category="cell">민감한 개인 데이터 - 높은 위험</block>
-  <block id="91edc807a7157b7f0159521433ea5b0f" category="section-title">2023년 1월 9일(버전 1.19)</block>
   <block id="738f7059231d5fe5c1e22879f52682fd" category="section-title">데이터 조사 페이지에서 3개의 새 필터를 사용할 수 있습니다</block>
   <block id="a05ecd168005e0205e52b540a66b4208" category="paragraph">새 필터를 사용하여 데이터 조사 페이지에 표시되는 결과를 구체화할 수 있습니다.</block>
   <block id="d40d8569fcb40c761c8217de218391ba" category="list-text">"액세스 권한이 있는 사용자 수" 필터는 특정 수의 사용자에게 열려 있는 파일과 폴더를 표시합니다. 숫자 범위를 선택하여 결과를 구체화할 수 있습니다. 예를 들어 51-100명의 사용자가 액세스할 수 있는 파일을 확인할 수 있습니다.</block>
@@ -1538,7 +1537,6 @@
   <block id="ba3a038a97b620898e33b9e09db66632" category="paragraph"><block ref="ba3a038a97b620898e33b9e09db66632" category="inline-image-macro-rx" type="image"></block></block>
   <block id="49bb7289b8abc33c271f634fc8149b1e" category="list-text">한 번에 최대 1500만 개의 파일을 이동할 수 있습니다.</block>
   <block id="a09a5c1c3cb0d27dbac4cfa3c73c0ec8" category="list-text">클라우드 배포 마법사를 시작하려면 * 배포 * 를 클릭합니다.</block>
-  <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023년 2월 5일(버전 1.20)</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">모든 이메일 주소로 정책 기반 알림 이메일을 보낼 수 있습니다</block>
   <block id="01111213f34b03537871696a29c018fa" category="inline-link">정책 결과를 기반으로 이메일 알림을 보내는 방법에 대해 자세히 알아보십시오</block>
   <block id="e25a297a27416e76c1a8e01af56d07ed" category="section-title">SharePoint Online 파일에 액세스할 수 있는 사용자 수를 볼 수 있습니다</block>
@@ -1666,7 +1664,6 @@
   <block id="42942f3489af451c9c0c8a2e6cc0b756" category="cell">스캔 분석 이벤트</block>
   <block id="0f609c3035a725a4b4c05c34c154b6a8" category="inline-link-macro">"마지막 액세스 시간" 타임스탬프에 대한 세부 정보를 봅니다</block>
   <block id="cdbe480dc11409647fd956762112b463" category="paragraph"><block ref="cb955744923a641be9b94cbcd31ea046" category="inline-link-macro-rx"></block> 스캔 분석 이벤트를 사용하여 필터링할 때 조사 페이지에 표시되는 항목에 대한 자세한 내용은 을 참조하십시오.</block>
-  <block id="916fe80558e430806f51297666a415c2" category="section-title">2023년 3월 7일(버전 1.21)</block>
   <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">미리 정의된 범주</block>
   <block id="c750c2392e2683a70ab7309253a1954b" category="section-title">디렉토리의 기능이 업데이트되었습니다</block>
   <block id="179219a43ca594b98a13e70b7ebc112a" category="list-text">이제 데이터 조사 보고서에 대한 "Light CSV Report(라이트 CSV 보고서)" 옵션에 디렉토리의 정보가 포함됩니다.</block>
@@ -1762,7 +1759,6 @@
   <block id="94ac6dca39b0d38f3b950014db488255" category="list-text">커넥터가 설치되어 있지 않으면 * N * 을 입력하십시오.</block>
   <block id="d3530f7f55e5b4f9a9f54539096d928d" category="list-text">커넥터가 설치된 경우 * Y * 를 입력합니다. 그런 다음 테스트 스크립트가 이 연결을 테스트할 수 있도록 BlueXP Connector의 IP 주소 또는 호스트 이름을 입력합니다.</block>
   <block id="b6aefc1f5bf5d61908d5d40fe783f3c9" category="paragraph">"필수" 문제가 있는 경우 문제를 해결하고 사전 요구 사항 테스트 스크립트를 다시 실행해야 합니다.</block>
-  <block id="f42926ae5eb2834453e4706e43354d5c" category="section-title">2023년 4월 3일(버전 1.22)</block>
   <block id="e4279e9f497576fcde3caeb67ed0f96d" category="section-title">새로운 데이터 검색 평가 보고서</block>
   <block id="5b9233dec22bab321ca47a360d9950b6" category="inline-link">데이터 검색 평가 보고서를 생성하고 사용하는 방법을 확인하십시오</block>
   <block id="2d948e473e2d70b037f0549e51ba2a9d" category="list-text">Governance * 를 클릭한 다음 * Data Mapping Report * 버튼을 클릭합니다.</block>
@@ -2529,7 +2525,6 @@
   <block id="6365c8ecbac772805c308b501098968e" category="list-text"><block ref="3c14a300450508449fa4ac656dc2d2d2" category="inline-link-macro-rx"></block>.</block>
   <block id="312913ed4c4493306983760e524a18bf" category="paragraph">모든 공유를 개별적으로 추가해야 합니다. 예를 들면 다음과 같습니다.</block>
   <block id="5bf592857864b6327e9f9e7ac8b12e7e" category="list-text">여러 공유가 있는 작업 환경의 각 볼륨에 대해 다음 단계를 수행합니다.</block>
-  <block id="96828273826a07fdc4f42f4998e536b2" category="section-title">2023년 6월 6일(버전 1.23)</block>
   <block id="04e04c61cd37ca8f12b83c892c2c46ea" category="section-title">이제 데이터 제목 이름을 검색할 때 일본어가 지원됩니다</block>
   <block id="931c126009c96d8f8ce9770df003478d" category="inline-link">데이터 조사 페이지의 "데이터 제목" 필터</block>
   <block id="8b33a4571db736cc278b213820df9c13" category="paragraph">Data Subject Access Request(SAR)에 대한 응답으로 시험대상자 이름을 검색할 때 일본어 이름을 입력할 수 있습니다. 을 생성할 수 있습니다<block ref="8ff27ad1e3f1d885a2f0c0f257501bb1" category="inline-link-rx"></block> 결과 정보를 사용합니다. 에 일본어 이름을 입력할 수도 있습니다<block ref="615fae5bff7ec48fe0ed5c47e50f199a" category="inline-link-rx"></block> 제목 이름이 포함된 파일을 식별합니다.</block>
@@ -2616,7 +2611,6 @@
   <block id="d8e9d38457b0cf1fc41c4f7dc9118e28" category="paragraph">BlueXP 분류는 사내 사이트에 로컬인 데이터 소스에서만 데이터를 스캔할 수 있습니다. 현재 BlueXP 분류는 "비공개 모드"에서 "다크" 사이트라고도 하는 다음 로컬 데이터 소스를 검사할 수 있습니다.</block>
   <block id="3b1883650bdcd250161cbf99ce0450d4" category="inline-link">이를 "비공개 모드"라고도 합니다.</block>
   <block id="26d411dfdee47762b69f79244d61895e" category="paragraph">예, 지원합니다. 가능합니다<block ref="1c270efcf36a8d1c2de58c1ed2ed7315" category="inline-link-rx"></block>.<block ref="93d53de7d74c2549b2ebf074270b753f" category="inline-link-rx"></block>. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 BlueXP 분류를 사용하여 데이터를 검색할 수 있습니다.</block>
-  <block id="0494d69152dc144f6691315fabf9af4d" category="section-title">2023년 7월 17일(버전 1.24)</block>
   <block id="025b17159c4d2dd28926bdc5b13436e2" category="section-title">BlueXP 분류에서는 두 가지 새로운 유형의 독일 개인 데이터를 식별합니다</block>
   <block id="cdbb87700ea6d8c32de7576d1ecb9987" category="section-title">BlueXP 분류는 제한 모드 및 비공개 모드에서 완전히 지원됩니다</block>
   <block id="7c4ed755305616a8a97076615e4aa1e5" category="inline-link">Connector의 BlueXP 배포 모드에 대해 자세히 알아보십시오</block>
@@ -2886,13 +2880,9 @@
   <block id="846eb83e821481bdeafbcc34c9138401" category="section-title">BlueXP 분류 인스턴스를 배포합니다</block>
   <block id="117276e96b89d072e0a833596332ef29" category="section-title">데이터베이스 서버를 추가합니다</block>
   <block id="0dacbfa35e4a190378a78ef8c1f6a644" category="section-title">데이터베이스 스키마에서 규정 준수 검사를 활성화 및 비활성화합니다</block>
-  <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024년 1월 10일(버전 1.27)</block>
   <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">이 릴리스에는 몇 가지 사소한 개선 사항이 포함되어 있습니다.</block>
   <block id="ea2bddf8f5366e4e19e9f92e993db900" category="list-text">디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다. 을 참조하십시오 <block ref="5f0cc912e1424f54004e4ab3376e7552" category="inline-link-macro-rx"></block>.</block>
   <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 비활성화되었습니다. 을 참조하십시오 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>.</block>
-  <block id="8571bddd96e0bf7c1af547bf5706fe41" category="section-title">2023년 11월 6일(버전 1.26.3)</block>
-  <block id="7e59fce056fd1f38e1a30dea9fa90ab7" category="section-title">2023년 10월 4일(버전 1.26)</block>
-  <block id="371c5ebc9b12d1edc94ae540d4adaef6" category="section-title">2023년 9월 5일(버전 1.25)</block>
   <block id="f9be4df42ee71d8a46fc32f8b40e0b1b" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.<block ref="46e19d501a7aeb47676677c6786cd6a8" category="inline-link-rx"></block>.</block>
   <block id="5dfcd9d1075127141684c90379617d15" category="paragraph"><block ref="f9682605316459d6868d028dc460934e" category="inline-link-rx"></block>.</block>
   <block id="1a24f136700e7d996dbc845dbf267e7f" category="paragraph">과거에는 BlueXP 분류로 최대 100,000개의 소스 파일을 NFS 공유로 이동할 수 있었습니다. 이제 한 번에 최대 1,500만 개의 파일을 이동할 수 있습니다.<block ref="51df0b03dbf1aa6425434a76a39934ae" category="inline-link-rx"></block>.</block>
@@ -2980,11 +2970,9 @@
   <block id="75377d4edffa6c8df90ec35a6c2955ae" category="section-title">특정 디렉터리에서 스캔 데이터를 제외하도록 서비스를 지시할 수 있습니까?</block>
   <block id="140079c23bf99666acb52cc8f9b453cb" category="paragraph">예. BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 해당 목록을 분류 엔진에 제공할 수 있습니다. 변경 사항을 적용하면 BlueXP 분류에서 지정된 디렉토리에 있는 검사 데이터를 제외합니다.</block>
   <block id="cccdbfa223764cc2c6bbdf979c65ac39" category="paragraph"><block ref="8704cac21d49e5e6ff202bcfdaf0dcb0" category="inline-link-macro-rx"></block>.</block>
-  <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024년 3월 4일(버전 1.29)</block>
   <block id="2155776a968fa3c23d5147a57832435f" category="section-title">이제 특정 데이터 소스 디렉토리에 있는 데이터 검사를 제외할 수 있습니다</block>
   <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 이러한 디렉토리 이름을 BlueXP 분류 프로세스를 수행하는 구성 파일에 추가할 수 있습니다. 이 기능을 사용하면 불필요한 디렉터리를 검색하지 않거나 잘못된 개인 데이터 결과를 반환할 수 있습니다.</block>
   <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>.</block>
-  <block id="7cda33697c25a4972bdbfab414004cc2" category="section-title">2023년 12월 14일(버전 1.26.6)</block>
   <block id="a1663078538acf931413c4667ee4dc32" category="doc">추가 그룹 ID를 조직에 공개됨으로 정의합니다</block>
   <block id="14262b7b54453519cfa73f76b2652616" category="section-title">현재 그룹 ID 목록을 봅니다</block>
   <block id="2238095e02de090e407d911c0f0f1e9f" category="sidebar">상위 검색의 결과를 볼 수 있는 정책을 만듭니다</block>
@@ -3018,7 +3006,6 @@
   <block id="7c5fdd74ce4770d435a4270b4817294a" category="list-text"><block ref="7ec82fd84f3aea81a9c6badedcfda318" category="inline-link-macro-rx"></block>는 _private 모드라고도 합니다._설치 스크립트를 사용하는 이 유형의 설치는 보안 사이트에 적합합니다.</block>
   <block id="a59f7e9514f364f5b3574b8ad02f202d" category="paragraph">인터넷에 액세스할 수 있는 Linux 호스트에 설치하고 인터넷에 액세스할 수 없는 Linux 호스트에 온-프레미스 설치 모두 설치 스크립트를 사용합니다. 이 스크립트는 시스템과 환경이 사전 요구 사항을 충족하는지 확인하는 것으로 시작됩니다. 필수 구성 요소가 충족되면 설치가 시작됩니다. BlueXP 분류 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다.</block>
   <block id="1e4c9e5b4eb9656593e357ac3f61cdc1" category="paragraph">을 참조하십시오 <block ref="a838f62b35f046b790a8a32eff3e63b6" category="inline-link-macro-rx"></block>.</block>
-  <block id="1e3ff9766d4708d7de4568322138b5f8" category="section-title">2024년 4월 1일(버전 1.30)</block>
   <block id="1f2986b833ebc6f322deb045aeee0ad8" category="section-title">RHEL v8.8 및 v9.3 BlueXP 분류에 대한 지원이 추가되었습니다</block>
   <block id="2c435ff16ae089dc2d457e7776588268" category="paragraph">Podman 컨테이너 엔진을 사용해야 하는 운영 체제에는 BlueXP 분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2 및 9.3 이상이 필요합니다.</block>
   <block id="fae29fbaffa78fbfd6537b0feec1a925" category="inline-link-macro">BlueXP 분류 구축 개요</block>
@@ -3196,7 +3183,6 @@
   <block id="1ba8a6d88a1ff9a34215586899b08a1e" category="paragraph">각 작업 환경과 데이터 소스에서 데이터가 스캔되는 방식을 관리할 수 있습니다. "저장소"를 기준으로 변경할 수 있습니다. 즉, 스캔하는 데이터 원본의 유형에 따라 각 볼륨, 스키마, 사용자 등을 변경할 수 있습니다.</block>
   <block id="4cf46b88592b20071552593714707a46" category="paragraph">소스 볼륨이 있는 작업 환경에 대해 BlueXP 분류를 사용하도록 설정한 * 모든 볼륨 매핑 * 또는 * 모든 볼륨 매핑 및 분류 * 를 처음 선택한 경우 BlueXP 분류는 복제된 새 볼륨을 자동으로 스캔합니다. 처음에 이러한 선택 항목을 사용하지 않은 경우 이 새 볼륨을 스캔하려면 가 필요합니다 <block ref="9c238ad6b45b928020692cb5de74fd06" category="inline-link-macro-rx"></block>.</block>
   <block id="c63897b00e1bb7484e004dc2e1337d94" category="paragraph">조사 창 또는 에서 파일을 수동으로 삭제할 수 있습니다 <block ref="189dcbbb5debf653b5fc0860b1c881e2" category="inline-link-macro-rx"></block>.</block>
-  <block id="240debedb0b95c0376b930ba9355ecf4" category="section-title">2024년 5월 15일(버전 1.31)</block>
   <block id="ac229efd3fa61c5457dcab252996be0b" category="paragraph">BlueXP 분류는 이제 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 내에서 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.</block>
   <block id="3607a722a9a09bb6d405f4d84609e858" category="inline-link-macro">더 이상 사용되지 않는 기능에 대해 자세히 알아보십시오</block>
   <block id="1a50d9154328b370f6d9bbbab041964a" category="paragraph"><block ref="671322b9b43cc49264f86b21ef88a11d" category="inline-link-macro-rx"></block>.</block>
@@ -3300,14 +3286,12 @@
   <block id="da30b4408b5e1540ac02763204c943ad" category="list-text">* Paused * (회색 점): 스캔을 일시 중지하려면 “Pause(일시 중지)” 옵션을 선택했습니다. 볼륨의 변경 사항은 시스템에 표시되지 않지만 스캔된 인사이트는 여전히 표시됩니다.</block>
   <block id="7eac8ad7bb67a204924dcc6a4113f103" category="list-text">* 오류 * (빨간색 점): 문제가 발생하여 검사를 완료할 수 없습니다. 작업을 완료해야 하는 경우 도구 설명에 "required action(필요한 작업)" 열 아래에 오류가 표시됩니다.  그렇지 않으면 "오류" 상태가 표시되고 복구를 시도합니다. 완료되면 상태가 변경됩니다.</block>
   <block id="4c5b4656410d347cf852f162490f2e15" category="list-text">*스캔하지 않음*: "끄기"의 볼륨 구성이 선택되었고 시스템이 볼륨을 스캔하지 않습니다.</block>
-  <block id="bf5237098b7bb15bc07f1d47863a9b8a" category="section-title">2024년 6월 5일(버전 1.32)</block>
   <block id="7910c8307cac3d62eca8ac0d42301b38" category="section-title">구성 페이지의 새 매핑 상태 열</block>
   <block id="cfbaa8108dcd3c438f032a03ea5c380b" category="paragraph">이 릴리즈는 이제 구성 페이지에 새 매핑 상태 열을 표시합니다. 새 열을 통해 매핑이 실행 중인지, 대기열에 있는지, 일시 중지되었는지 등을 확인할 수 있습니다.</block>
   <block id="2f94c0116c501abdbd5c76ddef86d94a" category="paragraph">상태에 대한 설명은 을 참조하십시오<block ref="cacd3972a6d9bfb8b2d3cde3ba576e77" category="inline-link-rx"></block>.</block>
   <block id="d37bdc46b0a428edd8f0ab35c24067ea" category="paragraph">아래 나열된 특정 데이터 소스를 설정할 때 BlueXP에서 CIFS 볼륨을 스캔하려면 Active Directory 자격 증명을 입력해야 합니다. 이러한 통합을 통해 파일 소유자와 BlueXP 분류를 수행하고 해당 데이터 소스에 있는 데이터에 대한 사용 권한 세부 정보를 확인할 수 있습니다. 이러한 데이터 원본에 대해 입력한 Active Directory가 여기에 입력한 글로벌 Active Directory 자격 증명과 다를 수 있습니다. BlueXP 분류는 모든 통합 Active Directory에서 사용자 및 권한 세부 정보를 확인할 수 있습니다.</block>
   <block id="70f05bdab0f283eaffba98f53fceb776" category="paragraph">CIFS 볼륨/파일 공유의 경우, BlueXP 분류 검사에서 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 쓰기 속성 권한이 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="bf353be94d6ba74709e3d127af6ba1a6" category="paragraph">다음 질문은 BlueXP 분류를 사용하기 위한 라이센스 및 비용과 관련됩니다.</block>
-  <block id="b660413c1fbf79ce31a119db078401fe" category="paragraph">이 릴리스에는 다음 업데이트가 포함되어 있습니다.</block>
   <block id="14aa1b744a832a1cebfb9dd4d34b809d" category="paragraph">BlueXP 커넥터와 BlueXP 분류 모두 새로운 기능을 사용하려면 정기적인 수동 업그레이드가 필요합니다. BlueXP 분류 UI 페이지 하단에서 BlueXP 분류 버전을 확인할 수 있습니다. 를 확인하십시오 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 각 릴리스의 새로운 기능과 해당 기능을 원하는지 여부를 확인합니다. 그런 다음 의 단계를 수행할 수 있습니다<block ref="29c5c6557943f5249ffe666c6e468ce9" category="inline-link-rx"></block> 및 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>.</block>
   <block id="8a39158958544ff49d3dc95bad3f3a82" category="list-text">BlueXP Connector 소프트웨어를 최신 버전으로 업그레이드하는 것이 좋습니다.<block ref="4abf459c8cfa6d4ca98cecc130eefa9a" category="inline-link-rx"></block>.</block>
   <block id="914179b3d4545ce8b8e8ba122c53f4d9" category="list-text">사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 이러한 시스템 크기 중에서 선택할 수 있습니다.</block>
@@ -3340,8 +3324,6 @@
 비즈니스 애플리케이션 데이터</block>
   <block id="1903cd6e75503b7859268e96d356ea13" category="doc">조직에 저장된 개인 데이터에 대한 규정 준수 세부 정보를 봅니다</block>
   <block id="aa7740206cc512120060a1c060de9543" category="paragraph">조직의 개인 데이터(PII) 및 중요 개인(SPii) 데이터에 대한 세부 정보를 확인하여 개인 데이터를 제어할 수 있습니다. 또한 데이터에 있는 BlueXP 분류의 범주 및 파일 형식을 검토하여 가시성을 확보할 수도 있습니다.</block>
-  <block id="3b08fbca8f3b3deaf466cedfd425cfc6" category="section-title">2024년 7월 1일 (버전 1.33)</block>
-  <block id="b9620e9aadf9827ac9bb29001772b3f0" category="paragraph">이 릴리스에는 다음 업데이트가 포함됩니다.</block>
   <block id="d61892207457d808cffbfc18b9dcd8ad" category="section-title">Ubuntu 지원</block>
   <block id="0db04e76c6afbdb79f128758ee937013" category="paragraph">이 릴리스는 Ubuntu 24.04 Linux 플랫폼을 지원합니다.</block>
   <block id="b83927d03444ee961e834ea1c3b0581b" category="section-title">매핑 검사는 메타데이터를 수집합니다</block>
@@ -3403,7 +3385,6 @@
   <block id="ffc704586971ad083fdf8dd3a75b06c9" category="list-text">구성 페이지에서 StorageGRID 작업 환경에서 * 구성 * 을 클릭합니다.</block>
   <block id="2c9810189a9662217559e6c599b47a67" category="cell">8080(TCP), 443(TCP) 및 80. 있습니다</block>
   <block id="83bceb987dd495cde1a148944580e473" category="paragraph">이제 BlueXP  분류를 통해 StorageGRID에서 데이터를 스캔할 수 있습니다.</block>
-  <block id="a5ac20c838605b872613985f5c302c61" category="section-title">2024년 8월 5일(버전 1.34)</block>
   <block id="7618b35d0748b4efb66fc940006fadd5" category="paragraph"><block ref="83ed27e05a338173092039c2d8e0ae3b" category="inline-link-macro-rx"></block>..</block>
   <block id="67103c15357d4cb02c120c2f07095363" category="paragraph">기본 인스턴스 유형을 사용할 수 없는 지역에서는 BlueXP  분류가 에서 <block ref="45910d58f60ef6c6ec6de81dc1fbd5cf" category="inline-link-macro-rx"></block>실행됩니다.</block>
   <block id="59b7feee7c455334bdb5e4ec5e6894ed" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> StorageGRID 사전 요구 사항을 검토하십시오</block>
@@ -3478,6 +3459,41 @@
   <block id="5413a43995a4a97a249b7b24fbf3e785" category="section-title">버전 1.36</block>
   <block id="28dc8814bfe656bc8e29052d1508b999" category="section-title">2024년 9월 2일</block>
   <block id="2808185c0a48de3cd5dcc0d92f453531" category="section-title">버전 1.35</block>
-  <block id="1aa327f677148af5679dfc598fb8f539" category="paragraph">자세한 내용은 을<block ref="3e1b901b9270f6f4c97e16e88c4e3161" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="164199ecac7ab88714ff0c68b5fb98f0" category="paragraph">이제 데이터 감지 BYOL 라이센스를 어두운 사이트의 BlueXP 디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다.</block>
+  <block id="60c09f1a3afdb367fc787929a52bce2c" category="paragraph">자세한 내용은 을 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="dd6b8bf5a56c8beb81b173991906c83e" category="section-title">2024년 8월 5일</block>
+  <block id="3b506912c9fbc6e924c90fcd67f9e81d" category="section-title">버전 1.34</block>
+  <block id="16ec862fdbc31bf15f7d944ad60dd33f" category="section-title">2024년 7월 1일</block>
+  <block id="29ca6f4adc7aee37872328bb347b7543" category="section-title">버전 1.33</block>
+  <block id="4497f9fd188a9629ea47d91a3f025c8c" category="section-title">2024년 6월 5일</block>
+  <block id="decdab3311a7d521fe764d5d580ddd35" category="section-title">버전 1.32</block>
+  <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024년 5월 15일</block>
+  <block id="362a66c8caf141f86c11be1e2f936c77" category="section-title">버전 1.31</block>
+  <block id="4434c8a49854e6484f6c158999be4e10" category="section-title">2024년 4월 1일</block>
+  <block id="e6a70634d4a42783e6d5918eff0a0ab6" category="section-title">버전 1.30</block>
+  <block id="9ee51d75827fcf6a985ed40e7418fea6" category="section-title">2024년 3월 4일</block>
+  <block id="512d4a337ec357edd106a616e83b1a1f" category="section-title">버전 1.29</block>
+  <block id="c630754f942c555264fff115d6b5e9b2" category="section-title">2024년 1월 10일</block>
+  <block id="536149161458a7a77ae5b72258f34e48" category="section-title">버전 1.27</block>
+  <block id="3500d4b863ccad6f25298c3ab1519e74" category="section-title">2023년 12월 14일</block>
+  <block id="552c9ad11d5dffc1189fa270ca015445" category="section-title">버전 1.26.6</block>
+  <block id="c8684cf4ccd502e49d1d79ff9936bc98" category="section-title">2023년 11월 6일</block>
+  <block id="0778a32085af8830c408efb93cb7239f" category="section-title">버전 1.26.3</block>
+  <block id="e5899cce271b544ee6441231f3c8cb3f" category="section-title">2023년 10월 4일</block>
+  <block id="a7dfa38887a337aec315ca23d79dc622" category="section-title">버전 1.26</block>
+  <block id="133c04bb5f03e7d4a910bcf2f7193ebd" category="section-title">2023년 9월 5일</block>
+  <block id="3f1982a78707e6a0e0433cad5b5a037d" category="section-title">버전 1.25</block>
+  <block id="deac043b98b13aa9a1a0d041a820ee2c" category="section-title">2023년 7월 17일</block>
+  <block id="314ecd7c1da8864532628a8aa4a6c85b" category="section-title">버전 1.24</block>
+  <block id="6a7140fd5370f297d9a834d30e26ffde" category="section-title">2023년 6월 6일</block>
+  <block id="5a78709b3e68f78b25a72a31cfcaa8f0" category="section-title">버전 1.23</block>
+  <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오</block>
+  <block id="645f5675426bc396b45b524635e93bc7" category="paragraph">이제 Data Sense BYOL 라이센스를 다크 사이트의 BlueXP  디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다.<block ref="bd823f9b4dce457c0ea2a8dcca6e749f" category="inline-link-rx"></block>..</block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023년 4월 3일</block>
+  <block id="288d139ea0d21561e65bec74c2f7c646" category="section-title">버전 1.22</block>
+  <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023년 3월 7일</block>
+  <block id="321553493f3e3f76105c5f5c5633b4c1" category="section-title">버전 1.21</block>
+  <block id="e1bc7b26155063f1ce71b76f655669ef" category="section-title">2023년 2월 5일</block>
+  <block id="4d892f9a0cb70711d12ffb41d4d77d8b" category="section-title">버전 1.20</block>
+  <block id="88a11892e7418e1eee8c952df9545b46" category="section-title">2023년 1월 9일</block>
+  <block id="58080b77f4121259ffde5ce32650fff6" category="section-title">버전 1.19</block>
 </blocks>
