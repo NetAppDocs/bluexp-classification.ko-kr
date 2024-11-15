@@ -1405,7 +1405,6 @@
   <block id="1b7ccf3735aab9407a71052e40136f7e" category="cell">389(TCP 및 UDP), 636(TCP), 3268(TCP) 및 3269(TCP)</block>
   <block id="4c1d159c6f87e616542feee759bfc905" category="list-text">DNS 서버 IP 주소 또는 여러 IP 주소</block>
   <block id="196004c131c20b6770256be1148132f8" category="list-text">서버의 사용자 이름 및 암호</block>
-  <block id="baeedc928ad10edb5cbbe96bbe80e8d0" category="inline-link-macro">추가 포트 요구 사항을 참조하십시오</block>
   <block id="e1095ff19466581c5274f67123c95036" category="cell">https://api.bluexp.netapp.com 으로 문의하십시오</block>
   <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">필요한 것</block>
   <block id="ad5480f838ed67e92fecf7af3cef120d" category="paragraph-title">다음 단계</block>
@@ -2247,8 +2246,6 @@
   <block id="31960e3a0a5575dab07c414d0f050b5e" category="section-title">사내 Linux 호스트에 BlueXP 분류를 설치합니다</block>
   <block id="0698c1d2033d1d237a564aa425785c93" category="inline-image-macro">인터넷 액세스 없이 내부에 배포된 단일 BlueXP 분류 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여 주는 다이어그램입니다.</block>
   <block id="903ab6306b53df8d7e387c78c2dcb7e5" category="paragraph"><block ref="903ab6306b53df8d7e387c78c2dcb7e5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="95ca4827847440176f97092b65a75679" category="inline-image-macro">인터넷 액세스 없이 내부에 배포된 여러 BlueXP 분류 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여 주는 다이어그램입니다.</block>
-  <block id="9a796537f743745021babac25c346996" category="paragraph"><block ref="9a796537f743745021babac25c346996" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c4c8ed9ed1210b4b825ecd4522c73de9" category="paragraph">오프라인 환경의 단일 사내 호스트에 BlueXP 분류 소프트웨어를 설치할 때는 다음 단계를 따르십시오.</block>
   <block id="c0ce9427d990ef75ad8057d3956744b1" category="list-text">오프라인 환경이 필요한 를 충족하는지 확인합니다 <block ref="0a0d20cd0d171f694689b851f0521135" category="inline-xref-macro-rx"></block>.</block>
   <block id="8a77259a547d85aa243c1731eb9cf4f9" category="list-text">인터넷 구성 시스템의 경우 에서 BlueXP 분류 소프트웨어를 다운로드합니다<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>. 선택해야 하는 파일의 이름은 * DataSense-offline-bundle-&lt;version&gt;.tar.gz * 입니다.</block>
@@ -2330,8 +2327,6 @@
   <block id="0fdf0f2278428dd8c2b92f0ddd236759" category="section-title">Linux 호스트에 BlueXP 분류를 설치합니다</block>
   <block id="6935fb258dcaa809f3c08a4aaa082315" category="inline-image-macro">인터넷에 연결된 단일 BlueXP 분류 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여주는 다이어그램입니다.</block>
   <block id="ec5760b557b54a69b5d29fb05e68b8c1" category="paragraph"><block ref="ec5760b557b54a69b5d29fb05e68b8c1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bfd2c96cae6d29697ceac4feda921426" category="inline-image-macro">인터넷에 연결된 여러 대의 BlueXP 분류 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여 주는 다이어그램입니다.</block>
-  <block id="b1030a584c34dcb45c3a231937109e48" category="paragraph"><block ref="b1030a584c34dcb45c3a231937109e48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0eb32e59a3574faaca63218c3f5922f" category="paragraph">을 참조하십시오 <block ref="dc1d236e8ef0d554549faeaffd48b8b2" category="inline-xref-macro-rx"></block> 및 <block ref="2360c56931bf3d2d23fb74a3dc780c78" category="inline-xref-macro-rx"></block> BlueXP 분류를 배포하기 전에 필요한 전체 목록을 확인하십시오.</block>
   <block id="60e3e1e8b520c28183ebe86bd433deda" category="list-text">프록시가 TLS 가로채기를 수행하는 경우 TLS CA 인증서가 저장된 BlueXP 분류 Linux 시스템의 경로를 알아야 합니다.</block>
   <block id="d66d1b16789175829b23ed7e745d66dd" category="list-text">오프라인 환경이 필요한 를 충족하는지 확인합니다 <block ref="9eb48ce3a280aa134b4c3aab7ed78a68" category="inline-xref-macro-rx"></block>.</block>
@@ -2988,7 +2983,6 @@
   <block id="7c6b159592aa05d7d8934685f5b0c4c8" category="cell">32개의 CPU, 128GB RAM, OS 디스크(2,048GiB, 최소 250MB/s 처리량) 및 데이터 디스크(1TiB SSD, 최소 750MB/s 처리량)</block>
   <block id="f3c46003464601608d44d2644affcce1" category="paragraph">SaaS 모드에서 BlueXP에 연결할 때 HTTPS를 통해 BlueXP에 연결되며 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 프라이빗 데이터는 TLS 1.2를 사용하는 엔드 투 엔드 암호화로 보안이 유지됩니다. 즉, NetApp과 타사가 이 데이터를 읽을 수 없습니다.</block>
   <block id="f943db85a7c2edd799890ddb18f29cab" category="doc">인터넷에 액세스할 수 없는 Linux 호스트에 BlueXP 분류를 설치합니다</block>
-  <block id="e920147793c6514a998387c74226605b" category="paragraph">인터넷에 액세스할 수 없는 온프레미스 사이트의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 단계를 완료하십시오. _ private mode _ 라고도 합니다. 이러한 유형의 설치는 보안 사이트에 적합합니다.</block>
   <block id="8e75bb9e135d127903c8df1b4d72574d" category="list-text">다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.30 이상이 필요합니다.</block>
   <block id="8da041e8fe3c0d961b0ec560416bc9a4" category="section-title">BlueXP 분류를 수행하려면 자격 증명에 액세스해야 합니까?</block>
   <block id="e54c52f3a3c545fc2e2f82026ac5945f" category="paragraph">BlueXP 분류 자체는 스토리지 자격 증명을 검색하지 않습니다. BlueXP Connector에 저장됩니다.</block>
@@ -3003,7 +2997,6 @@
   <block id="b723c5ee7facb4d3bb0af0a7d2f3d7ab" category="list-text"><block ref="cf6b836a5ed0d1fcbc1d079fcc9d0736" category="inline-link-macro-rx"></block>. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 BlueXP 분류 인스턴스를 배포합니다.</block>
   <block id="112a4fbc92b6e9c424407aa2efa54779" category="list-text"><block ref="953e3010369667b8110edc0847a61543" category="inline-link-macro-rx"></block>. 네트워크의 Linux 호스트 또는 인터넷에 액세스할 수 있는 클라우드의 Linux 호스트에 BlueXP 분류를 설치합니다. 사내에 있는 BlueXP 분류 인스턴스를 사용하여 온프레미스 ONTAP 시스템을 검사하려는 경우 이러한 설치 유형이 좋은 옵션이 될 수 있지만 반드시 필요한 것은 아닙니다.</block>
   <block id="5be81ee840734d5fff39d8fb451e87de" category="inline-link-macro">인터넷 액세스 없이 온-프레미스 사이트에 Linux 호스트에 설치합니다</block>
-  <block id="7c5fdd74ce4770d435a4270b4817294a" category="list-text"><block ref="7ec82fd84f3aea81a9c6badedcfda318" category="inline-link-macro-rx"></block>는 _private 모드라고도 합니다._설치 스크립트를 사용하는 이 유형의 설치는 보안 사이트에 적합합니다.</block>
   <block id="a59f7e9514f364f5b3574b8ad02f202d" category="paragraph">인터넷에 액세스할 수 있는 Linux 호스트에 설치하고 인터넷에 액세스할 수 없는 Linux 호스트에 온-프레미스 설치 모두 설치 스크립트를 사용합니다. 이 스크립트는 시스템과 환경이 사전 요구 사항을 충족하는지 확인하는 것으로 시작됩니다. 필수 구성 요소가 충족되면 설치가 시작됩니다. BlueXP 분류 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다.</block>
   <block id="1e4c9e5b4eb9656593e357ac3f61cdc1" category="paragraph">을 참조하십시오 <block ref="a838f62b35f046b790a8a32eff3e63b6" category="inline-link-macro-rx"></block>.</block>
   <block id="1f2986b833ebc6f322deb045aeee0ad8" category="section-title">RHEL v8.8 및 v9.3 BlueXP 분류에 대한 지원이 추가되었습니다</block>
@@ -3065,12 +3058,9 @@
   <block id="d23cdfe3be69f69baed369d543f36aa9" category="paragraph">Classification_area는 가장 많이 식별된 목록을 제공합니다 <block ref="d3b5de2fe3785a28f0b4099f30abefe6" category="inline-link-macro-rx"></block> 및 <block ref="6d5873eba480eee9411c9a14fd12e5d9" category="inline-link-macro-rx"></block> 스캔 데이터.</block>
   <block id="f754acc189a7236fe2fb4657457fcb2c" category="paragraph">* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다. 2023년 12월(v1.26.6) 릴리즈에서는 AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 제거되었습니다.</block>
   <block id="13871df601ad6fe31ca70129438c5986" category="list-text">BlueXP 분류는 데이터베이스 데이터 소스에서 "마지막으로 액세스한 시간"을 추출하지 않습니다.</block>
-  <block id="52c31809bdb836acfc2de3ee032c0faa" category="paragraph">1.30 이하 버전에서 페타바이트 단위의 데이터를 스캔하는 대규모 구성의 경우 추가 처리 성능을 제공하기 위해 여러 호스트를 포함할 수 있습니다. 여러 호스트 시스템을 사용하는 경우 주 시스템을 _Manager node_라고 하며 추가 처리 능력을 제공하는 추가 시스템을 _Scanner nodes_라고 합니다.</block>
   <block id="166af9c4abcdeaeaa01f2df7fcd961a7" category="inline-link-macro">인터넷에 액세스할 수 없는 여러 호스트에 BlueXP 분류를 설치합니다</block>
-  <block id="0dcde9bea70f4948a25486523fde4e97" category="paragraph">또한 가능합니다 <block ref="76c224cc80265848284829e2886db42b" category="inline-link-macro-rx"></block> 완전히 안전한 사이트를 위한 것입니다.</block>
   <block id="7cc60b2d044c80070664df0b3bdf1a77" category="paragraph">BlueXP 분류를 설치하고 사용하려면 먼저 BlueXP 커넥터가 필요합니다. 대부분의 경우 대부분의 경우 BlueXP 분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다<block ref="4b65067251af1a04ab5f187e9a47f47a" category="inline-link-rx"></block>하지만 지금 설정해야 하는 경우도 있습니다.</block>
   <block id="d91ed5bff9bd13eee5c43964bbe67be4" category="list-text">AWS 또는 Amazon FSx for ONTAP에서 Cloud Volumes ONTAP 데이터를 스캔할 때는 AWS의 커넥터를 사용합니다.</block>
-  <block id="428a85a15f039350823864cdd9f6711b" category="paragraph">페타바이트 단위의 데이터를 스캐닝할 대규모 구성의 경우 여러 호스트를 포함하여 추가적인 처리 성능을 제공할 수 있습니다. 자세한 내용 링크: task-deploy-multi-host-install-dark-site.html&gt; 대규모 구성을 위해 여러 호스트에 설치하는 방법</block>
   <block id="758de85e3f025a37293713e5735825a9" category="admonition">BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTAP용 S3 버킷, Azure NetApp Files 또는 FSx를 스캔할 수 없습니다. 이러한 경우 클라우드 및 에 별도의 Connector 및 BlueXP 분류 인스턴스를 배포해야 합니다<block ref="3cd9b819ecbc63be3401566b7b7cbf66" category="inline-link-rx"></block> 다양한 데이터 소스에 대해</block>
   <block id="f221652320e994dc66aab1d5d6da5fb7" category="paragraph">모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 기록됩니다<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>. <block ref="c7911c51adef419f386feff4cec8acf6" category="inline-link-macro-rx"></block>.</block>
   <block id="224bbd10a45d7fdcbbb8075666b6c93a" category="cell">파일당 감지된 중요 식별자의 범위를 선택합니다. 개인 데이터 및 민감한 개인 데이터가 포함됩니다. 디렉터리에서 필터링할 때 BlueXP 분류는 각 폴더(및 하위 폴더)의 모든 파일에서 일치하는 항목의 합계를 구합니다.
@@ -3142,7 +3132,6 @@
   <block id="3ef1f7ef6e40406c6da9ebbf30881295" category="paragraph">단일 사용자의 Google Drive 파일만 단일 Google Drive 계정의 일부이므로, 사용자의 Google Drive 계정에서 파일 검색을 중지하려면 다음을 수행해야 합니다 <block ref="5f8a68577631fb4846e68096e5a718cb" category="inline-link-macro-rx"></block>.</block>
   <block id="470ff04800cc0e7e4547c6f8184436fa" category="admonition">기존 버전 1.30 이하의 경우 여러 호스트에 BlueXP 분류를 설치해야 하는 경우, 을 참조하십시오 <block ref="94ed65ad8557cbd4dade332ad2e77a61" category="inline-link-macro-rx"></block>.</block>
   <block id="991ebd87a81ed22c3d81251fd13ad652" category="paragraph">BlueXP 분류를 프라이빗 모드로 구축한 경우 현재 Cloud Volumes ONTAP, Azure NetApp Files 또는 FSx for ONTAP 계정 검사는 지원되지 않습니다.</block>
-  <block id="3fba2d2072ada5e4a305ed49625f7c97" category="paragraph">여러 BlueXP 분류 호스트를 사용하여 데이터 소스를 검사하는 추가 처리 기능을 제공하는 경우 추가 포트/프로토콜을 활성화해야 합니다. <block ref="8ab506a6f74eff926eb35a8eb7627a1d" category="inline-link-macro-rx"></block>.</block>
   <block id="ce9b3c0997395cdac24ac84544289f19" category="paragraph">일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다.</block>
   <block id="279ac5dd73c3a5783ebeb10e172c4f38" category="paragraph">중요</block>
   <block id="a14a0ee1284c6c34c6c0305b52963e2f" category="paragraph">2024년 5월 버전 1.31부터 BlueXP 분류를 추가 비용 없이 BlueXP 내에서 핵심 기능으로 사용할 수 있습니다. 분류 라이선스 또는 가입이 필요하지 않습니다. NetApp 스토리지 시스템에서의 BlueXP 분류 기능도 중점적으로 다루므로 사용되지 않거나 활용도가 낮은 일부 기능은 더 이상 사용되지 않습니다.</block>
@@ -3496,4 +3485,7 @@
   <block id="4d892f9a0cb70711d12ffb41d4d77d8b" category="section-title">버전 1.20</block>
   <block id="88a11892e7418e1eee8c952df9545b46" category="section-title">2023년 1월 9일</block>
   <block id="58080b77f4121259ffde5ce32650fff6" category="section-title">버전 1.19</block>
+  <block id="d201913c731a2c485562d2197234ff40" category="paragraph">인터넷에 액세스할 수 없는 온프레미스 사이트의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 단계를 완료하십시오. _ private mode _ 라고도 합니다. 설치 스크립트를 사용하는 이 설치 유형은 BlueXP  SaaS 계층에 연결되지 않습니다.</block>
+  <block id="eea715e21fdd29a12f087199006074c7" category="paragraph">할 수도 <block ref="76c224cc80265848284829e2886db42b" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="6ff9945c9b8d3c1700dad8f9a06d2ab2" category="list-text"><block ref="7ec82fd84f3aea81a9c6badedcfda318" category="inline-link-macro-rx"></block>는 _private 모드라고도 합니다._설치 스크립트를 사용하는 이 유형의 설치는 BlueXP  SaaS 계층에 연결되지 않습니다.</block>
 </blocks>

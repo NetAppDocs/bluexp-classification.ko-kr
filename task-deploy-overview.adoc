@@ -20,7 +20,7 @@ BlueXP 분류를 다음과 같은 방법으로 구축할 수 있습니다.
 
 * link:task-deploy-cloud-compliance.html["BlueXP를 사용하여 클라우드에 배포합니다"]. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 BlueXP 분류 인스턴스를 배포합니다.
 * link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 Linux 호스트에 설치합니다"]. 네트워크의 Linux 호스트 또는 인터넷에 액세스할 수 있는 클라우드의 Linux 호스트에 BlueXP 분류를 설치합니다. 사내에 있는 BlueXP 분류 인스턴스를 사용하여 온프레미스 ONTAP 시스템을 검사하려는 경우 이러한 설치 유형이 좋은 옵션이 될 수 있지만 반드시 필요한 것은 아닙니다.
-* link:task-deploy-compliance-dark-site.html["인터넷 액세스 없이 온-프레미스 사이트에 Linux 호스트에 설치합니다"]는 _private 모드라고도 합니다._설치 스크립트를 사용하는 이 유형의 설치는 보안 사이트에 적합합니다.
+* link:task-deploy-compliance-dark-site.html["인터넷 액세스 없이 온-프레미스 사이트에 Linux 호스트에 설치합니다"]는 _private 모드라고도 합니다._설치 스크립트를 사용하는 이 유형의 설치는 BlueXP  SaaS 계층에 연결되지 않습니다.
 
 
 인터넷에 액세스할 수 있는 Linux 호스트에 설치하고 인터넷에 액세스할 수 없는 Linux 호스트에 온-프레미스 설치 모두 설치 스크립트를 사용합니다. 이 스크립트는 시스템과 환경이 사전 요구 사항을 충족하는지 확인하는 것으로 시작됩니다. 필수 구성 요소가 충족되면 설치가 시작됩니다. BlueXP 분류 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다.
