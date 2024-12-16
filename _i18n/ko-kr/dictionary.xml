@@ -3488,4 +3488,7 @@
   <block id="d201913c731a2c485562d2197234ff40" category="paragraph">인터넷에 액세스할 수 없는 온프레미스 사이트의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 단계를 완료하십시오. _ private mode _ 라고도 합니다. 설치 스크립트를 사용하는 이 설치 유형은 BlueXP  SaaS 계층에 연결되지 않습니다.</block>
   <block id="eea715e21fdd29a12f087199006074c7" category="paragraph">할 수도 <block ref="76c224cc80265848284829e2886db42b" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="6ff9945c9b8d3c1700dad8f9a06d2ab2" category="list-text"><block ref="7ec82fd84f3aea81a9c6badedcfda318" category="inline-link-macro-rx"></block>는 _private 모드라고도 합니다._설치 스크립트를 사용하는 이 유형의 설치는 BlueXP  SaaS 계층에 연결되지 않습니다.</block>
+  <block id="5ae300808387123005a76abbd5a99f46" category="doc">버전 1.38</block>
+  <block id="074f06822cc9864b1be34066c52ec21d" category="paragraph">이 BlueXP  분류 릴리스에는 일반적인 개선 사항 및 버그 수정이 포함되어 있습니다.</block>
+  <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024년 12월 16일</block>
 </blocks>
