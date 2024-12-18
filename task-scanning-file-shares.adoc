@@ -29,9 +29,9 @@ NOTE: 비 NetApp 파일 공유의 데이터 검사는 BlueXP 분류 코어 버�
 [role="quick-margin-para"]
 CIFS(SMB) 공유의 경우 공유를 액세스할 수 있는 자격 증명이 있는지 확인합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 인스턴스를 배포합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP  분류 인스턴스를 배포합니다
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 인스턴스가 아직 배포되지 않은 경우
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 파일 공유를 보관할 그룹을 생성합니다
 [role="quick-margin-para"]
@@ -63,7 +63,7 @@ BlueXP 분류는 7-Mode 시스템에서 사용 권한 또는 "마지막 액세�
 +
 BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.
 
-* '<host_name>:/<share_path>' 형식으로 추가하려는 공유 목록이 필요합니다. 공유를 개별적으로 입력하거나 스캔하려는 파일 공유의 라인 분리 목록을 제공할 수 있습니다.
+* 형식으로 추가할 공유 목록이 `<host_name>:/<share_path>` 필요합니다. 공유를 개별적으로 입력하거나 스캔하려는 파일 공유의 라인 분리 목록을 제공할 수 있습니다.
 
 
 
@@ -96,7 +96,7 @@ image:screenshot_compliance_add_fileshares_button.png["파일 공유 그룹 추�
 
 == 그룹에 파일 공유를 추가합니다
 
-파일 공유 그룹에 파일 공유를 추가하면 해당 공유의 파일이 BlueXP 분류에서 검사됩니다. 형식으로 공유를 추가합니다 `<host_name>:/<share_path>`.
+파일 공유 그룹에 파일 공유를 추가하면 해당 공유의 파일이 BlueXP 분류에서 검사됩니다. 공유 형식을 `<host_name>:/<share_path>`추가합니다.
 
 개별 파일 공유를 추가하거나 스캔할 파일 공유의 줄별 목록을 제공할 수 있습니다. 한 번에 최대 100개의 공유를 추가할 수 있습니다.
 
@@ -146,7 +146,7 @@ image:screenshot_compliance_fileshares_add_file_shares.png["스캔할 공유를 
 | 파일 공유에서 스캔을 비활성화합니다 | Off * 를 클릭합니다 
 |===
 +
-페이지 상단의 * "쓰기 속성" 권한 * 이 누락된 경우 * 스캔 에 대한 스위치는 기본적으로 비활성화되어 있습니다. 즉, BlueXP 분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP 분류는 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 파일을 검색하지 않습니다. 마지막 액세스 시간이 재설정되는 것을 염려하지 않을 경우, 스위치를 켜면 사용 권한에 관계없이 모든 파일이 스캔됩니다. link:reference-collected-metadata.html#last-access-time-timestamp["자세한 정보"^].
+페이지 상단의 * "쓰기 속성" 권한 * 이 누락된 경우 * 스캔 에 대한 스위치는 기본적으로 비활성화되어 있습니다. 즉, BlueXP 분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP 분류는 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 파일을 검색하지 않습니다. 마지막 액세스 시간이 재설정되는 것을 염려하지 않을 경우, 스위치를 켜면 사용 권한에 관계없이 모든 파일이 스캔됩니다. link:reference-collected-metadata.html#last-access-time-timestamp["자세한 정보"^]..
 
 
 

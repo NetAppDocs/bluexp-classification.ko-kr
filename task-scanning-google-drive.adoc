@@ -18,7 +18,7 @@ BlueXP 분류를 사용하여 Google Drive 계정의 사용자 파일 스캔을 
 
 []
 ====
-* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다.
+* 참고 * 이 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.
 
 ====
 
@@ -31,15 +31,15 @@ BlueXP 분류를 사용하여 Google Drive 계정의 사용자 파일 스캔을 
 [role="quick-margin-para"]
 Google Drive 계정에 로그인할 수 있는 관리자 자격 증명이 있는지 확인합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류를 배포합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] Deploy BlueXP  분류
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 인스턴스가 아직 배포되지 않은 경우
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] Google Drive 계정에 로그인합니다
 [role="quick-margin-para"]
 관리자 사용자 자격 증명을 사용하여 액세스하려는 Google Drive 계정에 로그인하여 새 데이터 소스로 추가합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 사용자 파일에 대한 스캔 유형을 선택합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 사용자 파일에 대한 검색 유형을 선택합니다
 [role="quick-margin-para"]
 사용자 파일에 대해 수행할 스캔 유형, 매핑 또는 매핑 및 분류를 선택합니다.
 
@@ -68,7 +68,7 @@ link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이�
 
 배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.
 
-BlueXP 분류는 일 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드에 구축"^] 또는 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^].
+BlueXP  분류는 또는 일 수 link:task-deploy-cloud-compliance.html["클라우드에 구축"^]link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^]있습니다.
 
 인스턴스가 인터넷에 연결되어 있는 경우 BlueXP 분류 소프트웨어로의 업그레이드가 자동화됩니다.
 
@@ -126,4 +126,4 @@ BlueXP 분류는 사용자가 추가한 Google Drive 계정의 파일 스캔을 
 
 == 규정 준수 스캔에서 Google Drive 계정을 제거합니다
 
-단일 사용자의 Google Drive 파일만 단일 Google Drive 계정의 일부이므로, 사용자의 Google Drive 계정에서 파일 검색을 중지하려면 다음을 수행해야 합니다 link:task-managing-compliance.html["BlueXP 분류에서 Google Drive 계정을 삭제합니다"].
+단일 사용자의 Google Drive 파일만 단일 Google Drive 계정의 일부이므로 사용자의 Google Drive 계정에서 파일 검색을 중지하려면 다음을 수행해야 link:task-managing-compliance.html["BlueXP 분류에서 Google Drive 계정을 삭제합니다"]합니다.

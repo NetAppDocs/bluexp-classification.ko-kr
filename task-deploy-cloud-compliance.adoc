@@ -16,7 +16,7 @@ summary: 클라우드에 BlueXP 분류를 배포하기 위한 몇 가지 단계�
 [role="lead"]
 클라우드에 BlueXP 분류를 배포하기 위한 몇 가지 단계를 완료합니다. BlueXP는 BlueXP Connector와 동일한 클라우드 제공업체 네트워크에 BlueXP 분류 인스턴스를 배포합니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 Linux 호스트에 BlueXP 분류를 설치합니다"]. 이 설치 유형은 사내에 위치한 BlueXP 분류 인스턴스를 사용하여 온프레미스 ONTAP 시스템을 스캔하려는 경우 좋은 옵션이 될 수 있지만 반드시 필요한 것은 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
+또한 가능합니다link:task-deploy-compliance-onprem.html["인터넷에 액세스할 수 있는 Linux 호스트에 BlueXP 분류를 설치합니다"]. 이 설치 유형은 사내에 위치한 BlueXP 분류 인스턴스를 사용하여 온프레미스 ONTAP 시스템을 스캔하려는 경우 좋은 옵션이 될 수 있지만 반드시 필요한 것은 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
 
 
 
@@ -26,16 +26,16 @@ summary: 클라우드에 BlueXP 분류를 배포하기 위한 몇 가지 단계�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 커넥터를 작성합니다
 [role="quick-margin-para"]
-아직 커넥터가 없으면 지금 연결선을 작성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^].
+아직 커넥터가 없으면 지금 연결선을 작성합니다. , https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^] 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^] 을 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터를 생성하는 중입니다"^] 참조하십시오.
 
 [role="quick-margin-para"]
-또한 가능합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트
+네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서도 사용할 수 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 있습니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토하십시오
 [role="quick-margin-para"]
-환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 BlueXP 분류 간의 연결 등이 포함됩니다. <<사전 요구 사항을 검토합니다,전체 목록을 참조하십시오>>.
+환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 BlueXP 분류 간의 연결 등이 포함됩니다. <<사전 요구 사항을 검토합니다,전체 목록을 참조하십시오>>..
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] BlueXP 분류를 배포합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] Deploy BlueXP  분류
 [role="quick-margin-para"]
 설치 마법사를 시작하여 클라우드에 BlueXP 분류 인스턴스를 배포합니다.
 
@@ -43,7 +43,7 @@ summary: 클라우드에 BlueXP 분류를 배포하기 위한 몇 가지 단계�
 
 == 커넥터를 작성합니다
 
-Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^] 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^]. 대부분의 경우 대부분의 경우 BlueXP 분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
+Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니다.  https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터를 생성하는 중입니다"^]또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^]를 참조하십시오. 대부분의 경우 BlueXP  분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다. 대부분의 경우 커넥터가 설정되어 있기 때문입니다. 하지만 지금 커넥터를 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP 기능을 사용하려면 커넥터가 필요합니다"] 설정해야 하는 경우도 있습니다.
 
 특정 클라우드 공급자에 배포된 Connector를 사용해야 하는 몇 가지 시나리오가 있습니다.
 
@@ -58,9 +58,9 @@ Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니�
 
 온프레미스 ONTAP 시스템, NetApp 파일 공유 및 데이터베이스는 이러한 클라우드 커넥터를 사용할 때 검사할 수 있습니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 네트워크 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
+네트워크 또는 클라우드의 Linux 호스트에서도 사용할 수 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector On-Premises를 설치합니다"^] 있습니다. BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
 
-보시다시피 을 사용해야 하는 몇 가지 상황이 있을 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#multiple-connectors["다중 커넥터"].
+보시다시피 를 사용해야 하는 몇 가지 상황이 있을 수 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#multiple-connectors["다중 커넥터"] 있습니다.
 
 
 
@@ -68,7 +68,7 @@ Connector가 없는 경우 클라우드 공급자에 Connector를 생성합니�
 
 정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 Connector를 구축한 경우 BlueXP 분류가 지원됩니다. 이러한 방식으로 배포된 BlueXP 분류에는 다음과 같은 제한 사항이 있습니다.
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.html["정부 지역에서 커넥터 배포에 대한 자세한 내용은 을 참조하십시오"^].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.html["정부 지역에서 커넥터 배포에 대한 자세한 내용은 을 참조하십시오"^]..
 
 
 
@@ -86,7 +86,7 @@ AWS, Azure 또는 GCP에서 BlueXP 분류를 배포하는지 여부에 따라 �
 
 [role="tabbed-block"]
 ====
-.AWS에 필요한 엔드포인트
+.AWS에 필요한 엔드포인입니다
 --
 [cols="43,57"]
 |===
@@ -96,16 +96,16 @@ AWS, Azure 또는 GCP에서 BlueXP 분류를 배포하는지 여부에 따라 �
 | https://api.bluexp.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com 으로 문의하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
+| \https://NetApp -cloud-account.auth0.com \https://auth0.com 를 참조하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
 
 
-| https://cloud-compliance-support-netapp.s3.us-west-2.amazonaws.com\https://hub.docker.com\https://auth.docker.io\https://registry-1.docker.io\https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 소프트웨어 이미지, 매니페스트 및 템플릿에 대한 액세스를 제공합니다. 
+| https://cloud-compliance-support- NetApp .s3.us-west-2.amazonaws.com \https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ 를 참조하십시오 | 소프트웨어 이미지, 매니페스트 및 템플릿에 대한 액세스를 제공합니다. 
 
 
-| https://kinesis.us-east-1.amazonaws.com 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
+| \https://kinesis.us-east-1.amazonaws.com | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
 
 
-| https://cognito-idp.us-east-1.amazonaws.com\https://cognito-identity.us-east-1.amazonaws.com\https://user-feedback-store-prod.s3.us-west-2.amazonaws.com\https://customer-data-production.s3.us-west-2.amazonaws.com | BlueXP 분류를 통해 매니페스트와 템플릿을 액세스 및 다운로드하고 로그 및 메트릭을 전송할 수 있습니다. 
+| \https://cognito-idp.us-east-1.amazonaws.com \https://cognito-identity.us-east-1.amazonaws.com \https://user-feedback-store-prod.s3.us-west-2.amazonaws.com \https://customer-data-production.s3.us-west-2.amazonaws.com | BlueXP 분류를 통해 매니페스트와 템플릿을 액세스 및 다운로드하고 로그 및 메트릭을 전송할 수 있습니다. 
 |===
 --
 .Azure에 필요한 엔드포인입니다
@@ -118,13 +118,13 @@ AWS, Azure 또는 GCP에서 BlueXP 분류를 배포하는지 여부에 따라 �
 | https://api.bluexp.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com 으로 문의하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
+| \https://NetApp -cloud-account.auth0.com \https://auth0.com 를 참조하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
 
 
-| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com\https://auth.docker.io\https://registry-1.docker.io\https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
+| \https://support.compliance.api.BlueXP .NetApp.com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ 을 참조하십시오 | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
 
 
-| https://support.compliance.api.bluexp.netapp.com/ 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
+| \https://support.compliance.api.BlueXP .NetApp.com/ | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
 |===
 --
 .GCP에 필요한 엔드포인입니다
@@ -137,23 +137,23 @@ AWS, Azure 또는 GCP에서 BlueXP 분류를 배포하는지 여부에 따라 �
 | https://api.bluexp.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com 으로 문의하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
+| \https://NetApp -cloud-account.auth0.com \https://auth0.com 를 참조하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
 
 
-| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com\https://auth.docker.io\https://registry-1.docker.io\https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
+| \https://support.compliance.api.BlueXP .NetApp.com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ 을 참조하십시오 | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
 
 
-| https://support.compliance.api.bluexp.netapp.com/ 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
+| \https://support.compliance.api.BlueXP .NetApp.com/ | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
 |===
 --
 ====
-BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 최신 BlueXP 사용 권한은 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^].
+BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 에서 최신 BlueXP  사용 권한을 찾을 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^] 수 있습니다.
 BlueXP 커넥터가 BlueXP 분류에 액세스할 수 있는지 확인합니다:: Connector와 BlueXP 분류 인스턴스 간의 연결을 확인합니다. Connector의 보안 그룹은 포트 443을 통해 BlueXP 분류 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다. 이 연결을 통해 BlueXP 분류 인스턴스를 배포할 수 있으며 규정 준수 및 거버넌스 탭에서 정보를 볼 수 있습니다. BlueXP 분류는 AWS 및 Azure의 정부 지역에서 지원됩니다.
 +
 --
-AWS 및 AWS GovCloud 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS의 커넥터 규칙"^] 를 참조하십시오.
+AWS 및 AWS GovCloud 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS의 Connector에 대한 규칙입니다"^] 참조하십시오.
 
-Azure 및 Azure Government 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure의 커넥터 규칙"^] 를 참조하십시오.
+Azure 및 Azure Government 배포에는 추가 인바운드 및 아웃바운드 보안 그룹 규칙이 필요합니다. 자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure의 커넥터 규칙"^] 참조하십시오.
 
 --
 BlueXP 분류를 계속 실행할 수 있는지 확인합니다:: 데이터를 지속적으로 스캔하려면 BlueXP 분류 인스턴스를 계속 사용해야 합니다.
@@ -163,7 +163,7 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다:: 데이터를 �
 BlueXP 분류 인스턴스는 개인 IP 주소를 사용하여 인덱싱된 데이터에 인터넷에서 액세스할 수 없도록 합니다. 따라서 BlueXP에 액세스하는 데 사용하는 웹 브라우저가 해당 개인 IP 주소에 연결되어 있어야 합니다. 이러한 연결은 클라우드 공급자(예: VPN)에 직접 연결되거나 BlueXP 분류 인스턴스와 동일한 네트워크 내에 있는 호스트에서 발생할 수 있습니다.
 
 --
-vCPU 한도를 확인하십시오:: 클라우드 공급자의 vCPU 제한에 따라 필요한 수의 코어를 사용하여 인스턴스를 구축할 수 있는지 확인합니다. BlueXP가 실행 중인 지역의 관련 인스턴스 제품군에 대한 vCPU 제한을 확인해야 합니다. link:concept-cloud-compliance.html#the-bluexp-classification-instance["필요한 인스턴스 유형을 참조하십시오"].
+vCPU 한도를 확인하십시오:: 클라우드 공급자의 vCPU 제한에 따라 필요한 수의 코어를 사용하여 인스턴스를 구축할 수 있는지 확인합니다. BlueXP가 실행 중인 지역의 관련 인스턴스 제품군에 대한 vCPU 제한을 확인해야 합니다. link:concept-cloud-compliance.html#the-bluexp-classification-instance["필요한 인스턴스 유형을 참조하십시오"]..
 +
 --
 vCPU 제한에 대한 자세한 내용은 다음 링크를 참조하십시오.

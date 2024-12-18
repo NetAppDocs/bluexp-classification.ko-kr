@@ -18,7 +18,7 @@ BlueXP 분류는 Amazon S3 버킷을 스캔하여 S3 오브젝트 스토리지�
 
 []
 ====
-* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다.
+* 참고 * 이 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.
 
 ====
 
@@ -29,13 +29,13 @@ BlueXP 분류는 Amazon S3 버킷을 스캔하여 S3 오브젝트 스토리지�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 클라우드 환경에서 S3 요구사항을 설정합니다
 [role="quick-margin-para"]
-IAM 역할 준비 및 BlueXP 분류에서 S3로의 연결 설정 등 클라우드 환경이 BlueXP 분류 요구 사항을 충족할 수 있는지 확인합니다. <<S3 사전 요구 사항 검토,전체 목록을 참조하십시오>>.
+IAM 역할 준비 및 BlueXP 분류에서 S3로의 연결 설정 등 클라우드 환경이 BlueXP 분류 요구 사항을 충족할 수 있는지 확인합니다. <<S3 사전 요구 사항 검토,전체 목록을 참조하십시오>>..
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 인스턴스를 배포합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP  분류 인스턴스를 배포합니다
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 인스턴스가 아직 배포되지 않은 경우
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] S3 작업 환경에서 BlueXP 분류를 활성화합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] S3 작업 환경에서 BlueXP  분류를 활성화합니다
 [role="quick-margin-para"]
 Amazon S3 작업 환경을 선택하고 * 활성화 * 를 클릭한 다음 필요한 권한이 포함된 IAM 역할을 선택합니다.
 
@@ -83,7 +83,7 @@ BlueXP 분류 인스턴스에 대해 IAM 역할을 설정합니다:: BlueXP 분�
 }
 ----
 --
-BlueXP 분류에서 Amazon S3로 연결을 제공합니다:: BlueXP 분류는 Amazon S3에 연결해야 합니다. 이 연결을 제공하는 가장 좋은 방법은 VPC 엔드포인트를 통해 S3 서비스로 연결하는 것입니다. 자세한 내용은 을 참조하십시오 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpce-gateway.html#create-gateway-endpoint["AWS 설명서: 게이트웨이 엔드포인트 생성"^].
+BlueXP 분류에서 Amazon S3로 연결을 제공합니다:: BlueXP 분류는 Amazon S3에 연결해야 합니다. 이 연결을 제공하는 가장 좋은 방법은 VPC 엔드포인트를 통해 S3 서비스로 연결하는 것입니다. 자세한 내용은 을 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpce-gateway.html#create-gateway-endpoint["AWS 설명서: 게이트웨이 엔드포인트 생성"^]참조하십시오.
 +
 --
 VPC 엔드포인트를 생성할 때 BlueXP 분류 인스턴스에 해당하는 지역, VPC 및 경로 테이블을 선택해야 합니다. 또한 S3 엔드포인트에 대한 트래픽을 활성화하는 아웃바운드 HTTPS 규칙을 추가하려면 보안 그룹을 수정해야 합니다. 그렇지 않으면 BlueXP 분류가 S3 서비스에 연결할 수 없습니다.
@@ -102,7 +102,7 @@ NOTE: 프록시를 사용하여 인터넷을 통해 S3로 연결할 수는 없�
 
 == BlueXP 분류 인스턴스 배포
 
-link:task-deploy-cloud-compliance.html["BlueXP에서 BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP에서 BlueXP 분류를 배포합니다"^] 인스턴스가 아직 배포되지 않은 경우
 
 BlueXP가 이 AWS 계정에서 S3 버킷을 자동으로 검색하여 Amazon S3 작업 환경에 표시되도록 AWS에 구축된 Connector를 사용하여 인스턴스를 구축해야 합니다.
 
@@ -126,7 +126,7 @@ image:screenshot_s3_we.gif["Amazon S3 작업 환경 아이콘의 스크린샷"]
 +
 image:screenshot_s3_enable_compliance.png["서비스 패널에서 BlueXP 분류 서비스를 활성화하는 스크린샷"]
 
-. 메시지가 표시되면 의 BlueXP 분류 인스턴스에 IAM 역할을 할당합니다 <<S3 사전 요구 사항 검토,필요한 권한>>.
+. 메시지가 표시되면 가 있는 BlueXP  분류 인스턴스에 IAM 역할을 <<S3 사전 요구 사항 검토,필요한 권한>>할당합니다.
 +
 image:screenshot_s3_compliance_iam_role.png["BlueXP 분류에 대한 AWS IAM 역할 입력 스크린샷"]
 
@@ -134,7 +134,7 @@ image:screenshot_s3_compliance_iam_role.png["BlueXP 분류에 대한 AWS IAM 역
 
 
 
-TIP: 를 클릭하여 구성 페이지에서 작업 환경에 대한 규정 준수 검사를 활성화할 수도 있습니다 image:screenshot_gallery_options.gif["세 개의 점"] 단추를 클릭하고 * BlueXP 분류 활성화 * 를 선택합니다.
+TIP: 구성 페이지에서 버튼을 클릭하고 * BlueXP  분류 활성화 * 를 선택하여 작업 환경에 대한 규정 준수 검사를 활성화할 수도 image:screenshot_gallery_options.gif["세 개의 점"]있습니다.
 
 .결과
 BlueXP는 인스턴스에 IAM 역할을 할당합니다.
@@ -147,7 +147,7 @@ BlueXP에서 Amazon S3에서 BlueXP 분류를 사용하도록 설정한 후 다�
 
 검사할 S3 버킷이 있는 AWS 계정에서 BlueXP가 실행되고 있으면 해당 버킷을 검색하여 Amazon S3 작업 환경에 표시합니다.
 
-BlueXP 분류도 가능합니다 <<추가 AWS 계정에서 버킷 스캔,서로 다른 AWS 계정에 있는 S3 버킷을 스캔합니다>>.
+BlueXP  분류도 <<추가 AWS 계정에서 버킷 스캔,서로 다른 AWS 계정에 있는 S3 버킷을 스캔합니다>>가능합니다.
 
 .단계
 . Amazon S3 작업 환경을 선택합니다.

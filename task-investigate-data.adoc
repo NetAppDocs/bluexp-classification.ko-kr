@@ -25,7 +25,7 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 
 조사 페이지의 내용을 필터링하여 원하는 결과만 표시할 수 있습니다. 이 기능은 데이터를 구체화한 후 페이지 상단의 단추 모음을 사용하여 파일 복사, 파일 이동, 파일에 태그 또는 AIP 레이블 추가 등의 다양한 작업을 수행할 수 있으므로 매우 강력한 기능입니다.
 
-페이지 내용을 구체화한 후 보고서로 다운로드하려면 을 클릭합니다 image:button_download.png["다운로드 버튼"] 단추를 클릭합니다. <<데이터 조사 보고서,데이터 조사 보고서에 대한 자세한 내용은 여기 를 참조하십시오>>.
+페이지 내용을 구체화한 후 보고서로 다운로드하려면 단추를 클릭합니다image:button_download.png["다운로드 버튼"]. <<데이터 조사 보고서,데이터 조사 보고서에 대한 자세한 내용은 여기 를 참조하십시오>>..
 
 image:screenshot_compliance_investigation_filtered.png["조사 페이지에서 결과를 구체화할 때 사용할 수 있는 필터의 스크린샷."]
 
@@ -45,24 +45,22 @@ image:screenshot_compliance_investigation_filtered.png["조사 페이지에서 �
 | 필터 | 세부 정보 
 
 
-| 범주 | 를 선택합니다 link:reference-private-data-categories.html#types-of-categories["범주 유형"^]. 
+| 범주 | 를 선택합니다.link:reference-private-data-categories.html#types-of-categories["범주 유형"^] 
 
 
 | 감도 수준 | 감도 수준(개인, 민감한 개인 또는 민감하지 않음)을 선택합니다. 
 
 
-| 식별자 수입니다 | 파일당 감지된 중요 식별자의 범위를 선택합니다. 개인 데이터 및 민감한 개인 데이터가 포함됩니다. 디렉터리에서 필터링할 때 BlueXP 분류는 각 폴더(및 하위 폴더)의 모든 파일에서 일치하는 항목의 합계를 구합니다.
-
-참고: 2023년 12월 (버전 1.26.6) 릴리스는 디렉토리로 개인 식별 정보 (PII) 데이터의 수를 계산하는 옵션을 제거했습니다. 
+| 식별자 수입니다 | 파일당 감지된 중요 식별자의 범위를 선택합니다. 개인 데이터 및 민감한 개인 데이터가 포함됩니다. 디렉터리에서 필터링할 때 BlueXP 분류는 각 폴더(및 하위 폴더)의 모든 파일에서 일치하는 항목의 합계를 구합니다. 참고: 2023년 12월 (버전 1.26.6) 릴리스는 디렉토리로 개인 식별 정보 (PII) 데이터의 수를 계산하는 옵션을 제거했습니다. 
 
 
-| 개인 데이터 | 를 선택합니다 link:reference-private-data-categories.html#types-of-personal-data["개인 데이터의 유형입니다"^]. 
+| 개인 데이터 | 를 선택합니다.link:reference-private-data-categories.html#types-of-personal-data["개인 데이터의 유형입니다"^] 
 
 
-| 민감한 개인 데이터 | 를 선택합니다 link:reference-private-data-categories.html#types-of-sensitive-personal-data["중요한 개인 데이터의 유형"^]. 
+| 민감한 개인 데이터 | 를 선택합니다.link:reference-private-data-categories.html#types-of-sensitive-personal-data["중요한 개인 데이터의 유형"^] 
 
 
-| 데이터 제목 | 데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. link:task-generating-compliance-reports.html#search-for-data-subjects-and-download-reports["여기에서 데이터 주제에 대해 자세히 알아보십시오"^]. 
+| 데이터 제목 | 데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. link:task-generating-compliance-reports.html#search-for-data-subjects-and-download-reports["여기에서 데이터 주제에 대해 자세히 알아보십시오"^].. 
 |===
 
 
@@ -129,7 +127,7 @@ BlueXP 분류는 SharePoint Online, SharePoint 온-프레미스(SharePoint Serve
 | 디렉터리 유형 | "공유" 또는 "폴더"와 같은 디렉토리 유형을 선택합니다. 
 
 
-| 파일 형식 | 를 선택합니다 link:reference-private-data-categories.html#types-of-files["파일 유형"^]. 
+| 파일 형식 | 를 선택합니다.link:reference-private-data-categories.html#types-of-files["파일 유형"^] 
 
 
 | 파일 크기 | 파일 크기 범위를 선택합니다. 
@@ -167,7 +165,7 @@ BlueXP 분류는 SharePoint Online, SharePoint 온-프레미스(SharePoint Serve
 | 필터 | 세부 정보 
 
 
-| 정책 | 정책 또는 정책을 선택합니다. 이동 link:task-using-policies.html["여기"^] 기존 정책 목록을 보고 고유한 사용자 지정 정책을 만들려면 
+| 정책 | 정책 또는 정책을 선택합니다. link:task-using-policies.html["여기"^]로 이동하여 기존 정책 목록을 보고 사용자 지정 정책을 만듭니다. 
 |===
 
 
@@ -185,7 +183,7 @@ BlueXP 분류는 SharePoint Online, SharePoint 온-프레미스(SharePoint Serve
 
 | 스캔 분석 이벤트 | BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없어 분류되지 않은 파일을 볼 것인지, 아니면 BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없더라도 분류된 파일을 볼 것인지 선택합니다. 
 |===
-link:reference-collected-metadata.html#last-access-time-timestamp[""마지막 액세스 시간" 타임스탬프에 대한 세부 정보를 봅니다"] 스캔 분석 이벤트를 사용하여 필터링할 때 조사 페이지에 표시되는 항목에 대한 자세한 내용은 을 참조하십시오.
+link:reference-collected-metadata.html#last-access-time-timestamp[""마지막 액세스 시간" 타임스탬프에 대한 세부 정보를 봅니다"] 스캔 분석 이벤트를 사용하여 필터링할 때 조사 페이지에 나타나는 항목에 대한 자세한 내용은 을 참조하십시오.
 
 
 
@@ -204,11 +202,11 @@ link:reference-collected-metadata.html#last-access-time-timestamp[""마지막 �
 
 == 파일 메타데이터 보기
 
-데이터 조사 결과 창에서 을(를) 클릭할 수 있습니다 image:button_down_caret.png["아래쪽 캐럿"] 모든 단일 파일에서 파일 메타데이터를 볼 수 있습니다.
+데이터 조사 결과 창에서 임의의 단일 파일을 클릭하여 image:button_down_caret.png["아래쪽 캐럿"]파일 메타데이터를 볼 수 있습니다.
 
 image:screenshot_compliance_file_details.png["데이터 조사 페이지의 파일에 대한 메타데이터 세부 정보를 보여 주는 스크린샷"]
 
-메타데이터는 작업 환경 및 파일이 상주하는 볼륨을 보여 줄 뿐 아니라 파일 권한, 파일 소유자 및 이 파일의 중복 존재 여부 등 훨씬 많은 정보를 보여 줍니다. 이 정보는 를 계획 중인 경우에 유용합니다 link:task-using-policies.html#create-custom-policies["정책을 생성합니다"] 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있기 때문입니다.
+메타데이터는 작업 환경 및 파일이 상주하는 볼륨을 보여 줄 뿐 아니라 파일 권한, 파일 소유자 및 이 파일의 중복 존재 여부 등 훨씬 많은 정보를 보여 줍니다. 이 정보는 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있으므로 을 계획 중인 경우에 link:task-using-policies.html#create-custom-policies["정책을 생성합니다"]유용합니다.
 
 모든 데이터 원본에 대해 모든 정보를 사용할 수 있는 것은 아니며 해당 데이터 원본에 적합한 정보일 뿐입니다. 예를 들어, 볼륨 이름과 권한은 데이터베이스 파일과 관련이 없습니다.
 
@@ -218,11 +216,11 @@ image:screenshot_compliance_file_details.png["데이터 조사 페이지의 파�
 
 파일이나 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹의 목록과 해당 권한이 있는 권한 유형을 보려면 * 모든 권한 보기 * 를 클릭합니다. 이 버튼은 CIFS 공유의 데이터에만 사용할 수 있습니다.
 
-사용자 및 그룹 이름 대신 SID(보안 식별자)가 표시되는 경우 Active Directory를 BlueXP 분류에 통합해야 합니다. link:task-add-active-directory-datasense.html["이 작업을 수행하는 방법을 확인하십시오"].
+사용자 및 그룹 이름 대신 SID(보안 식별자)가 표시되는 경우 Active Directory를 BlueXP 분류에 통합해야 합니다. link:task-add-active-directory-datasense.html["이 작업을 수행하는 방법을 확인하십시오"]..
 
 image:screenshot_compliance_permissions.png["자세한 파일 사용 권한을 보여 주는 스크린샷"]
 
-를 클릭할 수 있습니다 image:button_down_caret.png["아래쪽 캐럿"] 모든 그룹에 대해 그룹에 속한 사용자 목록을 표시합니다.
+그룹을 클릭하면 image:button_down_caret.png["아래쪽 캐럿"]그룹에 속한 사용자 목록을 볼 수 있습니다.
 
 또한, 사용자 또는 그룹의 이름을 클릭하면 "사용자/그룹 권한" 필터에 입력된 사용자 또는 그룹의 이름과 함께 조사 페이지가 표시되어 사용자 또는 그룹이 액세스할 수 있는 모든 파일 및 디렉터리를 볼 수 있습니다.
 
@@ -236,7 +234,7 @@ image:screenshot_compliance_permissions.png["자세한 파일 사용 권한을 �
 
 BlueXP 분류는 해시 기술을 사용하여 중복 파일을 결정합니다. 파일에 다른 파일과 동일한 해시 코드가 있으면 파일 이름이 다르더라도 파일이 정확하게 중복되었는지 100% 확인할 수 있습니다.
 
-중복 파일 목록을 다운로드하여 스토리지 관리자에게 전송하여 삭제할 수 있는 파일이 있는지 확인할 수 있습니다. 아니면 가능합니다 link:task-managing-highlights.html#delete-source-files["파일을 삭제합니다"] 특정 버전의 파일이 필요하지 않을 경우
+중복 파일 목록을 다운로드하여 스토리지 관리자에게 전송하여 삭제할 수 있는 파일이 있는지 확인할 수 있습니다. 또는 특정 버전의 파일이 필요하지 않다고 확신할 수도 link:task-managing-highlights.html#delete-source-files["파일을 삭제합니다"]있습니다.
 
 
 
@@ -250,7 +248,7 @@ BlueXP 분류는 해시 기술을 사용하여 중복 파일을 결정합니다.
 
 === 특정 파일이 복제되었는지 확인합니다
 
-단일 파일에 중복이 있는지 확인하려면 데이터 조사 결과 창에서 을(를) 클릭합니다 image:button_down_caret.png["아래쪽 캐럿"] 모든 단일 파일에서 파일 메타데이터를 볼 수 있습니다. 특정 파일의 복제본이 있는 경우 이 정보는 _Duplicates_ 필드 옆에 표시됩니다.
+단일 파일에 중복된 파일이 있는지 확인하려면 데이터 조사 결과 창에서 임의의 파일을 클릭하여 image:button_down_caret.png["아래쪽 캐럿"]파일 메타데이터를 볼 수 있습니다. 특정 파일의 복제본이 있는 경우 이 정보는 _Duplicates_ 필드 옆에 표시됩니다.
 
 중복 파일 목록과 파일이 있는 위치를 보려면 * 세부 정보 보기 * 를 클릭합니다. 다음 페이지에서 * 중복 보기 * 를 클릭하여 조사 페이지에서 파일을 봅니다.
 
@@ -274,7 +272,7 @@ BlueXP 분류가 파일(비정형 데이터), 디렉토리(폴더 및 파일 공
 === 데이터 조사 보고서를 생성합니다
 
 .단계
-. 데이터 조사 페이지에서 을 클릭합니다 image:button_download.png["다운로드 버튼"] 버튼을 클릭합니다.
+. Data Investigation 페이지에서 페이지 오른쪽 상단의 버튼을 클릭합니다image:button_download.png["다운로드 버튼"].
 . 을(를) 다운로드하려면 을(를) 선택합니다. CSV 데이터 보고서를 입력하고 * 보고서 다운로드 * 를 클릭합니다.
 +
 image:screenshot_compliance_investigation_report.png["여러 옵션이 있는 조사 보고서 다운로드 페이지의 스크린샷."]

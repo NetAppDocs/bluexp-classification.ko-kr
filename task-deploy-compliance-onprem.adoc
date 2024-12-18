@@ -18,7 +18,7 @@ summary: 네트워크의 Linux 호스트 또는 인터넷 액세스가 가능한
 
 온프레미스에도 위치한 BlueXP 분류 인스턴스를 사용하여 온프레미스 ONTAP 시스템을 스캔하려는 경우 온프레미스 설치가 좋은 옵션이 될 수 있지만, 이는 필수 사항이 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.
 
-BlueXP 분류 설치 스크립트는 시스템 및 환경이 필수 전제 조건을 충족하는지 확인하는 것으로 시작됩니다. 필수 구성 요소가 모두 충족되면 설치가 시작됩니다. BlueXP 분류 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다. link:task-test-linux-system.html["Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인하는 방법을 참조하십시오"].
+BlueXP 분류 설치 스크립트는 시스템 및 환경이 필수 전제 조건을 충족하는지 확인하는 것으로 시작됩니다. 필수 구성 요소가 모두 충족되면 설치가 시작됩니다. BlueXP 분류 설치를 실행하는 것과 별도로 필수 구성 요소를 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 소프트웨어 패키지가 있습니다. link:task-test-linux-system.html["Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인하는 방법을 참조하십시오"]..
 
 Linux 호스트 _ 의 일반적인 설치 방법은 다음과 같습니다.
 
@@ -29,7 +29,7 @@ image:diagram_deploy_onprem_overview.png["필요한 BlueXP 및 네트워크 구�
 image:diagram_deploy_onprem_cloud_instance.png["필요한 BlueXP 및 네트워크 구성 요소 및 관련 연결의 다이어그램"]
 
 
-NOTE: 기존 버전 1.30 이하의 경우 여러 호스트에 BlueXP 분류를 설치해야 하는 경우, 을 참조하십시오 link:task-deploy-multi-host-install-dark-site.html["인터넷에 액세스할 수 없는 여러 호스트에 BlueXP 분류를 설치합니다"].
+NOTE: 레거시 버전 1.30 및 이전 버전의 경우 여러 호스트에 BlueXP  분류를 설치해야 하는 경우 을 참조하십시오link:task-deploy-multi-host-install-dark-site.html["인터넷에 액세스할 수 없는 여러 호스트에 BlueXP 분류를 설치합니다"].
 
 할 수도 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 사내 사이트에 BlueXP 분류를 설치합니다"]있습니다.
 
@@ -41,19 +41,19 @@ NOTE: 기존 버전 1.30 이하의 경우 여러 호스트에 BlueXP 분류를 �
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 커넥터를 작성합니다
 [role="quick-margin-para"]
-커넥터가 없는 경우 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트
+Connector, 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에 아직 없는 경우 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^]
 
 [role="quick-margin-para"]
-또한 클라우드 공급자와 커넥터를 생성할 수도 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^].
+또한 클라우드 공급자와 커넥터를 생성할 수도 있습니다. , https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^] 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^] 을 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터를 생성하는 중입니다"^] 참조하십시오.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 사전 요구 사항을 검토하십시오
 [role="quick-margin-para"]
-환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 BlueXP 분류 간의 연결 등이 포함됩니다. <<BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다,전체 목록을 참조하십시오>>.
+환경이 필수 조건을 충족할 수 있는지 확인합니다. 여기에는 인스턴스에 대한 아웃바운드 인터넷 액세스, 포트 443을 통한 커넥터와 BlueXP 분류 간의 연결 등이 포함됩니다. <<BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다,전체 목록을 참조하십시오>>..
 
 [role="quick-margin-para"]
-또한 을 충족하는 Linux 시스템도 필요합니다 <<Linux 호스트 시스템을 준비합니다,따르는 요구사항>>.
+또한 를 충족하는 Linux 시스템이 <<Linux 호스트 시스템을 준비합니다,따르는 요구사항>>필요합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] BlueXP 분류를 다운로드하고 배포합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] BlueXP  분류를 다운로드하고 배포합니다
 [role="quick-margin-para"]
 NetApp Support 사이트에서 클라우드 BlueXP 분류 소프트웨어를 다운로드하고 사용할 Linux 호스트에 설치 프로그램 파일을 복사합니다. 그런 다음 설치 마법사를 시작하고 화면의 지시에 따라 BlueXP 분류 인스턴스를 배포합니다.
 
@@ -61,9 +61,9 @@ NetApp Support 사이트에서 클라우드 BlueXP 분류 소프트웨어를 다
 
 == 커넥터를 작성합니다
 
-BlueXP 분류를 설치하고 사용하려면 먼저 BlueXP 커넥터가 필요합니다. 대부분의 경우 대부분의 경우 BlueXP 분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["BlueXP 기능을 사용하려면 커넥터가 필요합니다"]하지만 지금 설정해야 하는 경우도 있습니다.
+BlueXP 분류를 설치하고 사용하려면 먼저 BlueXP 커넥터가 필요합니다. 대부분의 경우 BlueXP  분류를 활성화하기 전에 커넥터가 설정되어 있을 수 있습니다. 대부분의 경우 커넥터가 설정되어 있기 때문입니다. 하지만 지금 커넥터를 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["BlueXP 기능을 사용하려면 커넥터가 필요합니다"] 설정해야 하는 경우도 있습니다.
 
-클라우드 공급자 환경에 하나를 생성하려면 를 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터 생성"^], https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^], 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^].
+클라우드 공급자 환경에서 계정을 생성하려면, https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Azure에서 커넥터 만들기"^] 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["GCP에서 커넥터를 생성하는 중입니다"^] 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS에서 커넥터를 생성하는 중입니다"^].
 
 특정 클라우드 공급자에 배포된 Connector를 사용해야 하는 몇 가지 시나리오가 있습니다.
 
@@ -77,7 +77,7 @@ Azure NetApp Files의 경우 스캔하려는 볼륨과 동일한 영역에 배�
 
 온프레미스 ONTAP 시스템, NetApp 파일 공유 및 데이터베이스 계정은 이러한 클라우드 커넥터를 사용하여 검사할 수 있습니다.
 
-참고: 또한 이 기능을 사용할 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^] 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트 BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
+네트워크의 Linux 호스트나 클라우드의 Linux 호스트에서도 사용할 수 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["Connector를 온-프레미스에 배포합니다"^] 있습니다. BlueXP 분류를 사내에서 설치하려는 일부 사용자는 Connector를 내부에 설치할 수도 있습니다.
 
 BlueXP 분류를 설치할 때 커넥터 시스템의 IP 주소 또는 호스트 이름이 필요합니다. 이 정보는 구내에 Connector를 설치한 경우 확인할 수 있습니다. Connector가 클라우드에 배포된 경우 BlueXP 콘솔에서 이 정보를 찾을 수 있습니다. 도움말 아이콘을 클릭하고 * 지원 * 을 선택한 다음 * BlueXP 커넥터 * 를 클릭합니다.
 
@@ -97,22 +97,16 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 | 시스템 크기 | CPU | RAM(스왑 메모리는 비활성화 상태여야 함) | 디스크 
 
 
-| * 초대형 * | 32개의 CPU | 128GB RAM | /, 또는 의 1TiB SSD
-/opt에서 -100GiB를 사용할 수 있습니다
--895GiB는 /var/lib/docker에서 사용할 수 있습니다
-/tmp에 -5GiB입니다 
+| * 초대형 * | 32개의 CPU | 128GB RAM | /opt-895GiB에서 1TiB SSD를 사용하거나 -100GiB를 /var/lib/docker에서 사용할 수 있음 - /tmp에서 5GiB 사용 가능 
 
 
-| * 대형 * | CPU 16개 | 64GB RAM | 500GiB SSD 켜짐/또는
-/opt에서 -100GiB를 사용할 수 있습니다
--395GiB는 /var/lib/docker, Podman/var/lib/컨테이너 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
-/tmp에 -5GiB입니다 
+| * 대형 * | 16개의 CPU | 64GB RAM | /opt-395GiB에서 /var/lib/docker 또는 Podman/var/lib/컨테이너 또는 Podman/var/lib/containers - /tmp에서 500GiB SSD를 사용하거나 -100GiB에서 사용 가능 
 |===
 * BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
 +
-** * Amazon Elastic Compute Cloud(Amazon EC2) 인스턴스 유형 *: "m6i.4xlarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^].
-** * Azure VM size *: "Standard_D16s_v3"을 권장합니다. link:reference-instance-types.html#azure-instance-types["추가 Azure 인스턴스 유형을 참조하십시오"^].
-** * GCP 시스템 유형 *: "n2-standard-16"을 권장합니다. link:reference-instance-types.html#gcp-instance-types["추가 GCP 인스턴스 유형을 참조하십시오"^].
+** * Amazon Elastic Compute Cloud(Amazon EC2) 인스턴스 유형 *: "m6i.4xlarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^]..
+** * Azure VM size *: "Standard_D16s_v3"을 권장합니다. link:reference-instance-types.html#azure-instance-types["추가 Azure 인스턴스 유형을 참조하십시오"^]..
+** * GCP 시스템 유형 *: "n2-standard-16"을 권장합니다. link:reference-instance-types.html#gcp-instance-types["추가 GCP 인스턴스 유형을 참조하십시오"^]..
 
 
 * UNIX 폴더 권한 *: 다음과 같은 최소 UNIX 권한이 필요합니다.
@@ -154,7 +148,7 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 +
 ** 사용 중인 OS에 따라 컨테이너 엔진 중 하나를 설치해야 합니다.
 +
-*** Docker Engine 버전 19.3.1 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
+*** Docker Engine 버전 19.3.1 이상 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]..
 *** Podman 버전 4 이상 Podman을 (`sudo yum install podman netavark -y`설치하려면)를 입력합니다.
 
 
@@ -162,10 +156,10 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 
 
 
-* Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^].
+* Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^]..
 +
 ** * NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP Connector 시스템 간에 시간을 동기화해야 합니다.
-** * Firewalld 고려 사항 *: 사용하려는 경우 `firewalld`BlueXP 분류를 설치하기 전에 활성화하는 것이 좋습니다. 다음 명령을 실행하여 구성합니다 `firewalld` 따라서 BlueXP 분류와 호환됩니다.
+** * 방화벽 고려 사항 *: 를 사용할 계획이라면 `firewalld` BlueXP  분류를 설치하기 전에 사용하도록 설정하는 것이 좋습니다. 다음 명령을 실행하여 `firewalld` BlueXP  분류와 호환되도록 구성합니다.
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -186,7 +180,7 @@ firewall-cmd --permanent --add-port=7946/tcp
 firewall-cmd --permanent --add-port=4789/udp
 ....
 +
-Docker 또는 Podman을 활성화 또는 업데이트할 때마다 다시 시작해야 합니다 `firewalld` 설정.
+설정을 활성화하거나 업데이트할 때마다 Docker 또는 Podman을 다시 시작해야 `firewalld` 합니다.
 
 
 
@@ -209,20 +203,19 @@ BlueXP 분류에는 아웃바운드 인터넷 액세스가 필요합니다. 가�
 | https://api.bluexp.netapp.com 으로 문의하십시오 | NetApp 계정을 포함한 BlueXP 서비스와 통신합니다. 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com 으로 문의하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
+| \https://NetApp -cloud-account.auth0.com \https://auth0.com 를 참조하십시오 | BlueXP 웹 사이트와 통신하여 중앙 집중식 사용자 인증. 
 
 
-| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com\https://auth.docker.io\https://registry-1.docker.io\https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
+| \https://support.compliance.api.BlueXP .NetApp.com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ 을 참조하십시오 | 소프트웨어 이미지, 매니페스트, 템플릿에 액세스하고 로그 및 메트릭을 보낼 수 있습니다. 
 
 
-| https://support.compliance.api.bluexp.netapp.com/ 으로 문의하십시오 | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
+| \https://support.compliance.api.BlueXP .NetApp.com/ | NetApp에서 감사 레코드의 데이터를 스트리밍할 수 있습니다. 
 
 
 | https://github.com/docker \https://download.docker.com 으로 문의하십시오 | Docker 설치를 위한 사전 필수 패키지를 제공합니다. 
 
 
-| \http://packages.ubuntu.com/
-\http://archive.ubuntu.com | Ubuntu 설치를 위한 필수 패키지를 제공합니다. 
+| \http://packages.ubuntu.com/ \http://archive.ubuntu.com | Ubuntu 설치를 위한 필수 패키지를 제공합니다. 
 |===
 
 
@@ -281,16 +274,16 @@ Active Directory에 대한 정보가 있어야 합니다.
 
 == Linux 호스트에 BlueXP 분류를 설치합니다
 
-일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다. <<일반 구성을 위한 단일 호스트 설치,여기에서 해당 단계를 확인하십시오>>.
+일반적인 구성의 경우 단일 호스트 시스템에 소프트웨어를 설치합니다. <<일반 구성을 위한 단일 호스트 설치,여기에서 해당 단계를 확인하십시오>>..
 
 image:diagram_deploy_onprem_single_host_internet.png["인터넷에 연결된 단일 BlueXP 분류 인스턴스를 사용할 때 스캔할 수 있는 데이터 소스의 위치를 보여주는 다이어그램입니다."]
 
-을 참조하십시오 <<Linux 호스트 시스템을 준비합니다,Linux 호스트 시스템 준비>> 및 <<BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다,사전 요구 사항 검토>> BlueXP 분류를 배포하기 전에 필요한 전체 목록을 확인하십시오.
+BlueXP  분류를 배포하기 전에 전체 요구 사항 목록은 및 <<BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다,사전 요구 사항 검토>>를 <<Linux 호스트 시스템을 준비합니다,Linux 호스트 시스템 준비>>참조하십시오.
 
 인스턴스가 인터넷에 연결되어 있는 경우 BlueXP 분류 소프트웨어로의 업그레이드가 자동화됩니다.
 
 
-NOTE: BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTAP용 S3 버킷, Azure NetApp Files 또는 FSx를 스캔할 수 없습니다. 이러한 경우 클라우드 및 에 별도의 Connector 및 BlueXP 분류 인스턴스를 배포해야 합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["커넥터 사이를 전환합니다"^] 다양한 데이터 소스에 대해
+NOTE: BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTAP용 S3 버킷, Azure NetApp Files 또는 FSx를 스캔할 수 없습니다. 이 경우 클라우드 및 다른 데이터 원본에 대해 별도의 BlueXP  분류 커넥터 및 인스턴스를 배포해야 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["커넥터 사이를 전환합니다"^] 합니다.
 
 
 
@@ -298,12 +291,12 @@ NOTE: BlueXP 분류는 소프트웨어가 사내에 설치된 경우 현재 ONTA
 
 단일 온-프레미스 호스트에 BlueXP 분류 소프트웨어를 설치할 때 요구 사항을 검토하고 다음 단계를 따르십시오.
 
-https://youtu.be/rFpmekdbORc["이 비디오 시청"^] BlueXP 분류 설치 방법을 확인합니다.
+https://youtu.be/rFpmekdbORc["이 비디오 시청"^] BlueXP  분류를 설치하는 방법을 참조하십시오.
 
-모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 기록됩니다 `/opt/netapp/install_logs/`. link:task-audit-data-sense-actions.html["자세한 내용은 여기에서 확인하십시오."].
+모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 `/opt/netapp/install_logs/`기록됩니다. link:task-audit-data-sense-actions.html["자세한 내용은 여기에서 확인하십시오."]..
 
 .필요한 것
-* Linux 시스템이 를 충족하는지 확인합니다 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>.
+* Linux 시스템이 를 충족하는지 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>확인합니다.
 * 시스템에 2개의 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)가 설치되어 있는지 확인합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
 * 인터넷 액세스에 프록시를 사용하는 경우:
@@ -314,12 +307,12 @@ https://youtu.be/rFpmekdbORc["이 비디오 시청"^] BlueXP 분류 설치 방�
 ** 사용자는 로컬 사용자여야 합니다. 도메인 사용자는 지원되지 않습니다.
 
 
-* 오프라인 환경이 필요한 를 충족하는지 확인합니다 <<BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다,사용 권한 및 연결>>.
+* 오프라인 환경이 필요한 를 충족하는지 <<BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다,사용 권한 및 연결>>확인합니다.
 
 
 .단계
-. 에서 BlueXP 분류 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp Support 사이트"^]. 선택해야 하는 파일의 이름은 * DATASENSE-INinstaller-<version>.tar.gz * 입니다.
-. 설치 프로그램 파일을 사용하려는 Linux 호스트에 복사합니다(scp 또는 다른 방법 사용).
+. 에서 BlueXP  분류 소프트웨어를 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp Support 사이트"^] 다운로드합니다. 선택해야 하는 파일의 이름은 * DATASENSE-INinstaller-<version>.tar.gz * 입니다.
+. 사용할 Linux 호스트에 설치 프로그램 파일을 복사합니다(또는 다른 방법 사용 `scp`).
 . 호스트 시스템에서 설치 프로그램 파일의 압축을 풉니다. 예를 들면 다음과 같습니다.
 +
 [source, cli]
@@ -335,10 +328,10 @@ image:screenshot_cloud_compliance_deploy_start.png["BlueXP 분류를 활성화�
 +
 image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 시스템에 BlueXP 분류를 배포하기 위한 버튼을 선택하는 스크린샷"]
 
-. Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령을 복사합니다(예: `sudo ./install.sh -a 12345 -c 27AG75 -t 2198qq`)를 사용하여 텍스트 파일에 붙여 넣어 나중에 사용할 수 있습니다. 그런 다음 * 닫기 * 를 클릭하여 대화 상자를 닫습니다.
+. Deploy Data Sense on Premises_대화 상자가 표시됩니다. 제공된 명령(예 `sudo ./install.sh -a 12345 -c 27AG75 -t 2198qq`:)을 복사하여 나중에 사용할 수 있도록 텍스트 파일에 붙여 넣습니다. 그런 다음 * 닫기 * 를 클릭하여 대화 상자를 닫습니다.
 . 호스트 시스템에서 복사한 명령을 입력한 다음 일련의 프롬프트를 따르거나 필요한 모든 매개 변수를 명령줄 인수로 포함하여 전체 명령을 제공할 수 있습니다.
 +
-설치 프로그램은 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되어 있는지 확인합니다. https://youtu.be/_RCYpuLXiV0["이 비디오 시청"^] 사전 점검 메시지 및 의미를 이해합니다.
+설치 프로그램은 사전 검사를 수행하여 성공적으로 설치할 수 있도록 시스템 및 네트워킹 요구 사항이 제대로 갖추어져 있는지 확인합니다. https://youtu.be/_RCYpuLXiV0["이 비디오 시청"^] 사전 확인 메시지 및 의미를 이해합니다.
 
 +
 [cols="50a,50"]
@@ -350,7 +343,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 
 .. 7단계에서 복사한 명령을 붙여 넣습니다.
 `sudo ./install.sh -a <account_id> -c <client_id> -t <user_token>`
 +
-구내에 설치하지 않고 클라우드 인스턴스에 설치하는 경우 를 추가합니다 `--manual-cloud-install <cloud_provider>`.
+(구내에 있지 않은) 클라우드 인스턴스에 설치하는 경우 를 추가합니다 `--manual-cloud-install <cloud_provider>`.
 
 .. BlueXP 분류 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 Connector 시스템에서 액세스할 수 있도록 합니다.
 .. BlueXP 커넥터 호스트 시스템의 IP 주소 또는 호스트 이름을 입력하여 BlueXP 분류 시스템에서 액세스할 수 있습니다.
@@ -380,7 +373,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["클라우드 또는 사내 
 
 
 .결과
-BlueXP 분류 설치 프로그램은 패키지를 설치하고, 설치를 등록하고, BlueXP 분류를 설치합니다. 설치는 10분에서 20분 정도 걸릴 수 있습니다.
+BlueXP 분류 설치 프로그램은 패키지를 설치하고, 설치를 등록하고, BlueXP 분류를 설치합니다. 설치에는 10 ~ 20분이 소요될 수 있습니다.
 
 호스트 시스템과 커넥터 인스턴스 간에 포트 8080을 통해 연결되어 있는 경우 BlueXP의 BlueXP 분류 탭에서 설치 진행 상황을 확인할 수 있습니다.
 

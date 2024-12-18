@@ -27,16 +27,16 @@ BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터 스캔을
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 오브젝트 스토리지의 사전 요구 사항을 검토합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 개체 스토리지 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
 객체 스토리지 서비스에 연결하려면 엔드포인트 URL이 있어야 합니다.
 
 [role="quick-margin-para"]
 BlueXP 분류가 버킷에 액세스할 수 있도록 객체 스토리지 공급업체의 액세스 키 및 비밀 키가 있어야 합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 인스턴스를 배포합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP  분류 인스턴스를 배포합니다
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 인스턴스가 아직 배포되지 않은 경우
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 오브젝트 스토리지 서비스를 추가합니다
 [role="quick-margin-para"]
@@ -62,9 +62,9 @@ BlueXP 분류를 활성화하기 전에 다음 필수 구성 요소를 검토하
 
 배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.
 
-인터넷을 통해 액세스할 수 있는 S3 오브젝트 스토리지에서 데이터를 스캔하는 경우 link:task-deploy-cloud-compliance.html["클라우드에 BlueXP 분류를 배포합니다"^] 또는 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치에 BlueXP 분류를 배포합니다"^].
+인터넷을 통해 액세스할 수 있는 S3 오브젝트 스토리지의 데이터를 스캔하는 경우 또는 를 수행할 수 있습니다link:task-deploy-cloud-compliance.html["클라우드에 BlueXP 분류를 배포합니다"^].link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치에 BlueXP 분류를 배포합니다"^]
 
-인터넷에 액세스할 수 없는 어두운 사이트에 설치된 S3 오브젝트 스토리지에서 데이터를 스캔하는 경우, 다음을 수행해야 합니다 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 동일한 사내 위치에 BlueXP 분류를 배포합니다"^]. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.
+인터넷 액세스가 없는 다크 사이트에 설치된 S3 오브젝트 스토리지의 데이터를 스캔하는 경우, 을(를) 수행해야 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 동일한 사내 위치에 BlueXP 분류를 배포합니다"^]합니다. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.
 
 인스턴스가 인터넷에 연결되어 있는 경우 BlueXP 분류 소프트웨어로의 업그레이드가 자동화됩니다.
 

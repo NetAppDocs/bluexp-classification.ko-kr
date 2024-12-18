@@ -18,7 +18,7 @@ BlueXP 분류를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정
 
 []
 ====
-* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다.
+* 참고 * 이 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.
 
 ====
 
@@ -31,15 +31,15 @@ BlueXP 분류를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정
 [role="quick-margin-para"]
 SharePoint 계정에 로그인할 수 있는 자격 증명이 있고 검색할 SharePoint 사이트의 URL이 있는지 확인합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 인스턴스를 배포합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP  분류 인스턴스를 배포합니다
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 인스턴스가 아직 배포되지 않은 경우
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] SharePoint 계정에 로그인합니다
 [role="quick-margin-para"]
 자격 있는 사용자 자격 증명을 사용하여 액세스할 SharePoint 계정에 로그인하여 새 데이터 원본/작업 환경으로 추가합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 검사할 SharePoint 사이트 URL을 추가합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 검색할 SharePoint 사이트 URL을 추가합니다
 [role="quick-margin-para"]
 SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하고 검색 유형을 선택합니다. 한 번에 최대 100개의 URL을 추가할 수 있으며 각 계정에 대해 최대 1,000개의 사이트를 추가할 수 있습니다.
 
@@ -64,11 +64,11 @@ SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하�
 
 배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.
 
-* SharePoint Online의 경우 BlueXP 분류는 일 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드에 구축"^].
-* SharePoint 온-프레미스의 경우 BlueXP 분류를 설치할 수 있습니다 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^] 또는 link:task-deploy-compliance-dark-site.html["인터넷 액세스가 없는 온프레미스 위치"^].
+* SharePoint Online의 경우 BlueXP  분류가 될 수 link:task-deploy-cloud-compliance.html["클라우드에 구축"^]있습니다.
+* SharePoint 온-프레미스의 경우 BlueXP  분류를  link:task-deploy-compliance-dark-site.html["인터넷 액세스가 없는 온프레미스 위치"^]설치하거나 설치할 수 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^]있습니다.
 
 
-인터넷에 연결되지 않은 사이트에 BlueXP 분류를 설치하는 경우 인터넷에 액세스하지 않고 BlueXP 커넥터도 같은 사이트에 설치해야 합니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["자세한 정보"^].
+인터넷 액세스가 없는 사이트에 BlueXP  분류를 설치하는 경우 인터넷 액세스 없이 동일한 사이트에 BlueXP  커넥터도 설치해야 합니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["자세한 정보"^]..
 
 인스턴스가 인터넷에 연결되어 있는 경우 BlueXP 분류 소프트웨어로의 업그레이드가 자동화됩니다.
 
@@ -174,4 +174,4 @@ BlueXP 분류는 사용자가 추가한 SharePoint 사이트의 파일을 검사
 
 image:screenshot_compliance_sharepoint_remove_site.png["단일 SharePoint 사이트의 파일 검색 방법을 보여 주는 스크린샷"]
 
-참고: 이 작업은 수행할 수 있습니다 link:task-managing-compliance.html["BlueXP 분류에서 전체 SharePoint 계정을 삭제합니다"] SharePoint 계정에서 사용자 데이터를 더 이상 검색하지 않으려는 경우
+SharePoint 계정에서 사용자 데이터를 더 이상 검색하지 않으려는 경우 사용할 수 link:task-managing-compliance.html["BlueXP 분류에서 전체 SharePoint 계정을 삭제합니다"]있습니다.

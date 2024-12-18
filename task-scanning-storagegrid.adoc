@@ -29,9 +29,9 @@ StorageGRID 서비스에 연결하려면 끝점 URL이 있어야 합니다.
 [role="quick-margin-para"]
 BlueXP  분류가 버킷에 액세스할 수 있도록 StorageGRID의 액세스 키 및 비밀 키가 있어야 합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 인스턴스를 배포합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP  분류 인스턴스를 배포합니다
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 인스턴스가 아직 배포되지 않은 경우
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] StorageGRID 서비스를 추가합니다
 [role="quick-margin-para"]

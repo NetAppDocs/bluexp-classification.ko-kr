@@ -33,7 +33,7 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 
 []
 ====
-* 참고 * 태그, 레이블 및 할당된 사용자를 기준으로 필터링하는 기능은 BlueXP 분류 버전 1.30 이상에만 해당됩니다.
+* 참고 * 태그, 레이블 및 할당된 사용자를 기준으로 필터링하는 기능은 BlueXP  분류 버전 1.30 이하에만 해당됩니다.
 
 ====
 [cols="30,60"]
@@ -41,13 +41,13 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 | 필터 | 세부 정보 
 
 
-| 정책 | 정책 또는 정책을 선택합니다. 이동 link:task-using-policies.html["여기"^] 기존 정책 목록을 보고 고유한 사용자 지정 정책을 만들려면 
+| 정책 | 정책 또는 정책을 선택합니다. link:task-using-policies.html["여기"^]로 이동하여 기존 정책 목록을 보고 사용자 지정 정책을 만듭니다. 
 
 
-| 라벨 | 를 선택합니다 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 레이블"] 파일에 할당됩니다. 
+| 라벨 | 파일에 할당된 항목을 선택합니다link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 레이블"]. 
 
 
-| 태그 | 를 선택합니다 link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["태그 또는 태그"] 파일에 할당됩니다. 
+| 태그 | 파일에 할당된 항목을 선택합니다link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["태그 또는 태그"]. 
 
 
 | 할당 대상 | 파일이 할당된 사람의 이름을 선택합니다. 
@@ -74,7 +74,7 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 +
 []
 ====
-* 참고 * 에서 보고서를 생성할 수 있는 기능. JSON 형식은 BlueXP 분류 버전 1.30 이하에만 적용됩니다.
+* 참고 * 보고서를 .JSON 형식으로 생성하는 기능은 BlueXP  분류 버전 1.30 이하에만 해당됩니다.
 
 ====
 
@@ -82,18 +82,18 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 BlueXP 분류가 파일(비정형 데이터), 디렉토리(폴더 및 파일 공유) 및 데이터베이스(정형 데이터)를 검사하는 경우 최대 3개의 보고서 파일을 다운로드할 수 있습니다.
 
 .단계
-. 데이터 조사 페이지에서 을 클릭합니다 image:button_download.png["다운로드 버튼"] 버튼을 클릭합니다.
+. Data Investigation 페이지에서 페이지 오른쪽 상단의 버튼을 클릭합니다image:button_download.png["다운로드 버튼"].
 . 데이터의 .csv 보고서 또는 .JSON 보고서를 다운로드할지 여부를 선택하고 * 보고서 다운로드 * 를 클릭합니다.
 +
-JSON 보고서를 선택할 때 보고서를 다운로드할 NFS 공유의 이름을 '<host_name>:/<share_path>' 형식으로 입력합니다.
+JSON 보고서를 선택할 때 보고서를 다운로드할 NFS 공유의 이름을 형식으로 입력합니다 `<host_name>:/<share_path>`.
 
 +
-에서 JSON 보고서 생성 진행률을 볼 수 있습니다 link:task-view-compliance-actions.html["작업 상태 창"].
+에서 JSON 보고서 생성 진행률을 볼 수 link:task-view-compliance-actions.html["작업 상태 창"]있습니다.
 
 +
 []
 ====
-* 참고 * 태그, 레이블 및 할당된 사용자를 기준으로 필터링하는 기능은 BlueXP 분류 버전 1.30 이상에만 해당됩니다.
+* 참고 * 태그, 레이블 및 할당된 사용자를 기준으로 필터링하는 기능은 BlueXP  분류 버전 1.30 이하에만 해당됩니다.
 
 ====
 

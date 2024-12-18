@@ -32,13 +32,13 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 | 매우 크게 | 32개의 CPU, 128GB RAM, 1TiB GP3 SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.8x 대형"^] (기본값) 
 
 
-| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xLarge"^] (기본값) m6a.4xLarge m5a.4xLarge m5.4xLarge m4.4xLarge 
+| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xlarge를 참조하십시오"^] (기본값) m6a.4xlarge m5a.4xlarge m5.4xlarge m4.4xlarge 
 
 
-| 중간 | CPU 8개, 32GB RAM, 200GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.2xLarge"^] (기본값) m6a.2xLarge m5a.2xLarge m5.2xLarge m4.2xLarge 
+| 중간 | CPU 8개, 32GB RAM, 200GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.2xlarge를 참조하십시오"^] (기본값) m6a.2xlarge m5a.2xlarge m5.2xlarge m4.2xlarge 
 
 
-| 작은 크기 | CPU 8개, 16GB RAM, 100GiB SSD | https://aws.amazon.com/ec2/instance-types/c6a/["c6a.2xLarge"^] (기본값) C5A.2xLarge c5.2xLarge c4.2xLarge 
+| 작은 크기 | CPU 8개, 16GB RAM, 100GiB SSD | https://aws.amazon.com/ec2/instance-types/c6a/["c6a.2xlarge를 참조하십시오"^] (기본값) C5A.2xlarge c5.2xlarge c4.2xlarge 
 |===
 
 
@@ -49,10 +49,10 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 | 시스템 크기 | 사양 | 인스턴스 유형 
 
 
-| 매우 크게 | 32개의 CPU, 128GB RAM, OS 디스크(2,048GiB, 최소 250MB/s 처리량) 및 데이터 디스크(1TiB SSD, 최소 750MB/s 처리량) | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dv3-series["Standard_D32_v3"^] (기본값) 
+| 매우 크게 | 32개의 CPU, 128GB RAM, OS 디스크(2,048GiB, 최소 250MB/s 처리량) 및 데이터 디스크(1TiB SSD, 최소 750MB/s 처리량) | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dv3-series["Standard_D32_v3를 참조하십시오"^] (기본값) 
 
 
-| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["standard_d16s_v3"^] (기본값) 
+| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["Standard_D16s_v3를 참조하십시오"^] (기본값) 
 |===
 
 
@@ -63,5 +63,5 @@ CPU가 적고 RAM이 적은 시스템에 BlueXP 분류를 배포할 수 있지�
 | 시스템 크기 | 사양 | 인스턴스 유형 
 
 
-| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-표준-16"^] (기본값) n2d-standard-16 n1-standard-16 
+| 대형 | CPU 16개, 64GB RAM, 500GiB SSD | https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2 - 표준 - 16"^] (기본값) n2d-standard-16 n1-standard-16 
 |===

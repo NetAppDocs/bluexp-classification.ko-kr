@@ -18,7 +18,7 @@ BlueXP 분류를 사용하여 사용자의 OneDrive 폴더에 있는 파일을 �
 
 []
 ====
-* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다.
+* 참고 * 이 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.
 
 ====
 
@@ -31,9 +31,9 @@ BlueXP 분류를 사용하여 사용자의 OneDrive 폴더에 있는 파일을 �
 [role="quick-margin-para"]
 OneDrive 계정에 로그인할 수 있는 관리자 자격 증명이 있는지 확인합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP 분류 인스턴스를 배포합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] BlueXP  분류 인스턴스를 배포합니다
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 이미 배포된 인스턴스가 없는 경우
+link:task-deploy-cloud-compliance.html["BlueXP 분류를 배포합니다"^] 인스턴스가 아직 배포되지 않은 경우
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] OneDrive 계정을 추가합니다
 [role="quick-margin-para"]
@@ -59,7 +59,7 @@ BlueXP 분류를 활성화하기 전에 다음 필수 구성 요소를 검토하
 
 배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.
 
-BlueXP 분류는 일 수 있습니다 link:task-deploy-cloud-compliance.html["클라우드에 구축"^] 또는 link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^].
+BlueXP  분류는 또는 일 수 link:task-deploy-cloud-compliance.html["클라우드에 구축"^]link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^]있습니다.
 
 인스턴스가 인터넷에 연결되어 있는 경우 BlueXP 분류 소프트웨어로의 업그레이드가 자동화됩니다.
 

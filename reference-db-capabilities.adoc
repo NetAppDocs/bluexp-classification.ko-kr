@@ -16,7 +16,7 @@ summary: 데이터베이스 스키마를 스캔할 때 BlueXP 분류에서 사�
 [role="lead"]
 데이터베이스 스키마를 스캔할 때 BlueXP 분류에서 사용할 수 없는 몇 가지 기능이 있습니다. 아래 목록을 참조하십시오.
 
-검사할 BlueXP 분류에 데이터베이스 스키마를 추가할 수 있습니다 link:task-scanning-databases.html["참조하십시오"^].
+검사할 BlueXP  분류에 데이터베이스 스키마를 추가할 수 link:task-scanning-databases.html["참조하십시오"^]있습니다.
 
 [cols="12,25,9,9,9,9,9,9,9"]
 |===

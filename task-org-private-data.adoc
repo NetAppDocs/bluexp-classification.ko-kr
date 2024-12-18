@@ -18,10 +18,10 @@ BlueXP 분류는 개인 데이터를 관리하고 구성할 수 있는 다양한
 
 []
 ====
-* 참고 * 이 정보는 BlueXP 분류 레거시 버전 1.30 이상에만 해당됩니다. 2023년 12월(v1.26.6) 릴리즈에서는 AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 제거되었습니다.
+* 참고 * 이 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다. 2023년 12월(v1.26.6) 릴리즈에서는 AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 제거되었습니다.
 
 ====
-* 에 가입되어 있는 경우 https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection)"^] 파일을 분류하고 보호하려면 BlueXP 분류를 사용하여 해당 AIP 레이블을 관리할 수 있습니다.
+* 파일 분류 및 보호를 구독하는 경우 https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection)"^] BlueXP  분류를 사용하여 이러한 AIP 레이블을 관리할 수 있습니다.
 * 조직 또는 일부 유형의 추가 작업에 대해 표시할 파일에 태그를 추가할 수 있습니다.
 * BlueXP 사용자를 특정 파일 또는 여러 파일에 할당하여 파일 관리를 책임질 수 있습니다.
 * "정책" 기능을 사용하면 버튼 하나를 클릭하여 결과를 쉽게 볼 수 있도록 사용자 지정 검색 쿼리를 직접 만들 수 있습니다.
@@ -60,7 +60,7 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 
 == AIP 레이블을 사용하여 데이터를 분류합니다
 
-에 가입한 경우 BlueXP 분류에서 검색하는 파일의 AIP 레이블을 관리할 수 있습니다 https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection)"^]. AIP를 사용하면 콘텐츠에 레이블을 적용하여 문서와 파일을 분류하고 보호할 수 있습니다. BlueXP 분류를 사용하면 파일에 이미 할당된 레이블을 보고, 파일에 레이블을 추가하고, 레이블이 이미 있는 경우 레이블을 변경할 수 있습니다.
+가입한 경우 BlueXP  분류가 검사 중인 파일에서 AIP 레이블을 관리할 수 https://azure.microsoft.com/en-us/services/information-protection/["AIP(Azure Information Protection)"^] 있습니다. AIP를 사용하면 콘텐츠에 레이블을 적용하여 문서와 파일을 분류하고 보호할 수 있습니다. BlueXP 분류를 사용하면 파일에 이미 할당된 레이블을 보고, 파일에 레이블을 추가하고, 레이블이 이미 있는 경우 레이블을 변경할 수 있습니다.
 
 BlueXP 분류는 .DOC, .DOCX, .PDF, .PPTX, .XLS 파일 형식 내에서 AIP 레이블을 지원합니다. XLSX
 
@@ -81,7 +81,7 @@ AIP 레이블을 관리하려면 기존 Azure 계정에 로그인하여 AIP 레�
 .요구 사항
 * 계정 및 Azure 정보 보호 라이센스가 있어야 합니다.
 * Azure 계정에 대한 로그인 자격 증명이 있어야 합니다.
-* Amazon S3 버킷에 있는 파일의 레이블을 변경하려면 IAM 역할에 권한 '3:PutObject'가 포함되어 있는지 확인하십시오. 을 참조하십시오 link:task-scanning-s3.html#reviewing-s3-prerequisites["IAM 역할 설정"^].
+* Amazon S3 버킷에 있는 파일의 레이블을 변경하려는 경우 IAM 역할에 권한이 포함되어 있는지 `s3:PutObject` 확인하십시오. 을 link:task-scanning-s3.html#reviewing-s3-prerequisites["IAM 역할 설정"^]참조하십시오.
 
 
 .단계
@@ -107,7 +107,7 @@ image:screenshot_compliance_aip_labels_int.png["AIP 레이블을 보여 주는 �
 
 파일에 할당된 현재 AIP 레이블을 볼 수 있습니다.
 
-데이터 조사 결과 창에서 을 클릭합니다 image:button_down_caret.png["아래쪽 캐럿"] 파일 메타데이터 세부 정보를 확장합니다.
+데이터 조사 결과 창에서 파일을 클릭하여 image:button_down_caret.png["아래쪽 캐럿"]파일 메타데이터 세부 정보를 확장합니다.
 
 image:screenshot_compliance_show_label.png["할당된 AIP 레이블을 포함하여 단일 파일의 메타데이터 세부 정보를 보여 주는 스크린샷"]
 
@@ -120,7 +120,7 @@ BlueXP 분류를 사용하여 파일에서 AIP 레이블을 추가, 변경 및 �
 다음 단계에 따라 AIP 레이블을 단일 파일에 할당합니다.
 
 .단계
-. 데이터 조사 결과 창에서 을 클릭합니다 image:button_down_caret.png["아래쪽 캐럿"] 파일 메타데이터 세부 정보를 확장합니다.
+. 데이터 조사 결과 창에서 파일을 클릭하여 image:button_down_caret.png["아래쪽 캐럿"]파일 메타데이터 세부 정보를 확장합니다.
 +
 image:screenshot_compliance_add_label_manually.png["데이터 조사 페이지의 파일에 대한 메타데이터 세부 정보를 보여 주는 스크린샷"]
 
@@ -138,8 +138,8 @@ image:screenshot_compliance_add_label_manually.png["데이터 조사 페이지�
 image:screenshot_compliance_tag_multi_files.png["데이터 조사 페이지에서 레이블을 지정할 파일과 레이블 단추를 선택하는 방법을 보여 주는 스크린샷"]
 
 +
-** 개별 파일을 선택하려면 각 파일(image:button_backup_1_volume.png[""])를 클릭합니다.
-** 현재 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭합니다.
+** 개별 파일을 선택하려면 각 파일의 확인란을image:button_backup_1_volume.png[""] 선택합니다().
+** 현재 페이지에 있는 모든 파일을 선택하려면 제목 행에 있는 확인란을image:button_select_all_files.png[""] 선택합니다( ).
 
 
 . 버튼 모음에서 * Label * 을 클릭하고 AIP 레이블을 선택합니다.
@@ -205,7 +205,7 @@ image:screenshot_compliance_filter_status.png["필터 창에서 태그를 선택
 단일 파일에 태그 추가하기:
 
 .단계
-. 데이터 조사 결과 창에서 을 클릭합니다 image:button_down_caret.png["아래쪽 캐럿"] 파일 메타데이터 세부 정보를 확장합니다.
+. 데이터 조사 결과 창에서 파일을 클릭하여 image:button_down_caret.png["아래쪽 캐럿"]파일 메타데이터 세부 정보를 확장합니다.
 . 태그 * 필드를 클릭하면 현재 할당된 태그가 표시됩니다.
 . 태그 또는 태그 추가:
 +
@@ -229,9 +229,9 @@ image:screenshot_compliance_add_status_manually.png["데이터 조사 페이지�
 image:screenshot_compliance_tag_multi_files.png["데이터 조사 페이지에서 태그를 지정할 파일과 태그 단추를 선택하는 방법을 보여 주는 스크린샷"]
 
 +
-** 개별 파일을 선택하려면 각 파일(image:button_backup_1_volume.png[""])를 클릭합니다.
-** 현재 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭합니다.
-** 모든 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭한 다음 팝업 메시지에서 를 클릭합니다 image:screenshot_select_all_items.png[""]목록에서 * 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
+** 개별 파일을 선택하려면 각 파일의 확인란을image:button_backup_1_volume.png[""] 선택합니다().
+** 현재 페이지에 있는 모든 파일을 선택하려면 제목 행에 있는 확인란을image:button_select_all_files.png[""] 선택합니다( ).
+** 모든 페이지에 있는 모든 파일을 선택하려면 제목 행()의 확인란을 선택한image:button_select_all_files.png[""] 다음 팝업 메시지에서 image:screenshot_select_all_items.png[""]* 목록의 모든 항목 선택(xxx개 항목) * 을 클릭합니다.
 +
 한 번에 최대 100,000개의 파일에 태그를 적용할 수 있습니다.
 
@@ -277,7 +277,7 @@ BlueXP 사용자를 특정 파일 또는 여러 파일에 할당하면 해당 �
 사용자를 단일 파일에 할당하려면 다음 단계를 수행하십시오.
 
 .단계
-. 데이터 조사 결과 창에서 을 클릭합니다 image:button_down_caret.png["아래쪽 캐럿"] 파일 메타데이터 세부 정보를 확장합니다.
+. 데이터 조사 결과 창에서 파일을 클릭하여 image:button_down_caret.png["아래쪽 캐럿"]파일 메타데이터 세부 정보를 확장합니다.
 . Assigned to * 필드를 클릭하고 사용자 이름을 선택합니다.
 +
 image:screenshot_compliance_add_user_manually.png["데이터 조사 페이지의 파일에 사용자를 할당하는 방법을 보여 주는 스크린샷"]
@@ -295,8 +295,8 @@ image:screenshot_compliance_add_user_manually.png["데이터 조사 페이지의
 image:screenshot_compliance_tag_multi_files.png["데이터 조사 페이지에서 사용자에게 할당할 파일과 할당 대상 버튼을 선택하는 방법을 보여 주는 스크린샷"]
 
 +
-** 개별 파일을 선택하려면 각 파일(image:button_backup_1_volume.png[""])를 클릭합니다.
-** 현재 페이지의 모든 파일을 선택하려면 제목 행(image:button_select_all_files.png[""])를 클릭합니다.
+** 개별 파일을 선택하려면 각 파일의 확인란을image:button_backup_1_volume.png[""] 선택합니다().
+** 현재 페이지에 있는 모든 파일을 선택하려면 제목 행에 있는 확인란을image:button_select_all_files.png[""] 선택합니다( ).
 
 
 . 버튼 모음에서 * Assign to * (할당 대상 *)를 클릭하고 사용자 이름을 선택합니다.

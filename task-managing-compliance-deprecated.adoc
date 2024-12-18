@@ -17,7 +17,7 @@ summary: 필요한 경우 하나 이상의 작업 환경, 데이터베이스, �
 특정 OneDrive 계정, 특정 SharePoint 계정 또는 Google Drive 계정에서 사용자 파일을 더 이상 스캔하지 않으려는 경우 BlueXP 분류 인터페이스에서 계정을 삭제하고 모든 스캔을 중지할 수 있습니다.
 
 .단계
-. Configuration_ 페이지에서 을 클릭합니다 image:screenshot_gallery_options.gif["자세히 단추"] 단추를 클릭하고 * OneDrive 계정 제거 *, * SharePoint 계정 제거 * 또는 * Google 드라이브 계정 제거 * 를 클릭합니다.
+. Configuration_ 페이지에서 OneDrive, SharePoint 또는 Google Drive 계정 행에 있는 버튼을 클릭한 image:screenshot_gallery_options.gif["자세히 단추"]다음 * OneDrive 계정 제거 *, * SharePoint 계정 제거 * 또는 * Google Drive 계정 제거 * 를 클릭합니다.
 +
 image:screenshot_compliance_remove_onedrive.png["스캔 구성 페이지의 OneDrive 제거 단추 스크린샷"]
 

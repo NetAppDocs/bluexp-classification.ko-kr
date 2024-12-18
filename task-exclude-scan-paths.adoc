@@ -37,7 +37,7 @@ BlueXP 분류 검사에서 특정 디렉토리를 제외하면 다음 데이터 
 
 == 스캔에서 제외할 디렉토리를 정의합니다
 
-디렉토리를 분류 스캔에서 제외하려면 먼저 BlueXP 분류 시스템에 로그인해야 구성 파일을 편집하고 스크립트를 실행할 수 있습니다. 자세한 내용은 를 참조하십시오 link:reference-log-in-to-instance.html["BlueXP 분류 시스템에 로그인합니다"] Linux 시스템에 소프트웨어를 수동으로 설치했는지 아니면 클라우드에 인스턴스를 배포했는지에 따라 다릅니다.
+디렉토리를 분류 스캔에서 제외하려면 먼저 BlueXP 분류 시스템에 로그인해야 구성 파일을 편집하고 스크립트를 실행할 수 있습니다. Linux 시스템에 소프트웨어를 수동으로 설치했는지 또는 클라우드에 인스턴스를 배포했는지 여부에 따라 에 대해 link:reference-log-in-to-instance.html["BlueXP 분류 시스템에 로그인합니다"]알아봅니다.
 
 [NOTE]
 ====
@@ -47,7 +47,7 @@ BlueXP 분류 검사에서 특정 디렉토리를 제외하면 다음 데이터 
 
 ====
 .단계
-. BlueXP 분류 시스템에서 "/opt/netapp/config/custom_configuration"으로 이동하여 파일을 엽니다 `data_provider.yaml`.
+. BlueXP  분류 시스템에서 "/opt/NetApp/config/custom_configuration"으로 이동하여 파일을 엽니다 `data_provider.yaml`.
 . "data_providers" 섹션의 "exclude:" 줄에 제외할 디렉토리 경로를 입력합니다. 예를 들면 다음과 같습니다.
 +
 ....
@@ -87,7 +87,7 @@ data_providers:
 .제외할 경로에 대한 예상 결과:
 * /CVO1/폴더1
 * /CVO1/folder1name 을 입력합니다
-* /CVO1/폴더10
+* /CVO1/Folder10 을 참조하십시오
 * /CVO1/ * 폴더1
 * /CVO1/+folder1name
 * /CVO1/notfolder10 을 참조하십시오
@@ -139,7 +139,7 @@ data_providers:
 .제외되지 않을 경로의 예:
 * /CVO1/폴더1
 * /CVO1/folder1name 을 입력합니다
-* /CVO1/폴더10
+* /CVO1/Folder10 을 참조하십시오
 
 
 
@@ -159,6 +159,6 @@ data_providers:
 
 == 현재 제외 목록을 봅니다
 
-의 내용에 사용할 수 있습니다 `data_provider.yaml` 를 실행한 후 실제로 커밋된 구성 파일과 다른 구성 파일 `update_data_providers_from_config_file.sh` 스크립트. BlueXP 분류 검사에서 제외된 디렉토리의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행합니다.
+구성 파일의 내용이 스크립트를 실행한 후 실제로 커밋된 내용과 다를 `update_data_providers_from_config_file.sh` 수 `data_provider.yaml` 있습니다. BlueXP 분류 검사에서 제외된 디렉토리의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행합니다.
 
  get_data_providers_configuration.sh
