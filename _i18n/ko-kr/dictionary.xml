@@ -691,7 +691,6 @@
   <block id="3b6b18ad7909031011a3960e81ac99e4" category="paragraph">BlueXP  분류에서는 두 가지 유형의 개인 데이터를 식별합니다.</block>
   <block id="85542d81e9687ba10d962e859cdaf35a" category="list-text">* 개인 식별 정보(PII) *</block>
   <block id="874a594310f3c66b96cad8a1ef4af095" category="list-text">* 민감한 개인 정보(SPii) *</block>
-  <block id="092e6dee95258860d663bccecea3a137" category="admonition">다른 개인 데이터 유형(예: 추가 국가 ID 번호 또는 의료 식별자)을 식별하기 위해 BlueXP 분류가 필요한 경우, 요청 시 ng-contact-data-sense@netapp.com 으로 이메일을 보내십시오.</block>
   <block id="10ff4e7c2ffc1fd426aa6f784a05da66" category="section-title">개인 데이터의 유형입니다</block>
   <block id="664f12aee95db5001901ada82a66a117" category="inline-link-macro">근접 확인</block>
   <block id="185a6c810ca281a80052f73d8e326953" category="paragraph">파일에서 발견되는 개인 데이터 또는 _개인 식별 정보_(PII)는 일반 개인 데이터 또는 국가 식별자가 될 수 있습니다. 아래 표의 세 번째 열은 BlueXP  분류가 식별자에 대한 결과를 검증하기 위해 을 사용하는지 여부를 <block ref="af3f1f2f9514770a1cfe0f9a422e763d" category="inline-link-macro-rx"></block>나타냅니다.</block>
@@ -1959,23 +1958,16 @@
   <block id="bcd3dc09170e331762d1f098247c3974" category="paragraph">BlueXP 분류는 해시 기술을 사용하여 중복 파일을 결정합니다. 파일에 다른 파일과 동일한 해시 코드가 있으면 파일 이름이 다르더라도 파일이 정확하게 중복되었는지 100% 확인할 수 있습니다.</block>
   <block id="fc9033d933e9132cc23bfe396744d214" category="inline-link-macro">파일을 삭제합니다</block>
   <block id="e6bbcb2826ce1a4f58fd341c4f5ae5f3" category="paragraph">중복 파일 목록을 다운로드하여 스토리지 관리자에게 전송하여 삭제할 수 있는 파일이 있는지 확인할 수 있습니다. 또는 특정 버전의 파일이 필요하지 않다고 확신할 수도 <block ref="53c8cd880d15e2953a8e763d6f4dff0c" category="inline-link-macro-rx"></block>있습니다.</block>
-  <block id="11b431a799ad33cee933ceccc5de850c" category="section-title">모든 중복 파일을 봅니다</block>
   <block id="5b00edf3a5903017b22e268ae58998c0" category="paragraph">작업 환경 및 스캔할 데이터 원본에 중복되는 모든 파일의 목록을 보려면 데이터 조사 페이지에서 * 중복 &gt; 중복 항목 있음 * 이라는 필터를 사용하면 됩니다.</block>
   <block id="285a3049428c6b155fde44a18621f551" category="paragraph">모든 중복 파일이 결과 페이지에 표시됩니다.</block>
-  <block id="3c4c508b343b43aeeceba1d0993025fc" category="section-title">특정 파일이 복제되었는지 확인합니다</block>
   <block id="481ee5e06ca7a72cfe4a783b39c7d0e3" category="paragraph">단일 파일에 중복된 파일이 있는지 확인하려면 데이터 조사 결과 창에서 임의의 파일을 클릭하여 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>파일 메타데이터를 볼 수 있습니다. 특정 파일의 복제본이 있는 경우 이 정보는 _Duplicates_ 필드 옆에 표시됩니다.</block>
   <block id="b478c70cc88f62deb519e4d41609fff2" category="paragraph">중복 파일 목록과 파일이 있는 위치를 보려면 * 세부 정보 보기 * 를 클릭합니다. 다음 페이지에서 * 중복 보기 * 를 클릭하여 조사 페이지에서 파일을 봅니다.</block>
   <block id="68309bcfd455803ffbae49714037b789" category="inline-image-macro">중복된 파일이 있는 위치를 보는 방법을 보여 주는 스크린샷</block>
   <block id="0dc6d718adece3621c4a40fa3b4b2a82" category="paragraph"><block ref="0dc6d718adece3621c4a40fa3b4b2a82" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">이 페이지에 제공된 "파일 해시" 값을 사용하여 조사 페이지에 직접 입력하여 특정 중복 파일을 언제든지 검색할 수도 있고, 정책에 사용할 수도 있습니다.</block>
   <block id="b783177554ae1d03f46ea830d39a7822" category="section-title">데이터 조사 보고서</block>
-  <block id="fbc24f64c5cfaa3ec5851bea3459db25" category="paragraph">이 보고서는 로 사용할 수 있습니다. 로컬 컴퓨터에 저장할 수 있는 CSV 파일입니다.</block>
-  <block id="d9f65abd84f27877cbba1b5ea828d53d" category="section-title">데이터 조사 보고서를 생성합니다</block>
-  <block id="707592628336b767af6468130ccb5f10" category="list-text">을(를) 다운로드하려면 을(를) 선택합니다. CSV 데이터 보고서를 입력하고 * 보고서 다운로드 * 를 클릭합니다.</block>
   <block id="02b8107c002e6577adbfdfd6d6f1b208" category="inline-image-macro">여러 옵션이 있는 조사 보고서 다운로드 페이지의 스크린샷.</block>
-  <block id="0b0eacf696b45d65c53ff1b5473edb39" category="paragraph"><block ref="0b0eacf696b45d65c53ff1b5473edb39" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c7fa83e1836cada62d287dfbba3779c2" category="paragraph">대화 상자에 보고서가 다운로드되고 있다는 메시지가 표시됩니다.</block>
-  <block id="376c2577995f32a4c8892e8aefb140ba" category="section-title">데이터 조사 보고서에 포함된 내용</block>
   <block id="6dc6bf0d1023a1b5714c777b474cce12" category="paragraph">비정형 파일 데이터 보고서 * 에는 파일에 대한 다음 정보가 포함됩니다.</block>
   <block id="34082694d21dbdcfc31e6e32d9fb2b9f" category="list-text">파일 이름입니다</block>
   <block id="8c16f0464e311229da94de789324309e" category="list-text">위치 유형</block>
@@ -3117,7 +3109,6 @@
   <block id="961ca08e58e9f85191f5707bc4dac07a" category="paragraph">그러면 인스턴스 및 BlueXP 분류에서 수집한 모든 관련 데이터가 삭제됩니다.</block>
   <block id="a3b42cd70d6e63a58b881566f7a8992b" category="section-title">온-프레미스 배포에서 BlueXP 분류를 제거합니다</block>
   <block id="19699e7aed7e972e489e53b7a581039d" category="paragraph">BlueXP 분류를 더 이상 사용하지 않거나 재설치가 필요한 문제가 있는 경우 호스트에서 BlueXP 분류를 제거할 수 있습니다.</block>
-  <block id="2c81bcce32daace3a1e27ca8e62dfd40" category="list-text">호스트에서 소프트웨어를 제거하려면 호스트 시스템에서 스크립트를 실행합니다.<block ref="cc561bef4dbd2996ec2b2478f3e1042d" prefix=" " category="inline-code"></block> 예를 들면 다음과 같습니다.</block>
   <block id="2556206d42384bb829190e0aafdb0def" category="inline-link-macro">BlueXP 분류 호스트 시스템에 로그인합니다</block>
   <block id="3d156543c6fce54302812044d96a7f13" category="paragraph">방법 보기<block ref="4d88ed2399fdae83afcc83672f5b6c79" category="inline-link-macro-rx"></block>.</block>
   <block id="bf9282cd68ceb267317aa336c787020b" category="summary">정책은 자주 요청하는 규정 준수 쿼리에 대한 조사 페이지에 검색 결과를 제공하는 사용자 지정 필터의 즐겨찾기 목록과 같습니다. BlueXP 분류는 일반적인 고객 요청에 따라 미리 정의된 정책 집합을 제공합니다. 조직에 특정한 검색 결과를 제공하는 사용자 지정 정책을 만들 수 있습니다.</block>
@@ -3437,7 +3428,6 @@
   <block id="8d097e38d6920ece5917d57da5699e5c" category="sidebar">온프레미스 ONTAP 볼륨</block>
   <block id="c7596ffa8d20a8a14d1f631c94185f72" category="sidebar">Azure NetApp Files 볼륨</block>
   <block id="fd2fd9101d9dde8ab7090da05f8117ff" category="sidebar">ONTAP 볼륨에 대한 Amazon FSx</block>
-  <block id="34a23f91ee1733d5151d67d6f922e573" category="sidebar">비 NetApp 파일 공유</block>
   <block id="3305adbdafef990b45e1b0ded7f5a486" category="sidebar">데이터에 대한 세부 정보를 봅니다</block>
   <block id="f72e4f10556fdc1e84c715407cbda16b" category="sidebar">개인 정보가 포함된 파일을 봅니다</block>
   <block id="53aba5c7ba7952b6d58e9dfb83a4516e" category="sidebar">스토리지에 복제된 파일을 봅니다</block>
@@ -3481,4 +3471,28 @@
   <block id="aeb69ebcaffd7e18cd55db906e582bf5" category="sidebar">OneDrive, SharePoint 또는 Google Drive 계정을 제거합니다</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">참조하십시오</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
+  <block id="0a401367ec8a2cd84bb197e6d12c99af" category="doc">버전 1.39</block>
+  <block id="1a58f9988f87b599ed71b9c7430034c2" category="paragraph">이 BlueXP  분류 릴리스는 데이터 조사 보고서의 내보내기 프로세스를 업데이트합니다. 이 내보내기 업데이트는 데이터에 대한 추가 분석을 수행하거나, 데이터에 대한 추가 시각화를 만들거나, 데이터 조사 결과를 다른 사람과 공유하는 데 유용합니다.</block>
+  <block id="a4a7057d917e03803441c79badd6d519" category="paragraph">이전에는 데이터 조사 보고서 내보내기가 10,000행으로 제한되었습니다. 이 릴리스에서는 모든 데이터를 내보낼 수 있도록 제한이 제거되었습니다. 이 변경 사항을 통해 데이터 조사 보고서에서 더 많은 데이터를 내보낼 수 있으므로 보다 유연하게 데이터를 분석할 수 있습니다.</block>
+  <block id="72fa9e7ff6f311a170ad8d720dff3f2f" category="paragraph">작업 환경, 볼륨, 대상 폴더 및 JSON 또는 CSV 형식을 선택할 수 있습니다. 내보낸 파일 이름에는 타임스탬프가 포함되어 있어 데이터를 내보낸 시기를 식별할 수 있습니다.</block>
+  <block id="7afa5ec6a3f715e47b3c6fa2655f18b0" category="paragraph">지원되는 작업 환경은 다음과 같습니다.</block>
+  <block id="253b40ae359ba25b56231803430c4873" category="list-text">ONTAP</block>
+  <block id="a512cd9b163bcb1be6bf96aa95fdfe74" category="list-text">공유 그룹</block>
+  <block id="d3fdc77553ad7d05684cea9b7806dac8" category="paragraph">데이터 조사 보고서에서 데이터를 내보내는 데는 다음과 같은 제한 사항이 있습니다.</block>
+  <block id="d33a90467b78849917ec44b3e694a192" category="list-text">다운로드할 최대 레코드 수는 유형(파일, 디렉터리 및 테이블)당 5억 개입니다.</block>
+  <block id="9720aabb6c8d5eb9cfcffd189ef86ed1" category="list-text">100만 개의 레코드를 내보내는 데 약 35분이 걸릴 것으로 예상됩니다.</block>
+  <block id="e7b42111154b9b878df538017c7943a0" category="inline-link">조직에 저장된 데이터를 조사합니다</block>
+  <block id="e771ad044e30754f4af0addbc217531d" category="paragraph">데이터 조사 및 보고서에 대한 자세한 내용은 을 참조하십시오<block ref="5490a248bca38f18b55b559976dbad47" category="inline-link-rx"></block>.</block>
+  <block id="251452e49ab5b88b5d8545e58cd46509" category="admonition">추가 국가 ID 번호 또는 의료 ID와 같은 기타 개인 데이터 유형을 식별하기 위해 BlueXP  분류가 필요한 경우 계정 관리자에게 문의하십시오.</block>
+  <block id="2a09f412ecce26a24c17d782c064aa73" category="paragraph">데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. Governance and Compliance 대시보드를 비롯한 BlueXP 분류 UI의 여러 영역에서 이 페이지로 이동할 수 있습니다. 추가 분석을 위해 데이터를 CSV 또는 JSON 파일로 내보내거나 다른 사용자와 공유할 수 있습니다.</block>
+  <block id="b995ac679338c896401b451552e5d419" category="paragraph">* 모든 중복 파일 보기 *</block>
+  <block id="ee27fa3e6dfe09f89a9d57742c167aa9" category="paragraph">* 특정 파일이 중복되는지 확인 *</block>
+  <block id="47b72e580332bb9da872607466b406bc" category="paragraph">보고서는 로컬 시스템에 저장할 수 있는 .csv 또는 .json 파일로 사용할 수 있습니다.</block>
+  <block id="f257e5460f3ab87ec47290dc11518fc8" category="paragraph">* 데이터 조사 보고서에 포함된 내용 *</block>
+  <block id="f3f4c1edbf92907aa9051152a36ae4cc" category="list-title">보고서를 생성하는 단계입니다</block>
+  <block id="868f49e80cf5d3f7ac26cbec13a8d0be" category="list-text">데이터의 .csv 또는 .JSON 보고서를 다운로드하려면 선택하고 * 보고서 다운로드 * 를 클릭합니다.</block>
+  <block id="8b93cae59bfdd9d1f5373c4f243f1891" category="paragraph"><block ref="8b93cae59bfdd9d1f5373c4f243f1891" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1f22985ba0d865da0fb0dc1149ac8684" category="list-text">호스트에서 소프트웨어를 제거하려면 BlueXP  분류 호스트 시스템에서 다음과 같은 스크립트를 실행합니다<block ref="cc561bef4dbd2996ec2b2478f3e1042d" prefix=" " category="inline-code"></block>.</block>
+  <block id="009d2060a609114df262eff04e83f241" category="section-title">2025년 1월 22일</block>
+  <block id="987a49b32f868f747d862315b00a6b36" category="sidebar">파일 공유(CIFS, NFS)</block>
 </blocks>

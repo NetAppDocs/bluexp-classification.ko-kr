@@ -23,18 +23,20 @@ indexpage:
       url: task-deploy-compliance-onprem.html
   - title: 데이터 원본을 검사합니다
     links:
-    - title: Cloud Volumes ONTAP 볼륨
-      url: task-getting-started-compliance.html
-    - title: 온프레미스 ONTAP 볼륨
-      url: task-getting-started-compliance.html
-    - title: Azure NetApp Files 볼륨
-      url: task-scanning-anf.html
     - title: ONTAP 볼륨에 대한 Amazon FSx
       url: task-scanning-fsx.html
-    - title: 비 NetApp 파일 공유
-      url: task-scanning-file-shares.html
+    - title: Azure NetApp Files 볼륨
+      url: task-scanning-anf.html
+    - title: Cloud Volumes ONTAP 볼륨
+      url: task-getting-started-compliance.html
     - title: 데이터베이스 스키마
       url: task-scanning-databases.html
+    - title: 파일 공유(CIFS, NFS)
+      url: task-scanning-file-shares.html
+    - title: 온프레미스 ONTAP 볼륨
+      url: task-getting-started-compliance.html
+    - title: StorageGRID
+      url: task-scanning-storagegrid.html
   - title: 데이터에 대한 세부 정보를 봅니다
     links:
     - title: 개인 정보가 포함된 파일을 봅니다
