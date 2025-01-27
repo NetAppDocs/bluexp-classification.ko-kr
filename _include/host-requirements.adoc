@@ -10,10 +10,24 @@
 | 시스템 크기 | CPU | RAM(스왑 메모리는 비활성화 상태여야 함) | 디스크 
 
 
-| * 초대형 * | 32개의 CPU | 128GB RAM | /opt-895GiB에서 1TiB SSD를 사용하거나 -100GiB를 /var/lib/docker에서 사용할 수 있음 - /tmp에서 5GiB 사용 가능 
+| * 초대형 * | 32개의 CPU | 128GB RAM  a| 
+** /opt에 1TiB SSD 또는 100GiB 사용 가능
+** /var/lib/Docker에서 895GiB 사용 가능
+** /tmp에 5GiB입니다
+** * Podman의 경우 5GB on/tmp *
+** * Podman의 경우 /var/tmp에 30GB *
 
 
-| * 대형 * | 16개의 CPU | 64GB RAM | /opt-395GiB에서 /var/lib/docker 또는 Podman/var/lib/컨테이너 또는 Podman/var/lib/containers - /tmp에서 500GiB SSD를 사용하거나 -100GiB에서 사용 가능 
+
+
+| * 대형 * | 16개의 CPU | 64GB RAM  a| 
+** /opt에서 500GiB SSD를 사용하거나 100GiB 사용 가능
+** 395GiB는 /var/lib/Docker, Podman/var/lib/컨테이너 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
+** /tmp에 5GiB입니다
+** * Podman의 경우 5GB on/tmp *
+** * Podman의 경우 /var/tmp에 30GB *
+
+
 |===
 * BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
 +

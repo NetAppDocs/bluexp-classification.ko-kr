@@ -14,7 +14,7 @@ summary: Linux 호스트에 수동으로 BlueXP 분류를 설치하기 전에 �
 
 
 [role="lead"]
-Linux 호스트에 수동으로 BlueXP 분류를 설치하기 전에 호스트에서 스크립트를 실행하여 BlueXP 분류를 설치하기 위한 모든 필수 구성 요소가 준비되어 있는지 확인할 수 있습니다. 이 스크립트는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서 실행할 수 있습니다. 호스트를 인터넷에 연결하거나 호스트가 인터넷에 액세스할 수 없는 사이트(A_Dark site_)에 상주할 수 있습니다.
+Linux 호스트에 BlueXP  분류를 수동으로 설치하기 전에 선택적으로 호스트에서 스크립트를 실행하여 BlueXP  분류 설치를 위한 모든 사전 요구 사항이 충족되는지 확인합니다. 이 스크립트는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서 실행할 수 있습니다. 호스트를 인터넷에 연결하거나 호스트가 인터넷에 액세스할 수 없는 사이트(A_Dark site_)에 상주할 수 있습니다.
 
 BlueXP 분류 설치 스크립트의 일부인 필수 테스트 스크립트도 있습니다. 여기에 설명된 스크립트는 BlueXP 분류 설치 스크립트를 실행하는 것과 독립적으로 Linux 호스트를 확인하려는 사용자를 위해 특별히 설계되었습니다.
 
@@ -57,10 +57,24 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 | 시스템 크기 | CPU | RAM(스왑 메모리는 비활성화 상태여야 함) | 디스크 
 
 
-| * 초대형 * | 32개의 CPU | 128GB RAM | /opt-895GiB에서 1TiB SSD를 사용하거나 -100GiB를 /var/lib/docker에서 사용할 수 있음 - /tmp에서 5GiB 사용 가능 
+| * 초대형 * | 32개의 CPU | 128GB RAM  a| 
+** /opt에 1TiB SSD 또는 100GiB 사용 가능
+** /var/lib/Docker에서 895GiB 사용 가능
+** /tmp에 5GiB입니다
+** * Podman의 경우 5GB on/tmp *
+** * Podman의 경우 /var/tmp에 30GB *
 
 
-| * 대형 * | 16개의 CPU | 64GB RAM | /opt-395GiB에서 /var/lib/docker 또는 Podman/var/lib/컨테이너 또는 Podman/var/lib/containers - /tmp에서 500GiB SSD를 사용하거나 -100GiB에서 사용 가능 
+
+
+| * 대형 * | 16개의 CPU | 64GB RAM  a| 
+** /opt에서 500GiB SSD를 사용하거나 100GiB 사용 가능
+** 395GiB는 /var/lib/Docker, Podman/var/lib/컨테이너 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
+** /tmp에 5GiB입니다
+** * Podman의 경우 5GB on/tmp *
+** * Podman의 경우 /var/tmp에 30GB *
+
+
 |===
 * BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
 +
