@@ -3495,4 +3495,5 @@
   <block id="1f22985ba0d865da0fb0dc1149ac8684" category="list-text">호스트에서 소프트웨어를 제거하려면 BlueXP  분류 호스트 시스템에서 다음과 같은 스크립트를 실행합니다<block ref="cc561bef4dbd2996ec2b2478f3e1042d" prefix=" " category="inline-code"></block>.</block>
   <block id="009d2060a609114df262eff04e83f241" category="section-title">2025년 1월 22일</block>
   <block id="987a49b32f868f747d862315b00a6b36" category="sidebar">파일 공유(CIFS, NFS)</block>
+  <block id="0476d890c406400d4a4b0337b0492ab6" category="paragraph">스크립트는<block ref="ef7bc183495180bf03292b7d03184b05" prefix=" " category="inline-code"></block> 디렉토리에 있습니다.</block>
 </blocks>
