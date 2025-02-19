@@ -112,7 +112,7 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 
 ** 다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.30 이상이 필요합니다.
 +
-*** Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2, 9.3, 9.4
+*** Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2, 9.3, 9.4 및 9.5
 
 
 

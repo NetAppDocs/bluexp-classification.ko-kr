@@ -37,7 +37,6 @@
   <block id="156e173d1de86766f5cb22a057c779e9" category="list-text">Ubuntu 22.04(BlueXP 분류 버전 1.23 이상 필요)</block>
   <block id="70e7e6a41e0598a3902dbaf5ca936aa0" category="list-text">Ubuntu 24.04(BlueXP 분류 버전 1.23 이상 필요)</block>
   <block id="8e75bb9e135d127903c8df1b4d72574d" category="list-text">다음 운영 체제에는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP 분류 버전 1.30 이상이 필요합니다.</block>
-  <block id="c5910ee83de42fbe3194b03bc2ba3298" category="list-text">Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2, 9.3, 9.4</block>
   <block id="f2183b09e54e4aa491c008ea8ca08bbc" category="list-text">* Red Hat 서브스크립션 관리 *: 호스트는 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.</block>
   <block id="7299a589db31a0bc8b28dedaafe896cd" category="list-text">* 추가 소프트웨어 *: BlueXP 분류를 설치하기 전에 호스트에 다음 소프트웨어를 설치해야 합니다.</block>
   <block id="2a2958e5280a05650587dc8d454a5f8d" category="list-text">사용 중인 OS에 따라 컨테이너 엔진 중 하나를 설치해야 합니다.</block>
@@ -210,12 +209,8 @@
   <block id="9c8736affefce89efb819f7f63f5a237" category="paragraph">초기 검사 후 BlueXP 분류는 라운드 로빈 방식으로 데이터를 지속적으로 스캔하여 증분 변경을 감지합니다. 이렇게 했다면 인스턴스를 계속 실행하는 것이 중요합니다.</block>
   <block id="b40a529e19b349b56269e632043e4fe8" category="paragraph">볼륨 수준 또는 데이터베이스 스키마 수준에서 스캔을 활성화 또는 비활성화할 수 있습니다.</block>
   <block id="9868eea85c69d464c823a4c7e185121a" category="section-title">매핑 스캔과 분류 스캔의 차이점은 무엇입니까</block>
-  <block id="c7eecba843c437de6a7f23657d755812" category="paragraph">BlueXP 분류를 통해 선택한 데이터 소스에서 일반적인 "매핑" 스캔을 실행할 수 있습니다. 매핑은 데이터에 대한 상위 수준의 개요만 제공하는 반면 분류는 데이터에 대한 세부 수준의 스캐닝을 제공합니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다.</block>
-  <block id="dc3d679737d761f6e72564d962617ffa" category="paragraph">많은 사용자가 데이터를 신속하게 스캔하여 더 많은 연구가 필요한 데이터 소스를 식별하려고 하므로 이 기능을 좋아하고, 그런 다음 필요한 데이터 소스 또는 볼륨에서만 분류 검사를 활성화할 수 있습니다.</block>
   <block id="a6555d8888ac95f7925f179ea7e8d4a8" category="paragraph">아래 표에는 몇 가지 차이점이 나와 있습니다.</block>
   <block id="21021ea0e52be8e9c599f4dff41e5be0" category="cell">피처</block>
-  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">분류</block>
-  <block id="0014f8b96d996135614c21355a053994" category="cell">매핑</block>
   <block id="626304e3316770d796d3bcb75212949d" category="cell">스캔 속도</block>
   <block id="efa5397985b8609a5dbeb430a4bcadd3" category="cell">느림</block>
   <block id="e16b5b7f26f54214445cbe38d72c2828" category="cell">빠릅니다</block>
@@ -296,8 +291,6 @@
   <block id="c24fc9c3402e7cb47c72d71cf6d864be" category="cell">디렉터리 유형입니다</block>
   <block id="4aa06a2b4191eee9b59686458a3cf0e5" category="section-title">BlueXP 분류 스캔 데이터의 속도</block>
   <block id="9ece336caf3d2b843dafc984e27b323e" category="paragraph">스캔 속도는 네트워크 지연 시간, 디스크 지연 시간, 네트워크 대역폭, 환경 크기 및 파일 배포 크기의 영향을 받습니다.</block>
-  <block id="55795bc7bfe5b0cf7482dda2aaed1c41" category="list-text">매핑 스캔을 수행할 때 BlueXP 분류는 일일 데이터 100~150개의 TiB를 스캔할 수 있습니다.</block>
-  <block id="6d80dbce43d8c1cfc10f843e571e2f05" category="list-text">분류 스캔을 수행할 때 BlueXP 분류는 하루에 15-40개의 TiB 데이터를 스캔할 수 있습니다.</block>
   <block id="41723bb4585becfa9d2ed4726536b953" category="section-title">BlueXP  분류에서 분류하는 정보입니다</block>
   <block id="28e66615c1e04c19b63a24061d462220" category="paragraph">BlueXP 분류는 데이터(파일)에 범주를 수집, 색인 및 할당합니다. BlueXP 분류 인덱스의 데이터는 다음과 같습니다.</block>
   <block id="6cd355a083ac0c0abfe0db956ac0ab54" category="list-text">* 표준 메타데이터 * 파일 정보: 파일 유형, 크기, 생성 및 수정 날짜 등.</block>
@@ -987,7 +980,6 @@
   <block id="c25ad118eb89526500bf75c7b98bc13a" category="list-text">* 비 비즈니스 데이터 * - 범주 또는 파일 형식에 따라 업무와 관련이 없는 것으로 간주되는 데이터 여기에는 다음이 포함됩니다.</block>
   <block id="b77538c14bb334b644fd69d280cca12f" category="list-text">기타(일반 "기타" 범주)</block>
   <block id="dc6d9a4419750aae3db17878ffe18e5c" category="inline-link-macro">어떤 유형의 중복 파일이 표시되는지 확인합니다</block>
-  <block id="079997081651f8a82d27ca6d62534f5e" category="list-text">* 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. <block ref="fcb1526de99321017edbeb7796592372" category="inline-link-macro-rx"></block>..</block>
   <block id="312ffbf4bf2c65989ebbd000c725c369" category="admonition">데이터 소스 중 하나라도 데이터 계층화를 구현하는 경우 오브젝트 스토리지에 이미 있는 이전 데이터를 _st오래된 Data_category에서 식별할 수 있습니다.</block>
   <block id="2b4d8a4ffe486173d89394fc3d6ccdb3" category="section-title">결과 수가 가장 많은 정책입니다</block>
   <block id="8eb1fec334dabbaf8e8ce1c5c57d9629" category="paragraph">Policies_영역에서 결과 수가 가장 많은 정책이 목록 맨 위에 나타납니다. 정책 이름을 클릭하여 조사 페이지에 결과를 표시합니다. 사용 가능한 모든 정책 목록을 보려면 * 모두 보기 * 를 클릭합니다.</block>
@@ -1717,32 +1709,12 @@
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7323ab6aab1dfb48468b77bc771127f5" category="summary">BlueXP 분류를 사용하여 Cloud Volumes ONTAP 및 온-프레미스 ONTAP 볼륨을 스캔하려면 몇 단계를 완료하십시오.</block>
   <block id="8e285296eea347aa1a2f1fe8f2397693" category="doc">BlueXP  분류로 Cloud Volumes ONTAP 및 온프레미스 ONTAP 볼륨을 스캔합니다</block>
-  <block id="2b91239a08044af034941b142fbcb9a9" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 검사할 데이터 원본을 검색합니다</block>
-  <block id="502657836c4445c93e125dc0c25c08c9" category="paragraph">볼륨을 스캔하려면 먼저 시스템을 BlueXP의 작업 환경으로 추가해야 합니다.</block>
-  <block id="d192455efa584e015f67ddf2679e991a" category="list-text">Cloud Volumes ONTAP 시스템의 경우 BlueXP에서 이러한 작업 환경을 사용할 수 있어야 합니다</block>
-  <block id="95c6a4075477a94df7d6ca6d51fde02e" category="inline-link">BlueXP는 ONTAP 클러스터를 검색해야 합니다</block>
-  <block id="96b988aeea7df07c150c06631b8e1023" category="list-text">온프레미스 ONTAP 시스템의 경우<block ref="00999886c013da85fef603135c9ef779" category="inline-link-rx"></block></block>
   <block id="a09cd5116a782af05884c8d339915769" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> BlueXP  분류 인스턴스를 배포합니다</block>
   <block id="0ce4d42838344488f607ff306088fae9" category="inline-link-macro">BlueXP 분류를 배포합니다</block>
   <block id="5c0eee20a6bf4ad2ff2c7646e93e6147" category="paragraph"><block ref="41d9750d1a3a84ad5c474fb18cb4f237" category="inline-link-macro-rx"></block> 인스턴스가 아직 배포되지 않은 경우</block>
-  <block id="0a1d05c09ebe4e90b8b31f3bbb2b6119" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> BlueXP  분류를 활성화하고 스캔할 볼륨을 선택합니다</block>
-  <block id="f5aca25d4df16b3dc611c34ed1ccb71d" category="paragraph">Configuration * 탭을 선택하고 특정 작업 환경의 볼륨에 대한 규정 준수 검사를 활성화합니다.</block>
   <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
-  <block id="a464b933df257e13e398798317ac784a" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 볼륨에 대한 액세스를 확인합니다</block>
-  <block id="95fcbd3be2c054418d2b9c92aff0825f" category="paragraph">이제 BlueXP 분류를 사용하도록 설정했으므로 모든 볼륨에 액세스할 수 있는지 확인합니다.</block>
-  <block id="1ba0d6aa3ccd6f872c6c6e6d87024c69" category="list-text">BlueXP 분류 인스턴스에는 각 Cloud Volumes ONTAP 서브넷 또는 온프레미스 ONTAP 시스템에 대한 네트워크 연결이 필요합니다.</block>
-  <block id="305e305ac52012ce5ec303cdd558523f" category="list-text">Cloud Volumes ONTAP의 보안 그룹은 BlueXP 분류 인스턴스에서 인바운드 연결을 허용해야 합니다.</block>
   <block id="162627490dd9e3bfa1451fcbd693e2df" category="list-text">NFS-포트 111 및 2049의 경우</block>
   <block id="ebc566be80d2aa97a2d54b51da6e0306" category="list-text">CIFS-포트 139 및 445의 경우</block>
-  <block id="084b5e624d2227ca06a3f828bced0f33" category="list-text">BlueXP 분류에는 CIFS 볼륨을 스캔하기 위해 Active Directory 자격 증명이 필요합니다.</block>
-  <block id="d98982ed425bb70925dcb326c8228f2b" category="paragraph">Compliance * &gt; * Configuration * &gt; * Edit CIFS Credentials * 를 클릭하고 자격 증명을 입력합니다.</block>
-  <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">다섯</block>
-  <block id="2f16858adc0a1e155de180519a9e4591" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 스캔할 볼륨을 관리합니다</block>
-  <block id="7f8a1c2e37ed73e275da69b1e885636c" category="paragraph">스캔할 볼륨을 선택하거나 선택 취소하면 BlueXP 분류가 시작 또는 스캔을 중지합니다.</block>
-  <block id="effe342ed6fdd5b79625bb273c6f43da" category="section-title">스캔할 데이터 원본을 검색합니다</block>
-  <block id="0c482db6ff22c3a7bd9036d861655cbf" category="paragraph">검사할 데이터 소스가 BlueXP 환경에 아직 없는 경우 현재 캔버스에 추가할 수 있습니다.</block>
-  <block id="f0d07e71c0ad5ba2b297c19c3e9347e0" category="inline-link">BlueXP는 이러한 클러스터를 검색합니다</block>
-  <block id="93d98288c3d4c3fe1a384ea14c84db4e" category="paragraph">Cloud Volumes ONTAP 시스템은 BlueXP의 Canvas에서 이미 사용 가능해야 합니다. 온프레미스 ONTAP 시스템의 경우 가<block ref="764bc5313eb3242221adb26dbbb188c9" category="inline-link-rx"></block>필요합니다.</block>
   <block id="846eb83e821481bdeafbcc34c9138401" category="section-title">BlueXP 분류 인스턴스를 배포합니다</block>
   <block id="66d6758c1474f6b831dd835dbec91562" category="paragraph">배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.</block>
   <block id="d040d135cea4209ef4244e9d6e171fee" category="inline-link-macro">클라우드에 BlueXP 분류를 배포합니다</block>
@@ -1752,7 +1724,6 @@
   <block id="e64472941265caa02b01ea0d866661fd" category="paragraph">인터넷에 액세스할 수 없는 다크 사이트에 설치된 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행해야 <block ref="3beeea1c5d12940092999048e1c30313" category="inline-link-macro-rx"></block>합니다. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
   <block id="3e07df694cbf4c604aed3e0514e35653" category="section-title">작업 환경에서 BlueXP  분류를 활성화합니다</block>
   <block id="4c2c1b5a11a3d5aab7dd2061acb786b6" category="paragraph">지원되는 모든 클라우드 공급자 및 온프레미스 ONTAP 클러스터의 Cloud Volumes ONTAP 시스템에서 BlueXP 분류를 사용하도록 설정할 수 있습니다.</block>
-  <block id="79212600af75dc48b9f7e59a9927a88e" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭한 다음 * 구성 * 탭을 선택합니다.</block>
   <block id="cb3aa3f952775ea9178b718df187d59d" category="inline-image-macro">BlueXP 분류 인스턴스를 배포한 직후 구성 탭의 스크린샷.</block>
   <block id="ecfa3501fa1e651a3fb40a15dd82d18a" category="paragraph"><block ref="ecfa3501fa1e651a3fb40a15dd82d18a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd786557a341a9cbd5fb1a642121a675" category="inline-link-macro">매핑 및 분류 스캔에 대해 알아봅니다</block>
@@ -1777,13 +1748,11 @@
   <block id="ede9a6fd89b6e139fff80209cdd2ea8d" category="list-text">CIFS를 사용하는 경우 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 사용하여 BlueXP 분류를 제공합니다.</block>
   <block id="2d680ca666fd821f3c51a507d41a26cb" category="inline-image-macro">콘텐츠 창의 오른쪽 상단에서 사용할 수 있는 스캔 상태 단추를 보여 주는 규정 준수 탭의 스크린샷</block>
   <block id="b70232fe808c101066f1d5f669f6a6cd" category="paragraph"><block ref="b70232fe808c101066f1d5f669f6a6cd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9e92253b6d2be639aec08d4cfd0246c8" category="list-text">각 작업 환경에서 * CIFS 자격 증명 편집 * 을 클릭하고 BlueXP 분류에서 시스템의 CIFS 볼륨에 액세스하는 데 필요한 사용자 이름과 암호를 입력합니다.</block>
   <block id="6057fa1a60f3ec92856060b18a0cc112" category="paragraph">자격 증명은 읽기 전용일 수 있지만 관리자 자격 증명을 제공하면 BlueXP 분류에서 상승된 권한이 필요한 모든 데이터를 읽을 수 있습니다. 자격 증명은 BlueXP 분류 인스턴스에 저장됩니다.</block>
   <block id="a1c4e88cdf8e157dbb344fe556f58d28" category="paragraph">BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="b401c479fc7a1b8aa216a7173ee8782f" category="paragraph">자격 증명을 입력한 후 모든 CIFS 볼륨이 성공적으로 인증되었다는 메시지가 표시됩니다.</block>
   <block id="87c4bf333272894340d4edac3e344ef9" category="inline-image-macro">구성 페이지와 CIFS 자격 증명이 성공적으로 제공된 Cloud Volumes ONTAP 시스템을 보여 주는 스크린샷</block>
   <block id="f7a83214cccc2107033915c49ad94424" category="paragraph"><block ref="f7a83214cccc2107033915c49ad94424" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3b3fdf77c5795749c544638b9ce207c2" category="list-text">Configuration_ 페이지에서 * View Details * 를 클릭하여 각 CIFS 및 NFS 볼륨의 상태를 검토하고 오류를 수정합니다.</block>
   <block id="deac3e968547dd790d466a9d21cdb95b" category="paragraph">예를 들어 다음 이미지는 네 개의 볼륨을 보여 줍니다. 그 중 하나는 BlueXP 분류 인스턴스와 볼륨 간의 네트워크 연결 문제로 인해 BlueXP 분류에서 스캔할 수 없는 볼륨입니다.</block>
   <block id="b0a3025d1916192a93025bd8b729731e" category="inline-image-macro">스캔 구성에서 4개의 볼륨을 표시하는 View Details(세부 정보 보기) 페이지의 스크린 샷. 그 중 하나는 BlueXP 분류와 볼륨 간의 네트워크 연결로 인해 스캔되지 않습니다.</block>
   <block id="2875279e7093015cd8ccf93240c548e9" category="paragraph"><block ref="2875279e7093015cd8ccf93240c548e9" category="inline-image-macro-rx" type="image"></block></block>
@@ -1793,18 +1762,6 @@
   <block id="a981acc4f50e3ee8e07a0e56bb5a7350" category="paragraph"><block ref="a981acc4f50e3ee8e07a0e56bb5a7350" category="inline-image-macro-rx" type="image"></block></block>
   <block id="33caa076f23f453dd4061726f3706325" category="cell">대상:</block>
   <block id="5a2a9933405c81b69e2cbdd9151f9197" category="cell">방법은 다음과 같습니다.</block>
-  <block id="0aa4f886295e6aefb21e182a00cb3e9a" category="cell">볼륨에서 매핑 전용 스캔을 활성화합니다</block>
-  <block id="5e93e08d38ca32cba574c24ba6b90c3e" category="cell">볼륨 영역에서 * Map * 을 클릭합니다</block>
-  <block id="c8314ae9c5afbdcb360caee8048fc977" category="cell">볼륨에서 전체 스캔을 활성화합니다</block>
-  <block id="4511fe4fe229715bd617e8230a142efa" category="cell">볼륨 영역에서 * Map &amp; Classify * 를 클릭합니다</block>
-  <block id="c05c2346359cb3a22c91c597c763a732" category="cell">볼륨에서 스캔을 비활성화합니다</block>
-  <block id="7cb45ab7942dd3db5aafe0df6f476d66" category="cell">볼륨 영역에서 * Off * 를 클릭합니다</block>
-  <block id="0d7feeb5f32fc807b5f792304e1ee1ed" category="cell">모든 볼륨에서 매핑 전용 스캔을 활성화합니다</block>
-  <block id="5ed8f35d5eaa0541e4f19a32f3ccdb0a" category="cell">제목 영역에서 * Map * 을 클릭합니다</block>
-  <block id="7ca4c771e9b087b572ae2b7caff0c388" category="cell">모든 볼륨에서 전체 스캔을 활성화합니다</block>
-  <block id="9d8bcbb0f5b04854f5a4e2bd48be47bd" category="cell">제목 영역에서 * 지도 및 분류 * 를 클릭합니다</block>
-  <block id="b630526833dea659599fd366bda99475" category="cell">모든 볼륨에서 스캔을 비활성화합니다</block>
-  <block id="f7b5fb19f08d635e70f43c38cc7e0a67" category="cell">제목 영역에서 * Off * 를 클릭합니다</block>
   <block id="1456e5fc169a243504826034d14947c3" category="admonition">작업 환경에 추가된 새 볼륨은 머리글 영역에서 * Map * 또는 * Map &amp; Classify * 설정을 설정한 경우에만 자동으로 스캔됩니다. 제목 영역에서 * 사용자 정의 * 또는 * 끄기 * 로 설정하면 작업 환경에 추가한 새 볼륨마다 매핑 및/또는 전체 스캔을 활성화해야 합니다.</block>
   <block id="3f0bbcbd675537960ef9995a958d5fe0" category="section-title">데이터 보호 볼륨을 검사합니다</block>
   <block id="e7fa07083790a8112d00af542356ec88" category="paragraph">기본적으로 데이터 보호(DP) 볼륨은 외부에서 노출되지 않고 BlueXP 분류에서 액세스할 수 없기 때문에 스캔되지 않습니다. 이는 사내 ONTAP 시스템 또는 Cloud Volumes ONTAP 시스템에서 SnapMirror 작업을 위한 타겟 볼륨입니다.</block>
@@ -1813,15 +1770,12 @@
   <block id="5527bf6460aac122d9350ebcc432db9e" category="paragraph"><block ref="5527bf6460aac122d9350ebcc432db9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="178dc62002a72846660e90787e11f939" category="paragraph">이러한 데이터 보호 볼륨을 스캔하려는 경우:</block>
   <block id="3d6de382dcb4bfdce280387a9542d9bd" category="list-text">페이지 맨 위에서 * DP 볼륨에 대한 액세스 활성화 * 를 클릭합니다.</block>
-  <block id="8de37b1fc48639ff3e29b3f1341842a4" category="list-text">확인 메시지를 검토하고 * DP 볼륨에 대한 액세스 활성화 * 를 다시 클릭합니다.</block>
   <block id="f13aece6b768921832b7bb943cab9f19" category="list-text">소스 ONTAP 시스템에서 처음에 NFS 볼륨으로 생성된 볼륨이 설정됩니다.</block>
   <block id="7c0a9b3e555cf595d3d01d33df76df82" category="list-text">소스 ONTAP 시스템에서 CIFS 볼륨으로 처음 생성된 볼륨을 사용하려면 CIFS 자격 증명을 입력하여 해당 DP 볼륨을 스캔해야 합니다. BlueXP 분류에서 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 이미 입력한 경우 해당 자격 증명을 사용하거나 다른 관리자 자격 증명 집합을 지정할 수 있습니다.</block>
   <block id="65ba2ff339305392b787952e007185f1" category="inline-image-macro">CIFS 데이터 보호 볼륨을 설정하기 위한 두 가지 옵션의 스크린샷</block>
   <block id="044f0d646b3277f06b2a18a6e8980572" category="paragraph"><block ref="044f0d646b3277f06b2a18a6e8980572" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5f9318195cc151f5faab62105798a8f9" category="list-text">스캔할 각 DP 볼륨을 활성화합니다.</block>
   <block id="b9061f396efcc4df381ceed3ac729d32" category="paragraph">활성화되면 BlueXP 분류는 스캔을 위해 활성화된 각 DP 볼륨에서 NFS 공유를 생성합니다. 공유 내보내기 정책은 BlueXP 분류 인스턴스에서만 액세스를 허용합니다.</block>
-  <block id="abcdab0f1cbbe968798a52245b476c30" category="paragraph">* 참고: * 처음에 DP 볼륨에 대한 액세스를 설정한 후 나중에 추가할 때 CIFS 데이터 보호 볼륨이 없는 경우 구성 페이지 맨 위에 * CIFS DP에 대한 액세스 활성화 * 버튼이 나타납니다. 이 버튼을 클릭하고 CIFS 자격 증명을 추가하여 이러한 CIFS DP 볼륨에 대한 액세스를 설정합니다.</block>
-  <block id="21118277527dde4297826bff350dbf36" category="admonition">Active Directory 자격 증명은 첫 번째 CIFS DP 볼륨의 스토리지 VM에만 등록되므로 해당 SVM의 모든 DP 볼륨이 검사됩니다. 다른 SVM에 상주하는 볼륨에 Active Directory 자격 증명이 등록되지 않으므로 DP 볼륨이 검색되지 않습니다.</block>
   <block id="786452cdc534ba8395eb7a26c9ab3efc" category="summary">데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. Governance and Compliance 대시보드를 비롯한 BlueXP 분류 UI의 여러 영역에서 이 페이지로 이동할 수 있습니다.</block>
   <block id="493287f21a2aa7f90cebc83c869352a4" category="doc">데이터 조사 페이지에 저장된 데이터를 조사합니다</block>
   <block id="8d2b3a00bc0d44767cf3d5dfed11884d" category="section-title">데이터 조사 페이지에서 데이터를 필터링합니다</block>
@@ -1984,92 +1938,6 @@
   <block id="24588d9873aeb10a7d918f9f39a921ad" category="list-text">스토리지 저장소(예: 스키마)</block>
   <block id="ab8a843d390e68d7263eb4d3758cbb94" category="list-text">열 개수</block>
   <block id="8914a2ab502c2e892c90f9e40240866c" category="list-text">행 수</block>
-  <block id="19cffc0053aafa946f7ebe7f34c7193e" category="summary">BlueXP  프로젝트 또는 작업 공간에서 BlueXP  분류가 스캔하는 첫 1TB의 데이터는 무료입니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다.</block>
-  <block id="2d403d52aec87c9291e770c63009d05a" category="doc">무료 평가판을 설정하거나 BlueXP 분류에 대한 자체 라이센스를 가져옵니다</block>
-  <block id="932933f9ba6b9665ae6c1e4717709ac0" category="paragraph">1.30 이하 버전의 경우 BlueXP  프로젝트 또는 작업 공간에서 BlueXP  분류가 스캔하는 첫 1TB의 데이터는 30일간 무료로 제공됩니다. 해당 시점 이후에도 데이터를 계속 스캔하려면 NetApp의 BYOL 라이센스 또는 클라우드 공급자 마켓플레이스의 가입형 라이센스가 필요합니다.</block>
-  <block id="80186f1230af2267e2c2e4d2ab8c030e" category="paragraph">추가 내용을 읽기 전에 몇 가지 참고 사항을 확인하십시오.</block>
-  <block id="3f626dca09c3d8c920c3fb187cbf82d3" category="list-text">BYOL(BlueXP  분류) BYOL(Bring-Your-Own-License)은 스캔하려는 BlueXP  프로젝트 또는 작업 공간의 모든 작업 환경과 데이터 소스에서 사용할 수 있는 _floating_license입니다. BlueXP 디지털 지갑에 활성 구독이 표시됩니다.</block>
-  <block id="66f5e7d970f0cf4b79e5b61fd2dba7c1" category="list-text">스캔되는 데이터의 양은 스토리지 효율성 없이 논리적 파일 크기를 기준으로 계산됩니다.</block>
-  <block id="1fe75a0ab5171136a5ec6503ed9e85d1" category="inline-link-macro">BlueXP 분류와 관련된 라이센스 및 비용에 대해 자세히 알아보십시오</block>
-  <block id="e01ae5b37a34fb436f617365e020721a" category="paragraph"><block ref="5547e182cd4b08f09049a0606997f4a9" category="inline-link-macro-rx"></block>..</block>
-  <block id="5ef05167488611c5bd4ff0f410595ce4" category="section-title">30일 무료 평가판</block>
-  <block id="d2160d301fecae093e137b07230bc3c6" category="paragraph">30일 무료 평가판은 BlueXP  프로젝트 또는 작업 공간에서 BlueXP  분류가 스캔하는 최대 1TB의 데이터에 대해 사용할 수 있습니다. 이후 데이터 검색을 계속하려면 NetApp에서 BYOL 라이센스를 구입하거나 클라우드 공급자의 마켓플레이스에서 구독을 신청해야 합니다.</block>
-  <block id="defd0f223a0cf4f1e58e88bd1721d45e" category="paragraph">언제든지 구독할 수 있으며 30일 평가판이 종료되거나 데이터 양이 1TB를 초과할 때까지 요금이 청구되지 않습니다. BlueXP 분류 거버넌스 대시보드에서 스캔되는 데이터의 총 양을 항상 확인할 수 있습니다. 지금 가입(_Subscribe Now_) 단추를 사용하면 준비가 되면 쉽게 가입할 수 있습니다.</block>
-  <block id="8e8f343d4d11cb796ed5e3db94f54fe3" category="inline-image-macro">검사 중인 데이터의 양과 서비스 가입을 위한 가입 버튼을 보여주는 스크린샷</block>
-  <block id="a503bdaee5c948e64f10ac7ae38b987f" category="paragraph"><block ref="a503bdaee5c948e64f10ac7ae38b987f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="66145e361f72b54aa011f59d543dfb08" category="section-title">연간 계약을 사용합니다</block>
-  <block id="5eaba7c2dc62e15a7621fd6721ea170d" category="paragraph">연간 계약을 구매하여 BlueXP 분류에 대한 비용을 매년 지불합니다. 1년, 2년 또는 3년 기간으로 제공됩니다.</block>
-  <block id="5d88ecbc0b3e3130da7993534c150ab6" category="paragraph">마켓플레이스에서 연간 계약을 체결한 경우 모든 BlueXP 분류 데이터 스캔 비용이 해당 계약에 대해 청구됩니다. BYOL은 연간 시장 계약을 혼합 및 일치시킬 수 없습니다.</block>
-  <block id="8ceedd80ab3ad72f595a01a7d5ea8d33" category="inline-link">가격 세부 정보는 BlueXP Marketplace 오퍼링으로 이동하십시오</block>
-  <block id="bd433a8ffac0add0e12c4270b960de4b" category="list-text">AWS<block ref="acdf2fddcae41b5d9e2a00300f214a12" category="inline-link-rx"></block>:</block>
-  <block id="f3688be07a05c277e8cb7dcec2630b7e" category="list-text">Azure는 다음과<block ref="1f8e94c7a027569b83a80d73b2d9761d" category="inline-link-rx"></block>같습니다.</block>
-  <block id="dae6b2941afcce1328dee9f363e692e3" category="list-text">Google Cloud: 연간 계약을 구매하려면 NetApp 세일즈 담당자에게 문의하십시오. 이 계약은 Google Cloud Marketplace에서 프라이빗 오퍼로 제공됩니다. NetApp이 전용 혜택을 공유하고 나면 BlueXP 분류 활성화 중에 Google Cloud Marketplace를 구독할 때 연간 계획을 선택할 수 있습니다.</block>
-  <block id="a64334705690e391576da973a9b22ed9" category="section-title">BlueXP 분류 BYOL 라이센스 사용</block>
-  <block id="c9532f19df489d117c681943ff72b47e" category="paragraph">NetApp에서 제공하는 자체 라이센스는 1년, 2년 또는 3년간 제공됩니다. BYOL BlueXP 분류(Data Sense) 라이센스는 작업 환경 및 데이터 소스의 * 전체 * 간에 전체 용량을 공유하는 _ floating_license로 초기 라이센스 및 갱신을 간편하게 수행할 수 있습니다.</block>
-  <block id="5bae938f4e490a5e1f1b65254d8e3ef5" category="paragraph">BlueXP 분류 라이센스가 없는 경우 다음 연락처로 문의해 주십시오.</block>
-  <block id="f6b0b01ee34208ec2e76e1fb8b0c7faf" category="list-text">mailto:ng-contact-data-sense@netapp.com?subject=Licensing [라이센스 구매를 위해 이메일 보내기].</block>
-  <block id="6193e62acb4a86204633b2d093e49546" category="list-text">라이센스를 요청하려면 BlueXP 오른쪽 하단의 채팅 아이콘을 클릭하십시오.</block>
-  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link">자세한 내용을 보려면 여기를 클릭하십시오</block>
-  <block id="6a79ed48a5fce7523ab5bc4c5c5c16bc" category="paragraph">선택적으로, 사용하지 않는 Cloud Volumes ONTAP에 대해 할당되지 않은 노드 기반 라이센스가 있는 경우 동일한 달러 상당 및 만료일의 BlueXP  분류 라이센스로 변환할 수 있습니다.<block ref="f4c32a82791cf9fc58c736c0aed05092" category="inline-link-rx"></block>..</block>
-  <block id="bc4b68566420a250ac774580fe4c63ac" category="paragraph">BlueXP 디지털 지갑을 사용하여 BlueXP 분류 BYOL 라이센스를 관리할 수 있습니다. BlueXP 디지털 지갑에서 새 라이센스를 추가하고 기존 라이센스를 업데이트하고 라이센스 상태를 볼 수 있습니다.</block>
-  <block id="656e076fbf2897c36a85dea0c00f2ddf" category="section-title">BlueXP 분류 라이센스 파일을 얻습니다</block>
-  <block id="bbffe9d9bab8f2f862116a36d9e1e226" category="paragraph">BlueXP 분류(데이터 감지) 라이센스를 구매한 후에는 BlueXP 분류 일련 번호 및 NSS(NetApp Support 사이트) 계정을 입력하거나 NetApp 라이센스 파일(NLF)을 업로드하여 BlueXP에서 라이센스를 활성화합니다. 아래 단계에서는 NLF 라이센스 파일을 가져오는 방법을 보여 줍니다(해당 방법을 사용하려는 경우).</block>
-  <block id="f3cd3d23d33dfe26418bbc5243171a69" category="inline-link">비공개 모드</block>
-  <block id="aaf2f102dd6df6f644ec8a4989bbaa59" category="paragraph">인터넷에 액세스할 수 없는 온-프레미스 사이트의 호스트에 BlueXP  분류를 배포한 경우, 즉 에 BlueXP  커넥터를 배포한 경우<block ref="6426a8a427a5eadce24d979d317c10cc" category="inline-link-rx"></block> 인터넷에 연결된 시스템에서 라이센스 파일을 얻어야 합니다. 개인 모드 설치에서는 제품 번호 및 NSS 계정을 사용하여 라이센스를 활성화할 수 없습니다.</block>
-  <block id="e3286b69a705d4ed944e904722ab7c8f" category="paragraph">시작하기 전에 다음 정보가 필요합니다.</block>
-  <block id="9a0032efa4fb526fb96562269c928b44" category="list-text">BlueXP 분류 일련 번호</block>
-  <block id="079aeecf06b109e4316b0a68ea943f2b" category="paragraph">판매 주문에서 이 번호를 찾거나 계정 팀에 문의하여 이 정보를 확인하십시오.</block>
-  <block id="bcbbd9a155e07caa8b31001adc835c79" category="list-text">BlueXP 계정 ID</block>
-  <block id="3013e5a381c02243fda59b6191eacc44" category="paragraph">BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 클릭하여 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다. 인터넷에 액세스할 수 없는 개인 모드 사이트의 경우 * ACCOUNT-DARKSITE1 * 을 사용하십시오.</block>
-  <block id="80c4b6e3dfa1d4f33033585b7c74e7e9" category="list-text">에<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> 로그인하고 * Systems &gt; Software Licenses * 를 클릭합니다.</block>
-  <block id="91be63c0508d6a7954379847241750fe" category="list-text">BlueXP 분류 라이센스 일련 번호를 입력합니다.</block>
-  <block id="5190e9ec018f5e661ec4b31ff1b34423" category="inline-image-macro">일련 번호로 검색한 후 라이센스 테이블을 보여 주는 스크린샷</block>
-  <block id="d15379b9f839ac6523d1b06ad8763875" category="paragraph"><block ref="d15379b9f839ac6523d1b06ad8763875" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="450f374ea7faf8a2818e9556a4ab9a8a" category="list-text">라이센스 키 * 열에서 * NetApp 라이센스 파일 가져오기 * 를 클릭합니다.</block>
-  <block id="f68bf28051d836364652b5a91d1bcd3a" category="list-text">BlueXP 계정 ID(지원 사이트에서 테넌트 ID라고 함)를 입력하고 * 제출 * 을 클릭하여 라이센스 파일을 다운로드합니다.</block>
-  <block id="56273f3344c87fabbf5196fba9816fff" category="inline-image-macro">테넌트 ID를 입력한 다음 제출을 클릭하여 라이센스 파일을 다운로드할 수 있는 라이센스 가져오기 대화 상자가 표시된 스크린샷</block>
-  <block id="212f5a95c637538f9375d966345ca9f7" category="paragraph"><block ref="212f5a95c637538f9375d966345ca9f7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ab75085a52c32bc4b667115d2ca1861b" category="section-title">BlueXP 분류 BYOL 라이센스를 계정에 추가합니다</block>
-  <block id="9f685573d36b3e4610c00dee293b7790" category="paragraph">BlueXP 계정에 대한 BlueXP 분류(데이터 감지) 라이센스를 구입한 후 BlueXP 분류 서비스를 사용하려면 BlueXP에 라이센스를 추가해야 합니다.</block>
-  <block id="8d080a0104c2b8b29f5fc2be913926af" category="list-text">BlueXP 메뉴에서 * Governance &gt; Digital Wallet * 을 클릭한 다음 * Data Services Licenses * 탭을 선택합니다.</block>
-  <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">라이선스 추가 * 를 클릭합니다.</block>
-  <block id="c1b2dc0798d3960e25b8a12c751f53ec" category="list-text">Add License_대화 상자에서 라이센스 정보를 입력하고 * Add License * 를 클릭합니다.</block>
-  <block id="0173f2cb0bfd96ead28f0580c171e723" category="list-text">BlueXP 분류 라이선스 일련 번호가 있고 NSS 계정을 알고 있는 경우 * 일련 번호 입력 * 옵션을 선택하고 해당 정보를 입력합니다.</block>
-  <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">NSS 계정을 BlueXP에 추가합니다</block>
-  <block id="30fc689a9c3cd4222329fe3a4c818a33" category="paragraph">NetApp 지원 사이트 계정을 드롭다운 목록에서 사용할 수 없는 경우<block ref="06a3bc9d474b5d4e44d1a2733cac785a" category="inline-link-rx"></block></block>
-  <block id="4da6525c8724f13e73085493e61c4d42" category="list-text">BlueXP 분류 라이센스 파일(어두운 사이트에 설치할 때 필요)이 있는 경우 * 라이센스 파일 업로드 * 옵션을 선택하고 메시지에 따라 파일을 첨부합니다.</block>
-  <block id="bbf3b6ee5bbc1b6693b7f6c692389b8d" category="inline-image-macro">BlueXP 분류 BYOL 라이센스를 추가하는 페이지를 보여 주는 스크린샷</block>
-  <block id="d6a2ea8b4137bd407e96f8425a463067" category="paragraph"><block ref="d6a2ea8b4137bd407e96f8425a463067" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2a1bc71dc01f495b56f0abaa74f037c9" category="paragraph">BlueXP는 BlueXP 분류 서비스가 활성화되도록 라이센스를 추가합니다.</block>
-  <block id="aeeaa2e73e02b9dcec81e87c55fe939e" category="section-title">BlueXP 분류 BYOL 라이센스를 업데이트합니다</block>
-  <block id="ee28dd0aeae91008620b667fd834dc53" category="paragraph">라이센스 기간이 만료일에 가까워졌거나 라이센스 용량이 제한에 도달한 경우 분류 UI에서 알림을 받게 됩니다.</block>
-  <block id="fda03e39c339d6d7b96a67b975fb9d35" category="inline-image-macro">BlueXP 분류 페이지에 만료 중인 라이센스를 보여 주는 스크린샷.</block>
-  <block id="085d74f778426c6b55cefb26f0da08db" category="paragraph"><block ref="085d74f778426c6b55cefb26f0da08db" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a274f4d4670213a9045ce258c6c56b80" category="inline-link">알림</block>
-  <block id="697511e8d7a1e79b59a32ea4cdfd567a" category="paragraph">이 상태는 BlueXP  디지털 지갑과 에도<block ref="5ed52bf872a49314e95419b00a21b97c" category="inline-link-rx"></block> 표시됩니다.</block>
-  <block id="0553876f11122be0920f9fa9c803d152" category="inline-image-macro">BlueXP 디지털 전자지갑에서 만료 중인 라이센스를 보여 주는 스크린샷.</block>
-  <block id="8a3fa7f55e818c5876f14bd9da4cabf0" category="paragraph"><block ref="8a3fa7f55e818c5876f14bd9da4cabf0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d039bd2d493e18dac3e687d097f645c3" category="paragraph">BlueXP 분류 라이센스가 만료되기 전에 업데이트하여 스캔한 데이터에 액세스할 수 없도록 할 수 있습니다.</block>
-  <block id="15f4e537c6c3c2957b6e194cb0894a09" category="list-text">BlueXP의 오른쪽 하단에 있는 채팅 아이콘을 클릭하여 특정 일련 번호에 대한 Cloud Data Sense 라이센스의 기간 연장 또는 추가 용량을 요청합니다. 또한 mailto:ng-contact-data-sense@netapp.com?subject=Licensing[라이센스 업데이트를 요청하려면 이메일을 보내십시오]을 사용할 수 있습니다.</block>
-  <block id="b23b97d3c26b0f7e2265329756cea9ca" category="paragraph">라이센스 비용을 지불하고 NetApp Support 사이트에 등록한 후 BlueXP는 BlueXP 디지털 지갑의 라이센스를 자동으로 업데이트하고 데이터 서비스 라이센스 페이지에 변경 내용이 5-10분 내에 반영됩니다.</block>
-  <block id="5810a6765696da7b12979cf90b9b287c" category="list-text">BlueXP에서 라이센스를 자동으로 업데이트할 수 없는 경우(예: 어두운 사이트에 설치된 경우) 라이센스 파일을 수동으로 업로드해야 합니다.</block>
-  <block id="b2b168bd64a341a85c749cb61bba40cb" category="inline-xref">NetApp Support 사이트에서 라이센스 파일을 받으십시오</block>
-  <block id="9c8dbc16cd72bbe77bfe80d17598e07d" category="list-text">할 수 <block ref="886f08a728ba8be871be0e99b40e3948" category="inline-xref-macro-rx"></block>있습니다.</block>
-  <block id="8f0a75d2d5a82f31f2cf069c3b0ee684" category="inline-image-macro">추가 아이콘</block>
-  <block id="70196feeb01dc8dfdb5276a2398e60f9" category="list-text">BlueXP  디지털 지갑 페이지의 _데이터 서비스 라이센스_탭에서 업데이트할 서비스 일련 번호를 클릭하고 * 라이센스 업데이트 * 를 클릭합니다<block ref="50acd719b1954eb4890c002b3b5e71a6" category="inline-image-macro-rx" type="image"></block>.</block>
-  <block id="3ce750f001c2369e23b68f3210d9f100" category="inline-image-macro">특정 서비스에 대한 라이센스 업데이트 단추를 선택하는 스크린샷</block>
-  <block id="2bdb7af2b6613fafdba930fb09034d3f" category="paragraph"><block ref="2bdb7af2b6613fafdba930fb09034d3f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41e921305ae1b027e5d364af4a2a9df2" category="list-text">Update License_page에서 라이센스 파일을 업로드하고 * Update License * 를 클릭합니다.</block>
-  <block id="4e43e8a24acd7193b6d8eed036253e35" category="paragraph">BlueXP는 BlueXP 분류 서비스가 계속 활성화되도록 라이센스를 업데이트합니다.</block>
-  <block id="7d3786abf2ebb473a5ba70b680734525" category="section-title">BYOL 라이센스 고려사항</block>
-  <block id="55fd9f49dc52e3918479d0efc4578246" category="paragraph">BlueXP 분류(Data Sense) BYOL 라이센스를 사용하는 경우, 검사 중인 모든 데이터의 크기가 용량 제한에 도달하거나 라이센스 만료 날짜가 임박한 경우 BlueXP 분류 UI와 BlueXP 디지털 지갑 UI에 경고가 표시됩니다. 다음과 같은 경고가 표시됩니다.</block>
-  <block id="e95058755e821bf6cb439e37f1f068d7" category="list-text">스캔 중인 데이터의 양이 라이센스 용량의 80%에 도달한 경우, 제한에 도달하면 다시 한 번 표시됩니다</block>
-  <block id="d8ea74d0bc0e6f3c5be22312a953d7fb" category="list-text">라이센스가 만료되기 30일 전에 라이센스가 만료되고 라이센스가 만료되면 다시 만료됩니다</block>
-  <block id="379dea20c8734742bd3f9c78de134135" category="paragraph">이러한 경고가 표시되면 BlueXP 인터페이스 오른쪽 아래에 있는 채팅 아이콘을 사용하여 라이센스를 갱신하십시오.</block>
-  <block id="158effa984590da91d7a27bb0f349168" category="paragraph">라이센스가 만료되거나 BYOL 제한에 도달한 경우 BlueXP 분류는 계속 실행되지만, 스캔한 데이터에 대한 정보를 볼 수 없도록 대시보드에 대한 액세스가 차단됩니다. 라이센스 한도 내에서 용량 사용을 잠재적으로 가져오기 위해 스캔되는 볼륨 수를 줄이려는 경우 _Configuration_ 페이지만 사용할 수 있습니다.</block>
-  <block id="643ba31a7063051c9d564b6faa4299ac" category="inline-xref">BlueXP 분류 라이센스를 업데이트하는 방법</block>
-  <block id="0c5b37935376b963ef78697061a74cb2" category="paragraph">BYOL 라이센스를 갱신하면 BlueXP 디지털 지갑에서 라이센스를 자동으로 업데이트하고 모든 대시보드에 대한 모든 액세스 권한을 제공합니다. BlueXP가 보안 인터넷 연결(예: 어두운 사이트에 설치된 경우)을 통해 라이센스 파일에 액세스할 수 없는 경우 직접 파일을 얻고 BlueXP에 수동으로 업로드할 수 있습니다. 자세한 내용은 을 <block ref="c44ca7e9f7d88504527c3375fbf81785" category="inline-xref-macro-rx"></block>참조하십시오.</block>
-  <block id="dad8edf6c4b2d149686fdcf79277d242" category="admonition">사용 중인 계정에 BYOL 라이센스와 PAYGO 가입이 모두 있는 경우 BYOL 라이센스가 만료되면 BlueXP classification_은 PAYGO 구독으로 전환할 수 없습니다. BYOL 라이센스를 갱신해야 합니다.</block>
   <block id="4c119835311ae84a5afed96ff0102202" category="summary">필요한 경우 하나 이상의 작업 환경, 데이터베이스, 파일 공유 그룹, OneDrive 계정, Google Drive 계정, SharePoint 계정을 사용할 수 있습니다.</block>
   <block id="1b37870dae094b28860019e52e52b4ff" category="doc">BlueXP 분류에서 OneDrive, SharePoint 또는 Google Drive 계정 제거</block>
   <block id="433023fd6c6c23d39387bf9b74dda504" category="paragraph">특정 OneDrive 계정, 특정 SharePoint 계정 또는 Google Drive 계정에서 사용자 파일을 더 이상 스캔하지 않으려는 경우 BlueXP 분류 인터페이스에서 계정을 삭제하고 모든 스캔을 중지할 수 있습니다.</block>
@@ -2547,13 +2415,8 @@
   <block id="8afeb311b4ff23155bae9b80ec79273f" category="list-text">이 메시지에서 * Disable * 을 클릭하여 저속 스캔을 비활성화할 수 있습니다.</block>
   <block id="784e4b64058d5e48385415f461c592f1" category="summary">Azure NetApp Files용 BlueXP 분류를 시작하려면 몇 가지 단계를 완료하십시오.</block>
   <block id="cd459404fa850adef50a1d5a0b9fb8e7" category="doc">BlueXP  분류를 사용하여 Azure NetApp Files 볼륨을 스캔합니다</block>
-  <block id="86e6b4ce8205c2db3b733482275e7c94" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 검사할 Azure NetApp Files 시스템을 검색합니다</block>
-  <block id="877f09bae1b7112a88e564afe0b39149" category="inline-link">구성을 검색하려면 BlueXP를 설정해야 합니다</block>
-  <block id="5f9774634d612de809265cc23871cf47" category="paragraph">Azure NetApp Files 볼륨을 스캔하기 전에<block ref="877b71a5c09299b4320d1e533ba73086" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="cbf510286e078f482973b70a376262f2" category="inline-link-macro">BlueXP에서 BlueXP 분류를 배포합니다</block>
   <block id="fd990ee0c3ae484223002ef0361fbd4c" category="paragraph"><block ref="5901ad58df96e4468fa86bc2351fb6ec" category="inline-link-macro-rx"></block> 인스턴스가 아직 배포되지 않은 경우</block>
-  <block id="8e6b2e179301ba8e4086645fd738ff9d" category="paragraph">Compliance * 를 클릭하고 * Configuration * 탭을 선택한 다음 특정 작업 환경의 볼륨에 대한 규정 준수 검사를 활성화합니다.</block>
-  <block id="8d50e02b2718494115c81eb90fb74ae8" category="list-text">BlueXP 분류 인스턴스에는 각 Azure NetApp Files 서브넷에 대한 네트워크 연결이 필요합니다.</block>
   <block id="c780a7831238096b62ccda3512612e65" category="list-text">NFS – 포트 111 및 2049의 경우</block>
   <block id="cfbd3eaf6a26b5c0c06de5f5b3d138b9" category="list-text">CIFS – 포트 139 및 445의 경우</block>
   <block id="8c89db674531ab536128087dfb6cbe4f" category="section-title">스캔할 Azure NetApp Files 시스템을 검색합니다</block>
@@ -2569,12 +2432,6 @@
   <block id="0c0c3b0c55f2b5101c7ea7c5d755cabe" category="paragraph"><block ref="0c0c3b0c55f2b5101c7ea7c5d755cabe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ac52c241aeb9f87cb4b7f2458fab533d" category="summary">BlueXP 분류를 사용하여 데이터베이스 스키마 스캔을 시작하려면 몇 단계를 완료하십시오.</block>
   <block id="2cac5148836fcc4449c2a57f4d2f787c" category="doc">BlueXP  분류를 사용하여 데이터베이스 스키마를 스캔합니다</block>
-  <block id="1b189011c424e8c00ecd3f9bc8925c86" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 데이터베이스 사전 요구 사항을 검토합니다</block>
-  <block id="6ba6f62eaa922e3764dfb0e34527892f" category="paragraph">데이터베이스가 지원되고 데이터베이스에 연결하는 데 필요한 정보가 있는지 확인합니다.</block>
-  <block id="9603ea8b40ce9806f5c742bedf6353c3" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 데이터베이스 서버를 추가합니다</block>
-  <block id="18145622150e1a809831297a4332c742" category="paragraph">액세스할 데이터베이스 서버를 추가합니다.</block>
-  <block id="207288dfb0e2353fa1e1661a7548545e" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 스키마를 선택합니다</block>
-  <block id="5a810676627d546e80218e706059b849" category="paragraph">스캔할 스키마를 선택합니다.</block>
   <block id="90aa8899e851e5f50cce574a93280c92" category="paragraph">BlueXP 분류를 활성화하기 전에 다음 필수 구성 요소를 검토하여 지원되는 구성이 있는지 확인하십시오.</block>
   <block id="1416008fc37354356eb0ecd95dfddc96" category="section-title">지원되는 데이터베이스</block>
   <block id="5ad2532f51093d157a604c23276c33d5" category="paragraph">BlueXP 분류는 다음 데이터베이스에서 스키마를 검사할 수 있습니다.</block>
@@ -2591,9 +2448,6 @@
   <block id="eb8fe754fdca3b53d48ac9eda9c61fba" category="paragraph">인터넷에 액세스할 수 없는 다크 사이트에 설치된 데이터베이스 스키마를 스캔하는 경우 이 작업을 수행해야 <block ref="3beeea1c5d12940092999048e1c30313" category="inline-link-macro-rx"></block>합니다. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
   <block id="117276e96b89d072e0a833596332ef29" category="section-title">데이터베이스 서버를 추가합니다</block>
   <block id="a4d915351d456b98e430d4b56f363817" category="paragraph">스키마가 있는 데이터베이스 서버를 추가합니다.</block>
-  <block id="6a92144fbc213814d38b4fcd8dc7ba49" category="list-text">작업 환경 구성 페이지에서 * 데이터 소스 추가 * &gt; * 데이터베이스 서버 추가 * 를 클릭합니다.</block>
-  <block id="3a0e5c0a3596c957b4947c3009360640" category="inline-image-macro">DB 서버 추가 버튼을 클릭할 수 있는 스캔 구성 페이지의 스크린 샷</block>
-  <block id="1f7c15e8f11ab744a1ec4276f35a79dd" category="paragraph"><block ref="1f7c15e8f11ab744a1ec4276f35a79dd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8d6202533ffe78d883d48c7a6de071c0" category="list-text">필요한 정보를 입력하여 데이터베이스 서버를 식별합니다.</block>
   <block id="7c7aad6b41666f8abe556bca9c0f0260" category="list-text">데이터베이스 유형을 선택합니다.</block>
   <block id="32db81c06e2a7821cf1360fe09d10171" category="list-text">데이터베이스에 연결할 포트와 호스트 이름 또는 IP 주소를 입력합니다.</block>
@@ -2606,24 +2460,16 @@
   <block id="0dacbfa35e4a190378a78ef8c1f6a644" category="section-title">데이터베이스 스키마에서 규정 준수 검사를 활성화 및 비활성화합니다</block>
   <block id="b7a17432eb09c32a574991d9b6b0be00" category="paragraph">언제든지 스키마를 중지하거나 전체 스캔을 시작할 수 있습니다.</block>
   <block id="bee9dc960933af9ecc3b6f30878d28e4" category="admonition">데이터베이스 스키마에 대한 매핑 전용 검사를 선택하는 옵션은 없습니다.</block>
-  <block id="66a2cf8e7e33f076420fc7afe01ab7b3" category="list-text">Configuration_ 페이지에서 구성할 데이터베이스의 * Configuration * 버튼을 클릭합니다.</block>
   <block id="eeca65dd888a9508e6e72469e53273ff" category="inline-image-macro">구성 버튼을 선택할 수 있는 Scan Configuration(스캔 구성) 페이지의 스크린 샷</block>
   <block id="501ae739773eaa9fbbe222d59498ef96" category="paragraph"><block ref="501ae739773eaa9fbbe222d59498ef96" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b1f7c7e36d5ee01af131dd25c658e41f" category="list-text">슬라이더를 오른쪽으로 이동하여 스캔할 스키마를 선택합니다.</block>
   <block id="cc939570e2fbb3d7e526d9e3e757a5f0" category="inline-image-macro">스캔할 스키마를 선택할 수 있는 스캔 구성 페이지의 스크린 샷</block>
   <block id="46e57bba2892a9df10ae0b7ae9e43f45" category="paragraph"><block ref="46e57bba2892a9df10ae0b7ae9e43f45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e7161999dbadbbf09541cb6606d43f78" category="paragraph">BlueXP 분류는 사용자가 활성화한 데이터베이스 스키마를 검사하기 시작합니다. 오류가 있는 경우 오류를 해결하는 데 필요한 작업과 함께 상태 열에 표시됩니다.</block>
-  <block id="d22c09811fd17d0b22a0df48541e5fd9" category="paragraph">BlueXP 분류는 하루에 한 번 데이터베이스를 검사하므로 다른 데이터 소스와 마찬가지로 데이터베이스를 지속적으로 스캔하지 않습니다.</block>
   <block id="c4758ec8f4163fa99b08557425a59f56" category="summary">몇 가지 단계를 완료하여 BlueXP 분류와 직접 비NetApp NFS 또는 CIFS 파일 공유 스캔을 시작하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.</block>
   <block id="b5e00ff2b7559dfa6fc6fe96058ede54" category="doc">BlueXP  분류로 파일 공유를 스캔합니다</block>
   <block id="12a96925a3b6ebd1419915c8b0bfada9" category="paragraph">몇 단계를 완료하여 Google Cloud NetApp 볼륨 및 이전 NetApp 7-Mode 시스템에서 NFS 또는 CIFS 파일 공유 검색을 시작하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.</block>
   <block id="f146ec0537a829117da7d3ce3e588d3b" category="admonition">비 NetApp 파일 공유의 데이터 검사는 BlueXP 분류 코어 버전에서 지원되지 않습니다.</block>
-  <block id="a3f1215a60ced30f6b58ece6e4fb2da2" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 파일 공유 사전 요구 사항을 검토합니다</block>
-  <block id="8b30b43b2d32f52db456a78f120bec50" category="paragraph">CIFS(SMB) 공유의 경우 공유를 액세스할 수 있는 자격 증명이 있는지 확인합니다.</block>
-  <block id="116ef64523fed5112220351fa1d75dc4" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 파일 공유를 보관할 그룹을 생성합니다</block>
-  <block id="d2ea2bf943bb8c943367ebfd6b8aec96" category="paragraph">그룹은 검사할 파일 공유의 컨테이너이며 해당 파일 공유의 작업 환경 이름으로 사용됩니다.</block>
-  <block id="e08c39eeecbac5d5f73dff71e2512def" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 그룹에 파일 공유를 추가합니다</block>
-  <block id="925a5b3d46766546e19dbce83a2fefb6" category="paragraph">스캔할 파일 공유 목록을 추가하고 스캔 유형을 선택합니다. 한 번에 최대 100개의 파일 공유를 추가할 수 있습니다.</block>
   <block id="9850feff1aac1d886b7a010236318d49" category="section-title">파일 공유 요구 사항을 검토합니다</block>
   <block id="d809bb142c0a96aef201dfc891e977e3" category="list-text">공유는 클라우드 또는 온프레미스 등 어디서나 호스팅할 수 있습니다. 이전 NetApp 7-Mode 스토리지 시스템의 CIFS 공유를 파일 공유로 검사할 수 있습니다.</block>
   <block id="061d9924baf4222bf79058b2beddbe21" category="paragraph">BlueXP 분류는 7-Mode 시스템에서 사용 권한 또는 "마지막 액세스 시간"을 추출할 수 없습니다. 또한 일부 Linux 버전과 7-Mode 시스템의 CIFS 공유 사이에서 알려진 문제로 인해 NTLM 인증이 활성화된 SMB v1만 사용하도록 공유를 구성해야 합니다.</block>
@@ -2635,39 +2481,28 @@
   <block id="763e254befdcc246f3e8569877b63340" category="section-title">파일 공유에 대한 그룹을 생성합니다</block>
   <block id="60d7a85c8e73898b7ffc998f747e0883" category="paragraph">파일 공유를 추가하려면 먼저 파일 공유 "그룹"을 추가해야 합니다. 그룹은 검색할 파일 공유의 컨테이너이며 그룹 이름은 해당 파일 공유의 작업 환경 이름으로 사용됩니다.</block>
   <block id="96fdaabb157bbdb2dbe197904f9a4dbb" category="paragraph">동일한 그룹에서 NFS 및 CIFS 공유를 혼합할 수 있지만, 그룹의 모든 CIFS 파일 공유는 동일한 Active Directory 자격 증명을 사용해야 합니다. 다른 자격 증명을 사용하는 CIFS 공유를 추가하려는 경우 고유한 각 자격 증명 세트에 대해 별도의 그룹을 만들어야 합니다.</block>
-  <block id="859b0486d18f528c8edbdaa7f41170d0" category="list-text">작업 환경 구성 페이지에서 * 데이터 소스 추가 * &gt; * 파일 공유 그룹 추가 * 를 클릭합니다.</block>
   <block id="28a37c29073d01b41af962aa45f11615" category="inline-image-macro">파일 공유 그룹 추가 버튼을 클릭할 수 있는 스캔 구성 페이지의 스크린 샷</block>
-  <block id="0c3c72a2a46a4dd5c0107a9f0b07c592" category="paragraph"><block ref="0c3c72a2a46a4dd5c0107a9f0b07c592" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b5fa1ae0f2b7152c1235520708fb1af0" category="list-text">파일 공유 그룹 추가 대화 상자에서 공유 그룹의 이름을 입력하고 * 계속 * 을 클릭합니다.</block>
   <block id="69438cb2e4a059b421af50a7d06c8f93" category="paragraph">새 파일 공유 그룹이 작업 환경 목록에 추가됩니다.</block>
   <block id="8c7259d7b7f8962c22537c08f66b5e09" category="section-title">그룹에 파일 공유를 추가합니다</block>
   <block id="a5847332edc397d8726675e5b89d4f7a" category="paragraph">파일 공유 그룹에 파일 공유를 추가하면 해당 공유의 파일이 BlueXP 분류에서 검사됩니다. 공유 형식을<block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block>추가합니다.</block>
   <block id="7f36799e4767f2e3733ee3f582eeec9d" category="paragraph">개별 파일 공유를 추가하거나 스캔할 파일 공유의 줄별 목록을 제공할 수 있습니다. 한 번에 최대 100개의 공유를 추가할 수 있습니다.</block>
   <block id="c9ce688a21fc0a13e7a592a39d9b66de" category="paragraph">단일 그룹에 NFS 및 CIFS 공유를 모두 추가하는 경우 NFS 공유를 한 번 추가한 다음 CIFS 공유를 다시 추가하는 프로세스를 실행해야 합니다.</block>
-  <block id="c696377eeab0348c7bd52ac7b4a8f54f" category="list-text">작업 환경 페이지에서 파일 공유 그룹에 대한 * 구성 * 버튼을 클릭합니다.</block>
   <block id="d9a6785fa0ca31901cf49acc5951aefc" category="paragraph"><block ref="d9a6785fa0ca31901cf49acc5951aefc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9535e8d73656c91d40193e1352899f5b" category="list-text">이 파일 공유 그룹에 대한 파일 공유를 처음으로 추가하는 경우 * 첫 번째 공유 추가 * 를 클릭합니다.</block>
   <block id="e12f851045a5dd03b63ec08942496b87" category="inline-image-macro">그룹에 초기 공유를 추가하기 위한 첫 번째 공유 추가 버튼을 보여 주는 스크린샷</block>
   <block id="71802feecdbf246a5878ffd0776c9188" category="paragraph"><block ref="71802feecdbf246a5878ffd0776c9188" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e2fac2c70d1c0b8b442edf54cdc057a1" category="paragraph">기존 그룹에 파일 공유를 추가하는 경우 * 공유 추가 * 를 클릭합니다.</block>
   <block id="320628295265baf9bb69f0998f0f2fff" category="inline-image-macro">공유 추가 버튼을 보여 주는 스크린샷으로, 그룹에 공유를 더 추가할 수 있습니다.</block>
   <block id="8fedda70275ec7ba2bbf1cf099d2a559" category="paragraph"><block ref="8fedda70275ec7ba2bbf1cf099d2a559" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f1defe21c2a372d658838710c3847b34" category="list-text">추가할 파일 공유의 프로토콜을 선택하고, 스캔하려는 파일 공유를 한 줄에 하나씩 추가하고, * 계속 * 을 클릭합니다.</block>
   <block id="eb78bc82dacf7ba8a0b44a1fcffc4ddf" category="paragraph">CIFS(SMB) 공유를 추가할 때는 공유에 대한 읽기 액세스를 제공하는 Active Directory 자격 증명을 입력해야 합니다. 관리자 자격 증명을 사용하는 것이 좋습니다.</block>
   <block id="ea83a70e9aaa2fe5cdb89ca736c3f60f" category="inline-image-macro">스캔할 공유를 추가할 수 있는 파일 공유 추가 페이지의 스크린샷</block>
   <block id="a9d3544fdaa80db23d985cc9024d392a" category="paragraph"><block ref="a9d3544fdaa80db23d985cc9024d392a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="17ac351ddbea073b035b83b540983f6f" category="paragraph">확인 대화 상자에 추가된 공유 수가 표시됩니다.</block>
   <block id="87dced2b98ff65890acdcbfd5902920a" category="paragraph">대화 상자에 추가할 수 없는 공유가 나열된 경우 이 정보를 캡처하여 문제를 해결할 수 있습니다. 경우에 따라 수정된 호스트 이름 또는 공유 이름으로 공유를 다시 추가할 수 있습니다.</block>
   <block id="5a05b6cef18f9bb7455b9c5cd36ddc47" category="list-text">각 파일 공유에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 활성화합니다.</block>
-  <block id="53642e15bf631c93172b796ba5a78cc2" category="cell">파일 공유에서 매핑 전용 스캔을 활성화합니다</block>
   <block id="ae70ae1b93c56367429b7d2bb0ece139" category="cell">Map * 을 클릭합니다</block>
-  <block id="80023efd80f3cd8c1fcad9523d36efb1" category="cell">파일 공유에서 전체 스캔을 활성화합니다</block>
   <block id="c8f32db0b52a7b7e31ee04bd02eddbb6" category="cell">지도 및 분류 * 를 클릭합니다</block>
-  <block id="ff947db636909b9c7791229bf6b5dd0a" category="cell">파일 공유에서 스캔을 비활성화합니다</block>
   <block id="a988b0977fb89f6574cfc55d252b1cf9" category="cell">Off * 를 클릭합니다</block>
   <block id="07ada1e73188e64ef4fd43b06b4a2a48" category="paragraph">BlueXP 분류는 사용자가 추가한 파일 공유의 파일을 검사하기 시작하고 그 결과는 대시보드와 다른 위치에 표시됩니다.</block>
   <block id="0eb30c84638dc32a52a08e70a70b2a55" category="section-title">규정 준수 검사에서 파일 공유를 제거합니다</block>
-  <block id="4de725d331cf276fac026642a5f17603" category="paragraph">특정 파일 공유를 더 이상 스캔할 필요가 없는 경우 언제든지 개별 파일 공유를 제거하여 파일을 검색할 수 있습니다. 구성 페이지에서 * 공유 제거 * 를 클릭하기만 하면 됩니다.</block>
   <block id="90777a343fd7f5c83c97f473d59a2af2" category="inline-image-macro">단일 파일 공유를 제거하여 파일을 스캔하는 방법을 보여 주는 스크린샷</block>
   <block id="c8716632d7055f530ad579b6f751cf3a" category="paragraph"><block ref="c8716632d7055f530ad579b6f751cf3a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="65f7d3315d8640ef3d8c452f389f943f" category="summary">BlueXP 분류를 사용하여 ONTAP 볼륨에 대한 Amazon FSx 스캔을 시작하려면 몇 단계를 완료하십시오.</block>
@@ -2680,32 +2515,17 @@
   <block id="7c04897feb206ad3e6d38ea88ccde2d4" category="paragraph"><block ref="7c04897feb206ad3e6d38ea88ccde2d4" category="inline-link-rx"></block></block>
   <block id="7ffe245546d3b7b3225d3db681da37ae" category="inline-link">AWS의 탄력적인 네트워크 인터페이스(ENI)</block>
   <block id="0e07c8e30d5d787d70fbc93583eb3032" category="paragraph"><block ref="0e07c8e30d5d787d70fbc93583eb3032" category="inline-link-rx"></block></block>
-  <block id="360c11bcd9a9bfedb1aa5353935d21cd" category="paragraph">다음 단계를 따라 빠르게 시작하거나 아래로 스크롤하여 자세한 내용을 확인하십시오.</block>
-  <block id="d9c5a199091edda801a88fd2fdabd9d0" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 검사할 FSx for ONTAP 파일 시스템을 검색합니다</block>
-  <block id="d0e7ae8581484b514e52b4bee068c4f2" category="inline-link">볼륨이 구성된 FSx 작업 환경이 있어야 합니다</block>
-  <block id="abefc4760bb681a677a193d3f612cf4f" category="paragraph">FSx for ONTAP 볼륨을 스캔하기 전에<block ref="7452eb54bbdeb3cd1b4f5d5a58a8a661" category="inline-link-rx"></block>,</block>
-  <block id="4b90970a73b6d625403168dd7b622461" category="list-text">BlueXP 분류 인스턴스에는 ONTAP 서브넷을 위해 각 FSx에 대한 네트워크 연결이 필요합니다.</block>
-  <block id="931681dae1bd3e08d5eaf02377942fff" category="list-text">BlueXP 분류 인스턴스에 대해 다음 포트가 열려 있는지 확인합니다.</block>
-  <block id="0b4a0190dbaa2e1dcde2987291a8fda7" category="list-text">BlueXP 분류에는 CIFS 볼륨을 스캔하기 위해 Active Directory 자격 증명이 필요합니다. + * Compliance * &gt; * Configuration * &gt; * Edit CIFS Credentials * 를 클릭하고 자격 증명을 입력합니다.</block>
-  <block id="08f13635125ca31ad0dd4c558af740d0" category="paragraph">스캔할 볼륨을 선택하거나 선택 취소하면 BlueXP 분류가 스캔을 시작하거나 중지합니다.</block>
-  <block id="7189cf24cfe83953d8a6800deef41472" category="section-title">검사할 FSx for ONTAP 파일 시스템을 검색합니다</block>
-  <block id="42161ed94a32c7fa5d4458da4f8fd247" category="paragraph">검사할 ONTAP 파일 시스템용 FSx가 BlueXP에 작업 환경으로 설정되어 있지 않은 경우 이 파일을 캔버스에 추가할 수 있습니다.</block>
-  <block id="7c71ca28422eaaaf66d759fac9ddacd8" category="inline-link">BlueXP에서 ONTAP 파일 시스템용 FSx를 검색 또는 생성하는 방법을 확인하십시오</block>
-  <block id="bbb49ffca9a7a090a24129f517c49921" category="paragraph"><block ref="cfae4f09920e34de0a804a19a3f6c70a" category="inline-link-rx"></block>..</block>
   <block id="be2976cf8226247a23c06d21cc561154" category="paragraph">BlueXP 분류를 AWS용 커넥터 및 스캔할 FSx 볼륨과 동일한 AWS 네트워크에 배포해야 합니다.</block>
   <block id="18b57e2e68f1be182173d49ffbcd4e0c" category="paragraph">* 참고: * FSx 볼륨을 스캔할 때는 현재 온-프레미스 위치에서 BlueXP 분류 배포를 지원하지 않습니다.</block>
   <block id="3ae736236dde2535cad4ec42745a0cbd" category="paragraph">ONTAP 볼륨에 대해 FSx에 대해 BlueXP 분류를 활성화할 수 있습니다.</block>
   <block id="2cc6e87dfb5a6f87bc1fcbd217a498de" category="paragraph"><block ref="2cc6e87dfb5a6f87bc1fcbd217a498de" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2940154367c6f9a7ec39da3423e3eb0a" category="paragraph">자세한 내용은 볼륨에 대한 규정 준수 검사 활성화 및 비활성화 를 참조하십시오.</block>
   <block id="6bc94b69811d2b0b701e915104066612" category="paragraph">네트워킹, 보안 그룹 및 내보내기 정책을 확인하여 BlueXP 분류가 볼륨에 액세스할 수 있는지 확인합니다.</block>
   <block id="24f2d84d2538ae621015886e3ec8b0c0" category="paragraph">CIFS 볼륨에 액세스할 수 있도록 BlueXP 분류에 CIFS 자격 증명을 제공해야 합니다.</block>
-  <block id="d7f427e021c7b93fd75b9364e170beaa" category="list-text">Configuration_페이지에서 * View Details * 를 클릭하여 상태를 검토하고 오류를 수정합니다.</block>
   <block id="57b038ede182cd587e669c8a0afda2ca" category="paragraph">예를 들어, 다음 이미지는 BlueXP 분류 인스턴스와 볼륨 사이의 네트워크 연결 문제로 인해 BlueXP 분류에서 스캔할 수 없는 볼륨을 보여 줍니다.</block>
   <block id="6aba3e790f0d136fccde9108bbcb6e54" category="inline-image-macro">BlueXP 분류와 볼륨 간의 네트워크 연결로 인해 볼륨이 스캔되지 않음을 보여주는 스캔 구성의 View Details(세부 정보 보기) 페이지 스크린샷</block>
   <block id="938a0c53f3b8295f00211aa4aa636d59" category="paragraph"><block ref="938a0c53f3b8295f00211aa4aa636d59" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e9e6eb440f640e08bc3c5103228122dd" category="list-text">BlueXP 분류 인스턴스와 ONTAP용 FSx 볼륨을 포함하는 각 네트워크 사이에 네트워크 연결이 있는지 확인합니다.</block>
   <block id="4c38967920351f8ebcaa4e690d701258" category="admonition">ONTAP용 FSx의 경우 BlueXP 분류는 BlueXP와 동일한 영역에서만 볼륨을 스캔할 수 있습니다.</block>
-  <block id="a6861649492b63cf2f2a487ef03dd6c9" category="list-text">다음 포트가 BlueXP 분류 인스턴스에 열려 있는지 확인합니다.</block>
   <block id="f80a9a7914afa1563740cc402c8af25d" category="list-text">NFS 볼륨 내보내기 정책에 각 볼륨의 데이터에 액세스할 수 있도록 BlueXP 분류 인스턴스의 IP 주소가 포함되어 있는지 확인합니다.</block>
   <block id="96b3aa8095ad0bcd3eaec96c37810623" category="paragraph">기본적으로 데이터 보호(DP) 볼륨은 외부에서 노출되지 않고 BlueXP 분류에서 액세스할 수 없기 때문에 스캔되지 않습니다. ONTAP 파일 시스템용 FSx의 SnapMirror 작업을 위한 대상 볼륨입니다.</block>
   <block id="fc8033e05bdb5950218106d24c9f7b6c" category="list-text">소스 FSx for ONTAP 파일 시스템에서 처음에 NFS 볼륨으로 생성된 볼륨이 활성화됩니다.</block>
@@ -2895,12 +2715,6 @@
   <block id="c235e8dcaa6dc2ac0f78ac4ac2cdc749" category="paragraph">BlueXP 분류는 사용자가 활성화한 새 S3 버킷을 스캔하기 시작합니다.</block>
   <block id="bd55f8107f06cc057a2ee0b7487375bc" category="summary">BlueXP 분류를 사용하여 SharePoint Online 및 SharePoint On-Premise 계정의 파일 검색을 시작하는 몇 가지 단계를 완료합니다.</block>
   <block id="6d6f3f8c3e87f4e41fd51dc3695310ba" category="doc">SharePoint 계정을 검색합니다</block>
-  <block id="5f416f277e6c7af36efa90cbe31fdc89" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> SharePoint 사전 요구 사항을 검토합니다</block>
-  <block id="13e71bc7a750dcb909f7b6e859dba7aa" category="paragraph">SharePoint 계정에 로그인할 수 있는 자격 증명이 있고 검색할 SharePoint 사이트의 URL이 있는지 확인합니다.</block>
-  <block id="9fe6e2fee7993c52383e8b7d6305217d" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> SharePoint 계정에 로그인합니다</block>
-  <block id="6d3bb929d06fa3023ab7239f4567ed1a" category="paragraph">자격 있는 사용자 자격 증명을 사용하여 액세스할 SharePoint 계정에 로그인하여 새 데이터 원본/작업 환경으로 추가합니다.</block>
-  <block id="3c584664ee2c98abe2634d62c3ff9951" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 검색할 SharePoint 사이트 URL을 추가합니다</block>
-  <block id="6af032d0de89339877509ae11ea19c63" category="paragraph">SharePoint 계정에서 검색할 SharePoint 사이트 URL 목록을 추가하고 검색 유형을 선택합니다. 한 번에 최대 100개의 URL을 추가할 수 있으며 각 계정에 대해 최대 1,000개의 사이트를 추가할 수 있습니다.</block>
   <block id="16976b9bcf6240cdf0301678ba12a525" category="section-title">SharePoint 요구 사항을 검토합니다</block>
   <block id="30a7d0aa212920161c46f31812859285" category="paragraph">다음 필수 구성 요소를 검토하여 SharePoint 계정에서 BlueXP 분류를 활성화할 준비가 되었는지 확인합니다.</block>
   <block id="7a8c400460fcd57ab61e646f8f7222ff" category="list-text">모든 SharePoint 사이트에 읽기 권한을 제공하는 SharePoint 계정에 대한 관리자 사용자 로그인 자격 증명이 있어야 합니다.</block>
@@ -2957,19 +2771,12 @@
   <block id="afa7a7418ec887770e17d3e7f22e7124" category="paragraph">SharePoint 계정에서 사용자 데이터를 더 이상 검색하지 않으려는 경우 사용할 수 <block ref="8a8cc9ad51b15be1143c5a5de2ed3576" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="c44712318b0c4e33e9d361583871c49c" category="summary">몇 가지 단계를 완료하여 StorageGRID 내에서 BlueXP  분류로 직접 데이터 스캔을 시작합니다.</block>
   <block id="98e210281b17a386ae53922f3fb716a8" category="doc">BlueXP  분류로 StorageGRID 데이터를 스캔합니다</block>
-  <block id="59b7feee7c455334bdb5e4ec5e6894ed" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> StorageGRID 사전 요구 사항을 검토하십시오</block>
-  <block id="38717cae919e1e294cc3518a554d11f1" category="paragraph">StorageGRID 서비스에 연결하려면 끝점 URL이 있어야 합니다.</block>
   <block id="62756ad365a0397e368bc1fff7694d09" category="paragraph">BlueXP  분류가 버킷에 액세스할 수 있도록 StorageGRID의 액세스 키 및 비밀 키가 있어야 합니다.</block>
-  <block id="1e296ed773c248e6872c66d3f89ebe11" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> StorageGRID 서비스를 추가합니다</block>
-  <block id="a1a191ce069b9cd9855c29e830e5edb1" category="paragraph">StorageGRID 서비스를 BlueXP  분류에 추가합니다.</block>
   <block id="dc3fd4fe9b1bb66db60a59be3884a90c" category="section-title">StorageGRID 요구 사항을 검토합니다</block>
   <block id="75fb1719288a18e42bbcf12474e638ab" category="paragraph">인터넷을 통해 액세스할 수 있는 StorageGRID에서 데이터를 스캔하는 경우 <block ref="8faa540c15177bc62b151869f0948a64" category="inline-link-macro-rx"></block>또는 을<block ref="15df3adeb2abcc06430d6dc64cee819e" category="inline-link-macro-rx"></block>(를) 수행할 수 있습니다.</block>
   <block id="b7f5835679149c7ad528a93130c54fd2" category="paragraph">인터넷에 액세스할 수 없는 다크 사이트에 설치된 StorageGRID에서 데이터를 스캔하는 경우 다음을 <block ref="3beeea1c5d12940092999048e1c30313" category="inline-link-macro-rx"></block>수행해야 합니다. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
   <block id="8da203a5374e4d2ee4312dc1aafd619c" category="section-title">StorageGRID 서비스를 BlueXP  분류에 추가합니다</block>
   <block id="51fd71ec3cd52fe8a3a0c2ca75ecb69e" category="paragraph">StorageGRID 서비스를 추가합니다.</block>
-  <block id="771f36ecee826264fd1ac1390344dbca" category="list-text">작업 환경 구성 페이지에서 * 데이터 소스 추가 * &gt; * StorageGRID 추가 * 를 클릭합니다.</block>
-  <block id="a7796c18f1e58491acf905cde2f55b58" category="inline-image-macro">StorageGRID 추가 버튼을 클릭할 수 있는 스캔 구성 페이지의 스크린샷.</block>
-  <block id="6c352ef7f53a039992102d86911d18fa" category="paragraph"><block ref="6c352ef7f53a039992102d86911d18fa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31d1c614924f93f76d5d59b499ae01ba" category="list-text">StorageGRID 서비스 추가 대화 상자에서 StorageGRID 서비스에 대한 세부 정보를 입력하고 * 계속 * 을 클릭합니다.</block>
   <block id="f153721d9ef26ee125af0b2bd9b6a3e4" category="list-text">작업 환경에 사용할 이름을 입력합니다. 이 이름은 연결할 StorageGRID 서비스의 이름을 반영해야 합니다.</block>
   <block id="9352a83c797b7c34cb58ee6504218644" category="list-text">BlueXP  분류가 StorageGRID의 버킷에 액세스할 수 있도록 액세스 키 및 비밀 키를 입력합니다.</block>
@@ -2978,8 +2785,6 @@
   <block id="33d7a3218c026536f68e6f9eb287287c" category="paragraph">StorageGRID가 작업 환경 목록에 추가됩니다.</block>
   <block id="149bb086304a69799f52fb84d5e33370" category="section-title">StorageGRID 버킷에서 규정 준수 스캔을 활성화 및 비활성화합니다</block>
   <block id="81959d6a19d62d0f6e5ccbbd1a01c2f0" category="paragraph">StorageGRID에서 BlueXP  분류를 활성화한 후 다음 단계는 스캔할 버킷을 구성하는 것입니다. BlueXP 분류는 이러한 버킷을 검색하여 사용자가 만든 작업 환경에 표시합니다.</block>
-  <block id="ffc704586971ad083fdf8dd3a75b06c9" category="list-text">구성 페이지에서 StorageGRID 작업 환경에서 * 구성 * 을 클릭합니다.</block>
-  <block id="83a1ac14de85f87d0324d9f2a2d89105" category="paragraph"><block ref="83a1ac14de85f87d0324d9f2a2d89105" category="inline-image-macro-rx" type="image"></block></block>
   <block id="48e1eb4f3a8c9056e5dc0d4943a84ada" category="inline-image-macro">스캔할 StorageGRID 버킷을 선택하는 스크린샷</block>
   <block id="d63ea5297bdc582794b89a4fc7b492d8" category="paragraph"><block ref="d63ea5297bdc582794b89a4fc7b492d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="243263104c829e77835d632f591230d5" category="summary">NetApp 기술 지원 팀과 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
@@ -3253,7 +3058,6 @@
   <block id="240625d3ff2ba7b1a3949f7ddfb468d3" category="paragraph-title">대시보드의 추가 데이터</block>
   <block id="43ac3190fe70b3bdb1f5d5b7083f374a" category="paragraph">이 릴리스는 매핑 검사 중에 거버넌스, 규정 준수 및 조사 대시보드에 표시되는 데이터를 업데이트합니다.</block>
   <block id="9b28a6e87457a6a3bfb03009dcd0b84a" category="inline-link">매핑 스캔과 분류 스캔의 차이점은 무엇입니까</block>
-  <block id="c7fb92ca31125e81e2a4f2982bc6a806" category="paragraph">자세한 내용은 을 참조하십시오<block ref="4062fc8e6e6df1b01a1de644d8a7eeca" category="inline-link-rx"></block></block>
   <block id="4497f9fd188a9629ea47d91a3f025c8c" category="section-title">2024년 6월 5일</block>
   <block id="decdab3311a7d521fe764d5d580ddd35" category="section-title">버전 1.32</block>
   <block id="7910c8307cac3d62eca8ac0d42301b38" category="paragraph-title">구성 페이지의 새 매핑 상태 열</block>
@@ -3347,7 +3151,6 @@
   <block id="cf39647f74e2ee71e92d2dcb020dab2d" category="paragraph">BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작업 환경의 볼륨에서 감지된 파일 액세스 이벤트를 처리할 수 있습니다. BlueXP 분류는 다음 유형의 FPolicy 이벤트와 파일에서 작업을 수행한 사용자, 즉 만들기, 읽기, 쓰기, 삭제, 이름 바꾸기, 소유자/권한을 변경하고 SACL/DACL을 변경합니다.</block>
   <block id="e1161f065b10936afc930fd3d9d0c76f" category="paragraph-title">이제 Data Sense BYOL 라이센스가 다크 사이트에서 지원됩니다</block>
   <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오</block>
-  <block id="645f5675426bc396b45b524635e93bc7" category="paragraph">이제 Data Sense BYOL 라이센스를 다크 사이트의 BlueXP  디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다.<block ref="bd823f9b4dce457c0ea2a8dcca6e749f" category="inline-link-rx"></block>..</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023년 4월 3일</block>
   <block id="288d139ea0d21561e65bec74c2f7c646" category="section-title">버전 1.22</block>
   <block id="e4279e9f497576fcde3caeb67ed0f96d" category="paragraph-title">새로운 데이터 검색 평가 보고서</block>
@@ -3503,4 +3306,92 @@
   <block id="ee8870d1e0595ddae329cf8ef1ee89fa" category="paragraph">조사 페이지의 내용을 필터링하여 원하는 결과만 표시할 수 있습니다.</block>
   <block id="260af28d48ba051bd7cdd887380f9ece" category="paragraph">Linux 호스트에 BlueXP  분류를 수동으로 설치하기 전에 선택적으로 호스트에서 스크립트를 실행하여 BlueXP  분류 설치를 위한 모든 사전 요구 사항이 충족되는지 확인합니다. 이 스크립트는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서 실행할 수 있습니다. 호스트를 인터넷에 연결하거나 호스트가 인터넷에 액세스할 수 없는 사이트(A_Dark site_)에 상주할 수 있습니다.</block>
   <block id="b64eea97fe56778b0e28c568854873ed" category="paragraph">BlueXP  분류 소프트웨어를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거합니다. 또한 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. BlueXP 분류에서 검색한 모든 정보는 영구적으로 삭제됩니다.</block>
+  <block id="378c20222de970dbe3321fec8e32e947" category="list-text">Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2, 9.3, 9.4 및 9.5</block>
+  <block id="6b9d9a04ff593ff427731819f0c3618f" category="doc">버전 1.40</block>
+  <block id="dc4b47101650865122105745fe8d0a2c" category="paragraph-title">RHEL 9.5 지원</block>
+  <block id="1d26b47b0bf4a8a52ca8e66bcb8661dc" category="paragraph">이 릴리스는 Red Hat Enterprise Linux v9.5 및 이전에 지원되는 버전을 지원합니다. 이는 다크 사이트 배포를 포함하여 BlueXP  분류의 수동 온-프레미스 설치에 적용됩니다.</block>
+  <block id="3461c6d70dff5780cf443e0892f0b5af" category="paragraph">다음 운영 체제는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP  분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4 및 9.5.</block>
+  <block id="ce7ca903497eb6081e95129584ddf094" category="paragraph-title">스캔 우선 순위 지정</block>
+  <block id="82716fc746867fe082dcc9cbf84eae8a" category="paragraph">스캔 구성 시 가장 중요한 스캔 우선 순위를 지정하여 다른 스캔 전에 수행할 수 있습니다. 이 기능은 작업 환경이 많은 경우 우선 순위가 높은 스캔이 처음에 성공적으로 수행되도록 하려는 경우에 유용합니다.</block>
+  <block id="eeea9543c2f8c1038eccd6eeec85921c" category="paragraph">스캔에는 두 가지 유형이 있습니다.</block>
+  <block id="ab5b6069c85f999f926e29058a40aec2" category="list-text">* 매핑 전용 스캔 * 은 데이터에 대한 높은 수준의 개요만 제공합니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다.</block>
+  <block id="e5e1cbf6654ebd60cb667a224f96576b" category="list-text">* 지도 및 분류 * 스캔을 통해 데이터를 심층적으로 스캔할 수 있습니다.</block>
+  <block id="c124c4f02a2ca2f9d44b7fba00db37c1" category="paragraph">매핑 전용 스캔을 사용하여 데이터를 빠르게 스캔하여 더 많은 연구가 필요한 데이터 소스를 식별한 다음 나중에 필요한 데이터 소스 또는 볼륨에 대해서만 맵 및 분류를 활성화할 수 있습니다.</block>
+  <block id="50c745bad209edbd34224bb42d16a2f2" category="paragraph">우선 순위는 매핑 전용 스캔에만 할당되며 스캔 맵핑 및 분류에는 할당되지 않습니다.</block>
+  <block id="e6d9a832ce4714fadf7ccc119cafd52e" category="paragraph">우선 순위는 기본적으로 1로 설정되며 1에서 10 사이의 숫자로 변경할 수 있습니다. 숫자가 낮을수록 우선 순위가 높습니다. 우선 순위를 설정하지 않으면 스캔 우선 순위가 5로 지정됩니다.</block>
+  <block id="6dc81f0ce39e2f29f7002163498374d6" category="paragraph">우선 순위를 변경하려면 다음을 실행합니다.</block>
+  <block id="09d7e52dfc68f84cd7ef45e3c26a0389" category="list-text">BlueXP  classification 메뉴에서 * Configuration * 을 선택합니다.</block>
+  <block id="9ad22d134d0b57050c5d4d4a8e861bf9" category="list-text">우선 순위를 지정할 자원을 선택합니다.</block>
+  <block id="dde93fd6ebd9f31996e0ca6a50869101" category="list-text">작업... 옵션에서 * 스캔 우선 순위 * 를 선택합니다.</block>
+  <block id="23f3ca8acf289a9744eaee823b84a174" category="paragraph-title">스캔을 다시 시도하십시오</block>
+  <block id="27bb502975756d8e8d38bf7fd6d53965" category="paragraph">이 릴리스에서는 실패한 스캔을 다시 시도할 수 있습니다. 이 기능은 네트워크 중단과 같은 일시적인 문제로 인해 검사가 실패한 경우 유용합니다. 재구성하지 않고 스캔을 다시 시도할 수 있습니다.</block>
+  <block id="8e7dae065f11c6b2679636ea5e03849d" category="paragraph">스캔을 다시 시도하려면 다음을 수행합니다.</block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
+  <block id="8e66898002589c26f968e6fd94a57988" category="list-text">실패한 모든 스캔을 다시 시도하려면 * 모든 스캔 재시도 * 를 선택합니다.</block>
+  <block id="a2cf857a70e312df7b376e0516470728" category="list-text">특정 스캔을 다시 시도하려면 리소스를 선택하고 Actions... 옵션에서 * Retry scan * 을 선택하십시오.</block>
+  <block id="e59c558837a0bee73ac15f544f275cae" category="paragraph">스캔은 원본 스캔과 동일한 구성으로 재시도합니다. 스캔이 다시 실패하면 필요한 만큼 다시 시도할 수 있습니다.</block>
+  <block id="c05a4c0b45b0c78ba3771a3530738f78" category="paragraph">매핑 전용 스캔을 수행할 때 가장 중요한 스캔의 우선 순위를 지정할 수 있습니다. 이 기능은 작업 환경이 많고 우선 순위가 높은 검사가 먼저 완료되도록 하려는 경우에 유용합니다.</block>
+  <block id="03b61f1818fbb0c7e0a356c942abdc31" category="paragraph">기본적으로 스캔은 시작된 순서에 따라 대기합니다. 스캔 우선 순위 지정 기능을 통해 이제 스캔을 대기열 앞으로 이동할 수 있습니다. 여러 스캔의 우선 순위를 지정할 수 있습니다. 우선 순위는 선입선출 순서로 지정됩니다. 즉, 우선 순위를 지정한 첫 번째 스캔이 대기열의 맨 앞으로 이동하고 우선 순위를 지정한 두 번째 스캔은 대기열의 두 번째 스캔이 됩니다.</block>
+  <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">우선 순위는 한 번만 부여됩니다. 매핑 데이터의 자동 재검색이 기본 순서로 수행됩니다.</block>
+  <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">매핑 전용 스캔</block>
+  <block id="92fbf5243922258219f1e304b1549560" category="paragraph">우선 순위 지정은 로 <block ref="4fb1432e3e9b17c8a7a21683abcd7d6c" category="inline-link-macro-rx"></block>제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.</block>
+  <block id="42968807986d9cd74ea7703d63bf3408" category="paragraph">우선 순위를 변경하려면:</block>
+  <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">모든 스캔을 재시도합니다</block>
+  <block id="06243660aeb549bac73e7c160d2d2a70" category="paragraph">이제 BlueXP  분류는 실패한 모든 스캔을 일괄 재시도하는 기능을 지원합니다.</block>
+  <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">이제 ** Retry All** 기능을 사용하여 일괄 작업으로 스캔을 다시 시도할 수 있습니다. 네트워크 중단과 같은 일시적인 문제로 인해 분류 스캔이 실패하는 경우 개별적으로 다시 시도하지 않고 하나의 버튼으로 모든 스캔을 동시에 다시 시도할 수 있습니다. 스캔은 필요한 만큼 재시도할 수 있습니다.</block>
+  <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">모든 스캔을 재시도하려면:</block>
+  <block id="b12f5b59c684a779545a1b1213dd66bc" category="paragraph">BlueXP  분류에서 두 가지 유형의 스캔을 수행할 수 있습니다.</block>
+  <block id="9d3df32a3f2de154b8990ebd35c31613" category="list-text">** 매핑 전용** 스캔은 데이터에 대한 높은 수준의 개요만 제공하며 선택한 데이터 소스에서 수행됩니다. 매핑 전용 스캔은 내부에서 데이터를 보기 위해 파일에 액세스하지 않기 때문에 스캔을 맵핑하고 분류하는 것보다 시간이 적게 걸립니다.</block>
+  <block id="1066c61e667e291ec5e73b4dacd940cc" category="list-text">** 지도 및 분류** 스캔을 통해 데이터를 심층적으로 스캔할 수 있습니다.</block>
+  <block id="521c4c041b2018425d0b51d58630dbd6" category="paragraph">매핑 전용 스캔을 사용하면 데이터를 빠르게 스캔하고 더 많은 연구가 필요할 수 있는 데이터 소스를 식별할 수 있습니다. 그런 다음 지도 및 분류 스캔을 수행할 수 있습니다.</block>
+  <block id="942a04054c6b1ae7f7628fd51272bc4f" category="cell">스캔 매핑 및 분류</block>
+  <block id="4ece5b80f66f48ae87ab10eeb6098ee4" category="cell">매핑 전용 스캔</block>
+  <block id="199f10f735e14c906492368f8756c40f" category="list-text">매핑 전용 스캔을 수행할 때 BlueXP  분류는 하루에 100-150개의 데이터 TiB를 스캔할 수 있습니다.</block>
+  <block id="2035b28633c5d248f8b4834a49bb61e4" category="list-text">지도 및 분류 스캔을 수행할 때 BlueXP  분류는 하루에 15-40개의 TiB 데이터를 스캔할 수 있습니다.</block>
+  <block id="f7bdd4178a7e1813735f80fdd04c8365" category="list-text">* 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. <block ref="4919d6fe6d27551fddf3eb8948477168" category="inline-link-macro-rx"></block>..</block>
+  <block id="b74906233eebd14b41614d235251d36a" category="list-text">BlueXP 의 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 분류 * 를 선택합니다.</block>
+  <block id="f3bf83f2c7aadc341ac1678567775abc" category="list-text">모든 볼륨을 매핑하려면 * Map All Volumes * 를 선택합니다.</block>
+  <block id="c854572c2f5a5368403f0ee57aa1bb29" category="list-text">모든 볼륨을 매핑하고 분류하려면 * Map &amp; Classify All Volumes * 를 선택합니다.</block>
+  <block id="9071a661cd1f2da138650405c0f6579b" category="list-text">각 볼륨에 대한 스캔을 사용자 정의하려면 * 를 선택하거나 각 볼륨에 대한 스캔 유형 * 을 선택한 다음 매핑 및/또는 분류할 볼륨을 선택합니다.</block>
+  <block id="ddcb8a6902a96c1a35295d1f7fd7e95e" category="list-text">각 작업 환경에 대해 * CIFS 자격 증명 편집 * 을 선택하고 BlueXP  분류에서 시스템의 CIFS 볼륨에 액세스하는 데 필요한 사용자 이름과 암호를 입력합니다.</block>
+  <block id="61777805153edfb68af7738669a8fa28" category="list-text">구성 페이지에서 * 세부 정보 보기 * 를 선택하여 각 CIFS 및 NFS 볼륨의 상태를 검토하고 오류를 수정합니다.</block>
+  <block id="c3341bb4de7c50914afc4d1735bc5a60" category="list-text">볼륨에 대한 매핑 전용 스캔을 활성화하려면 볼륨 영역에서 * Map * 을 선택합니다. 또는 모든 볼륨에서 활성화하려면 제목 영역에서 * Map * 을 선택합니다. 볼륨에서 전체 스캔을 활성화하려면 볼륨 영역에서 * Map &amp; Classify * 를 선택합니다. 또는 모든 볼륨에서 활성화하려면 제목 영역에서 * Map &amp; Classify * 를 선택합니다.</block>
+  <block id="c2855e2ec2a3b644fcf3de0a8f9d45c5" category="list-text">볼륨에 대한 스캔을 비활성화하려면 볼륨 영역에서 * Off * 를 선택합니다. 모든 볼륨에서 스캔을 비활성화하려면 제목 영역에서 * Off * 를 선택합니다.</block>
+  <block id="68dcec37c7e93a47d1ae41152c0801ce" category="admonition">작업 환경에 추가된 새 볼륨은 머리글 영역에서 * Map * 또는 * Map &amp; Classify * 설정을 설정한 경우에만 자동으로 스캔됩니다. 이 옵션이 제목 영역에서 * 사용자 지정 * 또는 * 꺼짐 * 으로 설정된 경우 작업 환경에서 추가하는 각 새 볼륨에 대해 매핑 및/또는 전체 스캔을 활성화해야 합니다.</block>
+  <block id="dfa8ad96ab6729352fe85576aaf7b1b5" category="list-text">확인 메시지를 검토하고 * DP 볼륨에 대한 액세스 활성화 * 를 다시 선택합니다.</block>
+  <block id="c836dbd0445ab0238fdc8bf8e9e5d884" category="paragraph">처음에 DP 볼륨에 대한 액세스를 설정했을 때 CIFS 데이터 보호 볼륨이 없는 경우 나중에 일부 볼륨을 추가하면 구성 페이지 상단에 * CIFS DP에 대한 액세스 설정 * 버튼이 나타납니다. 이 버튼을 클릭하고 CIFS 자격 증명을 추가하여 이러한 CIFS DP 볼륨에 대한 액세스를 설정합니다.</block>
+  <block id="adcb3e6ce7bf6f310cc7c150d73e39d4" category="admonition">Active Directory 자격 증명은 첫 번째 CIFS DP 볼륨의 스토리지 VM에만 등록되므로 해당 SVM의 모든 DP 볼륨이 스캔됩니다. 다른 SVM에 상주하는 볼륨에 Active Directory 자격 증명이 등록되지 않으므로 DP 볼륨이 검색되지 않습니다.</block>
+  <block id="6edf97cc23559e08bb64258c2b9a21df" category="list-text">확인 대화 상자에서 * 승인 * 을 선택하여 BlueXP  분류에서 볼륨 스캔을 시작합니다.</block>
+  <block id="d1d296f2b9e5b8b2cc3d8284c315711a" category="list-text">볼륨에 대한 매핑 전용 스캔을 활성화하려면 볼륨 영역에서 * Map * 을 선택합니다. 모든 볼륨에서 활성화하려면 제목 영역에서 * Map * 을 선택합니다.</block>
+  <block id="2510c0a0455bb61d4cb97e4ad009c1bd" category="list-text">볼륨에서 전체 스캔을 활성화하려면 볼륨 영역에서 * Map &amp; Classify * 를 선택합니다. 모든 볼륨에서 활성화하려면 제목 영역에서 * Map &amp; Classify * 를 선택합니다.</block>
+  <block id="92f397877839fc7c4e3e7587d5fb9803" category="list-text">구성 페이지에서 * 작업 환경 추가 * &gt; * 데이터베이스 서버 추가 * 를 선택합니다.</block>
+  <block id="64f99cdcf52c853ffbb49b495c84036b" category="list-text">구성 페이지에서 구성하려는 데이터베이스의 * 구성 * 버튼을 선택합니다.</block>
+  <block id="b068bd6072b65d7af1c49c844084245e" category="paragraph">BlueXP  분류는 하루에 한 번 데이터베이스를 스캔합니다. 데이터베이스는 다른 데이터 소스와 마찬가지로 지속적으로 스캔되지 않습니다.</block>
+  <block id="063de98df490e1963f70c3177e6360fb" category="list-text">구성 페이지에서 * 작업 환경 추가 * &gt; * 파일 공유 그룹 추가 * 를 선택합니다.</block>
+  <block id="e88a3447811c9aed002c31e544c9189c" category="list-text">파일 공유 그룹 추가 대화 상자에서 공유 그룹의 이름을 입력하고 * 계속 * 을 선택합니다.</block>
+  <block id="3cbbc2871603074b8a3d479fe12b1dc4" category="list-text">구성 페이지의 작업 환경 타일에서 파일 공유 그룹에 대한 * 구성 * 버튼을 선택합니다.</block>
+  <block id="b24f1e5ca1e698decbe4352557abec98" category="list-text">이 파일 공유 그룹에 대한 파일 공유를 처음으로 추가하는 경우 * 첫 번째 공유 추가 * 를 선택합니다.</block>
+  <block id="5ae48a7275e9dd8700efd2d3ab4c5e7c" category="paragraph">기존 그룹에 파일 공유를 추가하려면 * 공유 추가 * 를 선택합니다.</block>
+  <block id="1530f296e4dbcb68d3bd72414e0bc29f" category="list-text">추가하려는 파일 공유에 대한 프로토콜을 선택하고 스캔할 파일 공유(한 줄에 파일 공유 하나씩)를 추가한 다음 * 계속 * 을 선택합니다.</block>
+  <block id="c1caffc666c49e212352548248fb6e42" category="list-text">다음 중 하나를 수행하여 스캔을 활성화 또는 비활성화합니다.</block>
+  <block id="c33a545f4674eb3c362c25d231db29f7" category="list-text">파일 공유에서 매핑 전용 스캔을 활성화하려면 * Map * 을 선택합니다.</block>
+  <block id="e80b5dfbb6519cb4346daba78481ae2e" category="list-text">파일 공유에서 전체 스캔을 활성화하려면 * Map &amp; Classify * 를 선택합니다.</block>
+  <block id="6bfd17d888fc4197713ca925797fb9c5" category="list-text">파일 공유에서 스캔을 비활성화하려면 * Off * 를 선택합니다.</block>
+  <block id="05383cbb22b67f6ba641527f070ae7e9" category="paragraph">특정 파일 공유를 더 이상 스캔할 필요가 없는 경우 언제든지 개별 파일 공유를 제거하여 파일을 검색할 수 있습니다.</block>
+  <block id="aad9882d7ab92fc074e89f265f252c19" category="list-text">구성 페이지에서 * 공유 제거 * 를 선택합니다.</block>
+  <block id="26df3c05a484f6dafaf2085e9f725f92" category="list-text">구성 페이지에서 * 세부 정보 보기 * 를 선택하여 상태를 검토하고 오류를 수정합니다.</block>
+  <block id="4d9ba07ef41ab1650dd0b2fb24f34e06" category="list-text">구성 페이지에서 스캔할 볼륨이 있는 작업 환경을 찾습니다.</block>
+  <block id="82fdcf8611938284b66932937e4f812f" category="list-text">페이지 맨 위에서 * DP 볼륨에 대한 액세스 활성화 * 를 선택합니다.</block>
+  <block id="82d339604c21f53ea7581b006f5d839c" category="paragraph">처음에 DP 볼륨에 대한 액세스를 설정했을 때 CIFS 데이터 보호 볼륨이 없는 경우 나중에 일부 볼륨을 추가하면 구성 페이지 상단에 * CIFS DP에 대한 액세스 설정 * 버튼이 나타납니다. 이 버튼을 선택하고 CIFS 자격 증명을 추가하여 이러한 CIFS DP 볼륨에 대한 액세스를 설정합니다.</block>
+  <block id="b54631daf68d4f40b608528eac113c54" category="list-text">BlueXP  classification 메뉴에서 * Configuration * 옵션을 선택합니다.</block>
+  <block id="1cb9b85f9cbfa22745193d5d7b0cb90c" category="list-text">구성 페이지에서 * 작업 환경 추가 * &gt; * StorageGRID 추가 * 를 선택합니다.</block>
+  <block id="704d44ad7247865a77f2dbbbf81e6e58" category="list-text">구성 페이지에서 StorageGRID 작업 환경을 찾습니다.</block>
+  <block id="5378a3bbfc65f4ccd535c2b88344cca5" category="list-text">StorageGRID 작업 환경 타일에서 * 구성 * 을 선택합니다.</block>
+  <block id="caec025f78d821f7d62a91fa9f5076d6" category="list-text">다음 단계 중 하나를 완료하여 스캔을 활성화 또는 비활성화합니다.</block>
+  <block id="cad17ad9f8ba6bb8222f2cda47d69fec" category="list-text">버킷에서 매핑 전용 스캔을 활성화하려면 * Map * 을 선택합니다.</block>
+  <block id="de112667eda744a4b358697bb7edc818" category="list-text">버킷에서 전체 스캔을 활성화하려면 * Map &amp; Classify * 를 선택합니다.</block>
+  <block id="da912e25717291a31093b36e55bb8641" category="list-text">버킷에서 스캔을 비활성화하려면 * Off * 를 선택합니다.</block>
+  <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025년 2월 19일</block>
+  <block id="5904eed2db8ef4855e1fd04bcf8b7d97" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="45d8326cb72a8fa1d7ca8c887062a7ee" category="inline-link-macro-rx"></block></block>
+  <block id="279961977f7de811c4eeee90a2454c87" category="paragraph">이제 Data Sense BYOL 라이센스를 다크 사이트의 BlueXP  디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다.<block ref="3e32e5c3cf84ce7c25efff198a230761" category="inline-link-rx"></block>..</block>
 </blocks>
