@@ -3306,7 +3306,6 @@
   <block id="ee8870d1e0595ddae329cf8ef1ee89fa" category="paragraph">조사 페이지의 내용을 필터링하여 원하는 결과만 표시할 수 있습니다.</block>
   <block id="260af28d48ba051bd7cdd887380f9ece" category="paragraph">Linux 호스트에 BlueXP  분류를 수동으로 설치하기 전에 선택적으로 호스트에서 스크립트를 실행하여 BlueXP  분류 설치를 위한 모든 사전 요구 사항이 충족되는지 확인합니다. 이 스크립트는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서 실행할 수 있습니다. 호스트를 인터넷에 연결하거나 호스트가 인터넷에 액세스할 수 없는 사이트(A_Dark site_)에 상주할 수 있습니다.</block>
   <block id="b64eea97fe56778b0e28c568854873ed" category="paragraph">BlueXP  분류 소프트웨어를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거합니다. 또한 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. BlueXP 분류에서 검색한 모든 정보는 영구적으로 삭제됩니다.</block>
-  <block id="378c20222de970dbe3321fec8e32e947" category="list-text">Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2, 9.3, 9.4 및 9.5</block>
   <block id="6b9d9a04ff593ff427731819f0c3618f" category="doc">버전 1.40</block>
   <block id="dc4b47101650865122105745fe8d0a2c" category="paragraph-title">RHEL 9.5 지원</block>
   <block id="1d26b47b0bf4a8a52ca8e66bcb8661dc" category="paragraph">이 릴리스는 Red Hat Enterprise Linux v9.5 및 이전에 지원되는 버전을 지원합니다. 이는 다크 사이트 배포를 포함하여 BlueXP  분류의 수동 온-프레미스 설치에 적용됩니다.</block>
@@ -3394,4 +3393,6 @@
   <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025년 2월 19일</block>
   <block id="5904eed2db8ef4855e1fd04bcf8b7d97" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="45d8326cb72a8fa1d7ca8c887062a7ee" category="inline-link-macro-rx"></block></block>
   <block id="279961977f7de811c4eeee90a2454c87" category="paragraph">이제 Data Sense BYOL 라이센스를 다크 사이트의 BlueXP  디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다.<block ref="3e32e5c3cf84ce7c25efff198a230761" category="inline-link-rx"></block>..</block>
+  <block id="84ea0db5b42f134872fbf35016e39cf9" category="list-text">Red Hat Enterprise Linux 버전 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4 및 9.5</block>
+  <block id="e69d7b651771ff110228ddae78e71631" category="list-text">호스트 시스템에서 AVX(Advanced Vector Extensions)를 활성화해야 합니다.</block>
 </blocks>
