@@ -1734,7 +1734,6 @@
   <block id="5c4a0511ffaeef83ec4f6f814c84e1f5" category="inline-xref">볼륨에 대해 규정 준수 검사를 활성화 및 비활성화합니다</block>
   <block id="c0c91d6f7c9b085f79f701932b3d9cc7" category="paragraph">자세한 내용은 을 <block ref="95ce3baacaaadbae6a6ffc1a8884d40a" category="inline-xref-macro-rx"></block> 참조하십시오.</block>
   <block id="d5e967f01610f01cb30183e6b342e630" category="list-text">확인 대화 상자에서 * 승인 * 을 클릭하여 BlueXP 분류가 볼륨 스캔을 시작하도록 합니다.</block>
-  <block id="b0dab6dc992c93096b218e009d2afb00" category="paragraph">BlueXP 분류는 작업 환경에서 선택한 볼륨을 스캔하기 시작합니다. BlueXP 분류가 초기 스캔을 마치면 준수 대시보드에서 결과를 확인할 수 있습니다. 소요되는 시간은 데이터 양에 따라 다릅니다. 몇 분 또는 몇 시간이 걸릴 수도 있습니다.</block>
   <block id="e636b4a892ea62f67be639b3661d6897" category="list-text">기본적으로 BlueXP 분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP 분류는 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 볼륨의 파일을 검색하지 않습니다. 마지막 액세스 시간이 재설정되는 것을 염려하지 않을 경우 * 를 클릭하거나 각 볼륨에 대한 스캐닝 유형을 선택하십시오 *. 결과 페이지에는 BlueXP 분류가 권한에 관계없이 볼륨을 스캔하도록 설정할 수 있는 설정이 있습니다.</block>
   <block id="dbc6be69ce4e1e10bc890167fa46f18b" category="inline-link-macro">이 BlueXP 분류 제한에 대한 자세한 내용은 을 참조하십시오</block>
   <block id="9b39a17b00cb629e1990cbdcbad1001d" category="list-text">BlueXP 분류는 한 볼륨에서 하나의 파일 공유만 검사합니다. 볼륨에 여러 공유가 있는 경우 해당 다른 공유를 공유 그룹으로 별도로 스캔해야 합니다. <block ref="5dac6ccd725a941d49a9e107a98eb409" category="inline-link-macro-rx"></block>..</block>
@@ -1810,7 +1809,6 @@
   <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">에서 JSON 보고서 생성 진행률을 볼 수 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="499dd7659f4fa7b600ca3796c449e41b" category="doc">조직에 저장된 데이터를 조사합니다</block>
   <block id="615e6d6aa74682391d600dc61fe1090c" category="inline-xref">데이터 조사 보고서에 대한 자세한 내용은 여기 를 참조하십시오</block>
-  <block id="56de383365196dfaf32d315a2b4b3cae" category="paragraph">페이지 내용을 구체화한 후 보고서로 다운로드하려면 단추를 클릭합니다<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block>. <block ref="99402c37b738da126a6c16dce45a83da" category="inline-xref-macro-rx"></block>..</block>
   <block id="d3720958611294d50237fe72870e0c02" category="inline-image-macro">조사 페이지에서 결과를 구체화할 때 사용할 수 있는 필터의 스크린샷.</block>
   <block id="3fd10935177bff66373986bc384c0307" category="paragraph"><block ref="3fd10935177bff66373986bc384c0307" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31d2b3f1b10e9877e365a14d5f9212e4" category="list-text">최상위 탭을 사용하면 파일(비정형 데이터), 디렉토리(폴더 및 파일 공유) 또는 데이터베이스(정형 데이터)에서 데이터를 볼 수 있습니다.</block>
@@ -1888,20 +1886,16 @@
   <block id="936baf22f04cffa654fef2a2806e8fcd" category="cell">파일이 리포지토리에서 복제되는지 여부를 선택합니다.</block>
   <block id="d9ff86959e1f6d2016c4db58114184ab" category="section-title">파일 메타데이터 보기</block>
   <block id="ddd53e8927c624ebcbf44e804dd39950" category="inline-image-macro">아래쪽 캐럿</block>
-  <block id="f934a72c8aa162f28cd2451333d31995" category="paragraph">데이터 조사 결과 창에서 임의의 단일 파일을 클릭하여 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>파일 메타데이터를 볼 수 있습니다.</block>
   <block id="04a8c17bf0b1e2cd69db6fba82b59dc0" category="inline-image-macro">데이터 조사 페이지의 파일에 대한 메타데이터 세부 정보를 보여 주는 스크린샷</block>
   <block id="c545ce144b1f4d763f30d9b729c1590c" category="paragraph"><block ref="c545ce144b1f4d763f30d9b729c1590c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aa4ba8b621d22449a2723e4175ff5c9d" category="inline-link-macro">정책을 생성합니다</block>
   <block id="d2b1e6329082b8cf29999896b3d3d744" category="paragraph">메타데이터는 작업 환경 및 파일이 상주하는 볼륨을 보여 줄 뿐 아니라 파일 권한, 파일 소유자 및 이 파일의 중복 존재 여부 등 훨씬 많은 정보를 보여 줍니다. 이 정보는 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있으므로 을 계획 중인 경우에 <block ref="8c7af7ec06ac1cea6800f7cd16a5f7c0" category="inline-link-macro-rx"></block>유용합니다.</block>
   <block id="9538e6335cc9662b264dd0870f2ca091" category="paragraph">모든 데이터 원본에 대해 모든 정보를 사용할 수 있는 것은 아니며 해당 데이터 원본에 적합한 정보일 뿐입니다. 예를 들어, 볼륨 이름과 권한은 데이터베이스 파일과 관련이 없습니다.</block>
   <block id="fffb468d89636ef35919bda57df8f0bc" category="section-title">파일 및 디렉터리에 대한 사용 권한을 봅니다</block>
-  <block id="6fa893a1485524675ae044e22dd04d02" category="paragraph">파일이나 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹의 목록과 해당 권한이 있는 권한 유형을 보려면 * 모든 권한 보기 * 를 클릭합니다. 이 버튼은 CIFS 공유의 데이터에만 사용할 수 있습니다.</block>
   <block id="70762168244eed6d4b30ab53961acada" category="inline-link-macro">이 작업을 수행하는 방법을 확인하십시오</block>
   <block id="50cdf86b563a0d781f053c4a23d816c2" category="paragraph">사용자 및 그룹 이름 대신 SID(보안 식별자)가 표시되는 경우 Active Directory를 BlueXP 분류에 통합해야 합니다. <block ref="a543108cc451095d486457d9ff215fd0" category="inline-link-macro-rx"></block>..</block>
   <block id="47b3f14316e807b37aaa42895464d283" category="inline-image-macro">자세한 파일 사용 권한을 보여 주는 스크린샷</block>
   <block id="33b3bef30743bda1b0909a4417b45583" category="paragraph"><block ref="33b3bef30743bda1b0909a4417b45583" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ba7710e66e983f5d109ee54ee938f343" category="paragraph">그룹을 클릭하면 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>그룹에 속한 사용자 목록을 볼 수 있습니다.</block>
-  <block id="b242cddbb1cb85737a2fd06f1d715934" category="paragraph">또한, 사용자 또는 그룹의 이름을 클릭하면 "사용자/그룹 권한" 필터에 입력된 사용자 또는 그룹의 이름과 함께 조사 페이지가 표시되어 사용자 또는 그룹이 액세스할 수 있는 모든 파일 및 디렉터리를 볼 수 있습니다.</block>
   <block id="33f1c68834e7b02c4c8b3b9dc4f796d3" category="section-title">스토리지 시스템에 중복된 파일이 있는지 확인합니다</block>
   <block id="5180c6809f41234a64af29e1a7ad708c" category="paragraph">중복 파일이 스토리지 시스템에 저장되어 있는지 확인할 수 있습니다. 이 기능은 저장 공간을 절약할 수 있는 영역을 확인하고자 할 때 유용합니다. 또한 특정 사용 권한이나 중요한 정보가 있는 특정 파일이 스토리지 시스템에서 불필요하게 복제되지 않도록 하는 것이 도움이 될 수 있습니다.</block>
   <block id="bfd42c156b2ca871cd12ee8e72e55e95" category="paragraph">1MB 이상의 개인 정보나 중요한 개인 정보가 포함된 모든 파일(데이터베이스 제외)을 비교하여 중복된 파일이 있는지 확인합니다. 조사 페이지에서 "파일 크기" 필터와 "중복 항목"을 사용하여 사용자 환경에서 특정 크기 범위의 파일이 복제되었는지 확인할 수 있습니다.</block>
@@ -1910,8 +1904,6 @@
   <block id="e6bbcb2826ce1a4f58fd341c4f5ae5f3" category="paragraph">중복 파일 목록을 다운로드하여 스토리지 관리자에게 전송하여 삭제할 수 있는 파일이 있는지 확인할 수 있습니다. 또는 특정 버전의 파일이 필요하지 않다고 확신할 수도 <block ref="53c8cd880d15e2953a8e763d6f4dff0c" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="5b00edf3a5903017b22e268ae58998c0" category="paragraph">작업 환경 및 스캔할 데이터 원본에 중복되는 모든 파일의 목록을 보려면 데이터 조사 페이지에서 * 중복 &gt; 중복 항목 있음 * 이라는 필터를 사용하면 됩니다.</block>
   <block id="285a3049428c6b155fde44a18621f551" category="paragraph">모든 중복 파일이 결과 페이지에 표시됩니다.</block>
-  <block id="481ee5e06ca7a72cfe4a783b39c7d0e3" category="paragraph">단일 파일에 중복된 파일이 있는지 확인하려면 데이터 조사 결과 창에서 임의의 파일을 클릭하여 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>파일 메타데이터를 볼 수 있습니다. 특정 파일의 복제본이 있는 경우 이 정보는 _Duplicates_ 필드 옆에 표시됩니다.</block>
-  <block id="b478c70cc88f62deb519e4d41609fff2" category="paragraph">중복 파일 목록과 파일이 있는 위치를 보려면 * 세부 정보 보기 * 를 클릭합니다. 다음 페이지에서 * 중복 보기 * 를 클릭하여 조사 페이지에서 파일을 봅니다.</block>
   <block id="68309bcfd455803ffbae49714037b789" category="inline-image-macro">중복된 파일이 있는 위치를 보는 방법을 보여 주는 스크린샷</block>
   <block id="0dc6d718adece3621c4a40fa3b4b2a82" category="paragraph"><block ref="0dc6d718adece3621c4a40fa3b4b2a82" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">이 페이지에 제공된 "파일 해시" 값을 사용하여 조사 페이지에 직접 입력하여 특정 중복 파일을 언제든지 검색할 수도 있고, 정책에 사용할 수도 있습니다.</block>
@@ -2465,7 +2457,6 @@
   <block id="b1f7c7e36d5ee01af131dd25c658e41f" category="list-text">슬라이더를 오른쪽으로 이동하여 스캔할 스키마를 선택합니다.</block>
   <block id="cc939570e2fbb3d7e526d9e3e757a5f0" category="inline-image-macro">스캔할 스키마를 선택할 수 있는 스캔 구성 페이지의 스크린 샷</block>
   <block id="46e57bba2892a9df10ae0b7ae9e43f45" category="paragraph"><block ref="46e57bba2892a9df10ae0b7ae9e43f45" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e7161999dbadbbf09541cb6606d43f78" category="paragraph">BlueXP 분류는 사용자가 활성화한 데이터베이스 스키마를 검사하기 시작합니다. 오류가 있는 경우 오류를 해결하는 데 필요한 작업과 함께 상태 열에 표시됩니다.</block>
   <block id="c4758ec8f4163fa99b08557425a59f56" category="summary">몇 가지 단계를 완료하여 BlueXP 분류와 직접 비NetApp NFS 또는 CIFS 파일 공유 스캔을 시작하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.</block>
   <block id="b5e00ff2b7559dfa6fc6fe96058ede54" category="doc">BlueXP  분류로 파일 공유를 스캔합니다</block>
   <block id="12a96925a3b6ebd1419915c8b0bfada9" category="paragraph">몇 단계를 완료하여 Google Cloud NetApp 볼륨 및 이전 NetApp 7-Mode 시스템에서 NFS 또는 CIFS 파일 공유 검색을 시작하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.</block>
@@ -2501,7 +2492,6 @@
   <block id="ae70ae1b93c56367429b7d2bb0ece139" category="cell">Map * 을 클릭합니다</block>
   <block id="c8f32db0b52a7b7e31ee04bd02eddbb6" category="cell">지도 및 분류 * 를 클릭합니다</block>
   <block id="a988b0977fb89f6574cfc55d252b1cf9" category="cell">Off * 를 클릭합니다</block>
-  <block id="07ada1e73188e64ef4fd43b06b4a2a48" category="paragraph">BlueXP 분류는 사용자가 추가한 파일 공유의 파일을 검사하기 시작하고 그 결과는 대시보드와 다른 위치에 표시됩니다.</block>
   <block id="0eb30c84638dc32a52a08e70a70b2a55" category="section-title">규정 준수 검사에서 파일 공유를 제거합니다</block>
   <block id="90777a343fd7f5c83c97f473d59a2af2" category="inline-image-macro">단일 파일 공유를 제거하여 파일을 스캔하는 방법을 보여 주는 스크린샷</block>
   <block id="c8716632d7055f530ad579b6f751cf3a" category="paragraph"><block ref="c8716632d7055f530ad579b6f751cf3a" category="inline-image-macro-rx" type="image"></block></block>
@@ -3288,7 +3278,6 @@
   <block id="47b72e580332bb9da872607466b406bc" category="paragraph">보고서는 로컬 시스템에 저장할 수 있는 .csv 또는 .json 파일로 사용할 수 있습니다.</block>
   <block id="f257e5460f3ab87ec47290dc11518fc8" category="paragraph">* 데이터 조사 보고서에 포함된 내용 *</block>
   <block id="f3f4c1edbf92907aa9051152a36ae4cc" category="list-title">보고서를 생성하는 단계입니다</block>
-  <block id="868f49e80cf5d3f7ac26cbec13a8d0be" category="list-text">데이터의 .csv 또는 .JSON 보고서를 다운로드하려면 선택하고 * 보고서 다운로드 * 를 클릭합니다.</block>
   <block id="8b93cae59bfdd9d1f5373c4f243f1891" category="paragraph"><block ref="8b93cae59bfdd9d1f5373c4f243f1891" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f22985ba0d865da0fb0dc1149ac8684" category="list-text">호스트에서 소프트웨어를 제거하려면 BlueXP  분류 호스트 시스템에서 다음과 같은 스크립트를 실행합니다<block ref="cc561bef4dbd2996ec2b2478f3e1042d" prefix=" " category="inline-code"></block>.</block>
   <block id="009d2060a609114df262eff04e83f241" category="section-title">2025년 1월 22일</block>
@@ -3397,4 +3386,26 @@
   <block id="e69d7b651771ff110228ddae78e71631" category="list-text">호스트 시스템에서 AVX(Advanced Vector Extensions)를 활성화해야 합니다.</block>
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">범주화 모델 정확도 향상</block>
   <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">의 머신 러닝 모델의 정확도는 <block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>11% 향상되었습니다.</block>
+  <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="doc">버전 1.41</block>
+  <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">이 BlueXP  분류 릴리스에는 일반적인 개선 사항 및 버그 수정이 포함되어 있습니다. 여기에는 다음이 포함됩니다.</block>
+  <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">스캔 상태</block>
+  <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">이제 BlueXP  분류는 볼륨에서 _initial_mapping 및 분류 스캔의 실시간 진행률을 추적합니다. 별도의 프로그레시브 바는 매핑 및 분류 스캔을 추적하여 스캔된 총 파일의 백분율을 표시합니다. 진행 표시줄 위로 마우스를 가져가면 스캔한 파일 수와 총 파일 수를 볼 수도 있습니다. 스캔 상태를 추적하면 스캔 진행 상황을 더 자세히 파악할 수 있으므로 스캔 계획을 개선하고 리소스 할당을 이해할 수 있습니다.</block>
+  <block id="dea24de819351c63f66685576d21ee25" category="paragraph">스캔 상태를 보려면 BlueXP  분류에서 ** 구성**으로 이동한 다음 ** 작업 환경 구성** 을 선택합니다. 진행 상황은 각 볼륨에 대해 일렬로 표시됩니다.</block>
+  <block id="801fd0ca68a5867228784d88be71f1fd" category="paragraph">BlueXP 분류는 작업 환경에서 선택한 볼륨을 스캔하기 시작합니다. BlueXP  분류가 초기 스캔을 완료하는 즉시 규정 준수 대시보드에서 결과를 확인할 수 있습니다. 소요되는 시간은 데이터 양에 따라 다릅니다. 몇 분 또는 몇 시간이 걸릴 수도 있습니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다.</block>
+  <block id="b7daace328e6741286f27d2ac5e2f47a" category="paragraph">페이지 내용을 구체화한 후 보고서로 다운로드하려면 단추를 선택합니다<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block>. <block ref="99402c37b738da126a6c16dce45a83da" category="inline-xref-macro-rx"></block>..</block>
+  <block id="126d0a183cd7ef5a42d98232cfc78c9e" category="admonition">데이터 조사 페이지에서 스캔에 대해 처음 10,000개의 결과 또는 500페이지의 결과만 볼 수 있습니다.</block>
+  <block id="d70c15611bfee94500d72ff7b26a3246" category="paragraph">데이터 조사 결과 창에서 파일 메타데이터를 볼 단일 파일에 대해 아래쪽 캐럿  버튼을 선택합니다<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="9fb67493aa2d989d001de2e7c4462b4e" category="paragraph">파일 또는 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹 및 권한 유형 목록을 보려면 * 모든 권한 보기 * 를 선택합니다. 이 버튼은 CIFS 공유의 데이터에만 사용할 수 있습니다.</block>
+  <block id="65e8d4fae364cb5c5e1a2304c301a6ad" category="paragraph">그룹의 하위 캐럿  버튼을 선택하면 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>그룹에 속한 사용자 목록이 표시됩니다.</block>
+  <block id="21f378c3412ff535e51a7de907a17ad8" category="paragraph">사용자 또는 그룹의 이름을 선택하면 사용자 또는 그룹이 액세스할 수 있는 모든 파일과 디렉터리를 볼 수 있도록 조사 페이지가 새로 고쳐집니다.</block>
+  <block id="b646744a4cb3933c62e69361ab1b0fb9" category="paragraph">단일 파일에 중복된 파일이 있는지 확인하려면 데이터 조사 결과 창에서 파일 메타데이터를 볼 단일 파일에 대해 를 선택합니다<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>. 특정 파일의 복제본이 있는 경우 이 정보는 _Duplicates_ 필드 옆에 표시됩니다.</block>
+  <block id="6085b17a40397d5797aee31606263dda" category="paragraph">중복 파일 목록과 중복 파일이 있는 위치를 보려면 * 세부 정보 보기 * 를 선택합니다. 다음 페이지에서 * View Duplicates * 를 선택하여 조사 페이지에서 파일을 봅니다.</block>
+  <block id="9dbaf2723509754918929e09594f8800" category="list-text">Data Investigation(데이터 조사) 페이지에서 <block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block>페이지 오른쪽 상단의 버튼을 선택합니다.</block>
+  <block id="c290efd7814d022961f943c1af408a6f" category="list-text">보고서 유형(CSV 또는 JSON)을 선택하고 ** 보고서 이름** 을 제공합니다. 작업 환경** 및 ** 볼륨** 을 선택한 다음 ** 대상 폴더 경로** 를 제공합니다.</block>
+  <block id="8c574751ceb947fcd2a71198a9109d98" category="list-text">보고서 다운로드**를 선택합니다.</block>
+  <block id="794d07bb17fcda62a163d4acc32a2c19" category="paragraph">BlueXP 분류는 작업 환경에서 선택한 볼륨을 스캔하기 시작합니다. BlueXP 분류가 초기 스캔을 마치면 준수 대시보드에서 결과를 확인할 수 있습니다. 소요되는 시간은 데이터 양에 따라 다릅니다. 몇 분 또는 몇 시간이 걸릴 수도 있습니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다.</block>
+  <block id="04bcd6818aecd8c0fe46b7d49aa8b39a" category="paragraph">BlueXP 분류는 사용자가 활성화한 데이터베이스 스키마를 검사하기 시작합니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다. 오류가 있는 경우 오류를 해결하는 데 필요한 작업과 함께 상태 열에 표시됩니다.</block>
+  <block id="92b3b54a8e8438f0bd12202608c4ab34" category="paragraph">BlueXP 분류는 사용자가 추가한 파일 공유의 파일을 검사하기 시작하고 그 결과는 대시보드와 다른 위치에 표시됩니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다.</block>
+  <block id="ed8331881c930d67b63a6ed99c045b28" category="paragraph">BlueXP 분류는 활성화한 버킷을 스캔하기 시작합니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다. 오류가 있는 경우 오류를 해결하는 데 필요한 작업과 함께 상태 열에 표시됩니다.</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025년 3월 10일</block>
 </blocks>
