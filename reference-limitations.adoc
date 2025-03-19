@@ -4,7 +4,7 @@ permalink: reference-limitations.html
 keywords: limitations, data sense, classification, bluexp, scan shares 
 summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오. 
 ---
-= 알려진 제한 사항
+= BlueXP  분류에서 알려진 제한 사항
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

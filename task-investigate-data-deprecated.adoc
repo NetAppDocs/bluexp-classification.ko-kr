@@ -4,7 +4,7 @@ permalink: task-investigate-data-deprecated.html
 keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies 
 summary: 데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. Governance and Compliance 대시보드를 비롯한 BlueXP 분류 UI의 여러 영역에서 이 페이지로 이동할 수 있습니다. 
 ---
-= 데이터 조사 페이지에 저장된 데이터를 조사합니다
+= BlueXP  분류 데이터 조사 페이지에 저장된 데이터를 조사합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

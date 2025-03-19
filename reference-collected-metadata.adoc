@@ -4,7 +4,7 @@ permalink: reference-collected-metadata.html
 keywords: compliance, metadata, permissions, time stamps, privacy, last access time 
 summary: BlueXP 분류는 데이터 소스 및 작업 환경의 데이터에 대한 분류 검사를 수행할 때 특정 메타데이터를 수집합니다. BlueXP 분류는 데이터를 분류하는 데 필요한 대부분의 메타데이터에 액세스할 수 있지만 필요한 데이터에 액세스할 수 없는 소스가 있습니다. 
 ---
-= 데이터 소스에서 수집된 메타데이터
+= BlueXP  분류의 데이터 소스에서 수집된 메타데이터입니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

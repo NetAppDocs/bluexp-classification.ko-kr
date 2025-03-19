@@ -4,7 +4,7 @@ permalink: reference-db-capabilities.html
 keywords: database actions, database filters, supported, unsupported 
 summary: 데이터베이스 스키마를 스캔할 때 BlueXP 분류에서 사용할 수 없는 몇 가지 기능이 있습니다. 
 ---
-= 지원 및 지원되지 않는 데이터베이스 기능입니다
+= BlueXP  분류에서 지원되는 데이터베이스 기능 및 지원되지 않는 데이터베이스 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: task-add-group-id-as-open.html
 keywords: permissions, open to organization, file access 
 summary: '그룹 ID가 NFS 파일 공유의 파일 또는 폴더에 첨부되면 파일 또는 폴더에 대한 사용 권한을 정의합니다(예: "조직에 열려 있음"). 일부 GID(그룹 ID)가 처음에 "Open to Organization" 권한 수준으로 설정되지 않은 경우 GID에 해당 권한을 추가하여 GID가 첨부된 모든 파일 및 폴더가 "Open to the Organization"으로 간주되도록 할 수 있습니다.' 
 ---
-= 추가 그룹 ID를 조직에 공개됨으로 정의합니다
+= 추가 그룹 ID를 BlueXP  분류에서 조직에 공개됨으로 정의합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

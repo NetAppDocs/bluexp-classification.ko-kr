@@ -4,7 +4,7 @@ permalink: task-scanning-onedrive.html
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, onedrive, data sense 
 summary: BlueXP 분류를 사용하여 사용자의 OneDrive 폴더에 있는 파일을 스캔하려면 몇 단계를 완료하십시오. 
 ---
-= OneDrive 계정을 검색합니다
+= BlueXP  분류를 사용하여 OneDrive 계정을 검사합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

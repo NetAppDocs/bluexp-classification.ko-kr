@@ -4,7 +4,7 @@ permalink: reference-private-data-categories.html
 keywords: personal files, personal data, sensitive personal files, sensitive personal data, categories, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, sex, criminal, compliance, privacy, 
 summary: 볼륨, Amazon S3 버킷, 데이터베이스, OneDrive 폴더, SharePoint 계정에서 BlueXP 분류가 식별할 수 있는 여러 유형의 개인 데이터가 있습니다. Google Drive 계정을 만듭니다. 
 ---
-= 개인 데이터의 범주입니다
+= BlueXP  분류에서 개인 데이터의 범주입니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
