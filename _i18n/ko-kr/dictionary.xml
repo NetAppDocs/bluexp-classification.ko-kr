@@ -592,7 +592,6 @@
   <block id="6505506a35d1d959ffb20a74a4238de6" category="cell">필요에 따라 데이터를 다시 스캔합니다</block>
   <block id="5f571f0f56802124061d64f7f5dac503" category="cell">사용자 지정 분류자를 만듭니다</block>
   <block id="c7d804294d8fa0d1ba6bfc80ead25ca0" category="cell">스캔에서 디렉토리를 제외합니다</block>
-  <block id="46771ec1582c3b0b4aebfc19d6356451" category="cell">조사에서 NFS로 데이터를 내보냅니다</block>
   <block id="cfe5d63c50c4794111fa6f65b931e130" category="cell">조사에서 CSV로 데이터를 내보냅니다</block>
   <block id="5b161cf169bcf6263a5f04b0a0b391d6" category="cell">여러 스캐너를 지원합니다</block>
   <block id="81ef4cd6c60d70e2956f5aceef3493d2" category="cell">Active Directory 통합</block>
@@ -3437,4 +3436,8 @@
   <block id="ca304384fad03eae82a8e99a165128d0" category="section-title">가장 식별된 파일 형식을 검토합니다</block>
   <block id="5af3bad2ce7ed86124fdaa43b19e15c1" category="list-text">파일 유형에 대한 자세한 내용을 보려면 거버넌스 대시보드 &gt; 분류 섹션 &gt; 파일 유형 타일에서 거버넌스 대시보드의 파일 유형 섹션에서 해당 유형을 선택합니다. 조사 페이지에는 해당 파일 형식에 대해서만 필터링되는 데이터가 제공됩니다.</block>
   <block id="3b879833e0c35c3e97d6bcec57a9aad0" category="list-text">모든 파일 형식을 표시하려면 * 모두 보기 * 를 선택합니다.</block>
+  <block id="93a41f9744586b4edf90898527b71531" category="cell">조사를 통해 NFS/CIFS로 데이터를 내보냅니다</block>
+  <block id="81aef4d88b3543fe7ce12740f599c026" category="paragraph">파일은 고정된 수의 행 또는 레코드가 있는 파일로 분할됩니다.</block>
+  <block id="65c07610fb212d644f234075537bbc84" category="list-text">CSV - 200,000개의 레코드</block>
+  <block id="8897cd6292ab12bb81d8704c400fca96" category="list-text">JSON - 100,000개의 레코드</block>
 </blocks>
