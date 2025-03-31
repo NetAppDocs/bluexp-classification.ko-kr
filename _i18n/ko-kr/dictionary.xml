@@ -106,7 +106,6 @@
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="doc">BlueXP 분류에 대해 알아보십시오</block>
   <block id="87fce6273ae6270f06beebf56898bc70" category="paragraph">BlueXP 분류(Cloud Data Sense)는 기업의 온프레미스 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 프라이빗 정보를 식별하는 BlueXP용 데이터 거버넌스 서비스입니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
   <block id="279ac5dd73c3a5783ebeb10e172c4f38" category="paragraph">중요</block>
-  <block id="a14a0ee1284c6c34c6c0305b52963e2f" category="paragraph">2024년 5월 버전 1.31부터 BlueXP 분류를 추가 비용 없이 BlueXP 내에서 핵심 기능으로 사용할 수 있습니다. 분류 라이선스 또는 가입이 필요하지 않습니다. NetApp 스토리지 시스템에서의 BlueXP 분류 기능도 중점적으로 다루므로 사용되지 않거나 활용도가 낮은 일부 기능은 더 이상 사용되지 않습니다.</block>
   <block id="9b17860ccc87d28d839931769a5af6ee" category="inline-link-macro">더 이상 사용되지 않는 기능 목록을 참조하십시오</block>
   <block id="e8f4baffb4918527d8701a12a84b8d92" category="paragraph"><block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>..</block>
   <block id="705e8077ff3af41dc9b8a84050d869d1" category="paragraph">1.30 이전 버전을 사용한 사용자는 구독이 만료될 때까지 해당 버전을 계속 사용할 수 있습니다.</block>
@@ -195,18 +194,13 @@
   <block id="f1fec8e9e1c0fb72e2b217fcc55b8ae5" category="cell">CPU 16개, 64GB RAM, 500GiB SSD</block>
   <block id="ea1a46649fa6479f8f6b7adefbb4450a" category="cell">최대 2억 5천만 개의 파일을 스캔할 수 있습니다.</block>
   <block id="57637b2cc8a0490c839620385b595b3e" category="paragraph">Azure 또는 GCP에서 BlueXP  분류를 배포할 때 더 작은 인스턴스 유형을 사용하려면 ng-contact-data-sense @NetApp.com으로 이메일을 보내 지원을 요청하십시오.</block>
-  <block id="0420746794140f8978222121f6e4a764" category="section-title">BlueXP 분류의 작동 방식</block>
-  <block id="e5cbd4e407b221a95e9bc8b3965978dd" category="paragraph">BlueXP 분류는 다음과 같이 작동합니다.</block>
   <block id="1483534eda512965970c7917b74698ae" category="list-text">BlueXP에서 BlueXP 분류 인스턴스를 배포합니다.</block>
-  <block id="93527746a0aabc74aefe0ff55c837bc7" category="list-text">하나 이상의 데이터 소스에서 고급 매핑 또는 심층 스캔을 활성화할 수 있습니다.</block>
   <block id="0392ab186be19d97094b4c522c8c8a61" category="list-text">BlueXP 분류는 AI 학습 프로세스를 사용하여 데이터를 스캔합니다.</block>
   <block id="fc9e95a58725aa4fd51268d90c52f9e1" category="list-text">제공된 대시보드 및 보고 도구를 사용하여 규정 준수 및 거버넌스 작업에 도움을 줄 수 있습니다.</block>
-  <block id="ea2c817c93e9afe80e6a8d8f74c1692d" category="section-title">스캔 작동 방식</block>
   <block id="48548251123016c15c7cccf4410ce19b" category="paragraph">BlueXP 분류를 활성화하고 스캔할 저장소(볼륨, 데이터베이스 스키마 또는 기타 사용자 데이터)를 선택하면 즉시 데이터 스캔이 시작되어 개인 및 중요 데이터를 식별합니다. 대부분의 경우 백업, 미러 또는 DR 사이트 대신 라이브 운영 데이터를 검사하는 데 집중해야 합니다. 그런 다음 BlueXP 분류를 통해 조직 데이터를 매핑하고, 각 파일을 분류하고, 데이터에서 엔터티와 미리 정의된 패턴을 식별하고 추출합니다. 검사 결과는 개인 정보, 민감한 개인 정보, 데이터 범주 및 파일 형식의 인덱스입니다.</block>
   <block id="8bb62f2d8bb562c2448b94ddd2767086" category="paragraph">BlueXP 분류는 NFS 및 CIFS 볼륨을 마운트하여 다른 클라이언트와 마찬가지로 데이터에 연결됩니다. CIFS 볼륨을 스캔하려면 Active Directory 자격 증명을 제공해야 하지만 NFS 볼륨은 읽기 전용으로 자동 액세스됩니다.</block>
   <block id="6848f77eb8f7353d0c3236059ebaaf21" category="inline-image-macro">클라우드 공급자에서 실행되는 BlueXP 인스턴스 및 BlueXP 분류 인스턴스를 보여 주는 다이어그램입니다. BlueXP 분류 인스턴스는 NFS 및 CIFS 볼륨과 데이터베이스에 연결하여 검사합니다.</block>
   <block id="f31407ab57663d0b8405a252cf603c20" category="paragraph"><block ref="f31407ab57663d0b8405a252cf603c20" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9c8736affefce89efb819f7f63f5a237" category="paragraph">초기 검사 후 BlueXP 분류는 라운드 로빈 방식으로 데이터를 지속적으로 스캔하여 증분 변경을 감지합니다. 이렇게 했다면 인스턴스를 계속 실행하는 것이 중요합니다.</block>
   <block id="b40a529e19b349b56269e632043e4fe8" category="paragraph">볼륨 수준 또는 데이터베이스 스키마 수준에서 스캔을 활성화 또는 비활성화할 수 있습니다.</block>
   <block id="9868eea85c69d464c823a4c7e185121a" category="section-title">매핑 스캔과 분류 스캔의 차이점은 무엇입니까</block>
   <block id="a6555d8888ac95f7925f179ea7e8d4a8" category="paragraph">아래 표에는 몇 가지 차이점이 나와 있습니다.</block>
@@ -295,9 +289,7 @@
   <block id="28e66615c1e04c19b63a24061d462220" category="paragraph">BlueXP 분류는 데이터(파일)에 범주를 수집, 색인 및 할당합니다. BlueXP 분류 인덱스의 데이터는 다음과 같습니다.</block>
   <block id="6cd355a083ac0c0abfe0db956ac0ab54" category="list-text">* 표준 메타데이터 * 파일 정보: 파일 유형, 크기, 생성 및 수정 날짜 등.</block>
   <block id="8c6847c1a3fee83b5a17b582397de2ec" category="inline-link-macro">개인 데이터에 대해 자세히 알아보십시오</block>
-  <block id="e59e38f5b5a816003a773fb9f75ff139" category="list-text">* 개인 정보 *: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보(PII). <block ref="fc496cc858c0e8dff4419012ba17c358" category="inline-link-macro-rx"></block>..</block>
   <block id="902c63c889818696415465bcf8e0b76b" category="inline-link-macro">중요한 개인 데이터에 대해 자세히 알아보십시오</block>
-  <block id="58b08b9a6ba479db4005e79f9e8bfbc2" category="list-text">* 민감한 개인 데이터 *: GDPR 및 기타 개인 정보 보호 규정에 정의된 건강 데이터, 인종 또는 정치적 견해와 같은 민감한 개인 정보의 특별한 유형(SPii). <block ref="6221f6509a9900ea9a8146767340b3a8" category="inline-link-macro-rx"></block>..</block>
   <block id="6a92cf43085c9bfddf06d24557be9d88" category="inline-link-macro">범주에 대해 자세히 알아보십시오</block>
   <block id="e1b5177c05ab6adddb3fa94c4f67b610" category="list-text">* 카테고리 * : BlueXP  분류는 스캔된 데이터를 가지고 다른 유형의 카테고리로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. <block ref="722783767558c868b0670a999b08f996" category="inline-link-macro-rx"></block>..</block>
   <block id="5cb163817b0d897b166cc75827e8c477" category="inline-link-macro">유형에 대해 자세히 알아보십시오</block>
@@ -306,7 +298,6 @@
   <block id="9557b1a380e33e450b6180ada3830e35" category="list-text">* 이름 엔티티 인식 * : BlueXP  분류는 AI를 사용하여 문서에서 사람들의 자연 이름을 추출합니다. <block ref="3e345053a8e9ce1c3eacafd31ce8d78d" category="inline-link-macro-rx"></block>..</block>
   <block id="7b895b198aba9634ffec5e0ec9a3aff4" category="section-title">네트워킹 개요</block>
   <block id="6baaa35b9d6c708af7920a94de9f3951" category="paragraph">BlueXP는 Connector 인스턴스의 인바운드 HTTP 연결을 활성화하는 보안 그룹과 함께 BlueXP 분류 인스턴스를 배포합니다.</block>
-  <block id="f3c46003464601608d44d2644affcce1" category="paragraph">SaaS 모드에서 BlueXP에 연결할 때 HTTPS를 통해 BlueXP에 연결되며 브라우저와 BlueXP 분류 인스턴스 간에 전송되는 프라이빗 데이터는 TLS 1.2를 사용하는 엔드 투 엔드 암호화로 보안이 유지됩니다. 즉, NetApp과 타사가 이 데이터를 읽을 수 없습니다.</block>
   <block id="b7753345b24c98f72b73e9e641a456d7" category="paragraph">아웃바운드 규칙은 완전히 열립니다. BlueXP 분류 소프트웨어를 설치 및 업그레이드하고 사용 지표를 전송하려면 인터넷 액세스가 필요합니다.</block>
   <block id="def03cca1b6cd44fc1ef14e712a6c792" category="inline-link-macro">BlueXP 분류 접촉부에 대한 엔드포인트에 대해 알아보십시오</block>
   <block id="80cef547cabd3e510ea56f58ec10a12e" category="paragraph">엄격한 네트워킹 요구 사항이 있는 경우<block ref="a5023c570d3c1110eead6b3e84b02871" category="inline-link-macro-rx"></block>.</block>
@@ -320,92 +311,34 @@
   <block id="aa2fb7dd454c7ccfa2e848f8e1ae91b3" category="doc">BlueXP 분류에 대한 질문과 대답</block>
   <block id="d114fb433bcf7d5f0818cbc8249575fd" category="section-title">BlueXP 분류 서비스</block>
   <block id="eb26603550d8edeecdf5437f707eb4d9" category="paragraph">다음 질문은 BlueXP 분류에 대한 일반적인 이해를 제공합니다.</block>
-  <block id="5cbbbf1fe4b71b93353edd7af2a71f10" category="section-title">BlueXP 분류란 무엇입니까?</block>
-  <block id="a29f21b4143f28dd101eaaa1fe82fd69" category="inline-link-macro">아래 전체 목록을 참조하십시오</block>
-  <block id="a0c7ea5a1d0f93e002ade9e5af95a50a" category="paragraph">BlueXP 분류는 인공 지능(AI) 기반 기술을 사용하는 클라우드 오퍼링으로, 데이터 컨텍스트를 이해하고 스토리지 시스템 전반에 걸쳐 중요한 데이터를 식별하는 데 도움을 줍니다. 시스템은 BlueXP Canvas에 추가한 작업 환경과 BlueXP 분류가 네트워크를 통해 액세스할 수 있는 다양한 유형의 데이터 소스가 될 수 있습니다. <block ref="21025180c0aeda17ecbbc6a6175e84c8" category="inline-link-macro-rx"></block>..</block>
-  <block id="ac667d0a6321d4e2786ba25720201e21" category="paragraph">BlueXP 분류는 GDPR, CCPA, HIPAA 등과 같은 데이터 개인 정보 보호 및 민감성에 대한 새로운 데이터 규정 준수 규정을 해결하기 위해 미리 정의된 매개변수(예: 민감한 정보 유형 및 범주)를 제공합니다.</block>
   <block id="90c93c396e7924fc0e7a7f29b397ed07" category="section-title">BlueXP 분류는 어떻게 작동합니까?</block>
-  <block id="68fc4251a0b2c88beffde1bb591cfed3" category="paragraph">BlueXP 분류는 BlueXP 시스템 및 스토리지 시스템과 함께 또 다른 인공 지능 계층을 구축합니다. 그런 다음 볼륨, 버킷, 데이터베이스 및 기타 스토리지 계정의 데이터를 검색하고 검색된 데이터 인사이트를 인덱싱합니다. BlueXP 분류는 정규식과 패턴 일치를 기반으로 일반적으로 구축되는 대체 솔루션과 달리 인공 지능과 자연어 처리를 모두 활용합니다.</block>
   <block id="ec0631d303344ddf5e8847c240ebaf7d" category="paragraph">BlueXP 분류에서는 AI를 사용하여 정확한 탐지 및 분류를 위해 데이터에 대한 상황별 이해를 제공합니다. AI는 최신 데이터 유형과 규모에 맞게 설계되었으므로 AI를 중심으로 구동됩니다. 또한 데이터 컨텍스트를 이해하여 강력하고 정확한 검색 및 분류를 제공합니다.</block>
   <block id="f017155aed79417a0a3f81b29dd1e6dd" category="inline-link-macro">BlueXP 분류의 작동 방식에 대해 자세히 알아보십시오</block>
-  <block id="5443d0bbbf3c65783aa8ff115d84afd8" category="paragraph"><block ref="6984153574af8acd30cf16c47f7727f6" category="inline-link-macro-rx"></block>..</block>
-  <block id="dc7fadd7e7f28b26fb9ae94db1b83b8f" category="section-title">BlueXP 분류의 아키텍처는 어떻습니까?</block>
-  <block id="a0ae0e32ddfd7ab74e020981760f58f8" category="paragraph">BlueXP 분류는 클라우드 또는 온프레미스 등 어느 곳에서든 단일 서버 또는 클러스터를 배포합니다. 서버는 표준 프로토콜을 통해 데이터 소스에 연결하고 동일한 서버에 배포되는 Elasticsearch 클러스터에서 결과를 인덱싱합니다. 따라서 멀티 클라우드, 교차 클라우드, 프라이빗 클라우드 및 온프레미스 환경을 지원할 수 있습니다.</block>
-  <block id="37f3de5c9ae041a1644d4b78c54dcf40" category="section-title">지원되는 클라우드 공급자는 무엇입니까?</block>
-  <block id="ff5134b8822856ebcc5677de01bc300f" category="paragraph">BlueXP 분류는 BlueXP의 일부로 작동하며 AWS, Azure 및 GCP를 지원합니다. 이를 통해 조직은 다양한 클라우드 공급자 전반에서 통합된 개인 정보 보호 가시성을 확보할 수 있습니다.</block>
   <block id="43fb0be49307beaaf607049cdcec4e54" category="section-title">BlueXP 분류에는 REST API가 있으며 타사 도구와 작동합니까?</block>
-  <block id="09c3548e206e0fdb1fb77e5c168f0624" category="paragraph">아니요, BlueXP 분류에는 REST API가 없습니다.</block>
-  <block id="f08123eb9486c940f0187f02090476ae" category="section-title">시장에서 BlueXP 분류를 사용할 수 있습니까?</block>
-  <block id="064545628e27cedb51462f11c151eea0" category="paragraph">예. BlueXP 및 BlueXP 분류는 AWS, Azure 및 GCP 마켓플레이스에서 이용할 수 있습니다.</block>
   <block id="ff33a1d5662bade5069e8522071a3ff9" category="section-title">BlueXP 분류 스캔 및 분석</block>
-  <block id="cf9dcb28aaf2217e50ac277dc9f4d0ff" category="paragraph">다음 질문은 BlueXP 분류 스캔 성능 및 사용자가 사용할 수 있는 분석과 관련이 있습니다.</block>
   <block id="5a4a7af8f3eadbbd473bb36cae6b0b1b" category="section-title">BlueXP 분류는 내 데이터를 얼마나 자주 검사합니까?</block>
   <block id="5325380bce88952998c2cad273cdef5b" category="paragraph">데이터의 초기 스캔에는 시간이 다소 걸릴 수 있지만 후속 스캔에서는 증분 변경 내용만 검사하므로 시스템 검사 시간이 단축됩니다. BlueXP 분류는 데이터를 라운드 로빈 방식으로 지속적으로 스캔하므로 변경된 모든 데이터를 매우 빠르게 분류할 수 있습니다.</block>
   <block id="cb1df3001d7e0d737bf8af8bf621fee0" category="inline-link-macro">스캔 작동 방식에 대해 알아보십시오</block>
-  <block id="bbd1b36ab0dbd0c17e60ec752bb02a55" category="paragraph"><block ref="b1e4fd148d344599f4a25922d8155dd9" category="inline-link-macro-rx"></block>..</block>
-  <block id="098df4b7dbd64ba9dbd496df653f27b4" category="paragraph">BlueXP 분류는 데이터베이스를 하루에 한 번만 스캔합니다. 데이터베이스는 다른 데이터 소스와 마찬가지로 지속적으로 스캔되지 않습니다.</block>
-  <block id="a577dc74a01118296df38bec260c945a" category="inline-link-macro">스캔 속도를 줄이는 방법을 참조하십시오</block>
-  <block id="9e6a4b0d665f3981a5edd6e924e91581" category="paragraph">데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다. 그러나 매우 작은 충격에도 신경 쓰면 BlueXP 분류를 구성하여 "느린" 스캔을 수행할 수 있습니다. <block ref="c0297b8a85bd81fc39a6444d8d1b6586" category="inline-link-macro-rx"></block>..</block>
   <block id="afc513a3724d36f6d8c4fc99c59325b5" category="section-title">BlueXP 분류를 사용하여 데이터를 검색할 수 있습니까?</block>
   <block id="09491c07cd2dfaa3838ed0ef6f3b7af0" category="paragraph">BlueXP 분류는 연결된 모든 소스에서 특정 파일 또는 데이터 조각을 쉽게 검색할 수 있는 광범위한 검색 기능을 제공합니다. BlueXP 분류는 메타데이터의 반사보다 더 깊이 있는 검색을 가능하게 합니다. 또한 파일을 읽고 이름 및 ID와 같은 여러 가지 중요한 데이터 형식을 분석할 수 있는 언어 독립적인 서비스입니다. 예를 들어, 사용자는 정형 데이터 저장소와 비정형 데이터 저장소 모두를 검색하여 데이터베이스에서 사용자 파일로 유출되었을 수 있는 데이터를 찾을 수 있습니다. 이는 기업 정책에 위배됩니다. 검색을 나중에 저장할 수 있으며, 설정된 빈도로 검색 및 결과에 대한 조치를 취하기 위해 정책을 생성할 수 있습니다.</block>
-  <block id="ce529b051aa9ebc4101b6a54911240a8" category="paragraph">관심 파일이 발견되면 태그, 작업 환경 계정, 버킷, 파일 경로, 범주(분류 기준), 파일 크기, 마지막 수정, 권한 상태, 중복, 감도 수준, 개인 데이터, 파일 내 중요 데이터 유형, 소유자, 파일 유형, 파일 크기, 생성 시간, 파일 해시, 해당 데이터가 관심을 원하는 사람에게 할당되었는지 여부 등 필터는 관련이 없는 특성을 선별하는 데 적용할 수 있습니다. BlueXP 분류에는 적절한 권한이 있는 경우 파일을 이동하거나 삭제할 수 있도록 하는 RBAC 컨트롤도 있습니다. 올바른 사용 권한이 없으면 조직에 있는 사용자에게 적절한 사용 권한이 있는 작업을 할당할 수 있습니다.</block>
-  <block id="d095e6f9eb9e0116dd2770cfc6896fff" category="section-title">BlueXP 분류 제공 보고서가 있습니까?</block>
-  <block id="57bfc848a81decccc2c84f613fe93312" category="paragraph">예. BlueXP 분류에서 제공하는 정보는 조직의 다른 이해 관계자와 관련이 있을 수 있으므로 보고서를 생성하여 통찰력을 공유할 수 있습니다. BlueXP 분류에 대해 다음 보고서를 사용할 수 있습니다.</block>
-  <block id="1243186ecf08fa3beb624fdea23033c7" category="list-text">개인 정보 보호 위험 평가 보고서</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">자세한 정보</block>
-  <block id="91aef07a29d8068140e7dca06bec6d9d" category="list-text">개인 정보 보호 관련 정보와 개인 정보 보호 위험 점수를 제공합니다. <block ref="890a798f73fe571345d1ff7c58a08844" category="inline-link-macro-rx"></block>..</block>
   <block id="3a3337f232548d40f54052862077499b" category="list-text">데이터 주체 액세스 요청 보고서</block>
-  <block id="6b60aa2efdd7dd58a41b7ff64ca17b7a" category="list-text">데이터 주체의 특정 이름 또는 개인 식별자와 관련된 정보가 포함된 모든 파일의 보고서를 추출할 수 있습니다. <block ref="687b2924920d296441b75037f5a19f32" category="inline-link-macro-rx"></block>..</block>
-  <block id="39630dece802514e5f7336bcbbf0ac6f" category="list-text">파일 전체에서 신용 카드 정보의 배포를 식별하는 데 도움이 됩니다. <block ref="ef3bace538be6eee30a3e48516637cf7" category="inline-link-macro-rx"></block>..</block>
-  <block id="be27a8dc9dfba1897217ecee5823bd4e" category="list-text">파일에 대한 상태 정보 배포를 식별하는 데 도움이 됩니다. <block ref="1ce675538fc85bf3b1ef6fa4ab26346c" category="inline-link-macro-rx"></block>..</block>
-  <block id="635c52fbdbf0d6a3157b2c713b42bb73" category="list-text">데이터 매핑 보고서</block>
-  <block id="0de3b44db953b32901a8c86899f466bf" category="list-text">작업 환경의 파일 크기 및 수에 대한 정보를 제공합니다. 여기에는 사용 용량, 데이터 사용 기간, 데이터 크기 및 파일 유형이 포함됩니다. <block ref="32adca559d3a8c83bce5149c424376df" category="inline-link-macro-rx"></block>..</block>
-  <block id="f83c4bcfd59e89db53ef94672795f27e" category="list-text">데이터 검색 평가 보고서</block>
-  <block id="751e20fca328bd3225d682d4b205d9c5" category="inline-link-macro">학습 모드</block>
-  <block id="0333f704191273d1488987d5a5b4f277" category="list-text">스캔한 환경에 대한 상위 수준의 분석을 통해 시스템 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. <block ref="173502513bb309892de570fe58588c73" category="inline-link-macro-rx"></block>..</block>
-  <block id="b36f22b2f3dccf0f8bda7f8488bb8823" category="list-text">특정 정보 유형에 대한 보고서입니다</block>
-  <block id="67ac5f32af21c3fe8a472d38846e6f3e" category="list-text">개인 데이터와 민감한 개인 데이터가 포함된 식별된 파일에 대한 세부 정보가 포함된 보고서를 사용할 수 있습니다. 범주 및 파일 유형별로 분류된 파일도 볼 수 있습니다. <block ref="d26e3d99d92944a7a05ba133462080b2" category="inline-link-macro-rx"></block>..</block>
   <block id="c50a6cbc569afa1deaa247aaeb038787" category="section-title">스캔 성능이 달라집니까?</block>
   <block id="3969db183631b8eda53a9644b876a77f" category="inline-link-macro">BlueXP 분류 배포</block>
-  <block id="3e6a3b28babecd1cbcca861147346e1b" category="paragraph">스캔 성능은 네트워크 대역폭 및 환경의 평균 파일 크기에 따라 달라질 수 있습니다. 또한 호스트 시스템의 크기 특성(클라우드 또는 온프레미스)에 따라 달라질 수 있습니다. <block ref="a87fa6ecf5277bb3ff0ab522a477af31" category="inline-link-macro-rx"></block>자세한 내용은 및 <block ref="17bd7ec3c24cbe96b06b08128c748f2c" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="992e3ca84c2944a0dbcaf7e99231a50e" category="inline-link-macro">매핑 스캔과 분류 스캔의 차이를 확인하십시오</block>
-  <block id="4cefd69158974e4aee3260041ff258d4" category="paragraph">처음에 새 데이터 소스를 추가할 때 전체 "분류" 스캔이 아닌 "매핑" 스캔만 수행하도록 선택할 수도 있습니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다. <block ref="51b8d4ed20a0bce6d8202eb3e674faa5" category="inline-link-macro-rx"></block>..</block>
   <block id="d7d294e5b5b02b9240157252d50b2470" category="section-title">BlueXP 분류 관리 및 개인 정보 보호</block>
   <block id="8a7b35264cea1e5f46b1c689304c0b4e" category="paragraph">다음 질문에서는 BlueXP 분류 및 개인 정보 보호 설정을 관리하는 방법에 대한 정보를 제공합니다.</block>
-  <block id="f38d77d7bf44f47d515f0635cdff4948" category="section-title">BlueXP 분류를 활성화하려면 어떻게 해야 합니까?</block>
-  <block id="cc595e0116e3ea401ed2deba0cb5fe9f" category="paragraph">먼저 BlueXP 또는 사내 시스템에 BlueXP 분류 인스턴스를 배포해야 합니다. 인스턴스가 실행되면 * Configuration * 탭에서 기존 작업 환경, 데이터베이스 및 기타 데이터 원본에 대한 서비스를 활성화하거나 특정 작업 환경을 선택할 수 있습니다.</block>
   <block id="7d782479a41a3941b57cc7c2b60d318a" category="inline-link-macro">시작하는 방법을 알아보십시오</block>
-  <block id="4971e76b33cd221cbe44ae11708dcf1a" category="paragraph"><block ref="63c04392b8948e626a251971bdfb13c0" category="inline-link-macro-rx"></block>..</block>
   <block id="9c8ec203a4decddb8e9b0be1fb76ba06" category="admonition">데이터 소스에서 BlueXP 분류를 활성화하면 즉시 초기 검사가 이루어집니다. 스캔 결과는 잠시 후에 표시됩니다.</block>
-  <block id="cf10ed09d1b432e00f7d40ae089eff17" category="section-title">BlueXP 분류를 비활성화하려면 어떻게 합니까?</block>
-  <block id="0110688ab0278eb10777e6346a3407b7" category="paragraph">BlueXP 분류 구성 페이지에서 개별 작업 환경, 데이터베이스 또는 파일 공유 그룹을 스캔하는 데 BlueXP 분류를 사용하지 않도록 설정할 수 있습니다.</block>
-  <block id="7a833d41d59abd430a8a21760722d14a" category="paragraph"><block ref="57d1ac548ab885ff197c8b0634f5bdfc" category="inline-link-macro-rx"></block>..</block>
   <block id="51da61c9b4199dc02176673546f1121d" category="admonition">BlueXP 분류 인스턴스를 완전히 제거하려면 클라우드 공급자의 포털 또는 사내 위치에서 BlueXP 분류 인스턴스를 수동으로 제거할 수 있습니다.</block>
-  <block id="0c3df620e5f733002f5c1ad4579a8153" category="section-title">조직의 요구에 맞게 서비스를 사용자 정의할 수 있습니까?</block>
-  <block id="5d287499aa4821b39ee4c1fbee3fb8bf" category="paragraph">BlueXP 분류를 통해 데이터에 대한 인사이트를 얻을 수 있습니다. 이러한 통찰력을 추출하여 조직의 요구에 활용할 수 있습니다.</block>
-  <block id="b2a009fe641242daa8ff4cc2e848a015" category="paragraph">또한 BlueXP 분류에서는 여러 가지 방법으로 BlueXP 분류에서 검사할 때 식별할 수 있는 "개인 데이터" 사용자 지정 목록을 추가할 수 있으므로 중요한 데이터가 조직의 _ All_ 파일에 있는 위치에 대한 전체 정보를 얻을 수 있습니다.</block>
-  <block id="4bffcf343de88a6b5edf887e57a5c59e" category="list-text">검색 중인 데이터베이스의 특정 열을 기준으로 고유 식별자를 추가할 수 있습니다. 이를 데이터 Fusion*라고 합니다.</block>
-  <block id="db40121770270b95c73895598e6343b2" category="list-text">텍스트 파일에서 사용자 지정 키워드를 추가할 수 있습니다.</block>
-  <block id="d2e9b58709e185388c14e9b7f7c876b8" category="list-text">정규식(regex)을 사용하여 사용자 지정 패턴을 추가할 수 있습니다.</block>
-  <block id="6b0cdbce1552e1685f4b4095276b6078" category="paragraph"><block ref="4a5fd31f8eed80e720a59ea6d295b8eb" category="inline-link-macro-rx"></block>..</block>
-  <block id="75377d4edffa6c8df90ec35a6c2955ae" category="section-title">특정 디렉터리에서 스캔 데이터를 제외하도록 서비스를 지시할 수 있습니까?</block>
-  <block id="140079c23bf99666acb52cc8f9b453cb" category="paragraph">예. BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 해당 목록을 분류 엔진에 제공할 수 있습니다. 변경 사항을 적용하면 BlueXP 분류에서 지정된 디렉토리에 있는 검사 데이터를 제외합니다.</block>
-  <block id="cccdbfa223764cc2c6bbdf979c65ac39" category="paragraph"><block ref="8704cac21d49e5e6ff202bcfdaf0dcb0" category="inline-link-macro-rx"></block>..</block>
   <block id="7d3c06dd12cabb9dbaf2d41b93d148c7" category="section-title">ONTAP 볼륨에 상주하는 스냅샷이 스캔됩니까?</block>
   <block id="a35301b044a7bc259b579edebe42bff3" category="paragraph">아니요. BlueXP  분류는 컨텐츠가 볼륨의 컨텐츠와 동일하기 때문에 스냅샷을 스캔하지 않습니다.</block>
   <block id="ae64bece015f15eb39e95575c833f8d3" category="section-title">ONTAP 볼륨에서 데이터 계층화가 활성화된 경우 어떻게 됩니까?</block>
-  <block id="d85edc022c467b1de0d062bc4f4215b5" category="paragraph">BlueXP 분류는 오브젝트 스토리지에 콜드 데이터가 계층화된 볼륨을 검사할 때 로컬 디스크에 있는 모든 데이터와 오브젝트 스토리지에 계층화된 콜드 데이터를 검사합니다. 이는 계층화를 구현하는 NetApp 제품이 아닌 경우에도 마찬가지입니다.</block>
-  <block id="a6ca0e2e27cafcb7c34af13f7d19c004" category="paragraph">스캔으로 콜드 데이터가 가열되지 않으며 오브젝트 스토리지에 보관되어 차갑게 유지됩니다.</block>
   <block id="1e99ed6a00e6ef3956359cd96c54b66c" category="section-title">소스 시스템 및 데이터 유형의 유형입니다</block>
   <block id="9648ab08d5b3fccc9c9ca3160e445cda" category="paragraph">다음 질문은 스캔할 수 있는 스토리지 유형 및 스캔할 데이터 유형과 관련되어 있습니다.</block>
-  <block id="a243387e3677f17692394ce770a377f8" category="section-title">BlueXP 분류로 스캔할 수 있는 데이터 소스는 무엇입니까?</block>
-  <block id="af0ca0f7eeb04884e0718a50bbcfb74d" category="paragraph">BlueXP 분류는 BlueXP Canvas에 추가한 작업 환경과 BlueXP 분류가 네트워크를 통해 액세스할 수 있는 다양한 유형의 정형 및 비정형 데이터 소스에서 데이터를 검색할 수 있습니다.</block>
   <block id="2930994d2cff6bdaceb544c2a0169659" category="paragraph">을 <block ref="fb235327a04124182aad24d53e898b94" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="d022b1f14ebf8b0b397ff02f8b6bfe78" category="section-title">정부 지역에 배포할 때 제한 사항이 있습니까?</block>
-  <block id="8aa912f072a560e74be845c27c1d0978" category="paragraph">커넥터가 정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 배포되어 "제한 모드"라고도 하는 경우 BlueXP 분류가 지원됩니다. 이러한 방식으로 배포된 BlueXP 분류에는 다음과 같은 제한 사항이 있습니다.</block>
   <block id="cdcb25957da09f59854744bf2007b696" category="paragraph">* 참고 * 이 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.</block>
-  <block id="b3478a494adde25715314b14559dd6a4" category="list-text">OneDrive 계정, SharePoint 계정 및 Google Drive 계정을 검색할 수 없습니다.</block>
-  <block id="d1f03114b8fef49b0f0cb0a28049ecdf" category="list-text">Microsoft Azure 정보 보호(AIP) 레이블 기능은 통합할 수 없습니다.</block>
   <block id="4f554b82a208efb281c300628a271b8e" category="section-title">인터넷 액세스 없이 사이트에 BlueXP 분류를 설치할 경우 어떤 데이터 소스를 검색할 수 있습니까?</block>
   <block id="d8e9d38457b0cf1fc41c4f7dc9118e28" category="paragraph">BlueXP 분류는 사내 사이트에 로컬인 데이터 소스에서만 데이터를 스캔할 수 있습니다. 현재 BlueXP 분류는 "비공개 모드"에서 "다크" 사이트라고도 하는 다음 로컬 데이터 소스를 검사할 수 있습니다.</block>
   <block id="d0a39c85bb5fdaacac18ed6c4e5b511f" category="list-text">온프레미스 ONTAP 시스템</block>
@@ -417,17 +350,11 @@
   <block id="0adefa52dc5e774fb8bd1c62fec82b84" category="paragraph"><block ref="0b3e64f511542d0a580dfbeb6d666614" prefix="" category="inline-code"></block></block>
   <block id="d288c89eadda3d7c229b7316faf2209a" category="section-title">BlueXP 분류 체계는 어떤 종류의 데이터와 메타데이터를 캡처합니까?</block>
   <block id="724ba2aee906c26a6c05f56bbf0dd434" category="paragraph">BlueXP 분류를 통해 데이터 소스에서 일반적인 "매핑" 스캔 또는 전체 "분류" 스캔을 실행할 수 있습니다. 매핑은 데이터에 대한 상위 수준의 개요만 제공하는 반면 분류는 데이터에 대한 세부 수준의 스캐닝을 제공합니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다.</block>
-  <block id="41265acabb9b2d4334b8c5ef8c74cfaa" category="list-text">* 데이터 매핑 스캔 * : BlueXP  분류는 메타데이터만 검사합니다. 이 기능은 전체 데이터 관리 및 거버넌스, 빠른 프로젝트 범위 지정, 대규모 부동산 및 우선순위 지정에 유용합니다. 데이터 매핑은 메타데이터를 기반으로 하며 * 빠른 * 스캔으로 간주됩니다.</block>
   <block id="00fb8639b6c2826bd3fceaa0d36399d8" category="paragraph">고속 스캔 후 데이터 매핑 보고서를 생성할 수 있습니다. 이 보고서는 리소스 활용도, 마이그레이션, 백업, 보안 및 규정 준수 프로세스에 대한 의사 결정을 돕기 위해 기업 데이터 소스에 저장된 데이터에 대한 개요입니다.</block>
-  <block id="f8360a4b00aa848a20011c9cc810d223" category="list-text">* 데이터 분류(Deep) 스캔 *: BlueXP  분류는 사용자 환경 전반에서 표준 프로토콜과 읽기 전용 권한을 사용하여 스캔합니다. Select 파일은 랜섬웨어 관련 중요 비즈니스 관련 데이터, 개인 정보 및 문제를 대상으로 열렸다 스캔됩니다.</block>
   <block id="dd3080e9b8238619b33db17f32f0014c" category="paragraph">전체 스캔 후에는 데이터 조사 페이지의 데이터 보기 및 구체화, 파일 내 이름 검색, 복사, 이동, 원본 파일 삭제 등 데이터에 적용할 수 있는 여러 가지 BlueXP 분류 기능이 추가로 있습니다.</block>
-  <block id="0d7b5294055876bf358044259606856f" category="paragraph">BlueXP 분류는 파일 이름, 권한, 생성 시간, 마지막 액세스, 마지막 수정과 같은 메타데이터를 캡처합니다. 여기에는 데이터 조사 세부 정보 페이지와 데이터 조사 보고서에 표시되는 모든 메타데이터가 포함됩니다.</block>
   <block id="829d8d2f641dd9e58ec1a7d5e605ae21" category="inline-link">BlueXP 분류가 검사하는 프라이빗 데이터의 범주입니다</block>
-  <block id="8ee30d3fc93bcfebcb66c04d52653b48" category="paragraph">BlueXP  분류는 개인 정보(PII) 및 민감한 개인 정보(SPii)와 같은 여러 유형의 개인 데이터를 식별할 수 있습니다. 개인 데이터에 대한 자세한 내용은 을<block ref="56427cf32f2481dc2470f5e57414e198" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="3e54663a2ffb430b0a951b91fab46029" category="section-title">특정 사용자에게 BlueXP 분류 정보를 제한할 수 있습니까?</block>
   <block id="31c54f238cebe0e67876bead2dd9ca81" category="paragraph">예. BlueXP 분류는 BlueXP와 완전히 통합되어 있습니다. BlueXP  사용자는 사용 권한에 따라 볼 수 있는 작업 환경에 대한 정보만 볼 수 있습니다.</block>
-  <block id="97b57408711e2d9ba278434cd17598c5" category="paragraph">또한 특정 사용자가 BlueXP  분류 설정을 관리할 수 없는 상태에서 BlueXP  분류 스캔 결과를 볼 수 있도록 허용하려면 해당 사용자에게 * 분류 뷰어 * 역할(표준 모드에서 BlueXP  사용 시) 또는 * 규정 준수 뷰어 * 역할(제한 모드에서 BlueXP  사용 시)을 할당할 수 있습니다.</block>
-  <block id="7618b35d0748b4efb66fc940006fadd5" category="paragraph"><block ref="83ed27e05a338173092039c2d8e0ae3b" category="inline-link-macro-rx"></block>..</block>
   <block id="baa3d508ff34a4c15a58d71fbe4f0e0f" category="section-title">내 브라우저와 BlueXP 분류 간에 전송되는 개인 데이터에 누구나 액세스할 수 있습니까?</block>
   <block id="d041b324ecbc035762393b90f89e331b" category="paragraph">아니요. 브라우저와 BlueXP  분류 인스턴스 간에 전송되는 개인 데이터는 TLS 1.2를 사용하여 엔드 투 엔드 암호화로 보호됩니다. 즉, NetApp 및 비 NetApp 당사자가 읽을 수 없습니다. BlueXP 분류는 액세스를 요청하고 승인하지 않는 한 NetApp과 데이터 또는 결과를 공유하지 않습니다.</block>
   <block id="74d4d96e624f192d4ebed96b99d9cedd" category="paragraph">스캔되는 데이터는 사용자 환경 내에 유지됩니다.</block>
@@ -446,24 +373,15 @@
   <block id="c6dbaaf1bef168a38de37623edb997f7" category="section-title">커넥터란 무엇입니까?</block>
   <block id="655b44b42a0405ade73bd1b7c7fe7759" category="paragraph">Connector는 클라우드 계정 또는 온프레미스 컴퓨팅 인스턴스에서 실행되는 소프트웨어로, BlueXP에서 클라우드 리소스를 안전하게 관리할 수 있도록 지원합니다. BlueXP 분류를 사용하려면 커넥터를 배포해야 합니다.</block>
   <block id="417cf0f3678f81efde443c4a85c2acb8" category="section-title">커넥터를 어디에 설치해야 합니까?</block>
-  <block id="fd3479aa2412da82a5c0ec56898d7547" category="list-text">AWS 또는 Amazon FSx for ONTAP의 Cloud Volumes ONTAP에서 데이터를 스캔할 때는 AWS의 커넥터를 사용합니다.</block>
-  <block id="f19eaef4d9d109ffcf1717f49dd5d48b" category="list-text">Azure 또는 Azure NetApp Files의 Cloud Volumes ONTAP에서 데이터를 스캔할 때 Azure의 커넥터를 사용합니다.</block>
   <block id="51604d985a41a8e2115db8de3eb4b40f" category="list-text">GCP의 Cloud Volumes ONTAP에서 데이터를 스캔할 때 GCP의 커넥터를 사용합니다.</block>
-  <block id="4ed8051d33f972fa0cc6d75e4ab1b870" category="list-text">온프레미스 ONTAP 시스템, NetApp 파일 공유 또는 데이터베이스에서 데이터를 검사하는 경우 이러한 클라우드 위치에서 커넥터를 사용할 수 있습니다.</block>
   <block id="267b476717c1665614f57e91725c67ff" category="inline-link">다중 커넥터</block>
-  <block id="ccb7563cf9bbae3ac26b7f8f10f59968" category="paragraph">따라서 이러한 위치에 데이터가 있는 경우 을 사용해야 할 수<block ref="bc298eaca29e4bff3f0d222b24813861" category="inline-link-rx"></block> 있습니다.</block>
   <block id="8da041e8fe3c0d961b0ec560416bc9a4" category="section-title">BlueXP 분류를 수행하려면 자격 증명에 액세스해야 합니까?</block>
   <block id="e54c52f3a3c545fc2e2f82026ac5945f" category="paragraph">BlueXP 분류 자체는 스토리지 자격 증명을 검색하지 않습니다. BlueXP Connector에 저장됩니다.</block>
   <block id="7add4f4508f6a065e3f94f770f4bac2d" category="paragraph">BlueXP 분류에서는 스캔 전에 CIFS 자격 증명을 사용하여 공유를 마운트하는 등의 데이터 플레인 자격 증명을 사용합니다.</block>
-  <block id="0908d2929b9ac231d6e9a69ca517b2e3" category="section-title">내 호스트에 커넥터를 배포할 수 있습니까?</block>
   <block id="a54d3bccf6c646c46c072ad1fc403cb6" category="inline-link">Connector를 온-프레미스에 배포합니다</block>
-  <block id="c2a51289509ec65eb3621726e2760f5a" category="paragraph">예. 네트워크의 Linux 호스트 또는 클라우드의 호스트에 연결할 수<block ref="643a4fbaa5b15b86bda31e47e3f0d2bb" category="inline-link-rx"></block> 있습니다. BlueXP 분류를 사내 배포하려는 경우 Connector를 온-프레미스에도 설치할 수 있지만 반드시 필요한 것은 아닙니다.</block>
   <block id="6ff26ca67814a870d6ad78d3687ba1a9" category="section-title">서비스와 커넥터 간의 통신이 HTTP를 사용합니까?</block>
   <block id="421bab1ab5399669513b071e1e856dca" category="paragraph">예, BlueXP 분류는 HTTP를 사용하여 BlueXP Connector와 통신합니다.</block>
   <block id="729ba1cfab33ecb7cda6d642c21b247d" category="section-title">인터넷에 연결되지 않은 보안 사이트는 어떻게 됩니까?</block>
-  <block id="6eab0919191c5c01e62f627bf1087393" category="inline-link">인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 배포합니다</block>
-  <block id="3b1883650bdcd250161cbf99ce0450d4" category="inline-link">이를 "비공개 모드"라고도 합니다.</block>
-  <block id="26d411dfdee47762b69f79244d61895e" category="paragraph">예, 지원합니다. 할 수<block ref="1c270efcf36a8d1c2de58c1ed2ed7315" category="inline-link-rx"></block>있습니다.<block ref="93d53de7d74c2549b2ebf074270b753f" category="inline-link-rx"></block>.. 그런 다음 사내 ONTAP 클러스터와 기타 로컬 데이터 소스를 검색하고 BlueXP 분류를 사용하여 데이터를 검색할 수 있습니다.</block>
   <block id="20d2d9d43536e58f448006e30ede92ef" category="section-title">BlueXP 분류 구축</block>
   <block id="f64f1950281393c4954c25f27bf434bd" category="paragraph">다음 질문은 별도의 BlueXP 분류 인스턴스와 관련이 있습니다.</block>
   <block id="6d4887be97091c35c15686e3df306d7e" category="section-title">BlueXP 분류 기능은 어떤 배포 모델을 지원합니까?</block>
@@ -987,9 +905,6 @@
   <block id="9a5f838c2dd7ef4d943b30889f557531" category="paragraph">범주는 보유한 정보의 유형을 표시하여 데이터의 상태를 이해하는 데 도움이 됩니다. 예를 들어 "이력서" 또는 "직원 계약"과 같은 범주에는 중요한 데이터가 포함될 수 있습니다. 결과를 살펴보는 과정에서 직원 계약서가 안전하지 않은 위치에 보관되어 있음을 알게 될 수도 있습니다. 그런 다음 해당 문제를 해결할 수 있습니다.</block>
   <block id="f57be897cf74c2ec8ac018d90999d9ef" category="inline-link-macro">범주별로 파일 보기</block>
   <block id="747fb24cd2b94a7b0fc7076c4af2f2c2" category="paragraph">자세한 내용은 을 <block ref="3648d3c4c92bd601fe477d66a90a40cd" category="inline-link-macro-rx"></block> 참조하십시오.</block>
-  <block id="cb45e879b815142e4e2cd0d22e5c6dd9" category="paragraph">파일 형식을 검토하면 특정 파일 형식이 올바르게 저장되지 않은 것을 발견할 수 있으므로 중요한 데이터를 제어하는 데 도움이 됩니다.</block>
-  <block id="5e8739b0bd7e602b7f492e7398e41425" category="inline-link-macro">파일 형식 보기</block>
-  <block id="1841518caa387e4e9bb9d49c95609785" category="paragraph">자세한 내용은 을 <block ref="624739c32d4b253a90da8dd449f98632" category="inline-link-macro-rx"></block> 참조하십시오.</block>
   <block id="889fccf2502dc396b9b9c66885b6a093" category="paragraph">보고서에는 다음 정보가 포함됩니다.</block>
   <block id="03841f26d25c8d7aef0d271b79a05859" category="cell">사용 용량</block>
   <block id="660bfa8882061d8f060790c38df904d6" category="cell">모든 작업 환경: 각 작업 환경의 파일 수와 사용된 용량을 나열합니다. 단일 작업 환경의 경우: 최대 용량을 사용하는 파일을 나열합니다.</block>
@@ -1485,20 +1400,9 @@
   <block id="3d704d8a7dea04055fa8e435fb3ba4a4" category="section-title">현재 제외 목록을 봅니다</block>
   <block id="ce591271bee64e6f1ef9a4585a8a1142" category="paragraph">구성 파일의 내용이 스크립트를 실행한 후 실제로 커밋된 내용과 다를<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block> 수<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block> 있습니다. BlueXP 분류 검사에서 제외된 디렉토리의 현재 목록을 보려면 "/opt/netapp/datasense/tools/customer_configuration/data_providers"에서 다음 명령을 실행합니다.</block>
   <block id="d00262b814d9ca29426ceae460b61927" category="summary">BlueXP 분류는 조직의 데이터 개인 정보 보호 프로그램 상태를 보다 잘 이해하기 위해 사용할 수 있는 보고서를 제공합니다.</block>
-  <block id="8932e9435ce03fbb7ecf0b2f738ce66a" category="paragraph">기본적으로 BlueXP 분류 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 <block ref="200c05d79644e6ad09afbf686b752513" category="inline-xref-macro-rx"></block>보려면 을 참조하십시오.</block>
   <block id="16a978df0c48afdfbda069f5d1b195fc" category="list-text">이 섹션에 설명된 보고서는 데이터 소스에서 전체 분류 검사를 수행하도록 선택한 경우에만 사용할 수 있습니다. 매핑 전용 스캔이 있는 데이터 원본은 데이터 매핑 보고서만 생성할 수 있습니다.</block>
   <block id="216b4fc24b6fa4197a8fc2d1066a4de4" category="section-title">개인 정보 보호 위험 평가 보고서</block>
-  <block id="47a431ede9d263c65258e5be6ff6b2c1" category="paragraph">개인 정보 보호 위험 평가 보고서는 GDPR 및 CCPA와 같은 개인 정보 보호 규정에 따라 조직의 개인 정보 보호 위험 상태에 대한 개요를 제공합니다. 보고서에는 다음 정보가 포함됩니다.</block>
-  <block id="86bb262dfb2fdc1b5bf97779c25bf74e" category="list-text">준수 상태</block>
-  <block id="382281063951b90be482eaf4d662e71d" category="inline-xref">심각도 점수</block>
-  <block id="1781723f3ebf3dc877d6552ad464f5c8" category="list-text">는 <block ref="93dc7e58650d49384eb429ebc02cc1b9" category="inline-xref-macro-rx"></block>비민감성, 개인적 또는 민감한 개인에 관계없이 데이터의 배포.</block>
-  <block id="b876ee6e4aae547d9e972a428394644c" category="list-text">평가 개요</block>
-  <block id="50b1479ebaf14151aa48027e51cf50af" category="list-text">발견된 개인 데이터 유형 및 데이터 범주에 대한 분석.</block>
-  <block id="dac9a37f6b8a5f930c7c6a2c881ac27d" category="list-text">이 평가의 데이터 주체</block>
-  <block id="d18b36601a861dcbabfa55ca89a58214" category="list-text">국가 식별자가 발견된 위치별 사람 수.</block>
-  <block id="8fe6204e46726000832b41b57a8682fa" category="section-title">개인정보 보호 위험 평가 보고서를 생성합니다</block>
   <block id="b6fa61ed970b3d1e0c1e1bd8acca709e" category="paragraph">준수 탭으로 이동하여 보고서를 생성합니다.</block>
-  <block id="df021c142a7f1ae824eb0a27da4d5430" category="list-text">Compliance * 를 클릭한 다음 * Reports * 에서 * Privacy Risk Assessment * 옆에 있는 다운로드 아이콘을 클릭합니다.</block>
   <block id="774c84e5f21e54f29a77614631e4f82d" category="inline-image-macro">BlueXP의 규정 준수 탭 스크린 샷에 개인 정보 보호 위험 평가를 클릭할 수 있는 보고서 창이 표시됩니다.</block>
   <block id="f333577cc4eb4e75ec2cbb670cbf0d59" category="paragraph"><block ref="f333577cc4eb4e75ec2cbb670cbf0d59" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e1a821d23f1453d667dd352729a4cff7" category="paragraph">BlueXP 분류는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에 검토 및 전송할 수 있습니다.</block>
@@ -1531,49 +1435,22 @@
   <block id="24513c12fc48906756daf10d6d5a4660" category="cell">변수 중 두 개가 15%보다 큽니다</block>
   <block id="d3d9446802a44259755d38e6d163e820" category="cell">10</block>
   <block id="5073afe3d437ce597a9a38ac865e5ba4" category="cell">세 개의 변수가 15%보다 큽니다</block>
-  <block id="29fa670fd8012375d2ec97b1875ec2f2" category="section-title">PCI DSS 보고서</block>
-  <block id="9dd3c7884395c8732ae7d8a6db6d08c6" category="paragraph">PCI DSS(Payment Card Industry Data Security Standard) 보고서를 통해 파일 전체에서 신용 카드 정보의 분포를 확인할 수 있습니다. 보고서에는 다음 정보가 포함됩니다.</block>
-  <block id="aceb5650853fc5f09f3564b02bcf6985" category="list-text">신용 카드 정보와 작업 환경이 포함된 파일 수</block>
-  <block id="d7f2615c71a1567cc13cf3a7f7de0aea" category="list-text">암호화</block>
-  <block id="f7d7d78ff1b8829ce7c327f21fa5b63a" category="list-text">암호화 또는 암호화되지 않은 작업 환경에 있는 신용 카드 정보가 포함된 파일의 비율입니다. 이 정보는 Cloud Volumes ONTAP에만 해당됩니다.</block>
-  <block id="950604af87c30e09716e6d097eb491db" category="list-text">랜섬웨어 보호</block>
-  <block id="fc10a6e1a360fe78850fc47647c4067b" category="list-text">랜섬웨어 보호가 활성화된 작업 환경에 있는 신용 카드 정보가 포함된 파일의 비율입니다. 이 정보는 Cloud Volumes ONTAP에만 해당됩니다.</block>
-  <block id="7f6d38d7d0f6e5ede0664468079dfb06" category="list-text">보존</block>
-  <block id="9be153c396f5d81a0651e606a15b97a6" category="list-text">파일이 마지막으로 수정된 기간. 이 기능은 신용 카드 정보를 처리하는 데 필요한 것보다 더 오래 보관해서는 안 되기 때문에 유용합니다.</block>
-  <block id="6e8eeb60988a6a82d5ccdc9189a04ab1" category="list-text">신용 카드 정보 배포</block>
-  <block id="07fbe98a65e816ddb6d2350071bcab9d" category="list-text">신용 카드 정보가 발견된 작업 환경 및 암호화 및 랜섬웨어 방지 기능이 활성화되어 있는지 여부</block>
-  <block id="a278deb1b004bff80e79de1e339663d8" category="section-title">PCI DSS 보고서를 생성합니다</block>
-  <block id="82ee2415e5e4e15c63902d6a550b7af1" category="list-text">규정 준수 * 를 클릭한 다음 * 보고서 * 에서 * PCI DSS 보고서 * 옆에 있는 다운로드 아이콘을 클릭합니다.</block>
   <block id="0c82783c4e63c4ad190a9cc165c2de20" category="paragraph"><block ref="0c82783c4e63c4ad190a9cc165c2de20" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8e4972d194dcdd01c957ef6b3398d9e2" category="section-title">HIPAA 보고서</block>
   <block id="298013bc66cec6a47a98fe706255d681" category="paragraph">HIPAA(Health Insurance Portability and Accountability Act) 보고서를 통해 건강 정보가 포함된 파일을 확인할 수 있습니다. HIPAA 데이터 개인 정보 보호 법률을 준수하기 위한 조직의 요구 사항을 지원하도록 설계되었습니다. BlueXP 분류에서 확인할 수 있는 정보는 다음과 같습니다.</block>
   <block id="9965e5c3b37cecfca0bb5cbb1e086c48" category="list-text">상태 참조 패턴</block>
   <block id="53155f0c534ef44d114eeae0b0f2e638" category="list-text">ICD-10-cm 의료 코드</block>
   <block id="f1d3fc4a48ee497faf58426c477a8bd3" category="list-text">ICD-9-cm 의료 코드</block>
   <block id="21e0d61d9e797a17767287de32bd7bef" category="list-text">HR - 건강 범주</block>
   <block id="8948f9f8b6a6a046dfc8b73ef1fa8c51" category="list-text">상태 응용 프로그램 데이터 범주입니다</block>
-  <block id="8e73880b563de5164876f6e85029b66a" category="list-text">상태 정보가 포함된 파일 수와 작업 환경이 포함된 파일 수</block>
-  <block id="50d5d1c68b0d48aed412a324cdfff4a2" category="list-text">암호화 또는 암호화되지 않은 작업 환경에 있는 상태 정보가 포함된 파일의 비율입니다. 이 정보는 Cloud Volumes ONTAP에만 해당됩니다.</block>
-  <block id="ec97ac7be20272b396a3c8559e53deab" category="list-text">랜섬웨어 보호가 활성화된 작업 환경에 대한 상태 정보가 포함된 파일의 비율입니다. 이 정보는 Cloud Volumes ONTAP에만 해당됩니다.</block>
-  <block id="475d2ce86284eab3c5230fef8becebe3" category="list-text">파일이 마지막으로 수정된 기간. 이 기능은 건강 정보를 처리하는 데 필요한 것보다 오래 보관할 필요가 없기 때문에 유용합니다.</block>
-  <block id="a6287f4c37d3aeaddd03675602115ba3" category="list-text">건강 정보 배포</block>
-  <block id="8f8c34ce8b2510cd1c1e29b5a17cd92e" category="list-text">상태 정보가 발견된 작업 환경 및 암호화 및 랜섬웨어 방지 기능이 활성화되어 있는지 여부</block>
-  <block id="3d6c8f2da2f31e222453954edbdc0016" category="section-title">HIPAA 보고서를 생성합니다</block>
-  <block id="f6bcba6045f642cc0b7c93a339fe0eb7" category="list-text">규정 준수 * 를 클릭한 다음 * 보고서 * 에서 * HIPAA 보고서 * 옆에 있는 다운로드 아이콘을 클릭합니다.</block>
   <block id="0a849af88f16bfeec242814d55316f73" category="inline-image-macro">HIPAA를 클릭할 수 있는 보고서 창이 표시된 BlueXP의 규정 준수 탭 스크린 샷</block>
   <block id="e647377f6010170b6305b0a8ef0e26d6" category="paragraph"><block ref="e647377f6010170b6305b0a8ef0e26d6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5938e2a1c87ebfa1f91ab0351d47ab76" category="section-title">데이터 주체 액세스 요청이란 무엇입니까?</block>
   <block id="bf921de5d4c70eef45feab946da98137" category="paragraph">유럽 GDPR과 같은 개인 정보 보호 규정은 데이터 주체(고객 또는 직원 등)에게 개인 데이터에 액세스할 수 있는 권한을 부여합니다. 데이터 피험자가 이 정보를 요청하는 경우 이를 SAR(데이터 주체 액세스 요청)이라고 합니다. 조직은 이러한 요청에 대해 "부당한 지연 없이", 그리고 수령 후 1개월 이내에 응답해야 합니다.</block>
   <block id="79ef1979db95fea8f788488be1660ddb" category="paragraph">피험자의 전체 이름 또는 알려진 식별자(예: 이메일 주소)를 검색한 다음 보고서를 다운로드하여 DSAR에 응답할 수 있습니다. 이 보고서는 GDPR 또는 이와 유사한 데이터 개인 정보 보호 법률을 준수하기 위한 조직의 요구 사항을 지원하도록 설계되었습니다.</block>
-  <block id="528531da14c2bf73de1f233e9b892cb3" category="section-title">BlueXP 분류는 SAR에 대응하는 데 어떤 도움이 됩니까?</block>
   <block id="971626cab2d581e66c07deaa923019ff" category="paragraph">데이터 주체 검색을 수행할 때 BlueXP 분류에서는 해당 사용자의 이름이나 식별자가 포함된 모든 파일, 버킷, OneDrive 및 SharePoint 계정을 찾습니다. BlueXP 분류는 이름 또는 식별자에 대해 미리 인덱싱된 최신 데이터를 확인합니다. 새 스캔은 시작되지 않습니다.</block>
   <block id="8a464fab58ec0272448f96c6e09a0019" category="paragraph">검색이 완료되면 데이터 주체 액세스 요청 보고서에 대한 파일 목록을 다운로드할 수 있습니다. 이 보고서는 데이터에서 얻은 통찰력을 집계하여 해당 사람에게 다시 보낼 수 있는 법적 용어로 저장합니다.</block>
   <block id="dd363d2f15cf39a647d862100dda0956" category="admonition">현재 데이터베이스 내에서 데이터 주제 검색이 지원되지 않습니다.</block>
-  <block id="dea05f9db0b78f5c37e6ef730d7c9cb3" category="section-title">데이터 주제를 검색하고 보고서를 다운로드합니다</block>
   <block id="95fbc0e5629d1a6565b155bfc1a72f1f" category="inline-link-macro">모든 개인 정보 유형입니다</block>
-  <block id="22f358540a8137fabaf166237bf90665" category="paragraph">데이터 주체의 전체 이름 또는 알려진 식별자를 검색한 다음 파일 목록 보고서 또는 DSAR 보고서를 다운로드합니다. 로 검색할 수 <block ref="15f0bc476b1c646a9bfee9ca0397f926" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="3fb31cc8efb6a784adfa36f5dcbd6dcb" category="admonition">데이터 주체 이름을 검색할 때 영어, 독일어, 일본어 및 스페인어가 지원됩니다. 더 많은 언어에 대한 지원은 나중에 추가됩니다.</block>
-  <block id="c9edde725bcfb1c133b505d4d1320784" category="list-text">데이터 제목 * 을 클릭합니다.</block>
   <block id="f1c85eaf16c9599d4afcc94f0e5efb53" category="list-text">데이터 제목의 전체 이름 또는 알려진 식별자를 검색합니다.</block>
   <block id="6cb73fb6662a2fc29c22c33577236835" category="paragraph">다음은 name_john doe_에 대한 검색을 보여 주는 예입니다.</block>
   <block id="c31935205f366ec58eae40c46e703cd4" category="inline-image-macro">DSAR의 이름 "John Doe"를 검색하는 스크린샷.</block>
@@ -1672,19 +1549,13 @@
   <block id="0ce4d42838344488f607ff306088fae9" category="inline-link-macro">BlueXP 분류를 배포합니다</block>
   <block id="5c0eee20a6bf4ad2ff2c7646e93e6147" category="paragraph"><block ref="41d9750d1a3a84ad5c474fb18cb4f237" category="inline-link-macro-rx"></block> 인스턴스가 아직 배포되지 않은 경우</block>
   <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
-  <block id="162627490dd9e3bfa1451fcbd693e2df" category="list-text">NFS-포트 111 및 2049의 경우</block>
-  <block id="ebc566be80d2aa97a2d54b51da6e0306" category="list-text">CIFS-포트 139 및 445의 경우</block>
   <block id="846eb83e821481bdeafbcc34c9138401" category="section-title">BlueXP 분류 인스턴스를 배포합니다</block>
   <block id="66d6758c1474f6b831dd835dbec91562" category="paragraph">배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.</block>
   <block id="d040d135cea4209ef4244e9d6e171fee" category="inline-link-macro">클라우드에 BlueXP 분류를 배포합니다</block>
   <block id="d56c40a575de98938d6b1b6814e422d2" category="inline-link-macro">인터넷 액세스가 가능한 사내 위치</block>
-  <block id="9b0125eccaa725deb9a943448cb78e3b" category="paragraph">인터넷을 통해 액세스할 수 있는 Cloud Volumes ONTAP 및 온프레미스 ONTAP 시스템을 검사하는 경우 또는 를 사용할 수 있습니다<block ref="8faa540c15177bc62b151869f0948a64" category="inline-link-macro-rx"></block>.<block ref="5433f857b708e940349e34ece6281ba0" category="inline-link-macro-rx"></block></block>
   <block id="b6c0a0e9e7e33313825824c0729f8062" category="inline-link-macro">인터넷에 액세스할 수 없는 동일한 사내 위치에 BlueXP 분류를 배포합니다</block>
-  <block id="e64472941265caa02b01ea0d866661fd" category="paragraph">인터넷에 액세스할 수 없는 다크 사이트에 설치된 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행해야 <block ref="3beeea1c5d12940092999048e1c30313" category="inline-link-macro-rx"></block>합니다. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
   <block id="3e07df694cbf4c604aed3e0514e35653" category="section-title">작업 환경에서 BlueXP  분류를 활성화합니다</block>
-  <block id="4c2c1b5a11a3d5aab7dd2061acb786b6" category="paragraph">지원되는 모든 클라우드 공급자 및 온프레미스 ONTAP 클러스터의 Cloud Volumes ONTAP 시스템에서 BlueXP 분류를 사용하도록 설정할 수 있습니다.</block>
   <block id="cb3aa3f952775ea9178b718df187d59d" category="inline-image-macro">BlueXP 분류 인스턴스를 배포한 직후 구성 탭의 스크린샷.</block>
-  <block id="ecfa3501fa1e651a3fb40a15dd82d18a" category="paragraph"><block ref="ecfa3501fa1e651a3fb40a15dd82d18a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd786557a341a9cbd5fb1a642121a675" category="inline-link-macro">매핑 및 분류 스캔에 대해 알아봅니다</block>
   <block id="887fd0b7f53fccc2f6d057bd14bf2612" category="list-text">각 작업 환경의 볼륨을 스캔할 방법을 선택합니다. <block ref="4482921a499e3614d034b24f41c18ded" category="inline-link-macro-rx"></block>다음을 수행합니다.</block>
   <block id="102692751f525192810434a5517a9248" category="list-text">모든 볼륨을 매핑하려면 * Map All Volumes * 를 클릭합니다.</block>
@@ -1705,7 +1576,6 @@
   <block id="d087d72a44be712cf5ebcc1f325b98a4" category="list-text">NFS 볼륨 내보내기 정책에 각 볼륨의 데이터에 액세스할 수 있도록 BlueXP 분류 인스턴스의 IP 주소가 포함되어 있는지 확인합니다.</block>
   <block id="ede9a6fd89b6e139fff80209cdd2ea8d" category="list-text">CIFS를 사용하는 경우 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 사용하여 BlueXP 분류를 제공합니다.</block>
   <block id="2d680ca666fd821f3c51a507d41a26cb" category="inline-image-macro">콘텐츠 창의 오른쪽 상단에서 사용할 수 있는 스캔 상태 단추를 보여 주는 규정 준수 탭의 스크린샷</block>
-  <block id="b70232fe808c101066f1d5f669f6a6cd" category="paragraph"><block ref="b70232fe808c101066f1d5f669f6a6cd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6057fa1a60f3ec92856060b18a0cc112" category="paragraph">자격 증명은 읽기 전용일 수 있지만 관리자 자격 증명을 제공하면 BlueXP 분류에서 상승된 권한이 필요한 모든 데이터를 읽을 수 있습니다. 자격 증명은 BlueXP 분류 인스턴스에 저장됩니다.</block>
   <block id="a1c4e88cdf8e157dbb344fe556f58d28" category="paragraph">BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="b401c479fc7a1b8aa216a7173ee8782f" category="paragraph">자격 증명을 입력한 후 모든 CIFS 볼륨이 성공적으로 인증되었다는 메시지가 표시됩니다.</block>
@@ -1722,14 +1592,10 @@
   <block id="5a2a9933405c81b69e2cbdd9151f9197" category="cell">방법은 다음과 같습니다.</block>
   <block id="1456e5fc169a243504826034d14947c3" category="admonition">작업 환경에 추가된 새 볼륨은 머리글 영역에서 * Map * 또는 * Map &amp; Classify * 설정을 설정한 경우에만 자동으로 스캔됩니다. 제목 영역에서 * 사용자 정의 * 또는 * 끄기 * 로 설정하면 작업 환경에 추가한 새 볼륨마다 매핑 및/또는 전체 스캔을 활성화해야 합니다.</block>
   <block id="3f0bbcbd675537960ef9995a958d5fe0" category="section-title">데이터 보호 볼륨을 검사합니다</block>
-  <block id="e7fa07083790a8112d00af542356ec88" category="paragraph">기본적으로 데이터 보호(DP) 볼륨은 외부에서 노출되지 않고 BlueXP 분류에서 액세스할 수 없기 때문에 스캔되지 않습니다. 이는 사내 ONTAP 시스템 또는 Cloud Volumes ONTAP 시스템에서 SnapMirror 작업을 위한 타겟 볼륨입니다.</block>
   <block id="cc2aceb1237f12696c6da3c671aebf3a" category="paragraph">처음에 볼륨 목록은 이러한 볼륨을 _Type_* DP*로 식별하며 _Status_* Not Scanning* 및 _Required Action_* DP 볼륨에 대한 액세스 사용*.</block>
   <block id="6aa3c8215593c54e1d788a94766b3ae7" category="inline-image-macro">데이터 보호 볼륨을 스캔하도록 선택할 수 있는 DP 볼륨에 대한 액세스 활성화 버튼이 표시된 스크린샷</block>
   <block id="5527bf6460aac122d9350ebcc432db9e" category="paragraph"><block ref="5527bf6460aac122d9350ebcc432db9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="178dc62002a72846660e90787e11f939" category="paragraph">이러한 데이터 보호 볼륨을 스캔하려는 경우:</block>
-  <block id="3d6de382dcb4bfdce280387a9542d9bd" category="list-text">페이지 맨 위에서 * DP 볼륨에 대한 액세스 활성화 * 를 클릭합니다.</block>
-  <block id="f13aece6b768921832b7bb943cab9f19" category="list-text">소스 ONTAP 시스템에서 처음에 NFS 볼륨으로 생성된 볼륨이 설정됩니다.</block>
-  <block id="7c0a9b3e555cf595d3d01d33df76df82" category="list-text">소스 ONTAP 시스템에서 CIFS 볼륨으로 처음 생성된 볼륨을 사용하려면 CIFS 자격 증명을 입력하여 해당 DP 볼륨을 스캔해야 합니다. BlueXP 분류에서 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 이미 입력한 경우 해당 자격 증명을 사용하거나 다른 관리자 자격 증명 집합을 지정할 수 있습니다.</block>
   <block id="65ba2ff339305392b787952e007185f1" category="inline-image-macro">CIFS 데이터 보호 볼륨을 설정하기 위한 두 가지 옵션의 스크린샷</block>
   <block id="044f0d646b3277f06b2a18a6e8980572" category="paragraph"><block ref="044f0d646b3277f06b2a18a6e8980572" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5f9318195cc151f5faab62105798a8f9" category="list-text">스캔할 각 DP 볼륨을 활성화합니다.</block>
@@ -2416,7 +2282,6 @@
   <block id="b5e00ff2b7559dfa6fc6fe96058ede54" category="doc">BlueXP  분류로 파일 공유를 스캔합니다</block>
   <block id="12a96925a3b6ebd1419915c8b0bfada9" category="paragraph">몇 단계를 완료하여 Google Cloud NetApp 볼륨 및 이전 NetApp 7-Mode 시스템에서 NFS 또는 CIFS 파일 공유 검색을 시작하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.</block>
   <block id="f146ec0537a829117da7d3ce3e588d3b" category="admonition">비 NetApp 파일 공유의 데이터 검사는 BlueXP 분류 코어 버전에서 지원되지 않습니다.</block>
-  <block id="9850feff1aac1d886b7a010236318d49" category="section-title">파일 공유 요구 사항을 검토합니다</block>
   <block id="d809bb142c0a96aef201dfc891e977e3" category="list-text">공유는 클라우드 또는 온프레미스 등 어디서나 호스팅할 수 있습니다. 이전 NetApp 7-Mode 스토리지 시스템의 CIFS 공유를 파일 공유로 검사할 수 있습니다.</block>
   <block id="061d9924baf4222bf79058b2beddbe21" category="paragraph">BlueXP 분류는 7-Mode 시스템에서 사용 권한 또는 "마지막 액세스 시간"을 추출할 수 없습니다. 또한 일부 Linux 버전과 7-Mode 시스템의 CIFS 공유 사이에서 알려진 문제로 인해 NTLM 인증이 활성화된 SMB v1만 사용하도록 공유를 구성해야 합니다.</block>
   <block id="bd069242cf8eda4643c1e3d125af30e2" category="list-text">BlueXP 분류 인스턴스와 공유 사이에 네트워크 연결이 있어야 합니다.</block>
@@ -2426,30 +2291,20 @@
   <block id="8324f4d6c5b9d56205261e30363b597f" category="paragraph">BlueXP  분류 소프트웨어로의 업그레이드는 인스턴스가 인터넷에 연결되어 있는 한 자동화됩니다.</block>
   <block id="763e254befdcc246f3e8569877b63340" category="section-title">파일 공유에 대한 그룹을 생성합니다</block>
   <block id="60d7a85c8e73898b7ffc998f747e0883" category="paragraph">파일 공유를 추가하려면 먼저 파일 공유 "그룹"을 추가해야 합니다. 그룹은 검색할 파일 공유의 컨테이너이며 그룹 이름은 해당 파일 공유의 작업 환경 이름으로 사용됩니다.</block>
-  <block id="96fdaabb157bbdb2dbe197904f9a4dbb" category="paragraph">동일한 그룹에서 NFS 및 CIFS 공유를 혼합할 수 있지만, 그룹의 모든 CIFS 파일 공유는 동일한 Active Directory 자격 증명을 사용해야 합니다. 다른 자격 증명을 사용하는 CIFS 공유를 추가하려는 경우 고유한 각 자격 증명 세트에 대해 별도의 그룹을 만들어야 합니다.</block>
   <block id="28a37c29073d01b41af962aa45f11615" category="inline-image-macro">파일 공유 그룹 추가 버튼을 클릭할 수 있는 스캔 구성 페이지의 스크린 샷</block>
   <block id="69438cb2e4a059b421af50a7d06c8f93" category="paragraph">새 파일 공유 그룹이 작업 환경 목록에 추가됩니다.</block>
   <block id="8c7259d7b7f8962c22537c08f66b5e09" category="section-title">그룹에 파일 공유를 추가합니다</block>
   <block id="a5847332edc397d8726675e5b89d4f7a" category="paragraph">파일 공유 그룹에 파일 공유를 추가하면 해당 공유의 파일이 BlueXP 분류에서 검사됩니다. 공유 형식을<block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block>추가합니다.</block>
   <block id="7f36799e4767f2e3733ee3f582eeec9d" category="paragraph">개별 파일 공유를 추가하거나 스캔할 파일 공유의 줄별 목록을 제공할 수 있습니다. 한 번에 최대 100개의 공유를 추가할 수 있습니다.</block>
   <block id="c9ce688a21fc0a13e7a592a39d9b66de" category="paragraph">단일 그룹에 NFS 및 CIFS 공유를 모두 추가하는 경우 NFS 공유를 한 번 추가한 다음 CIFS 공유를 다시 추가하는 프로세스를 실행해야 합니다.</block>
-  <block id="d9a6785fa0ca31901cf49acc5951aefc" category="paragraph"><block ref="d9a6785fa0ca31901cf49acc5951aefc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e12f851045a5dd03b63ec08942496b87" category="inline-image-macro">그룹에 초기 공유를 추가하기 위한 첫 번째 공유 추가 버튼을 보여 주는 스크린샷</block>
-  <block id="71802feecdbf246a5878ffd0776c9188" category="paragraph"><block ref="71802feecdbf246a5878ffd0776c9188" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="320628295265baf9bb69f0998f0f2fff" category="inline-image-macro">공유 추가 버튼을 보여 주는 스크린샷으로, 그룹에 공유를 더 추가할 수 있습니다.</block>
-  <block id="8fedda70275ec7ba2bbf1cf099d2a559" category="paragraph"><block ref="8fedda70275ec7ba2bbf1cf099d2a559" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eb78bc82dacf7ba8a0b44a1fcffc4ddf" category="paragraph">CIFS(SMB) 공유를 추가할 때는 공유에 대한 읽기 액세스를 제공하는 Active Directory 자격 증명을 입력해야 합니다. 관리자 자격 증명을 사용하는 것이 좋습니다.</block>
-  <block id="ea83a70e9aaa2fe5cdb89ca736c3f60f" category="inline-image-macro">스캔할 공유를 추가할 수 있는 파일 공유 추가 페이지의 스크린샷</block>
-  <block id="a9d3544fdaa80db23d985cc9024d392a" category="paragraph"><block ref="a9d3544fdaa80db23d985cc9024d392a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="17ac351ddbea073b035b83b540983f6f" category="paragraph">확인 대화 상자에 추가된 공유 수가 표시됩니다.</block>
   <block id="87dced2b98ff65890acdcbfd5902920a" category="paragraph">대화 상자에 추가할 수 없는 공유가 나열된 경우 이 정보를 캡처하여 문제를 해결할 수 있습니다. 경우에 따라 수정된 호스트 이름 또는 공유 이름으로 공유를 다시 추가할 수 있습니다.</block>
-  <block id="5a05b6cef18f9bb7455b9c5cd36ddc47" category="list-text">각 파일 공유에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 활성화합니다.</block>
   <block id="ae70ae1b93c56367429b7d2bb0ece139" category="cell">Map * 을 클릭합니다</block>
   <block id="c8f32db0b52a7b7e31ee04bd02eddbb6" category="cell">지도 및 분류 * 를 클릭합니다</block>
   <block id="a988b0977fb89f6574cfc55d252b1cf9" category="cell">Off * 를 클릭합니다</block>
   <block id="0eb30c84638dc32a52a08e70a70b2a55" category="section-title">규정 준수 검사에서 파일 공유를 제거합니다</block>
-  <block id="90777a343fd7f5c83c97f473d59a2af2" category="inline-image-macro">단일 파일 공유를 제거하여 파일을 스캔하는 방법을 보여 주는 스크린샷</block>
-  <block id="c8716632d7055f530ad579b6f751cf3a" category="paragraph"><block ref="c8716632d7055f530ad579b6f751cf3a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="65f7d3315d8640ef3d8c452f389f943f" category="summary">BlueXP 분류를 사용하여 ONTAP 볼륨에 대한 Amazon FSx 스캔을 시작하려면 몇 단계를 완료하십시오.</block>
   <block id="7265eae2a2b23f32087dc3e5083938a2" category="doc">BlueXP  분류를 통해 Amazon FSx for ONTAP 볼륨을 스캔합니다</block>
   <block id="ee226c8d12b49c169ecda644ad808139" category="list-text">BlueXP 분류를 구축 및 관리하려면 AWS에 활성 커넥터가 필요합니다.</block>
@@ -3282,9 +3137,6 @@
   <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">이제 ** Retry All** 기능을 사용하여 일괄 작업으로 스캔을 다시 시도할 수 있습니다. 네트워크 중단과 같은 일시적인 문제로 인해 분류 스캔이 실패하는 경우 개별적으로 다시 시도하지 않고 하나의 버튼으로 모든 스캔을 동시에 다시 시도할 수 있습니다. 스캔은 필요한 만큼 재시도할 수 있습니다.</block>
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">모든 스캔을 재시도하려면:</block>
   <block id="b12f5b59c684a779545a1b1213dd66bc" category="paragraph">BlueXP  분류에서 두 가지 유형의 스캔을 수행할 수 있습니다.</block>
-  <block id="9d3df32a3f2de154b8990ebd35c31613" category="list-text">** 매핑 전용** 스캔은 데이터에 대한 높은 수준의 개요만 제공하며 선택한 데이터 소스에서 수행됩니다. 매핑 전용 스캔은 내부에서 데이터를 보기 위해 파일에 액세스하지 않기 때문에 스캔을 맵핑하고 분류하는 것보다 시간이 적게 걸립니다.</block>
-  <block id="1066c61e667e291ec5e73b4dacd940cc" category="list-text">** 지도 및 분류** 스캔을 통해 데이터를 심층적으로 스캔할 수 있습니다.</block>
-  <block id="521c4c041b2018425d0b51d58630dbd6" category="paragraph">매핑 전용 스캔을 사용하면 데이터를 빠르게 스캔하고 더 많은 연구가 필요할 수 있는 데이터 소스를 식별할 수 있습니다. 그런 다음 지도 및 분류 스캔을 수행할 수 있습니다.</block>
   <block id="942a04054c6b1ae7f7628fd51272bc4f" category="cell">스캔 매핑 및 분류</block>
   <block id="4ece5b80f66f48ae87ab10eeb6098ee4" category="cell">매핑 전용 스캔</block>
   <block id="199f10f735e14c906492368f8756c40f" category="list-text">매핑 전용 스캔을 수행할 때 BlueXP  분류는 하루에 100-150개의 데이터 TiB를 스캔할 수 있습니다.</block>
@@ -3300,7 +3152,6 @@
   <block id="c2855e2ec2a3b644fcf3de0a8f9d45c5" category="list-text">볼륨에 대한 스캔을 비활성화하려면 볼륨 영역에서 * Off * 를 선택합니다. 모든 볼륨에서 스캔을 비활성화하려면 제목 영역에서 * Off * 를 선택합니다.</block>
   <block id="68dcec37c7e93a47d1ae41152c0801ce" category="admonition">작업 환경에 추가된 새 볼륨은 머리글 영역에서 * Map * 또는 * Map &amp; Classify * 설정을 설정한 경우에만 자동으로 스캔됩니다. 이 옵션이 제목 영역에서 * 사용자 지정 * 또는 * 꺼짐 * 으로 설정된 경우 작업 환경에서 추가하는 각 새 볼륨에 대해 매핑 및/또는 전체 스캔을 활성화해야 합니다.</block>
   <block id="dfa8ad96ab6729352fe85576aaf7b1b5" category="list-text">확인 메시지를 검토하고 * DP 볼륨에 대한 액세스 활성화 * 를 다시 선택합니다.</block>
-  <block id="c836dbd0445ab0238fdc8bf8e9e5d884" category="paragraph">처음에 DP 볼륨에 대한 액세스를 설정했을 때 CIFS 데이터 보호 볼륨이 없는 경우 나중에 일부 볼륨을 추가하면 구성 페이지 상단에 * CIFS DP에 대한 액세스 설정 * 버튼이 나타납니다. 이 버튼을 클릭하고 CIFS 자격 증명을 추가하여 이러한 CIFS DP 볼륨에 대한 액세스를 설정합니다.</block>
   <block id="adcb3e6ce7bf6f310cc7c150d73e39d4" category="admonition">Active Directory 자격 증명은 첫 번째 CIFS DP 볼륨의 스토리지 VM에만 등록되므로 해당 SVM의 모든 DP 볼륨이 스캔됩니다. 다른 SVM에 상주하는 볼륨에 Active Directory 자격 증명이 등록되지 않으므로 DP 볼륨이 검색되지 않습니다.</block>
   <block id="6edf97cc23559e08bb64258c2b9a21df" category="list-text">확인 대화 상자에서 * 승인 * 을 선택하여 BlueXP  분류에서 볼륨 스캔을 시작합니다.</block>
   <block id="d1d296f2b9e5b8b2cc3d8284c315711a" category="list-text">볼륨에 대한 매핑 전용 스캔을 활성화하려면 볼륨 영역에서 * Map * 을 선택합니다. 모든 볼륨에서 활성화하려면 제목 영역에서 * Map * 을 선택합니다.</block>
@@ -3312,14 +3163,11 @@
   <block id="e88a3447811c9aed002c31e544c9189c" category="list-text">파일 공유 그룹 추가 대화 상자에서 공유 그룹의 이름을 입력하고 * 계속 * 을 선택합니다.</block>
   <block id="3cbbc2871603074b8a3d479fe12b1dc4" category="list-text">구성 페이지의 작업 환경 타일에서 파일 공유 그룹에 대한 * 구성 * 버튼을 선택합니다.</block>
   <block id="b24f1e5ca1e698decbe4352557abec98" category="list-text">이 파일 공유 그룹에 대한 파일 공유를 처음으로 추가하는 경우 * 첫 번째 공유 추가 * 를 선택합니다.</block>
-  <block id="5ae48a7275e9dd8700efd2d3ab4c5e7c" category="paragraph">기존 그룹에 파일 공유를 추가하려면 * 공유 추가 * 를 선택합니다.</block>
-  <block id="1530f296e4dbcb68d3bd72414e0bc29f" category="list-text">추가하려는 파일 공유에 대한 프로토콜을 선택하고 스캔할 파일 공유(한 줄에 파일 공유 하나씩)를 추가한 다음 * 계속 * 을 선택합니다.</block>
   <block id="c1caffc666c49e212352548248fb6e42" category="list-text">다음 중 하나를 수행하여 스캔을 활성화 또는 비활성화합니다.</block>
   <block id="c33a545f4674eb3c362c25d231db29f7" category="list-text">파일 공유에서 매핑 전용 스캔을 활성화하려면 * Map * 을 선택합니다.</block>
   <block id="e80b5dfbb6519cb4346daba78481ae2e" category="list-text">파일 공유에서 전체 스캔을 활성화하려면 * Map &amp; Classify * 를 선택합니다.</block>
   <block id="6bfd17d888fc4197713ca925797fb9c5" category="list-text">파일 공유에서 스캔을 비활성화하려면 * Off * 를 선택합니다.</block>
   <block id="05383cbb22b67f6ba641527f070ae7e9" category="paragraph">특정 파일 공유를 더 이상 스캔할 필요가 없는 경우 언제든지 개별 파일 공유를 제거하여 파일을 검색할 수 있습니다.</block>
-  <block id="aad9882d7ab92fc074e89f265f252c19" category="list-text">구성 페이지에서 * 공유 제거 * 를 선택합니다.</block>
   <block id="26df3c05a484f6dafaf2085e9f725f92" category="list-text">구성 페이지에서 * 세부 정보 보기 * 를 선택하여 상태를 검토하고 오류를 수정합니다.</block>
   <block id="4d9ba07ef41ab1650dd0b2fb24f34e06" category="list-text">구성 페이지에서 스캔할 볼륨이 있는 작업 환경을 찾습니다.</block>
   <block id="82fdcf8611938284b66932937e4f812f" category="list-text">페이지 맨 위에서 * DP 볼륨에 대한 액세스 활성화 * 를 선택합니다.</block>
@@ -3344,7 +3192,6 @@
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">스캔 상태</block>
   <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">이제 BlueXP  분류는 볼륨에서 _initial_mapping 및 분류 스캔의 실시간 진행률을 추적합니다. 별도의 프로그레시브 바는 매핑 및 분류 스캔을 추적하여 스캔된 총 파일의 백분율을 표시합니다. 진행 표시줄 위로 마우스를 가져가면 스캔한 파일 수와 총 파일 수를 볼 수도 있습니다. 스캔 상태를 추적하면 스캔 진행 상황을 더 자세히 파악할 수 있으므로 스캔 계획을 개선하고 리소스 할당을 이해할 수 있습니다.</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">스캔 상태를 보려면 BlueXP  분류에서 ** 구성**으로 이동한 다음 ** 작업 환경 구성** 을 선택합니다. 진행 상황은 각 볼륨에 대해 일렬로 표시됩니다.</block>
-  <block id="801fd0ca68a5867228784d88be71f1fd" category="paragraph">BlueXP 분류는 작업 환경에서 선택한 볼륨을 스캔하기 시작합니다. BlueXP  분류가 초기 스캔을 완료하는 즉시 규정 준수 대시보드에서 결과를 확인할 수 있습니다. 소요되는 시간은 데이터 양에 따라 다릅니다. 몇 분 또는 몇 시간이 걸릴 수도 있습니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다.</block>
   <block id="b7daace328e6741286f27d2ac5e2f47a" category="paragraph">페이지 내용을 구체화한 후 보고서로 다운로드하려면 단추를 선택합니다<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block>. <block ref="99402c37b738da126a6c16dce45a83da" category="inline-xref-macro-rx"></block>..</block>
   <block id="126d0a183cd7ef5a42d98232cfc78c9e" category="admonition">데이터 조사 페이지에서 스캔에 대해 처음 10,000개의 결과 또는 500페이지의 결과만 볼 수 있습니다.</block>
   <block id="d70c15611bfee94500d72ff7b26a3246" category="paragraph">데이터 조사 결과 창에서 파일 메타데이터를 볼 단일 파일에 대해 아래쪽 캐럿  버튼을 선택합니다<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>.</block>
@@ -3358,7 +3205,6 @@
   <block id="8c574751ceb947fcd2a71198a9109d98" category="list-text">보고서 다운로드**를 선택합니다.</block>
   <block id="794d07bb17fcda62a163d4acc32a2c19" category="paragraph">BlueXP 분류는 작업 환경에서 선택한 볼륨을 스캔하기 시작합니다. BlueXP 분류가 초기 스캔을 마치면 준수 대시보드에서 결과를 확인할 수 있습니다. 소요되는 시간은 데이터 양에 따라 다릅니다. 몇 분 또는 몇 시간이 걸릴 수도 있습니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다.</block>
   <block id="04bcd6818aecd8c0fe46b7d49aa8b39a" category="paragraph">BlueXP 분류는 사용자가 활성화한 데이터베이스 스키마를 검사하기 시작합니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다. 오류가 있는 경우 오류를 해결하는 데 필요한 작업과 함께 상태 열에 표시됩니다.</block>
-  <block id="92b3b54a8e8438f0bd12202608c4ab34" category="paragraph">BlueXP 분류는 사용자가 추가한 파일 공유의 파일을 검사하기 시작하고 그 결과는 대시보드와 다른 위치에 표시됩니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다.</block>
   <block id="ed8331881c930d67b63a6ed99c045b28" category="paragraph">BlueXP 분류는 활성화한 버킷을 스캔하기 시작합니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다. 오류가 있는 경우 오류를 해결하는 데 필요한 작업과 함께 상태 열에 표시됩니다.</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025년 3월 10일</block>
   <block id="ac388a00980404a1045abf70041973da" category="doc">BlueXP  분류의 데이터 소스에서 수집된 메타데이터입니다</block>
@@ -3393,51 +3239,182 @@
   <block id="cd44aff9043f042044d20fa9200a9168" category="section-title">절감 기회 검토</block>
   <block id="64d5cdb36e33cae106a6b70c95fdc6de" category="paragraph">삭제할 데이터가 있는지 또는 더 저렴한 오브젝트 스토리지에 계층화해야 하는지 여부를 확인하려면 _Saving Opportunities_ 영역의 항목을 조사하십시오.</block>
   <block id="d7fc3a438d308cfbcbd8fa3231391419" category="list-text">BlueXP  classification 메뉴에서 * Governance * 를 선택합니다.</block>
-  <block id="6135c90ca8390ee87799da32e490b107" category="list-text">Governance 대시보드의 각 Savings Opportunities 타일에서 * Optimize Storage * 를 선택하여 조사 페이지에서 필터링된 결과를 봅니다.</block>
-  <block id="1902fe7d73e4e06ca6b8981aef9ff39b" category="admonition">데이터 소스가 데이터 계층화를 구현하는 경우 오브젝트 스토리지에 이미 상주하는 이전 데이터를 _ 오래된 Data _ 범주에서 식별할 수 있습니다.</block>
   <block id="b425c4e4b41334f19572d1e9e51d7b9a" category="section-title">결과 수가 가장 많은 정책을 검토합니다</block>
   <block id="e026e06fb0f6082b58b19e0ae90f9015" category="paragraph">Policies_area에서 결과 수가 가장 많은 정책이 목록 맨 위에 나타납니다.</block>
-  <block id="b2baefff9b3ed0ce45ba30f59cc62cb1" category="list-text">정부 대시보드 &gt; 정책 타일에서 정책 이름을 선택하여 조사 페이지에 결과를 표시합니다.</block>
-  <block id="e2981960c7200ea11e83da6a095d249b" category="list-text">사용 가능한 모든 정책 목록을 보려면 * 모두 보기 * 를 선택합니다.</block>
   <block id="24c741c03fc84375fc7935a70023d0ac" category="paragraph">정책에 대한 자세한 내용은 를 참조하십시오<block ref="eb4899a5ae2ad655555b425171c60bf8" category="inline-link-macro-rx"></block>.</block>
   <block id="9da3158754790a2bd5d492ff265be3c4" category="section-title">데이터 검색 평가 보고서를 만듭니다</block>
   <block id="310db9cf8ba2482b63b9ab1efe7fe48c" category="paragraph">데이터 검색 평가 보고서는 스캔된 환경에 대한 상위 수준의 분석을 제공하여 문제 영역 및 잠재적 문제 해결 단계를 보여줍니다. 결과는 데이터의 매핑과 분류를 기반으로 합니다. 이 보고서의 목표는 데이터 세트의 3가지 중요한 측면에 대한 인식을 높이는 것입니다.</block>
   <block id="ba8c35e924f949589fd6e14b916db6fc" category="paragraph">이 보고서를 사용하여 다음 작업을 수행할 수 있습니다.</block>
-  <block id="0b41f25c79381f33f43c7337423508d5" category="list-text">보존 정책을 변경하거나 특정 데이터(오래된 데이터, 중복 데이터 또는 비즈니스 데이터가 아닌 데이터)를 이동하거나 삭제하여 스토리지 비용을 절감하십시오.</block>
-  <block id="68e72237516d47f00bd54a5b6436d24d" category="list-text">글로벌 그룹 관리 정책을 수정하여 광범위한 권한을 가진 데이터를 보호합니다.</block>
-  <block id="fb5a05e0fc5655d8fe4a337e5966cf54" category="list-text">PII를 보다 안전한 데이터 저장소로 이동하여 개인 또는 중요 개인 정보가 있는 데이터를 보호하십시오.</block>
-  <block id="85b1cb7e8e4481210af8dd08f7144383" category="list-text">거버넌스 대시보드 &gt; 데이터 개요 섹션에서 * 데이터 검색 평가 보고서 * 버튼을 선택합니다.</block>
   <block id="b1d35e9ba32779b24fcef34132e15f8c" category="paragraph"><block ref="b1d35e9ba32779b24fcef34132e15f8c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="96929b0f4dead0308876154107c4bcb8" category="section-title">데이터 매핑 개요 보고서를 작성합니다</block>
   <block id="bfb48ff12b1469d0b2731ba4b39d8082" category="paragraph">데이터 매핑 개요 보고서는 마이그레이션, 백업, 보안 및 규정 준수 프로세스를 결정할 수 있도록 회사 데이터 원본에 저장되는 데이터의 개요를 제공합니다. 보고서에는 먼저 모든 작업 환경과 데이터 원본을 요약한 개요가 나열되고 각 작업 환경에 대한 분석이 제공됩니다.</block>
-  <block id="91c6b86f18254007884e6ec4802cc896" category="list-text">거버넌스 대시보드 &gt; 데이터 개요 섹션에서 * 전체 데이터 매핑 개요 보고서 * 버튼을 선택합니다.</block>
   <block id="a1fe048fbf4d3c352f8807ca8e61a815" category="paragraph"><block ref="a1fe048fbf4d3c352f8807ca8e61a815" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="35d8ebf9eb3e6fb636c2c5c3d8cddab5" category="list-text">보고서의 첫 페이지에 나타나는 회사 이름을 사용자 지정하려면 BlueXP  분류 페이지 맨 위에서 를 선택합니다<block ref="205cf72ce215a0005a3d486daae4dd1a" category="inline-image-macro-rx" type="image"></block>. 그런 다음 * 회사 이름 변경 * 을 선택합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.</block>
   <block id="6374c84804cec753d099290142ab1465" category="section-title">데이터 민감도별로 나열된 최상위 데이터 저장소를 검토합니다</block>
-  <block id="b89e0d7e9a701dd092d61473510fba30" category="list-text">거버넌스 대시보드 &gt; 데이터 개요 섹션에서 각 범주의 총 항목 수를 보려면 막대의 각 섹션 위에 커서를 놓습니다.</block>
   <block id="6a0a0aa77d6678b0ac42141cf2b473bc" category="list-text">조사 페이지에 표시될 결과를 필터링하려면 각 영역을 선택하여 막대를 추가로 조사하십시오.</block>
   <block id="b2c12a3831282ab991643e16075afb77" category="section-title">중요한 데이터 및 광범위한 사용 권한을 검토합니다</block>
   <block id="12e6f66d938dc7c6568aaab98f275b1f" category="paragraph">_Sensitive Data 및 Wide Permissions_area는 중요한 데이터가 포함되어 있고 사용 권한이 넓은 파일의 비율을 표시합니다. 차트에는 다음과 같은 유형의 사용 권한이 표시됩니다.</block>
   <block id="dd0ba7576314f49b14e69d557e1760b4" category="list-text">가장 제한적인 권한부터 수평 축축에 대한 가장 허용 가능한 제한까지.</block>
   <block id="115db9a4d58348c93542384adcf071b0" category="list-text">최소 감지 데이터에서 수직 축의 가장 민감한 데이터까지.</block>
-  <block id="24885cc260e3b19c603b0d66df075323" category="list-text">거버넌스 대시보드 &gt; 중요 데이터 및 광범위한 사용 권한 섹션에서 각 범주의 총 파일 수를 보려면 각 상자 위에 커서를 놓습니다.</block>
   <block id="a72b82c1583cb44d3bde15fd3b45db0a" category="list-text">조사 페이지에 표시될 결과를 필터링하려면 상자를 선택하고 추가로 조사합니다.</block>
   <block id="912072af1bc9d9c75e7bd16ebc45d2eb" category="section-title">열려 있는 사용 권한 유형별로 나열된 데이터를 검토합니다</block>
-  <block id="34a3b7a40173a85de5fff32ac7d16adc" category="list-text">거버넌스 대시보드 &gt; 열린 권한 섹션에서 각 범주의 총 파일 수를 보려면 각 상자 위에 커서를 놓습니다.</block>
   <block id="aba1ea5ecac0b70b83e6fef3deec34cf" category="section-title">데이터의 나이와 크기를 검토합니다</block>
   <block id="fc8556e6c95f991acbf5ef8610bf8c7b" category="paragraph">_Age_and_Size_graps의 항목을 조사하여 삭제해야 할 데이터가 있는지 또는 보다 저렴한 객체 저장소로 계층화해야 하는지 확인할 수 있습니다.</block>
-  <block id="b41e204625d2342ac1443afb9cd23995" category="list-text">거버넌스 대시보드의 데이터 기간 차트에서 데이터 기간에 대한 세부 정보를 보려면 차트의 한 지점에 커서를 놓습니다.</block>
   <block id="163744c4505495283a600a1c9f062f51" category="list-text">연령 또는 크기 범위로 필터링하려면 해당 연령 또는 크기를 선택합니다.</block>
   <block id="0d1f53f7df2c46c047e4cf95fc8bb8d7" category="admonition">데이터 소스 중 하나라도 데이터 계층화를 구현하는 경우 오브젝트 스토리지에 이미 있는 이전 데이터를 Data Age of Data_graph 에서 식별할 수 있습니다.</block>
   <block id="d3057f8e098d72850d91f222796050a1" category="section-title">데이터에서 가장 식별된 데이터 분류를 검토합니다</block>
-  <block id="eff9c92efbc58be66538dbfacec6b4e0" category="section-title">가장 식별된 분류 범주를 검토합니다</block>
-  <block id="eca4dd32f8f0367cd8e70bda21eec6b5" category="list-text">거버넌스 대시보드 &gt; 분류 섹션 &gt; 범주 타일에서 범주에 대한 세부 정보를 보려면 해당 범주를 선택합니다. 조사 페이지에는 해당 범주에 대해서만 필터링되는 데이터가 제공됩니다.</block>
-  <block id="b08b9747886b004ab2b1be414199d0dc" category="list-text">모든 범주를 표시하려면 * 모두 보기 * 를 선택합니다.</block>
-  <block id="ca304384fad03eae82a8e99a165128d0" category="section-title">가장 식별된 파일 형식을 검토합니다</block>
-  <block id="5af3bad2ce7ed86124fdaa43b19e15c1" category="list-text">파일 유형에 대한 자세한 내용을 보려면 거버넌스 대시보드 &gt; 분류 섹션 &gt; 파일 유형 타일에서 거버넌스 대시보드의 파일 유형 섹션에서 해당 유형을 선택합니다. 조사 페이지에는 해당 파일 형식에 대해서만 필터링되는 데이터가 제공됩니다.</block>
-  <block id="3b879833e0c35c3e97d6bcec57a9aad0" category="list-text">모든 파일 형식을 표시하려면 * 모두 보기 * 를 선택합니다.</block>
   <block id="93a41f9744586b4edf90898527b71531" category="cell">조사를 통해 NFS/CIFS로 데이터를 내보냅니다</block>
   <block id="81aef4d88b3543fe7ce12740f599c026" category="paragraph">파일은 고정된 수의 행 또는 레코드가 있는 파일로 분할됩니다.</block>
   <block id="65c07610fb212d644f234075537bbc84" category="list-text">CSV - 200,000개의 레코드</block>
   <block id="8897cd6292ab12bb81d8704c400fca96" category="list-text">JSON - 100,000개의 레코드</block>
+  <block id="717dba055ce0e5275de4fbe6a15bb3f7" category="paragraph">2024년 5월 버전 1.31부터 BlueXP 분류를 추가 비용 없이 BlueXP 내에서 핵심 기능으로 사용할 수 있습니다. 분류 라이선스 또는 가입이 필요하지 않습니다. BlueXP  분류 기능은 NetApp 스토리지 시스템에 집중되어 있으므로 사용하지 않거나 적게 사용되는 일부 기능은 더 이상 사용되지 않습니다.</block>
+  <block id="781c4c76cc2b33e7ebecd0ec7ae9a2c7" category="section-title">BlueXP  분류 스캔 작동 방식</block>
+  <block id="474cf46df0c1e9c8d98c2f529a0b080b" category="paragraph">상위 수준에서 BlueXP  분류 스캔은 다음과 같이 작동합니다.</block>
+  <block id="20d2a2e8543925af69154c91d0f12b74" category="list-text">하나 이상의 데이터 소스에서 상위 수준 매핑(_Mapping Only_scans라고 함) 또는 상세 수준 스캔(_Map &amp; Classify_scans 라고 함)을 사용할 수 있습니다.</block>
+  <block id="ff81ee070b66828101d31cf5f09806ec" category="paragraph">초기 검사 후 BlueXP  분류는 라운드 로빈 방식으로 데이터를 지속적으로 스캔하여 증분 변경 사항을 감지합니다. 따라서 인스턴스를 계속 실행하는 것이 중요합니다.</block>
+  <block id="646bc7d1943891ea9ee0b55f37b428e2" category="list-text">** 매핑 전용 스캔** 데이터에 대한 높은 수준의 개요만 제공하며 선택한 데이터 소스에서 수행됩니다. 매핑 전용 스캔은 내부에서 데이터를 보기 위해 파일에 액세스하지 않기 때문에 스캔을 맵핑하고 분류하는 것보다 시간이 적게 걸립니다. 처음에는 이 작업을 수행하여 조사 영역을 식별한 다음 해당 영역에 대해 지도 및 분류 스캔을 수행할 수 있습니다.</block>
+  <block id="80160ca28dec2acced2205422a937338" category="list-text">** 스캔 매핑 및 분류** 데이터를 심층적으로 스캔할 수 있습니다.</block>
+  <block id="0333308d9a0f15321e19f3c056bf0f53" category="inline-link-macro">매핑 스캔과 분류 스캔의 차이점은 무엇입니까?</block>
+  <block id="2483e5b7a57a542363d0099bcc6987a3" category="paragraph">매핑 스캔과 분류 스캔의 차이점에 대한 자세한 내용은 을 참조하십시오<block ref="323939a2597e9b17834689d82c0946fb" category="inline-link-macro-rx"></block>.</block>
+  <block id="84234483faf50fc9614a55cd04f072de" category="list-text">* 개인 정보 *: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보(PII). <block ref="fc496cc858c0e8dff4419012ba17c358" category="inline-link-macro-rx"></block>..</block>
+  <block id="1b225330889a9259efe1962dc624d2f9" category="list-text">* 민감한 개인 데이터 *: GDPR 및 기타 개인 정보 보호 규정에 정의된 건강 데이터, 인종 또는 정치적 견해와 같은 특수한 유형의 민감한 개인 정보(SPII). <block ref="6221f6509a9900ea9a8146767340b3a8" category="inline-link-macro-rx"></block>..</block>
+  <block id="33145ff55ab3cd82966af5880e24a1e4" category="paragraph">BlueXP 분류는 클라우드 또는 온프레미스 등 어느 곳에서든 단일 서버 또는 클러스터를 배포합니다. 서버는 표준 프로토콜을 통해 데이터 소스에 연결하고 동일한 서버에 배포되는 Elasticsearch 클러스터에서 결과를 인덱싱합니다. 이를 통해 멀티 클라우드, 교차 클라우드, 프라이빗 클라우드 및 온프레미스 환경을 지원할 수 있습니다.</block>
+  <block id="170f4a7996b0fbdd91306273246a1b86" category="paragraph">SaaS 모드에서 BlueXP 를 사용하면 HTTPS를 통해 BlueXP 에 연결되고, 브라우저와 BlueXP  분류 인스턴스 간에 전송되는 프라이빗 데이터는 TLS 1.2를 사용하여 엔드 투 엔드 암호화로 보안이 유지됩니다. 즉, NetApp과 타사가 이 데이터를 읽을 수 없습니다.</block>
+  <block id="a5e2d801acd4eba6ae154178a10ef60b" category="paragraph">BlueXP  분류를 통해 BlueXP  시스템 및 스토리지 시스템과 함께 또 다른 AI 계층을 구축합니다. 그런 다음 볼륨, 버킷, 데이터베이스 및 기타 스토리지 계정의 데이터를 검색하고 검색된 데이터 인사이트를 인덱싱합니다. BlueXP 분류는 정규식과 패턴 일치를 기반으로 일반적으로 구축되는 대체 솔루션과 달리 인공 지능과 자연어 처리를 모두 활용합니다.</block>
+  <block id="05f433c1debc0d95600d02d8fe22a000" category="paragraph"><block ref="c829fae802ee8a6cfaabb6949c6dbda2" category="inline-link-macro-rx"></block>..</block>
+  <block id="7495d9f71402d3b1d20f08bd19ac6562" category="inline-link-macro">API 설명서</block>
+  <block id="2f5a5a17121fb9d36eb3f88f8ea3cc54" category="paragraph">예. BlueXP  분류에는 BlueXP  코어 플랫폼의 일부인 BlueXP  분류 버전에서 지원되는 기능에 대한 REST API가 있습니다. 을 <block ref="66d6eeee3cdd1145e7194200ace05e36" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="5cc30ec93f0fd1add7230b4f102dac70" category="section-title">클라우드 마켓플레이스를 통해 BlueXP  분류를 사용할 수 있습니까?</block>
+  <block id="c121c2d1b519c88dba382cf2cad15a89" category="paragraph">BlueXP  분류는 BlueXP  핵심 기능의 일부이므로 이 서비스에 마켓플레이스를 사용할 필요가 없습니다.</block>
+  <block id="5c724eb0add446b6c005e415e92957ed" category="paragraph">다음 질문은 BlueXP  분류 스캔 성능 및 분석과 관련이 있습니다.</block>
+  <block id="1b4e340902ffd5fda70c3bc87104b4a8" category="paragraph"><block ref="b142e0b5d8e0b5056439f0cc3ca71290" category="inline-link-macro-rx"></block>..</block>
+  <block id="59f6aac37990cc5c64ed18130d902473" category="paragraph">BlueXP  분류는 하루에 한 번만 데이터베이스를 스캔합니다. 데이터베이스는 다른 데이터 소스와 마찬가지로 지속적으로 스캔되지 않습니다.</block>
+  <block id="47cbe0a62499f701bd878444c5a9f55c" category="paragraph">데이터 스캔은 스토리지 시스템과 데이터에 경미한 영향을 줍니다.</block>
+  <block id="117e9664b869702696ef6d3453aeaf6d" category="paragraph">스캔 성능은 네트워크 대역폭 및 환경의 평균 파일 크기에 따라 달라질 수 있습니다. 또한 호스트 시스템의 크기 특성(클라우드 또는 온프레미스)에 따라 달라질 수 있습니다. <block ref="b7cd192c5732cfa4578c7afeb7194726" category="inline-link-macro-rx"></block>자세한 내용은 및 <block ref="c029781ec9071b5111aea82251548d01" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="ffcf8b6d1543fdaf9d00e0bc746da159" category="paragraph">새 데이터 소스를 처음 추가할 때 전체 "분류"(지도 및 분류) 스캔 대신 "매핑"(매핑만) 스캔만 수행하도록 선택할 수도 있습니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다. <block ref="bd23f00affcd12c0667f006c32a89491" category="inline-link-macro-rx"></block>..</block>
+  <block id="13e3cb28458e5171d6b82abc618c8aac" category="paragraph">관심 파일이 발견되면 태그, 작업 환경 계정, 버킷, 파일 경로, 범주(분류 기준), 파일 크기, 마지막 수정, 권한 상태, 중복, 감도 수준, 개인 데이터, 파일 내 중요 데이터 유형, 소유자, 파일 유형, 파일 크기, 생성 시간, 파일 해시, 해당 데이터가 관심을 원하는 사람에게 할당되었는지 여부 등 필터는 관련이 없는 특성을 선별하는 데 적용할 수 있습니다.</block>
+  <block id="7638507ec469c0fc864136d8514cf916" category="paragraph">또한 BlueXP  분류에는 RBAC(역할 기반 액세스 제어)가 있어 올바른 권한이 있는 경우 파일을 이동하거나 삭제할 수 있습니다. 올바른 사용 권한이 없으면 조직에 있는 사용자에게 적절한 사용 권한이 있는 작업을 할당할 수 있습니다.</block>
+  <block id="e322435afc5a72350dee36edbce942cd" category="section-title">BlueXP  분류를 활성화 또는 비활성화하려면 어떻게 합니까?</block>
+  <block id="2d340cb5138719966ab6658a4a44b2d5" category="paragraph">먼저 BlueXP 또는 사내 시스템에 BlueXP 분류 인스턴스를 배포해야 합니다. 인스턴스가 실행되면 * Configuration * 탭에서 기존 작업 환경, 데이터베이스 및 기타 데이터 원본에 대한 서비스를 활성화하거나 특정 작업 환경을 선택할 수 있습니다. <block ref="4451df3e03c0287dcccf33a4f12d2a7c" category="inline-link-macro-rx"></block>..</block>
+  <block id="2f6fc5b1ba3dd4f1dd777516f5fba6d4" category="paragraph">BlueXP 분류 구성 페이지에서 개별 작업 환경, 데이터베이스 또는 파일 공유 그룹을 스캔하는 데 BlueXP 분류를 사용하지 않도록 설정할 수 있습니다. 을 <block ref="f33b93217989603ade44fb9e2cc48881" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="8545554878488aa590058ac6eff05a2a" category="section-title">서비스가 특정 디렉터리에서 스캔 데이터를 제외할 수 있습니까?</block>
+  <block id="9eb655482dec2217dac1e9f2255d003d" category="paragraph">예. BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 해당 목록을 분류 엔진에 제공할 수 있습니다. 변경 사항을 적용하면 BlueXP 분류에서 지정된 디렉토리에 있는 검사 데이터를 제외합니다. <block ref="9eb9374bdadf51dbee6c9b223e02f7ca" category="inline-link-macro-rx"></block>..</block>
+  <block id="0ba4a8a48a9e700be456a831a9630fc9" category="paragraph">BlueXP  분류에서는 매핑 전용 검사를 사용하여 콜드 데이터가 오브젝트 스토리지로 계층화된 볼륨을 스캔하면 로컬 디스크에 있는 데이터와 오브젝트 스토리지로 계층화된 콜드 데이터가 포함된 모든 데이터를 검사합니다. 이는 계층화를 구현하는 NetApp 제품이 아닌 경우에도 마찬가지입니다.</block>
+  <block id="07e08dea25bfa1156af7557f74e53774" category="paragraph">Mapping Only(매핑 전용) 스캔은 콜드 데이터를 가열하지 않습니다. 즉, 콜드 데이터는 객체 스토리지에 남아 있습니다. 반면에 Map &amp; Classify(맵 및 분류) 스캔을 수행하면 일부 구성이 콜드 데이터를 가열할 수 있습니다.</block>
+  <block id="1908b16f68b0cb8d9e1d9c407168a2b9" category="paragraph">커넥터가 정부 지역(AWS GovCloud, Azure Gov 또는 Azure DoD)에 배포되어 "제한 모드"라고도 하는 경우 BlueXP 분류가 지원됩니다.</block>
+  <block id="a84227330ab0b4642315d9a874aace3b" category="list-text">* 데이터 매핑 스캔 (매핑 전용 스캔) * : BlueXP  분류는 메타데이터만 스캔합니다. 이 기능은 전체 데이터 관리 및 거버넌스, 빠른 프로젝트 범위 지정, 대규모 부동산 및 우선순위 지정에 유용합니다. 데이터 매핑은 메타데이터를 기반으로 하며 * 빠른 * 스캔으로 간주됩니다.</block>
+  <block id="f9eaf41b503c7b3eb24b8b8e481a6bfc" category="list-text">* 데이터 분류(심층) 스캔(지도 및 분류 스캔) *: 사용자 환경 전반에서 표준 프로토콜과 읽기 전용 권한을 사용하여 BlueXP  분류 스캔. Select 파일은 랜섬웨어 관련 중요 비즈니스 관련 데이터, 개인 정보 및 문제를 대상으로 열렸다 스캔됩니다.</block>
+  <block id="2ec8b134bb6f73f9323b67682c3f3696" category="paragraph">BlueXP 분류는 파일 이름, 권한, 생성 시간, 마지막 액세스, 마지막 수정과 같은 메타데이터를 캡처합니다. 여기에는 Data Investigatcdion Details 페이지 및 Data Investigation Reports에 나타나는 모든 메타데이터가 포함됩니다.</block>
+  <block id="bc689be7b5780fe5de6454939079a821" category="paragraph">BlueXP  분류는 개인 정보(PII) 및 민감한 개인 정보(SPII) 등 다양한 유형의 개인 데이터를 식별할 수 있습니다. 개인 데이터에 대한 자세한 내용은 을<block ref="56427cf32f2481dc2470f5e57414e198" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="bbb4fed25c4c7e3a56537ad9198aa68c" category="paragraph">또한 특정 사용자가 BlueXP  분류 설정을 관리할 수 없는 상태에서 BlueXP  분류 스캔 결과를 볼 수 있도록 허용하려면 해당 사용자에게 * 분류 뷰어 * 역할(표준 모드에서 BlueXP  사용 시) 또는 * 규정 준수 뷰어 * 역할(제한 모드에서 BlueXP  사용 시)을 할당할 수 있습니다. <block ref="90248cd9043c9e38adbcda32b8273783" category="inline-link-macro-rx"></block>..</block>
+  <block id="87dc93ab86ab1b0bb152446a09c3d31f" category="paragraph">데이터를 스캔할 때는 다음 위치에 BlueXP  커넥터를 설치해야 합니다.</block>
+  <block id="1a4e7447487f338b9a4688691ea4b31e" category="list-text">AWS 또는 Amazon FSx for ONTAP의 경우 Cloud Volumes ONTAP: 커넥터가 AWS에 있습니다.</block>
+  <block id="8075253b1a38fbda5a6c89464aa8fab8" category="list-text">Azure 또는 Azure NetApp Files의 Cloud Volumes ONTAP: 커넥터가 Azure에 있습니다.</block>
+  <block id="27ce0ff5e932dd9224bd667bde89f341" category="list-text">GCP의 Cloud Volumes ONTAP용: 커넥터가 GCP에 있습니다.</block>
+  <block id="d39106ddc0b9af9f51dbea48d0d9dfca" category="list-text">온프레미스 ONTAP 시스템의 경우: 커넥터는 온-프레미스입니다.</block>
+  <block id="04bf12fbff5cef799199f1d030acd3aa" category="paragraph">이러한 위치에 데이터가 있는 경우 을 사용해야 할 수<block ref="bc298eaca29e4bff3f0d222b24813861" category="inline-link-rx"></block> 있습니다.</block>
+  <block id="47f5b0791caa2598c4559bb5afa675a9" category="paragraph">여기에서 조사를 시작해야 합니다. 거버넌스 대시보드에서 추가 조사를 위한 영역을 선택할 수 있습니다.</block>
+  <block id="56bcd47afb74823d33fc490b9ced87a3" category="list-text">Governance 대시보드의 각 Savings Opportunities 타일에서 * Optimize Storage * 를 선택하여 조사 페이지에서 필터링된 결과를 봅니다. 삭제할 데이터가 있는지 또는 더 저렴한 오브젝트 스토리지에 계층화해야 하는지 여부를 확인하려면 _Saving Opportunities_ 영역의 항목을 조사하십시오.</block>
+  <block id="dfd23906ba391609b608a93fdd40fdb2" category="admonition">데이터 소스가 데이터 계층화를 구현하는 경우 오브젝트 스토리지에 이미 상주하는 이전 데이터를 _ 오래된 Data _ 범주에서 식별할 수 있습니다.</block>
+  <block id="7c0b28ab5d3d14007833c883687fb63e" category="list-text">정부 대시보드 &gt; 정책 타일에서 정책 이름을 선택하여 조사 페이지에 결과를 표시합니다.</block>
+  <block id="0dc58fd3e83f0422da065df1d7c6bd4e" category="list-text">사용 가능한 모든 정책 목록을 보려면 * 모두 보기 * 를 선택합니다. Policies_area에서 결과 수가 가장 많은 정책이 목록 맨 위에 나타납니다.</block>
+  <block id="483d6c5447c876cec7c9f20a2f16d52e" category="list-text">보존 정책을 변경하거나 특정 데이터(오래된 데이터, 중복 데이터 또는 비업무용 데이터)를 이동 또는 삭제하여 스토리지 비용 절감</block>
+  <block id="5672e2463aa066853c9eb4cf4b3e3fa8" category="list-text">전역 그룹 관리 정책을 수정하여 광범위한 사용 권한이 있는 데이터를 보호합니다</block>
+  <block id="1f4e12eb3b2fcb4ce87b8ed675d3270c" category="list-text">PII를 보다 안전한 데이터 저장소로 이동하여 개인 또는 민감한 개인 정보가 있는 데이터를 보호합니다</block>
+  <block id="51fa6e6a2210eb170b2beeb8f80f89c1" category="list-text">Data Discovery Assessment Report * 를 선택합니다.</block>
+  <block id="a4d3102e7150e95ee7150787c5049f47" category="list-text">Full Data Mapping Overview Report * 를 선택합니다.</block>
+  <block id="163b2c36f19b004df4f67d322c1b39af" category="list-text">보고서의 첫 페이지에 나타나는 회사 이름을 사용자 지정하려면 BlueXP  분류 페이지의 오른쪽 위에서 을 선택합니다<block ref="205cf72ce215a0005a3d486daae4dd1a" category="inline-image-macro-rx" type="image"></block>. 그런 다음 * 회사 이름 변경 * 을 선택합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.</block>
+  <block id="4cbb02ef6d1ee9902b65e08b42b83a08" category="list-text">각 범주의 총 항목 수를 보려면 막대의 각 섹션 위에 커서를 놓습니다.</block>
+  <block id="78e705dbea0d34c81ef33941cfdd7c20" category="list-text">각 범주의 총 파일 수를 보려면 각 상자 위에 커서를 놓습니다.</block>
+  <block id="d2bc42c21eb303e3f8120f5a184e4544" category="list-text">데이터 기간 차트에서 데이터 기간에 대한 세부 정보를 보려면 차트의 한 지점에 커서를 놓습니다.</block>
+  <block id="1848496efeb9b0561b54c93d4ca7403e" category="list-text">Governance * 를 클릭한 다음 * Data Discovery Assessment Report * 버튼을 클릭합니다.</block>
+  <block id="9566c25add5b83fcc4806bd8bb57a21a" category="paragraph">기본적으로 BlueXP 분류 대시보드에는 모든 작업 환경, 데이터베이스 및 데이터 소스에 대한 규정 준수 및 거버넌스 데이터가 표시됩니다. 일부 작업 환경에 대한 데이터만 포함된 보고서를 보려는 경우 필터링을 통해 해당 데이터만 볼 수 있습니다.</block>
+  <block id="2f426ddd581281bfd34e83b37e971e66" category="paragraph">BlueXP 분류에 대해 다음 보고서를 사용할 수 있습니다.</block>
+  <block id="46e3b95cc12c4fba5a55ddd543dff215" category="list-text">* 데이터 검색 평가 보고서 *: 스캔한 환경에 대한 상위 수준의 분석을 제공하여 시스템의 결과를 강조하고 문제 영역 및 잠재적 문제 해결 단계를 보여줍니다.</block>
+  <block id="e443a72edc7220dc1b0f784b3c2062ba" category="list-text">* 데이터 매핑 보고서 *: 작업 환경의 파일 크기와 수에 대한 정보를 제공합니다. 여기에는 사용 용량, 데이터 사용 기간, 데이터 크기 및 파일 유형이 포함됩니다.</block>
+  <block id="9909dc2351eca640364cec030cf9786c" category="list-text">* 데이터 주체 액세스 요청 보고서 *: 데이터 주체의 특정 이름 또는 개인 식별자와 관련된 정보가 포함된 모든 파일의 보고서를 추출할 수 있습니다.</block>
+  <block id="33f6511365a85edd06d0094f0ab09328" category="list-text">* HIPAA 보고서 *: 파일에 대한 건강 정보의 분포를 파악할 수 있습니다.</block>
+  <block id="e883052b60bcd04edd516ceb983401c9" category="list-text">* PCI DSS 보고서 *: 파일에 대한 신용 카드 정보의 배포를 식별할 수 있도록 도와줍니다.</block>
+  <block id="05bbeb335d6ce4af3edd8e3632e01959" category="list-text">* 개인정보 보호 위험 평가 보고서 *: 귀하의 데이터와 개인정보 보호 위험 점수를 통해 얻은 개인정보 보호 통찰력을 제공합니다.</block>
+  <block id="ab8e4c2175f43bc36ea1e7d7134d793e" category="list-text">* 특정 정보 유형에 대한 보고서 *: 개인 데이터와 민감한 개인 데이터가 포함된 확인된 파일에 대한 세부 정보가 포함된 보고서를 사용할 수 있습니다. 범주 및 파일 유형별로 분류된 파일도 볼 수 있습니다.</block>
+  <block id="ded5285e3964838f1d9c66da351d543c" category="list-text">필터 드롭다운을 선택하고 작업 환경을 선택합니다.</block>
+  <block id="50ae52efbc70b061ee30b713be0fe24b" category="list-text">보기 * 를 선택합니다.</block>
+  <block id="f5a772272010a82c51d8a81ac1a5cdc2" category="section-title">데이터 주체 액세스 요청 보고서</block>
+  <block id="00be47276a76cd9b0ad8e220b126eb51" category="paragraph">* BlueXP  분류가 어떻게 DSAR에 대응할 수 있습니까? *</block>
+  <block id="451b6dcb2bbb50206c16392c410da952" category="paragraph">* 데이터 주체 검색 및 보고서 다운로드 *</block>
+  <block id="b1756115b43af54f8219ae6280f166c5" category="paragraph">데이터 주체의 전체 이름 또는 알려진 식별자를 검색한 다음 파일 목록 보고서 또는 DSAR 보고서를 다운로드합니다. 로 검색할 수 <block ref="76348aa3184d665f25590b1b87226e3a" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="723726709677776f312e973f65cd8c0d" category="list-text">데이터 주체 * 를 선택합니다.</block>
+  <block id="7a9564db05d5df4911abd4316ec3590c" category="section-title">HIPAA(Health Insurance Portability and Accountability Act) 보고서</block>
+  <block id="cd97cf281ac6ea15a949e3baf84e5ad0" category="list-text">개요: 상태 정보가 포함된 파일 수와 작업 환경</block>
+  <block id="80987f59f4a01046d68a3c5eb133665d" category="list-text">암호화: 암호화 또는 암호화되지 않은 작업 환경에 있는 상태 정보가 포함된 파일의 비율입니다. 이 정보는 Cloud Volumes ONTAP에만 해당됩니다.</block>
+  <block id="f5ff2a346fe612720d90b000504354c8" category="list-text">랜섬웨어 방어: 랜섬웨어 보호가 활성화되었거나 없는 작업 환경에 있는 상태 정보를 포함한 파일의 비율입니다. 이 정보는 Cloud Volumes ONTAP에만 해당됩니다.</block>
+  <block id="75ee9ac93a00fd1c570ca43224df6401" category="list-text">보존: 파일이 마지막으로 수정된 기간입니다. 이 기능은 건강 정보를 처리하는 데 필요한 것보다 오래 보관할 필요가 없기 때문에 유용합니다.</block>
+  <block id="2deffef6f390e08c03c9c316dfc12ba0" category="list-text">건강 정보 배포: 건강 정보가 발견된 작업 환경 및 암호화 및 랜섬웨어 보호가 활성화되었는지 여부.</block>
+  <block id="e4dc5b039cc8d6750424a926e6ef5eb1" category="paragraph">* HIPAA 보고서 생성 *</block>
+  <block id="042f4b9e5edddcf492715d41fd7404e1" category="list-text">규정 준수 * 를 선택한 다음 * 보고서 * 아래의 * HIPAA 보고서 * 옆에 있는 다운로드 아이콘을 선택합니다.</block>
+  <block id="bb9af393acf4771b61b7df3b7d407d16" category="section-title">PCI DSS(Payment Card Industry Data Security Standard) 보고서</block>
+  <block id="2def719c1e7bff634c3ce9a2c6f626a9" category="paragraph">PCI DSS(Payment Card Industry Data Security Standard) 보고서를 통해 파일 전체에서 신용 카드 정보의 분포를 확인할 수 있습니다.</block>
+  <block id="028868c12ad68d84fd5f2740052707fc" category="list-text">개요: 신용 카드 정보가 포함된 파일 수와 작업 환경</block>
+  <block id="5d4eba2af07eabdca2a61214200f64df" category="list-text">암호화: 암호화 또는 암호화되지 않은 작업 환경에 있는 신용 카드 정보가 포함된 파일의 비율입니다. 이 정보는 Cloud Volumes ONTAP에만 해당됩니다.</block>
+  <block id="69f91f9ff6fe892b02eaa52a123340c6" category="list-text">랜섬웨어 방어: 랜섬웨어 보호가 활성화되거나 그렇지 않은 작업 환경에 신용 카드 정보가 포함된 파일의 비율입니다. 이 정보는 Cloud Volumes ONTAP에만 해당됩니다.</block>
+  <block id="182d9a91e3b201ebcd5830750d53720a" category="list-text">보존: 파일이 마지막으로 수정된 기간입니다. 이 기능은 신용 카드 정보를 처리하는 데 필요한 것보다 더 오래 보관해서는 안 되기 때문에 유용합니다.</block>
+  <block id="919d9ee6f3e84c6260f1266401c0d5c7" category="list-text">신용카드정보의 유통: 신용카드정보가 발견된 업무 환경과 암호화 및 랜섬웨어 방지 활성화 여부</block>
+  <block id="dec40c42c42a2d3079583d8138ec28fb" category="paragraph">* PCI DSS 보고서를 생성합니다 *</block>
+  <block id="ffec4567a4568fee96ff3f6a45057c24" category="list-text">규정 준수 * 를 선택한 다음 * 보고서 * 아래의 * PCI DSS 보고서 * 옆에 있는 다운로드 아이콘을 선택합니다.</block>
+  <block id="c2ac2774074da26538c095f0600463d0" category="paragraph">개인 정보 보호 위험 평가 보고서는 GDPR 및 CCPA와 같은 개인 정보 보호 규정에 따라 조직의 개인 정보 보호 위험 상태에 대한 개요를 제공합니다.</block>
+  <block id="00b34a3a8bc8fdd421679bd331ef0d35" category="list-text">규정 준수 상태: 민감하지 않거나, 개인적이거나, 민감한 개인에 상관없이 심각도 점수 및 데이터 분포.</block>
+  <block id="23963890b938b9c54d130a9012268b9f" category="list-text">평가 개요: 발견된 개인 데이터의 유형 및 데이터 범주에 대한 분류</block>
+  <block id="02cd17a82b3ed13d0d6593492a0239d0" category="list-text">본 평가의 데이터 주체: 국가식별자가 발견된 위치별 사람 수.</block>
+  <block id="da4db84623a82fe49bc9b98a91193015" category="paragraph">* 개인정보 보호 위험 평가 보고서 생성 *</block>
+  <block id="49159608cb9bb834a0e7228811b37fb8" category="list-text">규정 준수 * 를 선택한 다음 * 보고서 * 아래의 * 개인정보 보호 위험 평가 * 옆에 있는 다운로드 아이콘을 선택합니다.</block>
+  <block id="d35f64f4d725c318f354cf1428b81209" category="paragraph">* 심각도 점수 *</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="section-title">필수 구성 요소</block>
+  <block id="fe3851a3230198b58eaefccf1716e322" category="paragraph">BlueXP  분류를 활성화하기 전에 지원되는 구성이 있는지 확인하십시오.</block>
+  <block id="384ca154b7aa0214ed582a24b34694c1" category="list-text">인터넷을 통해 액세스할 수 있는 Cloud Volumes ONTAP 및 온프레미스 ONTAP 시스템을 검사하는 경우 또는 를 사용할 수 있습니다<block ref="91e13da4978e4e327a03e38f5d729993" category="inline-link-macro-rx"></block>.<block ref="5a9b85c630cd221f1500d766974af691" category="inline-link-macro-rx"></block></block>
+  <block id="27b21656948eae878cf3cdbc54e7353b" category="list-text">인터넷에 액세스할 수 없는 다크 사이트에 설치된 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행해야 <block ref="24c3aa84c883225e05f8b594a2245b5a" category="inline-link-macro-rx"></block>합니다. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
+  <block id="13ba4b33d53174114d3ac4a484e42128" category="section-title">작업 환경에서 BlueXP  분류 스캔을 활성화합니다</block>
+  <block id="a6d799a225bbfa49e2b8edc14af3ef07" category="paragraph">지원되는 모든 클라우드 공급자의 Cloud Volumes ONTAP 시스템과 온프레미스 ONTAP 클러스터에서 BlueXP  분류 검사를 활성화할 수 있습니다.</block>
+  <block id="3d06872269bcd886fccdd942f7896e09" category="paragraph">구성 페이지에는 여러 작업 환경이 표시됩니다.</block>
+  <block id="134953f5f3b69ccd52fba6a42ab4110f" category="inline-image-macro">Cloud Volumes ONTAP 작업 환경을 보여 주는 구성 탭의 스크린샷</block>
+  <block id="b706ab12d2bffb7e7e119ef80257cba3" category="paragraph"><block ref="b706ab12d2bffb7e7e119ef80257cba3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fd21487220ad2c0845a363cd0740092d" category="list-text">작업 환경을 선택하고 * 구성 * 을 선택합니다.</block>
+  <block id="5d15c50f3095cbbe7f9a035fc3d0eea3" category="inline-image-macro">리포지토리 매핑 및 분류 옵션을 보여 주는 구성 탭의 스크린샷.</block>
+  <block id="b74f578f58008eb6143bc5548b5fce12" category="paragraph"><block ref="b74f578f58008eb6143bc5548b5fce12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="76159f8794878cfdca3d443c777ec734" category="list-text">마지막 액세스 시간이 재설정되어도 상관없는 경우 * "쓰기 속성" 누락 시 스캔 권한 * 스위치를 켜고 권한에 상관없이 모든 파일을 검사합니다.</block>
+  <block id="d61cdee8b7f0b81442ff0674defbdbf6" category="paragraph">페이지 상단의 * "쓰기 속성" 권한 * 이 누락된 경우 * 스캔 에 대한 스위치는 기본적으로 비활성화되어 있습니다. 즉, BlueXP  분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP  분류에서 "마지막 액세스 시간"을 원래 타임스탬프로 되돌릴 수 없기 때문에 시스템이 파일을 분류하지 않습니다. <block ref="d409432f1fbbcae04423137914c922d7" category="inline-link-macro-rx"></block>..</block>
+  <block id="325b2ca13daa9b67fd9c628d47370752" category="list-text">모든 볼륨을 매핑하려면 * Map * 을 선택합니다.</block>
+  <block id="6524373e17cb08862d56de19b1a8d2b6" category="list-text">모든 볼륨을 매핑하고 분류하려면 * Map &amp; Classify * 를 선택합니다.</block>
+  <block id="2258a9bb47cd683ffec374980f6db176" category="list-text">각 볼륨에 대한 스캔을 사용자 정의하려면 * 사용자 정의 * 를 선택한 다음 매핑 및/또는 분류할 볼륨을 선택합니다.</block>
+  <block id="9430c3e2ffb80c4f0642e14b922a7c0e" category="paragraph">BlueXP 분류는 작업 환경에서 선택한 볼륨을 스캔하기 시작합니다. BlueXP  분류가 스캔을 시작하는 즉시 규정 준수 대시보드에 결과가 나타나기 시작합니다. 완료하는 데 걸리는 시간은 데이터 양에 따라 달라집니다. 몇 분 또는 몇 시간이 걸릴 수 있습니다.</block>
+  <block id="0079344bb0661607100d432cde92e6a5" category="list-text">구성 페이지에서 * 구성 * 을 선택하여 각 CIFS 및 NFS 볼륨의 상태를 검토하고 오류를 수정합니다.</block>
+  <block id="072aa046dbe770717df535187221d112" category="section-title">볼륨에 대한 규정 준수 검사를 비활성화합니다</block>
+  <block id="dc2ddec9ec4ed327adbcf0621afd634e" category="list-text">변경하려는 작업 환경에 대한 * 구성 * 버튼을 선택합니다.</block>
+  <block id="a9ee13c2bd1bbf8024db5dca75abc71c" category="list-text">볼륨에 대한 스캔을 비활성화하려면 볼륨 영역에서 * Off * 를 선택합니다.</block>
+  <block id="8fdad01ebf5555cab54cc02a6d72d532" category="list-text">모든 볼륨에서 스캔을 비활성화하려면 제목 영역에서 * Off * 를 선택합니다.</block>
+  <block id="5f609f01b5a759f8bf288618cc1185a2" category="paragraph">동일한 그룹에서 NFS와 CIFS 공유를 혼합할 수 있지만, 그룹의 모든 CIFS 파일 공유는 동일한 Active Directory 자격 증명을 사용해야 합니다. 다른 자격 증명을 사용하는 CIFS 공유를 추가하려는 경우 고유한 각 자격 증명 세트에 대해 별도의 그룹을 만들어야 합니다.</block>
+  <block id="465cf4db3a5f4c4c7ae515fa816fec5f" category="inline-image-macro">파일 공유 그룹에 대한 구성 버튼을 보여 주는 스크린샷</block>
+  <block id="d31d3cba28e5d0da4c24219240aa58d9" category="paragraph"><block ref="d31d3cba28e5d0da4c24219240aa58d9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7433ee38f26b7a6e7c836170328187b2" category="paragraph"><block ref="7433ee38f26b7a6e7c836170328187b2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8d84ddfe7fc317b3b022bbcbd57a3021" category="paragraph">기존 그룹에 파일 공유를 추가하려면 그룹을 선택하고 * Configuration * 을 선택한 다음 * Add Shares * 를 선택합니다.</block>
+  <block id="39d368b640988db0e678824b6dd5a384" category="list-text">추가하려는 파일 공유에 대한 프로토콜을 선택합니다.</block>
+  <block id="d5c8aa30f8266592630eb79640daa226" category="inline-image-macro">NFS 또는 CIFS 공유를 그룹에 추가하는 옵션을 보여 주는 스크린샷</block>
+  <block id="10b736be42493e387282cc76e61e80da" category="paragraph"><block ref="10b736be42493e387282cc76e61e80da" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd306b6bfc7ce1886680d63b65c9ad50" category="list-text">스캔할 파일 공유(한 줄에 파일 공유 하나씩)를 추가합니다.</block>
+  <block id="136dc09835924029e4299fa28f17233d" category="list-text">Continue * 를 선택합니다.</block>
+  <block id="dffd4318dc569fa26cadb25c7679caec" category="paragraph">페이지 상단의 * "쓰기 속성" 권한 * 이 누락된 경우 * 스캔 에 대한 스위치는 기본적으로 비활성화되어 있습니다. 즉, BlueXP 분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP 분류는 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 파일을 검색하지 않습니다. <block ref="62855d79cc7b1c143d998d83fe5addab" category="inline-link-macro-rx"></block>..</block>
+  <block id="07ada1e73188e64ef4fd43b06b4a2a48" category="paragraph">BlueXP 분류는 사용자가 추가한 파일 공유의 파일을 검사하기 시작하고 그 결과는 대시보드와 다른 위치에 표시됩니다.</block>
+  <block id="6fd2d8d813fca5453b27470ce0140b6e" category="section-title">스캔 진행 상황을 추적합니다</block>
+  <block id="5eedca777865af1a2fcf409e03c6b8fc" category="paragraph">초기 스캔의 진행률을 추적할 수 있습니다.</block>
+  <block id="b42abfd3e20a7657c224539a4e7b67a2" category="list-text">구성** 메뉴를 선택합니다.</block>
+  <block id="b6baa59814bd6b55374230c7eb6e433d" category="list-text">작업 환경 구성**을 선택합니다.</block>
+  <block id="720123585ecf47cb95618257761a059d" category="paragraph">각 스캔의 진행률이 진행률 표시줄로 표시됩니다.</block>
+  <block id="e377dc690fcbcaba0a113b80ac735dbc" category="list-text">진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일과 비교하여 스캔된 파일 수가 표시됩니다.</block>
+  <block id="5ff63883dd1765c0e66ae3a76cd759c4" category="list-text">작업 환경을 선택합니다.</block>
+  <block id="f76618a8e4af059632c87ab1f949bbe1" category="list-text">Configuration * 을 선택합니다.</block>
+  <block id="5ad3e303fff11348579be9fa7186a3bf" category="inline-image-macro">작업 아이콘</block>
+  <block id="7ce65bddfd6fa76c1434a83bb91b5c59" category="list-text">구성 페이지에서 제거할 파일 공유에 대한 작업 을 선택합니다<block ref="9599256bd913e17dd34fce684015b2f9" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="27f6c23cda41f3d174ee2c791a26f65a" category="list-text">작업 메뉴에서 * 공유 제거 * 를 선택합니다.</block>
+  <block id="7c98c286e21546f415dcd18ddf63f1c6" category="summary">BlueXP  분류를 통해 데이터 소스를 검사합니다.</block>
+  <block id="87dda2e6b67eed182754a59416a10145" category="doc">BlueXP  분류를 사용하여 데이터 소스 개요 스캔</block>
+  <block id="9ed967b138578dbb6c57d7b336d5c696" category="paragraph">BlueXP  분류는 개인 및 중요 데이터를 식별하기 위해 선택하는 저장소(볼륨, 데이터베이스 스키마 또는 기타 사용자 데이터)의 데이터를 검사합니다. 그런 다음 BlueXP  분류를 통해 조직 데이터를 매핑하고, 각 파일을 분류하고, 데이터에서 미리 정의된 패턴을 식별합니다. 검사 결과는 개인 정보, 민감한 개인 정보, 데이터 범주 및 파일 형식의 인덱스입니다.</block>
+  <block id="3779db1fb21572df76305e5ede3efad1" category="sidebar">데이터 소스 검사 개요</block>
 </blocks>

@@ -18,54 +18,53 @@ BlueXP 분류를 사용하여 Cloud Volumes ONTAP 및 온-프레미스 ONTAP 볼
 
 
 
-== BlueXP 분류 인스턴스를 배포합니다
+== 필수 구성 요소
 
-배포된 인스턴스가 없으면 BlueXP 분류를 배포합니다.
+BlueXP  분류를 활성화하기 전에 지원되는 구성이 있는지 확인하십시오.
 
-인터넷을 통해 액세스할 수 있는 Cloud Volumes ONTAP 및 온프레미스 ONTAP 시스템을 검사하는 경우 또는 를 사용할 수 있습니다link:task-deploy-cloud-compliance.html["클라우드에 BlueXP 분류를 배포합니다"^].link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"^]
-
-인터넷에 액세스할 수 없는 다크 사이트에 설치된 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행해야 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 동일한 사내 위치에 BlueXP 분류를 배포합니다"^]합니다. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.
-
-BlueXP 분류 인스턴스에 대해 다음 포트가 열려 있는지 확인합니다.
-
-* NFS-포트 111 및 2049의 경우
-* CIFS-포트 139 및 445의 경우
+* 인터넷을 통해 액세스할 수 있는 Cloud Volumes ONTAP 및 온프레미스 ONTAP 시스템을 검사하는 경우 또는 를 사용할 수 있습니다link:task-deploy-cloud-compliance.html["클라우드에 BlueXP 분류를 배포합니다"].link:task-deploy-compliance-onprem.html["인터넷 액세스가 가능한 사내 위치"]
+* 인터넷에 액세스할 수 없는 다크 사이트에 설치된 온-프레미스 ONTAP 시스템을 스캔하는 경우 다음을 수행해야 link:task-deploy-compliance-dark-site.html["인터넷에 액세스할 수 없는 동일한 사내 위치에 BlueXP 분류를 배포합니다"]합니다. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.
 
 
 
 
-== 작업 환경에서 BlueXP  분류를 활성화합니다
+== 작업 환경에서 BlueXP  분류 스캔을 활성화합니다
 
-지원되는 모든 클라우드 공급자 및 온프레미스 ONTAP 클러스터의 Cloud Volumes ONTAP 시스템에서 BlueXP 분류를 사용하도록 설정할 수 있습니다.
+지원되는 모든 클라우드 공급자의 Cloud Volumes ONTAP 시스템과 온프레미스 ONTAP 클러스터에서 BlueXP  분류 검사를 활성화할 수 있습니다.
 
+.단계
 . BlueXP 의 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 선택합니다.
 . BlueXP  classification 메뉴에서 * Configuration * 을 선택합니다.
 +
-image:screenshot_cloud_compliance_we_scan_config.png["BlueXP 분류 인스턴스를 배포한 직후 구성 탭의 스크린샷."]
+구성 페이지에는 여러 작업 환경이 표시됩니다.
+
++
+image:screen-cl-config-cvo.png["Cloud Volumes ONTAP 작업 환경을 보여 주는 구성 탭의 스크린샷"]
+
+. 작업 환경을 선택하고 * 구성 * 을 선택합니다.
++
+image:screen-cl-config-cvo-map-options.png["리포지토리 매핑 및 분류 옵션을 보여 주는 구성 탭의 스크린샷."]
+
+. 마지막 액세스 시간이 재설정되어도 상관없는 경우 * "쓰기 속성" 누락 시 스캔 권한 * 스위치를 켜고 권한에 상관없이 모든 파일을 검사합니다.
++
+페이지 상단의 * "쓰기 속성" 권한 * 이 누락된 경우 * 스캔 에 대한 스위치는 기본적으로 비활성화되어 있습니다. 즉, BlueXP  분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP  분류에서 "마지막 액세스 시간"을 원래 타임스탬프로 되돌릴 수 없기 때문에 시스템이 파일을 분류하지 않습니다. link:reference-collected-metadata.html["자세한 정보"^]..
 
 . 각 작업 환경의 볼륨을 스캔할 방법을 선택합니다. link:concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["매핑 및 분류 스캔에 대해 알아봅니다"]다음을 수행합니다.
 +
-** 모든 볼륨을 매핑하려면 * Map All Volumes * 를 선택합니다.
-** 모든 볼륨을 매핑하고 분류하려면 * Map & Classify All Volumes * 를 선택합니다.
-** 각 볼륨에 대한 스캔을 사용자 정의하려면 * 를 선택하거나 각 볼륨에 대한 스캔 유형 * 을 선택한 다음 매핑 및/또는 분류할 볼륨을 선택합니다.
-+
-자세한 내용은 을 <<볼륨에 대해 규정 준수 검사를 활성화 및 비활성화합니다,볼륨에 대해 규정 준수 검사를 활성화 및 비활성화합니다>> 참조하십시오.
+** 모든 볼륨을 매핑하려면 * Map * 을 선택합니다.
+** 모든 볼륨을 매핑하고 분류하려면 * Map & Classify * 를 선택합니다.
+** 각 볼륨에 대한 스캔을 사용자 정의하려면 * 사용자 정의 * 를 선택한 다음 매핑 및/또는 분류할 볼륨을 선택합니다.
 
 
-
-. 확인 대화 상자에서 * 승인 * 을 클릭하여 BlueXP 분류가 볼륨 스캔을 시작하도록 합니다.
+. 확인 대화 상자에서 * 승인 * 을 선택하여 BlueXP  분류에서 볼륨 스캔을 시작합니다.
 
 
 .결과
-BlueXP 분류는 작업 환경에서 선택한 볼륨을 스캔하기 시작합니다. BlueXP  분류가 초기 스캔을 완료하는 즉시 규정 준수 대시보드에서 결과를 확인할 수 있습니다. 소요되는 시간은 데이터 양에 따라 다릅니다. 몇 분 또는 몇 시간이 걸릴 수도 있습니다. ** 구성** 메뉴로 이동한 다음 ** 작업 환경 구성** 을 선택하여 초기 스캔의 진행 상황을 추적할 수 있습니다. 각 스캔의 진행률이 진행률 표시줄로 표시됩니다. 진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일을 기준으로 스캔된 파일 수를 볼 수도 있습니다.
-
-[NOTE]
-====
-* 기본적으로 BlueXP 분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP 분류는 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 볼륨의 파일을 검색하지 않습니다. 마지막 액세스 시간이 재설정되는 것을 염려하지 않을 경우 * 를 클릭하거나 각 볼륨에 대한 스캐닝 유형을 선택하십시오 *. 결과 페이지에는 BlueXP 분류가 권한에 관계없이 볼륨을 스캔하도록 설정할 수 있는 설정이 있습니다.
-* BlueXP 분류는 한 볼륨에서 하나의 파일 공유만 검사합니다. 볼륨에 여러 공유가 있는 경우 해당 다른 공유를 공유 그룹으로 별도로 스캔해야 합니다. link:reference-limitations.html#bluexp-classification-scans-only-one-share-under-a-volume["이 BlueXP 분류 제한에 대한 자세한 내용은 을 참조하십시오"^]..
+BlueXP 분류는 작업 환경에서 선택한 볼륨을 스캔하기 시작합니다. BlueXP  분류가 스캔을 시작하는 즉시 규정 준수 대시보드에 결과가 나타나기 시작합니다. 완료하는 데 걸리는 시간은 데이터 양에 따라 달라집니다. 몇 분 또는 몇 시간이 걸릴 수 있습니다.
 
 
-====
+NOTE: BlueXP 분류는 한 볼륨에서 하나의 파일 공유만 검사합니다. 볼륨에 여러 공유가 있는 경우 해당 다른 공유를 공유 그룹으로 별도로 스캔해야 합니다. link:reference-limitations.html#bluexp-classification-scans-only-one-share-under-a-volume["이 BlueXP 분류 제한에 대한 자세한 내용은 을 참조하십시오"^]..
+
 
 
 == BlueXP  분류에서 볼륨에 대한 액세스 권한이 있는지 확인합니다
@@ -82,13 +81,10 @@ BlueXP 분류 인스턴스의 IP 주소에서 오는 트래픽에 대해 보안 
 . CIFS를 사용하는 경우 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 사용하여 BlueXP 분류를 제공합니다.
 +
 .. BlueXP 의 왼쪽 탐색 메뉴에서 * 거버넌스 > 분류 * 를 선택합니다.
-
-
-. BlueXP  classification 메뉴에서 * Configuration * 을 선택합니다.
+.. BlueXP  classification 메뉴에서 * Configuration * 을 선택합니다.
 +
-image:screenshot_cifs_credentials_cvo.png["콘텐츠 창의 오른쪽 상단에서 사용할 수 있는 스캔 상태 단추를 보여 주는 규정 준수 탭의 스크린샷"]
+image:screen-cl-config-cvo-map-options.png["리포지토리 매핑 및 분류 옵션을 보여 주는 구성 탭의 스크린샷."]
 
-+
 .. 각 작업 환경에 대해 * CIFS 자격 증명 편집 * 을 선택하고 BlueXP  분류에서 시스템의 CIFS 볼륨에 액세스하는 데 필요한 사용자 이름과 암호를 입력합니다.
 +
 자격 증명은 읽기 전용일 수 있지만 관리자 자격 증명을 제공하면 BlueXP 분류에서 상승된 권한이 필요한 모든 데이터를 읽을 수 있습니다. 자격 증명은 BlueXP 분류 인스턴스에 저장됩니다.
@@ -99,74 +95,30 @@ BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 �
 +
 자격 증명을 입력한 후 모든 CIFS 볼륨이 성공적으로 인증되었다는 메시지가 표시됩니다.
 
-+
-image:screenshot_cifs_status.gif["구성 페이지와 CIFS 자격 증명이 성공적으로 제공된 Cloud Volumes ONTAP 시스템을 보여 주는 스크린샷"]
 
 
-
-. 구성 페이지에서 * 세부 정보 보기 * 를 선택하여 각 CIFS 및 NFS 볼륨의 상태를 검토하고 오류를 수정합니다.
-+
-예를 들어 다음 이미지는 네 개의 볼륨을 보여 줍니다. 그 중 하나는 BlueXP 분류 인스턴스와 볼륨 간의 네트워크 연결 문제로 인해 BlueXP 분류에서 스캔할 수 없는 볼륨입니다.
-
-+
-image:screenshot_compliance_volume_details.gif["스캔 구성에서 4개의 볼륨을 표시하는 View Details(세부 정보 보기) 페이지의 스크린 샷. 그 중 하나는 BlueXP 분류와 볼륨 간의 네트워크 연결로 인해 스캔되지 않습니다."]
+. 구성 페이지에서 * 구성 * 을 선택하여 각 CIFS 및 NFS 볼륨의 상태를 검토하고 오류를 수정합니다.
 
 
 
 
-
-== 볼륨에 대해 규정 준수 검사를 활성화 및 비활성화합니다
+== 볼륨에 대한 규정 준수 검사를 비활성화합니다
 
 구성 페이지에서 언제든지 작업 환경에서 매핑 전용 스캔 또는 매핑 및 분류 스캔을 시작하거나 중지할 수 있습니다. 매핑 전용 스캔에서 매핑 및 분류 스캔으로, 또는 그 반대로 변경할 수도 있습니다. 모든 볼륨을 검사하는 것이 좋습니다.
-
-페이지 상단의 * "쓰기 속성" 권한 * 이 누락된 경우 * 스캔 에 대한 스위치는 기본적으로 비활성화되어 있습니다. 즉, BlueXP 분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP 분류는 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 파일을 검색하지 않습니다. 마지막 액세스 시간이 재설정되는 것을 염려하지 않을 경우, 스위치를 켜면 사용 권한에 관계없이 모든 파일이 스캔됩니다. link:reference-collected-metadata.html#last-access-time-timestamp["자세한 정보"^]..
-
-image:screenshot_volume_compliance_selection.png["개별 볼륨 스캔을 활성화 또는 비활성화할 수 있는 구성 페이지의 스크린 샷"]
-
-.단계
-. BlueXP  classification 메뉴에서 * Configuration * 을 선택합니다.
-. 다음 중 하나를 수행합니다.
-+
-** 볼륨에 대한 매핑 전용 스캔을 활성화하려면 볼륨 영역에서 * Map * 을 선택합니다. 또는 모든 볼륨에서 활성화하려면 제목 영역에서 * Map * 을 선택합니다. 볼륨에서 전체 스캔을 활성화하려면 볼륨 영역에서 * Map & Classify * 를 선택합니다. 또는 모든 볼륨에서 활성화하려면 제목 영역에서 * Map & Classify * 를 선택합니다.
-** 볼륨에 대한 스캔을 비활성화하려면 볼륨 영역에서 * Off * 를 선택합니다. 모든 볼륨에서 스캔을 비활성화하려면 제목 영역에서 * Off * 를 선택합니다.
-
-
-
 
 
 NOTE: 작업 환경에 추가된 새 볼륨은 머리글 영역에서 * Map * 또는 * Map & Classify * 설정을 설정한 경우에만 자동으로 스캔됩니다. 이 옵션이 제목 영역에서 * 사용자 지정 * 또는 * 꺼짐 * 으로 설정된 경우 작업 환경에서 추가하는 각 새 볼륨에 대해 매핑 및/또는 전체 스캔을 활성화해야 합니다.
 
-
-
-== 데이터 보호 볼륨을 검사합니다
-
-기본적으로 데이터 보호(DP) 볼륨은 외부에서 노출되지 않고 BlueXP 분류에서 액세스할 수 없기 때문에 스캔되지 않습니다. 이는 사내 ONTAP 시스템 또는 Cloud Volumes ONTAP 시스템에서 SnapMirror 작업을 위한 타겟 볼륨입니다.
-
-처음에 볼륨 목록은 이러한 볼륨을 _Type_* DP*로 식별하며 _Status_* Not Scanning* 및 _Required Action_* DP 볼륨에 대한 액세스 사용*.
-
-image:screenshot_cloud_compliance_dp_volumes.png["데이터 보호 볼륨을 스캔하도록 선택할 수 있는 DP 볼륨에 대한 액세스 활성화 버튼이 표시된 스크린샷"]
-
 .단계
-이러한 데이터 보호 볼륨을 스캔하려는 경우:
-
 . BlueXP  classification 메뉴에서 * Configuration * 을 선택합니다.
-. 페이지 맨 위에서 * DP 볼륨에 대한 액세스 활성화 * 를 클릭합니다.
-. 확인 메시지를 검토하고 * DP 볼륨에 대한 액세스 활성화 * 를 다시 선택합니다.
+. 변경하려는 작업 환경에 대한 * 구성 * 버튼을 선택합니다.
 +
-** 소스 ONTAP 시스템에서 처음에 NFS 볼륨으로 생성된 볼륨이 설정됩니다.
-** 소스 ONTAP 시스템에서 CIFS 볼륨으로 처음 생성된 볼륨을 사용하려면 CIFS 자격 증명을 입력하여 해당 DP 볼륨을 스캔해야 합니다. BlueXP 분류에서 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 이미 입력한 경우 해당 자격 증명을 사용하거나 다른 관리자 자격 증명 집합을 지정할 수 있습니다.
+image:screen-cl-config-cvo-map-options.png["리포지토리 매핑 및 분류 옵션을 보여 주는 구성 탭의 스크린샷."]
+
+. 다음 중 하나를 수행합니다.
 +
-image:screenshot_compliance_dp_cifs_volumes.png["CIFS 데이터 보호 볼륨을 설정하기 위한 두 가지 옵션의 스크린샷"]
+** 볼륨에 대한 스캔을 비활성화하려면 볼륨 영역에서 * Off * 를 선택합니다.
+** 모든 볼륨에서 스캔을 비활성화하려면 제목 영역에서 * Off * 를 선택합니다.
 
 
 
-. 스캔할 각 DP 볼륨을 활성화합니다.
-
-
-.결과
-활성화되면 BlueXP 분류는 스캔을 위해 활성화된 각 DP 볼륨에서 NFS 공유를 생성합니다. 공유 내보내기 정책은 BlueXP 분류 인스턴스에서만 액세스를 허용합니다.
-
-처음에 DP 볼륨에 대한 액세스를 설정했을 때 CIFS 데이터 보호 볼륨이 없는 경우 나중에 일부 볼륨을 추가하면 구성 페이지 상단에 * CIFS DP에 대한 액세스 설정 * 버튼이 나타납니다. 이 버튼을 클릭하고 CIFS 자격 증명을 추가하여 이러한 CIFS DP 볼륨에 대한 액세스를 설정합니다.
-
-
-NOTE: Active Directory 자격 증명은 첫 번째 CIFS DP 볼륨의 스토리지 VM에만 등록되므로 해당 SVM의 모든 DP 볼륨이 스캔됩니다. 다른 SVM에 상주하는 볼륨에 Active Directory 자격 증명이 등록되지 않으므로 DP 볼륨이 검색되지 않습니다.
