@@ -20,7 +20,7 @@
 
 우선 순위는 한 번만 부여됩니다. 매핑 데이터의 자동 재검색이 기본 순서로 수행됩니다.
 
-우선 순위 지정은 로 link:concept-cloud-compliance.md#whats-the-difference-between-mapping-and-classification-scans["매핑 전용 스캔"]제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.
+우선 순위 지정은 로 link:concept-cloud-compliance.html["매핑 전용 스캔"]제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.
 
 우선 순위를 변경하려면:
 

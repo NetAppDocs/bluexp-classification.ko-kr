@@ -55,7 +55,7 @@ BlueXP  분류에서 두 가지 유형의 스캔을 수행할 수 있습니다.
 | 파일의 수명 및 크기 | 예 | 예 
 
 
-| 를 실행하는 능력 link:task-controlling-governance-data.html#data-mapping-report["데이터 매핑 보고서"] | 예 | 예 
+| 를 실행하는 능력 link:task-controlling-governance-data.html["데이터 매핑 보고서"] | 예 | 예 
 
 
 | 파일 세부 정보를 보려면 데이터 조사 페이지 를 참조하십시오 | 예 | 아니요 

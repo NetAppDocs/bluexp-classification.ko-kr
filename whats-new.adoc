@@ -53,7 +53,7 @@ BlueXP 분류의 새로운 기능에 대해 알아보십시오.
 
 우선 순위는 한 번만 부여됩니다. 매핑 데이터의 자동 재검색이 기본 순서로 수행됩니다.
 
-우선 순위 지정은 로 link:concept-cloud-compliance.md#whats-the-difference-between-mapping-and-classification-scans["매핑 전용 스캔"]제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.
+우선 순위 지정은 로 link:concept-cloud-compliance.html["매핑 전용 스캔"]제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.
 
 우선 순위를 변경하려면:
 
@@ -215,7 +215,7 @@ BlueXP  분류는 Microsoft Azure 및 Google Cloud Platform (GCP)용 Linux 운�
 .대시보드의 추가 데이터
 이 릴리스는 매핑 검사 중에 거버넌스, 규정 준수 및 조사 대시보드에 표시되는 데이터를 업데이트합니다.
 
-자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["매핑 스캔과 분류 스캔의 차이점은 무엇입니까"]
+자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["매핑 스캔과 분류 스캔의 차이점은 무엇입니까"].
 
 
 
@@ -401,7 +401,7 @@ https://docs.netapp.com/us-en/bluexp-classification/api-classification.html["Blu
 === 버전 1.23
 
 .이제 데이터 제목 이름을 검색할 때 일본어가 지원됩니다
-Data Subject Access Request(SAR)에 대한 응답으로 시험대상자 이름을 검색할 때 일본어 이름을 입력할 수 있습니다. 결과 정보가 포함된 를 생성할 수 https://docs.netapp.com/us-en/bluexp-classification/task-generating-compliance-reports.html#what-is-a-data-subject-access-request["데이터 주체 액세스 요청 보고서"] 있습니다. 에 일본어 이름을 입력하여 주체 이름이 포함된 파일을 식별할 수도 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#filter-data-by-sensitivity-and-content["데이터 조사 페이지의 "데이터 제목" 필터"] 있습니다.
+Data Subject Access Request(SAR)에 대한 응답으로 시험대상자 이름을 검색할 때 일본어 이름을 입력할 수 있습니다. 결과 정보가 포함된 를 생성할 수 https://docs.netapp.com/us-en/bluexp-classification/task-generating-compliance-reports.html["데이터 주체 액세스 요청 보고서"] 있습니다. 에 일본어 이름을 입력하여 주체 이름이 포함된 파일을 식별할 수도 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["데이터 조사 페이지의 "데이터 제목" 필터"] 있습니다.
 
 .Ubuntu는 이제 BlueXP 분류를 설치할 수 있는 지원되는 Linux 배포판입니다
 Ubuntu 22.04는 BlueXP 분류에 지원되는 운영 체제로 검증되었습니다. 설치 프로그램의 버전 1.23을 사용하는 경우 네트워크의 Ubuntu Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP  분류를 설치할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["Ubuntu가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 참조하십시오"]..
@@ -413,7 +413,7 @@ Red Hat은 더 이상 Docker를 지원하지 않으므로 이러한 버전은 �
 BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작업 환경의 볼륨에서 감지된 파일 액세스 이벤트를 처리할 수 있습니다. BlueXP 분류는 다음 유형의 FPolicy 이벤트와 파일에서 작업을 수행한 사용자, 즉 만들기, 읽기, 쓰기, 삭제, 이름 바꾸기, 소유자/권한을 변경하고 SACL/DACL을 변경합니다.
 
 .이제 Data Sense BYOL 라이센스가 다크 사이트에서 지원됩니다
-이제 Data Sense BYOL 라이센스를 다크 사이트의 BlueXP  디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-licensing-byol-freetrial.html#obtain-your-bluexp-classification-license-file["Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오"]..
+이제 데이터 감지 BYOL 라이센스를 어두운 사이트의 BlueXP 디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다.
 
 
 
@@ -424,10 +424,10 @@ BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작
 === 버전 1.22
 
 .새로운 데이터 검색 평가 보고서
-데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 규정 준수 격차에 대한 인식을 높이는 것입니다. https://docs.netapp.com/us-en/bluexp-classification/task-controlling-governance-data.html#data-discovery-assessment-report["데이터 검색 평가 보고서를 생성하고 사용하는 방법을 확인하십시오"]..
+데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 규정 준수 격차에 대한 인식을 높이는 것입니다. https://docs.netapp.com/us-en/bluexp-classification/task-controlling-governance-data.html["데이터 검색 평가 보고서를 생성하고 사용하는 방법을 확인하십시오"]..
 
 .클라우드 내 소규모 인스턴스에 BlueXP 분류 기능을 배포할 수 있습니다
-AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 두 가지 작은 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html#using-a-smaller-instance-type["사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오"]..
+AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 두 가지 작은 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오"]..
 
 .이제 BlueXP 분류 설치 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다
 BlueXP  분류 설치 실행과 별도로 Linux 시스템이 모든 사전 요구 사항을 충족하는지 확인하려면 필수 구성 요소에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-test-linux-system.html["Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인하는 방법을 참조하십시오"]..
@@ -441,21 +441,21 @@ BlueXP  분류 설치 실행과 별도로 Linux 시스템이 모든 사전 요�
 === 버전 1.21
 
 .BlueXP 분류 UI에서 사용자 지정 범주를 추가하는 새로운 기능
-이제 BlueXP 분류를 통해 사용자 지정 범주를 추가할 수 있으므로 BlueXP 분류에서 해당 범주에 적합한 파일을 식별할 수 있습니다. BlueXP  분류에는 많은 기능이 https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-categories["미리 정의된 범주"] 있으므로 이 기능을 사용하면 사용자 지정 범주를 추가하여 조직에서 고유한 정보를 데이터에서 찾을 수 있는 위치를 식별할 수 있습니다.
+이제 BlueXP 분류를 통해 사용자 지정 범주를 추가할 수 있으므로 BlueXP 분류에서 해당 범주에 적합한 파일을 식별할 수 있습니다. BlueXP  분류에는 많은 기능이 https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["미리 정의된 범주"] 있으므로 이 기능을 사용하면 사용자 지정 범주를 추가하여 조직에서 고유한 정보를 데이터에서 찾을 수 있는 위치를 식별할 수 있습니다.
 
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.html#add-custom-categories["자세한 정보"^]..
+https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.html["자세한 정보"^]..
 
 .이제 BlueXP 분류 UI에서 사용자 지정 키워드를 추가할 수 있습니다
 BlueXP 분류에서는 BlueXP 분류가 향후 검색에서 식별할 수 있는 사용자 지정 키워드를 추가할 수 있었습니다. 그러나 BlueXP 분류 Linux 호스트에 로그인하고 명령줄 인터페이스를 사용하여 키워드를 추가해야 합니다. 이 릴리스에서 사용자 지정 키워드를 추가하는 기능은 BlueXP 분류 UI에 포함되어 있으므로 이러한 키워드를 쉽게 추가하고 편집할 수 있습니다.
 
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.html#add-custom-keywords-from-a-list-of-words["BlueXP 분류 UI에서 사용자 지정 키워드를 추가하는 방법에 대해 자세히 알아보십시오"^]..
+https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.html["BlueXP 분류 UI에서 사용자 지정 키워드를 추가하는 방법에 대해 자세히 알아보십시오"^]..
 
 ."마지막 액세스 시간"이 변경될 때 BlueXP 분류 * 파일 * 스캔 기능이 없음
 기본적으로 BlueXP 분류에 적절한 "쓰기" 권한이 없으면 BlueXP 분류가 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 볼륨의 파일을 검색하지 않습니다. 그러나 파일의 마지막 액세스 시간이 원래 시간으로 재설정되는 것을 염려하지 않을 경우, BlueXP 분류가 권한에 관계없이 볼륨을 스캔하도록 구성 페이지에서 이 동작을 재정의할 수 있습니다.
 
 이 기능과 함께 "Scan Analysis Event"라는 새 필터가 추가되어 BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없거나, BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없는 경우에도 분류된 파일을 볼 수 있습니다.
 
-https://docs.netapp.com/us-en/bluexp-classification/reference-collected-metadata.html#last-access-time-timestamp[""마지막 액세스 시간 타임스탬프" 및 BlueXP 분류에 필요한 권한에 대해 자세히 알아보십시오"]..
+https://docs.netapp.com/us-en/bluexp-classification/reference-collected-metadata.html[""마지막 액세스 시간 타임스탬프" 및 BlueXP 분류에 필요한 권한에 대해 자세히 알아보십시오"]..
 
 .BlueXP 분류에서는 세 가지 새로운 유형의 개인 데이터를 식별합니다
 BlueXP 분류는 다음과 같은 유형의 데이터가 포함된 파일을 식별하고 분류할 수 있습니다.
@@ -465,7 +465,7 @@ BlueXP 분류는 다음과 같은 유형의 데이터가 포함된 파일을 식
 * 싱가포르 국가 등록 ID 카드(NRIC)
 
 
-https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-personal-data["BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오"]..
+https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오"]..
 
 .디렉토리의 기능이 업데이트되었습니다
 * 이제 데이터 조사 보고서에 대한 "Light CSV Report(라이트 CSV 보고서)" 옵션에 디렉토리의 정보가 포함됩니다.
@@ -488,15 +488,15 @@ https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categ
 .모든 이메일 주소로 정책 기반 알림 이메일을 보낼 수 있습니다
 이전 버전의 BlueXP 분류에서는 특정 중요 정책이 결과를 반환할 때 계정의 BlueXP 사용자에게 전자 메일 알림을 보낼 수 있습니다. 이 기능을 사용하면 온라인 상태가 아닐 때 데이터를 보호하기 위한 알림을 받을 수 있습니다. 이제 BlueXP 계정에 없는 다른 모든 사용자(최대 20개의 이메일 주소)에게 정책의 이메일 알림을 보낼 수 있습니다.
 
-https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html#send-email-alerts-when-non-compliant-data-is-found["정책 결과를 기반으로 이메일 알림을 보내는 방법에 대해 자세히 알아보십시오"]..
+https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html["정책 결과를 기반으로 이메일 알림을 보내는 방법에 대해 자세히 알아보십시오"]..
 
 .이제 BlueXP 분류 UI에서 개인 패턴을 추가할 수 있습니다
 BlueXP 분류에서는 BlueXP 분류가 향후 검색에서 식별할 수 있는 맞춤형 "개인 데이터"를 추가할 수 있었습니다. 그러나 BlueXP 분류 Linux 호스트에 로그인하고 명령줄을 사용하여 사용자 지정 패턴을 추가해야 합니다. 이번 릴리스에서는 BlueXP 분류 UI에 regex를 사용하여 개인 패턴을 추가할 수 있으므로 이러한 사용자 지정 패턴을 쉽게 추가하고 편집할 수 있습니다.
 
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.html#add-custom-personal-data-identifiers-using-a-regex["BlueXP 분류 UI에서 사용자 지정 패턴을 추가하는 방법에 대해 자세히 알아보십시오"^]..
+https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.html["BlueXP 분류 UI에서 사용자 지정 패턴을 추가하는 방법에 대해 자세히 알아보십시오"^]..
 
 .BlueXP 분류를 사용하여 1500만 개의 파일을 이동할 수 있습니다
-과거에는 BlueXP 분류로 최대 100,000개의 소스 파일을 NFS 공유로 이동할 수 있었습니다. 이제 한 번에 최대 1500만 개의 파일을 이동할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#move-source-files-to-an-nfs-share["BlueXP 분류를 사용하여 소스 파일을 이동하는 방법에 대해 자세히 알아보십시오"]..
+과거에는 BlueXP 분류로 최대 100,000개의 소스 파일을 NFS 공유로 이동할 수 있었습니다. 이제 한 번에 최대 1500만 개의 파일을 이동할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html["BlueXP 분류를 사용하여 소스 파일을 이동하는 방법에 대해 자세히 알아보십시오"]..
 
 .SharePoint Online 파일에 액세스할 수 있는 사용자 수를 볼 수 있습니다
 "액세스 권한이 있는 사용자 수" 필터는 이제 SharePoint Online 리포지토리에 저장된 파일을 지원합니다. 이전에는 CIFS 공유의 파일만 지원되었습니다. Active Directory 기반이 아닌 SharePoint 그룹은 현재 이 필터에서 계산되지 않습니다.
@@ -513,7 +513,7 @@ https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.ht
 === 버전 1.19
 
 .중요한 데이터가 포함되어 있고 지나치게 허용적인 파일 차트를 볼 수 있는 기능
-Governance 대시보드에는 중요한 데이터(민감한 개인 데이터 및 민감한 개인 데이터 포함)를 포함하고 지나치게 허용적인 파일의 열 지도를 제공하는 새로운 _Sensitive Data 및 Wide Permissions_영역이 추가되었습니다. 이렇게 하면 중요한 데이터와 관련하여 몇 가지 위험이 있을 수 있는 위치를 파악할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-controlling-governance-data.html#data-listed-by-sensitivity-and-wide-permissions["자세한 정보"]..
+Governance 대시보드에는 중요한 데이터(민감한 개인 데이터 및 민감한 개인 데이터 포함)를 포함하고 지나치게 허용적인 파일의 열 지도를 제공하는 새로운 _Sensitive Data 및 Wide Permissions_영역이 추가되었습니다. 이렇게 하면 중요한 데이터와 관련하여 몇 가지 위험이 있을 수 있는 위치를 파악할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-controlling-governance-data.html["자세한 정보"]..
 
 .데이터 조사 페이지에서 3개의 새 필터를 사용할 수 있습니다
 새 필터를 사용하여 데이터 조사 페이지에 표시되는 결과를 구체화할 수 있습니다.
@@ -523,7 +523,7 @@ Governance 대시보드에는 중요한 데이터(민감한 개인 데이터 및
 * 이제 "파일 경로" 필터를 사용하여 필터링된 쿼리 결과에서 제외할 경로를 지정할 수 있습니다. 특정 데이터를 포함 및 제외하기 위한 경로를 입력하면 BlueXP 분류에서 포함된 경로의 모든 파일을 먼저 찾은 다음 제외된 경로에서 파일을 제거한 다음 결과를 표시합니다.
 
 
-https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#filter-data-in-the-data-investigation-page["데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오"]..
+https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오"]..
 
 .BlueXP 분류는 일본어 개인 번호를 식별할 수 있습니다
-BlueXP 분류는 일본어 개인 번호(내 번호라고도 함)가 포함된 파일을 식별하고 분류할 수 있습니다. 여기에는 개인 번호와 회사 내 번호가 모두 포함됩니다. https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-personal-data["BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오"]..
+BlueXP 분류는 일본어 개인 번호(내 번호라고도 함)가 포함된 파일을 식별하고 분류할 수 있습니다. 여기에는 개인 번호와 회사 내 번호가 모두 포함됩니다. https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오"]..

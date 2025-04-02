@@ -63,7 +63,7 @@ NOTE: 데이터 조사 페이지에서 스캔에 대해 처음 10,000개의 결�
 | 민감한 개인 데이터 | 를 선택합니다.link:reference-private-data-categories.html#types-of-sensitive-personal-data["중요한 개인 데이터의 유형"^] 
 
 
-| 데이터 제목 | 데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. link:task-generating-compliance-reports.html#search-for-data-subjects-and-download-reports["여기에서 데이터 주제에 대해 자세히 알아보십시오"^].. 
+| 데이터 제목 | 데이터 주체의 전체 이름 또는 알려진 식별자를 입력합니다. link:task-generating-compliance-reports.html["여기에서 데이터 주제에 대해 자세히 알아보십시오"^].. 
 |===
 
 
