@@ -70,7 +70,7 @@ sidebar:
     - title: 데이터에 정책을 할당합니다
       url: "/task-using-policies.html"
     - title: 스캔 설정을 변경합니다
-      url: task-managing-repo-scanning.html
+      url: "/task-managing-repo-scanning.html"
     - title: 규정 준수 보고서를 생성합니다
       url: "/task-generating-compliance-reports.html"
   - title: BlueXP 분류 관리
