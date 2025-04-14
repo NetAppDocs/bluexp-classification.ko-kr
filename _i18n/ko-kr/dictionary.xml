@@ -3433,9 +3433,9 @@
   <block id="a9da1537a3e6bfb032d6a352bc5d82a7" category="paragraph">이제 BlueXP  분류는 매핑 전용 스캔뿐만 아니라 맵 및 분류 스캔의 우선 순위를 지정할 수 있는 기능을 지원합니다. 맵 및 분류 스캔의 우선 순위는 스캔이 시작되는 동안과 그 전에 지원됩니다. 스캔이 진행 중일 때 스캔 우선 순위를 지정하도록 선택하면 매핑 및 분류 스캔이 모두 우선 순위가 지정됩니다.</block>
   <block id="84acc1c8e6e80bda04b6eac437f19154" category="admonition">CSV 파일 버전을 다운로드하여 이 브라우저에서 볼 수 있습니다. 이 버전은 10,000개의 레코드로 제한됩니다.</block>
   <block id="05035e3bc31af3e060bb6a5ed03e7988" category="list-text">** 보고서 이름** 을 입력합니다.</block>
-  <block id="1381344c0ad4a60786998569e040cb72" category="list-text">보고서 유형으로 CSV를 선택한 경우 ** 로컬** 을 선택하여 브라우저에서 보고서를 다운로드합니다. 참고 이 옵션은 보고서를 처음 10,000개 행으로 제한합니다. 이 옵션에서는 다른 옵션이 필요하지 않습니다.</block>
-  <block id="b73d8086c4fa1a5d2c97351fb3604a12" category="paragraph">전체 보고서를 보려면 **Working Environment**를 선택한 다음 각 드롭다운 메뉴에서 **Working Environment** 및 **Volume** 을 선택합니다. ** 대상 폴더 경로를 제공합니다**.</block>
   <block id="345e1412843bf20361636f064c2a0359" category="paragraph">가장 중요한 스캔(매핑 전용 또는 맵 및 분류)의 우선 순위를 지정할 수 있습니다. 스캔 우선 순위 지정 기능을 사용하면 우선 순위가 높은 스캔이 먼저 완료되도록 할 수 있습니다.</block>
   <block id="634cb969225c406dc49fde5e0df02409" category="list-text">Actions<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block> 옵션에서 * priority scan * 을 선택합니다.</block>
   <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025년 4월 14일</block>
+  <block id="e23f3c5ee576a6a524db07af25fc5e88" category="list-text">전체 보고서를 다운로드하려면 **Working Environment**를 선택한 다음 각 드롭다운 메뉴에서 **Working Environment** 및 **Volume** 을 선택합니다. ** 대상 폴더 경로를 제공합니다**.</block>
+  <block id="b28b21b6561b4b84c07adb24f4618993" category="paragraph">브라우저에서 보고서를 다운로드하려면 ** Local** 을 선택합니다. 참고 이 옵션은 보고서를 처음 10,000개의 행으로 제한하며 ** CSV** 형식으로 제한됩니다. ** Local** 을 선택하면 다른 필드를 입력하지 않아도 됩니다.</block>
 </blocks>
