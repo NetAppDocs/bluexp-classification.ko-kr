@@ -3023,11 +3023,9 @@
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">실패한 모든 스캔을 다시 시도하려면 * 모든 스캔 재시도 * 를 선택합니다.</block>
   <block id="a2cf857a70e312df7b376e0516470728" category="list-text">특정 스캔을 다시 시도하려면 리소스를 선택하고 Actions... 옵션에서 * Retry scan * 을 선택하십시오.</block>
   <block id="e59c558837a0bee73ac15f544f275cae" category="paragraph">스캔은 원본 스캔과 동일한 구성으로 재시도합니다. 스캔이 다시 실패하면 필요한 만큼 다시 시도할 수 있습니다.</block>
-  <block id="c05a4c0b45b0c78ba3771a3530738f78" category="paragraph">매핑 전용 스캔을 수행할 때 가장 중요한 스캔의 우선 순위를 지정할 수 있습니다. 이 기능은 작업 환경이 많고 우선 순위가 높은 검사가 먼저 완료되도록 하려는 경우에 유용합니다.</block>
   <block id="03b61f1818fbb0c7e0a356c942abdc31" category="paragraph">기본적으로 스캔은 시작된 순서에 따라 대기합니다. 스캔 우선 순위 지정 기능을 통해 이제 스캔을 대기열 앞으로 이동할 수 있습니다. 여러 스캔의 우선 순위를 지정할 수 있습니다. 우선 순위는 선입선출 순서로 지정됩니다. 즉, 우선 순위를 지정한 첫 번째 스캔이 대기열의 맨 앞으로 이동하고 우선 순위를 지정한 두 번째 스캔은 대기열의 두 번째 스캔이 됩니다.</block>
   <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">우선 순위는 한 번만 부여됩니다. 매핑 데이터의 자동 재검색이 기본 순서로 수행됩니다.</block>
   <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">매핑 전용 스캔</block>
-  <block id="42968807986d9cd74ea7703d63bf3408" category="paragraph">우선 순위를 변경하려면:</block>
   <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">모든 스캔을 재시도합니다</block>
   <block id="06243660aeb549bac73e7c160d2d2a70" category="paragraph">이제 BlueXP  분류는 실패한 모든 스캔을 일괄 재시도하는 기능을 지원합니다.</block>
   <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">이제 ** Retry All** 기능을 사용하여 일괄 작업으로 스캔을 다시 시도할 수 있습니다. 네트워크 중단과 같은 일시적인 문제로 인해 분류 스캔이 실패하는 경우 개별적으로 다시 시도하지 않고 하나의 버튼으로 모든 스캔을 동시에 다시 시도할 수 있습니다. 스캔은 필요한 만큼 재시도할 수 있습니다.</block>
@@ -3411,9 +3409,6 @@
   <block id="c96bf252030be7d77f32e236939f6da2" category="list-text">중복 파일 목록과 중복 파일이 있는 위치를 보려면 * 세부 정보 보기 * 를 선택합니다.</block>
   <block id="5e6ec4e1f88d65eaeb13fa82313d9809" category="list-text">다음 페이지에서 * View Duplicates * 를 선택하여 조사 페이지에서 파일을 봅니다.</block>
   <block id="b9cf7636c1458813ea2386a78b8774cd" category="list-text">보고서 유형(CSV 또는 JSON)을 선택합니다.</block>
-  <block id="fc4f6fceccd6c5f18eabd79aacf08023" category="list-text">** 보고서 이름** 을 제공합니다.</block>
-  <block id="ef151ce6e85f07953f9567895b0703e3" category="list-text">작업 환경** 및 ** 볼륨** 을 선택합니다</block>
-  <block id="cb013f85229d9d37e97ad54696f24544" category="list-text">** 대상 폴더 경로를 제공합니다**.</block>
   <block id="3acd7c6848524cfd6cd39d023db6c391" category="section-title">선택한 필터를 기반으로 정책을 만듭니다</block>
   <block id="dbcfe39ddc3ef4e14d4b8ff904564614" category="paragraph">데이터 조사 페이지에서 선택한 필터를 정책으로 저장하면 도움이 될 수 있습니다. 이렇게 하면 언제든지 동일한 필터를 다시 선택할 필요 없이 실행할 수 있습니다.</block>
   <block id="461f18298523b9780c64f7622a558e72" category="list-text">데이터 조사 페이지에서 정책을 만드는 데 사용할 필터를 선택합니다.</block>
@@ -3425,4 +3420,22 @@
   <block id="2a4930d89395c66bd221720bcaae06e3" category="list-text">* &lt;Day&gt; &lt;email address&gt;로 이메일 보내기 *: &lt;Day&gt;마다 특정 이메일 주소로 이메일을 보내려면 이 옵션을 선택합니다.</block>
   <block id="41025e9c551610edae39a167ecbe1b73" category="list-text">Create Policy * 를 선택합니다.</block>
   <block id="97079a3b4a44ca52d28b2807f91a5ec0" category="admonition">정책 페이지에 결과가 나타나는 데 최대 15분이 걸릴 수 있습니다.</block>
+  <block id="bc19fc1fb9d36ac2eec32fb81f6e5cca" category="paragraph">매핑 전용 스캔을 수행할 때 가장 중요한 스캔의 우선 순위를 지정할 수 있습니다. 이 기능은 작업 환경이 많고 우선 순위가 높은 검사가 먼저 완료되도록 하려는 경우에 유용합니다.</block>
+  <block id="2e41eb33226717a4730fa2131336dc5a" category="paragraph">자세한 내용은 을 <block ref="9493b318b51f384796e93c6ba74f5935" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="33fc2a8f6921fec02571495993aa2c6c" category="doc">버전 1.42</block>
+  <block id="83962582dc3c189ba60063fe7990755c" category="paragraph">이 BlueXP  분류 릴리스에는 다음이 포함됩니다.</block>
+  <block id="2dcf334efa4f886393cac0e44ff5a917" category="paragraph-title">작업 환경을 위한 대량 스캔</block>
+  <block id="57e954d06c81eea089fcb04e61b1c429" category="paragraph">BlueXP  분류는 이제 작업 환경에 대한 대량 작업을 지원합니다. 스캔 매핑 활성화, 스캔 매핑 및 분류 활성화, 스캔 비활성화 또는 작업 환경의 볼륨에 대한 사용자 정의 구성 생성을 선택할 수 있습니다. 개별 볼륨에 대해 선택하면 대량 선택이 무시됩니다. 대량 작업을 수행하려면 ** 구성** 페이지로 이동하여 선택합니다.</block>
+  <block id="7c021042892d25e3e5d4271749e03344" category="paragraph-title">조사 보고서를 로컬로 다운로드합니다</block>
+  <block id="a8539b02096aea65d2e102c01a482c71" category="paragraph">이제 BlueXP  분류는 데이터 조사 보고서를 로컬로 다운로드하여 브라우저에서 볼 수 있는 기능을 지원합니다. 로컬 옵션을 선택하면 데이터 조사는 CSV 형식으로만 사용할 수 있으며 처음 10,000개의 데이터 행만 표시됩니다.</block>
+  <block id="95403a677c140fea03f157c2edb41c85" category="paragraph">자세한 내용은 을 <block ref="55ff936b35b23a6f6693627bfb444c62" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">분류 스캔의 우선 순위를 지정합니다</block>
+  <block id="a9da1537a3e6bfb032d6a352bc5d82a7" category="paragraph">이제 BlueXP  분류는 매핑 전용 스캔뿐만 아니라 맵 및 분류 스캔의 우선 순위를 지정할 수 있는 기능을 지원합니다. 맵 및 분류 스캔의 우선 순위는 스캔이 시작되는 동안과 그 전에 지원됩니다. 스캔이 진행 중일 때 스캔 우선 순위를 지정하도록 선택하면 매핑 및 분류 스캔이 모두 우선 순위가 지정됩니다.</block>
+  <block id="84acc1c8e6e80bda04b6eac437f19154" category="admonition">CSV 파일 버전을 다운로드하여 이 브라우저에서 볼 수 있습니다. 이 버전은 10,000개의 레코드로 제한됩니다.</block>
+  <block id="05035e3bc31af3e060bb6a5ed03e7988" category="list-text">** 보고서 이름** 을 입력합니다.</block>
+  <block id="1381344c0ad4a60786998569e040cb72" category="list-text">보고서 유형으로 CSV를 선택한 경우 ** 로컬** 을 선택하여 브라우저에서 보고서를 다운로드합니다. 참고 이 옵션은 보고서를 처음 10,000개 행으로 제한합니다. 이 옵션에서는 다른 옵션이 필요하지 않습니다.</block>
+  <block id="b73d8086c4fa1a5d2c97351fb3604a12" category="paragraph">전체 보고서를 보려면 **Working Environment**를 선택한 다음 각 드롭다운 메뉴에서 **Working Environment** 및 **Volume** 을 선택합니다. ** 대상 폴더 경로를 제공합니다**.</block>
+  <block id="345e1412843bf20361636f064c2a0359" category="paragraph">가장 중요한 스캔(매핑 전용 또는 맵 및 분류)의 우선 순위를 지정할 수 있습니다. 스캔 우선 순위 지정 기능을 사용하면 우선 순위가 높은 스캔이 먼저 완료되도록 할 수 있습니다.</block>
+  <block id="634cb969225c406dc49fde5e0df02409" category="list-text">Actions<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block> 옵션에서 * priority scan * 을 선택합니다.</block>
+  <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025년 4월 14일</block>
 </blocks>

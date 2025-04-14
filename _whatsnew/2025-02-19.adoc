@@ -22,12 +22,7 @@
 
 우선 순위 지정은 로 link:concept-cloud-compliance.html["매핑 전용 스캔"]제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.
 
-우선 순위를 변경하려면:
-
-. BlueXP  classification 메뉴에서 * Configuration * 을 선택합니다.
-. 우선 순위를 지정할 자원을 선택합니다.
-. 작업... 옵션에서 * 스캔 우선 순위 * 를 선택합니다.
-
+자세한 내용은 을 link:task-managing-repo-scanning.html#prioritize-scans["스캔 우선 순위 지정"]참조하십시오.
 
 .모든 스캔을 재시도합니다
 이제 BlueXP  분류는 실패한 모든 스캔을 일괄 재시도하는 기능을 지원합니다.
