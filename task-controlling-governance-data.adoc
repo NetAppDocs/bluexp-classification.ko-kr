@@ -58,7 +58,7 @@ image:screenshot_compliance_governance_dashboard.png["BlueXP 분류 거버넌스
 *** 기타(일반 "기타" 범주)
 
 
-** * 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. link:task-investigate-data.html#filter-data-by-duplicates["어떤 유형의 중복 파일이 표시되는지 확인합니다"]..
+** * 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. link:task-investigate-data.html["어떤 유형의 중복 파일이 표시되는지 확인합니다"]..
 
 
 

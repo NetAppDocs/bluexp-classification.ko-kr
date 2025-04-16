@@ -194,11 +194,11 @@ BlueXP  분류에서 두 가지 유형의 스캔을 수행할 수 있습니다.
 
 == BlueXP  분류에서 분류하는 정보입니다
 
-BlueXP 분류는 데이터(파일)에 범주를 수집, 색인 및 할당합니다. BlueXP 분류 인덱스의 데이터는 다음과 같습니다.
+BlueXP  분류는 다음 데이터에 범주를 수집, 색인 및 할당합니다.
 
 * * 표준 메타데이터 * 파일 정보: 파일 유형, 크기, 생성 및 수정 날짜 등.
-* * 개인 정보 *: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보(PII). link:task-controlling-private-data.html#view-files-that-contain-personal-data["개인 데이터에 대해 자세히 알아보십시오"^]..
-* * 민감한 개인 데이터 *: GDPR 및 기타 개인 정보 보호 규정에 정의된 건강 데이터, 인종 또는 정치적 견해와 같은 특수한 유형의 민감한 개인 정보(SPII). link:task-controlling-private-data.html#view-files-that-contain-sensitive-personal-data["중요한 개인 데이터에 대해 자세히 알아보십시오"^]..
+* * 개인 데이터 *: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보(PII)로, BlueXP  분류는 파일에서 특정 단어, 문자열 및 패턴을 사용하여 식별합니다. link:task-controlling-private-data.html#view-files-that-contain-personal-data["개인 데이터에 대해 자세히 알아보십시오"^]..
+* * 민감한 개인 데이터 *: 일반 데이터 보호 규정(GDPR) 및 기타 개인 정보 보호 규정에 정의된 건강 데이터, 인종 또는 정치적 견해와 같은 특수한 유형의 중요 개인 정보(SPII). link:task-controlling-private-data.html#view-files-that-contain-sensitive-personal-data["중요한 개인 데이터에 대해 자세히 알아보십시오"^]..
 * * 카테고리 * : BlueXP  분류는 스캔된 데이터를 가지고 다른 유형의 카테고리로 나눕니다. 범주는 각 파일의 콘텐츠 및 메타데이터에 대한 AI 분석을 기반으로 하는 주제입니다. link:task-controlling-private-data.html#view-files-by-categories["범주에 대해 자세히 알아보십시오"^]..
 * * 유형 * : BlueXP  분류는 스캔된 데이터를 파일 유형별로 분류합니다. link:task-controlling-private-data.html#view-files-by-file-types["유형에 대해 자세히 알아보십시오"^]..
 * * 이름 엔티티 인식 * : BlueXP  분류는 AI를 사용하여 문서에서 사람들의 자연 이름을 추출합니다. link:task-generating-compliance-reports.html["데이터 주체 액세스 요청에 응답하는 방법에 대해 알아봅니다"^]..

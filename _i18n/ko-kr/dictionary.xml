@@ -285,7 +285,6 @@
   <block id="4aa06a2b4191eee9b59686458a3cf0e5" category="section-title">BlueXP 분류 스캔 데이터의 속도</block>
   <block id="9ece336caf3d2b843dafc984e27b323e" category="paragraph">스캔 속도는 네트워크 지연 시간, 디스크 지연 시간, 네트워크 대역폭, 환경 크기 및 파일 배포 크기의 영향을 받습니다.</block>
   <block id="41723bb4585becfa9d2ed4726536b953" category="section-title">BlueXP  분류에서 분류하는 정보입니다</block>
-  <block id="28e66615c1e04c19b63a24061d462220" category="paragraph">BlueXP 분류는 데이터(파일)에 범주를 수집, 색인 및 할당합니다. BlueXP 분류 인덱스의 데이터는 다음과 같습니다.</block>
   <block id="6cd355a083ac0c0abfe0db956ac0ab54" category="list-text">* 표준 메타데이터 * 파일 정보: 파일 유형, 크기, 생성 및 수정 날짜 등.</block>
   <block id="8c6847c1a3fee83b5a17b582397de2ec" category="inline-link-macro">개인 데이터에 대해 자세히 알아보십시오</block>
   <block id="902c63c889818696415465bcf8e0b76b" category="inline-link-macro">중요한 개인 데이터에 대해 자세히 알아보십시오</block>
@@ -762,9 +761,7 @@
   <block id="d37bdc46b0a428edd8f0ab35c24067ea" category="paragraph">아래 나열된 특정 데이터 소스를 설정할 때 BlueXP에서 CIFS 볼륨을 스캔하려면 Active Directory 자격 증명을 입력해야 합니다. 이러한 통합을 통해 파일 소유자와 BlueXP 분류를 수행하고 해당 데이터 소스에 있는 데이터에 대한 사용 권한 세부 정보를 확인할 수 있습니다. 이러한 데이터 원본에 대해 입력한 Active Directory가 여기에 입력한 글로벌 Active Directory 자격 증명과 다를 수 있습니다. BlueXP 분류는 모든 통합 Active Directory에서 사용자 및 권한 세부 정보를 확인할 수 있습니다.</block>
   <block id="7e7d69dec0250fdcf96317ada370e511" category="paragraph">이러한 통합은 BlueXP 분류의 다음 위치에 추가 정보를 제공합니다.</block>
   <block id="b2c97ae425dd751b0e48a3acae79cf4a" category="inline-link-macro">필터</block>
-  <block id="13b1a6e1bb1b3f8696189ada6b422170" category="list-text">"파일 소유자"를 <block ref="8f117870d9a34eabfa5286947f602d95" category="inline-link-macro-rx"></block> 사용하여 조사 창에서 파일의 메타데이터에서 결과를 볼 수 있습니다. SID(보안 식별자)가 포함된 파일 소유자 대신 실제 사용자 이름으로 채워집니다.</block>
   <block id="5f91c0845412e72586ca4ccff087de46" category="inline-link-macro">전체 파일 권한</block>
-  <block id="cd4d01ef1bbc41dd6c1a648ca6b131c3" category="list-text">"모든 권한 보기" 버튼을 클릭하면 각 파일과 디렉토리에 대해 볼 수 <block ref="bb7ccaeb199c0a6d94b809bfbddc428e" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="81e5b92aee0f8f905eee80ff5eb977c0" category="inline-link-macro">거버넌스 대시보드</block>
   <block id="42489059db009c868dd8059af06dcec7" category="list-text">에서 <block ref="f7adeeb4ba56b793f51d27ca048d717a" category="inline-link-macro-rx"></block>권한 열기 패널에는 데이터에 대한 보다 자세한 정보가 표시됩니다.</block>
   <block id="84f064335aeff156ccda8eb3c64109d6" category="admonition">로컬 사용자 SID 및 알 수 없는 도메인의 SID는 실제 사용자 이름으로 변환되지 않습니다.</block>
@@ -1585,7 +1582,6 @@
   <block id="cc75424be9093c04dbea9cfae5ba1d31" category="inline-link-macro">작업 상태 창</block>
   <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">에서 JSON 보고서 생성 진행률을 볼 수 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="499dd7659f4fa7b600ca3796c449e41b" category="doc">조직에 저장된 데이터를 조사합니다</block>
-  <block id="615e6d6aa74682391d600dc61fe1090c" category="inline-xref">데이터 조사 보고서에 대한 자세한 내용은 여기 를 참조하십시오</block>
   <block id="d3720958611294d50237fe72870e0c02" category="inline-image-macro">조사 페이지에서 결과를 구체화할 때 사용할 수 있는 필터의 스크린샷.</block>
   <block id="3fd10935177bff66373986bc384c0307" category="paragraph"><block ref="3fd10935177bff66373986bc384c0307" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1be522c5c4e210c9a7f92f7f83637d7e" category="paragraph">다음 필터를 사용하여 데이터에 포함된 중요한 정보의 양을 확인할 수 있습니다.</block>
@@ -1646,7 +1642,6 @@
   <block id="ddd53e8927c624ebcbf44e804dd39950" category="inline-image-macro">아래쪽 캐럿</block>
   <block id="04a8c17bf0b1e2cd69db6fba82b59dc0" category="inline-image-macro">데이터 조사 페이지의 파일에 대한 메타데이터 세부 정보를 보여 주는 스크린샷</block>
   <block id="c545ce144b1f4d763f30d9b729c1590c" category="paragraph"><block ref="c545ce144b1f4d763f30d9b729c1590c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="aa4ba8b621d22449a2723e4175ff5c9d" category="inline-link-macro">정책을 생성합니다</block>
   <block id="70762168244eed6d4b30ab53961acada" category="inline-link-macro">이 작업을 수행하는 방법을 확인하십시오</block>
   <block id="50cdf86b563a0d781f053c4a23d816c2" category="paragraph">사용자 및 그룹 이름 대신 SID(보안 식별자)가 표시되는 경우 Active Directory를 BlueXP 분류에 통합해야 합니다. <block ref="a543108cc451095d486457d9ff215fd0" category="inline-link-macro-rx"></block>..</block>
   <block id="47b3f14316e807b37aaa42895464d283" category="inline-image-macro">자세한 파일 사용 권한을 보여 주는 스크린샷</block>
@@ -2812,7 +2807,6 @@
   <block id="552c9ad11d5dffc1189fa270ca015445" category="section-title">버전 1.26.6</block>
   <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">이 릴리스에는 몇 가지 사소한 개선 사항이 포함되어 있습니다.</block>
   <block id="e2175eca7cd7227e608f98540d53af5e" category="paragraph">이 릴리스에서는 다음 옵션도 제거되었습니다.</block>
-  <block id="ea2bddf8f5366e4e19e9f92e993db900" category="list-text">디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다. 을 <block ref="5f0cc912e1424f54004e4ab3376e7552" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 비활성화되었습니다. 을 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="c8684cf4ccd502e49d1d79ff9936bc98" category="section-title">2023년 11월 6일</block>
   <block id="0778a32085af8830c408efb93cb7239f" category="section-title">버전 1.26.3</block>
@@ -3035,7 +3029,6 @@
   <block id="4ece5b80f66f48ae87ab10eeb6098ee4" category="cell">매핑 전용 스캔</block>
   <block id="199f10f735e14c906492368f8756c40f" category="list-text">매핑 전용 스캔을 수행할 때 BlueXP  분류는 하루에 100-150개의 데이터 TiB를 스캔할 수 있습니다.</block>
   <block id="2035b28633c5d248f8b4834a49bb61e4" category="list-text">지도 및 분류 스캔을 수행할 때 BlueXP  분류는 하루에 15-40개의 TiB 데이터를 스캔할 수 있습니다.</block>
-  <block id="f7bdd4178a7e1813735f80fdd04c8365" category="list-text">* 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. <block ref="4919d6fe6d27551fddf3eb8948477168" category="inline-link-macro-rx"></block>..</block>
   <block id="b74906233eebd14b41614d235251d36a" category="list-text">BlueXP 의 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 분류 * 를 선택합니다.</block>
   <block id="f3bf83f2c7aadc341ac1678567775abc" category="list-text">모든 볼륨을 매핑하려면 * Map All Volumes * 를 선택합니다.</block>
   <block id="c854572c2f5a5368403f0ee57aa1bb29" category="list-text">모든 볼륨을 매핑하고 분류하려면 * Map &amp; Classify All Volumes * 를 선택합니다.</block>
@@ -3159,8 +3152,6 @@
   <block id="80160ca28dec2acced2205422a937338" category="list-text">** 스캔 매핑 및 분류** 데이터를 심층적으로 스캔할 수 있습니다.</block>
   <block id="0333308d9a0f15321e19f3c056bf0f53" category="inline-link-macro">매핑 스캔과 분류 스캔의 차이점은 무엇입니까?</block>
   <block id="2483e5b7a57a542363d0099bcc6987a3" category="paragraph">매핑 스캔과 분류 스캔의 차이점에 대한 자세한 내용은 을 참조하십시오<block ref="323939a2597e9b17834689d82c0946fb" category="inline-link-macro-rx"></block>.</block>
-  <block id="84234483faf50fc9614a55cd04f072de" category="list-text">* 개인 정보 *: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보(PII). <block ref="fc496cc858c0e8dff4419012ba17c358" category="inline-link-macro-rx"></block>..</block>
-  <block id="1b225330889a9259efe1962dc624d2f9" category="list-text">* 민감한 개인 데이터 *: GDPR 및 기타 개인 정보 보호 규정에 정의된 건강 데이터, 인종 또는 정치적 견해와 같은 특수한 유형의 민감한 개인 정보(SPII). <block ref="6221f6509a9900ea9a8146767340b3a8" category="inline-link-macro-rx"></block>..</block>
   <block id="33145ff55ab3cd82966af5880e24a1e4" category="paragraph">BlueXP 분류는 클라우드 또는 온프레미스 등 어느 곳에서든 단일 서버 또는 클러스터를 배포합니다. 서버는 표준 프로토콜을 통해 데이터 소스에 연결하고 동일한 서버에 배포되는 Elasticsearch 클러스터에서 결과를 인덱싱합니다. 이를 통해 멀티 클라우드, 교차 클라우드, 프라이빗 클라우드 및 온프레미스 환경을 지원할 수 있습니다.</block>
   <block id="170f4a7996b0fbdd91306273246a1b86" category="paragraph">SaaS 모드에서 BlueXP 를 사용하면 HTTPS를 통해 BlueXP 에 연결되고, 브라우저와 BlueXP  분류 인스턴스 간에 전송되는 프라이빗 데이터는 TLS 1.2를 사용하여 엔드 투 엔드 암호화로 보안이 유지됩니다. 즉, NetApp과 타사가 이 데이터를 읽을 수 없습니다.</block>
   <block id="a5e2d801acd4eba6ae154178a10ef60b" category="paragraph">BlueXP  분류를 통해 BlueXP  시스템 및 스토리지 시스템과 함께 또 다른 AI 계층을 구축합니다. 그런 다음 볼륨, 버킷, 데이터베이스 및 기타 스토리지 계정의 데이터를 검색하고 검색된 데이터 인사이트를 인덱싱합니다. BlueXP 분류는 정규식과 패턴 일치를 기반으로 일반적으로 구축되는 대체 솔루션과 달리 인공 지능과 자연어 처리를 모두 활용합니다.</block>
@@ -3371,7 +3362,6 @@
   <block id="b7f6a3bebde141b211f7f03ea94b59a0" category="paragraph">BlueXP  분류 UI의 여러 영역에서 이 페이지로 이동할 수 있습니다. 여기에는 해당 페이지에 이미 선택된 필터가 포함된 거버넌스 및 규정 준수 대시보드가 포함됩니다. 추가 분석을 위해 데이터를 CSV 또는 JSON 파일로 내보내거나 다른 사용자와 공유할 수 있습니다.</block>
   <block id="503f38415f575979b1abb29789cbda50" category="list-text">BlueXP  classification 메뉴에서 * Investigation * 을 선택합니다.</block>
   <block id="262bd6cb4081a4bb1d5b7bb69c91cf84" category="list-text">데이터 조사 페이지에서 다음 중 하나를 수행합니다.</block>
-  <block id="9dd4d7f07b73e6aaac505f7417738860" category="list-text">페이지 내용을 구체화한 후 보고서로 다운로드하려면 단추를 선택합니다<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block>. <block ref="99402c37b738da126a6c16dce45a83da" category="inline-xref-macro-rx"></block>..</block>
   <block id="112a92421a821122ddfd7d3b0735b4ec" category="list-text">파일(비구조화 데이터), 디렉토리(폴더 및 파일 공유) 또는 데이터베이스(구조화 데이터)의 데이터를 보려면 맨 위에 있는 탭 중 하나를 선택합니다.</block>
   <block id="de1f3a62aada6a5e03bde4ce908b4d24" category="list-text">결과를 숫자 또는 알파벳 순서로 정렬하려면 각 열의 맨 위에 있는 컨트롤을 선택합니다.</block>
   <block id="3575ec00f80ae9ff26cf47ff8300221a" category="list-text">결과를 더 구체화하려면 왼쪽 필터 창에서 여러 필터 중 하나를 선택합니다.</block>
@@ -3391,7 +3381,6 @@
   <block id="6926f90beadfdb901f306772787c7f05" category="paragraph">* 분석 상태별 데이터 필터링 *</block>
   <block id="0fdacc8c067979a1926a265cd399f05a" category="paragraph"><block ref="d865d9e7da9a534ddb8c0b18eca2435c" category="inline-link-macro-rx"></block> 스캔 분석 이벤트를 사용하여 필터링할 때 조사 페이지에 나타나는 항목에 대한 자세한 내용은 을 참조하십시오.</block>
   <block id="c2d41b84903ff9433b055cd311767824" category="paragraph">* 중복 데이터로 데이터 필터링 *</block>
-  <block id="deb92d356adf2bc4203235e994269d9a" category="paragraph">메타데이터는 작업 환경 및 파일이 상주하는 볼륨을 보여 줄 뿐 아니라 파일 권한, 파일 소유자 및 이 파일의 중복 존재 여부 등 훨씬 많은 정보를 보여 줍니다. 이 정보는 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있으므로 을 계획 중인 경우에 <block ref="ea156c161a340e4bbece1f1483afe558" category="inline-link-macro-rx"></block>유용합니다.</block>
   <block id="1f54ce0e770f5c76ff9e305bb20ea41a" category="paragraph">모든 데이터 원본에 대해 모든 정보를 사용할 수 있는 것은 아니며 해당 데이터 원본에 적합한 정보만 제공합니다. 예를 들어, 볼륨 이름과 권한은 데이터베이스 파일과 관련이 없습니다.</block>
   <block id="efcf64fabaf1cd0d5d0c35cfea3e25d9" category="list-text">오른쪽의 Data Investigation 목록에서 오른쪽의 아래쪽 캐럿 을 선택하여 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>파일 메타데이터를 봅니다.</block>
   <block id="887f8cc0eb69a50c3835261bb514ecb7" category="section-title">파일 및 디렉터리에 대한 사용자의 권한을 봅니다</block>
@@ -3438,4 +3427,15 @@
   <block id="9340ce8741905e7d6ff4c0ca07a7a39a" category="paragraph-title">매핑 전용 스캔의 우선 순위를 지정합니다</block>
   <block id="9267a4a221ce8d9176ea70d45543abf5" category="paragraph">가장 중요한 매핑 전용 스캔의 우선 순위를 지정하여 우선 순위가 높은 스캔이 먼저 완료되도록 할 수 있습니다.</block>
   <block id="f869ba288edefcc198633bd9bda2d3b8" category="paragraph">기본적으로 스캔은 시작된 순서에 따라 대기합니다. 스캔 우선 순위 지정 기능을 통해 이제 스캔을 대기열 앞으로 이동할 수 있습니다. 여러 스캔의 우선 순위를 지정할 수 있습니다. 우선 순위는 선입선출 순서로 지정됩니다. 즉, 우선 순위를 지정한 첫 번째 스캔이 대기열의 맨 앞으로 이동하고 우선 순위를 지정한 두 번째 스캔은 대기열의 두 번째 스캔이 됩니다. 이 기능은 매핑 전용 스캔으로 제한됩니다. 지도 및 분류 스캔에는 사용할 수 없습니다.</block>
+  <block id="038d75fbb28c2dd7e9ed9904fea7fadc" category="paragraph">BlueXP  분류는 다음 데이터에 범주를 수집, 색인 및 할당합니다.</block>
+  <block id="16e3e664a20bb6964ad08fde07c76933" category="list-text">* 개인 데이터 *: 이메일 주소, 식별 번호 또는 신용 카드 번호와 같은 개인 식별 정보(PII)로, BlueXP  분류는 파일에서 특정 단어, 문자열 및 패턴을 사용하여 식별합니다. <block ref="fc496cc858c0e8dff4419012ba17c358" category="inline-link-macro-rx"></block>..</block>
+  <block id="e60672f803602bf222f416a6205b3b39" category="list-text">* 민감한 개인 데이터 *: 일반 데이터 보호 규정(GDPR) 및 기타 개인 정보 보호 규정에 정의된 건강 데이터, 인종 또는 정치적 견해와 같은 특수한 유형의 중요 개인 정보(SPII). <block ref="6221f6509a9900ea9a8146767340b3a8" category="inline-link-macro-rx"></block>..</block>
+  <block id="88afcfed766d9b57a4ac8bafd19ac517" category="list-text">"파일 소유자"를 <block ref="7e65b91b29e94a0af38cb668206b021e" category="inline-link-macro-rx"></block> 사용하여 조사 창에서 파일의 메타데이터에서 결과를 볼 수 있습니다. SID(보안 식별자)가 포함된 파일 소유자 대신 실제 사용자 이름으로 채워집니다.</block>
+  <block id="5c2ead81821547f3130352184807c230" category="list-text">"모든 권한 보기" 버튼을 클릭하면 각 파일과 디렉토리에 대해 볼 수 <block ref="3e9bb1533fcbed587af1c2c23ff12e21" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="5791d2ebf242b348a1cbfa550a356083" category="list-text">* 중복 파일 * - 스캔할 데이터 원본의 다른 위치에 중복되는 파일입니다. <block ref="4f528c73ac5ca4ef85380f36d4dccad7" category="inline-link-macro-rx"></block>..</block>
+  <block id="3cdcb2a793341ff20e0d4057a0538e49" category="list-text">페이지 내용을 구체화한 후 보고서로 다운로드하려면 단추를 선택합니다<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="115993abd6a23a5a17d07cec8fbc4b6e" category="cell">정책 또는 정책을 선택합니다. <block ref="6160b7a55bd427b3fb91de138d9f467e" category="inline-link-macro-rx"></block>로 이동하여 기존 정책 목록을 보고 사용자 지정 정책을 만듭니다.</block>
+  <block id="b07926c5eabcf7b05f3a674e478e6b18" category="inline-link-macro">정책 생성</block>
+  <block id="3ee1fee226155df3d1aec325193a3b4a" category="paragraph">메타데이터는 작업 환경 및 파일이 상주하는 볼륨을 보여 줄 뿐 아니라 파일 권한, 파일 소유자 및 이 파일의 중복 존재 여부 등 훨씬 많은 정보를 보여 줍니다. 이 정보는 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있으므로 을 계획 중인 경우에 <block ref="e4856c4af761ccf18001e0febd54584c" category="inline-link-macro-rx"></block>유용합니다.</block>
+  <block id="1c3cd11405c2cc34d1b337f6a930a0e5" category="list-text">디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다. 을 <block ref="0b922dd9827c419654172323345089b8" category="inline-link-macro-rx"></block>참조하십시오.</block>
 </blocks>

@@ -30,7 +30,7 @@ NOTE: 이 섹션에 설명된 기능은 데이터 소스에서 전체 분류 검
 .단계
 . BlueXP  classification 메뉴에서 * Investigation * 을 선택합니다.
 . 데이터 조사 페이지에서 다음 중 하나를 수행합니다.
-. 페이지 내용을 구체화한 후 보고서로 다운로드하려면 단추를 선택합니다image:button_download.png["다운로드 버튼"]. <<Data Investigation Report,데이터 조사 보고서에 대한 자세한 내용은 여기 를 참조하십시오>>..
+. 페이지 내용을 구체화한 후 보고서로 다운로드하려면 단추를 선택합니다image:button_download.png["다운로드 버튼"].
 +
 image:screenshot_compliance_investigation_filtered.png["조사 페이지에서 결과를 구체화할 때 사용할 수 있는 필터의 스크린샷."]
 
@@ -161,7 +161,7 @@ BlueXP 분류는 SharePoint Online, SharePoint 온-프레미스(SharePoint Serve
 | 필터 | 세부 정보 
 
 
-| 정책 | 정책 또는 정책을 선택합니다. link:task-using-policies.html["여기"^]로 이동하여 기존 정책 목록을 보고 사용자 지정 정책을 만듭니다. 
+| 정책 | 정책 또는 정책을 선택합니다. link:task-using-policies.html["여기"]로 이동하여 기존 정책 목록을 보고 사용자 지정 정책을 만듭니다. 
 |===
 * 분석 상태별 데이터 필터링 *
 
@@ -194,7 +194,7 @@ link:reference-collected-metadata.html[""마지막 액세스 시간" 타임스�
 
 == 파일 메타데이터 보기
 
-메타데이터는 작업 환경 및 파일이 상주하는 볼륨을 보여 줄 뿐 아니라 파일 권한, 파일 소유자 및 이 파일의 중복 존재 여부 등 훨씬 많은 정보를 보여 줍니다. 이 정보는 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있으므로 을 계획 중인 경우에 link:task-using-policies.html["정책을 생성합니다"]유용합니다.
+메타데이터는 작업 환경 및 파일이 상주하는 볼륨을 보여 줄 뿐 아니라 파일 권한, 파일 소유자 및 이 파일의 중복 존재 여부 등 훨씬 많은 정보를 보여 줍니다. 이 정보는 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있으므로 을 계획 중인 경우에 link:task-using-policies.html["정책 생성"]유용합니다.
 
 모든 데이터 원본에 대해 모든 정보를 사용할 수 있는 것은 아니며 해당 데이터 원본에 적합한 정보만 제공합니다. 예를 들어, 볼륨 이름과 권한은 데이터베이스 파일과 관련이 없습니다.
 
