@@ -340,7 +340,6 @@
   <block id="5f4ceba489dc56da6edff02213d6e21c" category="section-title">지원되는 파일 유형은 무엇입니까?</block>
   <block id="bc90c1660d729d86ab10b8018a956932" category="paragraph">BlueXP 분류는 모든 파일에서 범주 및 메타데이터 정보를 검색하고 대시보드의 파일 형식 섹션에 모든 파일 형식을 표시합니다.</block>
   <block id="6352911cc42108d1f16863e618ef84d4" category="paragraph">BlueXP 분류에서 PII(개인 식별 정보)를 감지하거나 DSAR 검색을 수행할 때 다음 파일 형식만 지원됩니다.</block>
-  <block id="0adefa52dc5e774fb8bd1c62fec82b84" category="paragraph"><block ref="0b3e64f511542d0a580dfbeb6d666614" prefix="" category="inline-code"></block></block>
   <block id="d288c89eadda3d7c229b7316faf2209a" category="section-title">BlueXP 분류 체계는 어떤 종류의 데이터와 메타데이터를 캡처합니까?</block>
   <block id="724ba2aee906c26a6c05f56bbf0dd434" category="paragraph">BlueXP 분류를 통해 데이터 소스에서 일반적인 "매핑" 스캔 또는 전체 "분류" 스캔을 실행할 수 있습니다. 매핑은 데이터에 대한 상위 수준의 개요만 제공하는 반면 분류는 데이터에 대한 세부 수준의 스캐닝을 제공합니다. 내부 데이터를 보기 위해 파일에 액세스하지 않기 때문에 데이터 소스에서 매핑을 매우 빠르게 수행할 수 있습니다.</block>
   <block id="00fb8639b6c2826bd3fceaa0d36399d8" category="paragraph">고속 스캔 후 데이터 매핑 보고서를 생성할 수 있습니다. 이 보고서는 리소스 활용도, 마이그레이션, 백업, 보안 및 규정 준수 프로세스에 대한 의사 결정을 돕기 위해 기업 데이터 소스에 저장된 데이터에 대한 개요입니다.</block>
@@ -3438,4 +3437,5 @@
   <block id="b07926c5eabcf7b05f3a674e478e6b18" category="inline-link-macro">정책 생성</block>
   <block id="3ee1fee226155df3d1aec325193a3b4a" category="paragraph">메타데이터는 작업 환경 및 파일이 상주하는 볼륨을 보여 줄 뿐 아니라 파일 권한, 파일 소유자 및 이 파일의 중복 존재 여부 등 훨씬 많은 정보를 보여 줍니다. 이 정보는 데이터를 필터링하는 데 사용할 수 있는 모든 정보를 볼 수 있으므로 을 계획 중인 경우에 <block ref="e4856c4af761ccf18001e0febd54584c" category="inline-link-macro-rx"></block>유용합니다.</block>
   <block id="1c3cd11405c2cc34d1b337f6a930a0e5" category="list-text">디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다. 을 <block ref="0b922dd9827c419654172323345089b8" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="993d0cb387fd8414eea2cd1b17bc3b81" category="paragraph"><block ref="52b8cfc50608d81c1431f72921eeb174" prefix="" category="inline-code"></block></block>
 </blocks>
