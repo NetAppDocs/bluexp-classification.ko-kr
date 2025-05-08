@@ -2676,36 +2676,24 @@
   <block id="e3cf1613fe34f89ac1f2966a0222877f" category="paragraph">규정 준수 대시보드의 * Policies * 탭에는 이 BlueXP 분류 인스턴스에서 사용할 수 있는 사전 정의된 모든 사용자 지정 정책이 나열됩니다.</block>
   <block id="967b04771a3458159d11dd8932d09129" category="inline-image-macro">BlueXP 분류 대시보드의 정책 탭 스크린샷</block>
   <block id="d44d997087e7d999102d47f4839b74ac" category="paragraph"><block ref="d44d997087e7d999102d47f4839b74ac" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="351501516e0a13df2ed4813f5d93864d" category="paragraph">또한 정책이 조사 페이지의 필터 목록에 나타납니다.</block>
   <block id="c939d1291c3b87bc95f09e9b4065138e" category="section-title">조사 페이지에서 정책 결과를 봅니다</block>
-  <block id="fb5c8861ae16ebacc4ef4cf4a3f9746a" category="paragraph">조사 페이지에 정책에 대한 결과를 표시하려면 특정 정책에 대한 버튼을 클릭한 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>다음 * 결과 조사 * 를 선택합니다.</block>
   <block id="eade099275ce51bdec585f23e50846c7" category="inline-image-macro">Policies 탭에서 특정 정책에 대한 Investigate Results를 선택하는 스크린샷</block>
   <block id="b87f575df2628b12c3d997954b369392" category="paragraph"><block ref="b87f575df2628b12c3d997954b369392" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f617da6b50728500642eb376ab97b6f4" category="section-title">사용자 지정 정책을 생성합니다</block>
   <block id="e6860b78555fc79d4429acb5534cf51b" category="paragraph">조직에 맞는 검색 결과를 제공하는 사용자 지정 정책을 만들 수 있습니다. 검색 기준과 일치하는 모든 파일 및 디렉토리(공유 및 폴더)에 대한 결과가 반환됩니다.</block>
-  <block id="96a46d654233ac39fd6e31dda8fc4dae" category="inline-image-macro">필터링된 쿼리를 정책으로 저장하는 방법을 보여 주는 스크린샷</block>
-  <block id="9f769a1d4cd3d0c8d7378f6050100e35" category="paragraph"><block ref="9f769a1d4cd3d0c8d7378f6050100e35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="19948385b78770f8de2200aa21288a6a" category="list-text">필요에 따라 확인란을 선택하여 정책 매개 변수와 일치하는 파일을 자동으로 삭제합니다.</block>
   <block id="ab3a166dafa7696427031860a8ba2694" category="inline-image-macro">정책을 구성하고 저장하는 방법을 보여 주는 스크린샷</block>
   <block id="9b07697830dbb49b6ea67bff8f36ad42" category="paragraph"><block ref="9b07697830dbb49b6ea67bff8f36ad42" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f124f85896ac18194a54f85b2d21b888" category="paragraph">새 정책이 정책 탭에 나타납니다.</block>
   <block id="ad3a8f7c032ad4e96e6372989c781a41" category="section-title">정책을 편집합니다</block>
-  <block id="ac8bfe24ca06e9a43f31e7975b6980a8" category="paragraph">이전에 만든 기존 정책의 조건을 수정할 수 있습니다. 이 기능은 특정 매개 변수를 추가하거나 제거하기 위해 쿼리(필터를 사용하여 정의한 항목)를 변경하려는 경우에 특히 유용합니다.</block>
-  <block id="7037cf1f24072122891243e88abfb12e" category="paragraph">미리 정의된 정책의 경우 이메일 알림 전송 여부와 AIP 레이블 추가 여부만 수정할 수 있습니다. 다른 값은 변경할 수 없습니다.</block>
-  <block id="a12113b6b49f31212d0614b3ea69ea2b" category="list-text">정책 목록 페이지에서 변경할 정책에 대해 * 편집 * 을 클릭합니다.</block>
   <block id="46cca5a0b236597ecbbc433af09a7cdd" category="inline-image-macro">기존 정책에 대한 편집을 시작하는 방법을 보여 주는 스크린샷</block>
   <block id="3056771597dc5384f17bbb61e33a97e3" category="paragraph"><block ref="3056771597dc5384f17bbb61e33a97e3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9edd844856e16adcca10bdc9965cd880" category="list-text">이 페이지의 항목(이름, 설명, 이메일 알림 전송 여부 및 AIP 레이블 추가 여부)만 변경하려면 변경하고 * 정책 저장 * 을 클릭합니다.</block>
-  <block id="d0cb19a0fd724606f26b87b211d86b49" category="paragraph">저장된 쿼리의 필터를 변경하려면 * 쿼리 편집 * 을 클릭합니다.</block>
   <block id="cc9419324ea7def41675382a6f26c64b" category="inline-image-macro">정책 편집 페이지에서 쿼리 편집 단추를 선택하는 스크린샷</block>
   <block id="1c5fef5f58eb8467fc88591877ccc7e3" category="paragraph"><block ref="1c5fef5f58eb8467fc88591877ccc7e3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2f83e3b5da3e9770bafefd94e5a39763" category="list-text">해당 쿼리를 정의하는 조사 페이지에서 필터를 추가, 제거 또는 사용자 지정하여 쿼리를 편집하고 * 변경 내용 저장 * 을 클릭합니다.</block>
   <block id="7cbe4840b4a3a2fdf1f9286da7e2b284" category="inline-image-macro">필터 설정을 변경하여 쿼리를 편집하는 방법을 보여 주는 스크린샷</block>
   <block id="289758d7ef2e573a0ee7824d5814b945" category="paragraph"><block ref="289758d7ef2e573a0ee7824d5814b945" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6a5816406505d9f49c1bfa13c98461f7" category="paragraph">정책이 즉시 변경됩니다. 이메일을 보내거나 AIP 레이블을 추가하거나 파일을 삭제하기 위해 해당 정책에 정의된 모든 작업은 다음 내부에서도 수행됩니다.</block>
   <block id="5d82deb8cba9afb6516c37ca8c24a8ad" category="section-title">정책을 삭제합니다</block>
   <block id="975f1d83956c13d06e3328fcb12a0a3f" category="paragraph">사용자 지정 정책이 더 이상 필요하지 않을 경우 만든 모든 사용자 지정 정책을 삭제할 수 있습니다. 미리 정의된 정책은 삭제할 수 없습니다.</block>
-  <block id="19d4814f3bce80460384b97290bb64be" category="paragraph">정책을 삭제하려면 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>특정 정책에 대한 단추를 클릭하고 * 정책 삭제 * 를 클릭한 다음 확인 대화 상자에서 * 정책 삭제 * 를 다시 클릭합니다.</block>
   <block id="91f5ccbaa42a010696c34306e0121702" category="section-title">미리 정의된 정책 목록입니다</block>
   <block id="d1d0b0240f763b10942cc206a4f4e980" category="paragraph">BlueXP 분류는 다음과 같은 시스템 정의 정책을 제공합니다.</block>
   <block id="49ee3087348e8d44e1feda1917443987" category="cell">이름</block>
@@ -3469,4 +3457,19 @@
   <block id="bc95bc80ebf2858c233b2627b019d9e4" category="cell">캐나다 사회 보험 번호(SIN)</block>
   <block id="00acd555cd21235c4d1b966ed1be4a74" category="cell">영국 ID(Nino)</block>
   <block id="03624a0e3cf06ce697a55ae458b36245" category="cell">미국 텍사스 운전 면허증</block>
+  <block id="1a29dcb31a65b43c01aeec2246fa49c7" category="summary">정책 일반적으로 요청된 규정 준수 쿼리에 대한 검색 결과를 조사 페이지에 제공하는 recustom 필터입니다. BlueXP  분류는 일반 요청을 기반으로 미리 정의된 정책 집합을 제공하거나 사용자가 직접 만들 수 있습니다.</block>
+  <block id="f83468943a92a9d70fe55b7e87c65a05" category="paragraph">정책은 조사 페이지의 필터 목록에도 나타납니다.</block>
+  <block id="b41d9199442d75740188052cd48beb29" category="paragraph">조사 페이지에 정책에 대한 결과를 표시하려면 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>특정 정책에 대한 버튼을 선택한 다음 * 결과 조사 * 를 선택합니다.</block>
+  <block id="9501674588409f4d41d4dd0d16106531" category="inline-link-macro">조사 페이지에서 데이터 필터링</block>
+  <block id="5905cce43eb3cf5df34ad20687132905" category="list-text">조사 탭에서 사용할 필터를 선택하여 검색을 정의합니다. 자세한 내용은 을 <block ref="fc016879136ae59a01dc15bd1e0ae029" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="e85bfe3f1de43636e78e3933cf709057" category="list-text">모든 필터 특성을 원하는 대로 설정했으면 * 이 검색에서 정책 만들기 * 를 선택합니다.</block>
+  <block id="f9eedf2a2f5e1bb65bd48f67cc11775f" category="inline-image-macro">필터링된 쿼리를 정책으로 저장하는 방법을 보여 주는 스크린샷</block>
+  <block id="74f8b507d44a9c9de5bc7494adb05585" category="paragraph"><block ref="74f8b507d44a9c9de5bc7494adb05585" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e61d888eb37f48ad33d55cec612a0679" category="paragraph">기존 정책의 조건을 수정하여 쿼리(필터를 사용하여 정의한 항목)를 변경하여 특정 매개 변수를 추가하거나 제거할 수 있습니다.</block>
+  <block id="d9a6afbd4a5c10947a68b413c4cad163" category="paragraph">미리 정의된 정책은 수정할 수 없습니다.</block>
+  <block id="a126111bf84a962c10c82c54b7053f09" category="list-text">정책 목록 페이지에서 변경하려는 정책에 대해 * 정책 편집 * 을 선택합니다.</block>
+  <block id="a63db0f06bb77419a1c9810effb58b9a" category="list-text">이름 및 설명 필드를 변경합니다. 이러한 필드만 변경하려면 * 정책 저장 * 을 선택합니다.</block>
+  <block id="b661e4ea30af73a913aed1e7ae647f4a" category="paragraph">저장된 쿼리에 대한 필터를 변경하려면 * 쿼리 편집 * 을 선택합니다.</block>
+  <block id="1c76b2a61ae25c65703ed4c7e9a61c05" category="list-text">해당 쿼리를 정의하는 조사 페이지에서 필터를 추가, 제거 또는 사용자 지정하여 쿼리를 편집한 다음 * 변경 내용 저장 * 을 선택합니다.</block>
+  <block id="fc0a103843396ed5e93bb76396799d13" category="paragraph">정책을 삭제하려면 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>특정 정책에 대한 버튼을 선택하고 * Delete Policy * 를 선택한 다음 확인 대화 상자에서 * Delete Policy * 를 다시 선택합니다.</block>
 </blocks>
