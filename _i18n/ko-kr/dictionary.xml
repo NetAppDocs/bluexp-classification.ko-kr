@@ -3387,10 +3387,7 @@
   <block id="dcc61fc6bf6aa17ea807ec107b3f9682" category="paragraph-title">저장된 검색 탭</block>
   <block id="1005b3a447fe9caf1ce373cf96b4dc01" category="inline-xref-macro">** 저장된 검색**</block>
   <block id="619964fa6c4dc175f106697cd53cd93b" category="paragraph">** Policies** 탭의 이름이 <block ref="57cf69bfb5ee6dec8716152c342ad94c" category="inline-xref-macro-rx"></block>변경되었습니다. 기능은 동일합니다.</block>
-  <block id="260ad9aa0619e900a957ec4498a7084d" category="paragraph-title">스캔 이벤트를 감사 로그에 보냅니다</block>
   <block id="decaf26b476fc5aad56ba857036660b7" category="inline-link-macro">BlueXP  타임라인</block>
-  <block id="7d71019726dccc04ceb52b94f892b7f6" category="inline-xref-macro">감사 로그</block>
-  <block id="1c6653b6dfd13a16237efa3ea5c87e2a" category="paragraph">이제 BlueXP  스캔 이벤트를 로 전송할 수 <block ref="e7616c9e5375866db0d455d96b016998" category="inline-xref-macro-rx"></block>있습니다. BlueXP  분류는 또한 에 분류 이벤트(스캔이 시작되었을 때와 종료되었을 때)를 보낼 수 <block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>있습니다. 분류 스캔 이벤트를 BlueXP  타임라인으로 보내는 것은 작업 환경에서만 지원됩니다.</block>
   <block id="ddba4621d4e9a4c39c38ef2131834760" category="list-title">보안 업데이트</block>
   <block id="0a39c7bc14a0f00de22f1ead79c18b0c" category="list-text">Keras 패키지가 업데이트되어 취약점을 완화합니다(BDSA-2025-0107 및 BDSA-2025-1984).</block>
   <block id="408f8b982d641a307784a27c0fb6d9c9" category="list-text">Docker 컨테이너 구성이 업데이트되었습니다. 컨테이너는 더 이상 원시 네트워크 패킷을 만들기 위해 호스트의 네트워크 인터페이스에 액세스할 수 없습니다. 이 업데이트는 불필요한 액세스를 줄여 잠재적인 보안 위험을 완화합니다.</block>
@@ -3506,4 +3503,6 @@
   <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025년 5월 12일</block>
   <block id="60be04fe141df250bce893e57d19600d" category="sidebar">저장된 검색을 만듭니다</block>
   <block id="cbace44a9d78dedfcb62fa58fee0378f" category="sidebar">사용자 정의 스캔을 생성합니다</block>
+  <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">스캔 이벤트를 BlueXP  타임라인으로 보냅니다</block>
+  <block id="2fb6ac863fbf4be01901268bf08e147f" category="paragraph">이제 BlueXP  분류는 에 분류 이벤트(스캔이 시작되었을 때와 종료되었을 때)를 보낼 수 있도록 <block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>지원합니다.</block>
 </blocks>
