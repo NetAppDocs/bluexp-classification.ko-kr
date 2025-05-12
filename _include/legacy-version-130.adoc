@@ -1,0 +1,6 @@
+= 
+:allow-uri-read: 
+
+
+
+NOTE: 이 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.

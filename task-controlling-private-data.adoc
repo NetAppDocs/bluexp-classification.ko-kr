@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-controlling-private-data.html 
-keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies 
+keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights 
 summary: '조직의 개인 데이터(PII) 및 중요 개인 데이터(SPII)에 대한 세부 정보를 확인하여 개인 데이터를 제어할 수 있습니다. 또한 데이터에 있는 BlueXP 분류의 범주 및 파일 형식을 검토하여 가시성을 확보할 수도 있습니다.' 
 ---
 = BlueXP  분류를 통해 조직에 저장된 개인 데이터에 대한 규정 준수 세부 정보를 봅니다
@@ -31,7 +31,7 @@ image:screenshot_compliance_dashboard.png["BlueXP 분류 대시보드 스크린�
 
 BlueXP 분류는 데이터 내에서 특정 단어, 문자열 및 패턴(Regex)을 자동으로 식별합니다. 예를 들어 개인 식별 정보(PII), 신용 카드 번호, 주민 등록 번호, 은행 계좌 번호, 암호, 있습니다. link:reference-private-data-categories.html["전체 목록을 참조하십시오"].. BlueXP 분류는 디렉터리(공유 및 폴더) 내의 파일 및 데이터베이스 테이블에서 이러한 유형의 정보를 개별 파일에 식별합니다.
 
-또한 검사할 데이터베이스 서버를 추가한 경우 _Data Fusion_ 기능은 파일을 검색하여 데이터베이스의 고유 식별자를 해당 파일 또는 다른 데이터베이스에서 찾을 수 있는지 여부를 확인합니다. 자세한 내용은 을 link:task-managing-data-fusion.html["Data Fusion를 사용하여 개인 데이터 식별자를 추가합니다"] 참조하십시오.
+사용자 지정 검색어를 만들어 조직에 맞는 개인 데이터를 식별할 수도 있습니다. 자세한 내용은 을 link:task-custom-classification.html["사용자 지정 분류를 생성합니다"]참조하십시오.
 
 BlueXP 분류에서는 일부 유형의 개인 데이터에 대해 _근접 검증_을 사용하여 결과를 검증합니다. 유효성 검사는 발견된 개인 데이터 근처에서 하나 이상의 미리 정의된 키워드를 찾는 방식으로 수행됩니다. 예를 들어, BlueXP  분류는 미국 주민등록번호(SSN)를 SSN으로 식별합니다(예: _ssn_or_social security_). link:reference-private-data-categories.html["개인 데이터 표"] BlueXP  분류에서 근접 검증을 사용하는 경우를 보여 줍니다.
 

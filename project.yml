@@ -65,9 +65,11 @@ sidebar:
       url: "/task-controlling-private-data.html"
     - title: 개인 데이터의 범주입니다
       url: "/reference-private-data-categories.html"
+    - title: 사용자 정의 스캔을 생성합니다
+      url: "/task-custom-classification.html"
     - title: 데이터를 조사합니다
       url: "/task-investigate-data.html"
-    - title: 데이터에 정책을 할당합니다
+    - title: 저장된 검색을 만듭니다
       url: "/task-using-policies.html"
     - title: 스캔 설정을 변경합니다
       url: "/task-managing-repo-scanning.html"
