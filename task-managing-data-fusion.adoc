@@ -144,7 +144,7 @@ regex를 추가한 후 BlueXP 분류는 모든 데이터 소스 스캔을 다시
 정규식을 작성하는 데 도움이 필요한 경우 을 https://regex101.com/["정규식 101"^]참조하십시오. 원하는 맛을 내려면 * Python * 을 선택하여 BlueXP 분류가 정규식에서 일치하는 결과의 유형을 확인하십시오. 또한 는 https://pythonium.net/regex["Python Regex 테스터 페이지입니다"^] 패턴을 그래픽으로 표시함으로써 유용합니다.
 
 
-NOTE: 현재 정규식 생성 시 패턴 플래그 사용을 허용하지 않습니다. 즉, "/"를 사용하면 안 됩니다.
+NOTE: BlueXP  분류에서는 regex를 생성할 때 패턴 플래그를 지원하지 않습니다. 이는 "/"를 사용해서는 안 된다는 의미입니다.
 
 .단계
 . Classification settings_tab에서 * Add New Classifier * 를 클릭하여 _Add Custom Classifier_wizard를 실행합니다.

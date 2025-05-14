@@ -9,17 +9,17 @@
 이 BlueXP  분류 릴리스에는 다음이 포함됩니다.
 
 .분류 스캔의 우선 순위를 지정합니다
-이제 BlueXP  분류는 매핑 전용 스캔뿐만 아니라 스캔 지도 및 분류 우선 순위를 지정할 수 있는 기능을 지원하므로 먼저 완료된 스캔을 선택할 수 있습니다. 맵 및 분류 스캔의 우선 순위는 스캔이 시작되는 동안과 그 전에 지원됩니다. 스캔이 진행 중일 때 스캔 우선 순위를 지정하도록 선택하면 매핑 및 분류 스캔이 모두 우선 순위가 지정됩니다.
+BlueXP  분류는 매핑 전용 스캔뿐만 아니라 스캔 지도 및 분류 우선 순위를 지정할 수 있는 기능을 지원하므로 먼저 완료된 스캔을 선택할 수 있습니다. 맵 및 분류 스캔의 우선 순위는 스캔이 시작되는 동안과 그 전에 지원됩니다. 스캔이 진행 중일 때 스캔 우선 순위를 지정하도록 선택하면 매핑 및 분류 스캔이 모두 우선 순위가 지정됩니다.
 
 자세한 내용은 을 link:task-managing-repo-scanning.html#prioritize-scans["스캔 우선 순위 지정"]참조하십시오.
 
 .캐나다 PII(개인 식별 정보) 데이터 범주 지원
-BlueXP  분류 검사는 이제 모든 주 및 지역에 대한 은행 정보, 여권 번호, 사회 보험 번호, 운전 면허 번호 및 건강 카드 번호에 대한 캐나다 PII 데이터 범주를 식별합니다.
+BlueXP  분류 스캔은 은행 정보, 여권 번호, 사회 보험 번호, 운전 면허 번호 및 모든 주 및 지역에 대한 건강 카드 번호에 대한 캐나다 PII 데이터 범주를 식별합니다.
 
 자세한 내용은 을 참조하십시오xref:reference-private-data-categories.adoc#types-of-personal-data[개인 데이터 범주].
 
 .사용자 지정 분류(미리 보기)
-이제 BlueXP  분류는 지도 및 분류 스캔에 대한 사용자 정의 분류를 지원합니다. 사용자 지정 분류를 사용하면 BlueXP  스캔을 사용자 지정하여 정규식을 준수하도록 조직별 데이터를 캡처할 수 있습니다. 이 기능은 현재 미리보기 중입니다.
+BlueXP  분류는 지도 및 분류 스캔에 대한 사용자 정의 분류를 지원합니다. 사용자 지정 분류를 사용하면 BlueXP  스캔을 사용자 지정하여 정규식을 준수하도록 조직별 데이터를 캡처할 수 있습니다. 이 기능은 현재 미리보기 중입니다.
 
 자세한 내용은 을 xref:task-custom-classification.adoc[사용자 지정 분류를 추가합니다]참조하십시오.
 
@@ -27,7 +27,7 @@ BlueXP  분류 검사는 이제 모든 주 및 지역에 대한 은행 정보, 
 ** Policies** 탭의 이름이 xref:task-using-policies.html[** 저장된 검색**]변경되었습니다. 기능은 동일합니다.
 
 .스캔 이벤트를 BlueXP  타임라인으로 보냅니다
-이제 BlueXP  분류는 에 분류 이벤트(스캔이 시작되었을 때와 종료되었을 때)를 보낼 수 있도록 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  타임라인"^]지원합니다.
+BlueXP  분류는 에 분류 이벤트(스캔이 시작되었을 때 및 종료되었을 때)를 보낼 수 있도록 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  타임라인"^]지원합니다.
 
 .보안 업데이트
 * Keras 패키지가 업데이트되어 취약점을 완화합니다(BDSA-2025-0107 및 BDSA-2025-1984).

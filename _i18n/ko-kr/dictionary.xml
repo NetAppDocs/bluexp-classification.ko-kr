@@ -47,7 +47,6 @@
   <block id="dfd993077bb353282906702dc3143ec7" category="list-text">* NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP Connector 시스템 간에 시간을 동기화해야 합니다.</block>
   <block id="2808185c0a48de3cd5dcc0d92f453531" category="doc">버전 1.35</block>
   <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="paragraph-title">StorageGRID 데이터를 스캔합니다</block>
-  <block id="83bceb987dd495cde1a148944580e473" category="paragraph">이제 BlueXP  분류를 통해 StorageGRID에서 데이터를 스캔할 수 있습니다.</block>
   <block id="60c09f1a3afdb367fc787929a52bce2c" category="paragraph">자세한 내용은 을 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="5413a43995a4a97a249b7b24fbf3e785" category="doc">버전 1.36</block>
   <block id="44b53ed30a4c420b95b8adba575b84a6" category="paragraph-title">RHEL 9.4 지원</block>
@@ -105,10 +104,7 @@
   <block id="bc2de28feb42e568f3e122df8d001559" category="summary">BlueXP 분류는 회사의 온프레미스 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 개인 정보를 식별하는 BlueXP용 데이터 거버넌스 서비스입니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="doc">BlueXP 분류에 대해 알아보십시오</block>
   <block id="87fce6273ae6270f06beebf56898bc70" category="paragraph">BlueXP 분류(Cloud Data Sense)는 기업의 온프레미스 및 클라우드 데이터 소스를 검사하여 데이터를 매핑 및 분류하고 프라이빗 정보를 식별하는 BlueXP용 데이터 거버넌스 서비스입니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
-  <block id="279ac5dd73c3a5783ebeb10e172c4f38" category="paragraph">중요</block>
   <block id="9b17860ccc87d28d839931769a5af6ee" category="inline-link-macro">더 이상 사용되지 않는 기능 목록을 참조하십시오</block>
-  <block id="e8f4baffb4918527d8701a12a84b8d92" category="paragraph"><block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>..</block>
-  <block id="705e8077ff3af41dc9b8a84050d869d1" category="paragraph">1.30 이전 버전을 사용한 사용자는 구독이 만료될 때까지 해당 버전을 계속 사용할 수 있습니다.</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
   <block id="71e39030d4b3b241d51a6ce6c9ce8bd7" category="paragraph">BlueXP 분류에서는 인공 지능(AI), 자연어 처리(NLP) 및 머신 러닝(ML)을 사용하여 엔터티를 추출하고 그에 따라 콘텐츠를 범주화하기 위해 검색하는 콘텐츠를 파악합니다. 이를 통해 BlueXP 분류는 다음과 같은 기능 영역을 제공할 수 있습니다.</block>
   <block id="84869a8fd0e55b1142c336faf2aa6794" category="inline-link">BlueXP 분류의 사용 사례에 대해 자세히 알아보십시오</block>
@@ -150,7 +146,6 @@
   <block id="0db2daf3d07a81feeb571f78c0af87fa" category="list-text">SQL Server(MSSQL)</block>
   <block id="33131c83033941e511576a90476300a6" category="paragraph">BlueXP 분류는 NFS 버전 3.x, 4.0, 4.1 및 CIFS 버전 1.x, 2.0, 2.1 및 3.0을 지원합니다.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
-  <block id="1d4f5c4d2298eeba0567ba65029151d4" category="paragraph">BlueXP 분류를 무료로 사용할 수 있습니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다.</block>
   <block id="bcf2e25b0a67b74f2ef04fa33cb52b61" category="section-title">비용</block>
   <block id="73e82d6326f541ace82886b5c0cd44eb" category="inline-xref">각 클라우드 공급자에 대해 구축된 인스턴스 유형입니다</block>
   <block id="79de69a9c27339b7e2c0888ade6a7ff9" category="list-text">클라우드에 BlueXP 분류를 설치하려면 클라우드 인스턴스를 배포해야 하므로 클라우드 인스턴스가 배포된 클라우드 공급자가 비용을 부담합니다. 을 <block ref="a640e98c8584c0b162d717c76dd083cd" category="inline-xref-macro-rx"></block>참조하십시오. BlueXP 분류를 사내 시스템에 설치하면 비용이 들지 않습니다.</block>
@@ -1212,7 +1207,6 @@
   <block id="3080c7bbf6707274907b8ec2e97fb7a8" category="list-text">인터넷 액세스에 프록시를 사용하는 경우:</block>
   <block id="872a9ee7c158e8dd5094c5c93dcffc57" category="list-text">프록시 서버 정보(IP 주소 또는 호스트 이름, 연결 포트, 연결 스키마: https 또는 http, 사용자 이름 및 암호)가 필요합니다.</block>
   <block id="60e3e1e8b520c28183ebe86bd433deda" category="list-text">프록시가 TLS 가로채기를 수행하는 경우 TLS CA 인증서가 저장된 BlueXP 분류 Linux 시스템의 경로를 알아야 합니다.</block>
-  <block id="48439ae905464923337d7464952d3315" category="list-text">프록시는 투명하지 않아야 합니다. 현재 투명 프록시를 지원하지 않습니다.</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="list-text">사용자는 로컬 사용자여야 합니다. 도메인 사용자는 지원되지 않습니다.</block>
   <block id="d66d1b16789175829b23ed7e745d66dd" category="list-text">오프라인 환경이 필요한 를 충족하는지 <block ref="9eb48ce3a280aa134b4c3aab7ed78a68" category="inline-xref-macro-rx"></block>확인합니다.</block>
   <block id="2fdc544d6ce29e3a29dd3b9cb532c792" category="list-text">에서 BlueXP  분류 소프트웨어를<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block> 다운로드합니다. 선택해야 하는 파일의 이름은 * DATASENSE-INinstaller-&lt;version&gt;.tar.gz * 입니다.</block>
@@ -1749,7 +1743,6 @@
   <block id="d4da00138f887427e0760f21c97fa0cf" category="inline-link">정규식 101</block>
   <block id="f535e41ec22971f3dc912b4a0c3e1502" category="inline-link">Python Regex 테스터 페이지입니다</block>
   <block id="2858913580d22c83f2ed3c5bf98afa04" category="paragraph">정규식을 작성하는 데 도움이 필요한 경우 을<block ref="44042c0043421e388aa50c9206936192" category="inline-link-rx"></block>참조하십시오. 원하는 맛을 내려면 * Python * 을 선택하여 BlueXP 분류가 정규식에서 일치하는 결과의 유형을 확인하십시오. 또한 는<block ref="16efc9dbee1da4ffa610197a33616f3b" category="inline-link-rx"></block> 패턴을 그래픽으로 표시함으로써 유용합니다.</block>
-  <block id="c010468930979e106d9f7ed3eb1af1fb" category="admonition">현재 정규식 생성 시 패턴 플래그 사용을 허용하지 않습니다. 즉, "/"를 사용하면 안 됩니다.</block>
   <block id="e847e3f6aa6025fb9b99c6a029827fc3" category="paragraph">입력한 이름은 BlueXP 분류 UI에 분류자 요구 사항과 일치하는 스캔된 파일의 머리글로, 조사 페이지의 필터 이름으로 표시됩니다. "시스템에서 검색된 결과 마스크" 확인란을 선택하여 UI에 전체 결과가 나타나지 않도록 할 수도 있습니다. 예를 들어 전체 신용 카드 번호나 이와 유사한 개인 데이터를 숨기려면 이 작업을 수행할 수 있습니다.</block>
   <block id="0931f142421f2e217723300078e3b8b7" category="paragraph"><block ref="0931f142421f2e217723300078e3b8b7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dfc0ae4804b6b33aec281efa7221c9f8" category="list-text">Select Data Analysis Tool_page에서 분류자를 정의하는 데 사용할 방법으로 * 사용자 지정 정규식 * 을 선택한 후 * 다음 * 을 클릭합니다.</block>
@@ -1952,7 +1945,6 @@
   <block id="209f3dabc722accc7b4db77a133ef209" category="list-text">* Initializing * (연청색 점): MAP 또는 분류 구성이 활성화됩니다. 이것은 "대기 중 대기열" 상태를 시작하기 전에 몇 초 동안 나타납니다.</block>
   <block id="fbbc6bcf9c53aaad4b5476065f315bb1" category="list-text">* 보류 대기열 * (주황색 점): 스캔 작업이 스캔 대기열에 나열되기를 기다리고 있습니다.</block>
   <block id="ea7971f9c02e5fa9234d7af5cd0b34c7" category="list-text">*Queued*(주황색 점): 작업이 스캔 대기열에 추가되었습니다. 대기열의 회전이 도착하면 시스템이 볼륨 매핑 또는 분류를 시작합니다.</block>
-  <block id="863f25b6c394057a4286fa671cfd048b" category="list-text">* 실행 중 * (녹색 점): 대기열에 있던 스캔 작업이 현재 선택한 저장소 리포지토리에서 수행됩니다.</block>
   <block id="1110cfca2e7c6a5f3e560597c03abeab" category="list-text">* 완료 * (녹색 점): 스토리지 리포지토리의 스캔이 완료되었습니다.</block>
   <block id="da30b4408b5e1540ac02763204c943ad" category="list-text">* Paused * (회색 점): 스캔을 일시 중지하려면 “Pause(일시 중지)” 옵션을 선택했습니다. 볼륨의 변경 사항은 시스템에 표시되지 않지만 스캔된 인사이트는 여전히 표시됩니다.</block>
   <block id="7eac8ad7bb67a204924dcc6a4113f103" category="list-text">* 오류 * (빨간색 점): 문제가 발생하여 검사를 완료할 수 없습니다. 작업을 완료해야 하는 경우 도구 설명에 "required action(필요한 작업)" 열 아래에 오류가 표시됩니다. 그렇지 않으면 "오류" 상태가 표시되고 복구를 시도합니다. 완료되면 상태가 변경됩니다.</block>
@@ -2252,7 +2244,6 @@
   <block id="8263235be1a4b9bb6cc92b057406f2e5" category="inline-link-macro">BlueXP 분류에서 Google Drive 계정을 삭제합니다</block>
   <block id="3ef1f7ef6e40406c6da9ebbf30881295" category="paragraph">단일 사용자의 Google Drive 파일만 단일 Google Drive 계정의 일부이므로 사용자의 Google Drive 계정에서 파일 검색을 중지하려면 다음을 수행해야 <block ref="5f8a68577631fb4846e68096e5a718cb" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="3cdb36967a02a71e0d639c6d71d16ac3" category="summary">BlueXP 분류를 통해 개체 스토리지 내에서 직접 데이터 스캔을 시작하려면 몇 단계를 완료하십시오. BlueXP 분류는 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에서 데이터를 스캔할 수 있습니다. 여기에는 NetApp StorageGRID, IBM Cloud Object Store, Linode, B2 클라우드 스토리지, Amazon S3 등이 포함됩니다.</block>
-  <block id="fec0b5d2f5737f21e60a6e49ddb4e55f" category="paragraph">* 참고 * 코어 BlueXP 의 일부인 BlueXP  분류를 사용하여 이제 StorageGRID 데이터를 스캔할 수 있습니다. 를 참조하십시오.<block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block> 이 문서의 나머지 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.</block>
   <block id="9c2468c732c2a3c37f5718ed3927f188" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 개체 스토리지 사전 요구 사항을 검토합니다</block>
   <block id="fd28e251418a49d4390ec8a9b6592efc" category="paragraph">객체 스토리지 서비스에 연결하려면 엔드포인트 URL이 있어야 합니다.</block>
   <block id="ab799d9194a97ef175cc77104273ab42" category="paragraph">BlueXP 분류가 버킷에 액세스할 수 있도록 객체 스토리지 공급업체의 액세스 키 및 비밀 키가 있어야 합니다.</block>
@@ -2260,11 +2251,9 @@
   <block id="53ab1a83968fb0e47aaf2604fd097f22" category="paragraph">BlueXP 분류에 오브젝트 스토리지 서비스를 추가합니다.</block>
   <block id="0cf30da5b3284b65f1bd1464a838ef7e" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 스캔할 버킷을 선택합니다</block>
   <block id="52f14d27aed58bd63ec13b8bfc948c58" category="paragraph">스캔하려는 버킷을 선택하면 BlueXP 분류가 스캔을 시작합니다.</block>
-  <block id="763a21e3ec238bca68eb25847cf75843" category="section-title">오브젝트 스토리지의 요구사항 검토</block>
   <block id="bb0a1704cdb3aa4652bac58b0632ab23" category="section-title">BlueXP 분류 인스턴스 배포</block>
   <block id="a9dd30151c7008ee5251686104cfa16e" category="paragraph">인터넷을 통해 액세스할 수 있는 S3 오브젝트 스토리지의 데이터를 스캔하는 경우 또는 를 수행할 수 있습니다<block ref="8faa540c15177bc62b151869f0948a64" category="inline-link-macro-rx"></block>.<block ref="15df3adeb2abcc06430d6dc64cee819e" category="inline-link-macro-rx"></block></block>
   <block id="4375ee40e1ca16fdfd2b33b0cda0950b" category="paragraph">인터넷 액세스가 없는 다크 사이트에 설치된 S3 오브젝트 스토리지의 데이터를 스캔하는 경우, 을(를) 수행해야 <block ref="3beeea1c5d12940092999048e1c30313" category="inline-link-macro-rx"></block>합니다. 또한 BlueXP Connector를 동일한 사내 위치에 배포해야 합니다.</block>
-  <block id="56ae4518d3461ca7113dcd16c3bba1b2" category="section-title">BlueXP 분류에 오브젝트 스토리지 서비스 추가</block>
   <block id="0065ab04ebf28ab82ddb160d51d486e6" category="paragraph">오브젝트 스토리지 서비스를 추가합니다.</block>
   <block id="58dc807771e7cb80307d5179257d8cf5" category="list-text">작업 환경 구성 페이지에서 * 데이터 소스 추가 * &gt; * 개체 스토리지 서비스 추가 * 를 클릭합니다.</block>
   <block id="2ae3db9ae42d46e9ee88cc1d2d220b4c" category="paragraph"><block ref="2ae3db9ae42d46e9ee88cc1d2d220b4c" category="inline-image-macro-rx" type="image"></block></block>
@@ -2275,7 +2264,6 @@
   <block id="0c4f4678d993733c2bd7d96ae60765f7" category="inline-image-macro">오브젝트 스토리지 서비스에 액세스하기 위한 값을 입력하는 대화 상자의 스크린 샷</block>
   <block id="03f9825aedaceb15d936539d5826b1bc" category="paragraph"><block ref="03f9825aedaceb15d936539d5826b1bc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b759adaed99740d09f74e6100b8e27ba" category="paragraph">새로운 오브젝트 스토리지 서비스가 작업 환경 목록에 추가됩니다.</block>
-  <block id="eee95a219b81e97bc6cd4730c01adbe3" category="section-title">오브젝트 스토리지 버킷에 대한 규정 준수 검사 설정 및 해제</block>
   <block id="5f7d2531317684863a8928345cd2c72a" category="paragraph">오브젝트 스토리지 서비스에서 BlueXP 분류를 활성화한 후 다음 단계는 스캔할 버킷을 구성하는 것입니다. BlueXP 분류는 이러한 버킷을 검색하여 사용자가 만든 작업 환경에 표시합니다.</block>
   <block id="dd5853b89ec447e9d731b556d5117bd6" category="list-text">구성 페이지의 오브젝트 스토리지 서비스 작업 환경에서 * 구성 * 을 클릭합니다.</block>
   <block id="3a1e5c5f142364cc7ce3c01995fb5473" category="inline-image-macro">스캔할 버킷을 선택할 수 있도록 작업 환경에 대한 구성을 클릭하는 스크린샷.</block>
@@ -2388,10 +2376,7 @@
   <block id="4d73a075dbf1c56303ccda451f26cc3a" category="list-text">최대 CLI/API 세션 지속 시간 * 을 1시간에서 12시간으로 변경하고 변경 사항을 저장합니다.</block>
   <block id="bf900745b27a9974d0ab2716c4bd344b" category="list-text">BlueXP 분류 IAM 정책을 부착합니다. 필요한 권한이 있는지 확인합니다.</block>
   <block id="4597627cb1a7d2c232d7dccad558ecc5" category="list-text">BlueXP 분류 인스턴스가 있는 소스 AWS 계정으로 이동하여 인스턴스에 연결된 IAM 역할을 선택합니다.</block>
-  <block id="d7bd77c61ee265322fab9869a5ec2219" category="list-text">Attach policies * 를 클릭한 다음 * Create policy * 를 클릭합니다.</block>
   <block id="fa35ffe79ce8cfa3c54cab66d30042aa" category="list-text">"STS:AssumeRole" 작업을 포함하는 정책을 생성하고 타겟 계정에서 생성한 역할의 ARN을 지정합니다.</block>
-  <block id="610a92d28e43a9b9b43a80355ed30a91" category="paragraph">이제 BlueXP 분류 인스턴스 프로파일 계정이 추가 AWS 계정에 액세스할 수 있습니다.</block>
-  <block id="e69e174193783e78e5a975c45a55a239" category="list-text">Amazon S3 Configuration * 페이지로 이동하면 새 AWS 계정이 표시됩니다. BlueXP 분류는 새 계정의 작업 환경을 동기화하고 이 정보를 표시하는 데 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="5ddf3d39694a5e23e1408c6a384f7690" category="inline-image-macro">BlueXP 분류를 활성화하는 방법을 보여 주는 스크린샷.</block>
   <block id="1069eb13437b93173072d2dc7525f109" category="paragraph"><block ref="1069eb13437b93173072d2dc7525f109" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0a8fba705f708c47d0163310db2499dc" category="list-text">BlueXP 분류 활성화 및 버킷 선택 * 을 클릭하고 스캔할 버킷을 선택합니다.</block>
@@ -2597,7 +2582,6 @@
   <block id="f38e65de4ce9c990f949a6ec4d679e75" category="paragraph">BlueXP 분류를 통해 특정 중요한 정책이 결과를 반환하면 고객의 BlueXP 사용자에게 이메일 경고를 보내 데이터 보호를 위한 알림을 받을 수 있습니다. 매일, 매주 또는 매월 이메일 알림을 보내도록 선택할 수 있습니다. 또한 BlueXP 계정이 아닌 최대 20개의 전자 메일 주소로 다른 전자 메일 주소로 전자 메일 알림을 보내도록 선택할 수 있습니다.</block>
   <block id="7b58cd26f9f4676d5e7fb384e4fd3990" category="paragraph">정책을 만들거나 정책을 편집할 때 이 설정을 구성할 수 있습니다.</block>
   <block id="b1b39ff951119dbc880b7e58c9b4a20d" category="paragraph">기존 정책에 이메일 업데이트를 추가하려면 다음 단계를 수행하십시오.</block>
-  <block id="3c3de0aaf926f01f683c589f53bc3c61" category="list-text">정책 목록 페이지에서 이메일 설정을 추가(또는 변경)하려는 정책에 대해 * 편집 * 을 클릭합니다.</block>
   <block id="f154ff37f26bd2fd659d7f91a7811456" category="inline-image-macro">기존 정책을 편집하는 방법을 보여 주는 스크린샷</block>
   <block id="a5413bbfccb4a705e3449d1ed68885e6" category="paragraph"><block ref="a5413bbfccb4a705e3449d1ed68885e6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0f45f5e9392cad0f6f0647364c3255a6" category="list-text">정책 편집 페이지에서 다음을 수행합니다.</block>
@@ -2605,8 +2589,6 @@
   <block id="abf0f7e6ece371db4b19fea5e49a4de2" category="list-text">추가 사용자에게 알림 이메일을 보내려면 "이메일 보내기" 확인란을 선택하고 이메일 발송 간격을 선택한 후 최대 20개의 이메일 주소를 입력합니다.</block>
   <block id="ba7f20906bacf4fde87c14d7628aaec2" category="inline-image-macro">정책에 대해 보낼 전자 메일 기준을 선택하는 방법을 보여 주는 스크린샷</block>
   <block id="9cc0943710c206f20a91720ffe09f7bf" category="paragraph"><block ref="9cc0943710c206f20a91720ffe09f7bf" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c6c5f991e4c7c528d0820b49c9f25a83" category="list-text">정책 저장 * 을 클릭하면 이메일이 전송되는 간격이 정책 설명에 나타납니다.</block>
-  <block id="43389b2e24ac398a192138fd526fdba4" category="paragraph">첫 번째 이메일은 정책에 대한 결과가 있는 경우 발송됩니다. 단, 파일이 정책 기준을 충족하는 경우에만 발송됩니다. 알림 이메일에는 개인 정보가 전송되지 않습니다. e-메일은 정책 기준과 일치하는 파일이 있음을 나타내고 정책 결과에 대한 링크를 제공합니다.</block>
   <block id="58471452eb2d1a8a501510aba48d9a3f" category="section-title">정책을 사용하여 소스 파일을 자동으로 삭제합니다</block>
   <block id="9b1a6cef9d9c4c8a2827dbad6747aa84" category="paragraph">사용자 지정 정책을 만들어 정책과 일치하는 파일을 삭제할 수 있습니다. 예를 들어, 지난 30일 동안 BlueXP 분류에서 발견된 중요한 정보가 포함된 파일을 삭제할 수 있습니다.</block>
   <block id="809f64202f1380bfa162de2b48ae05c0" category="paragraph">계정 관리자만 파일을 자동으로 삭제하는 정책을 만들 수 있습니다.</block>
@@ -2718,8 +2700,6 @@
   <block id="1b4f4b549e0860b1392190bfc2a23f81" category="paragraph"><block ref="1eef614f77c6908f78f84cb1847e2ab8" category="inline-link-rx"></block>..</block>
   <block id="c630754f942c555264fff115d6b5e9b2" category="section-title">2024년 1월 10일</block>
   <block id="536149161458a7a77ae5b72258f34e48" category="section-title">버전 1.27</block>
-  <block id="be8658cdca9524eb49f00560785f3ab7" category="paragraph-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
-  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="paragraph-title">추가 그룹 ID를 "조직에 열기"로 구성</block>
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">추가 그룹 ID를 "조직에 열려 있음"으로 추가</block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">이제 그룹이 처음에 해당 권한으로 설정되지 않은 경우, NFS의 그룹 ID를 BlueXP 분류에서 직접 "Open to Organization"으로 간주하도록 구성할 수 있습니다. 이러한 그룹 ID가 첨부된 파일 및 폴더는 조사 세부 정보 페이지에서 "조직에 열기"로 표시됩니다. 방법 보기<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>.</block>
@@ -2936,12 +2916,9 @@
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">실패한 모든 스캔을 다시 시도하려면 * 모든 스캔 재시도 * 를 선택합니다.</block>
   <block id="a2cf857a70e312df7b376e0516470728" category="list-text">특정 스캔을 다시 시도하려면 리소스를 선택하고 Actions... 옵션에서 * Retry scan * 을 선택하십시오.</block>
   <block id="e59c558837a0bee73ac15f544f275cae" category="paragraph">스캔은 원본 스캔과 동일한 구성으로 재시도합니다. 스캔이 다시 실패하면 필요한 만큼 다시 시도할 수 있습니다.</block>
-  <block id="03b61f1818fbb0c7e0a356c942abdc31" category="paragraph">기본적으로 스캔은 시작된 순서에 따라 대기합니다. 스캔 우선 순위 지정 기능을 통해 이제 스캔을 대기열 앞으로 이동할 수 있습니다. 여러 스캔의 우선 순위를 지정할 수 있습니다. 우선 순위는 선입선출 순서로 지정됩니다. 즉, 우선 순위를 지정한 첫 번째 스캔이 대기열의 맨 앞으로 이동하고 우선 순위를 지정한 두 번째 스캔은 대기열의 두 번째 스캔이 됩니다.</block>
   <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">우선 순위는 한 번만 부여됩니다. 매핑 데이터의 자동 재검색이 기본 순서로 수행됩니다.</block>
   <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">매핑 전용 스캔</block>
   <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">모든 스캔을 재시도합니다</block>
-  <block id="06243660aeb549bac73e7c160d2d2a70" category="paragraph">이제 BlueXP  분류는 실패한 모든 스캔을 일괄 재시도하는 기능을 지원합니다.</block>
-  <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">이제 ** Retry All** 기능을 사용하여 일괄 작업으로 스캔을 다시 시도할 수 있습니다. 네트워크 중단과 같은 일시적인 문제로 인해 분류 스캔이 실패하는 경우 개별적으로 다시 시도하지 않고 하나의 버튼으로 모든 스캔을 동시에 다시 시도할 수 있습니다. 스캔은 필요한 만큼 재시도할 수 있습니다.</block>
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">모든 스캔을 재시도하려면:</block>
   <block id="b12f5b59c684a779545a1b1213dd66bc" category="paragraph">BlueXP  분류에서 두 가지 유형의 스캔을 수행할 수 있습니다.</block>
   <block id="942a04054c6b1ae7f7628fd51272bc4f" category="cell">스캔 매핑 및 분류</block>
@@ -2994,7 +2971,6 @@
   <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="doc">버전 1.41</block>
   <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">이 BlueXP  분류 릴리스에는 일반적인 개선 사항 및 버그 수정이 포함되어 있습니다. 여기에는 다음이 포함됩니다.</block>
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">스캔 상태</block>
-  <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">이제 BlueXP  분류는 볼륨에서 _initial_mapping 및 분류 스캔의 실시간 진행률을 추적합니다. 별도의 프로그레시브 바는 매핑 및 분류 스캔을 추적하여 스캔된 총 파일의 백분율을 표시합니다. 진행 표시줄 위로 마우스를 가져가면 스캔한 파일 수와 총 파일 수를 볼 수도 있습니다. 스캔 상태를 추적하면 스캔 진행 상황을 더 자세히 파악할 수 있으므로 스캔 계획을 개선하고 리소스 할당을 이해할 수 있습니다.</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">스캔 상태를 보려면 BlueXP  분류에서 ** 구성**으로 이동한 다음 ** 작업 환경 구성** 을 선택합니다. 진행 상황은 각 볼륨에 대해 일렬로 표시됩니다.</block>
   <block id="126d0a183cd7ef5a42d98232cfc78c9e" category="admonition">데이터 조사 페이지에서 스캔에 대해 처음 10,000개의 결과 또는 500페이지의 결과만 볼 수 있습니다.</block>
   <block id="9fb67493aa2d989d001de2e7c4462b4e" category="paragraph">파일 또는 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹 및 권한 유형 목록을 보려면 * 모든 권한 보기 * 를 선택합니다. 이 버튼은 CIFS 공유의 데이터에만 사용할 수 있습니다.</block>
@@ -3058,7 +3034,6 @@
   <block id="81aef4d88b3543fe7ce12740f599c026" category="paragraph">파일은 고정된 수의 행 또는 레코드가 있는 파일로 분할됩니다.</block>
   <block id="65c07610fb212d644f234075537bbc84" category="list-text">CSV - 200,000개의 레코드</block>
   <block id="8897cd6292ab12bb81d8704c400fca96" category="list-text">JSON - 100,000개의 레코드</block>
-  <block id="717dba055ce0e5275de4fbe6a15bb3f7" category="paragraph">2024년 5월 버전 1.31부터 BlueXP 분류를 추가 비용 없이 BlueXP 내에서 핵심 기능으로 사용할 수 있습니다. 분류 라이선스 또는 가입이 필요하지 않습니다. BlueXP  분류 기능은 NetApp 스토리지 시스템에 집중되어 있으므로 사용하지 않거나 적게 사용되는 일부 기능은 더 이상 사용되지 않습니다.</block>
   <block id="781c4c76cc2b33e7ebecd0ec7ae9a2c7" category="section-title">BlueXP  분류 스캔 작동 방식</block>
   <block id="474cf46df0c1e9c8d98c2f529a0b080b" category="paragraph">상위 수준에서 BlueXP  분류 스캔은 다음과 같이 작동합니다.</block>
   <block id="20d2a2e8543925af69154c91d0f12b74" category="list-text">하나 이상의 데이터 소스에서 상위 수준 매핑(_Mapping Only_scans라고 함) 또는 상세 수준 스캔(_Map &amp; Classify_scans 라고 함)을 사용할 수 있습니다.</block>
@@ -3315,9 +3290,7 @@
   <block id="33fc2a8f6921fec02571495993aa2c6c" category="doc">버전 1.42</block>
   <block id="83962582dc3c189ba60063fe7990755c" category="paragraph">이 BlueXP  분류 릴리스에는 다음이 포함됩니다.</block>
   <block id="2dcf334efa4f886393cac0e44ff5a917" category="paragraph-title">작업 환경을 위한 대량 스캔</block>
-  <block id="57e954d06c81eea089fcb04e61b1c429" category="paragraph">BlueXP  분류는 이제 작업 환경에 대한 대량 작업을 지원합니다. 스캔 매핑 활성화, 스캔 매핑 및 분류 활성화, 스캔 비활성화 또는 작업 환경의 볼륨에 대한 사용자 정의 구성 생성을 선택할 수 있습니다. 개별 볼륨에 대해 선택하면 대량 선택이 무시됩니다. 대량 작업을 수행하려면 ** 구성** 페이지로 이동하여 선택합니다.</block>
   <block id="7c021042892d25e3e5d4271749e03344" category="paragraph-title">조사 보고서를 로컬로 다운로드합니다</block>
-  <block id="a8539b02096aea65d2e102c01a482c71" category="paragraph">이제 BlueXP  분류는 데이터 조사 보고서를 로컬로 다운로드하여 브라우저에서 볼 수 있는 기능을 지원합니다. 로컬 옵션을 선택하면 데이터 조사는 CSV 형식으로만 사용할 수 있으며 처음 10,000개의 데이터 행만 표시됩니다.</block>
   <block id="95403a677c140fea03f157c2edb41c85" category="paragraph">자세한 내용은 을 <block ref="55ff936b35b23a6f6693627bfb444c62" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="84acc1c8e6e80bda04b6eac437f19154" category="admonition">CSV 파일 버전을 다운로드하여 이 브라우저에서 볼 수 있습니다. 이 버전은 10,000개의 레코드로 제한됩니다.</block>
   <block id="05035e3bc31af3e060bb6a5ed03e7988" category="list-text">** 보고서 이름** 을 입력합니다.</block>
@@ -3375,13 +3348,10 @@
   <block id="422ba0edf6ed9e7533f09398a27021dc" category="admonition">이 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.</block>
   <block id="67840d2b3ccd99d7c6db2904273f95ef" category="doc">버전 1.43</block>
   <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">분류 스캔의 우선 순위를 지정합니다</block>
-  <block id="0dc348cb820b479010800e3c6cddc127" category="paragraph">이제 BlueXP  분류는 매핑 전용 스캔뿐만 아니라 스캔 지도 및 분류 우선 순위를 지정할 수 있는 기능을 지원하므로 먼저 완료된 스캔을 선택할 수 있습니다. 맵 및 분류 스캔의 우선 순위는 스캔이 시작되는 동안과 그 전에 지원됩니다. 스캔이 진행 중일 때 스캔 우선 순위를 지정하도록 선택하면 매핑 및 분류 스캔이 모두 우선 순위가 지정됩니다.</block>
   <block id="d58e3b3044e314bd5b914f8e22d6a0a8" category="paragraph-title">캐나다 PII(개인 식별 정보) 데이터 범주 지원</block>
-  <block id="25afe4e8f395663d2442297e33aa8a20" category="paragraph">BlueXP  분류 검사는 이제 모든 주 및 지역에 대한 은행 정보, 여권 번호, 사회 보험 번호, 운전 면허 번호 및 건강 카드 번호에 대한 캐나다 PII 데이터 범주를 식별합니다.</block>
   <block id="841ba72ee4bfb55c34ecc91bca130388" category="inline-xref-macro">개인 데이터 범주</block>
   <block id="8ac2e225945f40bbf038dd67449b1841" category="paragraph">자세한 내용은 을 참조하십시오<block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>.</block>
   <block id="0faf34dc58fa8cc3526b8a0a51850b2b" category="paragraph-title">사용자 지정 분류(미리 보기)</block>
-  <block id="e43dc9231ca750651c1b2d09176b0bc3" category="paragraph">이제 BlueXP  분류는 지도 및 분류 스캔에 대한 사용자 정의 분류를 지원합니다. 사용자 지정 분류를 사용하면 BlueXP  스캔을 사용자 지정하여 정규식을 준수하도록 조직별 데이터를 캡처할 수 있습니다. 이 기능은 현재 미리보기 중입니다.</block>
   <block id="68fcca37a232a8993c6b392c92803de3" category="inline-xref-macro">사용자 지정 분류를 추가합니다</block>
   <block id="293ef51708e6a5ff00afa3b03fc38173" category="paragraph">자세한 내용은 을 <block ref="5c3ba05e723fa646f41c75d6d8a263d3" category="inline-xref-macro-rx"></block>참조하십시오.</block>
   <block id="dcc61fc6bf6aa17ea807ec107b3f9682" category="paragraph-title">저장된 검색 탭</block>
@@ -3504,5 +3474,37 @@
   <block id="60be04fe141df250bce893e57d19600d" category="sidebar">저장된 검색을 만듭니다</block>
   <block id="cbace44a9d78dedfcb62fa58fee0378f" category="sidebar">사용자 정의 스캔을 생성합니다</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">스캔 이벤트를 BlueXP  타임라인으로 보냅니다</block>
-  <block id="2fb6ac863fbf4be01901268bf08e147f" category="paragraph">이제 BlueXP  분류는 에 분류 이벤트(스캔이 시작되었을 때와 종료되었을 때)를 보낼 수 있도록 <block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>지원합니다.</block>
+  <block id="3c857514c210414567713ffec9077aff" category="paragraph">BlueXP  분류는 StorageGRID에서 데이터 스캔을 지원합니다.</block>
+  <block id="cb79cf2c786ed3992ebf9c4489793af5" category="paragraph">기본적으로 스캔은 시작된 순서에 따라 대기합니다. 스캔 우선 순위 지정 기능을 통해 스캔을 대기열 앞으로 이동할 수 있습니다. 여러 스캔의 우선 순위를 지정할 수 있습니다. 우선 순위는 선입선출 순서로 지정됩니다. 즉, 우선 순위를 지정한 첫 번째 스캔이 대기열의 맨 앞으로 이동하고 우선 순위를 지정한 두 번째 스캔은 대기열의 두 번째 스캔이 됩니다.</block>
+  <block id="fc758db0d443b9a8e3de231c43de89d5" category="paragraph">BlueXP  분류는 실패한 모든 스캔을 일괄 재시도하는 기능을 지원합니다.</block>
+  <block id="ce19c0b7b750b810547f423b2290cfd8" category="paragraph">** Retry All** 기능을 사용하여 일괄 작업으로 스캔을 다시 시도할 수 있습니다. 네트워크 중단과 같은 일시적인 문제로 인해 분류 스캔이 실패하는 경우 개별적으로 다시 시도하지 않고 하나의 버튼으로 모든 스캔을 동시에 다시 시도할 수 있습니다. 스캔은 필요한 만큼 재시도할 수 있습니다.</block>
+  <block id="6a5c0bfd72f9b6c51f4f17f0d32a0bf5" category="paragraph">BlueXP  분류는 볼륨에서 _initial_mapping 및 분류 스캔의 실시간 진행 상황을 추적합니다. 별도의 프로그레시브 바는 매핑 및 분류 스캔을 추적하여 스캔된 총 파일의 백분율을 표시합니다. 진행 표시줄 위로 마우스를 가져가면 스캔한 파일 수와 총 파일 수를 볼 수도 있습니다. 스캔 상태를 추적하면 스캔 진행 상황을 더 자세히 파악할 수 있으므로 스캔 계획을 개선하고 리소스 할당을 이해할 수 있습니다.</block>
+  <block id="530bfca85ebf27593e2eac002245d941" category="paragraph">BlueXP  분류는 작업 환경에 대한 대량 작업을 지원합니다. 스캔 매핑 활성화, 스캔 매핑 및 분류 활성화, 스캔 비활성화 또는 작업 환경의 볼륨에 대한 사용자 정의 구성 생성을 선택할 수 있습니다. 개별 볼륨에 대해 선택하면 대량 선택이 무시됩니다. 대량 작업을 수행하려면 ** 구성** 페이지로 이동하여 선택합니다.</block>
+  <block id="5914525550e0efce454828b3fc5f9313" category="paragraph">BlueXP  분류는 데이터 조사 보고서를 로컬로 다운로드하여 브라우저에서 볼 수 있는 기능을 지원합니다. 로컬 옵션을 선택하면 데이터 조사는 CSV 형식으로만 사용할 수 있으며 처음 10,000개의 데이터 행만 표시됩니다.</block>
+  <block id="36df48405a6f112e4df550bf1db8906b" category="paragraph">BlueXP  분류는 매핑 전용 스캔뿐만 아니라 스캔 지도 및 분류 우선 순위를 지정할 수 있는 기능을 지원하므로 먼저 완료된 스캔을 선택할 수 있습니다. 맵 및 분류 스캔의 우선 순위는 스캔이 시작되는 동안과 그 전에 지원됩니다. 스캔이 진행 중일 때 스캔 우선 순위를 지정하도록 선택하면 매핑 및 분류 스캔이 모두 우선 순위가 지정됩니다.</block>
+  <block id="ae255a27ba2651659f967ba73acaf7ff" category="paragraph">BlueXP  분류 스캔은 은행 정보, 여권 번호, 사회 보험 번호, 운전 면허 번호 및 모든 주 및 지역에 대한 건강 카드 번호에 대한 캐나다 PII 데이터 범주를 식별합니다.</block>
+  <block id="99d324505a57bb8cfa4f2be38690da37" category="paragraph">BlueXP  분류는 지도 및 분류 스캔에 대한 사용자 정의 분류를 지원합니다. 사용자 지정 분류를 사용하면 BlueXP  스캔을 사용자 지정하여 정규식을 준수하도록 조직별 데이터를 캡처할 수 있습니다. 이 기능은 현재 미리보기 중입니다.</block>
+  <block id="ef37a49c1c224f5d438865198ffa4329" category="paragraph">BlueXP  분류는 에 분류 이벤트(스캔이 시작되었을 때 및 종료되었을 때)를 보낼 수 있도록 <block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>지원합니다.</block>
+  <block id="c90892d942290d1e3f7e24962cdcf860" category="admonition">버전 1.31부터 BlueXP  분류는 BlueXP 의 핵심 기능으로 제공됩니다. 추가 비용은 없습니다. 분류 라이선스 또는 가입이 필요하지 않습니다.</block>
+  <block id="c75e25f64e8cd1943eed51ff64a1b8cf" category="paragraph">+ 기존 버전 1.30 이하를 사용 중이라면 구독이 만료될 때까지 해당 버전을 사용할 수 있습니다. <block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>..</block>
+  <block id="9688e61f362299cd1c72fb3dac40d459" category="paragraph">BlueXP  분류는 무료로 사용할 수 있습니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다.</block>
+  <block id="c9592ef6d87170043628925b775e21a9" category="list-text">프록시는 투명하지 않아야 합니다. BlueXP  Classicaiton은 현재 투명 프록시를 지원하지 않습니다.</block>
+  <block id="1baa4497e4f5fcbb6d939687ae9bf242" category="admonition">BlueXP  분류에서는 regex를 생성할 때 패턴 플래그를 지원하지 않습니다. 이는 "/"를 사용해서는 안 된다는 의미입니다.</block>
+  <block id="478002532c0e9d87506035f8afb96c61" category="list-text">* 실행 중 * (녹색 점): 대기열에 있던 스캔 작업이 선택한 저장소 리포지토리에서 진행 중입니다.</block>
+  <block id="2d018dff61f63f937cfb5d226fca5491" category="admonition">다음 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.</block>
+  <block id="8410773aea4e8f5fda4e98ce13c101df" category="paragraph">+ 버전 1.31부터 BlueXP  분류는 핵심 BlueXP  제품의 일부입니다. 자세한 내용은 을 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="247847c7f8a374d1ec15dd635dc10755" category="paragraph">= = 빠른 시작</block>
+  <block id="f502c96b3152f0f8804a4a20142b8076" category="paragraph">== 오브젝트 스토리지 요구 사항 검토</block>
+  <block id="f8df4d0a70cf080f5c409b0c2484ccd3" category="paragraph">== BlueXP  분류 인스턴스 배포</block>
+  <block id="587be5e803069c9a812c8a5d853e293f" category="paragraph">== BlueXP  분류에 오브젝트 스토리지 서비스 추가</block>
+  <block id="d84a69103d33679879ff8ef5b35b5b1e" category="paragraph">== 오브젝트 스토리지 버킷에서 규정 준수 스캔 활성화 및 비활성화</block>
+  <block id="cdde1a1bd8cf3465f2f0be76f0538e93" category="list-text">최대 CLI/API 세션 지속 시간 * 을 1시간에서 12시간으로 변경합니다. 변경 사항을 저장합니다.</block>
+  <block id="21c270b5c383cf7064093b0641efa2a2" category="list-text">Attach policies * 를 선택한 후 * Create policy * 를 선택합니다.</block>
+  <block id="5e4a3a973c4b69d34bc9fa0a170ac878" category="paragraph">BlueXP  분류 인스턴스 프로필 계정은 추가 AWS 계정에 대한 액세스 권한을 받습니다.</block>
+  <block id="e1e416906cce6cd47dad2d742e509440" category="list-text">Amazon S3 Configuration * 페이지로 이동하면 새 AWS 계정이 표시됩니다. BlueXP 분류는 새 계정의 작업 환경을 동기화하고 이 정보를 표시하는 데 몇 분 정도 걸릴 수 있습니다.</block>
+  <block id="23385cfa4aad421683dffdb4290709df" category="list-text">정책 목록 페이지에서 이메일 설정을 추가(또는 변경)하려는 정책에 대해 * 편집 * 을 선택합니다.</block>
+  <block id="4d758655ac5ea7a312073b18e9cbcdff" category="list-text">정책 저장 * 을 선택하면 이메일이 전송되는 간격이 정책 설명에 나타납니다.</block>
+  <block id="3c3eb995ad4feba61dadfbcae0576ca4" category="paragraph">정책 기준을 충족하는 파일이 있으면 이메일이 전송됩니다. 알림 이메일에는 개인 정보가 전송되지 않습니다. e-메일은 정책 기준과 일치하는 파일이 있음을 나타내고 정책 결과에 대한 링크를 제공합니다.</block>
+  <block id="fe2063e5676e0308022c99eb2466140c" category="paragraph-title">조사 페이지 결과에는 총 항목 수와 함께 총 크기가 표시됩니다</block>
+  <block id="6cff48344cb111c0fcdb424ba18c6bcf" category="paragraph">조사 페이지의 필터링된 결과에는 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
 </blocks>
