@@ -797,7 +797,6 @@
   <block id="bbc0bef191e546654d479088a63463e8" category="section-title">Active Directory 통합을 관리합니다</block>
   <block id="ca3e2e8380ad6cedd810ec4fc49fa9e7" category="paragraph">Active Directory 통합에서 값을 수정해야 하는 경우 * Edit * (편집 *) 버튼을 클릭하여 변경합니다.</block>
   <block id="024205acf9405311336c02bbd2193b70" category="inline-image-macro">자세히 단추</block>
-  <block id="e0beb155f64410441b0e76c0d0350422" category="paragraph">통합이 더 이상 필요하지 않을 경우 버튼을 클릭한 다음 * Active Directory 제거 * 를 클릭하여 통합을 삭제할 수도 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
   <block id="0ee0dd7645f9fd01a3094af2719826bf" category="summary">그룹 ID가 NFS 파일 공유의 파일 또는 폴더에 첨부되면 파일 또는 폴더에 대한 사용 권한을 정의합니다(예: "조직에 열려 있음"). 일부 GID(그룹 ID)가 처음에 "Open to Organization" 권한 수준으로 설정되지 않은 경우 GID에 해당 권한을 추가하여 GID가 첨부된 모든 파일 및 폴더가 "Open to the Organization"으로 간주되도록 할 수 있습니다.</block>
   <block id="54f4d6ea6929f3157249a7232005ba31" category="paragraph">그룹 ID(GID)가 NFS 파일 공유의 파일 또는 폴더에 첨부되면 파일 또는 폴더에 대한 사용 권한을 정의합니다(예: 해당 GID가 "조직에 열려 있는지"). 일부 GID(그룹 ID)가 처음에 "Open to Organization" 권한 수준으로 설정되지 않은 경우 GID에 해당 권한을 추가하여 GID가 첨부된 모든 파일 및 폴더가 "Open to the Organization"으로 간주되도록 할 수 있습니다.</block>
   <block id="85755c2c4a65adf46f4aed267e145acd" category="paragraph">이렇게 변경하고 BlueXP 분류에서 파일과 폴더를 다시 검사하면 이러한 그룹 ID가 첨부된 모든 파일 및 폴더가 조사 세부 정보 페이지에 이 권한을 표시하고 파일 권한을 표시하는 보고서에도 표시됩니다.</block>
@@ -961,7 +960,6 @@
   <block id="5de07b40dee2a8b07f30a0fd66bd33fa" category="section-title">사전 요구 사항을 검토합니다</block>
   <block id="78b65cf97b25c47011081025c212c7c0" category="paragraph">클라우드에 BlueXP 분류를 배포하기 전에 다음 사전 요구 사항을 검토하여 지원되는 구성이 있는지 확인합니다. 클라우드에 BlueXP 분류를 배포할 때 Connector와 동일한 서브넷에 위치합니다.</block>
   <block id="a3c7cd542dbae9813f2f591e1d616bf8" category="list-text">BlueXP 분류에서 아웃바운드 인터넷 액세스를 활성화합니다</block>
-  <block id="a215e2fc4fb56a1de009d0523096d557" category="list-text">BlueXP 분류에는 아웃바운드 인터넷 액세스가 필요합니다. 가상 또는 물리적 네트워크에서 인터넷 액세스에 프록시 서버를 사용하는 경우 BlueXP 분류 인스턴스에 다음 엔드포인트에 연결할 수 있는 아웃바운드 인터넷 액세스 권한이 있는지 확인합니다. 프록시는 투명하지 않아야 합니다. 현재 투명 프록시를 지원하지 않습니다.</block>
   <block id="6a942fef40095cafe3b15d4e4f2a1ab3" category="paragraph">AWS, Azure 또는 GCP에서 BlueXP 분류를 배포하는지 여부에 따라 아래 적절한 표를 검토하십시오.</block>
   <block id="4ea85be63fc1085d8a7d469d21ced42a" category="open-title">AWS에 필요한 엔드포인입니다</block>
   <block id="b8724da75fb917e992576b17378e66b3" category="cell">엔드포인트</block>
@@ -1652,7 +1650,6 @@
   <block id="4c119835311ae84a5afed96ff0102202" category="summary">필요한 경우 하나 이상의 작업 환경, 데이터베이스, 파일 공유 그룹, OneDrive 계정, Google Drive 계정, SharePoint 계정을 사용할 수 있습니다.</block>
   <block id="1b37870dae094b28860019e52e52b4ff" category="doc">BlueXP 분류에서 OneDrive, SharePoint 또는 Google Drive 계정 제거</block>
   <block id="433023fd6c6c23d39387bf9b74dda504" category="paragraph">특정 OneDrive 계정, 특정 SharePoint 계정 또는 Google Drive 계정에서 사용자 파일을 더 이상 스캔하지 않으려는 경우 BlueXP 분류 인터페이스에서 계정을 삭제하고 모든 스캔을 중지할 수 있습니다.</block>
-  <block id="9d1c29dc777962e9fef8dd6f8f0fd186" category="list-text">Configuration_ 페이지에서 OneDrive, SharePoint 또는 Google Drive 계정 행에 있는 버튼을 클릭한 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>다음 * OneDrive 계정 제거 *, * SharePoint 계정 제거 * 또는 * Google Drive 계정 제거 * 를 클릭합니다.</block>
   <block id="9a7ec6e6b57682d3f33ce7ea4bef0f5a" category="inline-image-macro">스캔 구성 페이지의 OneDrive 제거 단추 스크린샷</block>
   <block id="1bd56f7fb7715259e9afebe5fa03e87f" category="paragraph"><block ref="1bd56f7fb7715259e9afebe5fa03e87f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="94c6852fcc39c16d9167a10bb916b459" category="list-text">확인 대화 상자에서 * 계정 삭제 * 를 클릭합니다.</block>
@@ -1660,18 +1657,15 @@
   <block id="d5df7f1adc0549d5d2d0ee68a72f9535" category="paragraph">필요한 경우 BlueXP 분류를 통해 하나 이상의 작업 환경, 데이터베이스 또는 파일 공유 그룹을 스캔하지 않아도 됩니다.</block>
   <block id="f2a38a886f233571decf9ce6bf113922" category="section-title">작업 환경에 대한 규정 준수 검사를 비활성화합니다</block>
   <block id="fc92855a6c0e88610803c1973a785908" category="paragraph">스캔을 비활성화하면 BlueXP 분류는 작업 환경의 데이터를 더 이상 스캔하지 않고 BlueXP 분류 인스턴스에서 인덱싱된 규정 준수 정보를 제거합니다(작업 환경 자체의 데이터는 삭제되지 않음).</block>
-  <block id="b23c9bc520892f0b32a5b14652f531a4" category="list-text">Configuration_ 페이지에서 작업 환경의 행에 있는 버튼을 클릭한 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>다음 * Deactivate Data Sense * 를 클릭합니다.</block>
   <block id="a07772f300fa1187741adbb9b0ee2c93" category="inline-image-macro">BlueXP 분류 비활성화를 선택할 수 있는 작업 아이콘의 스크린샷. 이 옵션은 Canvas 페이지에서 작업 환경을 선택한 후에 사용할 수 있습니다.</block>
   <block id="10f0cbf4c3001c6cbff3244aad2777b0" category="paragraph"><block ref="10f0cbf4c3001c6cbff3244aad2777b0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="849e144b677eb32e7e98186935864d3b" category="admonition">작업 환경을 선택할 때 서비스 패널에서 작업 환경에 대한 준수 검사를 비활성화할 수도 있습니다.</block>
   <block id="29c23a4578d5d41743894525117283bb" category="section-title">BlueXP 분류에서 데이터베이스를 제거합니다</block>
   <block id="5f41cf1c2ac9e53c33bdb8764109a714" category="paragraph">특정 데이터베이스를 더 이상 스캔하지 않으려면 BlueXP 분류 인터페이스에서 해당 데이터베이스를 삭제하고 모든 스캔을 중지할 수 있습니다.</block>
-  <block id="c129bc0408ce8224fad586d944537ce4" category="list-text">Configuration_ 페이지에서 데이터베이스 행에 있는 버튼을 클릭한 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>다음 * Remove DB Server * 를 클릭합니다.</block>
   <block id="3d04e82ecfc4b95e7eb8eaf404dffadc" category="inline-image-macro">스캔 구성 페이지의 DB 서버 제거 단추 스크린샷</block>
   <block id="b695958db24ae26377f1c2e3a62b14eb" category="paragraph"><block ref="b695958db24ae26377f1c2e3a62b14eb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2cc15b4049873c916d856924a44717cd" category="section-title">BlueXP 분류에서 파일 공유 그룹을 제거합니다</block>
   <block id="a9d369d1761364753b450ab895adcd47" category="paragraph">더 이상 파일 공유 그룹에서 사용자 파일을 스캔하지 않으려는 경우 BlueXP 분류 인터페이스에서 파일 공유 그룹을 삭제하고 모든 검사를 중지할 수 있습니다.</block>
-  <block id="49fae8728abc8ffde6080b69c8a80552" category="list-text">Configuration_ 페이지에서 File Shares Group 행에 있는 버튼을 클릭한 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>다음 * Remove File Shares Group * 을 클릭합니다.</block>
   <block id="899aa3cff4cde9f48d2fbceab4329349" category="inline-image-macro">스캔 구성 페이지의 파일 공유 그룹 제거 단추 스크린샷</block>
   <block id="23785f6732c3c514916bbd8928a06972" category="paragraph"><block ref="23785f6732c3c514916bbd8928a06972" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4eeea4d2c00cd83e33db552c5d9445b2" category="list-text">확인 대화 상자에서 * 공유 그룹 삭제 * 를 클릭합니다.</block>
@@ -2351,9 +2345,7 @@
   <block id="a9ec5ce178b0bf158cc0b058a75222be" category="list-text">메시지가 표시되면 가 있는 BlueXP  분류 인스턴스에 IAM 역할을 <block ref="27b52f38738d689881a76b49c98ec7ec" category="inline-xref-macro-rx"></block>할당합니다.</block>
   <block id="9d71010686428b63401d21389a87983b" category="inline-image-macro">BlueXP 분류에 대한 AWS IAM 역할 입력 스크린샷</block>
   <block id="d6024ec0f0750e8f3ff480afef31e8a6" category="paragraph"><block ref="d6024ec0f0750e8f3ff480afef31e8a6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="909d8cdc7c100d1834d4de10094f43ca" category="list-text">사용 * 을 클릭합니다.</block>
   <block id="0fe1279b28d533b32c08d839691ef653" category="inline-image-macro">세 개의 점</block>
-  <block id="e56ef2e2348492a4f0e1e9513b068cc4" category="admonition">구성 페이지에서 버튼을 클릭하고 * BlueXP  분류 활성화 * 를 선택하여 작업 환경에 대한 규정 준수 검사를 활성화할 수도 <block ref="a759a567ce9a72b21fd45f48f1f358c8" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
   <block id="859a5985b2a5cefc45dc9f226a5d5ba7" category="paragraph">BlueXP는 인스턴스에 IAM 역할을 할당합니다.</block>
   <block id="e18a75263bcb68f3fcffe930704c1b61" category="section-title">S3 버킷에서 규정 준수 스캔 활성화 및 비활성화</block>
   <block id="a09f1d7b84a96466ba7bd8852ed92c89" category="paragraph">BlueXP에서 Amazon S3에서 BlueXP 분류를 사용하도록 설정한 후 다음 단계는 스캔할 버킷을 구성하는 것입니다.</block>
@@ -2568,10 +2560,8 @@
   <block id="f93e118724d27bde2efdff3938b9b6df" category="paragraph">필요한 단계는 클라우드에 BlueXP 분류를 배포했는지 또는 온프레미스 호스트에 배포했는지에 따라 달라집니다.</block>
   <block id="8d8f6d516c2b2976c4b330129843859b" category="section-title">클라우드 배포에서 BlueXP 분류를 제거합니다</block>
   <block id="809de3d4b48cba202a3e92df9b5646ca" category="paragraph">BlueXP 분류를 더 이상 사용하지 않으려는 경우 클라우드 공급자 환경에서 BlueXP 분류 인스턴스를 제거하고 삭제할 수 있습니다.</block>
-  <block id="fb718f900bda591d59ded552d9f94de8" category="list-text">BlueXP  분류 페이지 맨 위에서 를 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>클릭한 다음 * 데이터 감지 제거 * 를 클릭합니다.</block>
   <block id="36c78ffc00f44e6669853141b4757135" category="inline-image-macro">BlueXP 분류 소프트웨어를 제거하는 단추 스크린샷.</block>
   <block id="f4b93d0f798b3e20a2411b62607f9933" category="paragraph"><block ref="f4b93d0f798b3e20a2411b62607f9933" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7b608a074398a486bc744655598680ea" category="list-text">데이터 감지 제거 대화 상자에서 * 제거 * 를 입력하여 BlueXP 커넥터에서 BlueXP 분류 인스턴스를 분리할지 확인한 다음 * 제거 * 를 클릭합니다.</block>
   <block id="f10f83db534963d9efae7a297e100091" category="list-text">클라우드 공급자의 콘솔로 이동하여 BlueXP 분류 인스턴스를 삭제합니다. 인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_</block>
   <block id="961ca08e58e9f85191f5707bc4dac07a" category="paragraph">그러면 인스턴스 및 BlueXP 분류에서 수집한 모든 관련 데이터가 삭제됩니다.</block>
   <block id="a3b42cd70d6e63a58b881566f7a8992b" category="section-title">온-프레미스 배포에서 BlueXP 분류를 제거합니다</block>
@@ -2627,7 +2617,6 @@
   <block id="a620f7ab4fc25849a31718c76e9d7fa1" category="list-text">정책 저장 * 을 클릭하면 정책 설명에 레이블이 나타납니다.</block>
   <block id="bb59c9be972bc7568c57f54fdc257244" category="admonition">정책을 레이블로 구성했지만 이후 AIP에서 레이블이 제거된 경우 레이블 이름이 꺼짐으로 설정되고 레이블이 더 이상 할당되지 않습니다.</block>
   <block id="7cbe4840b4a3a2fdf1f9286da7e2b284" category="inline-image-macro">필터 설정을 변경하여 쿼리를 편집하는 방법을 보여 주는 스크린샷</block>
-  <block id="289758d7ef2e573a0ee7824d5814b945" category="paragraph"><block ref="289758d7ef2e573a0ee7824d5814b945" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fe2e5277ceed073489ebfe172d4ae0e3" category="summary">100개의 파일을 삭제하는 등 여러 파일에 대해 조사 결과 창에서 작업을 실행할 경우 프로세스에 약간의 시간이 걸릴 수 있습니다. 작업 상태 창에서 이러한 비동기 작업의 상태를 모니터링하여 모든 파일에 언제 적용되었는지 확인할 수 있습니다.</block>
   <block id="c06ccfe24df0bff683583f82911916e0" category="paragraph">100개의 파일을 이동하거나 삭제하는 등 여러 파일에 걸쳐 조사 결과 창에서 비동기 작업을 실행할 경우 프로세스에 시간이 걸릴 수 있습니다. 이러한 작업의 상태를 _Action Status_창에서 모니터링할 수 있으므로 모든 파일에 적용된 시기를 알 수 있습니다.</block>
   <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">이를 통해 성공적으로 완료된 작업, 현재 진행 중인 작업 및 실패한 작업을 볼 수 있으므로 문제를 진단하고 해결할 수 있습니다. 단일 파일 이동과 같이 빠르게 완료되는 짧은 작업은 작업 상태 창에 나타나지 않습니다.</block>
@@ -3084,7 +3073,6 @@
   <block id="1f4e12eb3b2fcb4ce87b8ed675d3270c" category="list-text">PII를 보다 안전한 데이터 저장소로 이동하여 개인 또는 민감한 개인 정보가 있는 데이터를 보호합니다</block>
   <block id="51fa6e6a2210eb170b2beeb8f80f89c1" category="list-text">Data Discovery Assessment Report * 를 선택합니다.</block>
   <block id="a4d3102e7150e95ee7150787c5049f47" category="list-text">Full Data Mapping Overview Report * 를 선택합니다.</block>
-  <block id="163b2c36f19b004df4f67d322c1b39af" category="list-text">보고서의 첫 페이지에 나타나는 회사 이름을 사용자 지정하려면 BlueXP  분류 페이지의 오른쪽 위에서 을 선택합니다<block ref="205cf72ce215a0005a3d486daae4dd1a" category="inline-image-macro-rx" type="image"></block>. 그런 다음 * 회사 이름 변경 * 을 선택합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.</block>
   <block id="4cbb02ef6d1ee9902b65e08b42b83a08" category="list-text">각 범주의 총 항목 수를 보려면 막대의 각 섹션 위에 커서를 놓습니다.</block>
   <block id="78e705dbea0d34c81ef33941cfdd7c20" category="list-text">각 범주의 총 파일 수를 보려면 각 상자 위에 커서를 놓습니다.</block>
   <block id="d2bc42c21eb303e3f8120f5a184e4544" category="list-text">데이터 기간 차트에서 데이터 기간에 대한 세부 정보를 보려면 차트의 한 지점에 커서를 놓습니다.</block>
@@ -3343,14 +3331,11 @@
   <block id="03624a0e3cf06ce697a55ae458b36245" category="cell">미국 텍사스 운전 면허증</block>
   <block id="9501674588409f4d41d4dd0d16106531" category="inline-link-macro">조사 페이지에서 데이터 필터링</block>
   <block id="5905cce43eb3cf5df34ad20687132905" category="list-text">조사 탭에서 사용할 필터를 선택하여 검색을 정의합니다. 자세한 내용은 을 <block ref="fc016879136ae59a01dc15bd1e0ae029" category="inline-link-macro-rx"></block> 참조하십시오.</block>
-  <block id="b661e4ea30af73a913aed1e7ae647f4a" category="paragraph">저장된 쿼리에 대한 필터를 변경하려면 * 쿼리 편집 * 을 선택합니다.</block>
-  <block id="1c76b2a61ae25c65703ed4c7e9a61c05" category="list-text">해당 쿼리를 정의하는 조사 페이지에서 필터를 추가, 제거 또는 사용자 지정하여 쿼리를 편집한 다음 * 변경 내용 저장 * 을 선택합니다.</block>
   <block id="422ba0edf6ed9e7533f09398a27021dc" category="admonition">이 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.</block>
   <block id="67840d2b3ccd99d7c6db2904273f95ef" category="doc">버전 1.43</block>
   <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">분류 스캔의 우선 순위를 지정합니다</block>
   <block id="d58e3b3044e314bd5b914f8e22d6a0a8" category="paragraph-title">캐나다 PII(개인 식별 정보) 데이터 범주 지원</block>
   <block id="841ba72ee4bfb55c34ecc91bca130388" category="inline-xref-macro">개인 데이터 범주</block>
-  <block id="8ac2e225945f40bbf038dd67449b1841" category="paragraph">자세한 내용은 을 참조하십시오<block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>.</block>
   <block id="0faf34dc58fa8cc3526b8a0a51850b2b" category="paragraph-title">사용자 지정 분류(미리 보기)</block>
   <block id="68fcca37a232a8993c6b392c92803de3" category="inline-xref-macro">사용자 지정 분류를 추가합니다</block>
   <block id="293ef51708e6a5ff00afa3b03fc38173" category="paragraph">자세한 내용은 을 <block ref="5c3ba05e723fa646f41c75d6d8a263d3" category="inline-xref-macro-rx"></block>참조하십시오.</block>
@@ -3384,13 +3369,7 @@
   <block id="4b760cb0a54b4c608b7deaa08d52f3c3" category="paragraph">사용자 지정 검색어를 만들어 조직에 맞는 개인 데이터를 식별할 수도 있습니다. 자세한 내용은 을 <block ref="702fa1a9e503f253a2dc3aea49d5216d" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="8158b41ed99f0be207895156b4fd03bd" category="summary">BlueXP  분류를 사용하면 중요한 정보에 대한 검색을 사용자 지정하여 조직과 관련된 개별 패턴 및 키워드에 맞게 서비스를 조정할 수 있습니다.</block>
   <block id="926b3e1d2d3aa955040f8e96a0925024" category="doc">BlueXP  분류에서 사용자 지정 분류를 생성합니다</block>
-  <block id="af7f216eaafef04c270699dedfe55516" category="paragraph">BlueXP  분류를 사용하면 중요한 정보에 대한 사용자 지정 검색을 만들 수 있습니다. 검색 범위는 정규식 또는 근접 키워드 집합으로 지정할 수 있습니다.</block>
   <block id="166182078c23275fb3140bd76772894f" category="paragraph">사용자 지정 분류는 매핑 전용 스캔이 아닌 지도 및 분류 스캔에만 사용할 수 있습니다. 이 기능은 현재 미리보기 중입니다.</block>
-  <block id="b89901231bd925d9935358eec83c9df7" category="list-text">** 사용자 정의 분류** 탭을 선택합니다.</block>
-  <block id="5d432ccfd60759dfe3a05c1d88a50e46" category="list-text">새 분류자 추가**를 선택합니다.</block>
-  <block id="ea013d14af755e66761c80272239aa1e" category="list-text">새 분류자에 대한 이름 및 설명 추가</block>
-  <block id="325f2f8229424a3bb88f7fe6dd21f8b4" category="list-text">사용자 정의를 정규식으로 추가하려면 **사용자 지정 정규식**을 선택한 후 **다음**을 선택합니다.</block>
-  <block id="ddd5fb759ffdfbba04862c2c259765f4" category="list-text">정규식의 경우 데이터의 특정 정보를 검색하는 패턴을 추가합니다. 예를 들어, 201로 시작하는 12자리 ID는 \b201\f\d(9) b. **Validate**를 선택하여 입력 구문을 확인합니다.</block>
   <block id="92dbbe7b48f44c4348b9a878f60f182e" category="paragraph">새 사용자 지정 내용은 다음 예정된 스캔에서 캡처됩니다. 결과를 보려면 을 참조하십시오<block ref="9d0d45f702bd2dff4853a9920dd0f534" category="inline-xref-macro-rx"></block>.</block>
   <block id="e7f93c0af13ca637e6c3fbeb56fe4b0e" category="section-title">태그, 레이블, 할당된 사용자 및 저장된 검색을 기준으로 데이터를 필터링합니다</block>
   <block id="aee7ea78cb12c6ff572cb9b321122abb" category="paragraph">다음 필터를 사용하여 태그, AIP 레이블, 할당된 사용자 또는 저장된 검색으로 데이터를 볼 수 있습니다.</block>
@@ -3428,9 +3407,6 @@
   <block id="fe486103d58cea4a39fc7665524d91e6" category="inline-image-macro">BlueXP  분류 대시보드에 있는 저장된 검색 탭의 스크린샷</block>
   <block id="dd41d48f516ceca9030eb4c406ca3b2e" category="paragraph"><block ref="dd41d48f516ceca9030eb4c406ca3b2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c11c94eebf65aa39aa6d92e551d37495" category="section-title">조사 페이지에서 저장된 검색 결과를 봅니다</block>
-  <block id="4b6b79df55f75139d5245dc368dd69d7" category="paragraph">조사 페이지에 저장된 검색에 대한 결과를 표시하려면 특정 검색에 대한 버튼을 선택한 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>다음 * 결과 조사 * 를 선택합니다.</block>
-  <block id="01ce7df905c02100d7e171845d5a1d11" category="inline-image-macro">Saced Search 탭에서 특정 검색에 대한 조사 결과 를 선택하는 스크린샷.</block>
-  <block id="e664b44f91d2913f94b75e8da606bb74" category="paragraph"><block ref="e664b44f91d2913f94b75e8da606bb74" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d060dc50372bab90fa0b80c2aadbfc5" category="section-title">사용자 정의 저장된 검색을 만듭니다</block>
   <block id="2dea09c1d3d4ee9b98ba67f3ee736c6a" category="paragraph">사용자 지정 저장된 검색을 직접 만들어 조직 관련 쿼리에 대한 결과를 제공할 수 있습니다. 검색 기준과 일치하는 모든 파일 및 디렉토리(공유 및 폴더)에 대한 결과가 반환됩니다.</block>
   <block id="edb2c0af042dce0faebc0fd23a6ea82a" category="list-text">모든 필터 특성을 원하는 대로 설정했으면 * 저장된 검색 만들기 * 를 선택합니다.</block>
@@ -3439,19 +3415,10 @@
   <block id="2b24c965e18291acdf6309cabec1d801" category="list-text">저장된 검색의 이름을 지정하고 설명을 추가합니다. 이름은 고유해야 합니다.</block>
   <block id="acc1c25043aba44082aef8a6ae1f7bb7" category="inline-image-macro">저장된 검색을 구성하고 저장하는 방법을 보여 주는 스크린샷.</block>
   <block id="781917d30539d353b2392b65ccd962ee" category="paragraph"><block ref="781917d30539d353b2392b65ccd962ee" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dcc0446437d20a68ade85cece45a944d" category="paragraph">저장된 새 검색이 저장된 검색 탭에 나타납니다.</block>
   <block id="3abded291c3a14b09750019f607a5b6a" category="section-title">저장된 검색을 편집합니다</block>
-  <block id="25ab9ca41b65162f7d35a80b0fc2b62f" category="paragraph">사용자 지정 생성 저장된 검색에 대한 조건을 수정하여 쿼리(필터를 사용하여 정의한 항목)를 변경하여 특정 매개 변수를 추가하거나 제거할 수 있습니다.</block>
   <block id="f2fb75e2f90578baaf8bd1c45bde6750" category="paragraph">저장된 기본 검색은 수정할 수 없습니다.</block>
-  <block id="8d5758ea88aa628e96b2a9850a9a3e84" category="list-text">저장된 검색 페이지에서 변경하려는 검색에 대해 * 저장된 검색 편집 * 을 선택합니다.</block>
   <block id="58fd62d6cd14d93ae1f32c61f323f99b" category="inline-image-macro">저장된 검색 편집을 보여 주는 스크린샷.</block>
-  <block id="800f72354e7a5ac3462a802bf4f659e0" category="paragraph"><block ref="800f72354e7a5ac3462a802bf4f659e0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b8c30944f6cac36547bcb3821964aeb1" category="list-text">이름 및 설명 필드를 변경합니다. 이 필드만 변경하려면 * 저장 * 을 선택합니다.</block>
-  <block id="78b0d515ab4a6a13088dd6bd09b0146e" category="inline-image-macro">저장된 검색 편집 페이지에서 쿼리 편집 단추를 선택하는 스크린샷</block>
-  <block id="e25b5282c5072b0a5171d238083a696e" category="paragraph"><block ref="e25b5282c5072b0a5171d238083a696e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="60f69955f740d1c69cb05d0a389fa16f" category="section-title">저장된 검색을 삭제합니다</block>
-  <block id="c3f66c3ed396df4f45cc4a2247c6ff1a" category="paragraph">더 이상 필요하지 않으면 저장된 사용자 지정 검색을 삭제할 수 있습니다. 저장된 기본 검색은 삭제할 수 없습니다</block>
-  <block id="0fa5b5589241b6543c9b17d2f21e75ca" category="paragraph">저장된 검색을 삭제하려면 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>특정 검색에 대한 버튼을 선택하고 * 저장된 검색 삭제 * 를 선택한 다음 확인 대화 상자에서 * 검색 삭제 * 를 다시 선택합니다.</block>
   <block id="c073cb4c943cd12dd3dc252f8b94f4f4" category="section-title">기본 검색</block>
   <block id="408f496a5a85521adc16cc6b351cc71a" category="paragraph">BlueXP  분류는 다음과 같은 시스템 정의 검색 쿼리를 제공합니다.</block>
   <block id="e2824fba3c46b207f277094775a6de03" category="list-text">** 데이터 주체 이름 - 높은 위험**</block>
@@ -3482,8 +3449,6 @@
   <block id="530bfca85ebf27593e2eac002245d941" category="paragraph">BlueXP  분류는 작업 환경에 대한 대량 작업을 지원합니다. 스캔 매핑 활성화, 스캔 매핑 및 분류 활성화, 스캔 비활성화 또는 작업 환경의 볼륨에 대한 사용자 정의 구성 생성을 선택할 수 있습니다. 개별 볼륨에 대해 선택하면 대량 선택이 무시됩니다. 대량 작업을 수행하려면 ** 구성** 페이지로 이동하여 선택합니다.</block>
   <block id="5914525550e0efce454828b3fc5f9313" category="paragraph">BlueXP  분류는 데이터 조사 보고서를 로컬로 다운로드하여 브라우저에서 볼 수 있는 기능을 지원합니다. 로컬 옵션을 선택하면 데이터 조사는 CSV 형식으로만 사용할 수 있으며 처음 10,000개의 데이터 행만 표시됩니다.</block>
   <block id="36df48405a6f112e4df550bf1db8906b" category="paragraph">BlueXP  분류는 매핑 전용 스캔뿐만 아니라 스캔 지도 및 분류 우선 순위를 지정할 수 있는 기능을 지원하므로 먼저 완료된 스캔을 선택할 수 있습니다. 맵 및 분류 스캔의 우선 순위는 스캔이 시작되는 동안과 그 전에 지원됩니다. 스캔이 진행 중일 때 스캔 우선 순위를 지정하도록 선택하면 매핑 및 분류 스캔이 모두 우선 순위가 지정됩니다.</block>
-  <block id="ae255a27ba2651659f967ba73acaf7ff" category="paragraph">BlueXP  분류 스캔은 은행 정보, 여권 번호, 사회 보험 번호, 운전 면허 번호 및 모든 주 및 지역에 대한 건강 카드 번호에 대한 캐나다 PII 데이터 범주를 식별합니다.</block>
-  <block id="99d324505a57bb8cfa4f2be38690da37" category="paragraph">BlueXP  분류는 지도 및 분류 스캔에 대한 사용자 정의 분류를 지원합니다. 사용자 지정 분류를 사용하면 BlueXP  스캔을 사용자 지정하여 정규식을 준수하도록 조직별 데이터를 캡처할 수 있습니다. 이 기능은 현재 미리보기 중입니다.</block>
   <block id="ef37a49c1c224f5d438865198ffa4329" category="paragraph">BlueXP  분류는 에 분류 이벤트(스캔이 시작되었을 때 및 종료되었을 때)를 보낼 수 있도록 <block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>지원합니다.</block>
   <block id="c90892d942290d1e3f7e24962cdcf860" category="admonition">버전 1.31부터 BlueXP  분류는 BlueXP 의 핵심 기능으로 제공됩니다. 추가 비용은 없습니다. 분류 라이선스 또는 가입이 필요하지 않습니다.</block>
   <block id="c75e25f64e8cd1943eed51ff64a1b8cf" category="paragraph">+ 기존 버전 1.30 이하를 사용 중이라면 구독이 만료될 때까지 해당 버전을 사용할 수 있습니다. <block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>..</block>
@@ -3493,11 +3458,6 @@
   <block id="478002532c0e9d87506035f8afb96c61" category="list-text">* 실행 중 * (녹색 점): 대기열에 있던 스캔 작업이 선택한 저장소 리포지토리에서 진행 중입니다.</block>
   <block id="2d018dff61f63f937cfb5d226fca5491" category="admonition">다음 정보는 BlueXP  분류 레거시 버전 1.30 이하에만 해당됩니다.</block>
   <block id="8410773aea4e8f5fda4e98ce13c101df" category="paragraph">+ 버전 1.31부터 BlueXP  분류는 핵심 BlueXP  제품의 일부입니다. 자세한 내용은 을 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="247847c7f8a374d1ec15dd635dc10755" category="paragraph">= = 빠른 시작</block>
-  <block id="f502c96b3152f0f8804a4a20142b8076" category="paragraph">== 오브젝트 스토리지 요구 사항 검토</block>
-  <block id="f8df4d0a70cf080f5c409b0c2484ccd3" category="paragraph">== BlueXP  분류 인스턴스 배포</block>
-  <block id="587be5e803069c9a812c8a5d853e293f" category="paragraph">== BlueXP  분류에 오브젝트 스토리지 서비스 추가</block>
-  <block id="d84a69103d33679879ff8ef5b35b5b1e" category="paragraph">== 오브젝트 스토리지 버킷에서 규정 준수 스캔 활성화 및 비활성화</block>
   <block id="cdde1a1bd8cf3465f2f0be76f0538e93" category="list-text">최대 CLI/API 세션 지속 시간 * 을 1시간에서 12시간으로 변경합니다. 변경 사항을 저장합니다.</block>
   <block id="21c270b5c383cf7064093b0641efa2a2" category="list-text">Attach policies * 를 선택한 후 * Create policy * 를 선택합니다.</block>
   <block id="5e4a3a973c4b69d34bc9fa0a170ac878" category="paragraph">BlueXP  분류 인스턴스 프로필 계정은 추가 AWS 계정에 대한 액세스 권한을 받습니다.</block>
@@ -3507,4 +3467,45 @@
   <block id="3c3eb995ad4feba61dadfbcae0576ca4" category="paragraph">정책 기준을 충족하는 파일이 있으면 이메일이 전송됩니다. 알림 이메일에는 개인 정보가 전송되지 않습니다. e-메일은 정책 기준과 일치하는 파일이 있음을 나타내고 정책 결과에 대한 링크를 제공합니다.</block>
   <block id="fe2063e5676e0308022c99eb2466140c" category="paragraph-title">조사 페이지 결과에는 총 항목 수와 함께 총 크기가 표시됩니다</block>
   <block id="6cff48344cb111c0fcdb424ba18c6bcf" category="paragraph">조사 페이지의 필터링된 결과에는 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
+  <block id="162e654adac435300128c485423d9e97" category="paragraph">BlueXP  분류 스캔은 캐나다 PII 데이터 범주를 식별합니다. 이러한 범주에는 은행 정보, 여권 번호, 사회 보험 번호, 운전면허증 번호 및 모든 캐나다 주 및 영토에 대한 건강 카드 번호가 포함됩니다.</block>
+  <block id="24b795aa1c931b8beb71a1bad521912d" category="paragraph">자세한 내용은 을 <block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>참조하십시오.</block>
+  <block id="779a8744af84c09c0b82c029307690b7" category="paragraph">BlueXP  분류는 지도 및 분류 스캔에 대한 사용자 정의 분류를 지원합니다. 사용자 지정 분류를 사용하면 정규식을 사용하여 조직 고유의 데이터를 캡처하도록 BlueXP  스캔을 조정할 수 있습니다. 이 기능은 현재 미리보기 중입니다.</block>
+  <block id="59cb665cd7462a904eefb54d13262d58" category="paragraph">단추를 선택한 다음 * Active Directory 제거 * 를 선택하여 통합을 삭제할 수도 <block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="b26c3f06a8206b488da4691050c7d97f" category="list-text">보고서의 첫 페이지에 나타나는 회사 이름을 사용자 지정하려면 BlueXP  분류 페이지의 오른쪽 위에서 을 선택합니다<block ref="b7ac54c4d55d285685809fbae424a873" category="inline-image-macro-rx" type="image"></block>. 그런 다음 * 회사 이름 변경 * 을 선택합니다. 다음에 보고서를 생성할 때 새 이름이 포함됩니다.</block>
+  <block id="cf137e3eb496726834d6c8c1ea2a0bb9" category="paragraph">BlueXP  분류를 사용하면 중요한 정보에 대한 사용자 지정 검색을 만들 수 있습니다. 검색 범위를 정규식(regex)으로 지정할 수 있습니다.</block>
+  <block id="a5b2ff1ba11a4724aa08a612d83a1fa8" category="inline-image-macro">사용자 지정 분류 페이지의 스크린샷</block>
+  <block id="78a1ca571ea767a4e4a68bf118e05ad9" category="list-text">** 사용자 정의 분류** 탭을 선택합니다. <block ref="a4efbe791c666e4d565530b58bfb78eb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="75397441bf4c14c2afae2e04e7cd5571" category="list-text">새 분류자 추가** 버튼을 선택합니다.</block>
+  <block id="5b43c46ad3b2d1720177cf5a7002d748" category="list-text">새 분류자의 이름 및 설명 을 추가합니다.</block>
+  <block id="0290a20bef89a572b708f13b5de6010d" category="list-text">사용자 정의를 정규식으로 추가하려면 **사용자 지정 정규식**을 선택한 후 **다음**을 선택합니다.</block>
+  <block id="ce6c93af63d5a72eb3c15bc99afe14ec" category="inline-image-macro">정규식을 만드는 대화 상자의 스크린샷</block>
+  <block id="2fbc1bcaba732168404159c46526458c" category="list-text">데이터의 특정 정보를 검색하는 패턴을 추가합니다. 입력 구문을 확인하려면 **Validate** 를 선택합니다. <block ref="931af7ddfc52cb7655deb8b332ab2e24" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6d7ee64f46753faf45fb70361a3d7659" category="list-text">사용자 지정 분류를 생성하려면 ** 완료** 를 선택합니다.</block>
+  <block id="9f1c60681d04ca50a08671f2b8c80137" category="list-text">BlueXP 분류에는 아웃바운드 인터넷 액세스가 필요합니다. 가상 또는 물리적 네트워크에서 인터넷 액세스에 프록시 서버를 사용하는 경우 BlueXP 분류 인스턴스에 다음 엔드포인트에 연결할 수 있는 아웃바운드 인터넷 액세스 권한이 있는지 확인합니다. 프록시는 투명하지 않아야 합니다. 투명 프록시는 현재 지원되지 않습니다.</block>
+  <block id="00529b4fa5e7b481a817fc96cf13bc09" category="list-text">Configuration_ 페이지에서 OneDrive, SharePoint 또는 Google Drive 계정 행의 버튼을 선택한 <block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>다음 * OneDrive 계정 제거 *, * SharePoint 계정 제거 * 또는 * Google Drive 계정 제거 * 를 선택합니다.</block>
+  <block id="ff4b8a9404d87f321503ee453d569c7d" category="list-text">Configuration_ 페이지에서 작업 환경 행의 버튼을 선택한 다음 * Deactivate Data Sense * 를 선택합니다<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="33a74c27f54695807d7c17126606dd9b" category="list-text">Configuration_ 페이지에서 데이터베이스 행의 버튼을 선택한 다음 * Remove DB Server * 를 선택합니다<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="c16ad793ec0335438d151ae80a49d06f" category="list-text">Configuration_ 페이지에서 File Shares Group 행에 있는 버튼을 선택한 다음 * Remove File Shares Group * 을 선택합니다<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="763a21e3ec238bca68eb25847cf75843" category="section-title">오브젝트 스토리지의 요구사항 검토</block>
+  <block id="56ae4518d3461ca7113dcd16c3bba1b2" category="section-title">BlueXP 분류에 오브젝트 스토리지 서비스 추가</block>
+  <block id="eee95a219b81e97bc6cd4730c01adbe3" category="section-title">오브젝트 스토리지 버킷에 대한 규정 준수 검사 설정 및 해제</block>
+  <block id="71377237946a16cc4981e8007b83be9b" category="list-text">활성화 * 를 선택합니다.</block>
+  <block id="70d6b08c88906fcec4b2b02cb10b8c51" category="admonition">구성 페이지에서 버튼을 선택한 다음 * BlueXP  분류 활성화 * 를 선택하여 작업 환경에 대한 규정 준수 검사를 활성화할 수도 <block ref="31135726bc5ec70729152e8a36c2ff64" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="5c90cc26dd42f9d3c2debeeef6f5b7cf" category="list-text">BlueXP  분류 페이지 맨 위에서 * 데이터 감지 제거 * 를 선택합니다<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="3455f1fb9a5d72859b5d3a372dc8f0fa" category="list-text">데이터 감지 제거 _ 대화 상자에서 * uninstall * 을 입력하여 BlueXP  커넥터에서 BlueXP  분류 인스턴스의 연결을 끊을 것임을 확인한 다음 * Uninstall * 을 선택합니다.</block>
+  <block id="6cf3fc600b47594541f48cafd63826ff" category="paragraph">조사 페이지에 저장된 검색에 대한 결과를 표시하려면 특정 검색에 대한 버튼을 선택한 <block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>다음 * 결과 조사 * 를 선택합니다.</block>
+  <block id="9038bf96038481d40955e45169d29a59" category="inline-image-macro">저장된 검색 탭에서 특정 검색에 대한 조사 결과 를 선택하는 스크린샷</block>
+  <block id="fddc772362fed7ea80a47e67e7402818" category="paragraph"><block ref="fddc772362fed7ea80a47e67e7402818" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b138d8858b38a706ce0767ce149141a0" category="paragraph">검색을 만든 후에는 **저장된 검색** 탭에서 검색할 수 있습니다.</block>
+  <block id="a587a9446f42488cf1642071d4869a8c" category="paragraph">저장된 검색(정의된 필터)에 대한 쿼리 기준을 수정하여 특정 매개 변수를 추가하거나 제거할 수 있습니다.</block>
+  <block id="1f365f0c7b9035143441d12790522996" category="list-text">저장된 검색 페이지에서 변경하려는 검색에 대해 * 검색 편집 * 을 선택합니다.</block>
+  <block id="b8cea04bdaadb30a2fd83edd55a654bc" category="paragraph"><block ref="b8cea04bdaadb30a2fd83edd55a654bc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="477f1d0a65eedc4c654d176f7d5a42ac" category="list-text">이름 및 설명 필드를 변경합니다. 이름 및 설명 필드만 변경하려면 * 검색 저장 * 을 선택합니다.</block>
+  <block id="fc109e463007a1ca000c686897a1b120" category="paragraph">저장된 검색에 대한 필터를 변경하려면 * 쿼리 편집 * 을 선택합니다.</block>
+  <block id="80adc8081e510902a4fced484a4b4e31" category="inline-image-macro">저장된 검색 편집 페이지의 쿼리 편집 단추 스크린샷</block>
+  <block id="6d6f7ce4f444057f277e9b33ee68299e" category="paragraph"><block ref="6d6f7ce4f444057f277e9b33ee68299e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c2b73796ac55b3236efc8e54183ebf12" category="list-text">조사 페이지에서 쿼리를 편집합니다. 필터를 추가, 제거 또는 수정할 수 있습니다. 변경을 완료하려면 * 이 검색에 대한 쿼리 저장 * 을 선택합니다.</block>
+  <block id="ddbd2f5304c626fb501329931a8611ab" category="paragraph"><block ref="ddbd2f5304c626fb501329931a8611ab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6fd5e575afc5674cda5e381f7413c374" category="paragraph">더 이상 필요하지 않으면 저장된 사용자 지정 검색을 삭제할 수 있습니다. 저장된 기본 검색은 삭제할 수 없습니다.</block>
+  <block id="400d8a42346f426cc27b0acd4383c48b" category="paragraph">저장된 검색을 삭제하려면 <block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>특정 검색에 대한 버튼을 선택하고 * 검색 삭제 * 를 선택한 다음 확인 대화 상자에서 * 검색 삭제 * 를 다시 선택합니다.</block>
 </blocks>

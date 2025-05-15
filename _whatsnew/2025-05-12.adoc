@@ -14,12 +14,12 @@ BlueXP  분류는 매핑 전용 스캔뿐만 아니라 스캔 지도 및 분류
 자세한 내용은 을 link:task-managing-repo-scanning.html#prioritize-scans["스캔 우선 순위 지정"]참조하십시오.
 
 .캐나다 PII(개인 식별 정보) 데이터 범주 지원
-BlueXP  분류 스캔은 은행 정보, 여권 번호, 사회 보험 번호, 운전 면허 번호 및 모든 주 및 지역에 대한 건강 카드 번호에 대한 캐나다 PII 데이터 범주를 식별합니다.
+BlueXP  분류 스캔은 캐나다 PII 데이터 범주를 식별합니다. 이러한 범주에는 은행 정보, 여권 번호, 사회 보험 번호, 운전면허증 번호 및 모든 캐나다 주 및 영토에 대한 건강 카드 번호가 포함됩니다.
 
-자세한 내용은 을 참조하십시오xref:reference-private-data-categories.adoc#types-of-personal-data[개인 데이터 범주].
+자세한 내용은 을 xref:reference-private-data-categories.adoc#types-of-personal-data[개인 데이터 범주]참조하십시오.
 
 .사용자 지정 분류(미리 보기)
-BlueXP  분류는 지도 및 분류 스캔에 대한 사용자 정의 분류를 지원합니다. 사용자 지정 분류를 사용하면 BlueXP  스캔을 사용자 지정하여 정규식을 준수하도록 조직별 데이터를 캡처할 수 있습니다. 이 기능은 현재 미리보기 중입니다.
+BlueXP  분류는 지도 및 분류 스캔에 대한 사용자 정의 분류를 지원합니다. 사용자 지정 분류를 사용하면 정규식을 사용하여 조직 고유의 데이터를 캡처하도록 BlueXP  스캔을 조정할 수 있습니다. 이 기능은 현재 미리보기 중입니다.
 
 자세한 내용은 을 xref:task-custom-classification.adoc[사용자 지정 분류를 추가합니다]참조하십시오.
 

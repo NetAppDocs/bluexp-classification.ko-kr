@@ -22,7 +22,7 @@ summary: 필요한 경우 하나 이상의 작업 환경, 데이터베이스, �
 
 스캔을 비활성화하면 BlueXP 분류는 작업 환경의 데이터를 더 이상 스캔하지 않고 BlueXP 분류 인스턴스에서 인덱싱된 규정 준수 정보를 제거합니다(작업 환경 자체의 데이터는 삭제되지 않음).
 
-. Configuration_ 페이지에서 작업 환경의 행에 있는 버튼을 클릭한 image:screenshot_gallery_options.gif["자세히 단추"]다음 * Deactivate Data Sense * 를 클릭합니다.
+. Configuration_ 페이지에서 작업 환경 행의 버튼을 선택한 다음 * Deactivate Data Sense * 를 선택합니다image:button-gallery-options.gif["자세히 단추"].
 
 
 image:screenshot_deactivate_compliance_scan.png["BlueXP 분류 비활성화를 선택할 수 있는 작업 아이콘의 스크린샷. 이 옵션은 Canvas 페이지에서 작업 환경을 선택한 후에 사용할 수 있습니다."]
@@ -36,7 +36,7 @@ TIP: 작업 환경을 선택할 때 서비스 패널에서 작업 환경에 대�
 
 특정 데이터베이스를 더 이상 스캔하지 않으려면 BlueXP 분류 인터페이스에서 해당 데이터베이스를 삭제하고 모든 스캔을 중지할 수 있습니다.
 
-. Configuration_ 페이지에서 데이터베이스 행에 있는 버튼을 클릭한 image:screenshot_gallery_options.gif["자세히 단추"]다음 * Remove DB Server * 를 클릭합니다.
+. Configuration_ 페이지에서 데이터베이스 행의 버튼을 선택한 다음 * Remove DB Server * 를 선택합니다image:button-gallery-options.gif["자세히 단추"].
 
 
 image:screenshot_compliance_remove_db.png["스캔 구성 페이지의 DB 서버 제거 단추 스크린샷"]
@@ -48,7 +48,7 @@ image:screenshot_compliance_remove_db.png["스캔 구성 페이지의 DB 서버 
 더 이상 파일 공유 그룹에서 사용자 파일을 스캔하지 않으려는 경우 BlueXP 분류 인터페이스에서 파일 공유 그룹을 삭제하고 모든 검사를 중지할 수 있습니다.
 
 .단계
-. Configuration_ 페이지에서 File Shares Group 행에 있는 버튼을 클릭한 image:screenshot_gallery_options.gif["자세히 단추"]다음 * Remove File Shares Group * 을 클릭합니다.
+. Configuration_ 페이지에서 File Shares Group 행에 있는 버튼을 선택한 다음 * Remove File Shares Group * 을 선택합니다image:button-gallery-options.gif["자세히 단추"].
 +
 image:screenshot_compliance_remove_fileshare_group.png["스캔 구성 페이지의 파일 공유 그룹 제거 단추 스크린샷"]
 

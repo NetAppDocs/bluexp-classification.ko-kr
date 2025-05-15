@@ -130,11 +130,11 @@ image:screenshot_s3_enable_compliance.png["서비스 패널에서 BlueXP 분류 
 +
 image:screenshot_s3_compliance_iam_role.png["BlueXP 분류에 대한 AWS IAM 역할 입력 스크린샷"]
 
-. 사용 * 을 클릭합니다.
+. 활성화 * 를 선택합니다.
 
 
 
-TIP: 구성 페이지에서 버튼을 클릭하고 * BlueXP  분류 활성화 * 를 선택하여 작업 환경에 대한 규정 준수 검사를 활성화할 수도 image:screenshot_gallery_options.gif["세 개의 점"]있습니다.
+TIP: 구성 페이지에서 버튼을 선택한 다음 * BlueXP  분류 활성화 * 를 선택하여 작업 환경에 대한 규정 준수 검사를 활성화할 수도 image:button-gallery-options.gif["세 개의 점"]있습니다.
 
 .결과
 BlueXP는 인스턴스에 IAM 역할을 할당합니다.

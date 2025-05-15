@@ -116,4 +116,4 @@ image:screenshot_compliance_active_directory_added.png["BlueXP 분류에 통합�
 
 Active Directory 통합에서 값을 수정해야 하는 경우 * Edit * (편집 *) 버튼을 클릭하여 변경합니다.
 
-통합이 더 이상 필요하지 않을 경우 버튼을 클릭한 다음 * Active Directory 제거 * 를 클릭하여 통합을 삭제할 수도 image:screenshot_gallery_options.gif["자세히 단추"]있습니다.
+단추를 선택한 다음 * Active Directory 제거 * 를 선택하여 통합을 삭제할 수도 image:button-gallery-options.gif["자세히 단추"]있습니다.

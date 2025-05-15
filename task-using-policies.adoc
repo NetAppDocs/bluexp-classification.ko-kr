@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-using-policies.html 
-keywords: compliance, privacy, filter data, highlights, policies, email alerts, notifications, aip labels, azure information protection, add labels, change labels, tags, data sense 
+keywords: compliance, privacy, filter data, highlights, policies, notifications, saved search, tags, data sense, edit query 
 summary: 저장된 검색은 일반적으로 요청된 규정 준수 쿼리에 대한 조사 페이지에 검색 결과를 제공하는 사용자 지정 필터입니다. BlueXP  분류는 일반 요청을 기반으로 기본 저장된 검색 집합을 제공하거나 사용자가 직접 만들 수 있습니다. 
 ---
 = BlueXP  분류로 저장된 검색을 관리합니다
@@ -29,9 +29,9 @@ image:screenshot_compliance_highlights_tab.png["BlueXP  분류 대시보드에 
 
 == 조사 페이지에서 저장된 검색 결과를 봅니다
 
-조사 페이지에 저장된 검색에 대한 결과를 표시하려면 특정 검색에 대한 버튼을 선택한 image:screenshot_gallery_options.gif["자세히 단추"]다음 * 결과 조사 * 를 선택합니다.
+조사 페이지에 저장된 검색에 대한 결과를 표시하려면 특정 검색에 대한 버튼을 선택한 image:button-gallery-options.gif["자세히 단추"]다음 * 결과 조사 * 를 선택합니다.
 
-image:screenshot_compliance_highlights_investigate.png["Saced Search 탭에서 특정 검색에 대한 조사 결과 를 선택하는 스크린샷."]
+image:screenshot_compliance_highlights_investigate.png["저장된 검색 탭에서 특정 검색에 대한 조사 결과 를 선택하는 스크린샷"]
 
 
 
@@ -52,32 +52,31 @@ image:screenshot_compliance_save_highlight2.png["저장된 검색을 구성하�
 
 
 
-.결과
-저장된 새 검색이 저장된 검색 탭에 나타납니다.
+검색을 만든 후에는 **저장된 검색** 탭에서 검색할 수 있습니다.
 
 
 
 == 저장된 검색을 편집합니다
 
-사용자 지정 생성 저장된 검색에 대한 조건을 수정하여 쿼리(필터를 사용하여 정의한 항목)를 변경하여 특정 매개 변수를 추가하거나 제거할 수 있습니다.
+저장된 검색(정의된 필터)에 대한 쿼리 기준을 수정하여 특정 매개 변수를 추가하거나 제거할 수 있습니다.
 
 저장된 기본 검색은 수정할 수 없습니다.
 
 .단계
-. 저장된 검색 페이지에서 변경하려는 검색에 대해 * 저장된 검색 편집 * 을 선택합니다.
+. 저장된 검색 페이지에서 변경하려는 검색에 대해 * 검색 편집 * 을 선택합니다.
 +
-image:screenshot_compliance_edit_policy_button.png["저장된 검색 편집을 보여 주는 스크린샷."]
+image:screenshot-edit-search.png["저장된 검색 편집을 보여 주는 스크린샷."]
 
-. 이름 및 설명 필드를 변경합니다. 이 필드만 변경하려면 * 저장 * 을 선택합니다.
+. 이름 및 설명 필드를 변경합니다. 이름 및 설명 필드만 변경하려면 * 검색 저장 * 을 선택합니다.
 +
-저장된 쿼리에 대한 필터를 변경하려면 * 쿼리 편집 * 을 선택합니다.
+저장된 검색에 대한 필터를 변경하려면 * 쿼리 편집 * 을 선택합니다.
 
 +
-image:screenshot_compliance_edit_policy_dialog.png["저장된 검색 편집 페이지에서 쿼리 편집 단추를 선택하는 스크린샷"]
+image:screenshot-edit-search-dialog.png["저장된 검색 편집 페이지의 쿼리 편집 단추 스크린샷"]
 
-. 해당 쿼리를 정의하는 조사 페이지에서 필터를 추가, 제거 또는 사용자 지정하여 쿼리를 편집한 다음 * 변경 내용 저장 * 을 선택합니다.
+. 조사 페이지에서 쿼리를 편집합니다. 필터를 추가, 제거 또는 수정할 수 있습니다. 변경을 완료하려면 * 이 검색에 대한 쿼리 저장 * 을 선택합니다.
 +
-image:screenshot_compliance_edit_policy_query.png["필터 설정을 변경하여 쿼리를 편집하는 방법을 보여 주는 스크린샷"]
+image:screenshot-edit-query.png["필터 설정을 변경하여 쿼리를 편집하는 방법을 보여 주는 스크린샷"]
 
 
 
@@ -85,9 +84,9 @@ image:screenshot_compliance_edit_policy_query.png["필터 설정을 변경하여
 
 == 저장된 검색을 삭제합니다
 
-더 이상 필요하지 않으면 저장된 사용자 지정 검색을 삭제할 수 있습니다. 저장된 기본 검색은 삭제할 수 없습니다
+더 이상 필요하지 않으면 저장된 사용자 지정 검색을 삭제할 수 있습니다. 저장된 기본 검색은 삭제할 수 없습니다.
 
-저장된 검색을 삭제하려면 image:screenshot_gallery_options.gif["자세히 단추"]특정 검색에 대한 버튼을 선택하고 * 저장된 검색 삭제 * 를 선택한 다음 확인 대화 상자에서 * 검색 삭제 * 를 다시 선택합니다.
+저장된 검색을 삭제하려면 image:button-gallery-options.gif["자세히 단추"]특정 검색에 대한 버튼을 선택하고 * 검색 삭제 * 를 선택한 다음 확인 대화 상자에서 * 검색 삭제 * 를 다시 선택합니다.
 
 
 
