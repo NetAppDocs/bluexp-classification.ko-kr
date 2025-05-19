@@ -2555,13 +2555,10 @@
   <block id="b61f313d2258b7ad36db1c60e210745f" category="paragraph">모든 필수 구성 요소 테스트가 성공적으로 실행된 경우 준비가 되면 호스트에 BlueXP 분류를 설치할 수 있습니다.</block>
   <block id="878e6c42479d1f6a6495aba58949d3c5" category="paragraph">발견된 문제가 있는 경우 "권장" 또는 "필수"로 분류하여 해결합니다. 권장 문제는 일반적으로 BlueXP 분류 검사 및 분류 작업의 실행 속도를 느리게 만드는 항목입니다. 이러한 항목은 수정할 필요가 없지만, 이를 해결할 수 있습니다.</block>
   <block id="b6aefc1f5bf5d61908d5d40fe783f3c9" category="paragraph">"필수" 문제가 있는 경우 문제를 해결하고 사전 요구 사항 테스트 스크립트를 다시 실행해야 합니다.</block>
-  <block id="1fd880d67ad7d5a9e1ce56b61569fe92" category="summary">문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거하기 위해 BlueXP 분류 소프트웨어를 제거할 수 있습니다. 또한 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. BlueXP 분류에서 검색한 모든 정보는 영구적으로 삭제됩니다.</block>
-  <block id="ae2fd70b5fccf0d18c6c0a33a953aa3b" category="doc">BlueXP 분류를 제거하는 중입니다</block>
   <block id="f93e118724d27bde2efdff3938b9b6df" category="paragraph">필요한 단계는 클라우드에 BlueXP 분류를 배포했는지 또는 온프레미스 호스트에 배포했는지에 따라 달라집니다.</block>
   <block id="8d8f6d516c2b2976c4b330129843859b" category="section-title">클라우드 배포에서 BlueXP 분류를 제거합니다</block>
   <block id="809de3d4b48cba202a3e92df9b5646ca" category="paragraph">BlueXP 분류를 더 이상 사용하지 않으려는 경우 클라우드 공급자 환경에서 BlueXP 분류 인스턴스를 제거하고 삭제할 수 있습니다.</block>
   <block id="36c78ffc00f44e6669853141b4757135" category="inline-image-macro">BlueXP 분류 소프트웨어를 제거하는 단추 스크린샷.</block>
-  <block id="f4b93d0f798b3e20a2411b62607f9933" category="paragraph"><block ref="f4b93d0f798b3e20a2411b62607f9933" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f10f83db534963d9efae7a297e100091" category="list-text">클라우드 공급자의 콘솔로 이동하여 BlueXP 분류 인스턴스를 삭제합니다. 인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_</block>
   <block id="961ca08e58e9f85191f5707bc4dac07a" category="paragraph">그러면 인스턴스 및 BlueXP 분류에서 수집한 모든 관련 데이터가 삭제됩니다.</block>
   <block id="a3b42cd70d6e63a58b881566f7a8992b" category="section-title">온-프레미스 배포에서 BlueXP 분류를 제거합니다</block>
@@ -2881,7 +2878,6 @@
   <block id="f9cb03d21a26b2f64053d2e527396790" category="paragraph">온-프레미스 설치는 온-프레미스 ONTAP 시스템에도 있는 BlueXP  분류 인스턴스를 사용하여 온-프레미스 시스템을 스캔하려는 경우 좋은 옵션일 수 있지만 이는 요구 사항이 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.</block>
   <block id="ee8870d1e0595ddae329cf8ef1ee89fa" category="paragraph">조사 페이지의 내용을 필터링하여 원하는 결과만 표시할 수 있습니다.</block>
   <block id="260af28d48ba051bd7cdd887380f9ece" category="paragraph">Linux 호스트에 BlueXP  분류를 수동으로 설치하기 전에 선택적으로 호스트에서 스크립트를 실행하여 BlueXP  분류 설치를 위한 모든 사전 요구 사항이 충족되는지 확인합니다. 이 스크립트는 네트워크의 Linux 호스트 또는 클라우드의 Linux 호스트에서 실행할 수 있습니다. 호스트를 인터넷에 연결하거나 호스트가 인터넷에 액세스할 수 없는 사이트(A_Dark site_)에 상주할 수 있습니다.</block>
-  <block id="b64eea97fe56778b0e28c568854873ed" category="paragraph">BlueXP  분류 소프트웨어를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거합니다. 또한 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. BlueXP 분류에서 검색한 모든 정보는 영구적으로 삭제됩니다.</block>
   <block id="6b9d9a04ff593ff427731819f0c3618f" category="doc">버전 1.40</block>
   <block id="dc4b47101650865122105745fe8d0a2c" category="paragraph-title">RHEL 9.5 지원</block>
   <block id="1d26b47b0bf4a8a52ca8e66bcb8661dc" category="paragraph">이 릴리스는 Red Hat Enterprise Linux v9.5 및 이전에 지원되는 버전을 지원합니다. 이는 다크 사이트 배포를 포함하여 BlueXP  분류의 수동 온-프레미스 설치에 적용됩니다.</block>
@@ -3491,8 +3487,6 @@
   <block id="eee95a219b81e97bc6cd4730c01adbe3" category="section-title">오브젝트 스토리지 버킷에 대한 규정 준수 검사 설정 및 해제</block>
   <block id="71377237946a16cc4981e8007b83be9b" category="list-text">활성화 * 를 선택합니다.</block>
   <block id="70d6b08c88906fcec4b2b02cb10b8c51" category="admonition">구성 페이지에서 버튼을 선택한 다음 * BlueXP  분류 활성화 * 를 선택하여 작업 환경에 대한 규정 준수 검사를 활성화할 수도 <block ref="31135726bc5ec70729152e8a36c2ff64" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
-  <block id="5c90cc26dd42f9d3c2debeeef6f5b7cf" category="list-text">BlueXP  분류 페이지 맨 위에서 * 데이터 감지 제거 * 를 선택합니다<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>.</block>
-  <block id="3455f1fb9a5d72859b5d3a372dc8f0fa" category="list-text">데이터 감지 제거 _ 대화 상자에서 * uninstall * 을 입력하여 BlueXP  커넥터에서 BlueXP  분류 인스턴스의 연결을 끊을 것임을 확인한 다음 * Uninstall * 을 선택합니다.</block>
   <block id="6cf3fc600b47594541f48cafd63826ff" category="paragraph">조사 페이지에 저장된 검색에 대한 결과를 표시하려면 특정 검색에 대한 버튼을 선택한 <block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>다음 * 결과 조사 * 를 선택합니다.</block>
   <block id="9038bf96038481d40955e45169d29a59" category="inline-image-macro">저장된 검색 탭에서 특정 검색에 대한 조사 결과 를 선택하는 스크린샷</block>
   <block id="fddc772362fed7ea80a47e67e7402818" category="paragraph"><block ref="fddc772362fed7ea80a47e67e7402818" category="inline-image-macro-rx" type="image"></block></block>
@@ -3508,4 +3502,9 @@
   <block id="ddbd2f5304c626fb501329931a8611ab" category="paragraph"><block ref="ddbd2f5304c626fb501329931a8611ab" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6fd5e575afc5674cda5e381f7413c374" category="paragraph">더 이상 필요하지 않으면 저장된 사용자 지정 검색을 삭제할 수 있습니다. 저장된 기본 검색은 삭제할 수 없습니다.</block>
   <block id="400d8a42346f426cc27b0acd4383c48b" category="paragraph">저장된 검색을 삭제하려면 <block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>특정 검색에 대한 버튼을 선택하고 * 검색 삭제 * 를 선택한 다음 확인 대화 상자에서 * 검색 삭제 * 를 다시 선택합니다.</block>
+  <block id="0f7a903ff3355d4ce99a771fa2712107" category="summary">문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거하기 위해 BlueXP 분류 소프트웨어를 제거할 수 있습니다. 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. BlueXP  분류에서 스캔된 모든 정보가 영구적으로 삭제됩니다.</block>
+  <block id="0d5f6e7ce707545204c3452bc32c2c33" category="paragraph">BlueXP  분류를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거할 수 있습니다. 인스턴스를 삭제하면 인덱싱된 데이터가 있는 관련 디스크도 삭제됩니다. 즉, BlueXP  분류에서 스캔된 모든 정보가 영구적으로 삭제됩니다.</block>
+  <block id="4e256f8808c26162477f8001f045469e" category="list-text">BlueXP  분류 페이지 상단에서 * 분류 제거 * 를 선택합니다<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="af7b04d89717e4fa9eec9f8310536047" category="paragraph"><block ref="af7b04d89717e4fa9eec9f8310536047" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="87cb261b2c6248958390f5e6c3919b1c" category="list-text">분류_제거_대화 상자에서 * uninstall * 을 입력하여 BlueXP  커넥터에서 BlueXP  분류 인스턴스의 연결을 끊을 것을 확인한 다음 * 제거 * 를 선택합니다.</block>
 </blocks>

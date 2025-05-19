@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task-uninstall-data-sense.html 
-keywords: remove, delete, stop, stop scans, stop scanning, cloud data sense, delete cloud data sense, terminate, deactivate, data sense 
-summary: 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거하기 위해 BlueXP 분류 소프트웨어를 제거할 수 있습니다. 또한 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. BlueXP 분류에서 검색한 모든 정보는 영구적으로 삭제됩니다. 
+keywords: remove, delete, stop, stop scans, stop scanning, delete cloud data sense, terminate, deactivate, data sense 
+summary: 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거하기 위해 BlueXP 분류 소프트웨어를 제거할 수 있습니다. 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. BlueXP  분류에서 스캔된 모든 정보가 영구적으로 삭제됩니다. 
 ---
-= BlueXP 분류를 제거하는 중입니다
+= BlueXP 분류를 제거합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 문제를 해결하거나 호스트에서 소프트웨어를 영구적�
 
 
 [role="lead"]
-BlueXP  분류 소프트웨어를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거합니다. 또한 인스턴스를 삭제하면 인덱싱된 데이터가 있는 연결된 디스크도 삭제됩니다. BlueXP 분류에서 검색한 모든 정보는 영구적으로 삭제됩니다.
+BlueXP  분류를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거할 수 있습니다. 인스턴스를 삭제하면 인덱싱된 데이터가 있는 관련 디스크도 삭제됩니다. 즉, BlueXP  분류에서 스캔된 모든 정보가 영구적으로 삭제됩니다.
 
 필요한 단계는 클라우드에 BlueXP 분류를 배포했는지 또는 온프레미스 호스트에 배포했는지에 따라 달라집니다.
 
@@ -24,11 +24,11 @@ BlueXP  분류 소프트웨어를 제거하여 문제를 해결하거나 호스
 
 BlueXP 분류를 더 이상 사용하지 않으려는 경우 클라우드 공급자 환경에서 BlueXP 분류 인스턴스를 제거하고 삭제할 수 있습니다.
 
-. BlueXP  분류 페이지 맨 위에서 * 데이터 감지 제거 * 를 선택합니다image:button-gallery-options.gif["자세히 단추"].
+. BlueXP  분류 페이지 상단에서 * 분류 제거 * 를 선택합니다image:button-gallery-options.gif["자세히 단추"].
 +
-image:screenshot_compliance_uninstall.png["BlueXP 분류 소프트웨어를 제거하는 단추 스크린샷."]
+image:screenshot-compliance-uninstall.png["BlueXP 분류 소프트웨어를 제거하는 단추 스크린샷."]
 
-. 데이터 감지 제거 _ 대화 상자에서 * uninstall * 을 입력하여 BlueXP  커넥터에서 BlueXP  분류 인스턴스의 연결을 끊을 것임을 확인한 다음 * Uninstall * 을 선택합니다.
+. 분류_제거_대화 상자에서 * uninstall * 을 입력하여 BlueXP  커넥터에서 BlueXP  분류 인스턴스의 연결을 끊을 것을 확인한 다음 * 제거 * 를 선택합니다.
 . 클라우드 공급자의 콘솔로 이동하여 BlueXP 분류 인스턴스를 삭제합니다. 인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_
 +
 그러면 인스턴스 및 BlueXP 분류에서 수집한 모든 관련 데이터가 삭제됩니다.
@@ -41,11 +41,11 @@ image:screenshot_compliance_uninstall.png["BlueXP 분류 소프트웨어를 제�
 
 BlueXP 분류를 더 이상 사용하지 않거나 재설치가 필요한 문제가 있는 경우 호스트에서 BlueXP 분류를 제거할 수 있습니다.
 
-. BlueXP  분류 페이지 맨 위에서 * 데이터 감지 제거 * 를 선택합니다image:button-gallery-options.gif["자세히 단추"].
+. BlueXP  분류 페이지 상단에서 * 분류 제거 * 를 선택합니다image:button-gallery-options.gif["자세히 단추"].
 +
-image:screenshot_compliance_uninstall.png["BlueXP 분류 소프트웨어를 제거하는 단추 스크린샷."]
+image:screenshot-compliance-uninstall.png["BlueXP 분류 소프트웨어를 제거하는 단추 스크린샷."]
 
-. 데이터 감지 제거 _ 대화 상자에서 * uninstall * 을 입력하여 BlueXP  커넥터에서 BlueXP  분류 인스턴스의 연결을 끊을 것임을 확인한 다음 * Uninstall * 을 선택합니다.
+. 분류_제거_대화 상자에서 * uninstall * 을 입력하여 BlueXP  커넥터에서 BlueXP  분류 인스턴스의 연결을 끊을 것을 확인한 다음 * 제거 * 를 선택합니다.
 . 호스트에서 소프트웨어를 제거하려면 BlueXP  분류 호스트 시스템에서 다음과 같은 스크립트를 실행합니다 `cleanup.sh`.
 +
 [source, cli]
