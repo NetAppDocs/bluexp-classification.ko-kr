@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, linux, ubuntu, cloud compliance access, privacy, compliance, on-premises, classification, pii, bluexp classification, docker, podman, install bluexp classification, cloud data sense, cds, rhel, linux host 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, linux, ubuntu, cloud compliance access, privacy, compliance, on-premises 
 summary: 네트워크의 Linux 호스트 또는 인터넷 액세스가 가능한 클라우드의 Linux 호스트에 BlueXP 분류를 설치하려면 몇 가지 단계를 완료하십시오. 이 설치의 일부로 네트워크 또는 클라우드에 Linux 호스트를 수동으로 배포해야 합니다. 
 ---
 = 인터넷에 액세스할 수 있는 호스트에 BlueXP 분류를 설치합니다
@@ -312,7 +312,7 @@ https://youtu.be/XiPLaJpfJEI["이 비디오 시청"^] BlueXP  분류를 설치�
 
 모든 설치 작업은 BlueXP 분류를 설치할 때 기록됩니다. 설치 중에 문제가 발생하면 설치 감사 로그의 내용을 볼 수 있습니다. 에 `/opt/netapp/install_logs/`기록됩니다. link:task-audit-data-sense-actions.html["자세한 내용은 여기에서 확인하십시오."]..
 
-.필요한 것
+.시작하기 전에
 * Linux 시스템이 를 충족하는지 <<Linux 호스트 시스템을 준비합니다,호스트 요구 사항>>확인합니다.
 * 시스템에 2개의 필수 소프트웨어 패키지(Docker Engine 또는 Podman 및 Python 3)가 설치되어 있는지 확인합니다.
 * Linux 시스템에 대한 루트 권한이 있는지 확인합니다.
