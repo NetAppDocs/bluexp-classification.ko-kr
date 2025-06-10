@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-controlling-governance-data.html 
-keywords: savings, stale data, non-business data, duplicate data, age or data, size of data, highlights, data discovery assessment report, data mapping overview report, data repositories, sensitive data, wide permissions, open permissions, age of data, size of data, classification, categories, file types, costs of data 
+keywords: savings, stale data, non-business data, duplicate data, highlights, data discovery assessment report, data mapping overview report, data repositories, sensitive data, wide permissions, open permissions, age of data, size of data, classification, categories, file types, costs of data 
 summary: 조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. BlueXP 분류는 시스템에 있는 오래된 데이터, 비업무용 데이터, 중복 파일 및 대용량 파일의 양을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다. 
 ---
 = BlueXP  분류를 통해 조직에 저장된 데이터에 대한 거버넌스 세부 정보를 봅니다
@@ -14,7 +14,7 @@ summary: 조직의 스토리지 리소스에 있는 데이터와 관련된 비�
 
 
 [role="lead"]
-조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어할 수 있습니다. BlueXP 분류는 시스템에 있는 오래된 데이터, 비업무용 데이터, 중복 파일 및 대용량 파일의 양을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다.
+조직의 스토리지 리소스에 있는 데이터와 관련된 비용을 제어하세요. BlueXP 분류는 시스템에 있는 오래된 데이터, 비업무용 데이터, 중복 파일 및 대용량 파일의 양을 식별하므로 일부 파일을 제거하거나 더 저렴한 오브젝트 스토리지에 계층화할 것인지 결정할 수 있습니다.
 
 여기에서 조사를 시작해야 합니다. 거버넌스 대시보드에서 추가 조사를 위한 영역을 선택할 수 있습니다.
 
@@ -40,11 +40,11 @@ image:screenshot_compliance_governance_dashboard.png["BlueXP 분류 거버넌스
 
 === 절감 기회 검토
 
-삭제할 데이터가 있는지 또는 더 저렴한 오브젝트 스토리지에 계층화해야 하는지 여부를 확인하려면 _Saving Opportunities_ 영역의 항목을 조사하십시오.
+_Saving Opportunities_ 구성 요소는 삭제하거나 비용이 덜 드는 개체 스토리지로 계층화할 수 있는 데이터를 보여줍니다. _Saving Opportunities_의 데이터는 2시간마다 업데이트되며 수동으로 업데이트할 수 있습니다.
 
 .단계
 . BlueXP  classification 메뉴에서 * Governance * 를 선택합니다.
-. Governance 대시보드의 각 Savings Opportunities 타일에서 * Optimize Storage * 를 선택하여 조사 페이지에서 필터링된 결과를 봅니다. 삭제할 데이터가 있는지 또는 더 저렴한 오브젝트 스토리지에 계층화해야 하는지 여부를 확인하려면 _Saving Opportunities_ 영역의 항목을 조사하십시오.
+. Governance 대시보드의 각 Savings Opportunities 타일에서 * Optimize Storage * 를 선택하여 조사 페이지에서 필터링된 결과를 봅니다. 삭제하거나 비용이 덜 드는 저장소로 옮겨야 할 데이터를 찾으려면 _비용 절감 기회_를 조사하세요.
 +
 ** * 오래된 데이터 * - 3년 전에 마지막으로 수정된 데이터
 ** * 비 비즈니스 데이터 * - 범주 또는 파일 형식에 따라 업무와 관련이 없는 것으로 간주되는 데이터 여기에는 다음이 포함됩니다.
@@ -70,13 +70,13 @@ NOTE: 데이터 소스가 데이터 계층화를 구현하는 경우 오브젝�
 
 === 저장된 검색을 가장 많은 수의 결과로 검토합니다
 
-_saved searches_tab에서 결과 수가 가장 많은 검색이 목록 맨 위에 나타납니다.
+_saved searches_tab에서 결과 수가 가장 많은 검색이 목록 맨 위에 나타납니다. 이 데이터는 2시간마다 업데이트됩니다.
 
 저장된 검색에 대한 자세한 내용은 을 link:task-using-policies.html["저장된 검색을 만듭니다"]참조하십시오.
 
 .단계
 . BlueXP  classification 메뉴에서 * Governance * 를 선택합니다.
-. 정부 대시보드에서 저장된 검색 타일을 찾습니다. 조사 페이지에 결과를 표시하려면 저장된 검색의 이름을 선택합니다.
+. 거버넌스 대시보드에서 저장된 검색 타일을 찾으세요. 조사 페이지에 결과를 표시하려면 저장된 검색의 이름을 선택합니다.
 . 모든 저장된 검색 목록을 보려면 * 모두 보기 * 를 선택합니다. _saved searches_area에서 결과 수가 가장 많은 검색이 목록 맨 위에 나타납니다.
 
 
@@ -122,7 +122,7 @@ BlueXP 분류는 PDF 보고서를 생성하여 필요에 따라 다른 그룹에
 
 == 데이터 매핑 개요 보고서를 작성합니다
 
-데이터 매핑 개요 보고서는 마이그레이션, 백업, 보안 및 규정 준수 프로세스를 결정할 수 있도록 회사 데이터 원본에 저장되는 데이터의 개요를 제공합니다. 보고서에는 먼저 모든 작업 환경과 데이터 원본을 요약한 개요가 나열되고 각 작업 환경에 대한 분석이 제공됩니다.
+데이터 매핑 개요 보고서는 마이그레이션, 백업, 보안 및 규정 준수 프로세스를 결정할 수 있도록 회사 데이터 원본에 저장되는 데이터의 개요를 제공합니다. 이 보고서는 모든 작업 환경과 데이터 출처를 요약합니다. 또한 각 작업 환경에 대한 분석도 제공합니다.
 
 보고서에는 다음 정보가 포함됩니다.
 
@@ -155,7 +155,7 @@ image:screenshot-compliance-report-buttons.png["데이터 매핑 보고서를 �
 .결과
 BlueXP 분류에서는 .pdf 보고서를 생성하여 사용자가 검토한 후 필요에 따라 다른 그룹으로 전송합니다.
 
-보고서가 1MB를 초과하는 경우 .pdf 파일이 BlueXP 분류 인스턴스에 유지되며 정확한 위치에 대한 팝업 메시지가 표시됩니다. BlueXP 분류를 온프레미스의 Linux 머신 또는 클라우드에 구축한 Linux 시스템에 설치하면 .pdf 파일로 직접 이동할 수 있습니다. 클라우드에 BlueXP 분류가 배포되는 경우 BlueXP 분류 인스턴스에 SSH로 연결하여 .pdf 파일을 다운로드해야 합니다.
+보고서가 1MB를 초과하는 경우 .pdf 파일이 BlueXP 분류 인스턴스에 유지되며 정확한 위치에 대한 팝업 메시지가 표시됩니다. BlueXP 분류를 온프레미스의 Linux 머신 또는 클라우드에 구축한 Linux 시스템에 설치하면 .pdf 파일로 직접 이동할 수 있습니다. BlueXP 분류가 클라우드에 배포되면 BlueXP 분류 인스턴스에 SSH를 통해 접속하여 .pdf 파일을 다운로드해야 합니다.
 
 
 
@@ -168,9 +168,11 @@ Data Mapping Overview(데이터 매핑 개요) 보고서의 민감도 수준별 
 * 민감한 개인 데이터
 
 
+이 데이터는 2시간마다 새로 고쳐지며, 수동으로 새로 고칠 수 있습니다.
+
 .단계
 . 각 범주의 총 항목 수를 보려면 막대의 각 섹션 위에 커서를 놓습니다.
-. 조사 페이지에 표시될 결과를 필터링하려면 각 영역을 선택하여 막대를 추가로 조사하십시오.
+. 조사 페이지에 나타날 결과를 필터링하려면 막대에서 각 영역을 선택하고 자세히 조사하세요.
 
 
 
@@ -179,8 +181,8 @@ Data Mapping Overview(데이터 매핑 개요) 보고서의 민감도 수준별 
 
 데이터 매핑 개요 보고서의 _Sensitive Data 및 Wide Permissions_area에는 중요한 데이터가 포함되어 있고 사용 권한이 넓은 파일의 비율이 표시됩니다. 차트에는 다음과 같은 유형의 사용 권한이 표시됩니다.
 
-* 가장 제한적인 권한부터 수평 축축에 대한 가장 허용 가능한 제한까지.
-* 최소 감지 데이터에서 수직 축의 가장 민감한 데이터까지.
+* 수평축에는 가장 제한적인 허가부터 가장 관대한 제한까지 있습니다.
+* 수직축에는 가장 민감하지 않은 데이터부터 가장 민감한 데이터까지 나열되어 있습니다.
 
 
 .단계
@@ -235,8 +237,8 @@ Data Mapping Overview(데이터 매핑 개요 link:task-controlling-private-data
 자세한 내용은 을 link:task-controlling-private-data.html["범주별로 파일 보기"] 참조하십시오.
 
 .단계
-. BlueXP 메뉴에서 * 거버넌스 > 분류 * 를 클릭합니다.
-. Governance * 를 클릭한 다음 * Data Discovery Assessment Report * 버튼을 클릭합니다.
+. BlueXP  메뉴에서 * 거버넌스 > 분류 * 를 선택합니다.
+. *거버넌스*를 선택한 다음 *데이터 발견 평가 보고서* 버튼을 선택합니다.
 
 
 .결과
