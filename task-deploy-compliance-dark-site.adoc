@@ -147,7 +147,7 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 *** Red Hat Enterprise Linux 버전 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4 및 9.5
 
 
-** 호스트 시스템에서 AVX(Advanced Vector Extensions)를 활성화해야 합니다.
+** 호스트 시스템에서 AVX2(Advanced Vector Extensions)를 활성화해야 합니다.
 
 
 * * Red Hat 서브스크립션 관리 *: 호스트는 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 설치 중에 시스템에서 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
