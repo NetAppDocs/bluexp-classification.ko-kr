@@ -175,10 +175,8 @@
   <block id="555b1e52bb127041158dea54f3685aaf" category="list-text">기본 인스턴스를 사용할 수 없는 지역에서는 대체 인스턴스에서 BlueXP 분류가 실행됩니다. <block ref="e3d4e40a766f2ed64294b1dd26c6e095" category="inline-link-macro-rx"></block>..</block>
   <block id="005b996ef864c5e5d692c055b435643b" category="list-text">인스턴스의 이름은 _CloudCompliance_이며 생성된 해시(UUID)와 연결됩니다. 예: _CloudCompliance-16b6564-38ad-4080-9a92-36f5fd2f71c7_</block>
   <block id="d05dbd72313077420069ae49fe175de1" category="list-text">Connector당 하나의 BlueXP 분류 인스턴스만 배포됩니다.</block>
-  <block id="b9542475929b3c8ff209e88bb948446b" category="paragraph">BlueXP 분류를 사내 Linux 호스트 또는 선호하는 클라우드 공급업체의 호스트에 배포할 수도 있습니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다. 인스턴스에 인터넷 액세스가 가능한 한 BlueXP 분류 소프트웨어의 업그레이드는 자동으로 수행됩니다.</block>
   <block id="5509f198213f653cadd8f4de67a143bf" category="admonition">BlueXP 분류는 지속적으로 데이터를 검사하기 때문에 인스턴스가 항상 실행 상태를 유지해야 합니다.</block>
   <block id="6b58a1f82ed5bb7a99f52822509a4519" category="paragraph">* 다양한 인스턴스 유형에 배포 *</block>
-  <block id="df08805f9a68769e5aca6dccacac7494" category="paragraph">CPU와 RAM이 적은 시스템에 BlueXP  분류를 배포할 수 있습니다.</block>
   <block id="360d214e899b88b8fe54a260668c2f48" category="cell">사양</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="cell">제한 사항</block>
   <block id="5d4d8771b47d6c5166952822e552f082" category="cell">매우 크게</block>
@@ -3530,4 +3528,8 @@
   <block id="d673bedebce5131101d3c3583efe3e40" category="section-title">2023년 3월 7일</block>
   <block id="7d04cce0092e695d038c8ac0c2c6c212" category="section-title">2023년 2월 5일</block>
   <block id="98dafe2aa2310496897ef8155a1d9413" category="section-title">2023년 1월 9일</block>
+  <block id="5545319db9091a71ae7b48d6f230c126" category="paragraph">BlueXP 분류를 사내 Linux 호스트 또는 선호하는 클라우드 공급업체의 호스트에 배포할 수도 있습니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다. 인스턴스에 인터넷 접속이 가능한 한 BlueXP 분류 소프트웨어의 업그레이드는 자동화됩니다.</block>
+  <block id="16d42e00c386e70a3a7df4333dbd3a1d" category="paragraph">인스턴스 유형에 대한 다음 사양을 검토하세요.</block>
+  <block id="b6312fd76a50f60b989ce722e432d447" category="paragraph">볼륨 수준이나 데이터베이스 스키마 수준에서 검사를 활성화하거나 비활성화할 수 있습니다.</block>
+  <block id="5ef007aec2cc80b49f082c5ae4dba4dc" category="list-text">** 매핑 전용 스캔** 데이터에 대한 높은 수준의 개요만 제공하며 선택한 데이터 소스에서 수행됩니다. 매핑 전용 스캔은 파일에 액세스하여 내부 데이터를 확인하지 않기 때문에 매핑 및 분류 스캔보다 시간이 덜 걸립니다. 처음에는 이 작업을 수행하여 조사 영역을 식별한 다음 해당 영역에 대해 지도 및 분류 스캔을 수행할 수 있습니다.</block>
 </blocks>
