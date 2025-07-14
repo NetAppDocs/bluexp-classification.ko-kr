@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
-  <block id="9997b2ae11cbffd6fe1a6e9f683ed24a" category="paragraph">+ BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="264b044bf416a5337d28443921b46791" category="list-text">BlueXP 분류는 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.</block>
   <block id="914179b3d4545ce8b8e8ba122c53f4d9" category="list-text">사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 이러한 시스템 크기 중에서 선택할 수 있습니다.</block>
   <block id="8c270421a057347baf727ea386f58d8f" category="cell">시스템 크기</block>
@@ -1490,7 +1489,6 @@
   <block id="ede9a6fd89b6e139fff80209cdd2ea8d" category="list-text">CIFS를 사용하는 경우 CIFS 볼륨을 스캔할 수 있도록 Active Directory 자격 증명을 사용하여 BlueXP 분류를 제공합니다.</block>
   <block id="2d680ca666fd821f3c51a507d41a26cb" category="inline-image-macro">콘텐츠 창의 오른쪽 상단에서 사용할 수 있는 스캔 상태 단추를 보여 주는 규정 준수 탭의 스크린샷</block>
   <block id="6057fa1a60f3ec92856060b18a0cc112" category="paragraph">자격 증명은 읽기 전용일 수 있지만 관리자 자격 증명을 제공하면 BlueXP 분류에서 상승된 권한이 필요한 모든 데이터를 읽을 수 있습니다. 자격 증명은 BlueXP 분류 인스턴스에 저장됩니다.</block>
-  <block id="a1c4e88cdf8e157dbb344fe556f58d28" category="paragraph">BlueXP 분류 검사에서 파일 "마지막 액세스 시간"이 변경되지 않도록 하려면 CIFS에서 쓰기 속성 사용 권한 또는 NFS에서 쓰기 권한이 사용자에게 있는 것이 좋습니다. 가능하면 Active Directory 구성 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹에 구성하는 것이 좋습니다.</block>
   <block id="b401c479fc7a1b8aa216a7173ee8782f" category="paragraph">자격 증명을 입력한 후 모든 CIFS 볼륨이 성공적으로 인증되었다는 메시지가 표시됩니다.</block>
   <block id="87c4bf333272894340d4edac3e344ef9" category="inline-image-macro">구성 페이지와 CIFS 자격 증명이 성공적으로 제공된 Cloud Volumes ONTAP 시스템을 보여 주는 스크린샷</block>
   <block id="f7a83214cccc2107033915c49ad94424" category="paragraph"><block ref="f7a83214cccc2107033915c49ad94424" category="inline-image-macro-rx" type="image"></block></block>
@@ -1606,8 +1604,6 @@
   <block id="47b3f14316e807b37aaa42895464d283" category="inline-image-macro">자세한 파일 사용 권한을 보여 주는 스크린샷</block>
   <block id="33b3bef30743bda1b0909a4417b45583" category="paragraph"><block ref="33b3bef30743bda1b0909a4417b45583" category="inline-image-macro-rx" type="image"></block></block>
   <block id="33f1c68834e7b02c4c8b3b9dc4f796d3" category="section-title">스토리지 시스템에 중복된 파일이 있는지 확인합니다</block>
-  <block id="5180c6809f41234a64af29e1a7ad708c" category="paragraph">중복 파일이 스토리지 시스템에 저장되어 있는지 확인할 수 있습니다. 이 기능은 저장 공간을 절약할 수 있는 영역을 확인하고자 할 때 유용합니다. 또한 특정 사용 권한이나 중요한 정보가 있는 특정 파일이 스토리지 시스템에서 불필요하게 복제되지 않도록 하는 것이 도움이 될 수 있습니다.</block>
-  <block id="bcd3dc09170e331762d1f098247c3974" category="paragraph">BlueXP 분류는 해시 기술을 사용하여 중복 파일을 결정합니다. 파일에 다른 파일과 동일한 해시 코드가 있으면 파일 이름이 다르더라도 파일이 정확하게 중복되었는지 100% 확인할 수 있습니다.</block>
   <block id="fc9033d933e9132cc23bfe396744d214" category="inline-link-macro">파일을 삭제합니다</block>
   <block id="68309bcfd455803ffbae49714037b789" category="inline-image-macro">중복된 파일이 있는 위치를 보는 방법을 보여 주는 스크린샷</block>
   <block id="0dc6d718adece3621c4a40fa3b4b2a82" category="paragraph"><block ref="0dc6d718adece3621c4a40fa3b4b2a82" category="inline-image-macro-rx" type="image"></block></block>
@@ -1623,7 +1619,6 @@
   <block id="8d41341b04800c9b0f9269d35caefe50" category="list-text">파일 크기(MB)</block>
   <block id="12863c4f3d21d132902517901137f0ce" category="list-text">스캔 분석 오류</block>
   <block id="a73443e5b5980c135e04b4b123ccd99f" category="list-text">삭제 감지 날짜입니다</block>
-  <block id="e81282c4a2e1620d17b120b1420664da" category="paragraph">삭제 감지 날짜는 파일이 삭제되거나 이동된 날짜를 나타냅니다. 이렇게 하면 중요한 파일이 이동된 시기를 식별할 수 있습니다. 삭제된 파일은 대시보드나 조사 페이지에 나타나는 파일 번호 개수에 포함되지 않습니다. 파일은 CSV 보고서에만 나타납니다.</block>
   <block id="8cb8a6e0c4d4366f74cd4f0b6f61a0f6" category="paragraph">비정형 디렉터리 데이터 보고서 * 에는 폴더 및 파일 공유에 대한 다음 정보가 포함되어 있습니다.</block>
   <block id="c0796e6eb525f9f4fe2a9d96a28d314a" category="list-text">디렉토리 이름</block>
   <block id="76cbd87b5322b897c255d541785ad658" category="list-text">스토리지 저장소(예: 폴더 또는 파일 공유)</block>
@@ -2135,27 +2130,13 @@
   <block id="46e57bba2892a9df10ae0b7ae9e43f45" category="paragraph"><block ref="46e57bba2892a9df10ae0b7ae9e43f45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c4758ec8f4163fa99b08557425a59f56" category="summary">몇 가지 단계를 완료하여 BlueXP 분류와 직접 비NetApp NFS 또는 CIFS 파일 공유 스캔을 시작하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.</block>
   <block id="b5e00ff2b7559dfa6fc6fe96058ede54" category="doc">BlueXP  분류로 파일 공유를 스캔합니다</block>
-  <block id="12a96925a3b6ebd1419915c8b0bfada9" category="paragraph">몇 단계를 완료하여 Google Cloud NetApp 볼륨 및 이전 NetApp 7-Mode 시스템에서 NFS 또는 CIFS 파일 공유 검색을 시작하십시오. 이러한 파일 공유는 사내 또는 클라우드에 상주할 수 있습니다.</block>
   <block id="f146ec0537a829117da7d3ce3e588d3b" category="admonition">비 NetApp 파일 공유의 데이터 검사는 BlueXP 분류 코어 버전에서 지원되지 않습니다.</block>
   <block id="d809bb142c0a96aef201dfc891e977e3" category="list-text">공유는 클라우드 또는 온프레미스 등 어디서나 호스팅할 수 있습니다. 이전 NetApp 7-Mode 스토리지 시스템의 CIFS 공유를 파일 공유로 검사할 수 있습니다.</block>
-  <block id="061d9924baf4222bf79058b2beddbe21" category="paragraph">BlueXP 분류는 7-Mode 시스템에서 사용 권한 또는 "마지막 액세스 시간"을 추출할 수 없습니다. 또한 일부 Linux 버전과 7-Mode 시스템의 CIFS 공유 사이에서 알려진 문제로 인해 NTLM 인증이 활성화된 SMB v1만 사용하도록 공유를 구성해야 합니다.</block>
   <block id="bd069242cf8eda4643c1e3d125af30e2" category="list-text">BlueXP 분류 인스턴스와 공유 사이에 네트워크 연결이 있어야 합니다.</block>
-  <block id="90ca6bd84833f8a6659f7ea02a7649ba" category="list-text">DFS(Distributed File System) 공유를 일반 CIFS 공유로 추가할 수 있습니다. 그러나 BlueXP 분류에서는 공유가 단일 CIFS 공유로 결합된 여러 서버/볼륨에 구축되어 있음을 인식하지 못하기 때문에 메시지가 실제로 다른 서버/볼륨에 있는 폴더/공유 중 하나에만 적용되는 경우 공유에 대한 권한 또는 연결 오류가 발생할 수 있습니다.</block>
   <block id="7adf75f8aca26c6ef58c5ad60b1edba5" category="list-text">CIFS(SMB) 공유의 경우 공유에 대한 읽기 액세스를 제공하는 Active Directory 자격 증명이 있는지 확인합니다. BlueXP 분류에서 상승된 권한이 필요한 데이터를 검색해야 하는 경우 관리자 자격 증명이 권장됩니다.</block>
-  <block id="8e4ba18b85274d135925d3a46f8bbe8f" category="list-text">형식으로 추가할 공유 목록이<block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block> 필요합니다. 공유를 개별적으로 입력하거나 스캔하려는 파일 공유의 라인 분리 목록을 제공할 수 있습니다.</block>
   <block id="8324f4d6c5b9d56205261e30363b597f" category="paragraph">BlueXP  분류 소프트웨어로의 업그레이드는 인스턴스가 인터넷에 연결되어 있는 한 자동화됩니다.</block>
-  <block id="763e254befdcc246f3e8569877b63340" category="section-title">파일 공유에 대한 그룹을 생성합니다</block>
-  <block id="60d7a85c8e73898b7ffc998f747e0883" category="paragraph">파일 공유를 추가하려면 먼저 파일 공유 "그룹"을 추가해야 합니다. 그룹은 검색할 파일 공유의 컨테이너이며 그룹 이름은 해당 파일 공유의 작업 환경 이름으로 사용됩니다.</block>
   <block id="28a37c29073d01b41af962aa45f11615" category="inline-image-macro">파일 공유 그룹 추가 버튼을 클릭할 수 있는 스캔 구성 페이지의 스크린 샷</block>
-  <block id="69438cb2e4a059b421af50a7d06c8f93" category="paragraph">새 파일 공유 그룹이 작업 환경 목록에 추가됩니다.</block>
-  <block id="8c7259d7b7f8962c22537c08f66b5e09" category="section-title">그룹에 파일 공유를 추가합니다</block>
-  <block id="a5847332edc397d8726675e5b89d4f7a" category="paragraph">파일 공유 그룹에 파일 공유를 추가하면 해당 공유의 파일이 BlueXP 분류에서 검사됩니다. 공유 형식을<block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block>추가합니다.</block>
-  <block id="7f36799e4767f2e3733ee3f582eeec9d" category="paragraph">개별 파일 공유를 추가하거나 스캔할 파일 공유의 줄별 목록을 제공할 수 있습니다. 한 번에 최대 100개의 공유를 추가할 수 있습니다.</block>
-  <block id="c9ce688a21fc0a13e7a592a39d9b66de" category="paragraph">단일 그룹에 NFS 및 CIFS 공유를 모두 추가하는 경우 NFS 공유를 한 번 추가한 다음 CIFS 공유를 다시 추가하는 프로세스를 실행해야 합니다.</block>
-  <block id="e12f851045a5dd03b63ec08942496b87" category="inline-image-macro">그룹에 초기 공유를 추가하기 위한 첫 번째 공유 추가 버튼을 보여 주는 스크린샷</block>
-  <block id="eb78bc82dacf7ba8a0b44a1fcffc4ddf" category="paragraph">CIFS(SMB) 공유를 추가할 때는 공유에 대한 읽기 액세스를 제공하는 Active Directory 자격 증명을 입력해야 합니다. 관리자 자격 증명을 사용하는 것이 좋습니다.</block>
   <block id="17ac351ddbea073b035b83b540983f6f" category="paragraph">확인 대화 상자에 추가된 공유 수가 표시됩니다.</block>
-  <block id="87dced2b98ff65890acdcbfd5902920a" category="paragraph">대화 상자에 추가할 수 없는 공유가 나열된 경우 이 정보를 캡처하여 문제를 해결할 수 있습니다. 경우에 따라 수정된 호스트 이름 또는 공유 이름으로 공유를 다시 추가할 수 있습니다.</block>
   <block id="ae70ae1b93c56367429b7d2bb0ece139" category="cell">Map * 을 클릭합니다</block>
   <block id="c8f32db0b52a7b7e31ee04bd02eddbb6" category="cell">지도 및 분류 * 를 클릭합니다</block>
   <block id="a988b0977fb89f6574cfc55d252b1cf9" category="cell">Off * 를 클릭합니다</block>
@@ -2832,7 +2813,6 @@
   <block id="e771ad044e30754f4af0addbc217531d" category="paragraph">데이터 조사 및 보고서에 대한 자세한 내용은 을 참조하십시오<block ref="5490a248bca38f18b55b559976dbad47" category="inline-link-rx"></block>.</block>
   <block id="251452e49ab5b88b5d8545e58cd46509" category="admonition">추가 국가 ID 번호 또는 의료 ID와 같은 기타 개인 데이터 유형을 식별하기 위해 BlueXP  분류가 필요한 경우 계정 관리자에게 문의하십시오.</block>
   <block id="ee27fa3e6dfe09f89a9d57742c167aa9" category="paragraph">* 특정 파일이 중복되는지 확인 *</block>
-  <block id="47b72e580332bb9da872607466b406bc" category="paragraph">보고서는 로컬 시스템에 저장할 수 있는 .csv 또는 .json 파일로 사용할 수 있습니다.</block>
   <block id="f257e5460f3ab87ec47290dc11518fc8" category="paragraph">* 데이터 조사 보고서에 포함된 내용 *</block>
   <block id="f3f4c1edbf92907aa9051152a36ae4cc" category="list-title">보고서를 생성하는 단계입니다</block>
   <block id="8b93cae59bfdd9d1f5373c4f243f1891" category="paragraph"><block ref="8b93cae59bfdd9d1f5373c4f243f1891" category="inline-image-macro-rx" type="image"></block></block>
@@ -2901,14 +2881,9 @@
   <block id="64f99cdcf52c853ffbb49b495c84036b" category="list-text">구성 페이지에서 구성하려는 데이터베이스의 * 구성 * 버튼을 선택합니다.</block>
   <block id="b068bd6072b65d7af1c49c844084245e" category="paragraph">BlueXP  분류는 하루에 한 번 데이터베이스를 스캔합니다. 데이터베이스는 다른 데이터 소스와 마찬가지로 지속적으로 스캔되지 않습니다.</block>
   <block id="063de98df490e1963f70c3177e6360fb" category="list-text">구성 페이지에서 * 작업 환경 추가 * &gt; * 파일 공유 그룹 추가 * 를 선택합니다.</block>
-  <block id="e88a3447811c9aed002c31e544c9189c" category="list-text">파일 공유 그룹 추가 대화 상자에서 공유 그룹의 이름을 입력하고 * 계속 * 을 선택합니다.</block>
-  <block id="3cbbc2871603074b8a3d479fe12b1dc4" category="list-text">구성 페이지의 작업 환경 타일에서 파일 공유 그룹에 대한 * 구성 * 버튼을 선택합니다.</block>
-  <block id="b24f1e5ca1e698decbe4352557abec98" category="list-text">이 파일 공유 그룹에 대한 파일 공유를 처음으로 추가하는 경우 * 첫 번째 공유 추가 * 를 선택합니다.</block>
-  <block id="c1caffc666c49e212352548248fb6e42" category="list-text">다음 중 하나를 수행하여 스캔을 활성화 또는 비활성화합니다.</block>
   <block id="c33a545f4674eb3c362c25d231db29f7" category="list-text">파일 공유에서 매핑 전용 스캔을 활성화하려면 * Map * 을 선택합니다.</block>
   <block id="e80b5dfbb6519cb4346daba78481ae2e" category="list-text">파일 공유에서 전체 스캔을 활성화하려면 * Map &amp; Classify * 를 선택합니다.</block>
   <block id="6bfd17d888fc4197713ca925797fb9c5" category="list-text">파일 공유에서 스캔을 비활성화하려면 * Off * 를 선택합니다.</block>
-  <block id="05383cbb22b67f6ba641527f070ae7e9" category="paragraph">특정 파일 공유를 더 이상 스캔할 필요가 없는 경우 언제든지 개별 파일 공유를 제거하여 파일을 검색할 수 있습니다.</block>
   <block id="26df3c05a484f6dafaf2085e9f725f92" category="list-text">구성 페이지에서 * 세부 정보 보기 * 를 선택하여 상태를 검토하고 오류를 수정합니다.</block>
   <block id="4d9ba07ef41ab1650dd0b2fb24f34e06" category="list-text">구성 페이지에서 스캔할 볼륨이 있는 작업 환경을 찾습니다.</block>
   <block id="82fdcf8611938284b66932937e4f812f" category="list-text">페이지 맨 위에서 * DP 볼륨에 대한 액세스 활성화 * 를 선택합니다.</block>
@@ -3096,25 +3071,11 @@
   <block id="dc2ddec9ec4ed327adbcf0621afd634e" category="list-text">변경하려는 작업 환경에 대한 * 구성 * 버튼을 선택합니다.</block>
   <block id="a9ee13c2bd1bbf8024db5dca75abc71c" category="list-text">볼륨에 대한 스캔을 비활성화하려면 볼륨 영역에서 * Off * 를 선택합니다.</block>
   <block id="8fdad01ebf5555cab54cc02a6d72d532" category="list-text">모든 볼륨에서 스캔을 비활성화하려면 제목 영역에서 * Off * 를 선택합니다.</block>
-  <block id="5f609f01b5a759f8bf288618cc1185a2" category="paragraph">동일한 그룹에서 NFS와 CIFS 공유를 혼합할 수 있지만, 그룹의 모든 CIFS 파일 공유는 동일한 Active Directory 자격 증명을 사용해야 합니다. 다른 자격 증명을 사용하는 CIFS 공유를 추가하려는 경우 고유한 각 자격 증명 세트에 대해 별도의 그룹을 만들어야 합니다.</block>
-  <block id="465cf4db3a5f4c4c7ae515fa816fec5f" category="inline-image-macro">파일 공유 그룹에 대한 구성 버튼을 보여 주는 스크린샷</block>
-  <block id="d31d3cba28e5d0da4c24219240aa58d9" category="paragraph"><block ref="d31d3cba28e5d0da4c24219240aa58d9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7433ee38f26b7a6e7c836170328187b2" category="paragraph"><block ref="7433ee38f26b7a6e7c836170328187b2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8d84ddfe7fc317b3b022bbcbd57a3021" category="paragraph">기존 그룹에 파일 공유를 추가하려면 그룹을 선택하고 * Configuration * 을 선택한 다음 * Add Shares * 를 선택합니다.</block>
   <block id="39d368b640988db0e678824b6dd5a384" category="list-text">추가하려는 파일 공유에 대한 프로토콜을 선택합니다.</block>
-  <block id="d5c8aa30f8266592630eb79640daa226" category="inline-image-macro">NFS 또는 CIFS 공유를 그룹에 추가하는 옵션을 보여 주는 스크린샷</block>
-  <block id="10b736be42493e387282cc76e61e80da" category="paragraph"><block ref="10b736be42493e387282cc76e61e80da" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dd306b6bfc7ce1886680d63b65c9ad50" category="list-text">스캔할 파일 공유(한 줄에 파일 공유 하나씩)를 추가합니다.</block>
-  <block id="136dc09835924029e4299fa28f17233d" category="list-text">Continue * 를 선택합니다.</block>
-  <block id="dffd4318dc569fa26cadb25c7679caec" category="paragraph">페이지 상단의 * "쓰기 속성" 권한 * 이 누락된 경우 * 스캔 에 대한 스위치는 기본적으로 비활성화되어 있습니다. 즉, BlueXP 분류에 CIFS의 쓰기 속성 권한이나 NFS의 쓰기 권한이 없는 경우 BlueXP 분류는 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 파일을 검색하지 않습니다. <block ref="62855d79cc7b1c143d998d83fe5addab" category="inline-link-macro-rx"></block>..</block>
-  <block id="07ada1e73188e64ef4fd43b06b4a2a48" category="paragraph">BlueXP 분류는 사용자가 추가한 파일 공유의 파일을 검사하기 시작하고 그 결과는 대시보드와 다른 위치에 표시됩니다.</block>
   <block id="6fd2d8d813fca5453b27470ce0140b6e" category="section-title">스캔 진행 상황을 추적합니다</block>
   <block id="5eedca777865af1a2fcf409e03c6b8fc" category="paragraph">초기 스캔의 진행률을 추적할 수 있습니다.</block>
-  <block id="b42abfd3e20a7657c224539a4e7b67a2" category="list-text">구성** 메뉴를 선택합니다.</block>
-  <block id="b6baa59814bd6b55374230c7eb6e433d" category="list-text">작업 환경 구성**을 선택합니다.</block>
   <block id="720123585ecf47cb95618257761a059d" category="paragraph">각 스캔의 진행률이 진행률 표시줄로 표시됩니다.</block>
   <block id="e377dc690fcbcaba0a113b80ac735dbc" category="list-text">진행률 표시줄 위로 마우스를 가져가면 볼륨의 총 파일과 비교하여 스캔된 파일 수가 표시됩니다.</block>
-  <block id="5ff63883dd1765c0e66ae3a76cd759c4" category="list-text">작업 환경을 선택합니다.</block>
   <block id="f76618a8e4af059632c87ab1f949bbe1" category="list-text">Configuration * 을 선택합니다.</block>
   <block id="5ad3e303fff11348579be9fa7186a3bf" category="inline-image-macro">작업 아이콘</block>
   <block id="7ce65bddfd6fa76c1434a83bb91b5c59" category="list-text">구성 페이지에서 제거할 파일 공유에 대한 작업 을 선택합니다<block ref="9599256bd913e17dd34fce684015b2f9" category="inline-image-macro-rx" type="image"></block>.</block>
@@ -3199,7 +3160,6 @@
   <block id="262bd6cb4081a4bb1d5b7bb69c91cf84" category="list-text">데이터 조사 페이지에서 다음 중 하나를 수행합니다.</block>
   <block id="112a92421a821122ddfd7d3b0735b4ec" category="list-text">파일(비구조화 데이터), 디렉토리(폴더 및 파일 공유) 또는 데이터베이스(구조화 데이터)의 데이터를 보려면 맨 위에 있는 탭 중 하나를 선택합니다.</block>
   <block id="de1f3a62aada6a5e03bde4ce908b4d24" category="list-text">결과를 숫자 또는 알파벳 순서로 정렬하려면 각 열의 맨 위에 있는 컨트롤을 선택합니다.</block>
-  <block id="3575ec00f80ae9ff26cf47ff8300221a" category="list-text">결과를 더 구체화하려면 왼쪽 필터 창에서 여러 필터 중 하나를 선택합니다.</block>
   <block id="a8d1bb5ba95108ab3a2f0fd87ebd3b07" category="paragraph">* 민감도와 내용별로 데이터를 필터링합니다 *</block>
   <block id="33399d32771439fb4356bebcb3641046" category="cell">를 선택합니다.<block ref="cbf64d77e33a53f16ad429da7b163a2e" category="inline-link-macro-rx"></block></block>
   <block id="529289f3a4b107ecb94c76e23fe0459f" category="cell">파일당 감지된 중요 식별자의 범위를 선택합니다. 개인 데이터 및 민감한 개인 데이터가 포함됩니다. 디렉터리에서 필터링할 때 BlueXP 분류는 각 폴더(및 하위 폴더)의 모든 파일에서 일치하는 항목의 합계를 구합니다. 참고: 2023년 12월 (버전 1.26.6) 릴리스는 디렉토리로 개인 식별 정보 (PII) 데이터의 수를 계산하는 옵션을 제거했습니다.</block>
@@ -3215,7 +3175,6 @@
   <block id="6926f90beadfdb901f306772787c7f05" category="paragraph">* 분석 상태별 데이터 필터링 *</block>
   <block id="0fdacc8c067979a1926a265cd399f05a" category="paragraph"><block ref="d865d9e7da9a534ddb8c0b18eca2435c" category="inline-link-macro-rx"></block> 스캔 분석 이벤트를 사용하여 필터링할 때 조사 페이지에 나타나는 항목에 대한 자세한 내용은 을 참조하십시오.</block>
   <block id="c2d41b84903ff9433b055cd311767824" category="paragraph">* 중복 데이터로 데이터 필터링 *</block>
-  <block id="1f54ce0e770f5c76ff9e305bb20ea41a" category="paragraph">모든 데이터 원본에 대해 모든 정보를 사용할 수 있는 것은 아니며 해당 데이터 원본에 적합한 정보만 제공합니다. 예를 들어, 볼륨 이름과 권한은 데이터베이스 파일과 관련이 없습니다.</block>
   <block id="efcf64fabaf1cd0d5d0c35cfea3e25d9" category="list-text">오른쪽의 Data Investigation 목록에서 오른쪽의 아래쪽 캐럿 을 선택하여 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>파일 메타데이터를 봅니다.</block>
   <block id="887f8cc0eb69a50c3835261bb514ecb7" category="section-title">파일 및 디렉터리에 대한 사용자의 권한을 봅니다</block>
   <block id="50f624bdefacfa8c1da9ed79642cacaa" category="list-text">파일 또는 디렉터리에 액세스할 수 있는 모든 사용자 또는 그룹의 목록과 해당 사용자의 권한 유형을 보려면 열기 권한 필드에서 * 모든 권한 보기 * 를 선택합니다.</block>
@@ -3532,4 +3491,65 @@
   <block id="16d42e00c386e70a3a7df4333dbd3a1d" category="paragraph">인스턴스 유형에 대한 다음 사양을 검토하세요.</block>
   <block id="b6312fd76a50f60b989ce722e432d447" category="paragraph">볼륨 수준이나 데이터베이스 스키마 수준에서 검사를 활성화하거나 비활성화할 수 있습니다.</block>
   <block id="5ef007aec2cc80b49f082c5ae4dba4dc" category="list-text">** 매핑 전용 스캔** 데이터에 대한 높은 수준의 개요만 제공하며 선택한 데이터 소스에서 수행됩니다. 매핑 전용 스캔은 파일에 액세스하여 내부 데이터를 확인하지 않기 때문에 매핑 및 분류 스캔보다 시간이 덜 걸립니다. 처음에는 이 작업을 수행하여 조사 영역을 식별한 다음 해당 영역에 대해 지도 및 분류 스캔을 수행할 수 있습니다.</block>
+  <block id="71653fb5163aa99d8613874ef0398606" category="paragraph">+ BlueXP classification 검사에서 파일의 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 CIFS의 쓰기 속성 권한 또는 NFS의 쓰기 권한이 있는 것이 좋습니다. 가능하다면 Active Directory 사용자를 모든 파일에 대한 권한을 가진 조직의 상위 그룹에 포함하도록 구성하십시오.</block>
+  <block id="d0169e5c24cd4c5e05dcb7edb4ca10d7" category="doc">버전 1.45</block>
+  <block id="8321b9867214f5caa9d5a37197549cfb" category="paragraph">이 BlueXP classification 릴리스에는 리소스 활용도를 최적화하는 코드 변경 사항이 포함되어 있습니다.</block>
+  <block id="8f993d1847870bf5334f9e8a709029c8" category="paragraph-title">스캔을 위해 파일 공유를 추가하는 향상된 워크플로</block>
+  <block id="7363f98210e80281886d9b88b644899c" category="paragraph">파일 공유 그룹에 파일 공유를 추가하는 워크플로가 간소화되었습니다. 또한, 이제 인증 유형(Kerberos 또는 NTLM)에 따라 CIFS 프로토콜 지원이 차별화됩니다.</block>
+  <block id="628bc6ea752b2d2bd10bc4f22b8cfcca" category="inline-xref-macro">파일 공유를 스캔합니다</block>
+  <block id="1ac63d916d77b3c107f8a8cfa12fb2bb" category="paragraph">자세한 내용은 을 <block ref="828b8ad7e27c62fe81ed86d552495069" category="inline-xref-macro-rx"></block>참조하십시오.</block>
+  <block id="2cc1f0459a8aa18da26c0c17c08edd37" category="paragraph-title">향상된 파일 소유자 정보</block>
+  <block id="11960942a6824585cdbadbb9ccfaa7b2" category="paragraph">이제 조사 탭에서 캡처된 파일의 파일 소유자에 대한 자세한 정보를 볼 수 있습니다. 조사 탭에서 파일의 메타데이터를 볼 때 파일 소유자를 찾은 다음 **세부 정보 보기**를 선택하면 사용자 이름, 이메일 주소, SAM 계정 이름을 확인할 수 있습니다. 이 사용자가 소유한 다른 항목도 볼 수 있습니다. 이 기능은 Active Directory가 설치된 작업 환경에서만 사용할 수 있습니다.</block>
+  <block id="761b95894e65b7e84a1b42c7277548f8" category="paragraph">자세한 내용은 을 <block ref="52346db20931f188e29e56e6e913f681" category="inline-xref-macro-rx"></block>참조하십시오.</block>
+  <block id="c6d521e93c659f52fc0150619d81cd0e" category="paragraph">파일 소유자에 대한 자세한 정보(계정 이름, 이메일 주소, SAM 계정 이름)를 보거나 해당 사용자가 소유한 항목을 볼 수도 있습니다.</block>
+  <block id="8d1256ea20b6f3627b46e3916aa6a135" category="paragraph">BlueXP classification 검사에서 파일의 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 CIFS의 쓰기 속성 권한 또는 NFS의 쓰기 권한이 있는 것이 좋습니다. 가능하다면 Active Directory 사용자를 모든 파일에 대한 권한을 가진 조직의 상위 그룹에 포함하도록 구성하십시오.</block>
+  <block id="06d20a71e8e976cfefed98d4f05b2dc1" category="list-text">결과를 더욱 구체화하려면 필터 창에서 필터 중 하나를 선택하세요.</block>
+  <block id="07b57c9c0ed87759bcd88b15d5738118" category="paragraph">정보의 가용성은 데이터 소스에 따라 달라집니다. 예를 들어, 데이터베이스 파일의 볼륨 이름과 권한은 공유되지 않습니다.</block>
+  <block id="d353221e429d4e01e167115856394ba7" category="paragraph">스토리지 시스템에 중복 파일이 저장되는지 확인할 수 있습니다. 이 기능은 저장 공간을 절약할 수 있는 영역을 확인하고자 할 때 유용합니다. 또한 특정 권한이나 민감한 정보가 있는 특정 파일이 스토리지 시스템에 불필요하게 중복되지 않도록 하는 것도 중요합니다.</block>
+  <block id="ded9bcb8a780ccd0382b8b14fad910bd" category="paragraph">BlueXP 분류는 해시 기술을 사용하여 중복 파일을 결정합니다. 어떤 파일의 해시 코드가 다른 파일과 동일하다면, 파일 이름이 다르더라도 그 파일이 정확히 중복된 파일이라는 것을 100% 확신할 수 있습니다.</block>
+  <block id="0e388091f60e0501a8deeffbcec8be11" category="paragraph">보고서는 CSV 또는 JSON 파일로 제공되어 로컬 컴퓨터에 저장할 수 있습니다.</block>
+  <block id="be8dd70bc3346c4b9e55da7be82fb393" category="list-text">파일 소유자 데이터에는 Active Directory가 구성된 경우 계정 이름, SAM 계정 이름 및 이메일 주소가 포함됩니다.</block>
+  <block id="e319a6c78434a89ca552a6d73fe71916" category="paragraph">삭제 감지 날짜는 파일이 삭제되거나 이동된 날짜를 나타냅니다. 이렇게 하면 중요한 파일이 이동된 시기를 식별할 수 있습니다. 삭제된 파일은 대시보드 또는 조사 페이지에 표시되는 파일 수에 포함되지 않습니다. 파일은 CSV 보고서에만 나타납니다.</block>
+  <block id="6e8a045a245797779bb93dd3e4285c7c" category="paragraph">파일 공유를 검사하려면 먼저 BlueXP classification 에서 파일 공유 그룹을 생성해야 합니다. 파일 공유 그룹은 온프레미스 또는 클라우드에 호스팅된 NFS 또는 CIFS(SMB) 공유를 위한 것입니다.</block>
+  <block id="9f7a7a7b646e0109061cec3b6e43fd7a" category="list-text">BlueXP classification 7-Mode 시스템에서 권한이나 "마지막 액세스 시간"을 추출할 수 없습니다.</block>
+  <block id="f167fbb6464f189d72ddba5508d2a1a2" category="list-text">7-Mode 시스템에서 일부 Linux 버전과 CIFS 공유 간에 알려진 문제로 인해 NTLM 인증이 활성화된 SMBv1만 사용하도록 공유를 구성해야 합니다.</block>
+  <block id="febc725c8219d1f58a301fbb05f61925" category="list-text">DFS(Distributed File System) 공유를 일반 CIFS 공유로 추가할 수 있습니다. BlueXP classification 공유가 단일 CIFS 공유로 결합된 여러 서버/볼륨으로 구축되었다는 사실을 인식하지 못하기 때문에 메시지가 실제로는 다른 서버/볼륨에 있는 폴더/공유 중 하나에만 적용되는 경우에도 공유에 대한 권한 또는 연결 오류가 발생할 수 있습니다.</block>
+  <block id="41e1e7051086f2b383638790a305feef" category="list-text">그룹 내의 모든 CIFS 파일 공유는 동일한 Active Directory 자격 증명을 사용해야 합니다.</block>
+  <block id="23335ae9e8a43f9a4bd3eeef48debd93" category="list-text">NFS와 CIFS(Kerberos 또는 NTLM 사용) 공유를 혼합하여 사용할 수 있습니다. 공유는 그룹에 별도로 추가해야 합니다. 즉, 프로토콜당 한 번씩, 총 두 번 추가해야 합니다.</block>
+  <block id="2306a764b0fbd2030a3253a01f4ef4e2" category="list-text">CIFS 인증 유형(Kerberos 및 NTLM)을 혼합하여 파일 공유 그룹을 만들 수 없습니다.</block>
+  <block id="01a7424020e7f3202ded11d5d1d85ea9" category="list-text">Kerberos 인증을 사용하는 CIFS를 사용하는 경우, 제공된 IP 주소가 BlueXP classification 서비스에 접근 가능한지 확인하세요. IP 주소에 접근할 수 없으면 파일 공유를 추가할 수 없습니다.</block>
+  <block id="66fd0cd482106809095f5b444f1ca7fb" category="section-title">파일 공유 그룹 만들기</block>
+  <block id="1d7cfdb45bf2c755c261c429273dcd5f" category="paragraph">그룹에 파일 공유를 추가하는 경우 다음 형식을 사용해야 합니다. <block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block> .</block>
+  <block id="4920a2ca6c24b7d5c2b83a59cd5e5ac0" category="paragraph">+ 파일 공유를 개별적으로 추가할 수도 있고, 검사하려는 파일 공유 목록을 줄로 구분하여 입력할 수도 있습니다. 한 번에 최대 100개의 공유를 추가할 수 있습니다.</block>
+  <block id="7aa8490f63ce3baa4f282b1e03af19e0" category="list-text">파일 공유 그룹 추가 대화 상자에서 공유 그룹의 이름을 입력한 다음 *계속*을 선택합니다.</block>
+  <block id="4ad53633a654d3c85aac7634b01f762d" category="inline-image-macro">프로토콜 및 공유를 선택하는 옵션을 보여주는 공유 추가 모달의 스크린샷</block>
+  <block id="fc972cc0c23a0647faaded513ebc358b" category="paragraph"><block ref="fc972cc0c23a0647faaded513ebc358b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e5fa9a16544d72a9315d489ffc3c6e7a" category="list-title">NTLM 인증을 사용하여 CIFS 공유를 추가하는 경우, CIFS 볼륨에 액세스하려면 Active Directory 자격 증명을 입력하세요. 읽기 전용 자격 증명도 지원되지만, 관리자 자격 증명을 사용하여 전체 액세스 권한을 부여하는 것이 좋습니다. ** 저장**을 선택합니다.</block>
+  <block id="e0dc4d19036f796f0e69139cbaebd4dd" category="list-text">스캔할 파일 공유(한 줄에 파일 공유 하나씩)를 추가합니다. 그런 다음 **계속**을 선택하세요.</block>
+  <block id="7e24e4db93926b63a81a6e1234ed3b65" category="paragraph">대화 상자에 추가할 수 없는 공유가 나열된 경우 이 정보를 캡처하여 문제를 해결할 수 있습니다. 문제가 명명 규칙과 관련된 경우, 수정된 이름으로 공유를 다시 추가할 수 있습니다.</block>
+  <block id="74b3b21bb9468e0e52fa3cb647774380" category="list-text">볼륨에 대한 스캐닝을 구성합니다.</block>
+  <block id="31d79d719e53d91935c3441c3485a9a7" category="admonition">페이지 상단의 * "쓰기 속성" 권한 * 이 누락된 경우 * 스캔 에 대한 스위치는 기본적으로 비활성화되어 있습니다. 즉, BlueXP classification 에 CIFS의 쓰기 속성 권한이 없거나 NFS의 쓰기 권한이 없는 경우, BlueXP classification "마지막 액세스 시간"을 원래 타임스탬프로 되돌릴 수 없기 때문에 시스템이 파일을 검사하지 않습니다. + "쓰기 속성" 권한이 없는 경우 검사*를 *켜짐*으로 전환하면 검사가 마지막 액세스 시간을 재설정하고 권한에 관계없이 모든 파일을 검사합니다. + 마지막 액세스 타임스탬프에 대한 자세한 내용은 다음을 참조하세요. <block ref="a6ff75fb42fe2cf8b776f190f8130a5a" category="inline-link-macro-rx"></block> .</block>
+  <block id="327dcd445646c6bc0cdac87af9e09cb1" category="paragraph">BlueXP classification 추가한 파일 공유에 있는 파일 검사를 시작합니다 . <block ref="49703064e6182ae52c2dba4f03d70acb" category="inline-xref-macro-rx"></block> **대시보드**에서 검사 결과를 확인하세요.</block>
+  <block id="20a9fbab57f89c185c5017371353fc11" category="admonition">Kerberos 인증을 사용하는 CIFS 구성에 대한 스캔이 성공적으로 완료되지 않으면 **구성** 탭에서 오류를 확인하세요.</block>
+  <block id="e2d60b9b5e0846af58489521d58499d3" category="section-title">파일 공유 그룹 편집</block>
+  <block id="199ff00c8f3fbd1675f230538f44f442" category="paragraph">파일 공유 그룹을 만든 후에는 CIFS 프로토콜을 편집하거나 파일 공유를 추가 및 제거할 수 있습니다.</block>
+  <block id="e8c465a01d8b36601f42e0459d8bda40" category="list-title">CIFS 프로토콜 구성 편집</block>
+  <block id="7b4000ebfbede50ccc65de78a1bb053c" category="list-text">구성 페이지에서 수정하려는 파일 공유 그룹을 선택합니다.</block>
+  <block id="2e48c8defee7160cc921ecda4965ed92" category="list-text">**CIFS 자격 증명 편집**을 선택합니다.</block>
+  <block id="f6a365c71d64dfaee221626548f4470f" category="inline-image-macro">CIFS 자격 증명 편집 메뉴의 스크린샷입니다.</block>
+  <block id="465dddce879cdc5be5ad18a0321d8b08" category="paragraph"><block ref="465dddce879cdc5be5ad18a0321d8b08" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="37930ddda6375efa5dff13cff9b3134c" category="list-text">인증 방법을 선택하세요: **NTLM** 또는 **Kerberos**.</block>
+  <block id="1fe8e9edee1eb819b2183f754c26e179" category="list-text">Active Directory **사용자 이름**과 **암호**를 입력하세요.</block>
+  <block id="3a6b529abf055bb666a3d0f7b1f4056a" category="list-text">**저장**을 선택하여 과정을 완료하세요.</block>
+  <block id="f7066b9bcef508a56d9d043a9fb1fe1d" category="list-title">규정 준수 검사에 파일 공유 추가</block>
+  <block id="ad0577638876c42601046d9f6255f464" category="list-text">**+ 공유 추가**를 선택하세요.</block>
+  <block id="3af4ae7b28ddfe38307ff8527d9da313" category="paragraph">이미 구성한 프로토콜에 파일 공유를 추가하는 경우 변경할 필요가 없습니다.</block>
+  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">필수 구성 요소</block>
+  <block id="61cfa51582cec46d576d45cd093d79ef" category="paragraph">두 번째 프로토콜을 사용하여 파일 공유를 추가하는 경우 다음에서 자세히 설명한 대로 인증을 적절하게 구성했는지 확인하십시오. <block ref="aaf48cddad89107947ab6e7eca766e41" category="inline-link-macro-rx"></block> .</block>
+  <block id="4459627c70285484d5cdd635a0dc2851" category="list-text">형식을 사용하여 검사하려는 파일 공유를 추가합니다(줄당 하나의 파일 공유). <block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block> .</block>
+  <block id="dadf1d57ce39c4b00e52377a9d1d4fd7" category="list-text">**계속**을 선택하여 파일 공유 추가를 완료합니다.</block>
+  <block id="d769fc4b1081db3d71ad7ef80f7353dc" category="list-text">파일 공유를 제거할 작업 환경을 선택하세요.</block>
+  <block id="b42fc0af753e0ff8c5de1ac5d8dfe183" category="list-text">**구성** 메뉴를 선택하세요.</block>
+  <block id="790cba8a3b8c32c0870a5b1dd53d5a26" category="list-text">**작업 환경 구성**을 선택하세요.</block>
+  <block id="f2673d4a3fe0162a501d43f5168ae950" category="section-title">2025년 7월 14일</block>
 </blocks>
