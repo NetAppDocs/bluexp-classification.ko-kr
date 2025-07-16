@@ -14,4 +14,4 @@ BlueXP  분류는 작업 환경에 대한 대량 작업을 지원합니다. 스
 .조사 보고서를 로컬로 다운로드합니다
 BlueXP  분류는 데이터 조사 보고서를 로컬로 다운로드하여 브라우저에서 볼 수 있는 기능을 지원합니다. 로컬 옵션을 선택하면 데이터 조사는 CSV 형식으로만 사용할 수 있으며 처음 10,000개의 데이터 행만 표시됩니다.
 
-자세한 내용은 을 link:task-investigate-data.html#create-the-data-investigation-report["BlueXP  분류를 통해 조직에 저장된 데이터를 조사합니다"]참조하십시오.
+자세한 내용은 을 link:https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#create-the-data-investigation-report["BlueXP  분류를 통해 조직에 저장된 데이터를 조사합니다"]참조하십시오.

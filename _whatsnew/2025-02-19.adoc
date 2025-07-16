@@ -20,9 +20,9 @@
 
 우선 순위는 한 번만 부여됩니다. 매핑 데이터의 자동 재검색이 기본 순서로 수행됩니다.
 
-우선 순위 지정은 로 link:concept-cloud-compliance.html["매핑 전용 스캔"]제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.
+우선 순위 지정은 로 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["매핑 전용 스캔"^]제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.
 
-자세한 내용은 을 link:task-managing-repo-scanning.html#prioritize-scans["스캔 우선 순위 지정"]참조하십시오.
+자세한 내용은 을 link:https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html#prioritize-scans["스캔 우선 순위 지정"^]참조하십시오.
 
 .모든 스캔을 재시도합니다
 BlueXP  분류는 실패한 모든 스캔을 일괄 재시도하는 기능을 지원합니다.
