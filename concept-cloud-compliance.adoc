@@ -171,6 +171,9 @@ image:diagram_cloud_compliance_scan.png["클라우드 공급자에서 실행되�
 볼륨 수준이나 데이터베이스 스키마 수준에서 검사를 활성화하거나 비활성화할 수 있습니다.
 
 
+NOTE: BlueXP classification 스캔할 수 있는 데이터 양에 제한을 두지 않습니다. 각 커넥터는 500TiB의 데이터 스캔 및 표시를 지원합니다. 500TiB 이상의 데이터를 스캔하려면 link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#connector-installation["다른 커넥터를 설치하세요"^] 그 다음에 link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-overview.html["다른 분류 인스턴스 배포"] . + BlueXP UI는 단일 커넥터의 데이터를 표시합니다. 여러 커넥터의 데이터를 보는 방법에 대한 팁은 다음을 참조하세요. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-multiple-connectors.html#switch-between-connectors["여러 개의 커넥터로 작업합니다"^] .
+
+
 
 == 매핑 스캔과 분류 스캔의 차이점은 무엇입니까
 

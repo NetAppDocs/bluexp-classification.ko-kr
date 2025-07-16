@@ -375,7 +375,10 @@ BlueXP  분류는 Microsoft Azure 및 Google Cloud Platform (GCP)용 Linux 운�
 === 버전 1.31
 
 .BlueXP 내에서 핵심 서비스로 분류할 수 있습니다
-BlueXP 분류는 이제 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 내에서 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.
+BlueXP classification 이제 커넥터당 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 의 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.
+
+
+NOTE: BlueXP classification 스캔할 수 있는 데이터 양에 제한을 두지 않습니다. 각 커넥터는 500TiB의 데이터 스캔 및 표시를 지원합니다. 500TiB 이상의 데이터를 스캔하려면 link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#connector-installation["다른 커넥터를 설치하세요"^] 그 다음에 link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-overview.html["다른 분류 인스턴스 배포"] . + BlueXP UI는 단일 커넥터의 데이터를 표시합니다. 여러 커넥터의 데이터를 보는 방법에 대한 팁은 다음을 참조하세요. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-multiple-connectors.html#switch-between-connectors["여러 개의 커넥터로 작업합니다"^] .
 
 link:reference-free-paid.html["더 이상 사용되지 않는 기능에 대해 자세히 알아보십시오"]..
 

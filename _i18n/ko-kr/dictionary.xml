@@ -202,7 +202,6 @@
   <block id="e22ac25b066b201473de7aa700ef5d92" category="cell">가격</block>
   <block id="b24ce0cd392a5b0b8dedc66c25213594" category="cell">무료</block>
   <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="cell">용량</block>
-  <block id="1210ad5d6a7beaf8ab7fd7d0808a95ca" category="cell">500TB로 제한됩니다</block>
   <block id="e897ea41d67b7f4324a05104cdb193d8" category="cell">파일 유형 및 사용된 용량 목록입니다</block>
   <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">예</block>
   <block id="f70dc1570da6e051d772bf79c53fd19c" category="cell">파일 수 및 사용된 용량입니다</block>
@@ -2625,7 +2624,6 @@
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024년 5월 15일</block>
   <block id="362a66c8caf141f86c11be1e2f936c77" category="section-title">버전 1.31</block>
   <block id="d1e72f4d21bb915d180e5f6d1e9d4264" category="paragraph-title">BlueXP 내에서 핵심 서비스로 분류할 수 있습니다</block>
-  <block id="ac229efd3fa61c5457dcab252996be0b" category="paragraph">BlueXP 분류는 이제 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 내에서 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.</block>
   <block id="3607a722a9a09bb6d405f4d84609e858" category="inline-link-macro">더 이상 사용되지 않는 기능에 대해 자세히 알아보십시오</block>
   <block id="1a50d9154328b370f6d9bbbab041964a" category="paragraph"><block ref="671322b9b43cc49264f86b21ef88a11d" category="inline-link-macro-rx"></block>..</block>
   <block id="e6a70634d4a42783e6d5918eff0a0ab6" category="section-title">버전 1.30</block>
@@ -3553,4 +3551,11 @@
   <block id="c10aaeed86973ee0f442f2e7b73b80b8" category="paragraph">자세한 내용은 을 <block ref="c56cfb642e9d697265520a2d16e8cbad" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="4c59149345d32f10d4c1edb221d77028" category="paragraph">이제 조사 탭에서 캡처된 파일의 파일 소유자에 대한 자세한 정보를 볼 수 있습니다. 조사 탭에서 파일의 메타데이터를 볼 때 파일 소유자를 찾은 다음 **세부 정보 보기**를 선택하면 사용자 이름, 이메일, SAM 계정 이름을 확인할 수 있습니다. 이 사용자가 소유한 다른 항목도 볼 수 있습니다. 이 기능은 Active Directory가 설치된 작업 환경에서만 사용할 수 있습니다.</block>
   <block id="476669d16044da6b8fccc04e3a65c887" category="paragraph">자세한 내용은 을 <block ref="202490d1a2feeed942d0b33752539ffd" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="ba0582c1a4216adac557c97d2f92f869" category="inline-link-macro">다른 커넥터를 설치하세요</block>
+  <block id="bb421402dbabe6eec32567511e69bc2a" category="inline-link-macro">다른 분류 인스턴스 배포</block>
+  <block id="7473cbb9b768b471bd45e7579b544a3a" category="inline-link-macro">여러 개의 커넥터로 작업합니다</block>
+  <block id="c430d0ad1a785912ff6e7f2d659d752f" category="paragraph">BlueXP classification 스캔할 수 있는 데이터 양에 제한을 두지 않습니다. 각 커넥터는 500TiB의 데이터 스캔 및 표시를 지원합니다. 500TiB 이상의 데이터를 스캔하려면 <block ref="a34b864875c7f2ebc4a815c94a375e43" category="inline-link-macro-rx"></block> 그 다음에 <block ref="a51ca3e7fcece55a05339015489757d6" category="inline-link-macro-rx"></block> . + BlueXP UI는 단일 커넥터의 데이터를 표시합니다. 여러 커넥터의 데이터를 보는 방법에 대한 팁은 다음을 참조하세요. <block ref="5255e271b4118330c3aac09d32603a12" category="inline-link-macro-rx"></block> .</block>
+  <block id="551fbc3b7472150a5293373b773972d7" category="cell">500TiB로 제한됨*</block>
+  <block id="acdf9d63036f9706b8165f6f6a7117da" category="paragraph">{별표} include::_include/connector-limit.adoc[]</block>
+  <block id="e8c9a8c8c457fc72bf3b116575089845" category="paragraph">BlueXP classification 이제 커넥터당 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 의 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.</block>
 </blocks>
