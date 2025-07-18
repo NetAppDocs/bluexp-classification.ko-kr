@@ -2971,7 +2971,6 @@
   <block id="a5e2d801acd4eba6ae154178a10ef60b" category="paragraph">BlueXP  분류를 통해 BlueXP  시스템 및 스토리지 시스템과 함께 또 다른 AI 계층을 구축합니다. 그런 다음 볼륨, 버킷, 데이터베이스 및 기타 스토리지 계정의 데이터를 검색하고 검색된 데이터 인사이트를 인덱싱합니다. BlueXP 분류는 정규식과 패턴 일치를 기반으로 일반적으로 구축되는 대체 솔루션과 달리 인공 지능과 자연어 처리를 모두 활용합니다.</block>
   <block id="05f433c1debc0d95600d02d8fe22a000" category="paragraph"><block ref="c829fae802ee8a6cfaabb6949c6dbda2" category="inline-link-macro-rx"></block>..</block>
   <block id="7495d9f71402d3b1d20f08bd19ac6562" category="inline-link-macro">API 설명서</block>
-  <block id="2f5a5a17121fb9d36eb3f88f8ea3cc54" category="paragraph">예. BlueXP  분류에는 BlueXP  코어 플랫폼의 일부인 BlueXP  분류 버전에서 지원되는 기능에 대한 REST API가 있습니다. 을 <block ref="66d6eeee3cdd1145e7194200ace05e36" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="5cc30ec93f0fd1add7230b4f102dac70" category="section-title">클라우드 마켓플레이스를 통해 BlueXP  분류를 사용할 수 있습니까?</block>
   <block id="c121c2d1b519c88dba382cf2cad15a89" category="paragraph">BlueXP  분류는 BlueXP  핵심 기능의 일부이므로 이 서비스에 마켓플레이스를 사용할 필요가 없습니다.</block>
   <block id="5c724eb0add446b6c005e415e92957ed" category="paragraph">다음 질문은 BlueXP  분류 스캔 성능 및 분석과 관련이 있습니다.</block>
@@ -3558,4 +3557,5 @@
   <block id="551fbc3b7472150a5293373b773972d7" category="cell">500TiB로 제한됨*</block>
   <block id="acdf9d63036f9706b8165f6f6a7117da" category="paragraph">{별표} include::_include/connector-limit.adoc[]</block>
   <block id="e8c9a8c8c457fc72bf3b116575089845" category="paragraph">BlueXP classification 이제 커넥터당 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 의 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.</block>
+  <block id="3c6bee2e144dcf57c21b516f9adcdfef" category="paragraph">예. BlueXP  분류에는 BlueXP  코어 플랫폼의 일부인 BlueXP  분류 버전에서 지원되는 기능에 대한 REST API가 있습니다. 을 <block ref="66d6eeee3cdd1145e7194200ace05e36" category="inline-link-macro-rx"></block>참조하십시오.</block>
 </blocks>

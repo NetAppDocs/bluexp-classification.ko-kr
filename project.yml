@@ -55,8 +55,6 @@ sidebar:
         url: "/task-scanning-storagegrid.html"
     - title: Active Directory 통합
       url: "/task-add-active-directory-datasense.html"
-    - title: FAQ 를 참조하십시오
-      url: "/faq-cloud-compliance.html"
   - title: BlueXP 분류를 사용합니다
     entries:
     - title: 데이터에 대한 거버넌스 세부 정보를 봅니다
@@ -139,6 +137,8 @@ sidebar:
       url: "/task-support-registration.html"
     - title: 도움을 받으십시오
       url: "/task-get-help.html"
+  - title: FAQ 를 참조하십시오
+    url: "/faq-cloud-compliance.html"
   - title: 법적 고지
     url: "/legal-notices.html"
 product-family:
