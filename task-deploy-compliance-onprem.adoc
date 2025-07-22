@@ -337,9 +337,9 @@ https://youtu.be/XiPLaJpfJEI["이 비디오 시청"^] BlueXP  분류를 설치�
 tar -xzf DATASENSE-INSTALLER-V1.25.0.tar.gz
 ----
 . BlueXP에서 * 거버넌스 > 분류 * 를 선택합니다.
-. Activate Data Sense * 를 클릭합니다.
+. *온프레미스 또는 클라우드에 분류 배포*를 선택합니다.
 +
-image:screenshot_cloud_compliance_deploy_start.png["BlueXP 분류를 활성화하기 위한 버튼 선택 스크린샷."]
+image:screenshot-deploy-classification.png["BlueXP 분류를 활성화하기 위한 버튼 선택 스크린샷."]
 
 . 클라우드에서 준비한 인스턴스 또는 사내에서 준비한 인스턴스에 BlueXP 분류를 설치할 것인지 여부에 따라 해당 * deploy * 버튼을 클릭하여 BlueXP 분류 설치를 시작합니다.
 +

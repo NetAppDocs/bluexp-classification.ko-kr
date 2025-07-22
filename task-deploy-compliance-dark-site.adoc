@@ -307,9 +307,9 @@ tar -xzf DataSense-offline-bundle-v1.25.0.tar.gz
 tar -xzf cc_onprem_installer.tar.gz
 ----
 . BlueXP를 시작하고 * Governance > Classification * 을 선택합니다.
-. Activate Data Sense * 를 클릭합니다.
+. *온프레미스 또는 클라우드에 분류 배포*를 선택합니다.
 +
-image:screenshot_cloud_compliance_deploy_start.png["BlueXP 분류를 활성화하기 위한 버튼 선택 스크린샷."]
+image:screenshot-deploy-classification.png["BlueXP 분류를 활성화하기 위한 버튼 선택 스크린샷."]
 
 . 사내 설치를 시작하려면 * deploy * 를 클릭합니다.
 +

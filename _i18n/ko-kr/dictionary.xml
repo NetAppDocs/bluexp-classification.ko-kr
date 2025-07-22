@@ -994,15 +994,10 @@
   <block id="7df445bf0c34cf36a966141745590030" category="open-title">AWS에 구축</block>
   <block id="23c0e03df230b1dfa0e16b9d275b80ea" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 분류 * 를 클릭합니다.</block>
   <block id="d33aba60d91a201fe7b4bce522f9deb7" category="inline-image-macro">BlueXP 분류를 활성화하기 위한 버튼 선택 스크린샷.</block>
-  <block id="c48b9bad2a3a25d6dad223ab11c5a33e" category="paragraph"><block ref="c48b9bad2a3a25d6dad223ab11c5a33e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cce26d229722c6ca9257990a7091d9c0" category="list-text">Activate Data Sense * 를 클릭합니다.</block>
-  <block id="2cf7dbc159875140b6f5ecc68994fa13" category="list-text">Installation_page에서 * deploy &gt; deploy * 를 클릭하여 "큰" 인스턴스 크기를 사용하고 클라우드 배포 마법사를 시작합니다.</block>
   <block id="125c9895b0de4086b75bd6de17240096" category="list-text">구축 단계를 진행할 때 마법사가 진행률을 표시합니다. 문제가 발생하면 중지하고 입력을 묻는 메시지가 표시됩니다.</block>
   <block id="6ccd3462f51e144ba54924a76ff58ce8" category="inline-image-macro">새 인스턴스를 배포하기 위한 BlueXP 분류 마법사 스크린샷</block>
   <block id="f7b6e8ebd5557b7030e15d04046f60e7" category="paragraph"><block ref="f7b6e8ebd5557b7030e15d04046f60e7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bdfca0a21ad4ec182fb0ff0fe7b8bc6b" category="list-text">인스턴스가 배포되고 BlueXP 분류가 설치되면 * 구성 계속 * 을 클릭하여 _Configuration_페이지로 이동합니다.</block>
   <block id="699be6723175322ef727a933c7b42bbd" category="open-title">Azure에 구축</block>
-  <block id="a09a5c1c3cb0d27dbac4cfa3c73c0ec8" category="list-text">클라우드 배포 마법사를 시작하려면 * 배포 * 를 클릭합니다.</block>
   <block id="473b6ff5a1c62a3a028f4dc37b9cbd6c" category="inline-image-macro">클라우드에 BlueXP 분류를 배포하기 위한 버튼을 선택한 스크린샷</block>
   <block id="1f61c6b070b23b20d4af173152567e3d" category="paragraph"><block ref="1f61c6b070b23b20d4af173152567e3d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="12714d8579e39a7357fefed194511b8a" category="open-title">Google Cloud에 배포</block>
@@ -3558,4 +3553,28 @@
   <block id="acdf9d63036f9706b8165f6f6a7117da" category="paragraph">{별표} include::_include/connector-limit.adoc[]</block>
   <block id="e8c9a8c8c457fc72bf3b116575089845" category="paragraph">BlueXP classification 이제 커넥터당 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 의 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.</block>
   <block id="3c6bee2e144dcf57c21b516f9adcdfef" category="paragraph">예. BlueXP  분류에는 BlueXP  코어 플랫폼의 일부인 BlueXP  분류 버전에서 지원되는 기능에 대한 REST API가 있습니다. 을 <block ref="66d6eeee3cdd1145e7194200ace05e36" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="b88a97dbbf0d94d8396d856054201821" category="summary">BlueXP 의 서비스에 액세스하여 BlueXP classification 시작하세요.</block>
+  <block id="5e2bda6842e62bee66b91379fc54ff14" category="doc">BlueXP classification 에 액세스하세요</block>
+  <block id="18ab5404b1c9c78cdbe1208355c612b8" category="paragraph">NetApp BlueXP 통해 BlueXP classification 서비스에 액세스할 수 있습니다.</block>
+  <block id="827ffaa4071f763fcf2f165bc506ac67" category="inline-link-macro">BlueXP 로그인에 대해 자세히 알아보십시오</block>
+  <block id="e85f8055ef2f47366302b6cd1e438fd5" category="paragraph">BlueXP 에 로그인하려면 NetApp 지원 사이트 자격 증명을 사용하거나 이메일과 비밀번호를 사용하여 NetApp 클라우드 로그인에 가입할 수 있습니다. <block ref="87311a7719bd09cd8d149ce0279338dd" category="inline-link-macro-rx"></block>..</block>
+  <block id="34397c830c77af93d96e3ed470658d45" category="inline-link-macro">모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요</block>
+  <block id="0a52c97ea3cc5973c99346826ec696eb" category="paragraph">특정 작업에는 특정 BlueXP 사용자 역할이 필요합니다. <block ref="8b4e96244237d791189f9a3329e43e34" category="inline-link-macro-rx"></block>..</block>
+  <block id="7b9aeeb99181b7bca6291c8ca1c3ec58" category="inline-link-macro">BlueXP 커넥터를 추가해야 합니다.</block>
+  <block id="4d1ee80ad087cea271c22d352e5e16cf" category="list-text"><block ref="4d1ee80ad087cea271c22d352e5e16cf" category="inline-link-macro-rx"></block></block>
+  <block id="d5686972367b277b3384920923b26bb8" category="inline-link-macro">귀하의 작업 부하에 적합한 BlueXP classification 배포 스타일을 파악해 보세요.</block>
+  <block id="a7d2d849071dae06891079aa8c9ed283" category="list-text"><block ref="a7d2d849071dae06891079aa8c9ed283" category="inline-link-macro-rx"></block></block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP 콘솔</block>
+  <block id="899f21c9bd67afec8f9f3be01a8edddc" category="list-text">웹 브라우저에서 다음으로 이동합니다. <block ref="046fd603b18837f482287e5ec741e5ed" category="inline-link-macro-rx"></block> .</block>
+  <block id="753e3c2055278365db83b605f29d4860" category="paragraph">NetApp BlueXP 로그인 페이지가 나타납니다.</block>
+  <block id="ee852dbf3a138374521be3a3b6b5413d" category="list-text">BlueXP 에 Sign in .</block>
+  <block id="94390442839b9d41b3d61bf8fbfa3412" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 *거버넌스* &gt; *분류*를 선택하세요.</block>
+  <block id="9b78feb8a8a40d46d2fb12391c043b8e" category="list-text">처음으로 BlueXP classification 에 접속하는 경우 랜딩 페이지가 나타납니다.</block>
+  <block id="3c5000aadb8f3b41a943ceff25d45f92" category="paragraph">분류 인스턴스 배포를 시작하려면 *온프레미스 또는 클라우드에 분류 배포*를 선택하세요. 자세한 내용은 을 참조하십시오 <block ref="ac3bd67718326214ecb171be9412b196" category="inline-link-macro-rx"></block></block>
+  <block id="a65721c6a00f8c4af241338a11fd8f3f" category="paragraph"><block ref="a65721c6a00f8c4af241338a11fd8f3f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e694fa91cc3969b00d0ae997752b6422" category="paragraph">그렇지 않으면 BlueXP classification 보드가 나타납니다.</block>
+  <block id="e142a6f5dd7278bd87df979071f43ac7" category="list-text">*온프레미스 또는 클라우드에 분류 배포*를 선택합니다.</block>
+  <block id="dcc769ed0ea98e366058422f08990e15" category="list-text">_설치_ 페이지에서 *배포 &gt; 배포*를 선택하여 "대형" 인스턴스 크기를 사용하고 클라우드 배포 마법사를 시작합니다.</block>
+  <block id="6082f95d47d2b6cd46c38a484f2b2e4f" category="list-text">인스턴스가 배포되고 BlueXP classification 설치되면 *구성 계속*을 선택하여 _구성_ 페이지로 이동합니다.</block>
+  <block id="f08251ff59a66c2320f7263142413eac" category="list-text">클라우드 배포 마법사를 시작하려면 *배포*를 선택하세요.</block>
 </blocks>
