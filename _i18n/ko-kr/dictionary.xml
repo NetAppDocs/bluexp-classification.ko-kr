@@ -2950,8 +2950,6 @@
   <block id="d3057f8e098d72850d91f222796050a1" category="section-title">데이터에서 가장 식별된 데이터 분류를 검토합니다</block>
   <block id="93a41f9744586b4edf90898527b71531" category="cell">조사를 통해 NFS/CIFS로 데이터를 내보냅니다</block>
   <block id="81aef4d88b3543fe7ce12740f599c026" category="paragraph">파일은 고정된 수의 행 또는 레코드가 있는 파일로 분할됩니다.</block>
-  <block id="65c07610fb212d644f234075537bbc84" category="list-text">CSV - 200,000개의 레코드</block>
-  <block id="8897cd6292ab12bb81d8704c400fca96" category="list-text">JSON - 100,000개의 레코드</block>
   <block id="781c4c76cc2b33e7ebecd0ec7ae9a2c7" category="section-title">BlueXP  분류 스캔 작동 방식</block>
   <block id="474cf46df0c1e9c8d98c2f529a0b080b" category="paragraph">상위 수준에서 BlueXP  분류 스캔은 다음과 같이 작동합니다.</block>
   <block id="20d2a2e8543925af69154c91d0f12b74" category="list-text">하나 이상의 데이터 소스에서 상위 수준 매핑(_Mapping Only_scans라고 함) 또는 상세 수준 스캔(_Map &amp; Classify_scans 라고 함)을 사용할 수 있습니다.</block>
@@ -3143,7 +3141,6 @@
   <block id="d7530ec47cb0f60bf26bff38cfcd4f1f" category="list-text">볼륨 스캔을 일시 중지하려면 * Pause * 를 선택하고 이전에 일시 중지된 볼륨에 대한 스캔을 다시 시작하려면 * Resume * 을 선택합니다.</block>
   <block id="e28f00b8dd55b4a2626bbd4233f326a1" category="list-text">* 데이터 분류 딥 스캔(지도 및 분류 스캔) *: 사용자 환경 전반에서 표준 프로토콜과 읽기 전용 권한을 사용하여 BlueXP  분류 스캔을 수행합니다. Select 파일은 랜섬웨어 관련 중요 비즈니스 관련 데이터, 개인 정보 및 문제를 대상으로 열렸다 스캔됩니다.</block>
   <block id="e90444baa59788bd6471cf703b12a16e" category="summary">데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. 여기에서는 거버넌스 대시보드를 살펴본 후 연구를 계속할 수 있습니다.</block>
-  <block id="43b0fcc067500dde9cd348cfb2a4fb95" category="paragraph">데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. 여기에서는 거버넌스 대시보드를 살펴본 후 연구를 계속할 수 있습니다. 조사 페이지에서 여러 필터 중 하나를 사용하여 데이터를 필터링하여 원하는 결과만 표시할 수 있습니다. 또한 파일 메타데이터, 파일 및 디렉토리에 대한 사용 권한을 확인하고 스토리지 시스템에서 중복 파일을 확인할 수 있습니다.</block>
   <block id="b7f6a3bebde141b211f7f03ea94b59a0" category="paragraph">BlueXP  분류 UI의 여러 영역에서 이 페이지로 이동할 수 있습니다. 여기에는 해당 페이지에 이미 선택된 필터가 포함된 거버넌스 및 규정 준수 대시보드가 포함됩니다. 추가 분석을 위해 데이터를 CSV 또는 JSON 파일로 내보내거나 다른 사용자와 공유할 수 있습니다.</block>
   <block id="503f38415f575979b1abb29789cbda50" category="list-text">BlueXP  classification 메뉴에서 * Investigation * 을 선택합니다.</block>
   <block id="262bd6cb4081a4bb1d5b7bb69c91cf84" category="list-text">데이터 조사 페이지에서 다음 중 하나를 수행합니다.</block>
@@ -3577,4 +3574,7 @@
   <block id="6082f95d47d2b6cd46c38a484f2b2e4f" category="list-text">인스턴스가 배포되고 BlueXP classification 설치되면 *구성 계속*을 선택하여 _구성_ 페이지로 이동합니다.</block>
   <block id="f08251ff59a66c2320f7263142413eac" category="list-text">클라우드 배포 마법사를 시작하려면 *배포*를 선택하세요.</block>
   <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="3047d0f529bebd6bfe17922e0ca45403" category="paragraph">데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사하세요. 여기에서는 거버넌스 대시보드를 살펴본 후 연구를 계속할 수 있습니다. 조사 페이지에서 여러 필터 중 하나를 사용하여 데이터를 필터링하여 원하는 결과만 표시할 수 있습니다. 또한 파일 메타데이터, 파일 및 디렉토리에 대한 사용 권한을 확인하고 스토리지 시스템에서 중복 파일을 확인할 수 있습니다.</block>
+  <block id="f93f654f18be890b72a6dc3853af2702" category="list-text">JSON - 보고서당 100,000개 레코드, 생성하는 데 약 5분 소요</block>
+  <block id="1685dbc95abdf5db3fea70bcbed67efa" category="list-text">CSV - 보고서당 200,000개 레코드, 생성하는 데 약 4분 소요</block>
 </blocks>

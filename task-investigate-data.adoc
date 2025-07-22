@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-investigate-data.html 
-keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies 
+keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies,json, csv, data investigation, data investigation report, download report, file metadata, file permissions, duplicate files, saved search 
 summary: 데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. 여기에서는 거버넌스 대시보드를 살펴본 후 연구를 계속할 수 있습니다. 
 ---
 = BlueXP  분류를 통해 조직에 저장된 데이터를 조사합니다
@@ -14,7 +14,7 @@ summary: 데이터 조사 페이지에서 세부 정보를 확인하여 조직�
 
 
 [role="lead"]
-데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사할 수 있습니다. 여기에서는 거버넌스 대시보드를 살펴본 후 연구를 계속할 수 있습니다. 조사 페이지에서 여러 필터 중 하나를 사용하여 데이터를 필터링하여 원하는 결과만 표시할 수 있습니다. 또한 파일 메타데이터, 파일 및 디렉토리에 대한 사용 권한을 확인하고 스토리지 시스템에서 중복 파일을 확인할 수 있습니다.
+데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사하세요. 여기에서는 거버넌스 대시보드를 살펴본 후 연구를 계속할 수 있습니다. 조사 페이지에서 여러 필터 중 하나를 사용하여 데이터를 필터링하여 원하는 결과만 표시할 수 있습니다. 또한 파일 메타데이터, 파일 및 디렉토리에 대한 사용 권한을 확인하고 스토리지 시스템에서 중복 파일을 확인할 수 있습니다.
 
 BlueXP  분류 UI의 여러 영역에서 이 페이지로 이동할 수 있습니다. 여기에는 해당 페이지에 이미 선택된 필터가 포함된 거버넌스 및 규정 준수 대시보드가 포함됩니다. 추가 분석을 위해 데이터를 CSV 또는 JSON 파일로 내보내거나 다른 사용자와 공유할 수 있습니다.
 
@@ -283,8 +283,8 @@ BlueXP 분류가 파일(비정형 데이터), 디렉토리(폴더 및 파일 공
 
 파일은 고정된 수의 행 또는 레코드가 있는 파일로 분할됩니다.
 
-* JSON - 100,000개의 레코드
-* CSV - 200,000개의 레코드
+* JSON - 보고서당 100,000개 레코드, 생성하는 데 약 5분 소요
+* CSV - 보고서당 200,000개 레코드, 생성하는 데 약 4분 소요
 +
 
 NOTE: CSV 파일 버전을 다운로드하여 이 브라우저에서 볼 수 있습니다. 이 버전은 10,000개의 레코드로 제한됩니다.
