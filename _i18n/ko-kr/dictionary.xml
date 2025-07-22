@@ -1376,7 +1376,6 @@
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">자체 지원 옵션을 사용합니다</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
@@ -3577,4 +3576,5 @@
   <block id="dcc769ed0ea98e366058422f08990e15" category="list-text">_설치_ 페이지에서 *배포 &gt; 배포*를 선택하여 "대형" 인스턴스 크기를 사용하고 클라우드 배포 마법사를 시작합니다.</block>
   <block id="6082f95d47d2b6cd46c38a484f2b2e4f" category="list-text">인스턴스가 배포되고 BlueXP classification 설치되면 *구성 계속*을 선택하여 _구성_ 페이지로 이동합니다.</block>
   <block id="f08251ff59a66c2320f7263142413eac" category="list-text">클라우드 배포 마법사를 시작하려면 *배포*를 선택하세요.</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
 </blocks>
