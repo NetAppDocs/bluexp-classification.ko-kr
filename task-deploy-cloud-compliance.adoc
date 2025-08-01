@@ -150,7 +150,15 @@ AWS, Azure 또는 GCP에서 BlueXP 분류를 배포하는지 여부에 따라 �
 |===
 --
 ====
-BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 에서 최신 BlueXP  사용 권한을 찾을 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["NetApp에서 제공하는 정책"^] 수 있습니다.
+BlueXP에 필요한 권한이 있는지 확인합니다:: BlueXP BlueXP classification 인스턴스에 대한 리소스를 배포하고 보안 그룹을 생성할 수 있는 권한이 있는지 확인하세요.
++
+--
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-gcp.html["Google Cloud 권한"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-aws.html#classification["AWS 권한"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-azure.html#classification["Azure 권한"^]
+
+
+--
 BlueXP 커넥터가 BlueXP 분류에 액세스할 수 있는지 확인합니다:: Connector와 BlueXP 분류 인스턴스 간의 연결을 확인합니다. Connector의 보안 그룹은 포트 443을 통해 BlueXP 분류 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다. 이 연결을 통해 BlueXP 분류 인스턴스를 배포할 수 있으며 규정 준수 및 거버넌스 탭에서 정보를 볼 수 있습니다. BlueXP 분류는 AWS 및 Azure의 정부 지역에서 지원됩니다.
 +
 --

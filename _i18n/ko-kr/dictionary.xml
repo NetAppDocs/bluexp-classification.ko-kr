@@ -285,8 +285,6 @@
   <block id="b7753345b24c98f72b73e9e641a456d7" category="paragraph">아웃바운드 규칙은 완전히 열립니다. BlueXP 분류 소프트웨어를 설치 및 업그레이드하고 사용 지표를 전송하려면 인터넷 액세스가 필요합니다.</block>
   <block id="def03cca1b6cd44fc1ef14e712a6c792" category="inline-link-macro">BlueXP 분류 접촉부에 대한 엔드포인트에 대해 알아보십시오</block>
   <block id="80cef547cabd3e510ea56f58ec10a12e" category="paragraph">엄격한 네트워킹 요구 사항이 있는 경우<block ref="a5023c570d3c1110eead6b3e84b02871" category="inline-link-macro-rx"></block>.</block>
-  <block id="1e81701a0a647214aeef7f6f5b09394b" category="section-title">BlueXP  분류에서 사용자 역할</block>
-  <block id="0fceee5053bfc73b3d9e3253ad7b8f0b" category="inline-link">BlueXP  IAM 역할</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.</block>
   <block id="aa2fb7dd454c7ccfa2e848f8e1ae91b3" category="doc">BlueXP 분류에 대한 질문과 대답</block>
   <block id="d114fb433bcf7d5f0818cbc8249575fd" category="section-title">BlueXP 분류 서비스</block>
@@ -965,7 +963,6 @@
   <block id="c35738c7864c7cbf5383db60bc7aceb3" category="open-title">GCP에 필요한 엔드포인입니다</block>
   <block id="396224b62257ab9727288876f0e89ef6" category="list-text">BlueXP에 필요한 권한이 있는지 확인합니다</block>
   <block id="9edd86f763fc6d21418429b5c63134af" category="inline-link">NetApp에서 제공하는 정책</block>
-  <block id="8f1a8cf43aa444c46e29ecb0349384d2" category="list-text">BlueXP에 리소스를 배포하고 BlueXP 분류 인스턴스에 대한 보안 그룹을 만들 수 있는 권한이 있는지 확인합니다. 에서 최신 BlueXP  사용 권한을 찾을<block ref="12017b43c12237092f4f947467fd170e" category="inline-link-rx"></block> 수 있습니다.</block>
   <block id="a8abb2cf85d3fffe4e0996a3ef7fdff4" category="list-text">BlueXP 커넥터가 BlueXP 분류에 액세스할 수 있는지 확인합니다</block>
   <block id="b3da390fe73676b135519aad2bb0ac8d" category="list-text">Connector와 BlueXP 분류 인스턴스 간의 연결을 확인합니다. Connector의 보안 그룹은 포트 443을 통해 BlueXP 분류 인스턴스 간에 인바운드 및 아웃바운드 트래픽을 허용해야 합니다. 이 연결을 통해 BlueXP 분류 인스턴스를 배포할 수 있으며 규정 준수 및 거버넌스 탭에서 정보를 볼 수 있습니다. BlueXP 분류는 AWS 및 Azure의 정부 지역에서 지원됩니다.</block>
   <block id="fd1958e5e74317f89c6c16bbca7d1446" category="inline-link">AWS의 Connector에 대한 규칙입니다</block>
@@ -1371,7 +1368,6 @@
   <block id="a3b67f96a0c9278d4984faae4a248582" category="inline-image-macro">실행할 보고서의 작업 환경 선택을 위한 스크린 샷</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
@@ -2427,8 +2423,6 @@
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">NSS 자격 증명 추가 * 를 선택하고 NetApp Support 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
   <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">리소스 * 페이지에 귀하의 BlueXP  조직이 지원을 위해 등록되었다는 메시지가 표시됩니다.</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트.</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 하지만 그렇다고 BlueXP  조직이 지원에 등록되어 있지 않다는 뜻은 아닙니다. 조직 내 한 명의 사용자가 이 단계를 수행하면 조직이 등록됩니다.</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">기존 사용권 및 제품 번호가 _NO_NSS인 기존 NetApp 고객인 경우 NSS 계정을 만들어 BlueXP 로그인과 연결해야 합니다.</block>
@@ -3073,7 +3067,6 @@
   <block id="9ed967b138578dbb6c57d7b336d5c696" category="paragraph">BlueXP  분류는 개인 및 중요 데이터를 식별하기 위해 선택하는 저장소(볼륨, 데이터베이스 스키마 또는 기타 사용자 데이터)의 데이터를 검사합니다. 그런 다음 BlueXP  분류를 통해 조직 데이터를 매핑하고, 각 파일을 분류하고, 데이터에서 미리 정의된 패턴을 식별합니다. 검사 결과는 개인 정보, 민감한 개인 정보, 데이터 범주 및 파일 형식의 인덱스입니다.</block>
   <block id="3779db1fb21572df76305e5ede3efad1" category="sidebar">데이터 소스 검사 개요</block>
   <block id="fc9679220132eb8e0f499680bbe8909a" category="list-text">* 이름 엔티티 인식 * : BlueXP  분류는 AI를 사용하여 문서에서 사람들의 자연 이름을 추출합니다. <block ref="8e814e02dddb19e3bb4166c15fc34470" category="inline-link-macro-rx"></block>..</block>
-  <block id="e888dadabb0f55fe5c317b3b6754087e" category="paragraph">각 사용자에게 할당된 역할은 BlueXP  내 및 BlueXP  분류 내에서 서로 다른 기능을 제공합니다. 자세한 내용은 (표준 모드에서 BlueXP 를 사용하는 경우)을<block ref="9e5b18f30859b96d93203df427b4bd3d" category="inline-link-rx"></block> 참조하십시오.</block>
   <block id="6f0ff027a4b5c5cccc90c166290d3013" category="cell">를 실행하는 능력 <block ref="c2177dc55e01ee229f523014b3bacb31" category="inline-link-macro-rx"></block></block>
   <block id="a7e6da043e68990d1e9627e5da9319c2" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="8df90f52b87f57dd64f76114b6c4e6a8" category="inline-link-macro-rx"></block>.</block>
   <block id="3d0a52f701c42fc59411425fdc2a4746" category="paragraph">Data Subject Access Request(SAR)에 대한 응답으로 시험대상자 이름을 검색할 때 일본어 이름을 입력할 수 있습니다. 결과 정보가 포함된 를 생성할 수<block ref="413db830e9f14a03bda795e0ca85886f" category="inline-link-rx"></block> 있습니다. 에 일본어 이름을 입력하여 주체 이름이 포함된 파일을 식별할 수도<block ref="dc85c6bd448621c7d3e7987af7ac2483" category="inline-link-rx"></block> 있습니다.</block>
@@ -3577,4 +3570,14 @@
   <block id="3047d0f529bebd6bfe17922e0ca45403" category="paragraph">데이터 조사 페이지에서 세부 정보를 확인하여 조직의 데이터를 조사하세요. 여기에서는 거버넌스 대시보드를 살펴본 후 연구를 계속할 수 있습니다. 조사 페이지에서 여러 필터 중 하나를 사용하여 데이터를 필터링하여 원하는 결과만 표시할 수 있습니다. 또한 파일 메타데이터, 파일 및 디렉토리에 대한 사용 권한을 확인하고 스토리지 시스템에서 중복 파일을 확인할 수 있습니다.</block>
   <block id="f93f654f18be890b72a6dc3853af2702" category="list-text">JSON - 보고서당 100,000개 레코드, 생성하는 데 약 5분 소요</block>
   <block id="1685dbc95abdf5db3fea70bcbed67efa" category="list-text">CSV - 보고서당 200,000개 레코드, 생성하는 데 약 4분 소요</block>
+  <block id="b1be31d5cf6b0567551065ae3533caf1" category="list-text">BlueXP BlueXP classification 인스턴스에 대한 리소스를 배포하고 보안 그룹을 생성할 수 있는 권한이 있는지 확인하세요.</block>
+  <block id="d3846482b7a5f3467b05518965422219" category="inline-link-macro">Google Cloud 권한</block>
+  <block id="c46f60718e1e68e31a7a27b785a25a23" category="list-text"><block ref="c46f60718e1e68e31a7a27b785a25a23" category="inline-link-macro-rx"></block></block>
+  <block id="d2c0c7feb18d0e89bab9d23b6ec4c042" category="inline-link-macro">AWS 권한</block>
+  <block id="b08bb744ad1ab6a2ee30e20e034859bc" category="list-text"><block ref="b08bb744ad1ab6a2ee30e20e034859bc" category="inline-link-macro-rx"></block></block>
+  <block id="bf689424a4d3a62d9c0d40a07107c3d2" category="inline-link-macro">Azure 권한</block>
+  <block id="ff27171010c4f698d0174fb8b8ce6b5d" category="list-text"><block ref="ff27171010c4f698d0174fb8b8ce6b5d" category="inline-link-macro-rx"></block></block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp BlueXP 와 클라우드 서비스에 대한 다양한 지원을 제공합니다. 지식 베이스(KB) 문서 및 커뮤니티 포럼 등 다양한 무료 셀프 지원 옵션을 연중무휴 24시간 이용하실 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">계정 일련번호, 녹색 확인란, 지원 등록이라는 텍스트가 표시된 스크린샷입니다.</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

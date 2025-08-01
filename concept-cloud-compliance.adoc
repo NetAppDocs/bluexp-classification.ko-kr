@@ -212,9 +212,3 @@ SaaS 모드에서 BlueXP 를 사용하면 HTTPS를 통해 BlueXP 에 연결되
 아웃바운드 규칙은 완전히 열립니다. BlueXP 분류 소프트웨어를 설치 및 업그레이드하고 사용 지표를 전송하려면 인터넷 액세스가 필요합니다.
 
 엄격한 네트워킹 요구 사항이 있는 경우link:task-deploy-cloud-compliance.html#review-prerequisites["BlueXP 분류 접촉부에 대한 엔드포인트에 대해 알아보십시오"^].
-
-
-
-== BlueXP  분류에서 사용자 역할
-
-각 사용자에게 할당된 역할은 BlueXP  내 및 BlueXP  분류 내에서 서로 다른 기능을 제공합니다. 자세한 내용은 (표준 모드에서 BlueXP 를 사용하는 경우)을 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  IAM 역할"] 참조하십시오.
