@@ -8,7 +8,7 @@ summary: BlueXP 의 서비스에 액세스하여 BlueXP classification 시작하
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/get-started/
+:imagesdir: ./media/
 
 
 [role="lead"]

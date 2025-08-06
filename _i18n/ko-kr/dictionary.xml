@@ -1781,7 +1781,6 @@
   <block id="4582ba30b2499066be90a4bcea5ec4b6" category="paragraph">BlueXP 분류에서 스캔 중인 소스 파일을 모든 NFS 공유로 복사할 수 있습니다. NFS 공유를 BlueXP  분류와 통합할 필요는 없습니다. 선택한 모든 파일이 형식으로 복사되는 NFS 공유의 이름만 알아야<block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block> 합니다.</block>
   <block id="6ca416dc347d5360ab86e69583f4b2b0" category="admonition">데이터베이스에 있는 파일은 복사할 수 없습니다.</block>
   <block id="ab24d4e851f3db949095d520c7a20014" category="inline-link-macro">규정 준수 정보에 대한 사용자 액세스에 대해 알아봅니다</block>
-  <block id="626f686c5ceb0252f691c5ea070f437b" category="list-text">파일을 복사할 수 있는 권한이 있어야 합니다. <block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>..</block>
   <block id="1394fd88d929360313e8c80ec722b081" category="list-text">파일을 복사하려면 대상 NFS 공유가 BlueXP 분류 인스턴스에서 액세스할 수 있어야 합니다.</block>
   <block id="11f3580c4a3b779649df6d1a5c193fdf" category="list-text">한 번에 1에서 100,000개 파일 간에 복사할 수 있습니다.</block>
   <block id="07fc1f9bea8dc1060003a2fea5aa3598" category="list-text">데이터 조사 결과 창에서 복사할 파일을 선택하고 * 복사 * 를 클릭합니다.</block>
@@ -1827,7 +1826,6 @@
   <block id="ed404bde5dfd762dd0759dcedd71cdd7" category="paragraph">BlueXP  분류가 스캔하는 소스 파일을 지원되는 모든 비정형 데이터 소스에서 특정 대상 위치의 디렉토리로 복사할 수 <block ref="bd72f78a08f0a83b7e3fbbae64df2fed" category="inline-link-rx"></block>있습니다. 초기 복제 후에는 구성한 일정에 따라 파일에서 변경된 모든 데이터가 동기화됩니다.</block>
   <block id="e4186dd0c6123ee83f2ac799b88930b1" category="paragraph">이 기능은 소스 시스템 간에 데이터를 마이그레이션하는 경우에 유용합니다. 이 작업은 이 기능을 사용하여<block ref="d9f5c10edef42cff18580599262fd784" category="inline-link-rx"></block> 소스에서 타겟으로 데이터를 복사 및 동기화합니다.</block>
   <block id="59a46e0ea7e3441d068ab93e14650d6e" category="admonition">데이터베이스, OneDrive 계정 또는 SharePoint 계정에 있는 파일은 복사 및 동기화할 수 없습니다.</block>
-  <block id="2e23ab8075b914f073724aeeab7a7221" category="list-text">파일을 복사하고 동기화할 수 있는 권한이 있어야 합니다. <block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>..</block>
   <block id="2e5ce55dec2ff1c76b2eb8662089db85" category="list-text">선택한 모든 파일은 동일한 소스 저장소(ONTAP 볼륨, S3 버킷, NFS 또는 CIFS 공유 등)에서 가져온 것이어야 합니다.</block>
   <block id="5698905e8d060e455d19636040ff425c" category="inline-link">빠른 시작 설명</block>
   <block id="9b9f495105111a0fa74c1500ac1b40e5" category="list-text">BlueXP 복사 및 동기화 서비스를 활성화하고 소스 시스템과 대상 시스템 간에 파일을 전송하는 데 사용할 수 있는 최소 하나의 데이터 브로커를 구성해야 합니다. 로 시작하는 BlueXP  복사본 및 동기화 요구 사항을<block ref="33fe85ab0bf4bd63d137fd0932246743" category="inline-link-rx"></block> 검토합니다.</block>
@@ -1852,7 +1850,6 @@
   <block id="c82ffa722bb30ecf26aa93c8c1f6491b" category="paragraph">필요한 경우 이동 파일 위치에 이동 경로 파일을 그대로 둘 수 있습니다. Breadcrumb 파일을 사용하면 파일이 원래 위치에서 이동된 이유를 쉽게 이해할 수 있습니다. 이동된 각 파일에 대해 시스템은 이름이 인 소스 위치에 Breadcrumb 파일을<block ref="e5b81a76aedb2ddb1da7aba12de3e20b" prefix=" " category="inline-code"></block> 생성합니다. Breadcrumb 파일에 추가될 대화 상자에서 텍스트를 추가하여 파일이 이동된 위치와 파일을 이동한 사용자를 나타낼 수 있습니다.</block>
   <block id="125161c62eedd013601db45d9716edf6" category="paragraph">파일을 이동할 때 소스 파일의 하위 디렉토리 구조가 대상 공유에서 다시 생성되므로 파일이 이동된 위치를 쉽게 파악할 수 있습니다. 대상 위치에 같은 이름의 파일이 있으면 파일이 이동하지 않습니다.</block>
   <block id="4ae80798b0ef194ea50cfe00aa1b363c" category="admonition">데이터베이스에 있는 파일은 이동할 수 없습니다.</block>
-  <block id="7253808b56101588fe6b9f8e3310f2de" category="list-text">파일을 이동할 수 있는 권한이 있어야 합니다. <block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>..</block>
   <block id="3aa95927284ca0cd4e7737dd41a53153" category="list-text">소스 파일은 온-프레미스 ONTAP, Cloud Volumes ONTAP, Azure NetApp Files, 파일 공유 및 SharePoint Online 데이터 원본에 위치할 수 있습니다.</block>
   <block id="49bb7289b8abc33c271f634fc8149b1e" category="list-text">한 번에 최대 1500만 개의 파일을 이동할 수 있습니다.</block>
   <block id="71015deb6ac3269a57685acb827c23be" category="list-text">50MB 이하의 파일만 이동됩니다.</block>
@@ -1877,7 +1874,6 @@
   <block id="2a500e3681b7e207d0d6c159ff2008ab" category="list-text">CIFS 데이터의 경우 - CIFS 자격 증명에 쓰기 권한이 있어야 합니다.</block>
   <block id="e9d85b8e3ea5257d3468eb6f787a1fcd" category="list-text">S3 데이터의 경우 - IAM 역할에 다음 권한이 포함되어야 합니다<block ref="ec68e11afcd3e390ebf5080e8af5b735" prefix=" " category="inline-code"></block>.</block>
   <block id="d771d7d12660fbeb94c2343ab606b51d" category="section-title">소스 파일을 수동으로 삭제합니다</block>
-  <block id="b7f17bad276a0a849229c1ccd0d02ea8" category="list-text">파일을 삭제하려면 권한이 있어야 합니다. <block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>..</block>
   <block id="982e0ea8ac129cb8e1614b1eb919a238" category="list-text">한 번에 최대 100,000개의 파일을 삭제할 수 있습니다.</block>
   <block id="d14aadac54b4954b4a906556c2e19bd5" category="list-text">데이터 조사 결과 창에서 삭제할 파일을 선택합니다.</block>
   <block id="47a3f3156d581e80ad2e6dc38b57f4fd" category="inline-image-macro">데이터 조사 페이지에서 삭제할 파일을 선택하는 방법과 삭제 단추를 선택하는 방법을 보여 주는 스크린샷</block>
@@ -3580,4 +3576,8 @@
   <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp BlueXP 와 클라우드 서비스에 대한 다양한 지원을 제공합니다. 지식 베이스(KB) 문서 및 커뮤니티 포럼 등 다양한 무료 셀프 지원 옵션을 연중무휴 24시간 이용하실 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
   <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">계정 일련번호, 녹색 확인란, 지원 등록이라는 텍스트가 표시된 스크린샷입니다.</block>
   <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="030c30fe65e7389b97e25493d1050cb5" category="list-text">파일을 복사하려면 권한이 있어야 합니다. <block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> .</block>
+  <block id="cabac526d4cf33ef9b02b0693cd1699c" category="list-text">파일을 복사하고 동기화하려면 권한이 있어야 합니다. <block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> .</block>
+  <block id="3e3cb2a1aa38db84e1a7fbd4e46dd21b" category="list-text">파일을 이동하려면 권한이 있어야 합니다. <block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> .</block>
+  <block id="25dc0f9bf48b7d09b459240afbf36637" category="list-text">파일을 삭제하려면 권한이 있어야 합니다. <block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> .</block>
 </blocks>
