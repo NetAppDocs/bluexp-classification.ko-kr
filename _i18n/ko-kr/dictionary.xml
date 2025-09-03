@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
-  <block id="264b044bf416a5337d28443921b46791" category="list-text">BlueXP 분류는 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.</block>
   <block id="914179b3d4545ce8b8e8ba122c53f4d9" category="list-text">사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 이러한 시스템 크기 중에서 선택할 수 있습니다.</block>
   <block id="8c270421a057347baf727ea386f58d8f" category="cell">시스템 크기</block>
   <block id="2b55387dd066c5bac646ac61543d152d" category="cell">CPU</block>
@@ -13,13 +12,9 @@
   <block id="c1b7308083354b8b60760460bcce3ccc" category="cell">* 대형 *</block>
   <block id="dc8179e6e72156a5578bf35cf9574540" category="cell">16개의 CPU</block>
   <block id="5a1fdf37d5cd85436f7504641d78b95f" category="cell">64GB RAM</block>
-  <block id="d5c832490c0ab9dcb105acd9ee7b4709" category="list-text">BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.</block>
   <block id="e6414c92b8fa46238f4135e4d3e45674" category="inline-link-macro">추가 AWS 인스턴스 유형을 참조하십시오</block>
-  <block id="b5f08a168a732355a95d9acdc430dcaf" category="list-text">* Amazon Elastic Compute Cloud(Amazon EC2) 인스턴스 유형 *: "m6i.4xlarge"를 권장합니다. <block ref="2fad631c28a07a1344ecdbaabb5084bf" category="inline-link-macro-rx"></block>..</block>
   <block id="130a6b20e1175876fb22c9520aa18c8c" category="inline-link-macro">추가 Azure 인스턴스 유형을 참조하십시오</block>
-  <block id="d713d26696157989a3e54d75e186ddb9" category="list-text">* Azure VM size *: "Standard_D16s_v3"을 권장합니다. <block ref="600a0a16acacbb97202eae2cd680ce79" category="inline-link-macro-rx"></block>..</block>
   <block id="02a3b057fd8df2afe74574d8ba4929b5" category="inline-link-macro">추가 GCP 인스턴스 유형을 참조하십시오</block>
-  <block id="0b0199602ca16ca93e8ce086565ea99e" category="list-text">* GCP 시스템 유형 *: "n2-standard-16"을 권장합니다. <block ref="0560993eb8cc456f0c5f18a57a7d0f71" category="inline-link-macro-rx"></block>..</block>
   <block id="114b40cee02180a916d6e0a652f1300d" category="list-text">UNIX 폴더 권한 *: 다음과 같은 최소 UNIX 권한이 필요합니다.</block>
   <block id="b0f2b97dc5d2b76b26e040408bb1d8af" category="cell">폴더</block>
   <block id="9dc48a158dad20b2148d68f6a5863b5e" category="cell">최소 권한</block>
@@ -43,7 +38,6 @@
   <block id="42b04f3730744d602d0c4b812384dce9" category="list-text">Docker Engine 버전 19.3.1 이상<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block>..</block>
   <block id="1e61042bc6437e79f5a1cc09c86acd1a" category="list-text">Podman 버전 4 이상 Podman을 <block ref="9305f04686d4e3dadce4d1e9e77d9d71" prefix="(" category="inline-code"></block>설치하려면)를 입력합니다.</block>
   <block id="1d7787fe4a7264402153a51d8513414f" category="list-text">Python 버전 3.6 이상.<block ref="f67fc9f0c7d8aa701884bad21356a242" category="inline-link-rx"></block>..</block>
-  <block id="dfd993077bb353282906702dc3143ec7" category="list-text">* NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP Connector 시스템 간에 시간을 동기화해야 합니다.</block>
   <block id="2808185c0a48de3cd5dcc0d92f453531" category="doc">버전 1.35</block>
   <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="paragraph-title">StorageGRID 데이터를 스캔합니다</block>
   <block id="60c09f1a3afdb367fc787929a52bce2c" category="paragraph">자세한 내용은 을 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>참조하십시오.</block>
@@ -66,7 +60,6 @@
   <block id="f1a9c2f106d86fe27271e4f8f0c0bd59" category="paragraph">이 릴리즈에서는 이전에 지원된 버전 외에 NFS v4.1에 대한 지원도 제공합니다.</block>
   <block id="5ae300808387123005a76abbd5a99f46" category="doc">버전 1.38</block>
   <block id="074f06822cc9864b1be34066c52ec21d" category="paragraph">이 BlueXP  분류 릴리스에는 일반적인 개선 사항 및 버그 수정이 포함되어 있습니다.</block>
-  <block id="af8d3a18d6425ec49a99c09691466f39" category="summary">웹 UI를 통해 사용할 수 있는 BlueXP 분류 기능은 Swagger API를 통해서도 사용할 수 있습니다.</block>
   <block id="3e70aaa0489a8fa1d39b16943a3f0844" category="doc">BlueXP 분류 API</block>
   <block id="8b2aa55ee7b70ec31ec11bb4537186f7" category="paragraph">BlueXP 분류 안에는 UI의 탭에 해당하는 4가지 범주가 정의되어 있습니다.</block>
   <block id="5cbac16d406ddfc92080f39efa7437d8" category="list-text">조사</block>
@@ -86,9 +79,7 @@
   <block id="8d4462bd75d514bcb1e0545bfb9272d9" category="list-text">작업을 보고 취소합니다</block>
   <block id="a3c128ab8674fa4b5e836c2d45315f6c" category="list-text">디렉토리를 다시 스캔합니다</block>
   <block id="5e20646580da584d76435da00d6face4" category="list-text">데이터를 내보냅니다</block>
-  <block id="a39ca37fb6314be500ea6c4e6028aad1" category="paragraph">API는 안전하고 UI와 동일한 인증 방법을 사용합니다. 인증에 대한 자세한 내용은 다음을 참조하십시오.<block ref="86100a8a51cdb9259081132b7d91c690" category="inline-link-rx"></block></block>
   <block id="6bb2320a7f7d5e941653039f26a38ad9" category="section-title">Swagger API 참조에 액세스</block>
-  <block id="af16b996606b35cb0f77fe07ba2e556a" category="paragraph">Swagger로 이동하려면 BlueXP 분류 인스턴스의 IP 주소가 필요합니다. 클라우드 배포의 경우 공용 IP 주소를 사용합니다. 그런 다음 이 끝점에 도달해야 합니다.</block>
   <block id="49ef162b6621f970581074315940ec6c" category="paragraph">\https://&lt;classification_ip&gt;/documentation 을 참조하십시오</block>
   <block id="b62dbbecd6533f9627427d34160e7d75" category="section-title">API 사용 예</block>
   <block id="b7fd2e4068e2c6cc68317c7892c5290c" category="paragraph">다음 예제는 파일을 복사하기 위한 API 호출을 보여 줍니다.</block>
@@ -2805,10 +2796,8 @@
   <block id="74110511ebf4f8eea597c953392110f9" category="list-text">/opt에 1TiB SSD 또는 100GiB 사용 가능</block>
   <block id="4056804c808441484593a6cd5998f06e" category="list-text">/var/lib/Docker에서 895GiB 사용 가능</block>
   <block id="f9ddd233a713e3719c7d8046ab62cc1e" category="list-text">/tmp에 5GiB입니다</block>
-  <block id="79d1a6d2ec5f279b488952c279f36449" category="list-text">* Podman의 경우 5GB on/tmp *</block>
   <block id="0e1cb4b06a070e11230e1c8de75a1db8" category="list-text">* Podman의 경우 /var/tmp에 30GB *</block>
   <block id="16b9e4a3843d82aedd78ddf5568f32cc" category="list-text">/opt에서 500GiB SSD를 사용하거나 100GiB 사용 가능</block>
-  <block id="7d5ad3bf21c571c611eed766c4a188c1" category="list-text">395GiB는 /var/lib/Docker, Podman/var/lib/컨테이너 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다</block>
   <block id="155acacab86f1c55608330de83b4e05f" category="paragraph">할 수도 <block ref="1a9c56cdde8c9a93a744fbe95f12b64a" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="f9cb03d21a26b2f64053d2e527396790" category="paragraph">온-프레미스 설치는 온-프레미스 ONTAP 시스템에도 있는 BlueXP  분류 인스턴스를 사용하여 온-프레미스 시스템을 스캔하려는 경우 좋은 옵션일 수 있지만 이는 요구 사항이 아닙니다. 선택한 설치 방법에 관계없이 소프트웨어가 정확히 같은 방식으로 작동합니다.</block>
   <block id="ee8870d1e0595ddae329cf8ef1ee89fa" category="paragraph">조사 페이지의 내용을 필터링하여 원하는 결과만 표시할 수 있습니다.</block>
@@ -3459,7 +3448,6 @@
   <block id="16d42e00c386e70a3a7df4333dbd3a1d" category="paragraph">인스턴스 유형에 대한 다음 사양을 검토하세요.</block>
   <block id="b6312fd76a50f60b989ce722e432d447" category="paragraph">볼륨 수준이나 데이터베이스 스키마 수준에서 검사를 활성화하거나 비활성화할 수 있습니다.</block>
   <block id="5ef007aec2cc80b49f082c5ae4dba4dc" category="list-text">** 매핑 전용 스캔** 데이터에 대한 높은 수준의 개요만 제공하며 선택한 데이터 소스에서 수행됩니다. 매핑 전용 스캔은 파일에 액세스하여 내부 데이터를 확인하지 않기 때문에 매핑 및 분류 스캔보다 시간이 덜 걸립니다. 처음에는 이 작업을 수행하여 조사 영역을 식별한 다음 해당 영역에 대해 지도 및 분류 스캔을 수행할 수 있습니다.</block>
-  <block id="71653fb5163aa99d8613874ef0398606" category="paragraph">+ BlueXP classification 검사에서 파일의 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 CIFS의 쓰기 속성 권한 또는 NFS의 쓰기 권한이 있는 것이 좋습니다. 가능하다면 Active Directory 사용자를 모든 파일에 대한 권한을 가진 조직의 상위 그룹에 포함하도록 구성하십시오.</block>
   <block id="d0169e5c24cd4c5e05dcb7edb4ca10d7" category="doc">버전 1.45</block>
   <block id="8321b9867214f5caa9d5a37197549cfb" category="paragraph">이 BlueXP classification 릴리스에는 리소스 활용도를 최적화하는 코드 변경 사항이 포함되어 있습니다.</block>
   <block id="8f993d1847870bf5334f9e8a709029c8" category="paragraph-title">스캔을 위해 파일 공유를 추가하는 향상된 워크플로</block>
@@ -3467,7 +3455,6 @@
   <block id="628bc6ea752b2d2bd10bc4f22b8cfcca" category="inline-xref-macro">파일 공유를 스캔합니다</block>
   <block id="2cc1f0459a8aa18da26c0c17c08edd37" category="paragraph-title">향상된 파일 소유자 정보</block>
   <block id="c6d521e93c659f52fc0150619d81cd0e" category="paragraph">파일 소유자에 대한 자세한 정보(계정 이름, 이메일 주소, SAM 계정 이름)를 보거나 해당 사용자가 소유한 항목을 볼 수도 있습니다.</block>
-  <block id="8d1256ea20b6f3627b46e3916aa6a135" category="paragraph">BlueXP classification 검사에서 파일의 "마지막 액세스 시간"이 변경되지 않도록 하려면 사용자에게 CIFS의 쓰기 속성 권한 또는 NFS의 쓰기 권한이 있는 것이 좋습니다. 가능하다면 Active Directory 사용자를 모든 파일에 대한 권한을 가진 조직의 상위 그룹에 포함하도록 구성하십시오.</block>
   <block id="06d20a71e8e976cfefed98d4f05b2dc1" category="list-text">결과를 더욱 구체화하려면 필터 창에서 필터 중 하나를 선택하세요.</block>
   <block id="07b57c9c0ed87759bcd88b15d5738118" category="paragraph">정보의 가용성은 데이터 소스에 따라 달라집니다. 예를 들어, 데이터베이스 파일의 볼륨 이름과 권한은 공유되지 않습니다.</block>
   <block id="d353221e429d4e01e167115856394ba7" category="paragraph">스토리지 시스템에 중복 파일이 저장되는지 확인할 수 있습니다. 이 기능은 저장 공간을 절약할 수 있는 영역을 확인하고자 할 때 유용합니다. 또한 특정 권한이나 민감한 정보가 있는 특정 파일이 스토리지 시스템에 불필요하게 중복되지 않도록 하는 것도 중요합니다.</block>
@@ -3530,9 +3517,7 @@
   <block id="4c59149345d32f10d4c1edb221d77028" category="paragraph">이제 조사 탭에서 캡처된 파일의 파일 소유자에 대한 자세한 정보를 볼 수 있습니다. 조사 탭에서 파일의 메타데이터를 볼 때 파일 소유자를 찾은 다음 **세부 정보 보기**를 선택하면 사용자 이름, 이메일, SAM 계정 이름을 확인할 수 있습니다. 이 사용자가 소유한 다른 항목도 볼 수 있습니다. 이 기능은 Active Directory가 설치된 작업 환경에서만 사용할 수 있습니다.</block>
   <block id="476669d16044da6b8fccc04e3a65c887" category="paragraph">자세한 내용은 을 <block ref="202490d1a2feeed942d0b33752539ffd" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="ba0582c1a4216adac557c97d2f92f869" category="inline-link-macro">다른 커넥터를 설치하세요</block>
-  <block id="bb421402dbabe6eec32567511e69bc2a" category="inline-link-macro">다른 분류 인스턴스 배포</block>
   <block id="7473cbb9b768b471bd45e7579b544a3a" category="inline-link-macro">여러 개의 커넥터로 작업합니다</block>
-  <block id="c430d0ad1a785912ff6e7f2d659d752f" category="paragraph">BlueXP classification 스캔할 수 있는 데이터 양에 제한을 두지 않습니다. 각 커넥터는 500TiB의 데이터 스캔 및 표시를 지원합니다. 500TiB 이상의 데이터를 스캔하려면 <block ref="a34b864875c7f2ebc4a815c94a375e43" category="inline-link-macro-rx"></block> 그 다음에 <block ref="a51ca3e7fcece55a05339015489757d6" category="inline-link-macro-rx"></block> . + BlueXP UI는 단일 커넥터의 데이터를 표시합니다. 여러 커넥터의 데이터를 보는 방법에 대한 팁은 다음을 참조하세요. <block ref="5255e271b4118330c3aac09d32603a12" category="inline-link-macro-rx"></block> .</block>
   <block id="551fbc3b7472150a5293373b773972d7" category="cell">500TiB로 제한됨*</block>
   <block id="acdf9d63036f9706b8165f6f6a7117da" category="paragraph">{별표} include::_include/connector-limit.adoc[]</block>
   <block id="e8c9a8c8c457fc72bf3b116575089845" category="paragraph">BlueXP classification 이제 커넥터당 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 의 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.</block>
@@ -3589,4 +3574,20 @@
   <block id="e5d2f68147d287044a7fffa2d0926eae" category="paragraph-title">RHEL 9.6 지원</block>
   <block id="f1513d7b9b8ef1acb75bb450ddd12a6c" category="paragraph">이 릴리스에서는 다크 사이트 배포를 포함하여 BlueXP classification 의 수동 온프레미스 설치를 위한 Red Hat Enterprise Linux v9.6에 대한 지원이 추가되었습니다.</block>
   <block id="b9d888f58b09c4007db0247286e392b5" category="section-title">2025년 8월 11일</block>
+  <block id="88490f51308acd9c9a526511feb1b6fb" category="paragraph">+ BlueXP classification 스캔을 통해 파일의 "마지막 액세스 시간"이 변경되지 않았는지 확인하려면 사용자에게 CIFS에서 쓰기 속성 권한이나 NFS에서 쓰기 권한이 있는 것이 좋습니다.  가능하다면 Active Directory 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹의 일부로 구성하세요.</block>
+  <block id="06c3d407c31ff0f40292519ad2fbf086" category="inline-link-macro">BlueXP classification 의 또 다른 인스턴스를 배포합니다.</block>
+  <block id="5872875d7a05b489de9eca6b794aeb0d" category="paragraph">BlueXP classification 스캔할 수 있는 데이터 양에 제한을 두지 않습니다.  각 커넥터는 500TiB의 데이터 스캐닝과 표시를 지원합니다.  500TiB 이상의 데이터를 스캔하려면<block ref="a34b864875c7f2ebc4a815c94a375e43" category="inline-link-macro-rx"></block> 그 다음에<block ref="d93d7bddd35b0564aa636ce280ef8dbf" category="inline-link-macro-rx"></block> .  BlueXP UI는 단일 커넥터의 데이터를 표시합니다.  여러 커넥터에서 데이터를 보는 방법에 대한 팁은 다음을 참조하세요.<block ref="5255e271b4118330c3aac09d32603a12" category="inline-link-macro-rx"></block> .</block>
+  <block id="d55dde897c01cfd972009c9f03ae26e7" category="list-text">BlueXP classification 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다.  호스트는 전담 호스트여야 합니다.</block>
+  <block id="fbb27e2a29f9e80c540c4bb1e45f91c9" category="list-text">/var/lib/docker 또는 Podman /var/lib/containers에서 400GiB 사용 가능</block>
+  <block id="925c9039268a157dc5413b766386d330" category="list-text">BlueXP classification 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 사용하세요.</block>
+  <block id="10657c54dd5c19e73ee0f8e2223b7a46" category="list-text">*Amazon Elastic Compute Cloud(Amazon EC2) 인스턴스 유형*: "m6i.4xlarge". <block ref="2fad631c28a07a1344ecdbaabb5084bf" category="inline-link-macro-rx"></block> .</block>
+  <block id="dcd6c94de63a44c707e6410206f93f30" category="list-text">*Azure VM 크기*: "Standard_D16s_v3". <block ref="600a0a16acacbb97202eae2cd680ce79" category="inline-link-macro-rx"></block> .</block>
+  <block id="e7d3c98d4730560139776bd99350f7c9" category="list-text">*GCP 머신 유형*: "n2-standard-16". <block ref="0560993eb8cc456f0c5f18a57a7d0f71" category="inline-link-macro-rx"></block> .</block>
+  <block id="4729c99a5b7462bb98c9ab0f4f598a51" category="list-text">*NTP 고려 사항*: NetApp BlueXP classification 구성하여 NTP(네트워크 시간 프로토콜) 서비스를 사용할 것을 권장합니다.  BlueXP classification 시스템과 Connector 간의 시간은 동기화되어야 합니다.</block>
+  <block id="6446da06477af010feea65d51c284e8c" category="summary">웹 UI를 통해 제공되는 BlueXP classification 기능은 REST API를 통해서도 사용할 수 있습니다.</block>
+  <block id="dc2db3ddd305206c3c8fd34179c0e3e0" category="paragraph">웹 UI를 통해 제공되는 BlueXP classification 기능은 REST API를 통해서도 사용할 수 있습니다.</block>
+  <block id="567ead09d16d940fef8acf1a3c2c193f" category="inline-link-macro">REST API 설명서</block>
+  <block id="d0e3c0b1617fba7e035a47001abbc7c1" category="paragraph">API는 안전하며 UI와 동일한 인증 방법을 사용합니다.  인증에 대한 정보는 다음에서 찾을 수 있습니다.<block ref="bbdacd4f187c413013ce0d7ecba5c48f" category="inline-link-macro-rx"></block> .</block>
+  <block id="078dc57072fdb65adb61b246152fd26d" category="paragraph">API 참조에 액세스하려면 BlueXP classification 인스턴스의 IP 주소가 필요합니다.  클라우드에 배포한 경우 공개 ID 주소를 사용하세요. 예를 들어:</block>
+  <block id="66658abcedb95d760806823bcf735240" category="paragraph">BlueXP classification 스캔을 통해 파일의 "마지막 액세스 시간"이 변경되지 않았는지 확인하려면 사용자에게 CIFS에서 쓰기 속성 권한이나 NFS에서 쓰기 권한이 있는 것이 좋습니다.  가능하다면 Active Directory 사용자를 모든 파일에 대한 권한이 있는 조직의 상위 그룹의 일부로 구성하세요.</block>
 </blocks>

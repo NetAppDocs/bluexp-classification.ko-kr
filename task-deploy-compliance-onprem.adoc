@@ -89,7 +89,7 @@ BlueXP 분류 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 
 
 BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 지속적으로 스캔하려면 BlueXP 분류 장비가 켜져 있어야 합니다.
 
-* BlueXP 분류는 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.
+* BlueXP classification 다른 애플리케이션과 공유되는 호스트에서는 지원되지 않습니다.  호스트는 전담 호스트여야 합니다.
 * 사내에 호스트 시스템을 구축할 때 BlueXP 분류 검사를 수행하려는 데이터 세트의 크기에 따라 이러한 시스템 크기 중에서 선택할 수 있습니다.
 +
 [cols="17,17,27,31"]
@@ -101,7 +101,6 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 ** /opt에 1TiB SSD 또는 100GiB 사용 가능
 ** /var/lib/Docker에서 895GiB 사용 가능
 ** /tmp에 5GiB입니다
-** * Podman의 경우 5GB on/tmp *
 ** * Podman의 경우 /var/tmp에 30GB *
 
 
@@ -109,18 +108,17 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 
 | * 대형 * | 16개의 CPU | 64GB RAM  a| 
 ** /opt에서 500GiB SSD를 사용하거나 100GiB 사용 가능
-** 395GiB는 /var/lib/Docker, Podman/var/lib/컨테이너 또는 Podman/var/lib/컨테이너에서 사용할 수 있습니다
+** /var/lib/docker 또는 Podman /var/lib/containers에서 400GiB 사용 가능
 ** /tmp에 5GiB입니다
-** * Podman의 경우 5GB on/tmp *
 ** * Podman의 경우 /var/tmp에 30GB *
 
 
 |===
-* BlueXP 분류 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때는 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 권장합니다.
+* BlueXP classification 설치를 위해 클라우드에 컴퓨팅 인스턴스를 배포할 때 위의 "대규모" 시스템 요구 사항을 충족하는 시스템을 사용하세요.
 +
-** * Amazon Elastic Compute Cloud(Amazon EC2) 인스턴스 유형 *: "m6i.4xlarge"를 권장합니다. link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^]..
-** * Azure VM size *: "Standard_D16s_v3"을 권장합니다. link:reference-instance-types.html#azure-instance-types["추가 Azure 인스턴스 유형을 참조하십시오"^]..
-** * GCP 시스템 유형 *: "n2-standard-16"을 권장합니다. link:reference-instance-types.html#gcp-instance-types["추가 GCP 인스턴스 유형을 참조하십시오"^]..
+** *Amazon Elastic Compute Cloud(Amazon EC2) 인스턴스 유형*: "m6i.4xlarge". link:reference-instance-types.html#aws-instance-types["추가 AWS 인스턴스 유형을 참조하십시오"^] .
+** *Azure VM 크기*: "Standard_D16s_v3". link:reference-instance-types.html#azure-instance-types["추가 Azure 인스턴스 유형을 참조하십시오"^] .
+** *GCP 머신 유형*: "n2-standard-16". link:reference-instance-types.html#gcp-instance-types["추가 GCP 인스턴스 유형을 참조하십시오"^] .
 
 
 * UNIX 폴더 권한 *: 다음과 같은 최소 UNIX 권한이 필요합니다.
@@ -173,7 +171,7 @@ BlueXP 분류를 계속 실행할 수 있는지 확인합니다. 데이터를 �
 
 * Python 버전 3.6 이상. https://www.python.org/downloads/["설치 지침을 봅니다"^]..
 +
-** * NTP 고려 사항 *: NetApp에서는 NTP(네트워크 시간 프로토콜) 서비스를 사용하도록 BlueXP 분류 시스템을 구성할 것을 권장합니다. BlueXP 분류 시스템과 BlueXP Connector 시스템 간에 시간을 동기화해야 합니다.
+** *NTP 고려 사항*: NetApp BlueXP classification 구성하여 NTP(네트워크 시간 프로토콜) 서비스를 사용할 것을 권장합니다.  BlueXP classification 시스템과 Connector 간의 시간은 동기화되어야 합니다.
 
 
 
